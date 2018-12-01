@@ -1,0 +1,27 @@
+body
+{
+    text-align:center; /*TODO:HACK: quick fix for centering until we decide on a page layout*/
+}
+#charBodyDiv
+{
+    display:inline-block; /*TODO:HACK: quick fix for centering until we decide on a page layout*/
+}
+#charBodyTable
+{
+    width:500px;
+    height1000px;
+    /*TODO: get rid of the standard BS for tables*/
+}
+.character-slot
+{
+    width:120px;
+    /*height:100px;*/
+}
+.character-slot-link
+{
+    display:block;
+    width:75px;
+    height:75px;
+    border:1px solid grey;
+    border-radius:5px;
+}

@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-//TODO: some annotation like "@WebServlet("MyServlet")?
+//TODO: class doesn't currently do anything, just here for later use
 public class ServletController extends HttpServlet
 {
     public ServletController() {
