@@ -1,0 +1,7 @@
+body:before
+{
+    content:"Test CSS included successfully!";
+    background-color:rebeccapurple;
+    padding:5px;
+    width:100%;
+}
