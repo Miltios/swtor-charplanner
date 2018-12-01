@@ -2,7 +2,6 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/swtor/styles/global.css">
     <link rel="stylesheet" type="text/css" href="/swtor/styles/gearPlanner.css">
-    <script type"text/javascript" src="/swtor/scripts/test.js"></script>
 </head>
 <body>
     <div id="charBodyDiv">
@@ -97,4 +96,73 @@
         </table>
     </div>
 </body>
+<script type="text/javascript">
+let debug = true;
+let requiredFiles = {};
+function requireJs(filepath)
+{
+    let filename = filepath.split('/');
+    filename = filename[filename.length-1]; //ahh, weakly-typed languages...
+
+    let dcParam = new Date().getTime();
+    let scriptEl = document.createElement('script');
+    scriptEl.setAttribute('type', 'text/javascript');
+    scriptEl.setAttribute('src', filepath + '?dc=' + dcParam);
+    document.head.appendChild(scriptEl);
+
+    requiredFiles[filename] = false;
+}
+function declareReady(filename, callback)
+{
+    log(filename + ' loaded successfully.');
+
+    requiredFiles[filename] = callback;
+    for(f in requiredFiles)
+    {
+        if(requiredFiles.hasOwnProperty(f))
+        {
+            if(requiredFiles[f] === false)
+            {
+                return;
+            }
+        }
+    }
+    initAll();
+}
+function initAll()
+{
+    for(f in requiredFiles)
+    {
+        if(requiredFiles.hasOwnProperty(f))
+        {
+            let fn = requiredFiles[f];
+            if(typeof fn === 'function')
+            {
+                try
+                {
+                    requiredFiles[f]();
+                }
+                catch(e)
+                {
+                    console.error('Failed to initialize ' + f + '!');
+                    console.error(e);
+                }
+            }
+        }
+    }
+}
+function log(str)
+{
+    if(debug)
+    {
+        console.log(str);
+    }
+}
+</script>
+<script type="text/javascript">
+    requireJs("/swtor/scripts/DomController.js");
+    requireJs("/swtor/scripts/DomManager.js");
+    requireJs("/swtor/scripts/model/Item.js");
+    requireJs("/swtor/scripts/model/ItemMod.js");
+</script>
 </html>
