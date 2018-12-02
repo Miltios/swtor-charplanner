@@ -1,0 +1,55 @@
+let PickerController = (function()
+{
+    function PickerController()
+    {
+        //declare vars
+    }
+    PickerController.prototype.init = function()
+    {
+        //locate DOM elements?
+
+        log('PickerController initialized.');
+    };
+    PickerController.prototype.populateOptionsForSlot = function(slot)
+    {
+        DomController.clearItemLists();
+
+        //populate (or hide?) "currently equipped" section
+
+        //get list of items and sort them into color lists
+        let items;
+        let slotName = slot.getGenericName();
+        let specFilter = Settings.getSpecFilter();
+        if(specFilter === 'mySpec')
+        {
+            items = ItemManager.getItemsForSpecAndSlot(Settings.getSpec(), slotName);
+        }
+        else if(specFilter = 'myClass')
+        {
+            items = ItemManager.getItemsForClassAndSlot(Settings.getClass(), slotName);
+        }
+        else
+        {
+            items = ItemManager.getItemsForSlot(slotName);
+        }
+        for(let i=0; i<items.length; i++)
+        {
+            let item = items[i];
+            let color = item.color; //getter
+            let listEl = document.createElement('div');
+            listEl.className = 'list-item item-' + color;
+            listEl.innerHTML = item.name; //getter
+            //TODO:other meta & functionality
+
+            DomManager.getItemList(color).appendChild(listEl);
+        }
+
+        //do something with "custom item" section?
+    };
+    PickerController.prototype.filterOptions = function()
+    {
+        //when the dropdown selection changes, swap out a CSS class to show or hide various items in the color lists
+    };
+    return new PickerController();
+})();
+declareReady('PickerController.js', function(){PickerController.init()});

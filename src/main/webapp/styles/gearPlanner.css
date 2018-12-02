@@ -8,8 +8,8 @@ body
 }
 #charBodyTable
 {
-    width:500px;
-    height1000px;
+    /*width:500px;*/
+    /*height:1000px;*/
     /*TODO: get rid of the standard BS for tables*/
 }
 .character-slot
@@ -24,4 +24,43 @@ body
     height:75px;
     border:1px solid grey;
     border-radius:5px;
+}
+#itemPicker
+{
+    /*display:none;*/
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:500px;
+
+    background-color:lightgrey;
+    border:1px solid grey;
+}
+#currentItemArea
+{
+    /*display:none;*/
+    height:100px;
+}
+.item-list
+{
+    border:2px solid;
+    vertical-align:top;
+}
+#itemListPurple
+{
+    border-color:purple;
+}
+#itemListGold
+{
+    border-color:gold;
+}
+#customItemArea
+{
+    height:150px;
+}
+.list-item
+{
+    display:block;
+    width:100%;
 }
