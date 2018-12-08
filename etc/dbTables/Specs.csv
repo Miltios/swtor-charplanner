@@ -1,0 +1,25 @@
+tempSpecKey,Spec,SpecLabelImp,SpecLabelPub,Role,tempClass
+tankpt,ptTank,Shield Tech,Shield Specialist,tank,pt
+dpspt,ptSust,Pyrotech,Plasmatech,dps,pt
+dpspt,ptBurst,Advanced Prototype,Tactics,dps,pt
+healermerc,mercHealer,Bodyguard,Combat Medic,healer,merc
+dpsmerc,mercBurst,Arsenal,Gunnery,dps,merc
+dpsmerc,mercSust,Innovative Ordnance,Assault Specialist,dps,merc
+healerop,opHealer,Medicine,Sawbones,healer,op
+dpsop,opBurst,Concealment,Scrapper,dps,op
+dpsop,opSust,Lethality,Ruffian,dps,op
+dpssniper,sniperBurst,Marksmanship,Sharpshooter,dps,sniper
+dpssniper,sniperSust,Engineering,Saboteur,dps,sniper
+dpssniper,sniperHybrid,Virulence,Dirty Fighting,dps,sniper
+tanksin,sinTank,Darkness,Kinetic Combat,tank,sin
+dpssin,sinBurst,Deception,Infiltration,dps,sin
+dpssin,sinSust,Hatred,Serenity,dps,sin
+healersorc,sorcHealer,Corruption,Seer,healer,sorc
+dpssorc,sorcBurst,Lightning,Telekinetics,dps,sorc
+dpssorc,sorcSust,Madness,Balance,dps,sorc
+dpsmara,maraSust,Annihilation,Watchman,dps,mara
+dpsmara,maraBurst,Carnage,Combat,dps,mara
+dpsmara,maraHybrid,Fury,Concentration,dps,mara
+tankjugg,juggTank,Immortal,Defense,tank,jugg
+dpsjugg,juggSust,Vengeance,Vigilance,dps,jugg
+dpsjugg,juggBurst,Rage,Focus,dps,jugg

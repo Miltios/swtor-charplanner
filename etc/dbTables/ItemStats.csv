@@ -1,0 +1,854 @@
+tempItemName,ItemId,tempSlot,tempStatType,tempKey,StatName,StatValue,tempRating
+Eternal Commander MK-1 Adept Device,1,ear,[pri],ear[pri]228,endurance,411,228
+Eternal Commander MK-1 Adept Device,1,ear,[sec],ear[sec]228,mastery,382,228
+Eternal Commander MK-1 Adept Device,1,ear,[tert],ear[tert]228,power,205,228
+Eternal Commander MK-1 Adept Device,1,ear,[quat],ear[quat]228,crit,177,228
+Eternal Commander MK-1 Adept Package,2,implant,[pri],implant[pri]228,endurance,411,228
+Eternal Commander MK-1 Adept Package,2,implant,[sec],implant[sec]228,mastery,382,228
+Eternal Commander MK-1 Adept Package,2,implant,[tert],implant[tert]228,power,205,228
+Eternal Commander MK-1 Adept Package,2,implant,[quat],implant[quat]228,crit,177,228
+Eternal Commander MK-1 Bastion Device,3,ear,[pri],ear[pri]228,endurance,430,228
+Eternal Commander MK-1 Bastion Device,3,ear,[sec],ear[sec]228,shield,177,228
+Eternal Commander MK-1 Bastion Device,3,ear,[tert],ear[tert]228,defense,205,228
+Eternal Commander MK-1 Bastion Device,3,ear,[quat],ear[quat]228,mastery,363,228
+Eternal Commander MK-1 Bastion Package,4,implant,[pri],implant[pri]228,endurance,430,228
+Eternal Commander MK-1 Bastion Package,4,implant,[sec],implant[sec]228,shield,177,228
+Eternal Commander MK-1 Bastion Package,4,implant,[tert],implant[tert]228,defense,205,228
+Eternal Commander MK-1 Bastion Package,4,implant,[quat],implant[quat]228,mastery,363,228
+Eternal Commander MK-1 Bulwark Device,5,ear,[pri],ear[pri]228,endurance,430,228
+Eternal Commander MK-1 Bulwark Device,5,ear,[sec],ear[sec]228,absorption,177,228
+Eternal Commander MK-1 Bulwark Device,5,ear,[tert],ear[tert]228,defense,205,228
+Eternal Commander MK-1 Bulwark Device,5,ear,[quat],ear[quat]228,mastery,363,228
+Eternal Commander MK-1 Bulwark Package,6,implant,[pri],implant[pri]228,endurance,430,228
+Eternal Commander MK-1 Bulwark Package,6,implant,[sec],implant[sec]228,absorption,177,228
+Eternal Commander MK-1 Bulwark Package,6,implant,[tert],implant[tert]228,defense,205,228
+Eternal Commander MK-1 Bulwark Package,6,implant,[quat],implant[quat]228,mastery,363,228
+Eternal Commander MK-1 Initiative Device,73,ear,[pri],ear[pri]228,endurance,411,228
+Eternal Commander MK-1 Initiative Device,73,ear,[sec],ear[sec]228,mastery,382,228
+Eternal Commander MK-1 Initiative Device,73,ear,[tert],ear[tert]228,power,205,228
+Eternal Commander MK-1 Initiative Device,73,ear,[quat],ear[quat]228,accuracy,177,228
+Eternal Commander MK-1 Initiative Package,74,implant,[pri],implant[pri]228,endurance,411,228
+Eternal Commander MK-1 Initiative Package,74,implant,[sec],implant[sec]228,mastery,382,228
+Eternal Commander MK-1 Initiative Package,74,implant,[tert],implant[tert]228,power,205,228
+Eternal Commander MK-1 Initiative Package,74,implant,[quat],implant[quat]228,accuracy,177,228
+Eternal Commander MK-1 Quick Savant Device,75,ear,[pri],ear[pri]228,endurance,411,228
+Eternal Commander MK-1 Quick Savant Device,75,ear,[sec],ear[sec]228,mastery,382,228
+Eternal Commander MK-1 Quick Savant Device,75,ear,[tert],ear[tert]228,power,205,228
+Eternal Commander MK-1 Quick Savant Device,75,ear,[quat],ear[quat]228,alacrity,177,228
+Eternal Commander MK-1 Quick Savant Package,76,implant,[pri],implant[pri]228,endurance,411,228
+Eternal Commander MK-1 Quick Savant Package,76,implant,[sec],implant[sec]228,mastery,382,228
+Eternal Commander MK-1 Quick Savant Package,76,implant,[tert],implant[tert]228,power,205,228
+Eternal Commander MK-1 Quick Savant Package,76,implant,[quat],implant[quat]228,alacrity,177,228
+Eternal Commander MK-11 Adept Device,138,ear,[pri],ear[pri]232,endurance,433,232
+Eternal Commander MK-11 Adept Device,138,ear,[sec],ear[sec]232,mastery,401,232
+Eternal Commander MK-11 Adept Device,138,ear,[tert],ear[tert]232,power,215,232
+Eternal Commander MK-11 Adept Device,138,ear,[quat],ear[quat]232,crit,186,232
+Eternal Commander MK-11 Adept Package,139,implant,[pri],implant[pri]232,endurance,433,232
+Eternal Commander MK-11 Adept Package,139,implant,[sec],implant[sec]232,mastery,401,232
+Eternal Commander MK-11 Adept Package,139,implant,[tert],implant[tert]232,power,215,232
+Eternal Commander MK-11 Adept Package,139,implant,[quat],implant[quat]232,crit,186,232
+Eternal Commander MK-11 Bastion Device,140,ear,[pri],ear[pri]232,endurance,454,232
+Eternal Commander MK-11 Bastion Device,140,ear,[sec],ear[sec]232,shield,186,232
+Eternal Commander MK-11 Bastion Device,140,ear,[tert],ear[tert]232,defense,215,232
+Eternal Commander MK-11 Bastion Device,140,ear,[quat],ear[quat]232,mastery,382,232
+Eternal Commander MK-11 Bastion Package,141,implant,[pri],implant[pri]232,endurance,454,232
+Eternal Commander MK-11 Bastion Package,141,implant,[sec],implant[sec]232,shield,186,232
+Eternal Commander MK-11 Bastion Package,141,implant,[tert],implant[tert]232,defense,215,232
+Eternal Commander MK-11 Bastion Package,141,implant,[quat],implant[quat]232,mastery,382,232
+Eternal Commander MK-11 Bulwark Device,142,ear,[pri],ear[pri]232,endurance,430,232
+Eternal Commander MK-11 Bulwark Device,142,ear,[sec],ear[sec]232,absorption,177,232
+Eternal Commander MK-11 Bulwark Device,142,ear,[tert],ear[tert]232,defense,205,232
+Eternal Commander MK-11 Bulwark Device,142,ear,[quat],ear[quat]232,mastery,363,232
+Eternal Commander MK-11 Bulwark Package,143,implant,[pri],implant[pri]232,endurance,430,232
+Eternal Commander MK-11 Bulwark Package,143,implant,[sec],implant[sec]232,absorption,177,232
+Eternal Commander MK-11 Bulwark Package,143,implant,[tert],implant[tert]232,defense,205,232
+Eternal Commander MK-11 Bulwark Package,143,implant,[quat],implant[quat]232,mastery,363,232
+Eternal Commander MK-11 Initiative Device,210,ear,[pri],ear[pri]232,endurance,433,232
+Eternal Commander MK-11 Initiative Device,210,ear,[sec],ear[sec]232,mastery,401,232
+Eternal Commander MK-11 Initiative Device,210,ear,[tert],ear[tert]232,power,215,232
+Eternal Commander MK-11 Initiative Device,210,ear,[quat],ear[quat]232,accuracy,186,232
+Eternal Commander MK-11 Initiative Package,211,implant,[pri],implant[pri]232,endurance,433,232
+Eternal Commander MK-11 Initiative Package,211,implant,[sec],implant[sec]232,mastery,401,232
+Eternal Commander MK-11 Initiative Package,211,implant,[tert],implant[tert]232,power,215,232
+Eternal Commander MK-11 Initiative Package,211,implant,[quat],implant[quat]232,accuracy,186,232
+Eternal Commander MK-11 Quick Savant Device,212,ear,[pri],ear[pri]232,endurance,433,232
+Eternal Commander MK-11 Quick Savant Device,212,ear,[sec],ear[sec]232,mastery,401,232
+Eternal Commander MK-11 Quick Savant Device,212,ear,[tert],ear[tert]232,power,215,232
+Eternal Commander MK-11 Quick Savant Device,212,ear,[quat],ear[quat]232,alacrity,186,232
+Eternal Commander MK-11 Quick Savant Package,213,implant,[pri],implant[pri]232,endurance,433,232
+Eternal Commander MK-11 Quick Savant Package,213,implant,[sec],implant[sec]232,mastery,401,232
+Eternal Commander MK-11 Quick Savant Package,213,implant,[tert],implant[tert]232,power,215,232
+Eternal Commander MK-11 Quick Savant Package,213,implant,[quat],implant[quat]232,alacrity,186,232
+Eternal Commander MK-12 Adept Device,275,ear,[pri],ear[pri]234,endurance,444,234
+Eternal Commander MK-12 Adept Device,275,ear,[sec],ear[sec]234,mastery,410,234
+Eternal Commander MK-12 Adept Device,275,ear,[tert],ear[tert]234,power,221,234
+Eternal Commander MK-12 Adept Device,275,ear,[quat],ear[quat]234,crit,190,234
+Eternal Commander MK-12 Adept Package,276,implant,[pri],implant[pri]234,endurance,444,234
+Eternal Commander MK-12 Adept Package,276,implant,[sec],implant[sec]234,mastery,410,234
+Eternal Commander MK-12 Adept Package,276,implant,[tert],implant[tert]234,power,221,234
+Eternal Commander MK-12 Adept Package,276,implant,[quat],implant[quat]234,crit,190,234
+Eternal Commander MK-12 Bastion Device,277,ear,[pri],ear[pri]234,endurance,464,234
+Eternal Commander MK-12 Bastion Device,277,ear,[sec],ear[sec]234,shield,190,234
+Eternal Commander MK-12 Bastion Device,277,ear,[tert],ear[tert]234,defense,221,234
+Eternal Commander MK-12 Bastion Device,277,ear,[quat],ear[quat]234,mastery,390,234
+Eternal Commander MK-12 Bastion Package,278,implant,[pri],implant[pri]234,endurance,464,234
+Eternal Commander MK-12 Bastion Package,278,implant,[sec],implant[sec]234,shield,190,234
+Eternal Commander MK-12 Bastion Package,278,implant,[tert],implant[tert]234,defense,221,234
+Eternal Commander MK-12 Bastion Package,278,implant,[quat],implant[quat]234,mastery,390,234
+Eternal Commander MK-12 Bulwark Device,279,ear,[pri],ear[pri]234,endurance,430,234
+Eternal Commander MK-12 Bulwark Device,279,ear,[sec],ear[sec]234,absorption,177,234
+Eternal Commander MK-12 Bulwark Device,279,ear,[tert],ear[tert]234,defense,205,234
+Eternal Commander MK-12 Bulwark Device,279,ear,[quat],ear[quat]234,mastery,363,234
+Eternal Commander MK-12 Bulwark Package,280,implant,[pri],implant[pri]234,endurance,430,234
+Eternal Commander MK-12 Bulwark Package,280,implant,[sec],implant[sec]234,absorption,177,234
+Eternal Commander MK-12 Bulwark Package,280,implant,[tert],implant[tert]234,defense,205,234
+Eternal Commander MK-12 Bulwark Package,280,implant,[quat],implant[quat]234,mastery,363,234
+Eternal Commander MK-12 Initiative Device,347,ear,[pri],ear[pri]234,endurance,444,234
+Eternal Commander MK-12 Initiative Device,347,ear,[sec],ear[sec]234,mastery,410,234
+Eternal Commander MK-12 Initiative Device,347,ear,[tert],ear[tert]234,power,221,234
+Eternal Commander MK-12 Initiative Device,347,ear,[quat],ear[quat]234,accuracy,190,234
+Eternal Commander MK-12 Initiative Package,348,implant,[pri],implant[pri]234,endurance,444,234
+Eternal Commander MK-12 Initiative Package,348,implant,[sec],implant[sec]234,mastery,410,234
+Eternal Commander MK-12 Initiative Package,348,implant,[tert],implant[tert]234,power,221,234
+Eternal Commander MK-12 Initiative Package,348,implant,[quat],implant[quat]234,accuracy,190,234
+Eternal Commander MK-12 Quick Savant Device,349,ear,[pri],ear[pri]234,endurance,444,234
+Eternal Commander MK-12 Quick Savant Device,349,ear,[sec],ear[sec]234,mastery,410,234
+Eternal Commander MK-12 Quick Savant Device,349,ear,[tert],ear[tert]234,power,221,234
+Eternal Commander MK-12 Quick Savant Device,349,ear,[quat],ear[quat]234,alacrity,190,234
+Eternal Commander MK-12 Quick Savant Package,350,implant,[pri],implant[pri]234,endurance,444,234
+Eternal Commander MK-12 Quick Savant Package,350,implant,[sec],implant[sec]234,mastery,410,234
+Eternal Commander MK-12 Quick Savant Package,350,implant,[tert],implant[tert]234,power,221,234
+Eternal Commander MK-12 Quick Savant Package,350,implant,[quat],implant[quat]234,alacrity,190,234
+Eternal Commander MK-13 Adept Device,412,ear,[pri],ear[pri]234,endurance,444,234
+Eternal Commander MK-13 Adept Device,412,ear,[sec],ear[sec]234,mastery,410,234
+Eternal Commander MK-13 Adept Device,412,ear,[tert],ear[tert]234,power,221,234
+Eternal Commander MK-13 Adept Device,412,ear,[quat],ear[quat]234,crit,190,234
+Eternal Commander MK-13 Adept Package,413,implant,[pri],implant[pri]234,endurance,444,234
+Eternal Commander MK-13 Adept Package,413,implant,[sec],implant[sec]234,mastery,410,234
+Eternal Commander MK-13 Adept Package,413,implant,[tert],implant[tert]234,power,221,234
+Eternal Commander MK-13 Adept Package,413,implant,[quat],implant[quat]234,crit,190,234
+Eternal Commander MK-13 Bastion Device,414,ear,[pri],ear[pri]234,endurance,451,234
+Eternal Commander MK-13 Bastion Device,414,ear,[sec],ear[sec]234,shield,190,234
+Eternal Commander MK-13 Bastion Device,414,ear,[tert],ear[tert]234,defense,277,234
+Eternal Commander MK-13 Bastion Device,414,ear,[quat],ear[quat]234,mastery,359,234
+Eternal Commander MK-13 Bastion Package,415,implant,[pri],implant[pri]234,endurance,451,234
+Eternal Commander MK-13 Bastion Package,415,implant,[sec],implant[sec]234,shield,190,234
+Eternal Commander MK-13 Bastion Package,415,implant,[tert],implant[tert]234,defense,277,234
+Eternal Commander MK-13 Bastion Package,415,implant,[quat],implant[quat]234,mastery,359,234
+Eternal Commander MK-13 Bulwark Device,416,ear,[pri],ear[pri]234,endurance,430,234
+Eternal Commander MK-13 Bulwark Device,416,ear,[sec],ear[sec]234,absorption,177,234
+Eternal Commander MK-13 Bulwark Device,416,ear,[tert],ear[tert]234,defense,205,234
+Eternal Commander MK-13 Bulwark Device,416,ear,[quat],ear[quat]234,mastery,363,234
+Eternal Commander MK-13 Bulwark Package,417,implant,[pri],implant[pri]234,endurance,430,234
+Eternal Commander MK-13 Bulwark Package,417,implant,[sec],implant[sec]234,absorption,177,234
+Eternal Commander MK-13 Bulwark Package,417,implant,[tert],implant[tert]234,defense,205,234
+Eternal Commander MK-13 Bulwark Package,417,implant,[quat],implant[quat]234,mastery,363,234
+Eternal Commander MK-13 Initiative Device,484,ear,[pri],ear[pri]234,endurance,444,234
+Eternal Commander MK-13 Initiative Device,484,ear,[sec],ear[sec]234,mastery,410,234
+Eternal Commander MK-13 Initiative Device,484,ear,[tert],ear[tert]234,power,221,234
+Eternal Commander MK-13 Initiative Device,484,ear,[quat],ear[quat]234,accuracy,190,234
+Eternal Commander MK-13 Initiative Package,485,implant,[pri],implant[pri]234,endurance,444,234
+Eternal Commander MK-13 Initiative Package,485,implant,[sec],implant[sec]234,mastery,410,234
+Eternal Commander MK-13 Initiative Package,485,implant,[tert],implant[tert]234,power,221,234
+Eternal Commander MK-13 Initiative Package,485,implant,[quat],implant[quat]234,accuracy,190,234
+Eternal Commander MK-13 Quick Savant Device,486,ear,[pri],ear[pri]234,endurance,444,234
+Eternal Commander MK-13 Quick Savant Device,486,ear,[sec],ear[sec]234,mastery,410,234
+Eternal Commander MK-13 Quick Savant Device,486,ear,[tert],ear[tert]234,power,221,234
+Eternal Commander MK-13 Quick Savant Device,486,ear,[quat],ear[quat]234,alacrity,190,234
+Eternal Commander MK-13 Quick Savant Package,487,implant,[pri],implant[pri]234,endurance,444,234
+Eternal Commander MK-13 Quick Savant Package,487,implant,[sec],implant[sec]234,mastery,410,234
+Eternal Commander MK-13 Quick Savant Package,487,implant,[tert],implant[tert]234,power,221,234
+Eternal Commander MK-13 Quick Savant Package,487,implant,[quat],implant[quat]234,alacrity,190,234
+Eternal Commander MK-13 Relic of Boundless Ages,488,relic,[pri],relic[pri]234,endurance,210,234
+Eternal Commander MK-13 Relic of Boundless Ages,488,relic,[sec],relic[sec]234,power,89,234
+Eternal Commander MK-13 Relic of Boundless Ages,488,relic,[tert],relic[tert]234,crit,52,234
+Eternal Commander MK-13 Relic of Devastating Vengeance,489,relic,[pri],relic[pri]234,endurance,210,234
+Eternal Commander MK-13 Relic of Devastating Vengeance,489,relic,[sec],relic[sec]234,power,89,234
+Eternal Commander MK-13 Relic of Devastating Vengeance,489,relic,[tert],relic[tert]234,crit,52,234
+Eternal Commander MK-13 Relic of Ephemeral Mending,490,relic,[pri],relic[pri]234,endurance,210,234
+Eternal Commander MK-13 Relic of Ephemeral Mending,490,relic,[sec],relic[sec]234,power,89,234
+Eternal Commander MK-13 Relic of Ephemeral Mending,490,relic,[tert],relic[tert]234,crit,52,234
+Eternal Commander MK-13 Relic of Focused Retribution,491,relic,[pri],relic[pri]234,endurance,210,234
+Eternal Commander MK-13 Relic of Focused Retribution,491,relic,[sec],relic[sec]234,power,89,234
+Eternal Commander MK-13 Relic of Focused Retribution,491,relic,[tert],relic[tert]234,crit,52,234
+Eternal Commander MK-13 Relic of Imperiling Serenity,492,relic,[pri],relic[pri]234,mastery,210,234
+Eternal Commander MK-13 Relic of Imperiling Serenity,492,relic,[sec],relic[sec]234,defense,89,234
+Eternal Commander MK-13 Relic of Imperiling Serenity,492,relic,[tert],relic[tert]234,shield,52,234
+Eternal Commander MK-13 Relic of Reactive Warding,493,relic,[pri],relic[pri]234,mastery,210,234
+Eternal Commander MK-13 Relic of Reactive Warding,493,relic,[sec],relic[sec]234,defense,89,234
+Eternal Commander MK-13 Relic of Reactive Warding,493,relic,[tert],relic[tert]234,shield,52,234
+Eternal Commander MK-13 Relic of Serendipitous Assault,494,relic,[pri],relic[pri]234,endurance,210,234
+Eternal Commander MK-13 Relic of Serendipitous Assault,494,relic,[sec],relic[sec]234,power,89,234
+Eternal Commander MK-13 Relic of Serendipitous Assault,494,relic,[tert],relic[tert]234,crit,52,234
+Eternal Commander MK-13 Relic of Shield Amplification,495,relic,[pri],relic[pri]234,mastery,210,234
+Eternal Commander MK-13 Relic of Shield Amplification,495,relic,[sec],relic[sec]234,defense,89,234
+Eternal Commander MK-13 Relic of Shield Amplification,495,relic,[tert],relic[tert]234,shield,52,234
+Eternal Commander MK-13 Relic of the Fortunate Redoubt,496,relic,[pri],relic[pri]234,mastery,210,234
+Eternal Commander MK-13 Relic of the Fortunate Redoubt,496,relic,[sec],relic[sec]234,defense,89,234
+Eternal Commander MK-13 Relic of the Fortunate Redoubt,496,relic,[tert],relic[tert]234,shield,52,234
+Eternal Commander MK-13 Relic of the Primeval Fatesealer,497,relic,[pri],relic[pri]234,endurance,210,234
+Eternal Commander MK-13 Relic of the Primeval Fatesealer,497,relic,[sec],relic[sec]234,power,89,234
+Eternal Commander MK-13 Relic of the Primeval Fatesealer,497,relic,[tert],relic[tert]234,crit,52,234
+Eternal Commander MK-13 Relic of the Shrouded Crusader,498,relic,[pri],relic[pri]234,endurance,210,234
+Eternal Commander MK-13 Relic of the Shrouded Crusader,498,relic,[sec],relic[sec]234,power,89,234
+Eternal Commander MK-13 Relic of the Shrouded Crusader,498,relic,[tert],relic[tert]234,crit,52,234
+Eternal Commander MK-15 Adept Device,549,ear,[pri],ear[pri]236,endurance,454,236
+Eternal Commander MK-15 Adept Device,549,ear,[sec],ear[sec]236,mastery,398,236
+Eternal Commander MK-15 Adept Device,549,ear,[tert],ear[tert]236,power,293,236
+Eternal Commander MK-15 Adept Device,549,ear,[quat],ear[quat]236,crit,200,236
+Eternal Commander MK-15 Adept Package,550,implant,[pri],implant[pri]236,endurance,454,236
+Eternal Commander MK-15 Adept Package,550,implant,[sec],implant[sec]236,mastery,398,236
+Eternal Commander MK-15 Adept Package,550,implant,[tert],implant[tert]236,power,293,236
+Eternal Commander MK-15 Adept Package,550,implant,[quat],implant[quat]236,crit,200,236
+Eternal Commander MK-15 Bastion Device,551,ear,[pri],ear[pri]236,endurance,475,236
+Eternal Commander MK-15 Bastion Device,551,ear,[sec],ear[sec]236,shield,200,236
+Eternal Commander MK-15 Bastion Device,551,ear,[tert],ear[tert]236,defense,293,236
+Eternal Commander MK-15 Bastion Device,551,ear,[quat],ear[quat]236,mastery,377,236
+Eternal Commander MK-15 Bastion Package,552,implant,[pri],implant[pri]236,endurance,475,236
+Eternal Commander MK-15 Bastion Package,552,implant,[sec],implant[sec]236,shield,200,236
+Eternal Commander MK-15 Bastion Package,552,implant,[tert],implant[tert]236,defense,293,236
+Eternal Commander MK-15 Bastion Package,552,implant,[quat],implant[quat]236,mastery,377,236
+Eternal Commander MK-15 Bulwark Device,553,ear,[pri],ear[pri]236,endurance,430,236
+Eternal Commander MK-15 Bulwark Device,553,ear,[sec],ear[sec]236,absorption,177,236
+Eternal Commander MK-15 Bulwark Device,553,ear,[tert],ear[tert]236,defense,205,236
+Eternal Commander MK-15 Bulwark Device,553,ear,[quat],ear[quat]236,mastery,363,236
+Eternal Commander MK-15 Bulwark Package,554,implant,[pri],implant[pri]236,endurance,430,236
+Eternal Commander MK-15 Bulwark Package,554,implant,[sec],implant[sec]236,absorption,177,236
+Eternal Commander MK-15 Bulwark Package,554,implant,[tert],implant[tert]236,defense,205,236
+Eternal Commander MK-15 Bulwark Package,554,implant,[quat],implant[quat]236,mastery,363,236
+Eternal Commander MK-15 Initiative Device,621,ear,[pri],ear[pri]236,endurance,454,236
+Eternal Commander MK-15 Initiative Device,621,ear,[sec],ear[sec]236,mastery,398,236
+Eternal Commander MK-15 Initiative Device,621,ear,[tert],ear[tert]236,power,293,236
+Eternal Commander MK-15 Initiative Device,621,ear,[quat],ear[quat]236,accuracy,200,236
+Eternal Commander MK-15 Initiative Package,622,implant,[pri],implant[pri]236,endurance,454,236
+Eternal Commander MK-15 Initiative Package,622,implant,[sec],implant[sec]236,mastery,398,236
+Eternal Commander MK-15 Initiative Package,622,implant,[tert],implant[tert]236,power,293,236
+Eternal Commander MK-15 Initiative Package,622,implant,[quat],implant[quat]236,accuracy,200,236
+Eternal Commander MK-15 Quick Savant Device,623,ear,[pri],ear[pri]236,endurance,454,236
+Eternal Commander MK-15 Quick Savant Device,623,ear,[sec],ear[sec]236,mastery,398,236
+Eternal Commander MK-15 Quick Savant Device,623,ear,[tert],ear[tert]236,power,293,236
+Eternal Commander MK-15 Quick Savant Device,623,ear,[quat],ear[quat]236,alacrity,200,236
+Eternal Commander MK-15 Quick Savant Package,624,implant,[pri],implant[pri]236,endurance,454,236
+Eternal Commander MK-15 Quick Savant Package,624,implant,[sec],implant[sec]236,mastery,398,236
+Eternal Commander MK-15 Quick Savant Package,624,implant,[tert],implant[tert]236,power,293,236
+Eternal Commander MK-15 Quick Savant Package,624,implant,[quat],implant[quat]236,alacrity,200,236
+Eternal Commander MK-15 Relic of Boundless Ages,625,relic,[pri],relic[pri]236,endurance,221,236
+Eternal Commander MK-15 Relic of Boundless Ages,625,relic,[sec],relic[sec]236,power,94,236
+Eternal Commander MK-15 Relic of Boundless Ages,625,relic,[tert],relic[tert]236,crit,55,236
+Eternal Commander MK-15 Relic of Devastating Vengeance,626,relic,[pri],relic[pri]236,endurance,221,236
+Eternal Commander MK-15 Relic of Devastating Vengeance,626,relic,[sec],relic[sec]236,power,94,236
+Eternal Commander MK-15 Relic of Devastating Vengeance,626,relic,[tert],relic[tert]236,crit,55,236
+Eternal Commander MK-15 Relic of Ephemeral Mending,627,relic,[pri],relic[pri]236,endurance,221,236
+Eternal Commander MK-15 Relic of Ephemeral Mending,627,relic,[sec],relic[sec]236,power,94,236
+Eternal Commander MK-15 Relic of Ephemeral Mending,627,relic,[tert],relic[tert]236,crit,55,236
+Eternal Commander MK-15 Relic of Focused Retribution,628,relic,[pri],relic[pri]236,endurance,221,236
+Eternal Commander MK-15 Relic of Focused Retribution,628,relic,[sec],relic[sec]236,power,94,236
+Eternal Commander MK-15 Relic of Focused Retribution,628,relic,[tert],relic[tert]236,crit,55,236
+Eternal Commander MK-15 Relic of Imperiling Serenity,629,relic,[pri],relic[pri]236,mastery,221,236
+Eternal Commander MK-15 Relic of Imperiling Serenity,629,relic,[sec],relic[sec]236,defense,94,236
+Eternal Commander MK-15 Relic of Imperiling Serenity,629,relic,[tert],relic[tert]236,shield,55,236
+Eternal Commander MK-15 Relic of Reactive Warding,630,relic,[pri],relic[pri]236,mastery,221,236
+Eternal Commander MK-15 Relic of Reactive Warding,630,relic,[sec],relic[sec]236,defense,94,236
+Eternal Commander MK-15 Relic of Reactive Warding,630,relic,[tert],relic[tert]236,shield,55,236
+Eternal Commander MK-15 Relic of Serendipitous Assault,631,relic,[pri],relic[pri]236,endurance,221,236
+Eternal Commander MK-15 Relic of Serendipitous Assault,631,relic,[sec],relic[sec]236,power,94,236
+Eternal Commander MK-15 Relic of Serendipitous Assault,631,relic,[tert],relic[tert]236,crit,55,236
+Eternal Commander MK-15 Relic of Shield Amplification,632,relic,[pri],relic[pri]236,mastery,221,236
+Eternal Commander MK-15 Relic of Shield Amplification,632,relic,[sec],relic[sec]236,defense,94,236
+Eternal Commander MK-15 Relic of Shield Amplification,632,relic,[tert],relic[tert]236,shield,55,236
+Eternal Commander MK-15 Relic of the Fortunate Redoubt,633,relic,[pri],relic[pri]236,mastery,221,236
+Eternal Commander MK-15 Relic of the Fortunate Redoubt,633,relic,[sec],relic[sec]236,defense,94,236
+Eternal Commander MK-15 Relic of the Fortunate Redoubt,633,relic,[tert],relic[tert]236,shield,55,236
+Eternal Commander MK-15 Relic of the Primeval Fatesealer,634,relic,[pri],relic[pri]236,endurance,221,236
+Eternal Commander MK-15 Relic of the Primeval Fatesealer,634,relic,[sec],relic[sec]236,power,94,236
+Eternal Commander MK-15 Relic of the Primeval Fatesealer,634,relic,[tert],relic[tert]236,crit,55,236
+Eternal Commander MK-15 Relic of the Shrouded Crusader,635,relic,[pri],relic[pri]236,endurance,221,236
+Eternal Commander MK-15 Relic of the Shrouded Crusader,635,relic,[sec],relic[sec]236,power,94,236
+Eternal Commander MK-15 Relic of the Shrouded Crusader,635,relic,[tert],relic[tert]236,crit,55,236
+Eternal Commander MK-2 Adept Device,686,ear,[pri],ear[pri]230,endurance,422,230
+Eternal Commander MK-2 Adept Device,686,ear,[sec],ear[sec]230,mastery,391,230
+Eternal Commander MK-2 Adept Device,686,ear,[tert],ear[tert]230,power,210,230
+Eternal Commander MK-2 Adept Device,686,ear,[quat],ear[quat]230,crit,181,230
+Eternal Commander MK-2 Adept Package,687,implant,[pri],implant[pri]230,endurance,422,230
+Eternal Commander MK-2 Adept Package,687,implant,[sec],implant[sec]230,mastery,391,230
+Eternal Commander MK-2 Adept Package,687,implant,[tert],implant[tert]230,power,210,230
+Eternal Commander MK-2 Adept Package,687,implant,[quat],implant[quat]230,crit,181,230
+Eternal Commander MK-2 Bastion Device,688,ear,[pri],ear[pri]230,endurance,442,230
+Eternal Commander MK-2 Bastion Device,688,ear,[sec],ear[sec]230,shield,181,230
+Eternal Commander MK-2 Bastion Device,688,ear,[tert],ear[tert]230,defense,210,230
+Eternal Commander MK-2 Bastion Device,688,ear,[quat],ear[quat]230,mastery,372,230
+Eternal Commander MK-2 Bastion Package,689,implant,[pri],implant[pri]230,endurance,442,230
+Eternal Commander MK-2 Bastion Package,689,implant,[sec],implant[sec]230,shield,181,230
+Eternal Commander MK-2 Bastion Package,689,implant,[tert],implant[tert]230,defense,210,230
+Eternal Commander MK-2 Bastion Package,689,implant,[quat],implant[quat]230,mastery,372,230
+Eternal Commander MK-2 Bulwark Device,690,ear,[pri],ear[pri]230,endurance,430,230
+Eternal Commander MK-2 Bulwark Device,690,ear,[sec],ear[sec]230,absorption,177,230
+Eternal Commander MK-2 Bulwark Device,690,ear,[tert],ear[tert]230,defense,205,230
+Eternal Commander MK-2 Bulwark Device,690,ear,[quat],ear[quat]230,mastery,363,230
+Eternal Commander MK-2 Bulwark Package,691,implant,[pri],implant[pri]230,endurance,430,230
+Eternal Commander MK-2 Bulwark Package,691,implant,[sec],implant[sec]230,absorption,177,230
+Eternal Commander MK-2 Bulwark Package,691,implant,[tert],implant[tert]230,defense,205,230
+Eternal Commander MK-2 Bulwark Package,691,implant,[quat],implant[quat]230,mastery,363,230
+Eternal Commander MK-2 Initiative Device,758,ear,[pri],ear[pri]230,endurance,422,230
+Eternal Commander MK-2 Initiative Device,758,ear,[sec],ear[sec]230,mastery,391,230
+Eternal Commander MK-2 Initiative Device,758,ear,[tert],ear[tert]230,power,210,230
+Eternal Commander MK-2 Initiative Device,758,ear,[quat],ear[quat]230,accuracy,181,230
+Eternal Commander MK-2 Initiative Package,759,implant,[pri],implant[pri]230,endurance,422,230
+Eternal Commander MK-2 Initiative Package,759,implant,[sec],implant[sec]230,mastery,391,230
+Eternal Commander MK-2 Initiative Package,759,implant,[tert],implant[tert]230,power,210,230
+Eternal Commander MK-2 Initiative Package,759,implant,[quat],implant[quat]230,accuracy,181,230
+Eternal Commander MK-2 Quick Savant Device,760,ear,[pri],ear[pri]230,endurance,422,230
+Eternal Commander MK-2 Quick Savant Device,760,ear,[sec],ear[sec]230,mastery,391,230
+Eternal Commander MK-2 Quick Savant Device,760,ear,[tert],ear[tert]230,power,210,230
+Eternal Commander MK-2 Quick Savant Device,760,ear,[quat],ear[quat]230,alacrity,181,230
+Eternal Commander MK-2 Quick Savant Package,761,implant,[pri],implant[pri]230,endurance,422,230
+Eternal Commander MK-2 Quick Savant Package,761,implant,[sec],implant[sec]230,mastery,391,230
+Eternal Commander MK-2 Quick Savant Package,761,implant,[tert],implant[tert]230,power,210,230
+Eternal Commander MK-2 Quick Savant Package,761,implant,[quat],implant[quat]230,alacrity,181,230
+Eternal Commander MK-3 Adept Device,823,ear,[pri],ear[pri]230,endurance,422,230
+Eternal Commander MK-3 Adept Device,823,ear,[sec],ear[sec]230,mastery,391,230
+Eternal Commander MK-3 Adept Device,823,ear,[tert],ear[tert]230,power,210,230
+Eternal Commander MK-3 Adept Device,823,ear,[quat],ear[quat]230,crit,181,230
+Eternal Commander MK-3 Adept Package,824,implant,[pri],implant[pri]230,endurance,422,230
+Eternal Commander MK-3 Adept Package,824,implant,[sec],implant[sec]230,mastery,391,230
+Eternal Commander MK-3 Adept Package,824,implant,[tert],implant[tert]230,power,210,230
+Eternal Commander MK-3 Adept Package,824,implant,[quat],implant[quat]230,crit,181,230
+Eternal Commander MK-3 Bastion Device,825,ear,[pri],ear[pri]230,endurance,430,230
+Eternal Commander MK-3 Bastion Device,825,ear,[sec],ear[sec]230,shield,181,230
+Eternal Commander MK-3 Bastion Device,825,ear,[tert],ear[tert]230,defense,264,230
+Eternal Commander MK-3 Bastion Device,825,ear,[quat],ear[quat]230,mastery,342,230
+Eternal Commander MK-3 Bastion Package,826,implant,[pri],implant[pri]230,endurance,430,230
+Eternal Commander MK-3 Bastion Package,826,implant,[sec],implant[sec]230,shield,181,230
+Eternal Commander MK-3 Bastion Package,826,implant,[tert],implant[tert]230,defense,264,230
+Eternal Commander MK-3 Bastion Package,826,implant,[quat],implant[quat]230,mastery,342,230
+Eternal Commander MK-3 Bulwark Device,827,ear,[pri],ear[pri]230,endurance,430,230
+Eternal Commander MK-3 Bulwark Device,827,ear,[sec],ear[sec]230,absorption,177,230
+Eternal Commander MK-3 Bulwark Device,827,ear,[tert],ear[tert]230,defense,205,230
+Eternal Commander MK-3 Bulwark Device,827,ear,[quat],ear[quat]230,mastery,363,230
+Eternal Commander MK-3 Bulwark Package,828,implant,[pri],implant[pri]230,endurance,430,230
+Eternal Commander MK-3 Bulwark Package,828,implant,[sec],implant[sec]230,absorption,177,230
+Eternal Commander MK-3 Bulwark Package,828,implant,[tert],implant[tert]230,defense,205,230
+Eternal Commander MK-3 Bulwark Package,828,implant,[quat],implant[quat]230,mastery,363,230
+Eternal Commander MK-3 Initiative Device,895,ear,[pri],ear[pri]230,endurance,422,230
+Eternal Commander MK-3 Initiative Device,895,ear,[sec],ear[sec]230,mastery,391,230
+Eternal Commander MK-3 Initiative Device,895,ear,[tert],ear[tert]230,power,210,230
+Eternal Commander MK-3 Initiative Device,895,ear,[quat],ear[quat]230,accuracy,181,230
+Eternal Commander MK-3 Initiative Package,896,implant,[pri],implant[pri]230,endurance,422,230
+Eternal Commander MK-3 Initiative Package,896,implant,[sec],implant[sec]230,mastery,391,230
+Eternal Commander MK-3 Initiative Package,896,implant,[tert],implant[tert]230,power,210,230
+Eternal Commander MK-3 Initiative Package,896,implant,[quat],implant[quat]230,accuracy,181,230
+Eternal Commander MK-3 Quick Savant Device,897,ear,[pri],ear[pri]230,endurance,422,230
+Eternal Commander MK-3 Quick Savant Device,897,ear,[sec],ear[sec]230,mastery,391,230
+Eternal Commander MK-3 Quick Savant Device,897,ear,[tert],ear[tert]230,power,210,230
+Eternal Commander MK-3 Quick Savant Device,897,ear,[quat],ear[quat]230,alacrity,181,230
+Eternal Commander MK-3 Quick Savant Package,898,implant,[pri],implant[pri]230,endurance,422,230
+Eternal Commander MK-3 Quick Savant Package,898,implant,[sec],implant[sec]230,mastery,391,230
+Eternal Commander MK-3 Quick Savant Package,898,implant,[tert],implant[tert]230,power,210,230
+Eternal Commander MK-3 Quick Savant Package,898,implant,[quat],implant[quat]230,alacrity,181,230
+Eternal Commander MK-3 Relic of Boundless Ages,899,relic,[pri],relic[pri]230,endurance,200,230
+Eternal Commander MK-3 Relic of Boundless Ages,899,relic,[sec],relic[sec]230,power,84,230
+Eternal Commander MK-3 Relic of Boundless Ages,899,relic,[tert],relic[tert]230,crit,49,230
+Eternal Commander MK-3 Relic of Devastating Vengeance,900,relic,[pri],relic[pri]230,endurance,200,230
+Eternal Commander MK-3 Relic of Devastating Vengeance,900,relic,[sec],relic[sec]230,power,84,230
+Eternal Commander MK-3 Relic of Devastating Vengeance,900,relic,[tert],relic[tert]230,crit,49,230
+Eternal Commander MK-3 Relic of Ephemeral Mending,901,relic,[pri],relic[pri]230,endurance,200,230
+Eternal Commander MK-3 Relic of Ephemeral Mending,901,relic,[sec],relic[sec]230,power,84,230
+Eternal Commander MK-3 Relic of Ephemeral Mending,901,relic,[tert],relic[tert]230,crit,49,230
+Eternal Commander MK-3 Relic of Focused Retribution,902,relic,[pri],relic[pri]230,endurance,200,230
+Eternal Commander MK-3 Relic of Focused Retribution,902,relic,[sec],relic[sec]230,power,84,230
+Eternal Commander MK-3 Relic of Focused Retribution,902,relic,[tert],relic[tert]230,crit,49,230
+Eternal Commander MK-3 Relic of Imperiling Serenity,903,relic,[pri],relic[pri]230,mastery,200,230
+Eternal Commander MK-3 Relic of Imperiling Serenity,903,relic,[sec],relic[sec]230,defense,84,230
+Eternal Commander MK-3 Relic of Imperiling Serenity,903,relic,[tert],relic[tert]230,shield,49,230
+Eternal Commander MK-3 Relic of Reactive Warding,904,relic,[pri],relic[pri]230,mastery,200,230
+Eternal Commander MK-3 Relic of Reactive Warding,904,relic,[sec],relic[sec]230,defense,84,230
+Eternal Commander MK-3 Relic of Reactive Warding,904,relic,[tert],relic[tert]230,shield,49,230
+Eternal Commander MK-3 Relic of Serendipitous Assault,905,relic,[pri],relic[pri]230,endurance,200,230
+Eternal Commander MK-3 Relic of Serendipitous Assault,905,relic,[sec],relic[sec]230,power,84,230
+Eternal Commander MK-3 Relic of Serendipitous Assault,905,relic,[tert],relic[tert]230,crit,49,230
+Eternal Commander MK-3 Relic of Shield Amplification,906,relic,[pri],relic[pri]230,mastery,200,230
+Eternal Commander MK-3 Relic of Shield Amplification,906,relic,[sec],relic[sec]230,defense,84,230
+Eternal Commander MK-3 Relic of Shield Amplification,906,relic,[tert],relic[tert]230,shield,49,230
+Eternal Commander MK-3 Relic of the Fortunate Redoubt,907,relic,[pri],relic[pri]230,mastery,200,230
+Eternal Commander MK-3 Relic of the Fortunate Redoubt,907,relic,[sec],relic[sec]230,defense,84,230
+Eternal Commander MK-3 Relic of the Fortunate Redoubt,907,relic,[tert],relic[tert]230,shield,49,230
+Eternal Commander MK-3 Relic of the Primeval Fatesealer,908,relic,[pri],relic[pri]230,endurance,200,230
+Eternal Commander MK-3 Relic of the Primeval Fatesealer,908,relic,[sec],relic[sec]230,power,84,230
+Eternal Commander MK-3 Relic of the Primeval Fatesealer,908,relic,[tert],relic[tert]230,crit,49,230
+Eternal Commander MK-3 Relic of the Shrouded Crusader,909,relic,[pri],relic[pri]230,endurance,200,230
+Eternal Commander MK-3 Relic of the Shrouded Crusader,909,relic,[sec],relic[sec]230,power,84,230
+Eternal Commander MK-3 Relic of the Shrouded Crusader,909,relic,[tert],relic[tert]230,crit,49,230
+GEMINI MK-1 Adept Device,960,ear,[pri],ear[pri]244,endurance,504,244
+GEMINI MK-1 Adept Device,960,ear,[sec],ear[sec]244,mastery,463,244
+GEMINI MK-1 Adept Device,960,ear,[tert],ear[tert]244,power,253,244
+GEMINI MK-1 Adept Device,960,ear,[quat],ear[quat]244,crit,215,244
+GEMINI MK-1 Adept Package,961,implant,[pri],implant[pri]244,endurance,504,244
+GEMINI MK-1 Adept Package,961,implant,[sec],implant[sec]244,mastery,463,244
+GEMINI MK-1 Adept Package,961,implant,[tert],implant[tert]244,power,253,244
+GEMINI MK-1 Adept Package,961,implant,[quat],implant[quat]244,crit,215,244
+GEMINI MK-1 Bastion Device,962,ear,[pri],ear[pri]244,endurance,527,244
+GEMINI MK-1 Bastion Device,962,ear,[sec],ear[sec]244,shield,215,244
+GEMINI MK-1 Bastion Device,962,ear,[tert],ear[tert]244,defense,253,244
+GEMINI MK-1 Bastion Device,962,ear,[quat],ear[quat]244,mastery,441,244
+GEMINI MK-1 Bastion Package,963,implant,[pri],implant[pri]244,endurance,527,244
+GEMINI MK-1 Bastion Package,963,implant,[sec],implant[sec]244,shield,215,244
+GEMINI MK-1 Bastion Package,963,implant,[tert],implant[tert]244,defense,253,244
+GEMINI MK-1 Bastion Package,963,implant,[quat],implant[quat]244,mastery,441,244
+GEMINI MK-1 Bulwark Device,964,ear,[pri],ear[pri]244,endurance,430,244
+GEMINI MK-1 Bulwark Device,964,ear,[sec],ear[sec]244,absorption,177,244
+GEMINI MK-1 Bulwark Device,964,ear,[tert],ear[tert]244,defense,205,244
+GEMINI MK-1 Bulwark Device,964,ear,[quat],ear[quat]244,mastery,363,244
+GEMINI MK-1 Bulwark Package,965,implant,[pri],implant[pri]244,endurance,430,244
+GEMINI MK-1 Bulwark Package,965,implant,[sec],implant[sec]244,absorption,177,244
+GEMINI MK-1 Bulwark Package,965,implant,[tert],implant[tert]244,defense,205,244
+GEMINI MK-1 Bulwark Package,965,implant,[quat],implant[quat]244,mastery,363,244
+GEMINI MK-1 Initiative Device,1032,ear,[pri],ear[pri]244,endurance,504,244
+GEMINI MK-1 Initiative Device,1032,ear,[sec],ear[sec]244,mastery,463,244
+GEMINI MK-1 Initiative Device,1032,ear,[tert],ear[tert]244,power,253,244
+GEMINI MK-1 Initiative Device,1032,ear,[quat],ear[quat]244,accuracy,215,244
+GEMINI MK-1 Initiative Package,1033,implant,[pri],implant[pri]244,endurance,504,244
+GEMINI MK-1 Initiative Package,1033,implant,[sec],implant[sec]244,mastery,463,244
+GEMINI MK-1 Initiative Package,1033,implant,[tert],implant[tert]244,power,253,244
+GEMINI MK-1 Initiative Package,1033,implant,[quat],implant[quat]244,accuracy,215,244
+GEMINI MK-1 Quick Savant Device,1034,ear,[pri],ear[pri]244,endurance,504,244
+GEMINI MK-1 Quick Savant Device,1034,ear,[sec],ear[sec]244,mastery,463,244
+GEMINI MK-1 Quick Savant Device,1034,ear,[tert],ear[tert]244,power,253,244
+GEMINI MK-1 Quick Savant Device,1034,ear,[quat],ear[quat]244,alacrity,215,244
+GEMINI MK-1 Quick Savant Package,1035,implant,[pri],implant[pri]244,endurance,504,244
+GEMINI MK-1 Quick Savant Package,1035,implant,[sec],implant[sec]244,mastery,463,244
+GEMINI MK-1 Quick Savant Package,1035,implant,[tert],implant[tert]244,power,253,244
+GEMINI MK-1 Quick Savant Package,1035,implant,[quat],implant[quat]244,alacrity,215,244
+GEMINI MK-2 Adept Device,1097,ear,[pri],ear[pri]244,endurance,504,244
+GEMINI MK-2 Adept Device,1097,ear,[sec],ear[sec]244,mastery,463,244
+GEMINI MK-2 Adept Device,1097,ear,[tert],ear[tert]244,power,253,244
+GEMINI MK-2 Adept Device,1097,ear,[quat],ear[quat]244,crit,215,244
+GEMINI MK-2 Adept Package,1098,implant,[pri],implant[pri]244,endurance,504,244
+GEMINI MK-2 Adept Package,1098,implant,[sec],implant[sec]244,mastery,463,244
+GEMINI MK-2 Adept Package,1098,implant,[tert],implant[tert]244,power,253,244
+GEMINI MK-2 Adept Package,1098,implant,[quat],implant[quat]244,crit,215,244
+GEMINI MK-2 Bastion Device,1099,ear,[pri],ear[pri]244,endurance,527,244
+GEMINI MK-2 Bastion Device,1099,ear,[sec],ear[sec]244,shield,215,244
+GEMINI MK-2 Bastion Device,1099,ear,[tert],ear[tert]244,defense,253,244
+GEMINI MK-2 Bastion Device,1099,ear,[quat],ear[quat]244,mastery,441,244
+GEMINI MK-2 Bastion Package,1100,implant,[pri],implant[pri]244,endurance,527,244
+GEMINI MK-2 Bastion Package,1100,implant,[sec],implant[sec]244,shield,215,244
+GEMINI MK-2 Bastion Package,1100,implant,[tert],implant[tert]244,defense,253,244
+GEMINI MK-2 Bastion Package,1100,implant,[quat],implant[quat]244,mastery,441,244
+GEMINI MK-2 Bulwark Device,1101,ear,[pri],ear[pri]244,endurance,430,244
+GEMINI MK-2 Bulwark Device,1101,ear,[sec],ear[sec]244,absorption,177,244
+GEMINI MK-2 Bulwark Device,1101,ear,[tert],ear[tert]244,defense,205,244
+GEMINI MK-2 Bulwark Device,1101,ear,[quat],ear[quat]244,mastery,363,244
+GEMINI MK-2 Bulwark Package,1102,implant,[pri],implant[pri]244,endurance,430,244
+GEMINI MK-2 Bulwark Package,1102,implant,[sec],implant[sec]244,absorption,177,244
+GEMINI MK-2 Bulwark Package,1102,implant,[tert],implant[tert]244,defense,205,244
+GEMINI MK-2 Bulwark Package,1102,implant,[quat],implant[quat]244,mastery,363,244
+GEMINI MK-2 Initiative Device,1169,ear,[pri],ear[pri]244,endurance,504,244
+GEMINI MK-2 Initiative Device,1169,ear,[sec],ear[sec]244,mastery,463,244
+GEMINI MK-2 Initiative Device,1169,ear,[tert],ear[tert]244,power,253,244
+GEMINI MK-2 Initiative Device,1169,ear,[quat],ear[quat]244,accuracy,215,244
+GEMINI MK-2 Initiative Package,1170,implant,[pri],implant[pri]244,endurance,504,244
+GEMINI MK-2 Initiative Package,1170,implant,[sec],implant[sec]244,mastery,463,244
+GEMINI MK-2 Initiative Package,1170,implant,[tert],implant[tert]244,power,253,244
+GEMINI MK-2 Initiative Package,1170,implant,[quat],implant[quat]244,accuracy,215,244
+GEMINI MK-2 Quick Savant Device,1171,ear,[pri],ear[pri]244,endurance,504,244
+GEMINI MK-2 Quick Savant Device,1171,ear,[sec],ear[sec]244,mastery,463,244
+GEMINI MK-2 Quick Savant Device,1171,ear,[tert],ear[tert]244,power,253,244
+GEMINI MK-2 Quick Savant Device,1171,ear,[quat],ear[quat]244,alacrity,215,244
+GEMINI MK-2 Quick Savant Package,1172,implant,[pri],implant[pri]244,endurance,504,244
+GEMINI MK-2 Quick Savant Package,1172,implant,[sec],implant[sec]244,mastery,463,244
+GEMINI MK-2 Quick Savant Package,1172,implant,[tert],implant[tert]244,power,253,244
+GEMINI MK-2 Quick Savant Package,1172,implant,[quat],implant[quat]244,alacrity,215,244
+GEMINI MK-2 Relic of Boundless Ages,1173,relic,[pri],relic[pri]244,endurance,257,244
+GEMINI MK-2 Relic of Boundless Ages,1173,relic,[sec],relic[sec]244,power,102,244
+GEMINI MK-2 Relic of Devastating Vengeance,1174,relic,[pri],relic[pri]244,endurance,257,244
+GEMINI MK-2 Relic of Devastating Vengeance,1174,relic,[sec],relic[sec]244,power,102,244
+GEMINI MK-2 Relic of Ephemeral Mending,1175,relic,[pri],relic[pri]244,endurance,257,244
+GEMINI MK-2 Relic of Ephemeral Mending,1175,relic,[sec],relic[sec]244,power,102,244
+GEMINI MK-2 Relic of Focused Retribution,1176,relic,[pri],relic[pri]244,endurance,257,244
+GEMINI MK-2 Relic of Focused Retribution,1176,relic,[sec],relic[sec]244,power,102,244
+GEMINI MK-2 Relic of Imperiling Serenity,1177,relic,[pri],relic[pri]244,mastery,257,244
+GEMINI MK-2 Relic of Imperiling Serenity,1177,relic,[sec],relic[sec]244,defense,102,244
+GEMINI MK-2 Relic of Reactive Warding,1178,relic,[pri],relic[pri]244,mastery,257,244
+GEMINI MK-2 Relic of Reactive Warding,1178,relic,[sec],relic[sec]244,defense,102,244
+GEMINI MK-2 Relic of Serendipitous Assault,1179,relic,[pri],relic[pri]244,endurance,257,244
+GEMINI MK-2 Relic of Serendipitous Assault,1179,relic,[sec],relic[sec]244,power,102,244
+GEMINI MK-2 Relic of Shield Amplification,1180,relic,[pri],relic[pri]244,mastery,257,244
+GEMINI MK-2 Relic of Shield Amplification,1180,relic,[sec],relic[sec]244,defense,102,244
+GEMINI MK-2 Relic of the Fortunate Redoubt,1181,relic,[pri],relic[pri]244,mastery,257,244
+GEMINI MK-2 Relic of the Fortunate Redoubt,1181,relic,[sec],relic[sec]244,defense,102,244
+GEMINI MK-2 Relic of the Primeval Fatesealer,1182,relic,[pri],relic[pri]244,endurance,257,244
+GEMINI MK-2 Relic of the Primeval Fatesealer,1182,relic,[sec],relic[sec]244,power,102,244
+GEMINI MK-2 Relic of the Shrouded Crusader,1183,relic,[pri],relic[pri]244,endurance,257,244
+GEMINI MK-2 Relic of the Shrouded Crusader,1183,relic,[sec],relic[sec]244,power,102,244
+GEMINI MK-3 Adept Device,1234,ear,[pri],ear[pri]246,endurance,504,246
+GEMINI MK-3 Adept Device,1234,ear,[sec],ear[sec]246,power,463,246
+GEMINI MK-3 Adept Device,1234,ear,[tert],ear[tert]246,power,253,246
+GEMINI MK-3 Adept Device,1234,ear,[quat],ear[quat]246,crit,215,246
+GEMINI MK-3 Adept Package,1235,implant,[pri],implant[pri]246,endurance,504,246
+GEMINI MK-3 Adept Package,1235,implant,[sec],implant[sec]246,mastery,463,246
+GEMINI MK-3 Adept Package,1235,implant,[tert],implant[tert]246,power,253,246
+GEMINI MK-3 Adept Package,1235,implant,[quat],implant[quat]246,crit,215,246
+GEMINI MK-3 Bastion Device,1236,ear,[pri],ear[pri]246,endurance,524,246
+GEMINI MK-3 Bastion Device,1236,ear,[sec],ear[sec]246,shield,220,246
+GEMINI MK-3 Bastion Device,1236,ear,[tert],ear[tert]246,defense,323,246
+GEMINI MK-3 Bastion Device,1236,ear,[quat],ear[quat]246,mastery,416,246
+GEMINI MK-3 Bastion Package,1237,implant,[pri],implant[pri]246,endurance,524,246
+GEMINI MK-3 Bastion Package,1237,implant,[sec],implant[sec]246,shield,220,246
+GEMINI MK-3 Bastion Package,1237,implant,[tert],implant[tert]246,defense,323,246
+GEMINI MK-3 Bastion Package,1237,implant,[quat],implant[quat]246,mastery,416,246
+GEMINI MK-3 Bulwark Device,1238,ear,[pri],ear[pri]246,endurance,430,246
+GEMINI MK-3 Bulwark Device,1238,ear,[sec],ear[sec]246,absorption,177,246
+GEMINI MK-3 Bulwark Device,1238,ear,[tert],ear[tert]246,defense,205,246
+GEMINI MK-3 Bulwark Device,1238,ear,[quat],ear[quat]246,mastery,363,246
+GEMINI MK-3 Bulwark Package,1239,implant,[pri],implant[pri]246,endurance,430,246
+GEMINI MK-3 Bulwark Package,1239,implant,[sec],implant[sec]246,absorption,177,246
+GEMINI MK-3 Bulwark Package,1239,implant,[tert],implant[tert]246,defense,205,246
+GEMINI MK-3 Bulwark Package,1239,implant,[quat],implant[quat]246,mastery,363,246
+GEMINI MK-3 Initiative Device,1306,ear,[pri],ear[pri]246,endurance,504,246
+GEMINI MK-3 Initiative Device,1306,ear,[sec],ear[sec]246,mastery,463,246
+GEMINI MK-3 Initiative Device,1306,ear,[tert],ear[tert]246,power,253,246
+GEMINI MK-3 Initiative Device,1306,ear,[quat],ear[quat]246,accuracy,215,246
+GEMINI MK-3 Initiative Package,1307,implant,[pri],implant[pri]246,endurance,504,246
+GEMINI MK-3 Initiative Package,1307,implant,[sec],implant[sec]246,mastery,463,246
+GEMINI MK-3 Initiative Package,1307,implant,[tert],implant[tert]246,power,253,246
+GEMINI MK-3 Initiative Package,1307,implant,[quat],implant[quat]246,accuracy,215,246
+GEMINI MK-3 Quick Savant Device,1308,ear,[pri],ear[pri]246,endurance,504,246
+GEMINI MK-3 Quick Savant Device,1308,ear,[sec],ear[sec]246,mastery,463,246
+GEMINI MK-3 Quick Savant Device,1308,ear,[tert],ear[tert]246,power,253,246
+GEMINI MK-3 Quick Savant Device,1308,ear,[quat],ear[quat]246,alacrity,215,246
+GEMINI MK-3 Quick Savant Package,1309,implant,[pri],implant[pri]246,endurance,504,246
+GEMINI MK-3 Quick Savant Package,1309,implant,[sec],implant[sec]246,mastery,463,246
+GEMINI MK-3 Quick Savant Package,1309,implant,[tert],implant[tert]246,power,253,246
+GEMINI MK-3 Quick Savant Package,1309,implant,[quat],implant[quat]246,alacrity,215,246
+GEMINI MK-3 Relic of Boundless Ages,1310,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of Boundless Ages,1310,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of Boundless Ages,1310,relic,[tert],relic[tert]246,crit,62,246
+GEMINI MK-3 Relic of Devastating Vengeance,1311,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of Devastating Vengeance,1311,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of Devastating Vengeance,1311,relic,[tert],relic[tert]246,crit,62,246
+GEMINI MK-3 Relic of Ephemeral Mending,1312,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of Ephemeral Mending,1312,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of Ephemeral Mending,1312,relic,[tert],relic[tert]246,crit,62,246
+GEMINI MK-3 Relic of Focused Retribution,1313,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of Focused Retribution,1313,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of Focused Retribution,1313,relic,[tert],relic[tert]246,crit,62,246
+GEMINI MK-3 Relic of Imperiling Serenity,1314,relic,[pri],relic[pri]246,mastery,242,246
+GEMINI MK-3 Relic of Imperiling Serenity,1314,relic,[sec],relic[sec]246,defense,104,246
+GEMINI MK-3 Relic of Imperiling Serenity,1314,relic,[tert],relic[tert]246,shield,62,246
+GEMINI MK-3 Relic of Reactive Warding,1315,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of Reactive Warding,1315,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of Reactive Warding,1315,relic,[tert],relic[tert]246,crit,62,246
+GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[pri],relic[pri]246,mastery,242,246
+GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[sec],relic[sec]246,defense,104,246
+GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[tert],relic[tert]246,shield,62,246
+GEMINI MK-3 Relic of Shield Amplification,1317,relic,[pri],relic[pri]246,mastery,242,246
+GEMINI MK-3 Relic of Shield Amplification,1317,relic,[sec],relic[sec]246,defense,104,246
+GEMINI MK-3 Relic of Shield Amplification,1317,relic,[tert],relic[tert]246,shield,62,246
+GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[tert],relic[tert]246,crit,62,246
+GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[pri],relic[pri]246,mastery,242,246
+GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[sec],relic[sec]246,defense,104,246
+GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[tert],relic[tert]246,shield,62,246
+GEMINI MK-3 Relic of the Shrouded Crusader,1320,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of the Shrouded Crusader,1320,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of the Shrouded Crusader,1320,relic,[tert],relic[tert]246,crit,62,246
+GEMINI MK-5 Adept Device,1371,ear,[pri],ear[pri]248,endurance,526,248
+GEMINI MK-5 Adept Device,1371,ear,[sec],ear[sec]248,power,459,248
+GEMINI MK-5 Adept Device,1371,ear,[tert],ear[tert]248,crit,339,248
+GEMINI MK-5 Adept Device,1371,ear,[quat],ear[quat]248,crit,231,248
+GEMINI MK-5 Adept Package,1372,implant,[pri],implant[pri]248,endurance,526,248
+GEMINI MK-5 Adept Package,1372,implant,[sec],implant[sec]248,mastery,459,248
+GEMINI MK-5 Adept Package,1372,implant,[tert],implant[tert]248,power,339,248
+GEMINI MK-5 Adept Package,1372,implant,[quat],implant[quat]248,crit,231,248
+GEMINI MK-5 Bastion Device,1373,ear,[pri],ear[pri]248,endurance,550,248
+GEMINI MK-5 Bastion Device,1373,ear,[sec],ear[sec]248,shield,231,248
+GEMINI MK-5 Bastion Device,1373,ear,[tert],ear[tert]248,defense,339,248
+GEMINI MK-5 Bastion Device,1373,ear,[quat],ear[quat]248,mastery,436,248
+GEMINI MK-5 Bastion Package,1374,implant,[pri],implant[pri]248,endurance,550,248
+GEMINI MK-5 Bastion Package,1374,implant,[sec],implant[sec]248,shield,231,248
+GEMINI MK-5 Bastion Package,1374,implant,[tert],implant[tert]248,defense,339,248
+GEMINI MK-5 Bastion Package,1374,implant,[quat],implant[quat]248,mastery,436,248
+GEMINI MK-5 Bulwark Device,1375,ear,[pri],ear[pri]248,endurance,430,248
+GEMINI MK-5 Bulwark Device,1375,ear,[sec],ear[sec]248,absorption,177,248
+GEMINI MK-5 Bulwark Device,1375,ear,[tert],ear[tert]248,defense,205,248
+GEMINI MK-5 Bulwark Device,1375,ear,[quat],ear[quat]248,mastery,363,248
+GEMINI MK-5 Bulwark Package,1376,implant,[pri],implant[pri]248,endurance,430,248
+GEMINI MK-5 Bulwark Package,1376,implant,[sec],implant[sec]248,absorption,177,248
+GEMINI MK-5 Bulwark Package,1376,implant,[tert],implant[tert]248,defense,205,248
+GEMINI MK-5 Bulwark Package,1376,implant,[quat],implant[quat]248,mastery,363,248
+GEMINI MK-5 Initiative Device,1443,ear,[pri],ear[pri]248,endurance,526,248
+GEMINI MK-5 Initiative Device,1443,ear,[sec],ear[sec]248,mastery,459,248
+GEMINI MK-5 Initiative Device,1443,ear,[tert],ear[tert]248,power,339,248
+GEMINI MK-5 Initiative Device,1443,ear,[quat],ear[quat]248,accuracy,231,248
+GEMINI MK-5 Initiative Package,1444,implant,[pri],implant[pri]248,endurance,526,248
+GEMINI MK-5 Initiative Package,1444,implant,[sec],implant[sec]248,mastery,459,248
+GEMINI MK-5 Initiative Package,1444,implant,[tert],implant[tert]248,power,339,248
+GEMINI MK-5 Initiative Package,1444,implant,[quat],implant[quat]248,accuracy,231,248
+GEMINI MK-5 Quick Savant Device,1445,ear,[pri],ear[pri]248,endurance,526,248
+GEMINI MK-5 Quick Savant Device,1445,ear,[sec],ear[sec]248,mastery,459,248
+GEMINI MK-5 Quick Savant Device,1445,ear,[tert],ear[tert]248,power,339,248
+GEMINI MK-5 Quick Savant Device,1445,ear,[quat],ear[quat]248,alacrity,231,248
+GEMINI MK-5 Quick Savant Package,1446,implant,[pri],implant[pri]248,endurance,526,248
+GEMINI MK-5 Quick Savant Package,1446,implant,[sec],implant[sec]248,mastery,459,248
+GEMINI MK-5 Quick Savant Package,1446,implant,[tert],implant[tert]248,power,339,248
+GEMINI MK-5 Quick Savant Package,1446,implant,[quat],implant[quat]248,alacrity,231,248
+GEMINI MK-5 Relic of Boundless Ages,1447,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of Boundless Ages,1447,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of Boundless Ages,1447,relic,[tert],relic[tert]248,crit,66,248
+GEMINI MK-5 Relic of Devastating Vengeance,1448,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of Devastating Vengeance,1448,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of Devastating Vengeance,1448,relic,[tert],relic[tert]248,crit,66,248
+GEMINI MK-5 Relic of Ephemeral Mending,1449,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of Ephemeral Mending,1449,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of Ephemeral Mending,1449,relic,[tert],relic[tert]248,crit,66,248
+GEMINI MK-5 Relic of Focused Retribution,1450,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of Focused Retribution,1450,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of Focused Retribution,1450,relic,[tert],relic[tert]248,crit,66,248
+GEMINI MK-5 Relic of Imperiling Serenity,1451,relic,[pri],relic[pri]248,mastery,254,248
+GEMINI MK-5 Relic of Imperiling Serenity,1451,relic,[sec],relic[sec]248,defense,110,248
+GEMINI MK-5 Relic of Imperiling Serenity,1451,relic,[tert],relic[tert]248,shield,66,248
+GEMINI MK-5 Relic of Reactive Warding,1452,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of Reactive Warding,1452,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of Reactive Warding,1452,relic,[tert],relic[tert]248,crit,66,248
+GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[pri],relic[pri]248,mastery,254,248
+GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[sec],relic[sec]248,defense,110,248
+GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[tert],relic[tert]248,shield,66,248
+GEMINI MK-5 Relic of Shield Amplification,1454,relic,[pri],relic[pri]248,mastery,254,248
+GEMINI MK-5 Relic of Shield Amplification,1454,relic,[sec],relic[sec]248,defense,110,248
+GEMINI MK-5 Relic of Shield Amplification,1454,relic,[tert],relic[tert]248,shield,66,248
+GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[tert],relic[tert]248,crit,66,248
+GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[pri],relic[pri]248,mastery,254,248
+GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[sec],relic[sec]248,defense,110,248
+GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[tert],relic[tert]248,shield,66,248
+GEMINI MK-5 Relic of the Shrouded Crusader,1457,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of the Shrouded Crusader,1457,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of the Shrouded Crusader,1457,relic,[tert],relic[tert]248,crit,66,248
+Iokath MK-1 Adept Device,1508,ear,[pri],ear[pri]238,endurance,467,238
+Iokath MK-1 Adept Device,1508,ear,[sec],ear[sec]238,power,431,238
+Iokath MK-1 Adept Device,1508,ear,[tert],ear[tert]238,crit,234,238
+Iokath MK-1 Adept Device,1508,ear,[quat],ear[quat]238,crit,200,238
+Iokath MK-1 Adept Package,1509,implant,[pri],implant[pri]238,endurance,467,238
+Iokath MK-1 Adept Package,1509,implant,[sec],implant[sec]238,mastery,431,238
+Iokath MK-1 Adept Package,1509,implant,[tert],implant[tert]238,power,234,238
+Iokath MK-1 Adept Package,1509,implant,[quat],implant[quat]238,crit,200,238
+Iokath MK-1 Bastion Device,1510,ear,[pri],ear[pri]238,endurance,488,238
+Iokath MK-1 Bastion Device,1510,ear,[sec],ear[sec]238,shield,200,238
+Iokath MK-1 Bastion Device,1510,ear,[tert],ear[tert]238,defense,234,238
+Iokath MK-1 Bastion Device,1510,ear,[quat],ear[quat]238,mastery,410,238
+Iokath MK-1 Bastion Package,1511,implant,[pri],implant[pri]238,endurance,488,238
+Iokath MK-1 Bastion Package,1511,implant,[sec],implant[sec]238,shield,200,238
+Iokath MK-1 Bastion Package,1511,implant,[tert],implant[tert]238,defense,234,238
+Iokath MK-1 Bastion Package,1511,implant,[quat],implant[quat]238,mastery,410,238
+Iokath MK-1 Bulwark Device,1512,ear,[pri],ear[pri]238,endurance,430,238
+Iokath MK-1 Bulwark Device,1512,ear,[sec],ear[sec]238,absorption,177,238
+Iokath MK-1 Bulwark Device,1512,ear,[tert],ear[tert]238,defense,205,238
+Iokath MK-1 Bulwark Device,1512,ear,[quat],ear[quat]238,mastery,363,238
+Iokath MK-1 Bulwark Package,1513,implant,[pri],implant[pri]238,endurance,430,238
+Iokath MK-1 Bulwark Package,1513,implant,[sec],implant[sec]238,absorption,177,238
+Iokath MK-1 Bulwark Package,1513,implant,[tert],implant[tert]238,defense,205,238
+Iokath MK-1 Bulwark Package,1513,implant,[quat],implant[quat]238,mastery,363,238
+Iokath MK-1 Initiative Device,1580,ear,[pri],ear[pri]238,endurance,467,238
+Iokath MK-1 Initiative Device,1580,ear,[sec],ear[sec]238,mastery,431,238
+Iokath MK-1 Initiative Device,1580,ear,[tert],ear[tert]238,power,234,238
+Iokath MK-1 Initiative Device,1580,ear,[quat],ear[quat]238,accuracy,200,238
+Iokath MK-1 Initiative Package,1581,implant,[pri],implant[pri]238,endurance,467,238
+Iokath MK-1 Initiative Package,1581,implant,[sec],implant[sec]238,mastery,431,238
+Iokath MK-1 Initiative Package,1581,implant,[tert],implant[tert]238,power,234,238
+Iokath MK-1 Initiative Package,1581,implant,[quat],implant[quat]238,accuracy,200,238
+Iokath MK-1 Quick Savant Device,1582,ear,[pri],ear[pri]238,endurance,467,238
+Iokath MK-1 Quick Savant Device,1582,ear,[sec],ear[sec]238,mastery,431,238
+Iokath MK-1 Quick Savant Device,1582,ear,[tert],ear[tert]238,power,234,238
+Iokath MK-1 Quick Savant Device,1582,ear,[quat],ear[quat]238,alacrity,200,238
+Iokath MK-1 Quick Savant Package,1583,implant,[pri],implant[pri]238,endurance,467,238
+Iokath MK-1 Quick Savant Package,1583,implant,[sec],implant[sec]238,mastery,431,238
+Iokath MK-1 Quick Savant Package,1583,implant,[tert],implant[tert]238,power,234,238
+Iokath MK-1 Quick Savant Package,1583,implant,[quat],implant[quat]238,alacrity,200,238
+Iokath MK-2 Adept Device,1645,ear,[pri],ear[pri]240,endurance,444,240
+Iokath MK-2 Adept Device,1645,ear,[sec],ear[sec]240,mastery,410,240
+Iokath MK-2 Adept Device,1645,ear,[tert],ear[tert]240,power,221,240
+Iokath MK-2 Adept Device,1645,ear,[quat],ear[quat]240,crit,190,240
+Iokath MK-2 Adept Package,1646,implant,[pri],implant[pri]240,endurance,444,240
+Iokath MK-2 Adept Package,1646,implant,[sec],implant[sec]240,mastery,410,240
+Iokath MK-2 Adept Package,1646,implant,[tert],implant[tert]240,power,221,240
+Iokath MK-2 Adept Package,1646,implant,[quat],implant[quat]240,crit,190,240
+Iokath MK-2 Bastion Device,1647,ear,[pri],ear[pri]240,endurance,501,240
+Iokath MK-2 Bastion Device,1647,ear,[sec],ear[sec]240,shield,205,240
+Iokath MK-2 Bastion Device,1647,ear,[tert],ear[tert]240,defense,239,240
+Iokath MK-2 Bastion Device,1647,ear,[quat],ear[quat]240,mastery,420,240
+Iokath MK-2 Bastion Package,1648,implant,[pri],implant[pri]240,endurance,501,240
+Iokath MK-2 Bastion Package,1648,implant,[sec],implant[sec]240,shield,205,240
+Iokath MK-2 Bastion Package,1648,implant,[tert],implant[tert]240,defense,239,240
+Iokath MK-2 Bastion Package,1648,implant,[quat],implant[quat]240,mastery,420,240
+Iokath MK-2 Bulwark Device,1649,ear,[pri],ear[pri]240,endurance,430,240
+Iokath MK-2 Bulwark Device,1649,ear,[sec],ear[sec]240,absorption,177,240
+Iokath MK-2 Bulwark Device,1649,ear,[tert],ear[tert]240,defense,205,240
+Iokath MK-2 Bulwark Device,1649,ear,[quat],ear[quat]240,mastery,363,240
+Iokath MK-2 Bulwark Package,1650,implant,[pri],implant[pri]240,endurance,430,240
+Iokath MK-2 Bulwark Package,1650,implant,[sec],implant[sec]240,absorption,177,240
+Iokath MK-2 Bulwark Package,1650,implant,[tert],implant[tert]240,defense,205,240
+Iokath MK-2 Bulwark Package,1650,implant,[quat],implant[quat]240,mastery,363,240
+Iokath MK-2 Initiative Device,1717,ear,[pri],ear[pri]240,endurance,444,240
+Iokath MK-2 Initiative Device,1717,ear,[sec],ear[sec]240,mastery,410,240
+Iokath MK-2 Initiative Device,1717,ear,[tert],ear[tert]240,power,221,240
+Iokath MK-2 Initiative Device,1717,ear,[quat],ear[quat]240,accuracy,190,240
+Iokath MK-2 Initiative Package,1718,implant,[pri],implant[pri]240,endurance,444,240
+Iokath MK-2 Initiative Package,1718,implant,[sec],implant[sec]240,mastery,410,240
+Iokath MK-2 Initiative Package,1718,implant,[tert],implant[tert]240,power,221,240
+Iokath MK-2 Initiative Package,1718,implant,[quat],implant[quat]240,accuracy,190,240
+Iokath MK-2 Quick Savant Device,1719,ear,[pri],ear[pri]240,endurance,444,240
+Iokath MK-2 Quick Savant Device,1719,ear,[sec],ear[sec]240,mastery,410,240
+Iokath MK-2 Quick Savant Device,1719,ear,[tert],ear[tert]240,power,221,240
+Iokath MK-2 Quick Savant Device,1719,ear,[quat],ear[quat]240,alacrity,190,240
+Iokath MK-2 Quick Savant Package,1720,implant,[pri],implant[pri]240,endurance,444,240
+Iokath MK-2 Quick Savant Package,1720,implant,[sec],implant[sec]240,mastery,410,240
+Iokath MK-2 Quick Savant Package,1720,implant,[tert],implant[tert]240,power,221,240
+Iokath MK-2 Quick Savant Package,1720,implant,[quat],implant[quat]240,alacrity,190,240
+Iokath MK-3 Adept Device,1782,ear,[pri],ear[pri]240,endurance,444,240
+Iokath MK-3 Adept Device,1782,ear,[sec],ear[sec]240,mastery,410,240
+Iokath MK-3 Adept Device,1782,ear,[tert],ear[tert]240,power,221,240
+Iokath MK-3 Adept Device,1782,ear,[quat],ear[quat]240,crit,190,240
+Iokath MK-3 Adept Package,1783,implant,[pri],implant[pri]240,endurance,444,240
+Iokath MK-3 Adept Package,1783,implant,[sec],implant[sec]240,mastery,410,240
+Iokath MK-3 Adept Package,1783,implant,[tert],implant[tert]240,power,221,240
+Iokath MK-3 Adept Package,1783,implant,[quat],implant[quat]240,crit,190,240
+Iokath MK-3 Bastion Device,1784,ear,[pri],ear[pri]240,endurance,487,240
+Iokath MK-3 Bastion Device,1784,ear,[sec],ear[sec]240,shield,205,240
+Iokath MK-3 Bastion Device,1784,ear,[tert],ear[tert]240,defense,300,240
+Iokath MK-3 Bastion Device,1784,ear,[quat],ear[quat]240,mastery,387,240
+Iokath MK-3 Bastion Package,1785,implant,[pri],implant[pri]240,endurance,487,240
+Iokath MK-3 Bastion Package,1785,implant,[sec],implant[sec]240,shield,205,240
+Iokath MK-3 Bastion Package,1785,implant,[tert],implant[tert]240,defense,300,240
+Iokath MK-3 Bastion Package,1785,implant,[quat],implant[quat]240,mastery,387,240
+Iokath MK-3 Bulwark Device,1786,ear,[pri],ear[pri]240,endurance,430,240
+Iokath MK-3 Bulwark Device,1786,ear,[sec],ear[sec]240,absorption,177,240
+Iokath MK-3 Bulwark Device,1786,ear,[tert],ear[tert]240,defense,205,240
+Iokath MK-3 Bulwark Device,1786,ear,[quat],ear[quat]240,mastery,363,240
+Iokath MK-3 Bulwark Package,1787,implant,[pri],implant[pri]240,endurance,430,240
+Iokath MK-3 Bulwark Package,1787,implant,[sec],implant[sec]240,absorption,177,240
+Iokath MK-3 Bulwark Package,1787,implant,[tert],implant[tert]240,defense,205,240
+Iokath MK-3 Bulwark Package,1787,implant,[quat],implant[quat]240,mastery,363,240
+Iokath MK-3 Initiative Device,1854,ear,[pri],ear[pri]240,endurance,444,240
+Iokath MK-3 Initiative Device,1854,ear,[sec],ear[sec]240,mastery,410,240
+Iokath MK-3 Initiative Device,1854,ear,[tert],ear[tert]240,power,221,240
+Iokath MK-3 Initiative Device,1854,ear,[quat],ear[quat]240,accuracy,190,240
+Iokath MK-3 Initiative Package,1855,implant,[pri],implant[pri]240,endurance,444,240
+Iokath MK-3 Initiative Package,1855,implant,[sec],implant[sec]240,mastery,410,240
+Iokath MK-3 Initiative Package,1855,implant,[tert],implant[tert]240,power,221,240
+Iokath MK-3 Initiative Package,1855,implant,[quat],implant[quat]240,accuracy,190,240
+Iokath MK-3 Quick Savant Device,1856,ear,[pri],ear[pri]240,endurance,444,240
+Iokath MK-3 Quick Savant Device,1856,ear,[sec],ear[sec]240,mastery,410,240
+Iokath MK-3 Quick Savant Device,1856,ear,[tert],ear[tert]240,power,221,240
+Iokath MK-3 Quick Savant Device,1856,ear,[quat],ear[quat]240,alacrity,190,240
+Iokath MK-3 Quick Savant Package,1857,implant,[pri],implant[pri]240,endurance,444,240
+Iokath MK-3 Quick Savant Package,1857,implant,[sec],implant[sec]240,mastery,410,240
+Iokath MK-3 Quick Savant Package,1857,implant,[tert],implant[tert]240,power,221,240
+Iokath MK-3 Quick Savant Package,1857,implant,[quat],implant[quat]240,alacrity,190,240
+Iokath MK-3 Relic of Boundless Ages,1858,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of Boundless Ages,1858,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of Boundless Ages,1858,relic,[tert],relic[tert]240,crit,57,240
+Iokath MK-3 Relic of Devastating Vengeance,1859,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of Devastating Vengeance,1859,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of Devastating Vengeance,1859,relic,[tert],relic[tert]240,crit,57,240
+Iokath MK-3 Relic of Ephemeral Mending,1860,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of Ephemeral Mending,1860,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of Ephemeral Mending,1860,relic,[tert],relic[tert]240,crit,57,240
+Iokath MK-3 Relic of Focused Retribution,1861,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of Focused Retribution,1861,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of Focused Retribution,1861,relic,[tert],relic[tert]240,crit,57,240
+Iokath MK-3 Relic of Imperiling Serenity,1862,relic,[pri],relic[pri]240,mastery,226,240
+Iokath MK-3 Relic of Imperiling Serenity,1862,relic,[sec],relic[sec]240,defense,96,240
+Iokath MK-3 Relic of Imperiling Serenity,1862,relic,[tert],relic[tert]240,shield,57,240
+Iokath MK-3 Relic of Reactive Warding,1863,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of Reactive Warding,1863,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of Reactive Warding,1863,relic,[tert],relic[tert]240,crit,57,240
+Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[pri],relic[pri]240,mastery,226,240
+Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[sec],relic[sec]240,defense,96,240
+Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[tert],relic[tert]240,shield,57,240
+Iokath MK-3 Relic of Shield Amplification,1865,relic,[pri],relic[pri]240,mastery,226,240
+Iokath MK-3 Relic of Shield Amplification,1865,relic,[sec],relic[sec]240,defense,96,240
+Iokath MK-3 Relic of Shield Amplification,1865,relic,[tert],relic[tert]240,shield,57,240
+Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[tert],relic[tert]240,crit,57,240
+Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[pri],relic[pri]240,mastery,226,240
+Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[sec],relic[sec]240,defense,96,240
+Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[tert],relic[tert]240,shield,57,240
+Iokath MK-3 Relic of the Shrouded Crusader,1868,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of the Shrouded Crusader,1868,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of the Shrouded Crusader,1868,relic,[tert],relic[tert]240,crit,57,240
+Iokath MK-5 Adept Device,1919,ear,[pri],ear[pri]242,endurance,454,242
+Iokath MK-5 Adept Device,1919,ear,[sec],ear[sec]242,power,398,242
+Iokath MK-5 Adept Device,1919,ear,[tert],ear[tert]242,crit,293,242
+Iokath MK-5 Adept Device,1919,ear,[quat],ear[quat]242,crit,200,242
+Iokath MK-5 Adept Package,1920,implant,[pri],implant[pri]242,endurance,454,242
+Iokath MK-5 Adept Package,1920,implant,[sec],implant[sec]242,mastery,398,242
+Iokath MK-5 Adept Package,1920,implant,[tert],implant[tert]242,power,293,242
+Iokath MK-5 Adept Package,1920,implant,[quat],implant[quat]242,crit,200,242
+Iokath MK-5 Bastion Device,1921,ear,[pri],ear[pri]242,endurance,513,242
+Iokath MK-5 Bastion Device,1921,ear,[sec],ear[sec]242,shield,215,242
+Iokath MK-5 Bastion Device,1921,ear,[tert],ear[tert]242,defense,316,242
+Iokath MK-5 Bastion Device,1921,ear,[quat],ear[quat]242,mastery,406,242
+Iokath MK-5 Bastion Package,1922,implant,[pri],implant[pri]242,endurance,513,242
+Iokath MK-5 Bastion Package,1922,implant,[sec],implant[sec]242,shield,215,242
+Iokath MK-5 Bastion Package,1922,implant,[tert],implant[tert]242,defense,316,242
+Iokath MK-5 Bastion Package,1922,implant,[quat],implant[quat]242,mastery,406,242
+Iokath MK-5 Bulwark Device,1923,ear,[pri],ear[pri]242,endurance,430,242
+Iokath MK-5 Bulwark Device,1923,ear,[sec],ear[sec]242,absorption,177,242
+Iokath MK-5 Bulwark Device,1923,ear,[tert],ear[tert]242,defense,205,242
+Iokath MK-5 Bulwark Device,1923,ear,[quat],ear[quat]242,mastery,363,242
+Iokath MK-5 Bulwark Package,1924,implant,[pri],implant[pri]242,endurance,430,242
+Iokath MK-5 Bulwark Package,1924,implant,[sec],implant[sec]242,absorption,177,242
+Iokath MK-5 Bulwark Package,1924,implant,[tert],implant[tert]242,defense,205,242
+Iokath MK-5 Bulwark Package,1924,implant,[quat],implant[quat]242,mastery,363,242
+Iokath MK-5 Initiative Device,1991,ear,[pri],ear[pri]242,endurance,454,242
+Iokath MK-5 Initiative Device,1991,ear,[sec],ear[sec]242,mastery,398,242
+Iokath MK-5 Initiative Device,1991,ear,[tert],ear[tert]242,power,293,242
+Iokath MK-5 Initiative Device,1991,ear,[quat],ear[quat]242,accuracy,200,242
+Iokath MK-5 Initiative Package,1992,implant,[pri],implant[pri]242,endurance,454,242
+Iokath MK-5 Initiative Package,1992,implant,[sec],implant[sec]242,mastery,398,242
+Iokath MK-5 Initiative Package,1992,implant,[tert],implant[tert]242,power,293,242
+Iokath MK-5 Initiative Package,1992,implant,[quat],implant[quat]242,accuracy,200,242
+Iokath MK-5 Quick Savant Device,1993,ear,[pri],ear[pri]242,endurance,454,242
+Iokath MK-5 Quick Savant Device,1993,ear,[sec],ear[sec]242,mastery,398,242
+Iokath MK-5 Quick Savant Device,1993,ear,[tert],ear[tert]242,power,293,242
+Iokath MK-5 Quick Savant Device,1993,ear,[quat],ear[quat]242,alacrity,200,242
+Iokath MK-5 Quick Savant Package,1994,implant,[pri],implant[pri]242,endurance,454,242
+Iokath MK-5 Quick Savant Package,1994,implant,[sec],implant[sec]242,mastery,398,242
+Iokath MK-5 Quick Savant Package,1994,implant,[tert],implant[tert]242,power,293,242
+Iokath MK-5 Quick Savant Package,1994,implant,[quat],implant[quat]242,alacrity,200,242
+Iokath MK-5 Relic of Boundless Ages,1995,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of Boundless Ages,1995,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of Boundless Ages,1995,relic,[tert],relic[tert]242,crit,60,242
+Iokath MK-5 Relic of Devastating Vengeance,1996,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of Devastating Vengeance,1996,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of Devastating Vengeance,1996,relic,[tert],relic[tert]242,crit,60,242
+Iokath MK-5 Relic of Ephemeral Mending,1997,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of Ephemeral Mending,1997,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of Ephemeral Mending,1997,relic,[tert],relic[tert]242,crit,60,242
+Iokath MK-5 Relic of Focused Retribution,1998,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of Focused Retribution,1998,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of Focused Retribution,1998,relic,[tert],relic[tert]242,crit,60,242
+Iokath MK-5 Relic of Imperiling Serenity,1999,relic,[pri],relic[pri]242,mastery,237,242
+Iokath MK-5 Relic of Imperiling Serenity,1999,relic,[sec],relic[sec]242,defense,102,242
+Iokath MK-5 Relic of Imperiling Serenity,1999,relic,[tert],relic[tert]242,shield,60,242
+Iokath MK-5 Relic of Reactive Warding,2000,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of Reactive Warding,2000,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of Reactive Warding,2000,relic,[tert],relic[tert]242,crit,60,242
+Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[pri],relic[pri]242,mastery,237,242
+Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[sec],relic[sec]242,defense,102,242
+Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[tert],relic[tert]242,shield,60,242
+Iokath MK-5 Relic of Shield Amplification,2002,relic,[pri],relic[pri]242,mastery,237,242
+Iokath MK-5 Relic of Shield Amplification,2002,relic,[sec],relic[sec]242,defense,102,242
+Iokath MK-5 Relic of Shield Amplification,2002,relic,[tert],relic[tert]242,shield,60,242
+Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[tert],relic[tert]242,crit,60,242
+Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[pri],relic[pri]242,mastery,237,242
+Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[sec],relic[sec]242,defense,102,242
+Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[tert],relic[tert]242,shield,60,242
+Iokath MK-5 Relic of the Shrouded Crusader,2005,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of the Shrouded Crusader,2005,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of the Shrouded Crusader,2005,relic,[tert],relic[tert]242,crit,60,242
