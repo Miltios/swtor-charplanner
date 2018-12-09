@@ -1,3 +1,5 @@
+<%@ page import="com.charplanner.swtor.*" %>
+
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="/swtor/styles/global.css">
@@ -196,6 +198,8 @@ function log(str)
     requireJs("/swtor/scripts/model/Item.js");
     requireJs("/swtor/scripts/model/ItemMod.js");
     requireJs("/swtor/scripts/model/Slot.js");
-    requireJs("/swtor/scripts/model/allItemData.js"); //TODO: temporary hard-code
+    //requireJs("/swtor/scripts/model/allItemData.js"); //TODO: temporary hard-code
+
+    let allItemData = <%= ItemManager.getItemsAsJson() %>;
 </script>
 </html>
