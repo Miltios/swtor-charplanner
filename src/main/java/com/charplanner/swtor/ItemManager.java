@@ -21,7 +21,6 @@ public class ItemManager
     private ItemManager(){}
     static
     {
-        System.out.println("ItemManager static block"); //TODO:DEBUG
         items = new HashMap<>();
         itemMods = new HashMap<>();
         updateItems();
@@ -33,7 +32,6 @@ public class ItemManager
     }
     public static void updateItems()
     {
-        System.out.println("updateItems()"); //TODO:DEBUG
         Connection c = ConnectionManager.getConnection();
         try
         {
@@ -76,7 +74,6 @@ public class ItemManager
     }
     public static void updateItemSpecs()
     {
-        System.out.println("updateItemSpecs()"); //TODO:DEBUG
         Connection c = ConnectionManager.getConnection();
         try
         {
@@ -88,7 +85,14 @@ public class ItemManager
                 {
                     int itemId = rs.getInt("ItemId");
                     Item i = items.get(itemId);
-                    i.addSpec(rs.getString("Spec"));
+                    if(i == null)
+                    {
+                        System.out.println("Item " + itemId + " is disabled.  Skipping..."); //TODO:DEBUG
+                    }
+                    else
+                    {
+                        i.addSpec(rs.getString("Spec"));
+                    }
                 }
             }
         }
@@ -100,7 +104,6 @@ public class ItemManager
     }
     public static void updateItemStats()
     {
-        System.out.println("updateItemStats()"); //TODO:DEBUG
         Connection c = ConnectionManager.getConnection();
         try
         {
@@ -112,7 +115,14 @@ public class ItemManager
                 {
                     int itemId = rs.getInt("ItemId");
                     Item i = items.get(itemId);
-                    i.setStat(rs.getString("StatName"), rs.getInt("StatValue"));
+                    if(i == null)
+                    {
+                        System.out.println("Item " + itemId + " is disabled.  Skipping..."); //TODO:DEBUG
+                    }
+                    else
+                    {
+                        i.setStat(rs.getString("StatName"), rs.getInt("StatValue"));
+                    }
                 }
             }
         }
@@ -125,7 +135,6 @@ public class ItemManager
     }
     public static void updateItemMods()
     {
-        System.out.println("updateItemMods()"); //TODO:DEBUG
         Connection c = ConnectionManager.getConnection();
         try
         {
@@ -156,7 +165,6 @@ public class ItemManager
     }
     public static void updateItemModStats()
     {
-        System.out.println("updateItemModStats()"); //TODO:DEBUG
         Connection c = ConnectionManager.getConnection();
         try
         {
@@ -181,7 +189,6 @@ public class ItemManager
     }
     public static void updateItemContents()
     {
-        System.out.println("updateItemContents()"); //TODO:DEBUG
         Connection c = ConnectionManager.getConnection();
         try
         {
@@ -195,8 +202,15 @@ public class ItemManager
                     int itemId = rs.getInt("ItemId");
                     int itemModId = rs.getInt("ItemModId");
                     Item i = items.get(itemId);
-                    ItemMod m = itemMods.get(itemModId);
-                    i.addItemContent(m);
+                    if(i == null)
+                    {
+                        System.out.println("Item " + itemId + " is disabled.  Skipping..."); //TODO:DEBUG
+                    }
+                    else
+                    {
+                        ItemMod m = itemMods.get(itemModId);
+                        i.addItemContent(m);
+                    }
                 }
             }
         }

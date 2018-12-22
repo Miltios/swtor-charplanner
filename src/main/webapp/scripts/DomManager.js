@@ -4,6 +4,8 @@ let DomManager = (function()
     {
         //declare vars
         this.itemPicker;
+        this.itemListGreen;
+        this.itemListBlue;
         this.itemListPurple;
         this.itemListGold;
     }
@@ -11,6 +13,8 @@ let DomManager = (function()
     {
         //locate DOM elements
         this.itemPicker = document.getElementById('itemPicker');
+        this.itemListGreen = document.getElementById('itemListGreen');
+        this.itemListBlue = document.getElementById('itemListBlue');
         this.itemListPurple = document.getElementById('itemListPurple');
         this.itemListGold = document.getElementById('itemListGold');
 
@@ -44,6 +48,12 @@ let DomManager = (function()
         color = color.toLowerCase();
         switch(color)
         {
+            case 'green':
+                return this.itemListGreen;
+                break;
+            case 'blue':
+                return this.itemListPurple;
+                break;
             case 'purple':
                 return this.itemListPurple;
                 break;

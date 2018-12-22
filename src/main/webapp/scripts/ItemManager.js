@@ -7,7 +7,7 @@ let ItemManager = (function()
     }
     ItemManager.prototype.init = function()
     {
-        this.populateItems(allItemData.items); //currently pulling from hard-coded JS.  AJAX from server when we have a DB?
+        this.populateItems(allItemData.items);
 
         log('ItemManager initialized.');
     };
@@ -20,26 +20,42 @@ let ItemManager = (function()
         }
         //TODO:ItemMods
     };
-    ItemManager.prototype.getItemsForSlot = function(slot)
+    ItemManager.prototype.getItemsForSlot = function(slotName)
     {
         let items = this.items.slice(); //shallow copy
-        items = items.filter(i => (i.slot === slot));
+        items = items.filter(i => (i.slot === slotName));
         return items;
     }
-    ItemManager.prototype.getItemsForSpecAndSlot = function(spec, slot)
+    ItemManager.prototype.getItemsForSpecAndSlot = function(spec, slotName)
     {
         let items = this.items.slice(); //shallow copy
-        items = items.filter(i => (i.slot === slot));
+        items = items.filter(i => (i.slot === slotName));
         if(spec === 'all')
         {
             return items;
         }
-        return items.filter(i => ((i.specs.indexOf(spec) !== -1) || (i.specs.indexOf('all') !== -1)));
+        let specRole = null;
+        if(spec.indexOf('Tank') !== -1)
+        {
+            specRole = 'allTank';
+        }
+        else if(spec.indexOf('Dps') !== -1)
+        {
+            specRole = 'allDps';
+        }
+        else if(spec.indexOf('Healer') !== -1)
+        {
+            specRole = 'allHealer';
+        }
+        return items.filter(i => ((i.specs.indexOf(spec) !== -1)
+            || (i.specs.indexOf('all') !== -1)
+            || (i.specs.indexOf('all') !== -1)
+            || (i.specs.indexOf(specRole) !== -1)));
     };
-    ItemManager.prototype.getItemsForClassAndSlot = function(classname, slot)
+    ItemManager.prototype.getItemsForClassAndSlot = function(classname, slotName)
     {
         let items = this.items.slice(); //shallow copy
-        items = items.filter(i => (i.slot === slot));
+        items = items.filter(i => (i.slot === slotName));
         if(classname === 'all');
         {
             return items;
@@ -48,31 +64,32 @@ let ItemManager = (function()
         switch(classname)
         {
             case 'jugg':
-                specs = ['juggTank', 'juggSust', 'juggBurst'];
+                specs = ['juggTank', 'juggSust', 'juggBurst', 'allTank', 'allDps'];
                 break;
             case 'sin':
-                specs = ['sinTank', 'sinBurst', 'sinSust'];
+                specs = ['sinTank', 'sinBurst', 'sinSust', 'allTank', 'allDps'];
                 break;
             case 'pt':
-                specs = ['ptTank', 'ptSust', 'ptBurst'];
+                specs = ['ptTank', 'ptSust', 'ptBurst', 'allTank', 'allDps'];
                 break;
             case 'merc':
-                specs = ['mercHealer', 'mercBurst', 'mercSust'];
+                specs = ['mercHealer', 'mercBurst', 'mercSust', 'allHealer', 'allDps'];
                 break;
             case 'sorc':
-                specs = ['sorcHealer', 'sorcBurst', 'sorcSust'];
+                specs = ['sorcHealer', 'sorcBurst', 'sorcSust', 'allHealer', 'allDps'];
                 break;
             case 'op':
-                specs = ['opHealer', 'opBurst', 'opSust'];
+                specs = ['opHealer', 'opBurst', 'opSust', 'allHealer', 'allDps'];
                 break;
             case 'sniper':
-                specs = ['sniperBurst', 'sniperSust', 'sniperHybrid'];
+                specs = ['sniperBurst', 'sniperSust', 'sniperHybrid', 'allDps'];
                 break;
             case 'mara':
-                specs = ['maraSust', 'maraBurst', 'maraHybrid'];
+                specs = ['maraSust', 'maraBurst', 'maraHybrid', 'allDps'];
                 break;
         }
-        return this.items.filter(i => ((i.specs.indexOf(specs[0]) !== -1) || (i.specs.indexOf(specs[1]) !== -1) || (i.specs.indexOf(specs[2]) !== -1) || (i.specs.indexOf('all') !== -1)))
+        return items.filter(i => (Utilities.arrayMatch(specs, i.specs)
+            || (i.specs.indexOf('all') !== -1)));
     };
     ItemManager.prototype.addItem = function(data)
     {

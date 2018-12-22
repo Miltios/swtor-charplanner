@@ -109,17 +109,19 @@
     </div>
     <table id="itemPicker" style="display:none;">
         <tr id="currentItemArea">
-            <td colspan="2">
+            <td colspan="4">
                 <!--TODO-->
                 [Currently equipped]
             </td>
         </tr>
         <tr class="itemListArea">
+            <td id="itemListGreen" class="item-list" style="display:none"></td>
+            <td id="itemListBlue" class="item-list" style="display:none"></td>
             <td id="itemListPurple" class="item-list"></td>
             <td id="itemListGold" class="item-list"></td>
         </tr>
         <tr id="customItemArea">
-            <td colspan="2">
+            <td colspan="4">
                 [custom item]
             </td>
         </tr>
@@ -194,7 +196,9 @@ function log(str)
     requireJs("/swtor/scripts/ItemManager.js");
     requireJs("/swtor/scripts/PickerController.js");
     requireJs("/swtor/scripts/SlotManager.js");
+    requireJs("/swtor/scripts/SpecManager.js");
     requireJs("/swtor/scripts/Settings.js");
+    requireJs("/swtor/scripts/Utilities.js");
     requireJs("/swtor/scripts/model/Item.js");
     requireJs("/swtor/scripts/model/ItemMod.js");
     requireJs("/swtor/scripts/model/Slot.js");

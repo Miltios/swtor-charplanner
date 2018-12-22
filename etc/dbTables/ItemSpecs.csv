@@ -5069,3 +5069,453 @@ Iokath MK-5 Survivor's Cuffs,tank,sin,tanksin,2026,sinTank
 Iokath MK-5 Vindicator's Armguards,dps,jugg,dpsjugg,2032,juggSust
 Iokath MK-5 War Leader's Armguards,tank,jugg,tankjugg,2039,juggTank
 Iokath MK-5 Weaponmaster's Armguards,dps,mara,dpsmara,2048,maraSust
+Eternal Commander MK-1 Adept Device,healer,,,1,allHealer
+Eternal Commander MK-1 Adept Package,healer,,,2,allHealer
+Eternal Commander MK-1 Bastion Device,tank,,,3,allTank
+Eternal Commander MK-1 Bastion Package,tank,,,4,allTank
+Eternal Commander MK-1 Bulwark Device,tank,,,5,allTank
+Eternal Commander MK-1 Bulwark Package,tank,,,6,allTank
+Eternal Commander MK-1 Initiative Device,dps,,,73,allDps
+Eternal Commander MK-1 Initiative Package,dps,,,74,allDps
+Eternal Commander MK-1 Quick Savant Device,healer,,,75,allHealer
+Eternal Commander MK-1 Quick Savant Package,healer,,,76,allHealer
+Eternal Commander MK-1 Relic of Boundless Ages,healer,,,77,allHealer
+Eternal Commander MK-1 Relic of Devastating Vengeance,healer,,,78,allHealer
+Eternal Commander MK-1 Relic of Ephemeral Mending,healer,,,79,allHealer
+Eternal Commander MK-1 Relic of Focused Retribution,healer,,,80,allHealer
+Eternal Commander MK-1 Relic of Imperiling Serenity,tank,,,81,allTank
+Eternal Commander MK-1 Relic of Reactive Warding,tank,,,82,allTank
+Eternal Commander MK-1 Relic of Serendipitous Assault,healer,,,83,allHealer
+Eternal Commander MK-1 Relic of Shield Amplification,tank,,,84,allTank
+Eternal Commander MK-1 Relic of the Fortunate Redoubt,tank,,,85,allTank
+Eternal Commander MK-1 Relic of the Primeval Fatesealer,healer,,,86,allHealer
+Eternal Commander MK-1 Relic of the Shrouded Crusader,tank,,,87,allTank
+Eternal Commander MK-11 Adept Device,healer,,,138,allHealer
+Eternal Commander MK-11 Adept Package,healer,,,139,allHealer
+Eternal Commander MK-11 Bastion Device,tank,,,140,allTank
+Eternal Commander MK-11 Bastion Package,tank,,,141,allTank
+Eternal Commander MK-11 Bulwark Device,tank,,,142,allTank
+Eternal Commander MK-11 Bulwark Package,tank,,,143,allTank
+Eternal Commander MK-11 Initiative Device,dps,,,210,allDps
+Eternal Commander MK-11 Initiative Package,dps,,,211,allDps
+Eternal Commander MK-11 Quick Savant Device,healer,,,212,allHealer
+Eternal Commander MK-11 Quick Savant Package,healer,,,213,allHealer
+Eternal Commander MK-11 Relic of Boundless Ages,healer,,,214,allHealer
+Eternal Commander MK-11 Relic of Devastating Vengeance,healer,,,215,allHealer
+Eternal Commander MK-11 Relic of Ephemeral Mending,healer,,,216,allHealer
+Eternal Commander MK-11 Relic of Focused Retribution,healer,,,217,allHealer
+Eternal Commander MK-11 Relic of Imperiling Serenity,tank,,,218,allTank
+Eternal Commander MK-11 Relic of Reactive Warding,tank,,,219,allTank
+Eternal Commander MK-11 Relic of Serendipitous Assault,healer,,,220,allHealer
+Eternal Commander MK-11 Relic of Shield Amplification,tank,,,221,allTank
+Eternal Commander MK-11 Relic of the Fortunate Redoubt,tank,,,222,allTank
+Eternal Commander MK-11 Relic of the Primeval Fatesealer,healer,,,223,allHealer
+Eternal Commander MK-11 Relic of the Shrouded Crusader,tank,,,224,allTank
+Eternal Commander MK-12 Adept Device,healer,,,275,allHealer
+Eternal Commander MK-12 Adept Package,healer,,,276,allHealer
+Eternal Commander MK-12 Bastion Device,tank,,,277,allTank
+Eternal Commander MK-12 Bastion Package,tank,,,278,allTank
+Eternal Commander MK-12 Bulwark Device,tank,,,279,allTank
+Eternal Commander MK-12 Bulwark Package,tank,,,280,allTank
+Eternal Commander MK-12 Initiative Device,dps,,,347,allDps
+Eternal Commander MK-12 Initiative Package,dps,,,348,allDps
+Eternal Commander MK-12 Quick Savant Device,healer,,,349,allHealer
+Eternal Commander MK-12 Quick Savant Package,healer,,,350,allHealer
+Eternal Commander MK-12 Relic of Boundless Ages,healer,,,351,allHealer
+Eternal Commander MK-12 Relic of Devastating Vengeance,healer,,,352,allHealer
+Eternal Commander MK-12 Relic of Ephemeral Mending,healer,,,353,allHealer
+Eternal Commander MK-12 Relic of Focused Retribution,healer,,,354,allHealer
+Eternal Commander MK-12 Relic of Imperiling Serenity,tank,,,355,allTank
+Eternal Commander MK-12 Relic of Reactive Warding,tank,,,356,allTank
+Eternal Commander MK-12 Relic of Serendipitous Assault,healer,,,357,allHealer
+Eternal Commander MK-12 Relic of Shield Amplification,tank,,,358,allTank
+Eternal Commander MK-12 Relic of the Fortunate Redoubt,tank,,,359,allTank
+Eternal Commander MK-12 Relic of the Primeval Fatesealer,healer,,,360,allHealer
+Eternal Commander MK-12 Relic of the Shrouded Crusader,tank,,,361,allTank
+Eternal Commander MK-13 Adept Device,healer,,,412,allHealer
+Eternal Commander MK-13 Adept Package,healer,,,413,allHealer
+Eternal Commander MK-13 Bastion Device,tank,,,414,allTank
+Eternal Commander MK-13 Bastion Package,tank,,,415,allTank
+Eternal Commander MK-13 Bulwark Device,tank,,,416,allTank
+Eternal Commander MK-13 Bulwark Package,tank,,,417,allTank
+Eternal Commander MK-13 Initiative Device,dps,,,484,allDps
+Eternal Commander MK-13 Initiative Package,dps,,,485,allDps
+Eternal Commander MK-13 Quick Savant Device,healer,,,486,allHealer
+Eternal Commander MK-13 Quick Savant Package,healer,,,487,allHealer
+Eternal Commander MK-13 Relic of Boundless Ages,healer,,,488,allHealer
+Eternal Commander MK-13 Relic of Devastating Vengeance,healer,,,489,allHealer
+Eternal Commander MK-13 Relic of Ephemeral Mending,healer,,,490,allHealer
+Eternal Commander MK-13 Relic of Focused Retribution,healer,,,491,allHealer
+Eternal Commander MK-13 Relic of Imperiling Serenity,tank,,,492,allTank
+Eternal Commander MK-13 Relic of Reactive Warding,tank,,,493,allTank
+Eternal Commander MK-13 Relic of Serendipitous Assault,healer,,,494,allHealer
+Eternal Commander MK-13 Relic of Shield Amplification,tank,,,495,allTank
+Eternal Commander MK-13 Relic of the Fortunate Redoubt,tank,,,496,allTank
+Eternal Commander MK-13 Relic of the Primeval Fatesealer,healer,,,497,allHealer
+Eternal Commander MK-13 Relic of the Shrouded Crusader,tank,,,498,allTank
+Eternal Commander MK-15 Adept Device,healer,,,549,allHealer
+Eternal Commander MK-15 Adept Package,healer,,,550,allHealer
+Eternal Commander MK-15 Bastion Device,tank,,,551,allTank
+Eternal Commander MK-15 Bastion Package,tank,,,552,allTank
+Eternal Commander MK-15 Bulwark Device,tank,,,553,allTank
+Eternal Commander MK-15 Bulwark Package,tank,,,554,allTank
+Eternal Commander MK-15 Initiative Device,dps,,,621,allDps
+Eternal Commander MK-15 Initiative Package,dps,,,622,allDps
+Eternal Commander MK-15 Quick Savant Device,healer,,,623,allHealer
+Eternal Commander MK-15 Quick Savant Package,healer,,,624,allHealer
+Eternal Commander MK-15 Relic of Boundless Ages,healer,,,625,allHealer
+Eternal Commander MK-15 Relic of Devastating Vengeance,healer,,,626,allHealer
+Eternal Commander MK-15 Relic of Ephemeral Mending,healer,,,627,allHealer
+Eternal Commander MK-15 Relic of Focused Retribution,healer,,,628,allHealer
+Eternal Commander MK-15 Relic of Imperiling Serenity,tank,,,629,allTank
+Eternal Commander MK-15 Relic of Reactive Warding,tank,,,630,allTank
+Eternal Commander MK-15 Relic of Serendipitous Assault,healer,,,631,allHealer
+Eternal Commander MK-15 Relic of Shield Amplification,tank,,,632,allTank
+Eternal Commander MK-15 Relic of the Fortunate Redoubt,tank,,,633,allTank
+Eternal Commander MK-15 Relic of the Primeval Fatesealer,healer,,,634,allHealer
+Eternal Commander MK-15 Relic of the Shrouded Crusader,tank,,,635,allTank
+Eternal Commander MK-2 Adept Device,healer,,,686,allHealer
+Eternal Commander MK-2 Adept Package,healer,,,687,allHealer
+Eternal Commander MK-2 Bastion Device,tank,,,688,allTank
+Eternal Commander MK-2 Bastion Package,tank,,,689,allTank
+Eternal Commander MK-2 Bulwark Device,tank,,,690,allTank
+Eternal Commander MK-2 Bulwark Package,tank,,,691,allTank
+Eternal Commander MK-2 Initiative Device,dps,,,758,allDps
+Eternal Commander MK-2 Initiative Package,dps,,,759,allDps
+Eternal Commander MK-2 Quick Savant Device,healer,,,760,allHealer
+Eternal Commander MK-2 Quick Savant Package,healer,,,761,allHealer
+Eternal Commander MK-2 Relic of Boundless Ages,healer,,,762,allHealer
+Eternal Commander MK-2 Relic of Devastating Vengeance,healer,,,763,allHealer
+Eternal Commander MK-2 Relic of Ephemeral Mending,healer,,,764,allHealer
+Eternal Commander MK-2 Relic of Focused Retribution,healer,,,765,allHealer
+Eternal Commander MK-2 Relic of Imperiling Serenity,tank,,,766,allTank
+Eternal Commander MK-2 Relic of Reactive Warding,tank,,,767,allTank
+Eternal Commander MK-2 Relic of Serendipitous Assault,healer,,,768,allHealer
+Eternal Commander MK-2 Relic of Shield Amplification,tank,,,769,allTank
+Eternal Commander MK-2 Relic of the Fortunate Redoubt,tank,,,770,allTank
+Eternal Commander MK-2 Relic of the Primeval Fatesealer,healer,,,771,allHealer
+Eternal Commander MK-2 Relic of the Shrouded Crusader,tank,,,772,allTank
+Eternal Commander MK-3 Adept Device,healer,,,823,allHealer
+Eternal Commander MK-3 Adept Package,healer,,,824,allHealer
+Eternal Commander MK-3 Bastion Device,tank,,,825,allTank
+Eternal Commander MK-3 Bastion Package,tank,,,826,allTank
+Eternal Commander MK-3 Bulwark Device,tank,,,827,allTank
+Eternal Commander MK-3 Bulwark Package,tank,,,828,allTank
+Eternal Commander MK-3 Initiative Device,dps,,,895,allDps
+Eternal Commander MK-3 Initiative Package,dps,,,896,allDps
+Eternal Commander MK-3 Quick Savant Device,healer,,,897,allHealer
+Eternal Commander MK-3 Quick Savant Package,healer,,,898,allHealer
+Eternal Commander MK-3 Relic of Boundless Ages,healer,,,899,allHealer
+Eternal Commander MK-3 Relic of Devastating Vengeance,healer,,,900,allHealer
+Eternal Commander MK-3 Relic of Ephemeral Mending,healer,,,901,allHealer
+Eternal Commander MK-3 Relic of Focused Retribution,healer,,,902,allHealer
+Eternal Commander MK-3 Relic of Imperiling Serenity,tank,,,903,allTank
+Eternal Commander MK-3 Relic of Reactive Warding,tank,,,904,allTank
+Eternal Commander MK-3 Relic of Serendipitous Assault,healer,,,905,allHealer
+Eternal Commander MK-3 Relic of Shield Amplification,tank,,,906,allTank
+Eternal Commander MK-3 Relic of the Fortunate Redoubt,tank,,,907,allTank
+Eternal Commander MK-3 Relic of the Primeval Fatesealer,healer,,,908,allHealer
+Eternal Commander MK-3 Relic of the Shrouded Crusader,tank,,,909,allTank
+GEMINI MK-1 Adept Device,healer,,,960,allHealer
+GEMINI MK-1 Adept Package,healer,,,961,allHealer
+GEMINI MK-1 Bastion Device,tank,,,962,allTank
+GEMINI MK-1 Bastion Package,tank,,,963,allTank
+GEMINI MK-1 Bulwark Device,tank,,,964,allTank
+GEMINI MK-1 Bulwark Package,tank,,,965,allTank
+GEMINI MK-1 Initiative Device,dps,,,1032,allDps
+GEMINI MK-1 Initiative Package,dps,,,1033,allDps
+GEMINI MK-1 Quick Savant Device,healer,,,1034,allHealer
+GEMINI MK-1 Quick Savant Package,healer,,,1035,allHealer
+GEMINI MK-1 Relic of Boundless Ages,healer,,,1036,allHealer
+GEMINI MK-1 Relic of Devastating Vengeance,healer,,,1037,allHealer
+GEMINI MK-1 Relic of Ephemeral Mending,healer,,,1038,allHealer
+GEMINI MK-1 Relic of Focused Retribution,healer,,,1039,allHealer
+GEMINI MK-1 Relic of Imperiling Serenity,tank,,,1040,allTank
+GEMINI MK-1 Relic of Reactive Warding,tank,,,1041,allTank
+GEMINI MK-1 Relic of Serendipitous Assault,healer,,,1042,allHealer
+GEMINI MK-1 Relic of Shield Amplification,tank,,,1043,allTank
+GEMINI MK-1 Relic of the Fortunate Redoubt,tank,,,1044,allTank
+GEMINI MK-1 Relic of the Primeval Fatesealer,healer,,,1045,allHealer
+GEMINI MK-1 Relic of the Shrouded Crusader,tank,,,1046,allTank
+GEMINI MK-2 Adept Device,healer,,,1097,allHealer
+GEMINI MK-2 Adept Package,healer,,,1098,allHealer
+GEMINI MK-2 Bastion Device,tank,,,1099,allTank
+GEMINI MK-2 Bastion Package,tank,,,1100,allTank
+GEMINI MK-2 Bulwark Device,tank,,,1101,allTank
+GEMINI MK-2 Bulwark Package,tank,,,1102,allTank
+GEMINI MK-2 Initiative Device,dps,,,1169,allDps
+GEMINI MK-2 Initiative Package,dps,,,1170,allDps
+GEMINI MK-2 Quick Savant Device,healer,,,1171,allHealer
+GEMINI MK-2 Quick Savant Package,healer,,,1172,allHealer
+GEMINI MK-2 Relic of Boundless Ages,healer,,,1173,allHealer
+GEMINI MK-2 Relic of Devastating Vengeance,healer,,,1174,allHealer
+GEMINI MK-2 Relic of Ephemeral Mending,healer,,,1175,allHealer
+GEMINI MK-2 Relic of Focused Retribution,healer,,,1176,allHealer
+GEMINI MK-2 Relic of Imperiling Serenity,tank,,,1177,allTank
+GEMINI MK-2 Relic of Reactive Warding,tank,,,1178,allTank
+GEMINI MK-2 Relic of Serendipitous Assault,healer,,,1179,allHealer
+GEMINI MK-2 Relic of Shield Amplification,tank,,,1180,allTank
+GEMINI MK-2 Relic of the Fortunate Redoubt,tank,,,1181,allTank
+GEMINI MK-2 Relic of the Primeval Fatesealer,healer,,,1182,allHealer
+GEMINI MK-2 Relic of the Shrouded Crusader,tank,,,1183,allTank
+GEMINI MK-3 Adept Device,healer,,,1234,allHealer
+GEMINI MK-3 Adept Package,healer,,,1235,allHealer
+GEMINI MK-3 Bastion Device,tank,,,1236,allTank
+GEMINI MK-3 Bastion Package,tank,,,1237,allTank
+GEMINI MK-3 Bulwark Device,tank,,,1238,allTank
+GEMINI MK-3 Bulwark Package,tank,,,1239,allTank
+GEMINI MK-3 Initiative Device,dps,,,1306,allDps
+GEMINI MK-3 Initiative Package,dps,,,1307,allDps
+GEMINI MK-3 Quick Savant Device,healer,,,1308,allHealer
+GEMINI MK-3 Quick Savant Package,healer,,,1309,allHealer
+GEMINI MK-3 Relic of Boundless Ages,healer,,,1310,allHealer
+GEMINI MK-3 Relic of Devastating Vengeance,healer,,,1311,allHealer
+GEMINI MK-3 Relic of Ephemeral Mending,healer,,,1312,allHealer
+GEMINI MK-3 Relic of Focused Retribution,healer,,,1313,allHealer
+GEMINI MK-3 Relic of Imperiling Serenity,tank,,,1314,allTank
+GEMINI MK-3 Relic of Reactive Warding,tank,,,1315,allTank
+GEMINI MK-3 Relic of Serendipitous Assault,healer,,,1316,allHealer
+GEMINI MK-3 Relic of Shield Amplification,tank,,,1317,allTank
+GEMINI MK-3 Relic of the Fortunate Redoubt,tank,,,1318,allTank
+GEMINI MK-3 Relic of the Primeval Fatesealer,healer,,,1319,allHealer
+GEMINI MK-3 Relic of the Shrouded Crusader,tank,,,1320,allTank
+GEMINI MK-5 Adept Device,healer,,,1371,allHealer
+GEMINI MK-5 Adept Package,healer,,,1372,allHealer
+GEMINI MK-5 Bastion Device,tank,,,1373,allTank
+GEMINI MK-5 Bastion Package,tank,,,1374,allTank
+GEMINI MK-5 Bulwark Device,tank,,,1375,allTank
+GEMINI MK-5 Bulwark Package,tank,,,1376,allTank
+GEMINI MK-5 Initiative Device,dps,,,1443,allDps
+GEMINI MK-5 Initiative Package,dps,,,1444,allDps
+GEMINI MK-5 Quick Savant Device,healer,,,1445,allHealer
+GEMINI MK-5 Quick Savant Package,healer,,,1446,allHealer
+GEMINI MK-5 Relic of Boundless Ages,healer,,,1447,allHealer
+GEMINI MK-5 Relic of Devastating Vengeance,healer,,,1448,allHealer
+GEMINI MK-5 Relic of Ephemeral Mending,healer,,,1449,allHealer
+GEMINI MK-5 Relic of Focused Retribution,healer,,,1450,allHealer
+GEMINI MK-5 Relic of Imperiling Serenity,tank,,,1451,allTank
+GEMINI MK-5 Relic of Reactive Warding,tank,,,1452,allTank
+GEMINI MK-5 Relic of Serendipitous Assault,healer,,,1453,allHealer
+GEMINI MK-5 Relic of Shield Amplification,tank,,,1454,allTank
+GEMINI MK-5 Relic of the Fortunate Redoubt,tank,,,1455,allTank
+GEMINI MK-5 Relic of the Primeval Fatesealer,healer,,,1456,allHealer
+GEMINI MK-5 Relic of the Shrouded Crusader,tank,,,1457,allTank
+Iokath MK-1 Adept Device,healer,,,1508,allHealer
+Iokath MK-1 Adept Package,healer,,,1509,allHealer
+Iokath MK-1 Bastion Device,tank,,,1510,allTank
+Iokath MK-1 Bastion Package,tank,,,1511,allTank
+Iokath MK-1 Bulwark Device,tank,,,1512,allTank
+Iokath MK-1 Bulwark Package,tank,,,1513,allTank
+Iokath MK-1 Initiative Device,dps,,,1580,allDps
+Iokath MK-1 Initiative Package,dps,,,1581,allDps
+Iokath MK-1 Quick Savant Device,healer,,,1582,allHealer
+Iokath MK-1 Quick Savant Package,healer,,,1583,allHealer
+Iokath MK-1 Relic of Boundless Ages,healer,,,1584,allHealer
+Iokath MK-1 Relic of Devastating Vengeance,healer,,,1585,allHealer
+Iokath MK-1 Relic of Ephemeral Mending,healer,,,1586,allHealer
+Iokath MK-1 Relic of Focused Retribution,healer,,,1587,allHealer
+Iokath MK-1 Relic of Imperiling Serenity,tank,,,1588,allTank
+Iokath MK-1 Relic of Reactive Warding,tank,,,1589,allTank
+Iokath MK-1 Relic of Serendipitous Assault,healer,,,1590,allHealer
+Iokath MK-1 Relic of Shield Amplification,tank,,,1591,allTank
+Iokath MK-1 Relic of the Fortunate Redoubt,tank,,,1592,allTank
+Iokath MK-1 Relic of the Primeval Fatesealer,healer,,,1593,allHealer
+Iokath MK-1 Relic of the Shrouded Crusader,tank,,,1594,allTank
+Iokath MK-2 Adept Device,healer,,,1645,allHealer
+Iokath MK-2 Adept Package,healer,,,1646,allHealer
+Iokath MK-2 Bastion Device,tank,,,1647,allTank
+Iokath MK-2 Bastion Package,tank,,,1648,allTank
+Iokath MK-2 Bulwark Device,tank,,,1649,allTank
+Iokath MK-2 Bulwark Package,tank,,,1650,allTank
+Iokath MK-2 Initiative Device,dps,,,1717,allDps
+Iokath MK-2 Initiative Package,dps,,,1718,allDps
+Iokath MK-2 Quick Savant Device,healer,,,1719,allHealer
+Iokath MK-2 Quick Savant Package,healer,,,1720,allHealer
+Iokath MK-2 Relic of Boundless Ages,healer,,,1721,allHealer
+Iokath MK-2 Relic of Devastating Vengeance,healer,,,1722,allHealer
+Iokath MK-2 Relic of Ephemeral Mending,healer,,,1723,allHealer
+Iokath MK-2 Relic of Focused Retribution,healer,,,1724,allHealer
+Iokath MK-2 Relic of Imperiling Serenity,tank,,,1725,allTank
+Iokath MK-2 Relic of Reactive Warding,tank,,,1726,allTank
+Iokath MK-2 Relic of Serendipitous Assault,healer,,,1727,allHealer
+Iokath MK-2 Relic of Shield Amplification,tank,,,1728,allTank
+Iokath MK-2 Relic of the Fortunate Redoubt,tank,,,1729,allTank
+Iokath MK-2 Relic of the Primeval Fatesealer,healer,,,1730,allHealer
+Iokath MK-2 Relic of the Shrouded Crusader,tank,,,1731,allTank
+Iokath MK-3 Adept Device,healer,,,1782,allHealer
+Iokath MK-3 Adept Package,healer,,,1783,allHealer
+Iokath MK-3 Bastion Device,tank,,,1784,allTank
+Iokath MK-3 Bastion Package,tank,,,1785,allTank
+Iokath MK-3 Bulwark Device,tank,,,1786,allTank
+Iokath MK-3 Bulwark Package,tank,,,1787,allTank
+Iokath MK-3 Initiative Device,dps,,,1854,allDps
+Iokath MK-3 Initiative Package,dps,,,1855,allDps
+Iokath MK-3 Quick Savant Device,healer,,,1856,allHealer
+Iokath MK-3 Quick Savant Package,healer,,,1857,allHealer
+Iokath MK-3 Relic of Boundless Ages,healer,,,1858,allHealer
+Iokath MK-3 Relic of Devastating Vengeance,healer,,,1859,allHealer
+Iokath MK-3 Relic of Ephemeral Mending,healer,,,1860,allHealer
+Iokath MK-3 Relic of Focused Retribution,healer,,,1861,allHealer
+Iokath MK-3 Relic of Imperiling Serenity,tank,,,1862,allTank
+Iokath MK-3 Relic of Reactive Warding,tank,,,1863,allTank
+Iokath MK-3 Relic of Serendipitous Assault,healer,,,1864,allHealer
+Iokath MK-3 Relic of Shield Amplification,tank,,,1865,allTank
+Iokath MK-3 Relic of the Fortunate Redoubt,tank,,,1866,allTank
+Iokath MK-3 Relic of the Primeval Fatesealer,healer,,,1867,allHealer
+Iokath MK-3 Relic of the Shrouded Crusader,tank,,,1868,allTank
+Iokath MK-5 Adept Device,healer,,,1919,allHealer
+Iokath MK-5 Adept Package,healer,,,1920,allHealer
+Iokath MK-5 Bastion Device,tank,,,1921,allTank
+Iokath MK-5 Bastion Package,tank,,,1922,allTank
+Iokath MK-5 Bulwark Device,tank,,,1923,allTank
+Iokath MK-5 Bulwark Package,tank,,,1924,allTank
+Iokath MK-5 Initiative Device,dps,,,1991,allDps
+Iokath MK-5 Initiative Package,dps,,,1992,allDps
+Iokath MK-5 Quick Savant Device,healer,,,1993,allHealer
+Iokath MK-5 Quick Savant Package,healer,,,1994,allHealer
+Iokath MK-5 Relic of Boundless Ages,healer,,,1995,allHealer
+Iokath MK-5 Relic of Devastating Vengeance,healer,,,1996,allHealer
+Iokath MK-5 Relic of Ephemeral Mending,healer,,,1997,allHealer
+Iokath MK-5 Relic of Focused Retribution,healer,,,1998,allHealer
+Iokath MK-5 Relic of Imperiling Serenity,tank,,,1999,allTank
+Iokath MK-5 Relic of Reactive Warding,tank,,,2000,allTank
+Iokath MK-5 Relic of Serendipitous Assault,healer,,,2001,allHealer
+Iokath MK-5 Relic of Shield Amplification,tank,,,2002,allTank
+Iokath MK-5 Relic of the Fortunate Redoubt,tank,,,2003,allTank
+Iokath MK-5 Relic of the Primeval Fatesealer,healer,,,2004,allHealer
+Iokath MK-5 Relic of the Shrouded Crusader,tank,,,2005,allTank
+Eternal Commander MK-1 Relic of Focused Retribution,dps,,,80,allDps
+Eternal Commander MK-11 Relic of Focused Retribution,dps,,,217,allDps
+Eternal Commander MK-12 Relic of Focused Retribution,dps,,,354,allDps
+Eternal Commander MK-13 Relic of Focused Retribution,dps,,,491,allDps
+Eternal Commander MK-15 Relic of Focused Retribution,dps,,,628,allDps
+Eternal Commander MK-2 Relic of Focused Retribution,dps,,,765,allDps
+Eternal Commander MK-3 Relic of Focused Retribution,dps,,,902,allDps
+GEMINI MK-1 Relic of Focused Retribution,dps,,,1039,allDps
+GEMINI MK-2 Relic of Focused Retribution,dps,,,1176,allDps
+GEMINI MK-3 Relic of Focused Retribution,dps,,,1313,allDps
+GEMINI MK-5 Relic of Focused Retribution,dps,,,1450,allDps
+Iokath MK-1 Relic of Focused Retribution,dps,,,1587,allDps
+Iokath MK-2 Relic of Focused Retribution,dps,,,1724,allDps
+Iokath MK-3 Relic of Focused Retribution,dps,,,1861,allDps
+Iokath MK-5 Relic of Focused Retribution,dps,,,1998,allDps
+Eternal Commander MK-1 Relic of Serendipitous Assault,dps,,,83,allDps
+Eternal Commander MK-11 Relic of Serendipitous Assault,dps,,,220,allDps
+Eternal Commander MK-12 Relic of Serendipitous Assault,dps,,,357,allDps
+Eternal Commander MK-13 Relic of Serendipitous Assault,dps,,,494,allDps
+Eternal Commander MK-15 Relic of Serendipitous Assault,dps,,,631,allDps
+Eternal Commander MK-2 Relic of Serendipitous Assault,dps,,,768,allDps
+Eternal Commander MK-3 Relic of Serendipitous Assault,dps,,,905,allDps
+GEMINI MK-1 Relic of Serendipitous Assault,dps,,,1042,allDps
+GEMINI MK-2 Relic of Serendipitous Assault,dps,,,1179,allDps
+GEMINI MK-3 Relic of Serendipitous Assault,dps,,,1316,allDps
+GEMINI MK-5 Relic of Serendipitous Assault,dps,,,1453,allDps
+Iokath MK-1 Relic of Serendipitous Assault,dps,,,1590,allDps
+Iokath MK-2 Relic of Serendipitous Assault,dps,,,1727,allDps
+Iokath MK-3 Relic of Serendipitous Assault,dps,,,1864,allDps
+Iokath MK-5 Relic of Serendipitous Assault,dps,,,2001,allDps
+Eternal Commander MK-1 Relic of Boundless Ages,dps,,,77,allDps
+Eternal Commander MK-11 Relic of Boundless Ages,dps,,,214,allDps
+Eternal Commander MK-12 Relic of Boundless Ages,dps,,,351,allDps
+Eternal Commander MK-13 Relic of Boundless Ages,dps,,,488,allDps
+Eternal Commander MK-15 Relic of Boundless Ages,dps,,,625,allDps
+Eternal Commander MK-2 Relic of Boundless Ages,dps,,,762,allDps
+Eternal Commander MK-3 Relic of Boundless Ages,dps,,,899,allDps
+GEMINI MK-1 Relic of Boundless Ages,dps,,,1036,allDps
+GEMINI MK-2 Relic of Boundless Ages,dps,,,1173,allDps
+GEMINI MK-3 Relic of Boundless Ages,dps,,,1310,allDps
+GEMINI MK-5 Relic of Boundless Ages,dps,,,1447,allDps
+Iokath MK-1 Relic of Boundless Ages,dps,,,1584,allDps
+Iokath MK-2 Relic of Boundless Ages,dps,,,1721,allDps
+Iokath MK-3 Relic of Boundless Ages,dps,,,1858,allDps
+Iokath MK-5 Relic of Boundless Ages,dps,,,1995,allDps
+Eternal Commander MK-1 Relic of Devastating Vengeance,dps,,,78,allDps
+Eternal Commander MK-11 Relic of Devastating Vengeance,dps,,,215,allDps
+Eternal Commander MK-12 Relic of Devastating Vengeance,dps,,,352,allDps
+Eternal Commander MK-13 Relic of Devastating Vengeance,dps,,,489,allDps
+Eternal Commander MK-15 Relic of Devastating Vengeance,dps,,,626,allDps
+Eternal Commander MK-2 Relic of Devastating Vengeance,dps,,,763,allDps
+Eternal Commander MK-3 Relic of Devastating Vengeance,dps,,,900,allDps
+GEMINI MK-1 Relic of Devastating Vengeance,dps,,,1037,allDps
+GEMINI MK-2 Relic of Devastating Vengeance,dps,,,1174,allDps
+GEMINI MK-3 Relic of Devastating Vengeance,dps,,,1311,allDps
+GEMINI MK-5 Relic of Devastating Vengeance,dps,,,1448,allDps
+Iokath MK-1 Relic of Devastating Vengeance,dps,,,1585,allDps
+Iokath MK-2 Relic of Devastating Vengeance,dps,,,1722,allDps
+Iokath MK-3 Relic of Devastating Vengeance,dps,,,1859,allDps
+Iokath MK-5 Relic of Devastating Vengeance,dps,,,1996,allDps
+Eternal Commander MK-1 Relic of the Primeval Fatesealer,dps,,,86,allDps
+Eternal Commander MK-11 Relic of the Primeval Fatesealer,dps,,,223,allDps
+Eternal Commander MK-12 Relic of the Primeval Fatesealer,dps,,,360,allDps
+Eternal Commander MK-13 Relic of the Primeval Fatesealer,dps,,,497,allDps
+Eternal Commander MK-15 Relic of the Primeval Fatesealer,dps,,,634,allDps
+Eternal Commander MK-2 Relic of the Primeval Fatesealer,dps,,,771,allDps
+Eternal Commander MK-3 Relic of the Primeval Fatesealer,dps,,,908,allDps
+GEMINI MK-1 Relic of the Primeval Fatesealer,dps,,,1045,allDps
+GEMINI MK-2 Relic of the Primeval Fatesealer,dps,,,1182,allDps
+GEMINI MK-3 Relic of the Primeval Fatesealer,dps,,,1319,allDps
+GEMINI MK-5 Relic of the Primeval Fatesealer,dps,,,1456,allDps
+Iokath MK-1 Relic of the Primeval Fatesealer,dps,,,1593,allDps
+Iokath MK-2 Relic of the Primeval Fatesealer,dps,,,1730,allDps
+Iokath MK-3 Relic of the Primeval Fatesealer,dps,,,1867,allDps
+Iokath MK-5 Relic of the Primeval Fatesealer,dps,,,2004,allDps
+Eternal Commander MK-1 Adept Device,dps,,,1,allDps
+Eternal Commander MK-1 Adept Package,dps,,,2,allDps
+Eternal Commander MK-11 Adept Device,dps,,,138,allDps
+Eternal Commander MK-11 Adept Package,dps,,,139,allDps
+Eternal Commander MK-12 Adept Device,dps,,,275,allDps
+Eternal Commander MK-12 Adept Package,dps,,,276,allDps
+Eternal Commander MK-13 Adept Device,dps,,,412,allDps
+Eternal Commander MK-13 Adept Package,dps,,,413,allDps
+Eternal Commander MK-15 Adept Device,dps,,,549,allDps
+Eternal Commander MK-15 Adept Package,dps,,,550,allDps
+Eternal Commander MK-2 Adept Device,dps,,,686,allDps
+Eternal Commander MK-2 Adept Package,dps,,,687,allDps
+Eternal Commander MK-3 Adept Device,dps,,,823,allDps
+Eternal Commander MK-3 Adept Package,dps,,,824,allDps
+GEMINI MK-1 Adept Device,dps,,,960,allDps
+GEMINI MK-1 Adept Package,dps,,,961,allDps
+GEMINI MK-2 Adept Device,dps,,,1097,allDps
+GEMINI MK-2 Adept Package,dps,,,1098,allDps
+GEMINI MK-3 Adept Device,dps,,,1234,allDps
+GEMINI MK-3 Adept Package,dps,,,1235,allDps
+GEMINI MK-5 Adept Device,dps,,,1371,allDps
+GEMINI MK-5 Adept Package,dps,,,1372,allDps
+Iokath MK-1 Adept Device,dps,,,1508,allDps
+Iokath MK-1 Adept Package,dps,,,1509,allDps
+Iokath MK-2 Adept Device,dps,,,1645,allDps
+Iokath MK-2 Adept Package,dps,,,1646,allDps
+Iokath MK-3 Adept Device,dps,,,1782,allDps
+Iokath MK-3 Adept Package,dps,,,1783,allDps
+Iokath MK-5 Adept Device,dps,,,1919,allDps
+Iokath MK-5 Adept Package,dps,,,1920,allDps
+Eternal Commander MK-1 Quick Savant Device,dps,,,75,allDps
+Eternal Commander MK-1 Quick Savant Package,dps,,,76,allDps
+Eternal Commander MK-11 Quick Savant Device,dps,,,212,allDps
+Eternal Commander MK-11 Quick Savant Package,dps,,,213,allDps
+Eternal Commander MK-12 Quick Savant Device,dps,,,349,allDps
+Eternal Commander MK-12 Quick Savant Package,dps,,,350,allDps
+Eternal Commander MK-13 Quick Savant Device,dps,,,486,allDps
+Eternal Commander MK-13 Quick Savant Package,dps,,,487,allDps
+Eternal Commander MK-15 Quick Savant Device,dps,,,623,allDps
+Eternal Commander MK-15 Quick Savant Package,dps,,,624,allDps
+Eternal Commander MK-2 Quick Savant Device,dps,,,760,allDps
+Eternal Commander MK-2 Quick Savant Package,dps,,,761,allDps
+Eternal Commander MK-3 Quick Savant Device,dps,,,897,allDps
+Eternal Commander MK-3 Quick Savant Package,dps,,,898,allDps
+GEMINI MK-1 Quick Savant Device,dps,,,1034,allDps
+GEMINI MK-1 Quick Savant Package,dps,,,1035,allDps
+GEMINI MK-2 Quick Savant Device,dps,,,1171,allDps
+GEMINI MK-2 Quick Savant Package,dps,,,1172,allDps
+GEMINI MK-3 Quick Savant Device,dps,,,1308,allDps
+GEMINI MK-3 Quick Savant Package,dps,,,1309,allDps
+GEMINI MK-5 Quick Savant Device,dps,,,1445,allDps
+GEMINI MK-5 Quick Savant Package,dps,,,1446,allDps
+Iokath MK-1 Quick Savant Device,dps,,,1582,allDps
+Iokath MK-1 Quick Savant Package,dps,,,1583,allDps
+Iokath MK-2 Quick Savant Device,dps,,,1719,allDps
+Iokath MK-2 Quick Savant Package,dps,,,1720,allDps
+Iokath MK-3 Quick Savant Device,dps,,,1856,allDps
+Iokath MK-3 Quick Savant Package,dps,,,1857,allDps
+Iokath MK-5 Quick Savant Device,dps,,,1993,allDps
+Iokath MK-5 Quick Savant Package,dps,,,1994,allDps
