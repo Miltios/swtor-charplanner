@@ -135,11 +135,11 @@ body.faction-mode-pub .faction-imp
     height:350px;
     overflow-y:auto;
     box-sizing:border-box;
-    border:2px solid;
+    border:2px solid white;
     vertical-align:top;
 }
 /*TODO:color the item fonts this color, rather than using borders*/
-#itemListGreen
+/*#itemListGreen
 {
     border-color:green;
 }
@@ -154,6 +154,26 @@ body.faction-mode-pub .faction-imp
 #itemListGold
 {
     border-color:gold;
+}*/
+.item-green
+{
+    color:#12e713;
+}
+.item-blue
+{
+    color:#1875d5;
+}
+.item-purple
+{
+    color:#9918c7;
+}
+.item-gold
+{
+    color:#e7cb6e;
+}
+.item-orange
+{
+    color:#cb5f12;
 }
 #customItemArea
 {
@@ -163,4 +183,6 @@ body.faction-mode-pub .faction-imp
 {
     display:block;
     width:100%;
+    box-sizing:border-box;
+    padding:3px 8px;
 }

@@ -75,7 +75,7 @@ let DomManager = (function()
                 return this.itemListGreen;
                 break;
             case 'blue':
-                return this.itemListPurple;
+                return this.itemListBlue;
                 break;
             case 'purple':
                 return this.itemListPurple;
