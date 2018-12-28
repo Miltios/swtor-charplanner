@@ -32,6 +32,7 @@ let PickerController = (function()
         {
             items = ItemManager.getItemsForSlot(slotName);
         }
+        items = items.sort((a,b) => (-1)*(a.rating-b.rating));
         for(let i=0; i<items.length; i++)
         {
             let item = items[i];
