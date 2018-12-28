@@ -1,6 +1,29 @@
 body
 {
     text-align:center; /*TODO:HACK: quick fix for centering until we decide on a page layout*/
+    background-color:#00050D;
+    color:#96D6F1;
+    font-family:Eurofont,"TitilliumText22LMedium",Helvetica,Arial,sans-serif; /*TODO: this is shamelessly stolen from torcommunity. Figure out what we actually want to use.*/
+    font-weight:bold;
+    font-size:14px;
+    letter-spacing:0.3px;
+}
+body.faction-mode-imp
+{
+    background-color:#00050D;
+}
+body.faction-mode-pub
+{
+    background-color:#00050D;
+}
+body.faction-mode-imp .faction-pub,
+body.faction-mode-pub .faction-imp
+{
+    display:none;
+}
+.popup-hidden
+{
+    display:none;
 }
 #charBodyDiv
 {
@@ -25,16 +48,74 @@ body
     border:1px solid grey;
     border-radius:5px;
 }
-#itemPicker
+.content-left
 {
-    /*display:none;*/
     position:absolute;
     top:0;
     left:0;
     height:100%;
     width:500px;
+    text-align:left;
+}
+#charSettings
+{
+    padding:5px;
+}
+.setting-expandable
+{
+    padding:2px 5px;
+}
+/*.setting-expanded .setting-extra
+{
+    display:block;
+}*/
+.setting-expandable input
+{
+    margin:0;
+}
+.expand-settings
+{
+    /*border:1px solid lightgrey;*/
+    border-radius:3px;
+    padding:0 3px;
+    min-width:9px;
+    text-align:center;
+    display:inline-block;
+    cursor:pointer;
+}
+.spawns-popup-hidden .expand-settings:before
+{
+    content:'+';
+}
+.spawns-popup-visible .expand-settings:before
+{
+    content:'-';
+    position:relative;
+    top:-2px;
+}
+.setting-extra
+{
+    margin-left:35px;
+    /*display:none;*/
+    position:absolute;
+    background-color:#00050dcc;
+    padding:7px;
+    border:2px solid #1892c7;
+    border-radius:5px;
+}
+#itemPicker
+{
+    /*display:none;*/
+    /*position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:500px;*/
 
-    background-color:lightgrey;
+    width:100%;
+    height:100%;
+
+    /*background-color:lightgrey;*/
     border:1px solid grey;
 }
 #currentItemArea
@@ -42,10 +123,29 @@ body
     /*display:none;*/
     height:100px;
 }
+#itemListArea
+{
+    display:flex;
+    overflow-x:auto;
+}
 .item-list
 {
+    flex:1;
+    min-width:250px;
+    height:350px;
+    overflow-y:auto;
+    box-sizing:border-box;
     border:2px solid;
     vertical-align:top;
+}
+/*TODO:color the item fonts this color, rather than using borders*/
+#itemListGreen
+{
+    border-color:green;
+}
+#itemListBlue
+{
+    border-color:blue;
 }
 #itemListPurple
 {

@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="/swtor/styles/global.css">
     <link rel="stylesheet" type="text/css" href="/swtor/styles/gearPlanner.css">
 </head>
-<body>
+<body id="documentBody" class="faction-mode-imp">
     <div>
         <!--TODO:
             -choose class/spec
@@ -15,6 +15,10 @@
             -checkbox or dropdown for "show only: [gear for my spec]/[gear for my class]/[all]"
             -gearPlanner should be greyed out until options are chosen?
         -->
+    </div>
+    <div id="factionToggle">
+        <input type="radio" name="faction" value="pub" onclick="DomController.userInput(this, 'factionToggle')"><label>Republic</label>
+        <input type="radio" name="faction" value="imp" onclick="DomController.userInput(this, 'factionToggle')" checked><label>Empire</label>
     </div>
     <div id="charBodyDiv">
         <table id="charBodyTable">
@@ -107,25 +111,147 @@
             </tr>
         </table>
     </div>
-    <table id="itemPicker" style="display:none;">
-        <tr id="currentItemArea">
-            <td colspan="4">
-                <!--TODO-->
-                [Currently equipped]
-            </td>
-        </tr>
-        <tr class="itemListArea">
-            <td id="itemListGreen" class="item-list" style="display:none"></td>
-            <td id="itemListBlue" class="item-list" style="display:none"></td>
-            <td id="itemListPurple" class="item-list"></td>
-            <td id="itemListGold" class="item-list"></td>
-        </tr>
-        <tr id="customItemArea">
-            <td colspan="4">
-                [custom item]
-            </td>
-        </tr>
-    </table>
+    <div class="content-left">
+        <div id="charSettings">
+            <!--spec, class, datacrons, class buffs, companion buffs-->
+            <label "label-inline" for="classDropdown">Class:</label>
+            <select id="classDropdown" onchange="DomController.userInput(this, 'classSelect')">
+                <option class="faction-imp" value="sin" selected>Assassin</option>
+                <option class="faction-imp" value="jugg">Juggernaut</option>
+                <option class="faction-imp" value="mara">Marauder</option>
+                <option class="faction-imp" value="merc">Mercenary</option>
+                <option class="faction-imp" value="op">Operative</option>
+                <option class="faction-imp" value="pt">Powertech</option>
+                <option class="faction-imp" value="sniper">Sniper</option>
+                <option class="faction-imp" value="sorc">Sorcerer</option>
+                <option class="faction-pub" value="merc">Commando</option>
+                <option class="faction-pub" value="jugg">Guardian</option>
+                <option class="faction-pub" value="sniper">Gunslinger</option>
+                <option class="faction-pub" value="sorc">Sage</option>
+                <option class="faction-pub" value="op">Scoundrel</option>
+                <option class="faction-pub" value="mara">Sentinel</option>
+                <option class="faction-pub" value="sin">Shadow</option>
+                <option class="faction-pub" value="pt">Vanguard</option>
+            </select>
+            <label "label-inline" for="specDropdown">Spec:</label>
+            <select id="specDropdown" onchange="DomController.userInput(this, 'classSelect')"> <!--TODO: update options dynamically -->
+                <option class="faction-imp" value="sinTank">Darkness</option>
+                <option class="faction-imp" value="sinBurst">Deception</option>
+                <option class="faction-imp" value="sinSust">Hatred</option>
+                <option class="faction-pub" value="sinTank">Kinetic Combat</option>
+                <option class="faction-pub" value="sinBurst">Infiltration</option>
+                <option class="faction-pub" value="sinSust">Serenity</option>
+            </select>
+            <div id="datacronsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
+                <span class="expand-settings" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
+                <input type="checkbox" id="datacronsCheckbox" onchange='Settings.updateDatacrons(this)'>
+                <label class="label-single-line" for="datacronsCheckbox">All datacrons</label>
+                <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
+                    <div class="setting">
+                        <input type="checkbox" id="datacronsCheckboxOssus" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <label class="label-single-line" for="datacronsCheckboxOssus">Ossus</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="datacronsCheckboxRishi" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <label class="label-single-line" for="datacronsCheckboxRishi">Rishi</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="datacronsCheckboxMakeb" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <label class="label-single-line" for="datacronsCheckboxMakeb">Makeb</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="datacronsCheckboxFleet" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <label class="label-single-line" for="datacronsCheckboxFleet">Fleet</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="datacronsCheckboxBase" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <label class="label-single-line" for="datacronsCheckboxBase">Base game planets</label>
+                    </div>
+                </div>
+            </div>
+            <div id="classBuffsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
+                <span class="expand-settings collapsed" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
+                <input type="checkbox" id="classBuffsCheckbox" onchange='Settings.updateClassBuffs(this)'>
+                <label class="label-single-line" for="classBuffsCheckbox">All class buffs</label>
+                <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
+                    <div class="setting">
+                        <input type="checkbox" id="classBuffsCheckboxMastery" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxMastery">Mark of Power</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxMastery">Force Valor</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="classBuffsCheckboxDmg" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxDmg">Unnatural Might</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxDmg">Force Might</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="classBuffsCheckboxCrit" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxCrit">Coordination</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxCrit">Lucky Shots</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="classBuffsCheckboxEndurance" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxEndurance">Hunter&apos;s Boon</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxEndurance">Fortification</label>
+                    </div>
+                </div>
+            </div>
+            <div id="companionBuffsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
+                <span class="expand-settings collapsed" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
+                <input type="checkbox" id="companionBuffsCheckbox" onchange='Settings.updateCompanionBuffs(this)'>
+                <label class="label-single-line" for="companionBuffsCheckbox">All companion buffs</label>
+                <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
+                    <div class="setting">
+                        <input type="checkbox" id="companionBuffsCheckboxRTank" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <label class="label-single-line" for="companionBuffsCheckboxRTank">Ranged Tank</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="companionBuffsCheckboxMTank" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <label class="label-single-line" for="companionBuffsCheckboxMTank">Melee Tank</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="companionBuffsCheckboxRDPS" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <label class="label-single-line" for="companionBuffsCheckboxRDPS">Ranged DPS</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="companionBuffsCheckboxMDPS" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <label class="label-single-line" for="companionBuffsCheckboxRTank">Melee DPS</label>
+                    </div>
+                    <div class="setting">
+                        <input type="checkbox" id="companionBuffsCheckboxHealer" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <label class="label-single-line" for="companionBuffsCheckboxRTank">Healer</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="itemPicker" style="display:none;">
+            <div id="currentItemArea">
+                <div>
+                    <!--TODO-->
+                    [Currently equipped]
+                </div>
+            </div>
+            <div id="itemListSettings">
+                <label for="specFilterDropdown">Show items for:</label>
+                <select name="specFilterDropdown" id="specFilterDropdown" onchange="DomController.userInput(this, 'specFilterChange'">
+                    <option value="myClass">My class</option>
+                    <option value="mySpec" selected>My spec</option>
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div id="itemListArea">
+                <div id="itemListGreen" class="item-list" style="display:none"></div>
+                <div id="itemListBlue" class="item-list" style="display:none"></div>
+                <div id="itemListPurple" class="item-list"></div>
+                <div id="itemListGold" class="item-list"></div>
+            </div>
+            <div id="customItemArea">
+                <div colspan="4">
+                    [custom item]
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script type="text/javascript">
 let debug = true;

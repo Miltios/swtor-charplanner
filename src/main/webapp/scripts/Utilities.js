@@ -19,6 +19,27 @@ let Utilities = (function()
         }
         return false;
     };
+    Utilities.prototype.elHasAncestor = function(el, ancestor)
+    {
+        if(!el || el.parentNode === null || !ancestor)
+        {
+            return false;
+        }
+        if(el === ancestor)
+        {
+            return true;
+        }
+        let parent = el.parentNode;
+        while(parent)
+        {
+            if(parent == ancestor)
+            {
+                return true;
+            }
+            parent = parent.parentNode;
+        }
+        return false;
+    }
     return new Utilities();
 })();
 declareReady('Utilities.js', null);
