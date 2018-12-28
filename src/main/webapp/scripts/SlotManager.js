@@ -5,6 +5,7 @@ let SlotManager = (function()
         //declare vars
         this.charSlotNames = ['ear', 'implant1', 'implant2', 'wrists', 'relic1', 'relic2', 'head', 'chest', 'hands', 'waist', 'legs', 'feet', 'mainhand', 'offhand'];
         this.charSlots = {};
+        this.currentSlot = null;
     };
     SlotManager.prototype.init = function()
     {
@@ -49,6 +50,14 @@ let SlotManager = (function()
         }
         return null;
     };
+    SlotManager.prototype.getCurrentSlot = function()
+    {
+        return this.currentSlot;
+    }
+    SlotManager.prototype.setCurrentSlot = function(slot)
+    {
+        this.currentSlot = slot;
+    }
     return new SlotManager();
 })();
 declareReady('SlotManager.js', function(){SlotManager.init();});

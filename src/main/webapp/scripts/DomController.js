@@ -14,6 +14,7 @@ let DomController = (function()
         {
             case 'charSlot':
                 let slot = DomManager.getSlot(el);
+                SlotManager.setCurrentSlot(slot);
                 this.spawnItemPicker(slot);
             break;
             case 'factionToggle':
@@ -55,6 +56,11 @@ let DomController = (function()
                     console.error('Expandable node not found!');
                 }
                 event.stopPropagation();
+                break;
+            case 'listItemClick':
+                let currentSlot = SlotManager.getCurrentSlot();
+                let item = ItemManager.getItemById(el.getAttribute('itemId'));
+                currentSlot.setItem(item);
                 break;
         }
     };

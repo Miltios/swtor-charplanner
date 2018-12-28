@@ -95,6 +95,100 @@ let ItemManager = (function()
     {
         //TODO
     };
+    ItemManager.prototype.getItemById = function(id)
+    {
+        if(!id || id<0) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
+        {
+            return null;
+        }
+        for(let i=0; i<this.items.length; i++)
+        {
+            if(this.items[i].id === id)
+            {
+                return this.items[i];
+            }
+        }
+        return null;
+    }
+    ItemManager.prototype.getImageForItem = function(item)
+    {
+        if(!item)
+        {
+            return 'empty.png';
+        }
+        switch(item.slot)
+        {
+            case 'ear':
+                break;
+            case 'implant':
+                break;
+            case 'wrists':
+                break;
+            case 'relic':
+                let name = item.name.toLowerCase();
+                if(name.indexOf('boundless') !== -1)
+                {
+                    return 'relic_boundless.png';
+                }
+                if(name.indexOf('devastating') !== -1)
+                {
+                    return 'relic_devastating.png';
+                }
+                if(name.indexOf('ephemeral') !== -1)
+                {
+                    return 'relic_ephemeral.png';
+                }
+                if(name.indexOf('focused') !== -1)
+                {
+                    return 'relic_devastating.png'; //has same image
+                }
+                if(name.indexOf('imperiling') !== -1)
+                {
+                    return 'relic_imperiling.png';
+                }
+                if(name.indexOf('reactive') !== -1)
+                {
+                    return 'relic_reactive.png';
+                }
+                if(name.indexOf('serendipitous') !== -1)
+                {
+                    return 'relic_devastating.png'; //has same image
+                }
+                if(name.indexOf('shield') !== -1)
+                {
+                    return 'relic_reactive.png'; //has same image
+                }
+                if(name.indexOf('fortunate') !== -1)
+                {
+                    return 'relic_reactive.png'; //has same image
+                }
+                if(name.indexOf('primeval') !== -1)
+                {
+                    return 'relic_primeval.png';
+                }
+                if(name.indexOf('shrouded') !== -1)
+                {
+                    return 'relic_imperiling.png';
+                }
+                break;
+            case 'head':
+                break;
+            case 'chest':
+                break;
+            case 'hands':
+                break;
+            case 'waist':
+                break;
+            case 'legs':
+                break;
+            case 'feet':
+                break;
+            case 'mainhand':
+                break;
+            case 'offhand':
+                break;
+        }
+    }
     return new ItemManager();
 })();
 declareReady('ItemManager.js', function(){ItemManager.init()});

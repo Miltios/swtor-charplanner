@@ -35,10 +35,12 @@ let PickerController = (function()
         for(let i=0; i<items.length; i++)
         {
             let item = items[i];
-            let color = item.color; //getter
+            let color = item.color;
             let listEl = document.createElement('div');
             listEl.className = 'list-item item-' + color;
-            listEl.innerHTML = item.name; //getter
+            listEl.setAttribute('itemId', item.id);
+            listEl.innerHTML = '[' + item.rating + '] ' + item.name;
+            listEl.onclick = function(){DomController.userInput(listEl, 'listItemClick');};
             //TODO:other meta & functionality
 
             DomManager.getItemList(color).appendChild(listEl);

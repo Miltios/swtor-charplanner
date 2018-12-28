@@ -43,10 +43,37 @@ body.faction-mode-pub .faction-imp
 .character-slot-link
 {
     display:block;
+}
+.character-slot-img
+{
     width:75px;
     height:75px;
-    border:1px solid grey;
+    border:2px solid grey;
     border-radius:5px;
+}
+.character-slot-img.slot-empty
+{
+    border-color:#96D6F1;
+}
+.character-slot-img.slot-green
+{
+    border-color:#12e713;
+}
+.character-slot-img.slot-blue
+{
+    border-color:#1875d5;
+}
+.character-slot-img.slot-purple
+{
+    border-color:#9918c7;
+}
+.character-slot-img.slot-gold
+{
+    border-color:#e7cb6e;
+}
+.character-slot-img.slot-orange
+{
+    border-color:#cb5f12;
 }
 .content-left
 {
@@ -138,23 +165,6 @@ body.faction-mode-pub .faction-imp
     border:2px solid white;
     vertical-align:top;
 }
-/*TODO:color the item fonts this color, rather than using borders*/
-/*#itemListGreen
-{
-    border-color:green;
-}
-#itemListBlue
-{
-    border-color:blue;
-}
-#itemListPurple
-{
-    border-color:purple;
-}
-#itemListGold
-{
-    border-color:gold;
-}*/
 .item-green
 {
     color:#12e713;

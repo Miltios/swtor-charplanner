@@ -25,87 +25,115 @@
             <tr>
                 <td>
                     <div id="slotEar" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
                 <td colspan="2"></td>
                 <td>
                     <div id="slotHead" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotImplant1" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
                 <td colspan="2"></td>
                 <td>
                     <div id="slotChest" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotImplant2" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
                 <td colspan="2"></td>
                 <td>
                     <div id="slotHands" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotWrists" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
                 <td colspan="2"></td>
                 <td>
                     <div id="slotWaist" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotRelic1" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
                 <td colspan="2"></td>
                 <td>
                     <div id="slotLegs" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotRelic2" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
                 <td>
                     <div id="slotMainhand" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
                 <td>
                     <div id="slotOffhand" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
                 <td>
                     <div id="slotFeet" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');"></a>
+                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
