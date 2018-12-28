@@ -42,7 +42,8 @@ body.faction-mode-pub .faction-imp
 }
 .character-slot-link
 {
-    display:block;
+    display:inline-block;
+    cursor:pointer;
 }
 .character-slot-img
 {
@@ -195,4 +196,25 @@ body.faction-mode-pub .faction-imp
     width:100%;
     box-sizing:border-box;
     padding:3px 8px;
+    cursor:pointer;
+}
+.list-item:hover
+{
+    color:#00050D;
+}
+.list-item.item-gold:hover
+{
+    background-color:#e7cb6e;
+}
+.list-item.item-purple:hover
+{
+    background-color:#9918c7;
+}
+.list-item.item-blue:hover
+{
+    background-color:#1875d5;
+}
+.list-item.item-green:hover
+{
+    background-color:#12e713;
 }
