@@ -27,6 +27,8 @@ let Settings = (function()
         this.clbSub = document.getElementsByClassName('class-buffs-checkbox');
         this.cob = document.getElementById('companionBuffsCheckbox');
         this.cobSub = document.getElementsByClassName('companion-buffs-checkbox');
+
+        this.updateFactionSelections();
         log('Settings initialized.');
     };
     Settings.prototype.getFaction = function()
@@ -76,51 +78,6 @@ let Settings = (function()
     Settings.prototype.updateDatacrons = function(checkbox)
     {
         this.updateNestedCheckboxes(checkbox, this.dc, this.dcSub);
-        /*if(checkbox === this.dc)
-        {
-            this.dc.indeterminate = false;
-            for(let i in this.dcSub)
-            {
-                if(this.dcSub.hasOwnProperty(i))
-                {
-                    this.dcSub[i].checked = this.dc.checked;
-                }
-            }
-        }
-        else
-        {
-            let allTrue = true;
-            let allFalse = true;
-            for(let i in this.dcSub)
-            {
-                if(this.dcSub.hasOwnProperty(i))
-                {
-                    let box = this.dcSub[i];
-                    if(box.checked)
-                    {
-                        allFalse = false;
-                    }
-                    else if(!box.checked)
-                    {
-                        allTrue = false;
-                    }
-                }
-            }
-            if(allTrue)
-            {
-                this.dc.checked = true;
-                this.dc.indeterminate = false;
-            }
-            else if(allFalse)
-            {
-                this.dc.checked = false;
-                this.dc.indeterminate = false;
-            }
-            else
-            {
-                this.dc.indeterminate = true;
-            }
-        }*/
     };
     Settings.prototype.updateClassBuffs = function(checkbox)
     {
@@ -178,6 +135,44 @@ let Settings = (function()
             }
         }
     };
+    Settings.prototype.updateFactionSelections = function()
+    {
+        let faction = this.getFaction();
+        let oldFaction;
+        if(faction === 'pub')
+        {
+            oldFaction = 'imp';
+        }
+        else
+        {
+            oldFaction = 'pub';
+        }
+        this.updateFactionDropdown(this.cd, faction, oldFaction);
+        this.updateFactionDropdown(this.sd, faction, oldFaction);
+    }
+    Settings.prototype.updateFactionDropdown = function(dropdown, faction, oldFaction)
+    {
+        if(!dropdown)
+        {
+            console.error('No dropdown specified for updateFactionDropdown!');
+            return;
+        }
+        let selected = dropdown.selectedOptions[0];
+        if(!selected || !selected.classList.contains('faction-' + oldFaction))
+        {
+            return;
+        }
+        let value = selected.value;
+        let options = dropdown.getElementsByClassName('faction-' + faction);
+        for(let i in options)
+        {
+            if(options.hasOwnProperty(i) && options[i].value === value)
+            {
+                options[i].selected = true;
+                break;
+            }
+        }
+    }
     return new Settings();
 })();
 declareReady('Settings.js', function(){Settings.init()});

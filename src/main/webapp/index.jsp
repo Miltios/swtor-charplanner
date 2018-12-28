@@ -144,53 +144,53 @@
             </select>
             <div id="datacronsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
                 <span class="expand-settings" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
-                <input type="checkbox" id="datacronsCheckbox" onchange='Settings.updateDatacrons(this)'>
+                <input type="checkbox" checked id="datacronsCheckbox" onchange='Settings.updateDatacrons(this)'>
                 <label class="label-single-line" for="datacronsCheckbox">All datacrons</label>
                 <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
                     <div class="setting">
-                        <input type="checkbox" id="datacronsCheckboxOssus" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <input type="checkbox" checked id="datacronsCheckboxOssus" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
                         <label class="label-single-line" for="datacronsCheckboxOssus">Ossus</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="datacronsCheckboxRishi" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <input type="checkbox" checked id="datacronsCheckboxRishi" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
                         <label class="label-single-line" for="datacronsCheckboxRishi">Rishi</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="datacronsCheckboxMakeb" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <input type="checkbox" checked id="datacronsCheckboxMakeb" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
                         <label class="label-single-line" for="datacronsCheckboxMakeb">Makeb</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="datacronsCheckboxFleet" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <input type="checkbox" checked id="datacronsCheckboxFleet" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
                         <label class="label-single-line" for="datacronsCheckboxFleet">Fleet</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="datacronsCheckboxBase" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <input type="checkbox" checked id="datacronsCheckboxBase" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
                         <label class="label-single-line" for="datacronsCheckboxBase">Base game planets</label>
                     </div>
                 </div>
             </div>
             <div id="classBuffsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
                 <span class="expand-settings collapsed" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
-                <input type="checkbox" id="classBuffsCheckbox" onchange='Settings.updateClassBuffs(this)'>
+                <input type="checkbox" checked id="classBuffsCheckbox" onchange='Settings.updateClassBuffs(this)'>
                 <label class="label-single-line" for="classBuffsCheckbox">All class buffs</label>
                 <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
                     <div class="setting">
-                        <input type="checkbox" id="classBuffsCheckboxMastery" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <input type="checkbox" checked id="classBuffsCheckboxMastery" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
                         <label class="label-single-line faction-imp" for="classBuffsCheckboxMastery">Mark of Power</label>
                         <label class="label-single-line faction-pub" for="classBuffsCheckboxMastery">Force Valor</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="classBuffsCheckboxDmg" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <input type="checkbox" checked id="classBuffsCheckboxDmg" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
                         <label class="label-single-line faction-imp" for="classBuffsCheckboxDmg">Unnatural Might</label>
                         <label class="label-single-line faction-pub" for="classBuffsCheckboxDmg">Force Might</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="classBuffsCheckboxCrit" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <input type="checkbox" checked id="classBuffsCheckboxCrit" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
                         <label class="label-single-line faction-imp" for="classBuffsCheckboxCrit">Coordination</label>
                         <label class="label-single-line faction-pub" for="classBuffsCheckboxCrit">Lucky Shots</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="classBuffsCheckboxEndurance" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <input type="checkbox" checked id="classBuffsCheckboxEndurance" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
                         <label class="label-single-line faction-imp" for="classBuffsCheckboxEndurance">Hunter&apos;s Boon</label>
                         <label class="label-single-line faction-pub" for="classBuffsCheckboxEndurance">Fortification</label>
                     </div>
@@ -198,27 +198,27 @@
             </div>
             <div id="companionBuffsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
                 <span class="expand-settings collapsed" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
-                <input type="checkbox" id="companionBuffsCheckbox" onchange='Settings.updateCompanionBuffs(this)'>
+                <input type="checkbox" checked id="companionBuffsCheckbox" onchange='Settings.updateCompanionBuffs(this)'>
                 <label class="label-single-line" for="companionBuffsCheckbox">All companion buffs</label>
                 <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
                     <div class="setting">
-                        <input type="checkbox" id="companionBuffsCheckboxRTank" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <input type="checkbox" checked id="companionBuffsCheckboxRTank" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
                         <label class="label-single-line" for="companionBuffsCheckboxRTank">Ranged Tank</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="companionBuffsCheckboxMTank" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <input type="checkbox" checked id="companionBuffsCheckboxMTank" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
                         <label class="label-single-line" for="companionBuffsCheckboxMTank">Melee Tank</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="companionBuffsCheckboxRDPS" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <input type="checkbox" checked id="companionBuffsCheckboxRDPS" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
                         <label class="label-single-line" for="companionBuffsCheckboxRDPS">Ranged DPS</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="companionBuffsCheckboxMDPS" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <input type="checkbox" checked id="companionBuffsCheckboxMDPS" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
                         <label class="label-single-line" for="companionBuffsCheckboxRTank">Melee DPS</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" id="companionBuffsCheckboxHealer" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
+                        <input type="checkbox" checked id="companionBuffsCheckboxHealer" class="companion-buffs-checkbox" onchange="Settings.updateCompanionBuffs(this)">
                         <label class="label-single-line" for="companionBuffsCheckboxRTank">Healer</label>
                     </div>
                 </div>

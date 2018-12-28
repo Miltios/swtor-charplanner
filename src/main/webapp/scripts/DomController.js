@@ -19,7 +19,7 @@ let DomController = (function()
             case 'factionToggle':
                 let faction = el.value;
                 DomManager.setFaction(faction);
-                //TODO:update class/spec list to mirrors
+                Settings.updateFactionSelections();
             break;
             case 'toggleExpand':
                 DomManager.dismissOtherPopups(event);
