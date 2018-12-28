@@ -26,7 +26,7 @@
                 <td>
                     <div id="slotEar" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_ear.png" />
                         </a>
                     </div>
                 </td>
@@ -34,7 +34,7 @@
                 <td>
                     <div id="slotHead" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_head.png" />
                         </a>
                     </div>
                 </td>
@@ -43,7 +43,7 @@
                 <td>
                     <div id="slotImplant1" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_implant.png" />
                         </a>
                     </div>
                 </td>
@@ -51,7 +51,7 @@
                 <td>
                     <div id="slotChest" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_chest.png" />
                         </a>
                     </div>
                 </td>
@@ -60,7 +60,7 @@
                 <td>
                     <div id="slotImplant2" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_implant.png" />
                         </a>
                     </div>
                 </td>
@@ -68,7 +68,7 @@
                 <td>
                     <div id="slotHands" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_hands.png" />
                         </a>
                     </div>
                 </td>
@@ -77,7 +77,7 @@
                 <td>
                     <div id="slotWrists" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_wrists.png" />
                         </a>
                     </div>
                 </td>
@@ -85,7 +85,7 @@
                 <td>
                     <div id="slotWaist" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_waist.png" />
                         </a>
                     </div>
                 </td>
@@ -94,7 +94,7 @@
                 <td>
                     <div id="slotRelic1" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_relic.png" />
                         </a>
                     </div>
                 </td>
@@ -102,7 +102,7 @@
                 <td>
                     <div id="slotLegs" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_legs.png" />
                         </a>
                     </div>
                 </td>
@@ -111,28 +111,28 @@
                 <td>
                     <div id="slotRelic2" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_relic.png" />
                         </a>
                     </div>
                 </td>
                 <td>
                     <div id="slotMainhand" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" />
                         </a>
                     </div>
                 </td>
                 <td>
                     <div id="slotOffhand" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>
                 </td>
                 <td>
                     <div id="slotFeet" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty.png" />
+                            <img class="character-slot-img slot-empty" src="images/items80/empty_feet.png" />
                         </a>
                     </div>
                 </td>
@@ -162,7 +162,7 @@
                 <option class="faction-pub" value="pt">Vanguard</option>
             </select>
             <label "label-inline" for="specDropdown">Spec:</label>
-            <select id="specDropdown" onchange="DomController.userInput(this, 'classSelect')"> <!--TODO: update options dynamically -->
+            <select id="specDropdown" onchange="DomController.userInput(this, 'specSelect')"> <!--TODO: update options dynamically -->
                 <option class="faction-imp" value="sinTank">Darkness</option>
                 <option class="faction-imp" value="sinBurst">Deception</option>
                 <option class="faction-imp" value="sinSust">Hatred</option>

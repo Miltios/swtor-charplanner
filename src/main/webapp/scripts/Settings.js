@@ -28,7 +28,7 @@ let Settings = (function()
         this.cob = document.getElementById('companionBuffsCheckbox');
         this.cobSub = document.getElementsByClassName('companion-buffs-checkbox');
 
-        this.updateFactionSelections();
+        this.updateFactionSelections(); //TODO:if user selects a republic class/spec and soft-refreshes, stuff gets screwy
         log('Settings initialized.');
     };
     Settings.prototype.getFaction = function()
@@ -170,6 +170,42 @@ let Settings = (function()
             {
                 options[i].selected = true;
                 break;
+            }
+        }
+    }
+    Settings.prototype.updateSpecDropdown = function()
+    {
+        let className = this.getClass();
+        let specs = SpecManager.getSpecsForClass(className);
+        this.sd.innerHTML = '';
+        let first = true;
+        for(let i in specs)
+        {
+            if(specs.hasOwnProperty(i))
+            {
+                let spec = specs[i];
+                let impOption = document.createElement('option');
+                let pubOption = document.createElement('option');
+                impOption.classList.add('faction-imp');
+                pubOption.classList.add('faction-pub');
+                impOption.value = spec;
+                pubOption.value = spec;
+                impOption.innerHTML = SpecManager.getSpecName(spec);
+                pubOption.innerHTML = SpecManager.getSpecMirror(spec);
+                if(first)
+                {
+                    if(this.getFaction() == 'imp')
+                    {
+                        impOption.selected = true;
+                    }
+                    else
+                    {
+                        pubOption.selected = true;
+                    }
+                    first = false;
+                }
+                this.sd.appendChild(impOption);
+                this.sd.appendChild(pubOption);
             }
         }
     }

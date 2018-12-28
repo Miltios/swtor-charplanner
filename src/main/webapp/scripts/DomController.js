@@ -62,6 +62,34 @@ let DomController = (function()
                 let item = ItemManager.getItemById(el.getAttribute('itemId'));
                 currentSlot.setItem(item);
                 break;
+            case 'classSelect':
+                Settings.updateSpecDropdown();
+                SlotManager.getSlot('mainhand').updateAppearance();
+                SlotManager.getSlot('offhand').updateAppearance();
+                //TODO: update stats:
+                    //arsenal merc gets +3% alacrity
+                    //corruption sorc gets +3% force crit chance, 3% dmg reduction, +3% bonus healing
+                    //bodyguard merc gets +3% healing/dmg, +5% dmg reduction +3% tech crit chance, +5% bonus healing
+                    //IO merc gets +5% ranged crit chance
+                    //concealment op gets +2% def chance
+                    //carnage mara gets +3% alacrity, +25% offhand dmg, +2% dmg reduction
+                    //fury mara gets +5% saber dmg, +3% force dmg, +10% crit dmg
+                    //immortal jugg gets +60% armor (+15% additional armor),
+                        //+6% dmg reduction, +15% shield chance, +10% accuracy, -10% dmg dealt,
+                        //+3% melee/ranged def, +4% shield chance, +5% elemental/internal dmg reduction
+                    //vengeance jugg gets +6% dmg, +5% melee dmg, +5% dmg reduction
+                    //rage jugg gets +5% saber dmg, +3% force dmg, +15% crit dmg
+                    //darkness sin gets -10% dmg dealt, +130% armor (+20% additional armor), +15% shield chance, +10% accuracy
+                        //+25% dmg reduction, +30% force regen, +10% internal/elemental dmg reduction
+                        //+4% melee/ranged def, +2% def, +4% absorb, +2% dmg reduction, +2% endurance
+                    //shield tech pt gets +60% armor rating (+15% additional armor), +5% dmg reduction, +15% shield chance, +10% accuracy, -10% dmg dealt
+                        //+2% shield chance, +2% dmg reduction (+2% additional dmg reduction), +4% melee/ranged def, +4% absorb
+                    //pyrotech pt gets +5% internal/elemental dmg reduction
+                    //AP pt gets +3% melee/ranged def +2% ranged/tech crit chance
+                break;
+            case 'specSelect':
+                //currently doesn't do anything
+                break;
         }
     };
     DomController.prototype.spawnItemPicker = function(slot)
