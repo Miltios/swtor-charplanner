@@ -40,6 +40,14 @@ let Utilities = (function()
         }
         return false;
     }
+    Utilities.prototype.capitalizeFirstLetter = function(str)
+    {
+        if(!str)
+        {
+            return str;
+        }
+        return str.substring(0,1).toUpperCase() + str.substr(1);
+    }
     return new Utilities();
 })();
 declareReady('Utilities.js', null);

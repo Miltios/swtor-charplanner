@@ -24,7 +24,7 @@ let PickerController = (function()
         {
             items = ItemManager.getItemsForSpecAndSlot(Settings.getSpec(), slotName);
         }
-        else if(specFilter = 'myClass')
+        else if(specFilter === 'myClass')
         {
             items = ItemManager.getItemsForClassAndSlot(Settings.getClass(), slotName);
         }
@@ -32,6 +32,10 @@ let PickerController = (function()
         {
             items = ItemManager.getItemsForSlot(slotName);
         }
+
+        let ratings = Settings.getItemRatings();
+        items = items.filter(i => ratings.indexOf(i.rating) !== -1);
+
         items = items.sort((a,b) => (-1)*(a.rating-b.rating));
         for(let i=0; i<items.length; i++)
         {

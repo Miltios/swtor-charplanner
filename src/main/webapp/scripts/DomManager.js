@@ -9,6 +9,7 @@ let DomManager = (function()
         this.itemListBlue;
         this.itemListPurple;
         this.itemListGold;
+        this.itemListEmpty;
     }
     DomManager.prototype.init = function()
     {
@@ -22,6 +23,7 @@ let DomManager = (function()
         this.itemListBlue = document.getElementById('itemListBlue');
         this.itemListPurple = document.getElementById('itemListPurple');
         this.itemListGold = document.getElementById('itemListGold');
+        this.itemListEmpty = document.getElementById('itemListEmpty'); //just a dummy list to take up space in the layout if there aren't enough real lists display
 
         log('DomManager initialized.');
     };
@@ -82,6 +84,9 @@ let DomManager = (function()
                 break;
             case 'gold':
                 return this.itemListGold;
+                break;
+            case 'empty':
+                return this.itemListEmpty;
                 break;
         }
     };

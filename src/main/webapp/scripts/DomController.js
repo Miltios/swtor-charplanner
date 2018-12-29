@@ -66,6 +66,7 @@ let DomController = (function()
                 Settings.updateSpecDropdown();
                 SlotManager.getSlot('mainhand').updateAppearance();
                 SlotManager.getSlot('offhand').updateAppearance();
+                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
                 //TODO: update stats:
                     //arsenal merc gets +3% alacrity
                     //corruption sorc gets +3% force crit chance, 3% dmg reduction, +3% bonus healing
@@ -88,7 +89,17 @@ let DomController = (function()
                     //AP pt gets +3% melee/ranged def +2% ranged/tech crit chance
                 break;
             case 'specSelect':
-                //currently doesn't do anything
+                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                break;
+            case 'specFilterChange':
+                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                break;
+            case 'updateItemColors':
+                Settings.updateItemColorCheckboxes(el);
+                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                break;
+            case 'updateItemRatings':
+                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
                 break;
         }
     };
@@ -117,6 +128,30 @@ let DomController = (function()
             }
         }
     };
+    DomController.prototype.updateItemColorLists = function()
+    {
+        let colors = Settings.getItemColors();
+        let listEls = document.getElementsByClassName('item-list');
+        for(let i in listEls)
+        {
+            if(listEls.hasOwnProperty(i))
+            {
+                listEls[i].style.display = 'none';
+            }
+        }
+        for(let i in colors)
+        {
+            if(colors.hasOwnProperty(i))
+            {
+                let listEl = DomManager.getItemList(colors[i]);
+                listEl.style.display = '';
+            }
+        }
+        if(colors.length < 2)
+        {
+            DomManager.getItemList('empty').style.display = '';
+        }
+    }
 
     return new DomController();
 })();

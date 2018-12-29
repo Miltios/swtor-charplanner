@@ -61,9 +61,7 @@ Slot.prototype.allows = function(type)
 };
 Slot.prototype.getEl = function()
 {
-    let name = this.getName();
-    name =  name.substring(0,1).toUpperCase() + name.substr(1);
-    return document.getElementById('slot' + name)
+    return document.getElementById('slot' + Utilities.capitalizeFirstLetter(this.getName()));
 }
 Slot.prototype.updateAppearance = function()
 {

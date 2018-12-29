@@ -261,31 +261,32 @@
             <div id="itemListSettingsTop">
             </div>
             <div id="itemListArea">
-                <div id="itemListGreen" class="item-list" style="display:none"></div>
-                <div id="itemListBlue" class="item-list" style="display:none"></div>
+                <div id="itemListGreen" class="item-list" style="display:none;"></div>
+                <div id="itemListBlue" class="item-list" style="display:none;"></div>
                 <div id="itemListPurple" class="item-list"></div>
                 <div id="itemListGold" class="item-list"></div>
+                <div id="itemListEmpty" class="item-list" stle="display:none;"></div>
             </div>
             <div id="itemListSettingsBottom">
-                <div class="item-list-settings-block settings-partwidth">
+                <div id="itemListSettingsColor" class="item-list-settings-block settings-partwidth">
                     <span class="item-settings-block-title">Gear Quality:</span>
-                    <div class="item-green"><input type="checkbox" id="gearQualityCheckboxPremium" value="green"><label for="gearQualityCheckboxPremium">Premium</label></div>
-                    <div class="item-blue"><input type="checkbox" id="gearQualityCheckboxPrototype" value="blue"><label for="gearQualityCheckboxPrototype">Prototype</label></div>
-                    <div class="item-purple"><input type="checkbox" id="gearQualityCheckboxArtifact" value="purple"><label for="gearQualityCheckboxArtifact">Artifact</label></div>
-                    <div class="item-gold"><input type="checkbox" id="gearQualityCheckboxLegendary" value="gold"><label for="gearQualityCheckboxLegendary">Legendary</label></div>
-                    <div class="item-orange"><!--<input type="checkbox" id="gearQualityCheckboxCustom" value="orange"><label for="gearQualityCheckboxCustom">Custom</label>--></div>
+                    <div class="item-green"><input type="checkbox" id="gearQualityCheckboxGreen" class="item-color-checkbox" value="green" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxPremium">Premium</label></div>
+                    <div class="item-blue"><input type="checkbox" id="gearQualityCheckboxBlue" class="item-color-checkbox" value="blue" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxPrototype">Prototype</label></div>
+                    <div class="item-purple"><input type="checkbox" checked id="gearQualityCheckboxPurple" class="item-color-checkbox" value="purple" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxArtifact">Artifact</label></div>
+                    <div class="item-gold"><input type="checkbox" checked id="gearQualityCheckboxGold" class="item-color-checkbox" value="gold" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxLegendary">Legendary</label></div>
+                    <div class="item-orange"><!--<input type="checkbox" id="gearQualityCheckboxOrange" class="item-color-checkbox" value="orange" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxCustom">Custom</label>--></div>
                 </div>
-                <div class="item-list-settings-block settings-partwidth">
+                <div id="itemListSettingsRating" class="item-list-settings-block settings-partwidth">
                     <span class="item-settings-block-title">Item Rating:</span>
-                    <div><input type="checkbox" id="itemRatingCheckboxT1" value="1"><label for="itemRatingCheckboxT1">Tier 1 (228-230)</label></div>
-                    <div><input type="checkbox" id="itemRatingCheckboxT2" value="2"><label for="itemRatingCheckboxT2">Tier 2 (232-236)</label></div>
-                    <div><input type="checkbox" id="itemRatingCheckboxT3" value="3"><label for="itemRatingCheckboxT3">Tier 3 (238-242)</label></div>
-                    <div><input type="checkbox" id="itemRatingCheckboxT4" value="4"><label for="itemRatingCheckboxT4">Tier 4 (244-248)</label></div>
-                    <div><input type="checkbox" id="itemRatingCheckboxT5" value="5"><label for="itemRatingCheckboxT5">Tier 5 (252-258)</label></div>
+                    <div><input type="checkbox" checked id="itemRatingCheckboxT1" class="item-rating-checkbox" value="228-230" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT1">Tier 1 (228-230)</label></div>
+                    <div><input type="checkbox" checked id="itemRatingCheckboxT2" class="item-rating-checkbox" value="232-236" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT2">Tier 2 (232-236)</label></div>
+                    <div><input type="checkbox" checked id="itemRatingCheckboxT3" class="item-rating-checkbox" value="238-242" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT3">Tier 3 (238-242)</label></div>
+                    <div><input type="checkbox" checked id="itemRatingCheckboxT4" class="item-rating-checkbox" value="244-248" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT4">Tier 4 (244-248)</label></div>
+                    <div><input type="checkbox" checked id="itemRatingCheckboxT5" class="item-rating-checkbox" value="252-258" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT5">Tier 5 (252-258)</label></div>
                 </div>
                 <div class="item-list-settings-block settings-partwidth" style="width:30%;">
                     <label class="item-settings-block-title" for="specFilterDropdown">Show items for:</label>
-                    <select name="specFilterDropdown" id="specFilterDropdown" onchange="DomController.userInput(this, 'specFilterChange'">
+                    <select name="specFilterDropdown" id="specFilterDropdown" onchange="DomController.userInput(this, 'specFilterChange')">
                         <option value="myClass">My class</option>
                         <option value="mySpec" selected>My spec</option>
                         <option value="all">All</option>

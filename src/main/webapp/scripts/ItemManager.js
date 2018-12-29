@@ -39,7 +39,7 @@ let ItemManager = (function()
         {
             specRole = 'allTank';
         }
-        else if(spec.indexOf('Dps') !== -1)
+        else if(spec.indexOf('Dps') !== -1 || spec.indexOf('Burst') !== -1 || spec.indexOf('Sust') !== -1 || spec.indexOf('Hybrid') !== -1)
         {
             specRole = 'allDps';
         }
@@ -56,7 +56,7 @@ let ItemManager = (function()
     {
         let items = this.items.slice(); //shallow copy
         items = items.filter(i => (i.slot === slotName));
-        if(classname === 'all');
+        if(classname === 'all')
         {
             return items;
         }

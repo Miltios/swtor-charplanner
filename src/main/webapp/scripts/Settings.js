@@ -13,6 +13,8 @@ let Settings = (function()
         this.clbSub;
         this.cob;
         this.cobSub;
+        this.ilsc;
+        this.ilsr;
     }
     Settings.prototype.init = function()
     {
@@ -27,6 +29,24 @@ let Settings = (function()
         this.clbSub = document.getElementsByClassName('class-buffs-checkbox');
         this.cob = document.getElementById('companionBuffsCheckbox');
         this.cobSub = document.getElementsByClassName('companion-buffs-checkbox');
+        this.ilsc = document.getElementById('itemListSettingsColor');
+        this.ilscSub = this.ilsc.getElementsByClassName('item-color-checkbox');
+        this.ilsr = document.getElementById('itemListSettingsRating');
+        this.ilsrSub = this.ilsr.getElementsByClassName('item-rating-checkbox');
+
+        this.lastColor = null;
+        this.oldLastColor = null;
+        for(let i in this.ilscSub)
+        {
+            if(this.ilscSub.hasOwnProperty(i))
+            {
+                let box = this.ilscSub[i];
+                if(box.checked)
+                {
+                    this.updateItemColorCheckboxes(box);
+                }
+            }
+        }
 
         this.updateFactionSelections(); //TODO:if user selects a republic class/spec and soft-refreshes, stuff gets screwy
         log('Settings initialized.');
@@ -75,6 +95,40 @@ let Settings = (function()
         */
         return null;
     };
+    Settings.prototype.getItemColors = function()
+    {
+        let colors = [];
+        for(let i in this.ilscSub)
+        {
+            if(this.ilscSub.hasOwnProperty(i) && this.ilscSub[i].checked)
+            {
+                colors.push(this.ilscSub[i].value);
+            }
+        }
+        return colors;
+    }
+    Settings.prototype.getItemRatings = function()
+    {
+        let ratings = [];
+        for(let i in this.ilsrSub)
+        {
+            if(this.ilsrSub.hasOwnProperty(i))
+            {
+                let box = this.ilsrSub[i];
+                //'232-236'
+                if(box.checked)
+                {
+                    let min = parseInt(box.value.split('-')[0]);
+                    let max = parseInt(box.value.split('-')[1]);
+                    for(let j=min; j<=max; j+=2) //+=2 because there are no odd-numbered item ratings that we know of
+                    {
+                        ratings.push(j);
+                    }
+                }
+            }
+        }
+        return ratings;
+    }
     Settings.prototype.updateDatacrons = function(checkbox)
     {
         this.updateNestedCheckboxes(checkbox, this.dc, this.dcSub);
@@ -149,7 +203,7 @@ let Settings = (function()
         }
         this.updateFactionDropdown(this.cd, faction, oldFaction);
         this.updateFactionDropdown(this.sd, faction, oldFaction);
-    }
+    };
     Settings.prototype.updateFactionDropdown = function(dropdown, faction, oldFaction)
     {
         if(!dropdown)
@@ -172,7 +226,7 @@ let Settings = (function()
                 break;
             }
         }
-    }
+    };
     Settings.prototype.updateSpecDropdown = function()
     {
         let className = this.getClass();
@@ -208,6 +262,43 @@ let Settings = (function()
                 this.sd.appendChild(pubOption);
             }
         }
+    };
+    Settings.prototype.updateItemColorCheckboxes = function(el)
+    {
+        //first, handle if user is un-checking one of the existing two boxes
+        if(!el.checked)
+        {
+            if(el.value === this.lastColor)
+            {
+                this.lastColor = this.oldLastColor;
+                this.oldLastColor = null;
+            }
+            else
+            {
+                this.oldLastColor = null;
+            }
+            //DomController.updateItemColorLists();
+            //return;
+        }
+        //otherwise, make sure that no more than two boxes can be checked at once
+        else if(this.lastColor === null)
+        {
+            this.lastColor = el.value;
+            //return;
+        }
+        else if(this.oldLastColor === null)
+        {
+            this.oldLastColor = this.lastColor;
+            this.lastColor = el.value;
+            //return;
+        }
+        else
+        {
+            document.getElementById('gearQualityCheckbox' + Utilities.capitalizeFirstLetter(this.oldLastColor)).checked = false;
+            this.oldLastColor = this.lastColor;
+            this.lastColor = el.value;
+        }
+        DomController.updateItemColorLists();
     }
     return new Settings();
 })();
