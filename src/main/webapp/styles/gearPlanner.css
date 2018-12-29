@@ -218,3 +218,36 @@ body.faction-mode-pub .faction-imp
 {
     background-color:#12e713;
 }
+#itemListSettingsBottom
+{
+    display:table;
+    width:100%;
+    padding:10px;
+}
+.item-list-settings-block
+{
+    font-size:0.9em;
+    font-weight:normal;
+    padding:8px 0;
+}
+.settings-fullwidth
+{
+    width:100%;
+    display:table-row;
+}
+.settings-partwidth
+{
+    /*width:50%;*/
+    display:table-cell;
+}
+.item-settings-block-title
+{
+    font-weight:bold;
+    display:inline-block;
+    margin-bottom:3px;
+}
+#specFilterDropdown
+{
+    display:block;
+    margin-top:3px;
+}
