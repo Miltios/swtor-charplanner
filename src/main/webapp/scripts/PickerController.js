@@ -13,6 +13,10 @@ let PickerController = (function()
     PickerController.prototype.populateOptionsForSlot = function(slot)
     {
         DomController.clearItemLists();
+        if(!slot)
+        {
+            return;
+        }
 
         //populate (or hide?) "currently equipped" section
 

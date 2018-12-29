@@ -48,7 +48,7 @@ let Settings = (function()
             }
         }
 
-        this.updateFactionSelections(); //TODO:if user selects a republic class/spec and soft-refreshes, stuff gets screwy
+        this.updateFactionSelections();
         log('Settings initialized.');
     };
     Settings.prototype.getFaction = function()

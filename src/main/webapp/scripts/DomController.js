@@ -103,6 +103,14 @@ let DomController = (function()
                 break;
         }
     };
+    DomController.prototype.initSelections = function()
+    {
+        Settings.updateSpecDropdown();
+        DomManager.setFaction(Settings.getFaction());
+        Settings.updateFactionSelections();
+        SlotManager.getSlot('mainhand').updateAppearance();
+        SlotManager.getSlot('offhand').updateAppearance();
+    }
     DomController.prototype.spawnItemPicker = function(slot)
     {
         let pickerEl = DomManager.getItemPicker();

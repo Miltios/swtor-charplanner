@@ -143,7 +143,7 @@
         <div id="charSettings">
             <label "label-inline" for="classDropdown">Class:</label>
             <select id="classDropdown" onchange="DomController.userInput(this, 'classSelect')">
-                <option class="faction-imp" value="sin" selected>Assassin</option>
+                <option class="faction-imp" value="sin">Assassin</option>
                 <option class="faction-imp" value="jugg">Juggernaut</option>
                 <option class="faction-imp" value="mara">Marauder</option>
                 <option class="faction-imp" value="merc">Mercenary</option>
@@ -355,6 +355,7 @@ function initAll()
             }
         }
     }
+    DomController.initSelections();
 }
 function log(str)
 {
