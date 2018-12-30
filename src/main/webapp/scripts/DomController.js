@@ -16,12 +16,21 @@ let DomController = (function()
                 let slot = DomManager.getSlot(el);
                 SlotManager.setCurrentSlot(slot);
                 this.spawnItemPicker(slot);
-            break;
+                break;
             case 'factionToggle':
                 let faction = el.value;
                 DomManager.setFaction(faction);
                 Settings.updateFactionSelections();
-            break;
+                let currSlot = SlotManager.getCurrentSlot();
+
+                //some republic classes have a different offhand from their imperial counterparts.  All other slots are the same.
+                if(currSlot.getName() === 'offhand')
+                {
+                    PickerController.populateOptionsForSlot(currSlot);
+                    PickerController.populateCurrentItemForSlot(currSlot);
+                }
+                SlotManager.getSlot('offhand').updateAppearance();
+                break;
             case 'toggleExpand':
                 DomManager.dismissOtherPopups(event);
                 if(el.classList.contains('collapsed'))
@@ -61,12 +70,14 @@ let DomController = (function()
                 let currentSlot = SlotManager.getCurrentSlot();
                 let item = ItemManager.getItemById(el.getAttribute('itemId'));
                 currentSlot.setItem(item);
+                PickerController.populateCurrentItemForSlot(currentSlot);
                 break;
             case 'classSelect':
                 Settings.updateSpecDropdown();
                 SlotManager.getSlot('mainhand').updateAppearance();
                 SlotManager.getSlot('offhand').updateAppearance();
                 PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                PickerController.populateCurrentItemForSlot(SlotManager.getCurrentSlot());
                 //TODO: update stats:
                     //arsenal merc gets +3% alacrity
                     //corruption sorc gets +3% force crit chance, 3% dmg reduction, +3% bonus healing
@@ -114,6 +125,7 @@ let DomController = (function()
     DomController.prototype.spawnItemPicker = function(slot)
     {
         let pickerEl = DomManager.getItemPicker();
+        PickerController.populateCurrentItemForSlot(slot);
         PickerController.populateOptionsForSlot(slot);
         pickerEl.style.display = '';
     };

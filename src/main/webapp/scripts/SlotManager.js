@@ -9,8 +9,6 @@ let SlotManager = (function()
     };
     SlotManager.prototype.init = function()
     {
-        console.log('SlotManager.init()');
-
         //TODO: do we define allowable subslots here or in Items?
         for(let i=0; i<this.charSlotNames.length; i++)
         {
@@ -57,6 +55,77 @@ let SlotManager = (function()
     SlotManager.prototype.setCurrentSlot = function(slot)
     {
         this.currentSlot = slot;
+    }
+    SlotManager.prototype.getImageForEmptySlot = function(slot)
+    {
+        let className = Settings.getClass();
+        if(Settings.getFaction() === 'pub') //HACK: "mando" etc. normally don't exist because we track by imperial class names, but they have different offhands pubside
+        {
+            if(className === 'merc')
+            {
+                className = 'mando';
+            }
+            else if(className === 'sniper')
+            {
+                className = 'slinger';
+            }
+            else if(className === 'op')
+            {
+                className = 'scoundrel';
+            }
+        }
+        switch(slot.getGenericName())
+        {
+            case 'mainhand':
+                switch(className)
+                {
+                    case 'jugg':
+                    case 'sin':
+                    case 'mara':
+                    case 'sorc':
+                        return 'empty_mainhand_saber.png';
+                        break;
+                    case 'merc':
+                    case 'mando': //temporary pseudo-class
+                    case 'pt':
+                    case 'op':
+                    case 'scoundrel': //temporary pseudo-class
+                    case 'sniper':
+                    case 'slinger': //temporary pseudo-class
+                        return 'empty_mainhand_gun.png';
+                        break;
+                }
+                break;
+            case 'offhand':
+                switch(className)
+                {
+                    case 'mando': //temporary pseudo-class
+                    case 'pt':
+                    case 'jugg':
+                    case 'sin':
+                    case 'sorc':
+                        return 'empty_offhand_shield.png';
+                        break;
+                    case 'merc':
+                    case 'slinger': //temporary pseudo-class
+                        return 'empty_offhand_gun.png';
+                        break;
+                    case 'mara':
+                        return 'empty_offhand_saber.png';
+                        break;
+                    case 'op':
+                    case 'sniper':
+                        return 'empty_offhand_knife.png';
+                        break;
+                    case 'scoundrel': //temporary pseudo-class
+                        return 'empty_offhand_shotgun.png';
+                        break;
+                }
+                break;
+            default:
+                return 'empty_' + slot.getGenericName() + '.png';
+                break;
+        }
     }
     return new SlotManager();
 })();

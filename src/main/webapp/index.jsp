@@ -255,7 +255,13 @@
             <div id="currentItemArea">
                 <div>
                     <!--TODO-->
-                    [Currently equipped]
+                    <span class="block-title">Currently Equipped:&nbsp;</span><span id="currentItemName" class="block-title">None</span><br />
+                    <img id="currentItemImg" class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" />
+                </div>
+            </div>
+            <div id="customItemArea">
+                <div>
+                    [item modding]
                 </div>
             </div>
             <div id="itemListSettingsTop">
@@ -269,7 +275,7 @@
             </div>
             <div id="itemListSettingsBottom">
                 <div id="itemListSettingsColor" class="item-list-settings-block settings-partwidth">
-                    <span class="item-settings-block-title">Gear Quality:</span>
+                    <span class="block-title">Gear Quality:</span>
                     <div class="item-green"><input type="checkbox" id="gearQualityCheckboxGreen" class="item-color-checkbox" value="green" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxPremium">Premium</label></div>
                     <div class="item-blue"><input type="checkbox" id="gearQualityCheckboxBlue" class="item-color-checkbox" value="blue" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxPrototype">Prototype</label></div>
                     <div class="item-purple"><input type="checkbox" checked id="gearQualityCheckboxPurple" class="item-color-checkbox" value="purple" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxArtifact">Artifact</label></div>
@@ -277,7 +283,7 @@
                     <div class="item-orange"><!--<input type="checkbox" id="gearQualityCheckboxOrange" class="item-color-checkbox" value="orange" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxCustom">Custom</label>--></div>
                 </div>
                 <div id="itemListSettingsRating" class="item-list-settings-block settings-partwidth">
-                    <span class="item-settings-block-title">Item Rating:</span>
+                    <span class="block-title">Item Rating:</span>
                     <div><input type="checkbox" checked id="itemRatingCheckboxT1" class="item-rating-checkbox" value="228-230" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT1">Tier 1 (228-230)</label></div>
                     <div><input type="checkbox" checked id="itemRatingCheckboxT2" class="item-rating-checkbox" value="232-236" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT2">Tier 2 (232-236)</label></div>
                     <div><input type="checkbox" checked id="itemRatingCheckboxT3" class="item-rating-checkbox" value="238-242" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT3">Tier 3 (238-242)</label></div>
@@ -285,17 +291,12 @@
                     <div><input type="checkbox" checked id="itemRatingCheckboxT5" class="item-rating-checkbox" value="252-258" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT5">Tier 5 (252-258)</label></div>
                 </div>
                 <div class="item-list-settings-block settings-partwidth" style="width:30%;">
-                    <label class="item-settings-block-title" for="specFilterDropdown">Show items for:</label>
+                    <label class="block-title" for="specFilterDropdown">Show items for:</label>
                     <select name="specFilterDropdown" id="specFilterDropdown" onchange="DomController.userInput(this, 'specFilterChange')">
                         <option value="myClass">My class</option>
                         <option value="mySpec" selected>My spec</option>
                         <option value="all">All</option>
                     </select>
-                </div>
-            </div>
-            <div id="customItemArea">
-                <div colspan="4">
-                    [custom item]
                 </div>
             </div>
         </div>

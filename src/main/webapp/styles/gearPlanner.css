@@ -149,7 +149,7 @@ body.faction-mode-pub .faction-imp
 #currentItemArea
 {
     /*display:none;*/
-    height:100px;
+    min-height:100px;
 }
 #itemListArea
 {
@@ -240,7 +240,7 @@ body.faction-mode-pub .faction-imp
     /*width:50%;*/
     display:table-cell;
 }
-.item-settings-block-title
+.block-title
 {
     font-weight:bold;
     display:inline-block;

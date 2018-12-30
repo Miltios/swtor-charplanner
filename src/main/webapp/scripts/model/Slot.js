@@ -74,74 +74,10 @@ Slot.prototype.updateAppearance = function()
     else
     {
         this.imgEl.className = 'character-slot-img slot-empty';
-        let className = Settings.getClass();
-        if(Settings.getFaction() === 'pub') //HACK: "mando" etc. normally don't exist because we track by imperial class names, but they have different offhands pubside
-        {
-            if(className === 'merc')
-            {
-                className = 'mando';
-            }
-            else if(className === 'sniper')
-            {
-                className = 'slinger';
-            }
-            else if(className === 'op')
-            {
-                className = 'scoundrel';
-            }
-        }
-        switch(this.getGenericName())
-        {
-            case 'mainhand':
-                switch(className)
-                {
-                    case 'jugg':
-                    case 'sin':
-                    case 'mara':
-                    case 'sorc':
-                        this.imgEl.src = 'images/items80/empty_mainhand_saber.png';
-                        break;
-                    case 'merc':
-                    case 'mando': //temporary pseudo-class
-                    case 'pt':
-                    case 'op':
-                    case 'scoundrel': //temporary pseudo-class
-                    case 'sniper':
-                    case 'slinger': //temporary pseudo-class
-                        this.imgEl.src = 'images/items80/empty_mainhand_gun.png';
-                        break;
-                }
-                break;
-            case 'offhand':
-                switch(className)
-                {
-                    case 'mando': //temporary pseudo-class
-                    case 'pt':
-                    case 'jugg':
-                    case 'sin':
-                    case 'sorc':
-                        this.imgEl.src = 'images/items80/empty_offhand_shield.png';
-                        break;
-                    case 'merc':
-                    case 'slinger': //temporary pseudo-class
-                        this.imgEl.src = 'images/items80/empty_offhand_gun.png';
-                        break;
-                    case 'mara':
-                        this.imgEl.src = 'images/items80/empty_offhand_saber.png';
-                        break;
-                    case 'op':
-                    case 'sniper':
-                        this.imgEl.src = 'images/items80/empty_offhand_knife.png';
-                        break;
-                    case 'scoundrel': //temporary pseudo-class
-                        this.imgEl.src = 'images/items80/empty_offhand_shotgun.png';
-                        break;
-                }
-                break;
-            default:
-                this.imgEl.src = 'images/items80/empty_' + this.getGenericName() + '.png';
-                break;
-        }
+        this.imgEl.src = 'images/items80/' + SlotManager.getImageForEmptySlot(this);
+
+
+
     }
 }
 

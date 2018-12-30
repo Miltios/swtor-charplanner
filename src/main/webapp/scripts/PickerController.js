@@ -3,10 +3,14 @@ let PickerController = (function()
     function PickerController()
     {
         //declare vars
+        this.cii;
+        this.cin;
     }
     PickerController.prototype.init = function()
     {
         //locate DOM elements?
+        this.cii = document.getElementById('currentItemImg');
+        this.cin = document.getElementById('currentItemName');
 
         log('PickerController initialized.');
     };
@@ -57,6 +61,36 @@ let PickerController = (function()
 
         //do something with "custom item" section?
     };
+    PickerController.prototype.populateCurrentItemForSlot = function(slot)
+    {
+        //first, remove all the existing color classes from the item name span
+        let classList = this.cin.classList;
+        for(let i in classList)
+        {
+            if(classList.hasOwnProperty(i))
+            {
+                let cls = classList[i];
+                if(cls.indexOf('item-' === 0) && cls.split('-').length === 2)
+                {
+                    this.cin.classList.remove(cls);
+                }
+            }
+        }
+
+        //then update everything
+        let item = slot.getItem();
+        if(item === null)
+        {
+            this.cii.src = 'images/items80/' + SlotManager.getImageForEmptySlot(slot);
+            this.cin.innerHTML = 'None';
+        }
+        else
+        {
+            this.cii.src = 'images/items80/' + ItemManager.getImageForItem(item);
+            this.cin.innerHTML = slot.getItem().name;
+            this.cin.classList.add('item-' + item.color);
+        }
+    }
     PickerController.prototype.filterOptions = function()
     {
         //when the dropdown selection changes, swap out a CSS class to show or hide various items in the color lists
