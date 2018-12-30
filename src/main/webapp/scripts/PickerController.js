@@ -5,12 +5,18 @@ let PickerController = (function()
         //declare vars
         this.cii;
         this.cin;
+        this.cir;
+        this.cis;
+        this.cid;
     }
     PickerController.prototype.init = function()
     {
         //locate DOM elements?
         this.cii = document.getElementById('currentItemImg');
         this.cin = document.getElementById('currentItemName');
+        this.cir = document.getElementById('currentItemRating');
+        this.cis = document.getElementById('currentItemStats');
+        this.cid = document.getElementById('currentItemDescription');
 
         log('PickerController initialized.');
     };
@@ -63,7 +69,7 @@ let PickerController = (function()
     };
     PickerController.prototype.populateCurrentItemForSlot = function(slot)
     {
-        //first, remove all the existing color classes from the item name span
+        //first, remove all the existing color classes from the item elements
         let classList = this.cin.classList;
         for(let i in classList)
         {
@@ -76,6 +82,18 @@ let PickerController = (function()
                 }
             }
         }
+        let imgClassList = this.cii.imgClassList;
+        for(let i in imgClassList)
+        {
+            if(imgClassList.hasOwnProperty(i))
+            {
+                let cls = imgClassList[i];
+                if(cls.indexOf('slot-' === 0) && cls.split('-').length === 2)
+                {
+                    this.cin.imgClassList.remove(cls);
+                }
+            }
+        }
 
         //then update everything
         let item = slot.getItem();
@@ -83,12 +101,27 @@ let PickerController = (function()
         {
             this.cii.src = 'images/items80/' + SlotManager.getImageForEmptySlot(slot);
             this.cin.innerHTML = 'None';
+            this.cir.innerHTML = '';
         }
         else
         {
             this.cii.src = 'images/items80/' + ItemManager.getImageForItem(item);
+            this.cii.classList.add('slot-' + item.color);
             this.cin.innerHTML = slot.getItem().name;
             this.cin.classList.add('item-' + item.color);
+            this.cir.innerHTML = 'Item Rating ' + item.rating;
+            this.cis.innerHTML = '';
+            for(let stat in item.stats)
+            {
+                if(item.stats.hasOwnProperty(stat))
+                {
+                    let el = document.createElement('span');
+                    el.classList.add('item-stat');
+                    el.innerHTML = '+' + item.stats[stat] + ' ' + StatController.getStatName(stat);
+                    this.cis.appendChild(el);
+                }
+            }
+            this.cid.innerHTML = item.description;
         }
     }
     PickerController.prototype.filterOptions = function()

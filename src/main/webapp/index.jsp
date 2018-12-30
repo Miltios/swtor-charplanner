@@ -253,11 +253,21 @@
         </div>
         <div id="itemPicker" style="display:none;">
             <div id="currentItemArea">
-                <div>
-                    <!--TODO-->
-                    <span class="block-title">Currently Equipped:&nbsp;</span><span id="currentItemName" class="block-title">None</span><br />
-                    <img id="currentItemImg" class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" />
-                </div>
+                <table>
+                    <tr>
+                        <td colspan="2"><span class="block-title">Currently Equipped:&nbsp;</span><span id="currentItemName" class="block-title">None</span></td>
+                    </tr>
+                    <tr>
+                        <td><img id="currentItemImg" class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" /></td>
+                        <td style="width:100%">
+                            <div id="currentItemRating"></div>
+                            <div id="currentItemStats"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><div id="currentItemDescription"></div></td>
+                    </tr>
+                </table>
             </div>
             <div id="customItemArea">
                 <div>
@@ -373,6 +383,7 @@ function log(str)
     requireJs("/swtor/scripts/PickerController.js");
     requireJs("/swtor/scripts/SlotManager.js");
     requireJs("/swtor/scripts/SpecManager.js");
+    requireJs("/swtor/scripts/StatController.js");
     requireJs("/swtor/scripts/Settings.js");
     requireJs("/swtor/scripts/Utilities.js");
     requireJs("/swtor/scripts/model/Item.js");

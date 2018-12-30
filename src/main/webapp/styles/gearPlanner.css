@@ -251,3 +251,26 @@ body.faction-mode-pub .faction-imp
     display:block;
     margin-top:3px;
 }
+#currentItemArea
+{
+    padding:5px;
+}
+.item-stat
+{
+    display:block;
+    color:#e7cb6e;
+    font-size:0.9em;
+}
+#currentItemRating
+{
+    margin-bottom:10px;
+}
+#currentItemImg
+{
+    margin:5px 5px 5px 0;
+}
+#currentItemDescription
+{
+    color:#e7cb6e;
+    font-size:0.9em;
+}
