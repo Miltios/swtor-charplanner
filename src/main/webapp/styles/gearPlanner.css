@@ -271,6 +271,20 @@ body.faction-mode-pub .faction-imp
 }
 #currentItemDescription
 {
-    color:#e7cb6e;
     font-size:0.9em;
+}
+.description-proctype
+{
+    color:#12e713;
+}
+.description-effect
+{
+    color:#e7cb6e;
+}
+.description-setbonus-2,
+.description-setbonus-4,
+.description-setbonus-6
+{
+    color:#12e713;
+    display:block;
 }
