@@ -116,16 +116,64 @@ let ItemManager = (function()
         {
             return 'empty.png';
         }
+        let name = item.name.toLowerCase();
         switch(item.slot)
         {
             case 'ear':
+            {
+                if(name.indexOf('adept') !== -1)
+                {
+                    return 'ear_adept.png';
+                }
+                if(name.indexOf('bastion') !== -1)
+                {
+                    return 'ear_bastion.png';
+                }
+                if(name.indexOf('bulwark') !== -1)
+                {
+                    return 'ear_bulwark.png';
+                }
+                if(name.indexOf('initiative') !== -1)
+                {
+                    return 'ear_initiative.png';
+                }
+                if(name.indexOf('quick') !== -1)
+                {
+                    return 'ear_quicksavant.png';
+                }
                 break;
+            }
             case 'implant':
+            {
+                if(name.indexOf('adept') !== -1)
+                {
+                    return 'implant_adept.png';
+                }
+                if(name.indexOf('bastion') !== -1)
+                {
+                    return 'implant_bastion.png';
+                }
+                if(name.indexOf('bulwark') !== -1)
+                {
+                    return 'implant_bulwark.png';
+                }
+                if(name.indexOf('initiative') !== -1)
+                {
+                    return 'implant_initiative.png';
+                }
+                if(name.indexOf('quick') !== -1)
+                {
+                    return 'implant_quicksavant.png';
+                }
                 break;
+            }
             case 'wrists':
+            {
+                return 'wrists_stalker.png';
                 break;
+            }
             case 'relic':
-                let name = item.name.toLowerCase();
+            {
                 if(name.indexOf('boundless') !== -1)
                 {
                     return 'relic_boundless.png';
@@ -171,21 +219,42 @@ let ItemManager = (function()
                     return 'relic_imperiling.png';
                 }
                 break;
+            }
             case 'head':
+            {
+                return 'head_stalker.png';
                 break;
+            }
             case 'chest':
+            {
+                return 'chest_stalker.png';
                 break;
+            }
             case 'hands':
+            {
+                return 'hands_stalker.png';
                 break;
+            }
             case 'waist':
+            {
+                return 'waist_stalker.png';
                 break;
+            }
             case 'legs':
+            {
+                return 'legs_stalker.png';
                 break;
+            }
             case 'feet':
+            {
+                return 'feet_stalker.png';
                 break;
+            }
             case 'mainhand':
+                //TODO
                 break;
             case 'offhand':
+                //TODO
                 break;
         }
     }
