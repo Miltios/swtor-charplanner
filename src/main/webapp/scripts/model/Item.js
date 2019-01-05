@@ -10,6 +10,7 @@ function Item(data)
     this.itemMods = [];
     this.dynamicSlotType;
     this.description;
+    this.image;
     if(!data)
     {
         //should we even allow this?
@@ -25,6 +26,7 @@ function Item(data)
         this.stats = data.stats;
         this.dynamicSlotType = data.dynamicSlot;
         this.description = data.description;
+        this.image = data.image;
     }
 }
 //TODO:getters and setters?

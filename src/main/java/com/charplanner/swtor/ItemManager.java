@@ -60,6 +60,7 @@ public class ItemManager
                         ds = ds.toUpperCase();
                     }
                     i.setDynamicSlotType(Item.DynamicSlot.valueOf(ds));
+                    i.setImage(rs.getString("Image"));
 
                     items.put(itemId, i); //TODO:better safety pls
                 }
@@ -249,6 +250,7 @@ public class ItemManager
             sb.append("slot:'").append(i.getSlot()).append("',\n");
             sb.append("rating:").append(i.getRating()).append(",\n");
             sb.append("color:'").append(i.getColor().toString().toLowerCase()).append("',\n"); //TODO:figure out some better toString method for this enum
+            sb.append("image:'").append(i.getImage()).append("',\n");
             sb.append("specs:[");
             Set<String> specs = i.getSpecs();
             for(String spec : specs)

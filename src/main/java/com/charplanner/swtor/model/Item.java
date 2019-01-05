@@ -17,6 +17,7 @@ public class Item
     private Map<String,Integer> itemContents; //TODO: what about empty/available slots?
     private DynamicSlot dynamicSlotType;
     private String description;
+    private String image;
 
     public enum TierColor{NONE, GREEN, BLUE, PURPLE, GOLD;}
 
@@ -147,5 +148,13 @@ public class Item
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }

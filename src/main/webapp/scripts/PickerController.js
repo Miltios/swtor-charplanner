@@ -105,7 +105,7 @@ let PickerController = (function()
         }
         else
         {
-            this.cii.src = 'images/items80/' + ItemManager.getImageForItem(item);
+            this.cii.src = 'images/items80/' + item.image;
             this.cii.classList.add('slot-' + item.color);
             this.cin.innerHTML = slot.getItem().name;
             this.cin.classList.add('item-' + item.color);

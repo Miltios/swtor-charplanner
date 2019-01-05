@@ -69,7 +69,7 @@ Slot.prototype.updateAppearance = function()
     if(item !== null)
     {
         this.imgEl.className = 'character-slot-img slot-' + item.color;
-        this.imgEl.src = 'images/items80/' + ItemManager.getImageForItem(item);
+        this.imgEl.src = 'images/items80/' + item.image;
     }
     else
     {
