@@ -1,10 +1,13 @@
-function Slot(name)
+function Slot(name, isSubSlot)
 {
     this.name = name;
     this.item = null;
     this.allowedSlots = {};
+    this.isSubSlot = (isSubSlot === true);
+    //this.isSubSlot = (['dynamic', 'armoring', 'barrel', 'mod', 'enhancement', 'crystal'].indexOf(this.name) !== -1);
 
-    this.imgEl = this.getEl().getElementsByClassName('character-slot-img')[0];
+    let className = (this.isSubSlot ? 'mod' : 'character') + '-slot-img';
+    this.imgEl = this.getEl().getElementsByClassName(className)[0];
 }
 Slot.prototype.getName = function()
 {
@@ -47,6 +50,10 @@ Slot.prototype.setItem = function(item)
     this.item = item;
     this.updateAppearance();
 };
+Slot.prototype.isSubSlot = function()
+{
+    return this.isSubSlot;
+}
 Slot.prototype.allow = function(type, allow)
 {
     this.allowedSlots[type] = allow;
@@ -66,18 +73,31 @@ Slot.prototype.getEl = function()
 Slot.prototype.updateAppearance = function()
 {
     let item = this.getItem();
-    if(item !== null)
+    if(this.isSubSlot)
     {
-        this.imgEl.className = 'character-slot-img slot-' + item.color;
-        this.imgEl.src = 'images/items80/' + item.image;
+        if(item !== null)
+        {
+            this.imgEl.className = 'mod-slot-img slot-' + item.color;
+            this.imgEl.src = 'images/items50/' + item.image;
+        }
+        else
+        {
+            this.imgEl.className = 'mod-slot-img slot-empty';
+            this.imgEl.src = 'images/items50/' + SlotManager.getImageForEmptyModSlot(this);
+        }
     }
     else
     {
-        this.imgEl.className = 'character-slot-img slot-empty';
-        this.imgEl.src = 'images/items80/' + SlotManager.getImageForEmptySlot(this);
-
-
-
+        if(item !== null)
+        {
+            this.imgEl.className = 'character-slot-img slot-' + item.color;
+            this.imgEl.src = 'images/items80/' + item.image;
+        }
+        else
+        {
+            this.imgEl.className = 'character-slot-img slot-empty';
+            this.imgEl.src = 'images/items80/' + SlotManager.getImageForEmptySlot(this);
+        }
     }
 }
 

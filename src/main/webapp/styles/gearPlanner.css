@@ -45,34 +45,35 @@ body.faction-mode-pub .faction-imp
     display:inline-block;
     cursor:pointer;
 }
-.character-slot-img
+.character-slot-img,
+.mod-slot-img
 {
-    width:75px;
-    height:75px;
+    width:80px;
+    height:80px;
     border:2px solid grey;
     border-radius:5px;
 }
-.character-slot-img.slot-empty
+.slot-empty
 {
     border-color:#96D6F1;
 }
-.character-slot-img.slot-green
+.slot-green
 {
     border-color:#12e713;
 }
-.character-slot-img.slot-blue
+.slot-blue
 {
     border-color:#1875d5;
 }
-.character-slot-img.slot-purple
+.slot-purple
 {
     border-color:#9918c7;
 }
-.character-slot-img.slot-gold
+.slot-gold
 {
     border-color:#e7cb6e;
 }
-.character-slot-img.slot-orange
+.slot-orange
 {
     border-color:#cb5f12;
 }
@@ -186,10 +187,6 @@ body.faction-mode-pub .faction-imp
 {
     color:#cb5f12;
 }
-#customItemArea
-{
-    height:150px;
-}
 .list-item
 {
     display:block;
@@ -287,4 +284,17 @@ body.faction-mode-pub .faction-imp
 {
     color:#12e713;
     display:block;
+}
+#itemModdingArea
+{
+    height:150px;
+}
+.mod-slot
+{
+    display:inline-block;
+}
+#itemModdingArea .mod-slot-img
+{
+    width:50px;
+    height:50px;
 }

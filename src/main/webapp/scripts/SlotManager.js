@@ -4,12 +4,22 @@ let SlotManager = (function()
     {
         //declare vars
         this.charSlotNames = ['ear', 'implant1', 'implant2', 'wrists', 'relic1', 'relic2', 'head', 'chest', 'hands', 'waist', 'legs', 'feet', 'mainhand', 'offhand'];
+        this.itemSlotNames = ['dynamic', /*'armoring',*/ /*'barrel',*/ 'mod', 'enhancement', 'crystal'];
         this.charSlots = {};
+        this.itemSlots = {};
         this.currentSlot = null;
+        this.currentItemSlot = null;
+
+        this.ima;
+        this.imaSlots;
     };
     SlotManager.prototype.init = function()
     {
         //TODO: do we define allowable subslots here or in Items?
+
+        this.ima = document.getElementById('itemModdingArea');
+        this.imaSlots = this.ima.getElementsByClassName('mod-slot');
+
         for(let i=0; i<this.charSlotNames.length; i++)
         {
             let name = this.charSlotNames[i];
@@ -38,6 +48,13 @@ let SlotManager = (function()
             this.charSlots[name] = slot;
         }
 
+        for(let i=0; i<this.itemSlotNames.length; i++)
+        {
+            let name = this.itemSlotNames[i];
+            let slot = new Slot(name, true);
+            this.itemSlots[name] = slot;
+        }
+
         log('SlotManager initialized.');
     };
     SlotManager.prototype.getSlot = function(name)
@@ -48,6 +65,14 @@ let SlotManager = (function()
         }
         return null;
     };
+    SlotManager.prototype.getModSlot = function(name)
+    {
+        if(typeof this.itemSlots[name] === 'object')
+        {
+            return this.itemSlots[name];
+        }
+        return null;
+    }
     SlotManager.prototype.getCurrentSlot = function()
     {
         return this.currentSlot;
@@ -55,6 +80,10 @@ let SlotManager = (function()
     SlotManager.prototype.setCurrentSlot = function(slot)
     {
         this.currentSlot = slot;
+    }
+    SlotManager.prototype.getAllModSlots = function()
+    {
+        return this.itemSlots;
     }
     SlotManager.prototype.getImageForEmptySlot = function(slot)
     {
@@ -124,6 +153,21 @@ let SlotManager = (function()
                 break;
             default:
                 return 'empty_' + slot.getGenericName() + '.png';
+                break;
+        }
+    };
+    SlotManager.prototype.getImageForEmptyModSlot = function(slotName)
+    {
+        switch(slotName)
+        {
+            case 'mod':
+            case 'enhancement':
+            case 'crystal':
+                return 'empty_' + slotName + '.png';
+                break;
+            case 'dynamic':
+            default:
+                return 'empty_dynamic.png';
                 break;
         }
     }

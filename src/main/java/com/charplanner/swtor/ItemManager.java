@@ -222,9 +222,20 @@ public class ItemManager
             e.printStackTrace();
         }
     }
-    public static String getItemsAsJson() //TODO:we probably only want some items for performance, not the full list
+    public static String getAllAsJson() //someday we probably want a method to get some items for performance, not the full list
     {
-        //example output
+        StringBuilder sb = new StringBuilder("{");
+        sb.append("items:").append(getItemsAsJson());
+        sb.append("itemMods:").append(getItemModsAsJson());
+        sb.append("itemCount:").append(items.size()).append(",");
+        sb.append("itemModCount:").append(items.size());
+        sb.append("}");
+
+        return sb.toString();
+    }
+    public static String getItemsAsJson()
+    {
+        //example item output
         /*{
             id:'1',
                 name:'GEMINI MK-4 Relic of Serendipitous Assault',
@@ -232,16 +243,20 @@ public class ItemManager
                 rating: 246,
                 color:'purple',
                 specs: ['ptTank', 'ptSust', 'ptBurst', 'mercHealer', 'mercBurst', 'mercSust', 'opHealer', 'opBurst', 'opSust', 'sniperBurst', 'sniperSust', 'sniperHybrid', 'sinTank', 'sinBurst', 'sinSust', 'sorcHealer', 'sorcBurst', 'sorcSust', 'maraSust', 'maraBurst', 'maraHybrid', 'juggTank', 'juggSust', 'juggBurst'],
-            stats:{
-                'endurance':263,
-                        'power':104
-            },
-            dynamicSlot: null,
-                    description:'Equip: Healing an ally or performing a damaging attack on an enemy both have a 30% chance to grant 1181 Power for <<1>> seconds. This effect can only occur once every <<2>> seconds.'
+                stats:{
+                    'endurance':263,
+                    'power':104
+                },
+                contents:{
+                    'armoring':123,
+                    'mod':456,
+                    'enhancement':789
+                },
+                dynamicSlot: null,
+                description:'Equip: Healing an ally or performing a damaging attack on an enemy both have a 30% chance to grant 1181 Power for <<1>> seconds. This effect can only occur once every <<2>> seconds.'
         }*/
 
-        StringBuilder sb = new StringBuilder("{");
-        sb.append("items:[");
+        StringBuilder sb = new StringBuilder("[");
         for(Item i : items.values())
         {
             sb.append("{\n"); //TODO:swtich back to no line breaks once we're done debugging
@@ -267,6 +282,14 @@ public class ItemManager
             }
             Utilities.removeTrailingChar(sb, ',');
             sb.append("},\n");
+            sb.append("contents:{");
+            Map<String,Integer> contents = i.getItemContents();
+            for(Map.Entry<String,Integer> entry : contents.entrySet())
+            {
+                sb.append(entry.getKey()).append(":").append(entry.getValue()).append(",");
+            }
+            Utilities.removeTrailingChar(sb, ',');
+            sb.append("},\n");
             if(i.getDynamicSlotType() != null)
             {
                 sb.append("dynamicSlot:'").append(i.getDynamicSlotType()).append("',\n");
@@ -277,8 +300,43 @@ public class ItemManager
         }
         Utilities.removeTrailingChar(sb, ',');
         sb.append("],");
-        sb.append("count:").append(items.size());
-        sb.append("}");
+
+        return sb.toString();
+    }
+    public static String getItemModsAsJson()
+    {
+        StringBuilder sb = new StringBuilder("[");
+        for(ItemMod i : itemMods.values())
+        {
+            sb.append("{\n");
+            sb.append("id:'").append(i.getId()).append("',\n");
+            sb.append("name:'").append(StringEscapeUtils.escapeEcmaScript(i.getName())).append("',\n");
+            sb.append("slot:'").append(i.getSlot()).append("',\n");
+            sb.append("rating:").append(i.getRating()).append(",\n");
+            sb.append("color:'").append(i.getColor().toString().toLowerCase()).append("',\n"); //figure out some better toString method for this enum
+            sb.append("image:'").append(i.getImage()).append("',\n");
+            //we may or may not want to add specs for mods later
+            /*sb.append("specs:[");
+            Set<String> specs = i.getSpecs();
+            for(String spec : specs)
+            {
+                sb.append("'").append(spec).append("',");
+            }
+            Utilities.removeTrailingChar(sb, ',');
+            sb.append("],\n");*/
+            sb.append("stats:{");
+            Map<String,Integer> stats = i.getStats();
+            for(Map.Entry<String,Integer> entry : stats.entrySet())
+            {
+                sb.append(entry.getKey()).append(":").append(entry.getValue()).append(",");
+            }
+            Utilities.removeTrailingChar(sb, ',');
+            sb.append("},\n");
+
+            sb.append("},");
+        }
+        Utilities.removeTrailingChar(sb, ',');
+        sb.append("],");
 
         return sb.toString();
     }

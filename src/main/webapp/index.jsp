@@ -269,9 +269,28 @@
                     </tr>
                 </table>
             </div>
-            <div id="customItemArea">
+            <div id="itemModdingArea">
                 <div>
-                    [item modding]
+                    <div id="slotDynamic" class="mod-slot">
+                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                            <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
+                        </a>
+                    </div>
+                    <div id="slotMod" class="mod-slot">
+                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                            <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
+                        </a>
+                    </div>
+                    <div id="slotEnhancement" class="mod-slot">
+                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                            <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
+                        </a>
+                    </div>
+                    <div id="slotCrystal" class="mod-slot">
+                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                            <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
+                        </a>
+                    </div>
                 </div>
             </div>
             <div id="itemListSettingsTop">
@@ -391,6 +410,6 @@ function log(str)
     requireJs("/swtor/scripts/model/Slot.js");
     //requireJs("/swtor/scripts/model/allItemData.js"); //TODO: temporary hard-code
 
-    let allItemData = <%= ItemManager.getItemsAsJson() %>;
+    let allItemData = <%= ItemManager.getAllAsJson() %>;
 </script>
 </html>

@@ -8,6 +8,8 @@ let PickerController = (function()
         this.cir;
         this.cis;
         this.cid;
+        this.ima;
+        this.imaSlots;
     }
     PickerController.prototype.init = function()
     {
@@ -122,6 +124,30 @@ let PickerController = (function()
                 }
             }
             this.cid.innerHTML = item.description;
+        }
+        this.populateCurrentItemModsForItem(item);
+    };
+    PickerController.prototype.populateCurrentItemModsForItem = function(item)
+    {
+        let slots = SlotManager.getAllModSlots();
+        for(let i in slots)
+        {
+            if(slots.hasOwnProperty(i))
+            {
+                slots[i].updateAppearance();
+            }
+        }
+        if(item === null)
+        {
+            return;
+        }
+        let mods = item.getItemMods();
+        for(let i=0; i<mods.length; i++)
+        {
+            let mod = mods[i];
+            let slot = SlotManager.getModSlot(mod);
+            slot.setItem(mod);
+            slot.updateAppearance();
         }
     }
     PickerController.prototype.filterOptions = function()

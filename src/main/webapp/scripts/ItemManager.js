@@ -4,10 +4,12 @@ let ItemManager = (function()
     {
         //declare vars
         this.items = [];
+        this.itemMods = [];
     }
     ItemManager.prototype.init = function()
     {
         this.populateItems(allItemData.items);
+        this.populateItemMods(allItemData.itemMods);
 
         log('ItemManager initialized.');
     };
@@ -18,8 +20,15 @@ let ItemManager = (function()
             let item = new Item(data[i]);
             this.items.push(item);
         }
-        //TODO:ItemMods
     };
+    ItemManager.prototype.populateItemMods = function(data)
+    {
+        for(let i=0; i<data.length; i++)
+        {
+            let mod = new ItemMod(data[i]);
+            this.itemMods.push(mod);
+        }
+    }
     ItemManager.prototype.getItemsForSlot = function(slotName)
     {
         let items = this.items.slice(); //shallow copy
@@ -97,7 +106,10 @@ let ItemManager = (function()
     };
     ItemManager.prototype.getItemById = function(id)
     {
-        if(!id || id<0) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
+        //we need strongly typed values here, so we coerce id to string and parse intId from there
+        id += '';
+        let intId = parseInt(id);
+        if(!id || !intId || intId<0) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
         {
             return null;
         }
@@ -109,6 +121,30 @@ let ItemManager = (function()
             }
         }
         return null;
+    }
+    ItemManager.prototype.getItemModById = function(id)
+    {
+        //we need strongly typed values here, so we coerce id to string and parse intId from there
+        id += '';
+        let intId = parseInt(id);
+        if(!id || !intId || intId<0) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
+        {
+            return null;
+        }
+        for(let i=0; i<this.itemMods.length; i++)
+        {
+            if(this.itemMods[i].id === id)
+            {
+                return this.itemMods[i];
+            }
+        }
+        return null;
+    }
+    ItemManager.prototype.getItemsModsForSlot = function(slotName)
+    {
+        let mods = this.itemMods.slice(); //shallow copy
+        mods = mods.filter(i => (i.slot === slotName));
+        return mods;
     }
     return new ItemManager();
 })();

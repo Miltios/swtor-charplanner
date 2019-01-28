@@ -39,7 +39,7 @@ let Utilities = (function()
             parent = parent.parentNode;
         }
         return false;
-    }
+    };
     Utilities.prototype.capitalizeFirstLetter = function(str)
     {
         if(!str)
@@ -47,6 +47,14 @@ let Utilities = (function()
             return str;
         }
         return str.substring(0,1).toUpperCase() + str.substr(1);
+    };
+    Utilities.prototype.lowercaseFirstLetter = function(str)
+    {
+        if(!str)
+        {
+            return str;
+        }
+        return str.substring(0,1).toLowerCase() + str.substr(1);
     }
     return new Utilities();
 })();
