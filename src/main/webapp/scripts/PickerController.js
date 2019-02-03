@@ -145,9 +145,16 @@ let PickerController = (function()
         for(let i=0; i<mods.length; i++)
         {
             let mod = mods[i];
-            let slot = SlotManager.getModSlot(mod);
-            slot.setItem(mod);
-            slot.updateAppearance();
+            let slot = SlotManager.getModSlot(mod.slot);
+            if(slot !== null)
+            {
+                slot.setItem(mod);
+                slot.updateAppearance();
+            }
+            else
+            {
+                console.error('Slot was null for mod "' + mod.name + '"!');
+            }
         }
     }
     PickerController.prototype.filterOptions = function()

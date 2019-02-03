@@ -4,7 +4,7 @@ function Slot(name, isSubSlot)
     this.item = null;
     this.allowedSlots = {};
     this.isSubSlot = (isSubSlot === true);
-    //this.isSubSlot = (['dynamic', 'armoring', 'barrel', 'mod', 'enhancement', 'crystal'].indexOf(this.name) !== -1);
+    //this.isSubSlot = (['dynamic', 'armoring', 'barrel', 'hilt', 'mod', 'enhancement', 'crystal'].indexOf(this.name) !== -1);
 
     let className = (this.isSubSlot ? 'mod' : 'character') + '-slot-img';
     this.imgEl = this.getEl().getElementsByClassName(className)[0];
@@ -41,11 +41,18 @@ Slot.prototype.setItem = function(item)
         this.updateAppearance();
         return;
     }
-    if(item.slot !== this.getGenericName())
+    let genericName = this.getGenericName();
+    if(item.slot !== genericName)
     {
-        console.error('Attempted to add item type "' + item.slot + '" to slot "' + this.getGenericName() + '"!');
-        alert('This slot cannot accept that item.');
-        return;
+        if(genericName === 'dynamic')
+        {
+            if(['armoring', 'hilt', 'barrel'].indexOf(item.slot) === -1)
+            {
+                console.error('Attempted to add item type "' + item.slot + '" to slot "' + this.getGenericName() + '"!');
+                alert('This slot cannot accept that item.');
+                return;
+            }
+        }
     }
     this.item = item;
     this.updateAppearance();

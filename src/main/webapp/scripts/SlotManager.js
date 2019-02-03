@@ -4,7 +4,7 @@ let SlotManager = (function()
     {
         //declare vars
         this.charSlotNames = ['ear', 'implant1', 'implant2', 'wrists', 'relic1', 'relic2', 'head', 'chest', 'hands', 'waist', 'legs', 'feet', 'mainhand', 'offhand'];
-        this.itemSlotNames = ['dynamic', /*'armoring',*/ /*'barrel',*/ 'mod', 'enhancement', 'crystal'];
+        this.itemSlotNames = ['dynamic', /*'armoring',*/ /*'barrel',*/ /*'hilt',*/ 'mod', 'enhancement', 'crystal'];
         this.charSlots = {};
         this.itemSlots = {};
         this.currentSlot = null;
@@ -70,6 +70,14 @@ let SlotManager = (function()
         if(typeof this.itemSlots[name] === 'object')
         {
             return this.itemSlots[name];
+        }
+        if(name === 'barrel' || name === 'hilt' || name === 'armoring')
+        {
+            let slot = this.itemSlots['dynamic'];
+            if(typeof slot === 'object')
+            {
+                return slot;
+            }
         }
         return null;
     }
@@ -156,18 +164,91 @@ let SlotManager = (function()
                 break;
         }
     };
-    SlotManager.prototype.getImageForEmptyModSlot = function(slotName)
+    SlotManager.prototype.getImageForEmptyModSlot = function(slot) //TODO:honestly this is just getting stupid...put all the class/spec/faction logic in Settings and query from there?
     {
+        let slotName = slot.getName();
         switch(slotName)
         {
+            case 'armoring':
+            case 'hilt':
+            case 'barrel':
             case 'mod':
             case 'enhancement':
             case 'crystal':
                 return 'empty_' + slotName + '.png';
                 break;
             case 'dynamic':
+                let currSlotName = this.getCurrentSlot();
+                if(currSlotName !== null)
+                {
+                    currSlotName = currSlotName.getGenericName(); //thanks to weakly-typed language rules, this is simultaneously abominable, valid, and safe
+                }
+                let className = Settings.getClass();
+                if(Settings.getFaction() === 'pub') //HACK: "mando" etc. normally don't exist because we track by imperial class names, but they have different offhands pubside
+                {
+                    if(className === 'merc')
+                    {
+                        className = 'mando';
+                    }
+                    else if(className === 'sniper')
+                    {
+                        className = 'slinger';
+                    }
+                    else if(className === 'op')
+                    {
+                        className = 'scoundrel';
+                    }
+                }
+                switch(currSlotName)
+                {
+                    case 'mainhand':
+                        switch(className)
+                        {
+                            case 'jugg':
+                            case 'sin':
+                            case 'mara':
+                            case 'sorc':
+                                return 'empty_hilt.png';
+                                break;
+                            case 'merc':
+                            case 'mando': //temporary pseudo-class
+                            case 'pt':
+                            case 'op':
+                            case 'scoundrel': //temporary pseudo-class
+                            case 'sniper':
+                            case 'slinger': //temporary pseudo-class
+                                return 'empty_barrel.png';
+                                break;
+                        }
+                    break;
+                    case 'offhand':
+                        switch(className)
+                        {
+                            case 'mara':
+                                return 'empty_hilt.png';
+                                break;
+                            case 'merc':
+                            case 'slinger': //temporary pseudo-class
+                            case 'op':
+                            case 'scoundrel': //temporary pseudo-class
+                            case 'sniper':
+                                return 'empty_barrel.png';
+                                break;
+                            case 'jugg':
+                            case 'sin':
+                            case 'sorc':
+                            case 'mando': //temporary pseudo-class
+                            case 'pt':
+                                return 'empty_armoring.png';
+                                break;
+                        }
+                        break;
+                    default:
+                        return 'empty_armoring.png';
+                }
+                break;
             default:
-                return 'empty_dynamic.png';
+                return 'empty_armoring.png';
                 break;
         }
     }
