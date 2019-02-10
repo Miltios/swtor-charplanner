@@ -95,162 +95,54 @@ let SlotManager = (function()
     }
     SlotManager.prototype.getImageForEmptySlot = function(slot)
     {
-        let className = Settings.getClass();
-        if(Settings.getFaction() === 'pub') //HACK: "mando" etc. normally don't exist because we track by imperial class names, but they have different offhands pubside
+        let slotName = slot.getGenericName();
+        if(slotName === null)
         {
-            if(className === 'merc')
-            {
-                className = 'mando';
-            }
-            else if(className === 'sniper')
-            {
-                className = 'slinger';
-            }
-            else if(className === 'op')
-            {
-                className = 'scoundrel';
-            }
+            return 'empty_' + slotName + '.png';
         }
-        switch(slot.getGenericName())
+        let itemName = '';
+        if(slotName === 'mainhand' || slotName === 'offhand')
         {
-            case 'mainhand':
-                switch(className)
-                {
-                    case 'jugg':
-                    case 'sin':
-                    case 'mara':
-                    case 'sorc':
-                        return 'empty_mainhand_saber.png';
-                        break;
-                    case 'merc':
-                    case 'mando': //temporary pseudo-class
-                    case 'pt':
-                    case 'op':
-                    case 'scoundrel': //temporary pseudo-class
-                    case 'sniper':
-                    case 'slinger': //temporary pseudo-class
-                        return 'empty_mainhand_gun.png';
-                        break;
-                }
-                break;
-            case 'offhand':
-                switch(className)
-                {
-                    case 'mando': //temporary pseudo-class
-                    case 'pt':
-                    case 'jugg':
-                    case 'sin':
-                    case 'sorc':
-                        return 'empty_offhand_shield.png';
-                        break;
-                    case 'merc':
-                    case 'slinger': //temporary pseudo-class
-                        return 'empty_offhand_gun.png';
-                        break;
-                    case 'mara':
-                        return 'empty_offhand_saber.png';
-                        break;
-                    case 'op':
-                    case 'sniper':
-                        return 'empty_offhand_knife.png';
-                        break;
-                    case 'scoundrel': //temporary pseudo-class
-                        return 'empty_offhand_shotgun.png';
-                        break;
-                }
-                break;
-            default:
-                return 'empty_' + slot.getGenericName() + '.png';
-                break;
-        }
-    };
-    SlotManager.prototype.getImageForEmptyModSlot = function(slot) //TODO:honestly this is just getting stupid...put all the class/spec/faction logic in Settings and query from there?
-    {
-        let slotName = slot.getName();
-        switch(slotName)
-        {
-            case 'armoring':
-            case 'hilt':
-            case 'barrel':
-            case 'mod':
-            case 'enhancement':
-            case 'crystal':
-                return 'empty_' + slotName + '.png';
-                break;
-            case 'dynamic':
-                let currSlotName = this.getCurrentSlot();
-                if(currSlotName !== null)
-                {
-                    currSlotName = currSlotName.getGenericName(); //thanks to weakly-typed language rules, this is simultaneously abominable, valid, and safe
-                }
-                let className = Settings.getClass();
-                if(Settings.getFaction() === 'pub') //HACK: "mando" etc. normally don't exist because we track by imperial class names, but they have different offhands pubside
-                {
-                    if(className === 'merc')
-                    {
-                        className = 'mando';
-                    }
-                    else if(className === 'sniper')
-                    {
-                        className = 'slinger';
-                    }
-                    else if(className === 'op')
-                    {
-                        className = 'scoundrel';
-                    }
-                }
-                switch(currSlotName)
-                {
-                    case 'mainhand':
-                        switch(className)
-                        {
-                            case 'jugg':
-                            case 'sin':
-                            case 'mara':
-                            case 'sorc':
-                                return 'empty_hilt.png';
-                                break;
-                            case 'merc':
-                            case 'mando': //temporary pseudo-class
-                            case 'pt':
-                            case 'op':
-                            case 'scoundrel': //temporary pseudo-class
-                            case 'sniper':
-                            case 'slinger': //temporary pseudo-class
-                                return 'empty_barrel.png';
-                                break;
-                        }
+            let weaponType = Settings.getWeaponTypeForSlot(slotName);
+            switch(weaponType)
+            {
+                case 'saber':
+                case 'dualsaber':
+                    itemName = '_saber';
                     break;
-                    case 'offhand':
-                        switch(className)
-                        {
-                            case 'mara':
-                                return 'empty_hilt.png';
-                                break;
-                            case 'merc':
-                            case 'slinger': //temporary pseudo-class
-                            case 'op':
-                            case 'scoundrel': //temporary pseudo-class
-                            case 'sniper':
-                                return 'empty_barrel.png';
-                                break;
-                            case 'jugg':
-                            case 'sin':
-                            case 'sorc':
-                            case 'mando': //temporary pseudo-class
-                            case 'pt':
-                                return 'empty_armoring.png';
-                                break;
-                        }
-                        break;
-                    default:
-                        return 'empty_armoring.png';
-                }
-                break;
-            default:
-                return 'empty_armoring.png';
-                break;
+                case 'pistol':
+                case 'rifle':
+                case 'sniper':
+                case 'cannon':
+                    itemName = '_gun';
+                    break;
+                case 'knife':
+                    itemName = '_knife';
+                    break;
+                case 'shotgun':
+                    itemName = '_shotgun';
+                    break;
+                case 'shield':
+                case 'generator':
+                case 'focus':
+                    itemName = '_shield';
+                    break;
+            }
         }
+        return 'empty_' + slotName + itemName + '.png';
+    };
+    SlotManager.prototype.getImageForEmptyModSlot = function(slot)
+    {
+        let slotName = slot.getGenericName();
+        if(slotName === 'dynamic')
+        {
+            let modType = Settings.getModTypeForDynamicSlot();
+            if(modType !== null)
+            {
+                return 'empty_' + modType + '.png';
+            }
+        }
+        return 'empty_' + slotName + '.png';
     }
     return new SlotManager();
 })();

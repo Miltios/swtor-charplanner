@@ -128,6 +128,128 @@ let Settings = (function()
             }
         }
         return ratings;
+    };
+    Settings.prototype.getWeaponTypeForSlot = function(slotName)
+    {
+        let className = this.getClass();
+        let faction = this.getFaction();
+        if(faction === 'pub') //HACK: "mando" etc. normally don't exist because we track by imperial class names, but they have different offhands pubside
+        {
+            if(className === 'merc')
+            {
+                className = 'mando';
+            }
+            else if(className === 'sniper')
+            {
+                className = 'slinger';
+            }
+            else if(className === 'op')
+            {
+                className = 'scoundrel';
+            }
+        }
+        if(slotName === 'mainhand')
+        {
+            switch(className)
+            {
+                case 'jugg':
+                case 'mara':
+                case 'sorc':
+                    return 'saber';
+                    break;
+                case 'sin':
+                    return 'dualsaber';
+                    break;
+                case 'merc':
+                case 'scoundrel': //temporary pseudo-class
+                case 'slinger': //temporary pseudo-class
+                case 'pt':
+                    return 'pistol';
+                    break;
+                case 'mando': //temporary pseudo-class
+                    return 'cannon';
+                    break;
+                case 'op':
+                    return 'rifle';
+                    break;
+                case 'sniper':
+                    return 'sniper';
+                    break;
+            }
+        }
+        else if(slotName === 'offhand')
+        {
+            switch(className)
+            {
+                case 'mando': //temporary pseudo-class
+                case 'pt':
+                case 'jugg':
+                case 'sin':
+                case 'sorc':
+                    let spec = this.getSpec();
+                    if(['juggTank','sinTank','ptTank'].indexOf(spec) !== -1)
+                    {
+                        return 'shield';
+                    }
+                    else if(['ptSust', 'ptBurst', 'mercBurst', 'mercSust', 'mercHealer'].indexOf(spec) !== -1)
+                    {
+                        return 'generator';
+                    }
+                    else
+                    {
+                        return 'focus';
+                    }
+                    break;
+                case 'merc':
+                case 'slinger': //temporary pseudo-class
+                    return 'pistol';
+                    break;
+                case 'mara':
+                    return 'saber';
+                    break;
+                case 'op':
+                case 'sniper':
+                    return 'knife';
+                    break;
+                case 'scoundrel': //temporary pseudo-class
+                    return 'shotgun';
+                    break;
+            }
+        }
+        return null;
+    };
+    Settings.prototype.getModTypeForDynamicSlot = function()
+    {
+        let slot = SlotManager.getCurrentSlot();
+        if(slot === null)
+        {
+            return null;
+        }
+        let slotName = slot.getGenericName();
+        if(slotName === 'mainhand' || slotName === 'offhand')
+        {
+            switch(this.getWeaponTypeForSlot(slotName))
+            {
+                case 'saber':
+                case 'dualsaber':
+                    return 'hilt';
+                    break;
+                case 'pistol':
+                case 'rifle':
+                case 'sniper':
+                case 'cannon':
+                case 'knife':
+                case 'shotgun':
+                    return 'barrel';
+                    break;
+                case 'shield':
+                case 'generator':
+                case 'focus':
+                    return 'armoring';
+                    break;
+            }
+        }
+        return 'armoring';
     }
     Settings.prototype.updateDatacrons = function(checkbox)
     {
