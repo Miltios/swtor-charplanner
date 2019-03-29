@@ -152,6 +152,7 @@ public class ItemManager
                     i.setSlot(rs.getString("Slot"));
                     i.setRating(rs.getInt("Rating"));
                     i.setColor(Item.TierColor.valueOf(rs.getString("Color").toUpperCase())); //TODO:ugh.
+                    i.setImage(rs.getString("Image"));
 
                     itemMods.put(itemId, i); //TODO:better safety pls
                 }

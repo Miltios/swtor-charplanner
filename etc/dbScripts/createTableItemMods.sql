@@ -3,5 +3,6 @@ CREATE TABLE swtor.ItemMods (
     Name VARCHAR(128),
     Slot VARCHAR(32),
     Rating INT,
-    Color VARCHAR(32)
+    Color VARCHAR(32),
+    Image VARCHAR(128)
 )
