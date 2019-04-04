@@ -82,7 +82,7 @@ Slot.prototype.updateAppearance = function()
     let item = this.getItem();
     if(this.isSubSlot)
     {
-        if(item !== null)
+        if(item !== null && item.name !== 'empty')
         {
             this.imgEl.className = 'mod-slot-img slot-' + item.color;
             this.imgEl.src = 'images/items50/' + item.image;

@@ -126,6 +126,7 @@ let PickerController = (function()
             this.cid.innerHTML = item.description;
         }
         this.populateCurrentItemModsForItem(item);
+        this.showOrHideModSlots(slot);
     };
     PickerController.prototype.populateCurrentItemModsForItem = function(item)
     {
@@ -134,6 +135,10 @@ let PickerController = (function()
         {
             if(slots.hasOwnProperty(i))
             {
+                if(item === null)
+                {
+                    slots[i].setItem(null);
+                }
                 slots[i].updateAppearance();
             }
         }
@@ -154,6 +159,29 @@ let PickerController = (function()
             else
             {
                 console.error('Slot was null for mod "' + mod.name + '"!');
+            }
+        }
+    }
+    PickerController.prototype.showOrHideModSlots = function(charSlot)
+    {
+        if(charSlot === null)
+        {
+            return;
+        }
+        let modSlots = SlotManager.getAllModSlots()
+        for(let slotName in modSlots)
+        {
+            if(modSlots.hasOwnProperty(slotName))
+            {
+                let el = modSlots[slotName].getEl();
+                if(charSlot.allows(slotName))
+                {
+                    el.style.display = '';
+                }
+                else
+                {
+                    el.style.display = 'none';
+                }
             }
         }
     }

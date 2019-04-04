@@ -39,6 +39,10 @@ let SlotManager = (function()
                     slot.allow('dynamic', true);
                     slot.allow('mod', true);
                     slot.allow('augment', true);
+                    break;
+                case 'mainhand':
+                case 'offhand':
+                    slot.allow('crystal', true);
                 default:
                     slot.allow('dynamic', true);
                     slot.allow('mod', true);
@@ -78,6 +82,10 @@ let SlotManager = (function()
             {
                 return slot;
             }
+        }
+        if(name === 'all')
+        {
+            return this.itemSlots['crystal']; //TODO:HACK: This should be fixed in the DB, not here
         }
         return null;
     }
