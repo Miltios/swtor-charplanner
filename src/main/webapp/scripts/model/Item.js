@@ -40,6 +40,36 @@ function Item(data)
     }
 }
 //TODO:getters and setters?
+Item.prototype.getStats = function()
+{
+    let mods = this.getItemMods();
+    if(mods.length === 0)
+    {
+        return this.stats;
+    }
+    let aggregateStats = {};
+    for(let i=0; i<mods.length; i++)
+    {
+        let mod = mods[i];
+        let stats = mod.stats;
+        for(let statName in stats)
+        {
+            if(stats.hasOwnProperty(statName))
+            {
+                let statValue = stats[statName];
+                if(aggregateStats.hasOwnProperty(statName))
+                {
+                    aggregateStats[statName] += statValue;
+                }
+                else
+                {
+                    aggregateStats[statName] = statValue;
+                }
+            }
+        }
+    }
+    return aggregateStats;
+}
 Item.prototype.getItemMods = function()
 {
     let mods = [];

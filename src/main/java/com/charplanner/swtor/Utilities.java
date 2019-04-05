@@ -2,7 +2,17 @@ package com.charplanner.swtor;
 
 public class Utilities
 {
+    private static boolean debug = false; //TODO:move this to a config file or something and provide different levels
+
     private Utilities(){}
+
+    public static void log(String s)
+    {
+        if(debug)
+        {
+            System.out.println(s);
+        }
+    }
 
     public static void removeTrailingChar(StringBuilder sb, char c)
     {

@@ -88,7 +88,7 @@ public class ItemManager
                     Item i = items.get(itemId);
                     if(i == null)
                     {
-                        System.out.println("Item " + itemId + " is disabled.  Skipping..."); //TODO:DEBUG
+                        Utilities.log("Item " + itemId + " is disabled.  Skipping...");
                     }
                     else
                     {
@@ -118,7 +118,7 @@ public class ItemManager
                     Item i = items.get(itemId);
                     if(i == null)
                     {
-                        System.out.println("Item " + itemId + " is disabled.  Skipping..."); //TODO:DEBUG
+                        Utilities.log("Item " + itemId + " is disabled.  Skipping...");
                     }
                     else
                     {
@@ -206,7 +206,7 @@ public class ItemManager
                     Item i = items.get(itemId);
                     if(i == null)
                     {
-                        System.out.println("Item " + itemId + " is disabled.  Skipping..."); //TODO:DEBUG
+                        Utilities.log("Item " + itemId + " is disabled.  Skipping...");
                     }
                     else
                     {

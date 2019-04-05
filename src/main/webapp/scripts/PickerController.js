@@ -113,13 +113,14 @@ let PickerController = (function()
             this.cin.classList.add('item-' + item.color);
             this.cir.innerHTML = 'Item Rating ' + item.rating;
             this.cis.innerHTML = '';
-            for(let stat in item.stats)
+            let stats = item.getStats();
+            for(let stat in stats)
             {
-                if(item.stats.hasOwnProperty(stat))
+                if(stats.hasOwnProperty(stat))
                 {
                     let el = document.createElement('span');
                     el.classList.add('item-stat');
-                    el.innerHTML = '+' + item.stats[stat] + ' ' + StatController.getStatName(stat);
+                    el.innerHTML = '+' + stats[stat] + ' ' + StatController.getStatName(stat);
                     this.cis.appendChild(el);
                 }
             }
