@@ -62,6 +62,7 @@ let PickerController = (function()
             listEl.setAttribute('itemId', item.id);
             listEl.innerHTML = '[' + item.rating + '] ' + item.name;
             listEl.onclick = function(){DomController.userInput(listEl, 'listItemClick');};
+            TooltipController.addTrigger(listEl);
             //TODO:other meta & functionality
 
             DomManager.getItemList(color).appendChild(listEl);

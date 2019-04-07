@@ -29,5 +29,9 @@ function ItemMod(data)
         //this.description = data.description;
         this.image = data.image;
     }
+    ItemMod.prototype.getStats = function()
+    {
+        return this.stats;
+    }
 }
 declareReady('ItemMod.js', null);

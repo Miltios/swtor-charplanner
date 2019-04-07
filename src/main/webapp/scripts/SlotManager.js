@@ -69,6 +69,17 @@ let SlotManager = (function()
         }
         return null;
     };
+    SlotManager.prototype.getSlotFromLinkEl = function(el)
+    {
+        if(!el || !el.classList.contains('character-slot-link'))
+        {
+            return null;
+        }
+        let parentId = el.parentNode.id; //e.g. "slotMainhand"
+        parentId = parentId.substring(4); //trim the word "slot"
+        parentId = parentId.toLowerCase();
+        return this.getSlot(parentId);
+    }
     SlotManager.prototype.getModSlot = function(name)
     {
         if(typeof this.itemSlots[name] === 'object')
@@ -88,6 +99,17 @@ let SlotManager = (function()
             return this.itemSlots['crystal']; //TODO:HACK: This should be fixed in the DB, not here
         }
         return null;
+    }
+    SlotManager.prototype.getModSlotFromLinkEl = function(el)
+    {
+        if(!el || !el.classList.contains('mod-slot-link'))
+        {
+            return null;
+        }
+        let parentId = el.parentNode.id; //e.g. "slotEnhancement"
+        parentId = parentId.substring(4); //trim the word "slot"
+        parentId = parentId.toLowerCase();
+        return this.getModSlot(parentId);
     }
     SlotManager.prototype.getCurrentSlot = function()
     {

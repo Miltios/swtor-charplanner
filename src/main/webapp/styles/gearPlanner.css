@@ -298,3 +298,22 @@ body.faction-mode-pub .faction-imp
     width:50px;
     height:50px;
 }
+#tooltipEl
+{
+    position:absolute;
+    width:300px;
+    background-color:#00050D;
+    border:2px solid #96D6F1;
+    border-radius:5px;
+    padding:10px;
+    font-weight:normal;
+    text-align:left;
+}
+#tooltipItemName
+{
+    font-weight:bold
+}
+#tooltipItemStats
+{
+    padding-left:10px;
+}

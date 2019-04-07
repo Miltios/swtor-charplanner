@@ -330,6 +330,12 @@
             </div>
         </div>
     </div>
+    <div id="tooltipEl" style="display:none">
+        <div id="tooltipItemName"></div>
+        <div id="tooltipItemRating"></div>
+        <div id="tooltipItemStats"></div>
+        <div id="tooltipItemDescription"></div>
+    </div>
 </body>
 <script type="text/javascript">
 let debug = true;
@@ -403,6 +409,7 @@ function log(str)
     requireJs("/swtor/scripts/SlotManager.js");
     requireJs("/swtor/scripts/SpecManager.js");
     requireJs("/swtor/scripts/StatController.js");
+    requireJs("/swtor/scripts/TooltipController.js");
     requireJs("/swtor/scripts/Settings.js");
     requireJs("/swtor/scripts/Utilities.js");
     requireJs("/swtor/scripts/model/Item.js");
