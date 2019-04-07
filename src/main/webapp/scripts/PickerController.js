@@ -178,11 +178,11 @@ let PickerController = (function()
                 let el = modSlots[slotName].getEl();
                 if(charSlot.allows(slotName))
                 {
-                    el.style.display = '';
+                    el.style.visibility = '';
                 }
                 else
                 {
-                    el.style.display = 'none';
+                    el.style.visibility = 'hidden';
                 }
             }
         }
