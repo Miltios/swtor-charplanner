@@ -8,7 +8,12 @@ let TooltipController = (function()
         this.tir;
         this.tis;
         this.tid;
+
         this.triggerElClasses = ['mod-slot-link', 'character-slot-link', 'list-item'];
+
+        //distance between cursor and tooltip
+        this.offsetX = 20;
+        this.offsetY = 5;
     }
     TooltipController.prototype.init = function(self) //HACK: we pass TooltipController into its own init function so that the eventListeners we create can reference it
     {
@@ -143,9 +148,21 @@ let TooltipController = (function()
             let mouseX = event.clientX;
             let mouseY = event.clientY;
 
-            //TODO:more intelligent calculation
-            self.tooltipEl.style.left = mouseX + 20;
-            self.tooltipEl.style.top = mouseY + 5;
+            let rect = self.tooltipEl.getBoundingClientRect();
+            let dynOffsetX = self.offsetX;
+            let dynOffsetY = self.offsetY;
+
+            if(mouseX + dynOffsetX + rect.width > window.innerWidth)
+            {
+                dynOffsetX = (dynOffsetX * -1) - rect.width;
+            }
+            if(mouseY + dynOffsetY + rect.height > window.innerHeight)
+            {
+                dynOffsetY = (dynOffsetY * -1) - rect.height;
+            }
+
+            self.tooltipEl.style.left = mouseX + dynOffsetX;
+            self.tooltipEl.style.top = mouseY + dynOffsetY;
         }
     }
     return new TooltipController();
