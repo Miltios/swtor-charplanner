@@ -21,9 +21,12 @@ let DomController = (function()
             }
             case 'modSlot':
             {
-                let slot = DomManager.getSlot(el);
-                SlotManager.setCurrentModSlot(slot);
-                PickerController.populateOptionsForModSlot(slot);
+                if(SlotManager.getCurrentSlot().getItem() !== null)
+                {
+                    let slot = DomManager.getSlot(el);
+                    SlotManager.setCurrentModSlot(slot);
+                    PickerController.populateOptionsForModSlot(slot);
+                }
                 break;
             }
             case 'factionToggle':
