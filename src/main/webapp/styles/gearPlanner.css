@@ -291,6 +291,7 @@ body.faction-mode-pub .faction-imp
 .mod-slot
 {
     display:inline-block;
+    cursor:pointer;
 }
 #itemModdingArea .mod-slot-img
 {

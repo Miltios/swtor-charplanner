@@ -55,7 +55,7 @@ let TooltipController = (function()
         }
         //remove triggers before we re-add them, in case they're already present
         el.removeEventListener('mouseover', triggerTooltip);
-        el.removeEventListener('mouseover', hideTooltip);
+        el.removeEventListener('mouseout', hideTooltip);
 
         el.addEventListener('mouseover', triggerTooltip);
         el.addEventListener('mouseout', hideTooltip);
@@ -102,7 +102,19 @@ let TooltipController = (function()
         {
             //TODO:also show item comparison in this case?
             let itemId = parseInt(el.getAttribute('itemid'));
-            item = ItemManager.getItemById(itemId);
+            if(PickerController.getListType() === 'items')
+            {
+                item = ItemManager.getItemById(itemId);
+            }
+            else if(PickerController.getListType() === 'itemMods')
+            {
+                item = ItemManager.getItemModById(itemId);
+            }
+            else
+            {
+                console.error('updateTooltip called on empty item list!');
+                return false;
+            }
         }
         if(item === null || item.name === 'empty')
         {

@@ -10,6 +10,7 @@ let PickerController = (function()
         this.cid;
         this.ima;
         this.imaSlots;
+        this.listType = '';
     }
     PickerController.prototype.init = function()
     {
@@ -22,29 +23,78 @@ let PickerController = (function()
 
         log('PickerController initialized.');
     };
+    PickerController.prototype.getListType = function()
+    {
+        return this.listType;
+    }
     PickerController.prototype.populateOptionsForSlot = function(slot)
+    {
+        this.listType = 'items';
+        this.updateListsForSlot(slot);
+    };
+    PickerController.prototype.populateOptionsForModSlot = function(slot)
+    {
+        this.listType = 'itemMods';
+        this.updateListsForSlot(slot);
+    }
+    PickerController.prototype.updateLists = function()
+    {
+        if(this.listType === 'items')
+        {
+            this.updateListsForSlot(SlotManager.getCurrentSlot());
+        }
+        else if(this.listType === 'itemMods')
+        {
+            this.updateListsForSlot(SlotManager.getCurrentModSlot());
+        }
+    }
+    PickerController.prototype.updateListsForSlot = function(slot)
     {
         DomController.clearItemLists();
         if(!slot)
         {
+            console.error('No slot for updateListsForSlot!');
+            this.listType = '';
             return;
         }
 
-        //get list of items and sort them into color lists
         let items;
-        let slotName = slot.getGenericName();
+        let slotName;
         let specFilter = Settings.getSpecFilter();
-        if(specFilter === 'mySpec')
+        let functionName;
+        if(this.listType === 'items')
         {
-            items = ItemManager.getItemsForSpecAndSlot(Settings.getSpec(), slotName);
-        }
-        else if(specFilter === 'myClass')
-        {
-            items = ItemManager.getItemsForClassAndSlot(Settings.getClass(), slotName);
+            slotName = slot.getGenericName();
+            functionName = 'listItemClick';
+            if(specFilter === 'mySpec')
+            {
+                items = ItemManager.getItemsForSpecAndSlot(Settings.getSpec(), slotName);
+            }
+            else if(specFilter === 'myClass')
+            {
+                items = ItemManager.getItemsForClassAndSlot(Settings.getClass(), slotName);
+            }
+            else
+            {
+                items = ItemManager.getItemsForSlot(slotName);
+            }
         }
         else
         {
-            items = ItemManager.getItemsForSlot(slotName);
+            slotName = slot.getName();
+            functionName = 'listItemModClick';
+            if(specFilter === 'mySpec')
+            {
+                items = ItemManager.getModsForSpecAndSlot(Settings.getSpec(), slotName);
+            }
+            else if(specFilter === 'myClass')
+            {
+                items = ItemManager.getModsForClassAndSlot(Settings.getClass(), slotName);
+            }
+            else
+            {
+                items = ItemManager.getModsForSlot(slotName);
+            }
         }
 
         let ratings = Settings.getItemRatings();
@@ -59,53 +109,7 @@ let PickerController = (function()
             listEl.className = 'list-item item-' + color;
             listEl.setAttribute('itemId', item.id);
             listEl.innerHTML = '[' + item.rating + '] ' + item.name;
-            listEl.onclick = function(){DomController.userInput(listEl, 'listItemClick');};
-            TooltipController.addTrigger(listEl);
-            //TODO:other meta & functionality
-
-            DomManager.getItemList(color).appendChild(listEl);
-        }
-
-        //do something with "custom item" section?
-    };
-    PickerController.prototype.populateOptionsForModSlot = function(slot) //TODO:we could probably stand to have less duplicated code here
-    {
-        DomController.clearItemLists();
-        if(!slot)
-        {
-            return;
-        }
-
-        //get list of mods and sort them into color lists
-        let mods;
-        let slotName = slot.getName();
-        let specFilter = Settings.getSpecFilter();
-        if(specFilter === 'mySpec')
-        {
-            mods = ItemManager.getModsForSpecAndSlot(Settings.getSpec(), slotName);
-        }
-        else if(specFilter === 'myClass')
-        {
-            mods = ItemManager.getModsForClassAndSlot(Settings.getClass(), slotName);
-        }
-        else
-        {
-            mods = ItemManager.getModsForSlot(slotName);
-        }
-
-        let ratings = Settings.getItemRatings();
-        mods = mods.filter(i => ratings.indexOf(i.rating) !== -1);
-
-        mods = mods.sort((a,b) => (-1)*(a.rating-b.rating));
-        for(let i=0; i<mods.length; i++)
-        {
-            let mod = mods[i];
-            let color = mod.color;
-            let listEl = document.createElement('div');
-            listEl.className = 'list-item item-' + color;
-            listEl.setAttribute('itemId', mod.id);
-            listEl.innerHTML = '[' + mod.rating + '] ' + mod.name;
-            listEl.onclick = function(){DomController.userInput(listEl, 'listItemModClick');};
+            listEl.onclick = function(){DomController.userInput(listEl, functionName);};
             TooltipController.addTrigger(listEl);
 
             DomManager.getItemList(color).appendChild(listEl);
@@ -228,10 +232,6 @@ let PickerController = (function()
             }
         }
     }
-    PickerController.prototype.filterOptions = function()
-    {
-        //when the dropdown selection changes, swap out a CSS class to show or hide various items in the color lists
-    };
     return new PickerController();
 })();
 declareReady('PickerController.js', function(){PickerController.init()});

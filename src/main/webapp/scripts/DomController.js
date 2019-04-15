@@ -36,7 +36,7 @@ let DomController = (function()
                 //some republic classes have a different offhand from their imperial counterparts.  All other slots are the same.
                 if(currSlot.getName() === 'offhand')
                 {
-                    PickerController.populateOptionsForSlot(currSlot);
+                    PickerController.updateLists();
                     PickerController.populateCurrentItemForSlot(currSlot);
                 }
                 SlotManager.getSlot('offhand').updateAppearance();
@@ -95,14 +95,15 @@ let DomController = (function()
                 let newItem = ItemManager.getCustomClone(oldItem);
                 newItem.addItemMod(mod)
                 itemSlot.setItem(newItem);
-                PickerController.populateCurrentItemModsForItem(newItem);
+                PickerController.populateCurrentItemForSlot(itemSlot); //we do this instead of populateCurrentModsForItem because we need to bump the stats too
+                break;
             }
             case 'classSelect':
             {
                 Settings.updateSpecDropdown();
                 SlotManager.getSlot('mainhand').updateAppearance();
                 SlotManager.getSlot('offhand').updateAppearance();
-                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                PickerController.updateLists();
                 PickerController.populateCurrentItemForSlot(SlotManager.getCurrentSlot());
                 //TODO: update stats:
                     //arsenal merc gets +3% alacrity
@@ -127,17 +128,17 @@ let DomController = (function()
                 break;
             }
             case 'specSelect':
-                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                PickerController.updateLists();
                 break;
             case 'specFilterChange':
-                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                PickerController.updateLists();
                 break;
             case 'updateItemColors':
                 Settings.updateItemColorCheckboxes(el);
-                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                PickerController.updateLists();
                 break;
             case 'updateItemRatings':
-                PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
+                PickerController.updateLists();
                 break;
         }
     };
@@ -174,6 +175,7 @@ let DomController = (function()
                 }
             }
         }
+        TooltipController.hideTooltip(); //prevents the tooltip from lingering if it didn't get caught by a mouseout event
     };
     DomController.prototype.updateItemColorLists = function()
     {
