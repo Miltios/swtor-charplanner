@@ -5,7 +5,7 @@ function ItemMod(data)
     this.slot;
     this.rating;
     this.color;
-    //this.specs = [];
+    this.specs = [];
     this.stats = {};
     //this.itemMods = [];
     //this.dynamicSlotType;
@@ -22,7 +22,7 @@ function ItemMod(data)
         this.slot = data.slot;
         this.rating = data.rating;
         this.color = data.color;
-        //this.specs = data.specs;
+        this.specs = data.specs;
         this.stats = data.stats;
         //this.itemMods = data.contents;
         //this.dynamicSlotType = data.dynamicSlot;

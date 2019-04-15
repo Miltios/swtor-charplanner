@@ -1,0 +1,537 @@
+tempName,tempKey,ItemId,Spec
+empty,0noneall,1,all
+Resistive Armoring 54,228greenarmoring,2,allTank
+Versatile Armoring 54,228greenarmoring,3,allDps
+Resistive Armoring 50,230bluearmoring,4,allTank
+Versatile Armoring 50,230bluearmoring,5,allDps
+Advanced Resistive Armoring 46,230purplearmoring,6,allTank
+Advanced Versatile Armoring 46,230purplearmoring,7,allDps
+Resistive Armoring 56,232greenarmoring,8,allTank
+Versatile Armoring 56,232greenarmoring,9,allDps
+Resistive Armoring 52,234bluearmoring,10,allTank
+Versatile Armoring 52,234bluearmoring,11,allDps
+Advanced Resistive Armoring 48,234purplearmoring,12,allTank
+Advanced Versatile Armoring 48,234purplearmoring,13,allDps
+Resistive Armoring 46,236goldarmoring,14,allTank
+Versatile Armoring 46,236goldarmoring,15,allDps
+Resistive Armoring 59,238greenarmoring,16,allTank
+Versatile Armoring 59,238greenarmoring,17,allDps
+Resistive Armoring 55,240bluearmoring,18,allTank
+Versatile Armoring 55,240bluearmoring,19,allDps
+Advanced Resistive Armoring 51,240purplearmoring,20,allTank
+Advanced Versatile Armoring 51,240purplearmoring,21,allDps
+Resistive Armoring 49,242goldarmoring,22,allTank
+Versatile Armoring 49,242goldarmoring,23,allDps
+Resistive Armoring 62,244greenarmoring,24,allTank
+Versatile Armoring 62,244greenarmoring,25,allDps
+Resistive Armoring 57,244bluearmoring,26,allTank
+Versatile Armoring 57,244bluearmoring,27,allDps
+Advanced Resistive Armoring 54,246purplearmoring,28,allTank
+Advanced Versatile Armoring 54,246purplearmoring,29,allDps
+Resistive Armoring 52,248goldarmoring,30,allTank
+Versatile Armoring 52,248goldarmoring,31,allDps
+Lethal Mod 54,228greenmod,32,all
+Lethal Mod 54A,228greenmod,33,all
+Lethal Mod 54B,228greenmod,34,all
+Lethal Mod 56,232greenmod,35,all
+Lethal Mod 56A,232greenmod,36,all
+Lethal Mod 56B,232greenmod,37,all
+Lethal Mod 59,238greenmod,38,all
+Lethal Mod 59A,238greenmod,39,all
+Lethal Mod 59B,238greenmod,40,all
+Lethal Mod 62,244greenmod,41,all
+Lethal Mod 62A,244greenmod,42,all
+Lethal Mod 62B,244greenmod,43,all
+Warding Mod 54,228greenmod,44,allTank
+Warding Mod 54A,228greenmod,45,allTank
+Warding Mod 54B,228greenmod,46,allTank
+Warding Mod 56,232greenmod,47,allTank
+Warding Mod 56A,232greenmod,48,allTank
+Warding Mod 56B,232greenmod,49,allTank
+Warding Mod 59,238greenmod,50,allTank
+Warding Mod 59A,238greenmod,51,allTank
+Warding Mod 59B,238greenmod,52,allTank
+Warding Mod 62,244greenmod,53,allTank
+Warding Mod 62A,244greenmod,54,allTank
+Warding Mod 62B,244greenmod,55,allTank
+Lethal Mod 50,230bluemod,56,all
+Lethal Mod 50A,230bluemod,57,all
+Lethal Mod 50B,230bluemod,58,all
+Lethal Mod 52,234bluemod,59,all
+Lethal Mod 52A,234bluemod,60,all
+Lethal Mod 52B,234bluemod,61,all
+Lethal Mod 55,240bluemod,62,all
+Lethal Mod 55A,240bluemod,63,all
+Lethal Mod 55B,240bluemod,64,all
+Lethal Mod 57,244bluemod,65,all
+Lethal Mod 57A,244bluemod,66,all
+Lethal Mod 57B,244bluemod,67,all
+Warding Mod 50,230bluemod,68,allTank
+Warding Mod 50A,230bluemod,69,allTank
+Warding Mod 50B,230bluemod,70,allTank
+Warding Mod 52,234bluemod,71,allTank
+Warding Mod 52A,234bluemod,72,allTank
+Warding Mod 52B,234bluemod,73,allTank
+Warding Mod 55,240bluemod,74,allTank
+Warding Mod 55A,240bluemod,75,allTank
+Warding Mod 55B,240bluemod,76,allTank
+Warding Mod 57,244bluemod,77,allTank
+Warding Mod 57A,244bluemod,78,allTank
+Warding Mod 57B,244bluemod,79,allTank
+Advanced Lethal Mod 46,230purplemod,80,all
+Advanced Lethal Mod 46A,230purplemod,81,all
+Advanced Lethal Mod 46B,230purplemod,82,all
+Advanced Lethal Mod 48,234purplemod,83,all
+Advanced Lethal Mod 48A,234purplemod,84,all
+Advanced Lethal Mod 48B,234purplemod,85,all
+Advanced Lethal Mod 51,240purplemod,86,all
+Advanced Lethal Mod 51A,240purplemod,87,all
+Advanced Lethal Mod 51B,240purplemod,88,all
+Advanced Lethal Mod 54,246purplemod,89,all
+Advanced Lethal Mod 54A,246purplemod,90,all
+Advanced Lethal Mod 54B,246purplemod,91,all
+Advanced Warding Mod 46,230purplemod,92,allTank
+Advanced Warding Mod 46A,230purplemod,93,allTank
+Advanced Warding Mod 46B,230purplemod,94,allTank
+Advanced Warding Mod 48,234purplemod,95,allTank
+Advanced Warding Mod 48A,234purplemod,96,allTank
+Advanced Warding Mod 48B,234purplemod,97,allTank
+Advanced Warding Mod 51,240purplemod,98,allTank
+Advanced Warding Mod 51A,240purplemod,99,allTank
+Advanced Warding Mod 51B,240purplemod,100,allTank
+Advanced Warding Mod 54,246purplemod,101,allTank
+Advanced Warding Mod 54A,246purplemod,102,allTank
+Advanced Warding Mod 54B,246purplemod,103,allTank
+Lethal Mod 46,236goldmod,104,all
+Lethal Mod 49,242goldmod,105,all
+Lethal Mod 52,248goldmod,106,all
+Warding Mod 46,236goldmod,107,allTank
+Warding Mod 49,242goldmod,108,allTank
+Warding Mod 52,248goldmod,109,allTank
+Adept Enhancement 46,236goldenhancement,110,allDps
+Adept Enhancement 49,242goldenhancement,111,allDps
+Adept Enhancement 52,248goldenhancement,112,allDps
+Barrage Enhancement 46,236goldenhancement,113,allDps
+Barrage Enhancement 49,242goldenhancement,114,allDps
+Barrage Enhancement 52,248goldenhancement,115,allDps
+Bastion Enhancement 46,236goldenhancement,116,allTank
+Bastion Enhancement 49,242goldenhancement,117,allTank
+Bastion Enhancement 52,248goldenhancement,118,allTank
+Bulwark Enhancement 46,236goldenhancement,119,allTank
+Bulwark Enhancement 49,242goldenhancement,120,allTank
+Bulwark Enhancement 52,248goldenhancement,121,allTank
+Discipline Enhancement 46,236goldenhancement,122,allDps
+Discipline Enhancement 49,242goldenhancement,123,allDps
+Discipline Enhancement 52,248goldenhancement,124,allDps
+Efficient Enhancement 46,236goldenhancement,125,allDps
+Efficient Enhancement 49,242goldenhancement,126,allDps
+Efficient Enhancement 52,248goldenhancement,127,allDps
+Immunity Enhancement 46,236goldenhancement,128,allTank
+Immunity Enhancement 49,242goldenhancement,129,allTank
+Immunity Enhancement 52,248goldenhancement,130,allTank
+Initiative Enhancement 46,236goldenhancement,131,allDps
+Initiative Enhancement 49,242goldenhancement,132,allDps
+Initiative Enhancement 52,248goldenhancement,133,allDps
+Proficient Enhancement 46,236goldenhancement,134,allDps
+Proficient Enhancement 49,242goldenhancement,135,allDps
+Proficient Enhancement 52,248goldenhancement,136,allDps
+Quick Savant Enhancement 46,236goldenhancement,137,allDps
+Quick Savant Enhancement 49,242goldenhancement,138,allDps
+Quick Savant Enhancement 52,248goldenhancement,139,allDps
+Savant Enhancement 46,236goldenhancement,140,allDps
+Savant Enhancement 49,242goldenhancement,141,allDps
+Savant Enhancement 52,248goldenhancement,142,allDps
+Steadfast Enhancement 46,236goldenhancement,143,allTank
+Steadfast Enhancement 49,242goldenhancement,144,allTank
+Steadfast Enhancement 52,248goldenhancement,145,allTank
+Studious Enhancement 46,236goldenhancement,146,allDps
+Studious Enhancement 49,242goldenhancement,147,allDps
+Studious Enhancement 52,248goldenhancement,148,allDps
+Sturdiness Enhancement 46,236goldenhancement,149,allTank
+Sturdiness Enhancement 49,242goldenhancement,150,allTank
+Sturdiness Enhancement 52,248goldenhancement,151,allTank
+Vigilant Enhancement 46,236goldenhancement,152,allTank
+Vigilant Enhancement 49,242goldenhancement,153,allTank
+Vigilant Enhancement 52,248goldenhancement,154,allTank
+Advanced Adept Enhancement 46,230purpleenhancement,155,allDps
+Advanced Adept Enhancement 48,234purpleenhancement,156,allDps
+Advanced Adept Enhancement 51,240purpleenhancement,157,allDps
+Advanced Adept Enhancement 54,246purpleenhancement,158,allDps
+Advanced Barrage Enhancement 46,230purpleenhancement,159,allDps
+Advanced Barrage Enhancement 48,234purpleenhancement,160,allDps
+Advanced Barrage Enhancement 51,240purpleenhancement,161,allDps
+Advanced Barrage Enhancement 54,246purpleenhancement,162,allDps
+Advanced Bastion Enhancement 46,230purpleenhancement,163,allTank
+Advanced Bastion Enhancement 48,234purpleenhancement,164,allTank
+Advanced Bastion Enhancement 51,240purpleenhancement,165,allTank
+Advanced Bastion Enhancement 54,246purpleenhancement,166,allTank
+Advanced Bulwark Enhancement 46,230purpleenhancement,167,allTank
+Advanced Bulwark Enhancement 48,234purpleenhancement,168,allTank
+Advanced Bulwark Enhancement 51,240purpleenhancement,169,allTank
+Advanced Bulwark Enhancement 54,246purpleenhancement,170,allTank
+Advanced Discipline Enhancement 46,230purpleenhancement,171,allDps
+Advanced Discipline Enhancement 48,234purpleenhancement,172,allDps
+Advanced Discipline Enhancement 51,240purpleenhancement,173,allDps
+Advanced Discipline Enhancement 54,246purpleenhancement,174,allDps
+Advanced Efficient Enhancement 46,230purpleenhancement,175,allDps
+Advanced Efficient Enhancement 48,234purpleenhancement,176,allDps
+Advanced Efficient Enhancement 51,240purpleenhancement,177,allDps
+Advanced Efficient Enhancement 54,246purpleenhancement,178,allDps
+Advanced Immunity Enhancement 46,230purpleenhancement,179,allTank
+Advanced Immunity Enhancement 48,234purpleenhancement,180,allTank
+Advanced Immunity Enhancement 51,240purpleenhancement,181,allTank
+Advanced Immunity Enhancement 54,246purpleenhancement,182,allTank
+Advanced Initiative Enhancement 46,230purpleenhancement,183,allDps
+Advanced Initiative Enhancement 48,234purpleenhancement,184,allDps
+Advanced Initiative Enhancement 51,240purpleenhancement,185,allDps
+Advanced Initiative Enhancement 54,246purpleenhancement,186,allDps
+Advanced Proficient Enhancement 46,230purpleenhancement,187,allDps
+Advanced Proficient Enhancement 48,234purpleenhancement,188,allDps
+Advanced Proficient Enhancement 51,240purpleenhancement,189,allDps
+Advanced Proficient Enhancement 54,246purpleenhancement,190,allDps
+Advanced Quick Savant Enhancement 46,230purpleenhancement,191,allDps
+Advanced Quick Savant Enhancement 48,234purpleenhancement,192,allDps
+Advanced Quick Savant Enhancement 51,240purpleenhancement,193,allDps
+Advanced Quick Savant Enhancement 54,246purpleenhancement,194,allDps
+Advanced Savant Enhancement 46,230purpleenhancement,195,allDps
+Advanced Savant Enhancement 48,234purpleenhancement,196,allDps
+Advanced Savant Enhancement 51,240purpleenhancement,197,allDps
+Advanced Savant Enhancement 54,246purpleenhancement,198,allDps
+Advanced Steadfast Enhancement 46,230purpleenhancement,199,allTank
+Advanced Steadfast Enhancement 48,234purpleenhancement,200,allTank
+Advanced Steadfast Enhancement 51,240purpleenhancement,201,allTank
+Advanced Steadfast Enhancement 54,246purpleenhancement,202,allTank
+Advanced Studious Enhancement 46,230purpleenhancement,203,allDps
+Advanced Studious Enhancement 48,234purpleenhancement,204,allDps
+Advanced Studious Enhancement 51,240purpleenhancement,205,allDps
+Advanced Studious Enhancement 54,246purpleenhancement,206,allDps
+Advanced Sturdiness Enhancement 46,230purpleenhancement,207,allTank
+Advanced Sturdiness Enhancement 48,234purpleenhancement,208,allTank
+Advanced Sturdiness Enhancement 51,240purpleenhancement,209,allTank
+Advanced Sturdiness Enhancement 54,246purpleenhancement,210,allTank
+Advanced Vigilant Enhancement 46,230purpleenhancement,211,allTank
+Advanced Vigilant Enhancement 48,234purpleenhancement,212,allTank
+Advanced Vigilant Enhancement 51,240purpleenhancement,213,allTank
+Advanced Vigilant Enhancement 54,246purpleenhancement,214,allTank
+Adept Enhancement 50,230blueenhancement,215,allDps
+Adept Enhancement 52,234blueenhancement,216,allDps
+Adept Enhancement 55,240blueenhancement,217,allDps
+Adept Enhancement 57,244blueenhancement,218,allDps
+Barrage Enhancement 50,230blueenhancement,219,allDps
+Barrage Enhancement 52,234blueenhancement,220,allDps
+Barrage Enhancement 55,240blueenhancement,221,allDps
+Barrage Enhancement 57,244blueenhancement,222,allDps
+Bastion Enhancement 50,230blueenhancement,223,allTank
+Bastion Enhancement 52,234blueenhancement,224,allTank
+Bastion Enhancement 55,240blueenhancement,225,allTank
+Bastion Enhancement 57,244blueenhancement,226,allTank
+Bulwark Enhancement 50,230blueenhancement,227,allTank
+Bulwark Enhancement 52,234blueenhancement,228,allTank
+Bulwark Enhancement 55,240blueenhancement,229,allTank
+Bulwark Enhancement 57,244blueenhancement,230,allTank
+Discipline Enhancement 50,230blueenhancement,231,allDps
+Discipline Enhancement 52,234blueenhancement,232,allDps
+Discipline Enhancement 55,240blueenhancement,233,allDps
+Discipline Enhancement 57,244blueenhancement,234,allDps
+Efficient Enhancement 50,230blueenhancement,235,allDps
+Efficient Enhancement 52,234blueenhancement,236,allDps
+Efficient Enhancement 55,240blueenhancement,237,allDps
+Efficient Enhancement 57,244blueenhancement,238,allDps
+Immunity Enhancement 50,230blueenhancement,239,allTank
+Immunity Enhancement 52,234blueenhancement,240,allTank
+Immunity Enhancement 55,240blueenhancement,241,allTank
+Immunity Enhancement 57,244blueenhancement,242,allTank
+Initiative Enhancement 50,230blueenhancement,243,allDps
+Initiative Enhancement 52,234blueenhancement,244,allDps
+Initiative Enhancement 55,240blueenhancement,245,allDps
+Initiative Enhancement 57,244blueenhancement,246,allDps
+Proficient Enhancement 50,230blueenhancement,247,allDps
+Proficient Enhancement 52,234blueenhancement,248,allDps
+Proficient Enhancement 55,240blueenhancement,249,allDps
+Proficient Enhancement 57,244blueenhancement,250,allDps
+Quick Savant Enhancement 50,230blueenhancement,251,allDps
+Quick Savant Enhancement 52,234blueenhancement,252,allDps
+Quick Savant Enhancement 55,240blueenhancement,253,allDps
+Quick Savant Enhancement 57,244blueenhancement,254,allDps
+Savant Enhancement 50,230blueenhancement,255,allDps
+Savant Enhancement 52,234blueenhancement,256,allDps
+Savant Enhancement 55,240blueenhancement,257,allDps
+Savant Enhancement 57,244blueenhancement,258,allDps
+Steadfast Enhancement 50,230blueenhancement,259,allTank
+Steadfast Enhancement 52,234blueenhancement,260,allTank
+Steadfast Enhancement 55,240blueenhancement,261,allTank
+Steadfast Enhancement 57,244blueenhancement,262,allTank
+Studious Enhancement 50,230blueenhancement,263,allDps
+Studious Enhancement 52,234blueenhancement,264,allDps
+Studious Enhancement 55,240blueenhancement,265,allDps
+Studious Enhancement 57,244blueenhancement,266,allDps
+Sturdiness Enhancement 50,230blueenhancement,267,allTank
+Sturdiness Enhancement 52,234blueenhancement,268,allTank
+Sturdiness Enhancement 55,240blueenhancement,269,allTank
+Sturdiness Enhancement 57,244blueenhancement,270,allTank
+Vigilant Enhancement 50,230blueenhancement,271,allTank
+Vigilant Enhancement 52,234blueenhancement,272,allTank
+Vigilant Enhancement 55,240blueenhancement,273,allTank
+Vigilant Enhancement 57,244blueenhancement,274,allTank
+Adept Enhancement 56,232greenenhancement,275,allDps
+Adept Enhancement 59,238greenenhancement,276,allDps
+Adept Enhancement 62,244greenenhancement,277,allDps
+Barrage Enhancement 56,232greenenhancement,278,allDps
+Barrage Enhancement 59,238greenenhancement,279,allDps
+Barrage Enhancement 62,244greenenhancement,280,allDps
+Bastion Enhancement 56,232greenenhancement,281,allTank
+Bastion Enhancement 59,238greenenhancement,282,allTank
+Bastion Enhancement 62,244greenenhancement,283,allTank
+Bulwark Enhancement 56,232greenenhancement,284,allTank
+Bulwark Enhancement 59,238greenenhancement,285,allTank
+Bulwark Enhancement 62,244greenenhancement,286,allTank
+Discipline Enhancement 56,232greenenhancement,287,allDps
+Discipline Enhancement 59,238greenenhancement,288,allDps
+Discipline Enhancement 62,244greenenhancement,289,allDps
+Efficient Enhancement 56,232greenenhancement,290,allDps
+Efficient Enhancement 59,238greenenhancement,291,allDps
+Efficient Enhancement 62,244greenenhancement,292,allDps
+Immunity Enhancement 56,232greenenhancement,293,allTank
+Immunity Enhancement 59,238greenenhancement,294,allTank
+Immunity Enhancement 62,244greenenhancement,295,allTank
+Initiative Enhancement 56,232greenenhancement,296,allDps
+Initiative Enhancement 59,238greenenhancement,297,allDps
+Initiative Enhancement 62,244greenenhancement,298,allDps
+Proficient Enhancement 56,232greenenhancement,299,allDps
+Proficient Enhancement 59,238greenenhancement,300,allDps
+Proficient Enhancement 62,244greenenhancement,301,allDps
+Quick Savant Enhancement 56,232greenenhancement,302,allDps
+Quick Savant Enhancement 59,238greenenhancement,303,allDps
+Quick Savant Enhancement 62,244greenenhancement,304,allDps
+Savant Enhancement 56,232greenenhancement,305,allDps
+Savant Enhancement 59,238greenenhancement,306,allDps
+Savant Enhancement 62,244greenenhancement,307,allDps
+Steadfast Enhancement 56,232greenenhancement,308,allTank
+Steadfast Enhancement 59,238greenenhancement,309,allTank
+Steadfast Enhancement 62,244greenenhancement,310,allTank
+Studious Enhancement 56,232greenenhancement,311,allDps
+Studious Enhancement 59,238greenenhancement,312,allDps
+Studious Enhancement 62,244greenenhancement,313,allDps
+Sturdiness Enhancement 56,232greenenhancement,314,allTank
+Sturdiness Enhancement 59,238greenenhancement,315,allTank
+Sturdiness Enhancement 62,244greenenhancement,316,allTank
+Vigilant Enhancement 56,232greenenhancement,317,allTank
+Vigilant Enhancement 59,238greenenhancement,318,allTank
+Vigilant Enhancement 62,244greenenhancement,319,allTank
+Advanced Resistive Barrel 46,230purplebarrel,320,allTank
+Advanced Resistive Barrel 48,234purplebarrel,321,allTank
+Advanced Resistive Barrel 51,240purplebarrel,322,allTank
+Advanced Resistive Barrel 54,246purplebarrel,323,allTank
+Advanced Versatile Barrel 46,230purplebarrel,324,allDps
+Advanced Versatile Barrel 48,234purplebarrel,325,allDps
+Advanced Versatile Barrel 51,240purplebarrel,326,allDps
+Advanced Versatile Barrel 54,246purplebarrel,327,allDps
+Resistive Barrel 46,236goldbarrel,328,allTank
+Resistive Barrel 49,242goldbarrel,329,allTank
+Resistive Barrel 52,248goldbarrel,330,allTank
+Versatile Barrel 46,236goldbarrel,331,allDps
+Versatile Barrel 49,242goldbarrel,332,allDps
+Versatile Barrel 52,248goldbarrel,333,allDps
+Resistive Barrel 50,230bluebarrel,334,allTank
+Resistive Barrel 52,234bluebarrel,335,allTank
+Resistive Barrel 55,240bluebarrel,336,allTank
+Resistive Barrel 57,244bluebarrel,337,allTank
+Versatile Barrel 50,230bluebarrel,338,allDps
+Versatile Barrel 52,234bluebarrel,339,allDps
+Versatile Barrel 55,240bluebarrel,340,allDps
+Versatile Barrel 57,244bluebarrel,341,allDps
+Resistive Barrel 54,228greenbarrel,342,allTank
+Resistive Barrel 56,232greenbarrel,343,allTank
+Resistive Barrel 59,238greenbarrel,344,allTank
+Resistive Barrel 62,244greenbarrel,345,allTank
+Versatile Barrel 54,228greenbarrel,346,allDps
+Versatile Barrel 56,232greenbarrel,347,allDps
+Versatile Barrel 59,238greenbarrel,348,allDps
+Versatile Barrel 62,244greenbarrel,349,allDps
+Advanced Versatile Hilt 46,230purplehilt,350,allDps
+Advanced Versatile Hilt 48,234purplehilt,351,allDps
+Advanced Versatile Hilt 51,240purplehilt,352,allDps
+Advanced Versatile Hilt 54,246purplehilt,353,allDps
+Advanced Resistive Hilt 46,230purplehilt,354,allTank
+Advanced Resistive Hilt 48,234purplehilt,355,allTank
+Advanced Resistive Hilt 51,240purplehilt,356,allTank
+Advanced Resistive Hilt 54,246purplehilt,357,allTank
+Resistive Hilt 46,236goldhilt,358,allTank
+Resistive Hilt 49,242goldhilt,359,allTank
+Resistive Hilt 52,248goldhilt,360,allTank
+Versatile Hilt 46,236goldhilt,361,allDps
+Versatile Hilt 49,242goldhilt,362,allDps
+Versatile Hilt 52,248goldhilt,363,allDps
+Resistive Hilt 50,230bluehilt,364,allTank
+Resistive Hilt 52,234bluehilt,365,allTank
+Resistive Hilt 55,240bluehilt,366,allTank
+Resistive Hilt 57,244bluehilt,367,allTank
+Versatile Hilt 50,230bluehilt,368,allDps
+Versatile Hilt 52,234bluehilt,369,allDps
+Versatile Hilt 55,240bluehilt,370,allDps
+Versatile Hilt 57,244bluehilt,371,allDps
+Resistive Hilt 54,228greenhilt,372,allTank
+Resistive Hilt 56,232greenhilt,373,allTank
+Resistive Hilt 59,238greenhilt,374,allTank
+Resistive Hilt 62,244greenhilt,375,allTank
+Versatile Hilt 54,228greenhilt,376,allDps
+Versatile Hilt 56,232greenhilt,377,allDps
+Versatile Hilt 59,238greenhilt,378,allDps
+Versatile Hilt 62,244greenhilt,379,allDps
+Advanced Eviscerating Crystal,136purplecrystal,380,allDps
+Advanced Hawkeye Crystal,136purplecrystal,381,allDps
+Advanced Indestructible Crystal,136purplecrystal,382,allTank
+Advanced War Hero's Crystal,136purplecrystal,383,allDps
+Adept Enhancement 54,228greenenhancement,384,allDps
+Barrage Enhancement 54,228greenenhancement,385,allDps
+Bastion Enhancement 54,228greenenhancement,386,allTank
+Bulwark Enhancement 54,228greenenhancement,387,allTank
+Discipline Enhancement 54,228greenenhancement,388,allDps
+Efficient Enhancement 54,228greenenhancement,389,allDps
+Immunity Enhancement 54,228greenenhancement,390,allTank
+Initiative Enhancement 54,228greenenhancement,391,allDps
+Proficient Enhancement 54,228greenenhancement,392,allDps
+Quick Savant Enhancement 54,228greenenhancement,393,allDps
+Savant Enhancement 54,228greenenhancement,394,allDps
+Steadfast Enhancement 54,228greenenhancement,395,allTank
+Studious Enhancement 54,228greenenhancement,396,allDps
+Sturdiness Enhancement 54,228greenenhancement,397,allTank
+Vigilant Enhancement 54,228greenenhancement,398,allTank
+Versatile Armoring 54,228greenarmoring,3,allHealer
+Versatile Armoring 50,230bluearmoring,5,allHealer
+Advanced Versatile Armoring 46,230purplearmoring,7,allHealer
+Versatile Armoring 56,232greenarmoring,9,allHealer
+Versatile Armoring 52,234bluearmoring,11,allHealer
+Advanced Versatile Armoring 48,234purplearmoring,13,allHealer
+Versatile Armoring 46,236goldarmoring,15,allHealer
+Versatile Armoring 59,238greenarmoring,17,allHealer
+Versatile Armoring 55,240bluearmoring,19,allHealer
+Advanced Versatile Armoring 51,240purplearmoring,21,allHealer
+Versatile Armoring 49,242goldarmoring,23,allHealer
+Versatile Armoring 62,244greenarmoring,25,allHealer
+Versatile Armoring 57,244bluearmoring,27,allHealer
+Advanced Versatile Armoring 54,246purplearmoring,29,allHealer
+Versatile Armoring 52,248goldarmoring,31,allHealer
+Adept Enhancement 46,236goldenhancement,110,allHealer
+Adept Enhancement 49,242goldenhancement,111,allHealer
+Adept Enhancement 52,248goldenhancement,112,allHealer
+Barrage Enhancement 46,236goldenhancement,113,allHealer
+Barrage Enhancement 49,242goldenhancement,114,allHealer
+Barrage Enhancement 52,248goldenhancement,115,allHealer
+Discipline Enhancement 46,236goldenhancement,122,allHealer
+Discipline Enhancement 49,242goldenhancement,123,allHealer
+Discipline Enhancement 52,248goldenhancement,124,allHealer
+Efficient Enhancement 46,236goldenhancement,125,allHealer
+Efficient Enhancement 49,242goldenhancement,126,allHealer
+Efficient Enhancement 52,248goldenhancement,127,allHealer
+Quick Savant Enhancement 46,236goldenhancement,137,allHealer
+Quick Savant Enhancement 49,242goldenhancement,138,allHealer
+Quick Savant Enhancement 52,248goldenhancement,139,allHealer
+Savant Enhancement 46,236goldenhancement,140,allHealer
+Savant Enhancement 49,242goldenhancement,141,allHealer
+Savant Enhancement 52,248goldenhancement,142,allHealer
+Advanced Adept Enhancement 46,230purpleenhancement,155,allHealer
+Advanced Adept Enhancement 48,234purpleenhancement,156,allHealer
+Advanced Adept Enhancement 51,240purpleenhancement,157,allHealer
+Advanced Adept Enhancement 54,246purpleenhancement,158,allHealer
+Advanced Barrage Enhancement 46,230purpleenhancement,159,allHealer
+Advanced Barrage Enhancement 48,234purpleenhancement,160,allHealer
+Advanced Barrage Enhancement 51,240purpleenhancement,161,allHealer
+Advanced Barrage Enhancement 54,246purpleenhancement,162,allHealer
+Advanced Discipline Enhancement 46,230purpleenhancement,171,allHealer
+Advanced Discipline Enhancement 48,234purpleenhancement,172,allHealer
+Advanced Discipline Enhancement 51,240purpleenhancement,173,allHealer
+Advanced Discipline Enhancement 54,246purpleenhancement,174,allHealer
+Advanced Efficient Enhancement 46,230purpleenhancement,175,allHealer
+Advanced Efficient Enhancement 48,234purpleenhancement,176,allHealer
+Advanced Efficient Enhancement 51,240purpleenhancement,177,allHealer
+Advanced Efficient Enhancement 54,246purpleenhancement,178,allHealer
+Advanced Quick Savant Enhancement 46,230purpleenhancement,191,allHealer
+Advanced Quick Savant Enhancement 48,234purpleenhancement,192,allHealer
+Advanced Quick Savant Enhancement 51,240purpleenhancement,193,allHealer
+Advanced Quick Savant Enhancement 54,246purpleenhancement,194,allHealer
+Advanced Savant Enhancement 46,230purpleenhancement,195,allHealer
+Advanced Savant Enhancement 48,234purpleenhancement,196,allHealer
+Advanced Savant Enhancement 51,240purpleenhancement,197,allHealer
+Advanced Savant Enhancement 54,246purpleenhancement,198,allHealer
+Adept Enhancement 50,230blueenhancement,215,allHealer
+Adept Enhancement 52,234blueenhancement,216,allHealer
+Adept Enhancement 55,240blueenhancement,217,allHealer
+Adept Enhancement 57,244blueenhancement,218,allHealer
+Barrage Enhancement 50,230blueenhancement,219,allHealer
+Barrage Enhancement 52,234blueenhancement,220,allHealer
+Barrage Enhancement 55,240blueenhancement,221,allHealer
+Barrage Enhancement 57,244blueenhancement,222,allHealer
+Discipline Enhancement 50,230blueenhancement,231,allHealer
+Discipline Enhancement 52,234blueenhancement,232,allHealer
+Discipline Enhancement 55,240blueenhancement,233,allHealer
+Discipline Enhancement 57,244blueenhancement,234,allHealer
+Efficient Enhancement 50,230blueenhancement,235,allHealer
+Efficient Enhancement 52,234blueenhancement,236,allHealer
+Efficient Enhancement 55,240blueenhancement,237,allHealer
+Efficient Enhancement 57,244blueenhancement,238,allHealer
+Quick Savant Enhancement 50,230blueenhancement,251,allHealer
+Quick Savant Enhancement 52,234blueenhancement,252,allHealer
+Quick Savant Enhancement 55,240blueenhancement,253,allHealer
+Quick Savant Enhancement 57,244blueenhancement,254,allHealer
+Savant Enhancement 50,230blueenhancement,255,allHealer
+Savant Enhancement 52,234blueenhancement,256,allHealer
+Savant Enhancement 55,240blueenhancement,257,allHealer
+Savant Enhancement 57,244blueenhancement,258,allHealer
+Adept Enhancement 56,232greenenhancement,275,allHealer
+Adept Enhancement 59,238greenenhancement,276,allHealer
+Adept Enhancement 62,244greenenhancement,277,allHealer
+Barrage Enhancement 56,232greenenhancement,278,allHealer
+Barrage Enhancement 59,238greenenhancement,279,allHealer
+Barrage Enhancement 62,244greenenhancement,280,allHealer
+Discipline Enhancement 56,232greenenhancement,287,allHealer
+Discipline Enhancement 59,238greenenhancement,288,allHealer
+Discipline Enhancement 62,244greenenhancement,289,allHealer
+Efficient Enhancement 56,232greenenhancement,290,allHealer
+Efficient Enhancement 59,238greenenhancement,291,allHealer
+Efficient Enhancement 62,244greenenhancement,292,allHealer
+Quick Savant Enhancement 56,232greenenhancement,302,allHealer
+Quick Savant Enhancement 59,238greenenhancement,303,allHealer
+Quick Savant Enhancement 62,244greenenhancement,304,allHealer
+Savant Enhancement 56,232greenenhancement,305,allHealer
+Savant Enhancement 59,238greenenhancement,306,allHealer
+Savant Enhancement 62,244greenenhancement,307,allHealer
+Advanced Versatile Barrel 46,230purplebarrel,324,allHealer
+Advanced Versatile Barrel 48,234purplebarrel,325,allHealer
+Advanced Versatile Barrel 51,240purplebarrel,326,allHealer
+Advanced Versatile Barrel 54,246purplebarrel,327,allHealer
+Versatile Barrel 46,236goldbarrel,331,allHealer
+Versatile Barrel 49,242goldbarrel,332,allHealer
+Versatile Barrel 52,248goldbarrel,333,allHealer
+Versatile Barrel 50,230bluebarrel,338,allHealer
+Versatile Barrel 52,234bluebarrel,339,allHealer
+Versatile Barrel 55,240bluebarrel,340,allHealer
+Versatile Barrel 57,244bluebarrel,341,allHealer
+Versatile Barrel 54,228greenbarrel,346,allHealer
+Versatile Barrel 56,232greenbarrel,347,allHealer
+Versatile Barrel 59,238greenbarrel,348,allHealer
+Versatile Barrel 62,244greenbarrel,349,allHealer
+Advanced Versatile Hilt 46,230purplehilt,350,allHealer
+Advanced Versatile Hilt 48,234purplehilt,351,allHealer
+Advanced Versatile Hilt 51,240purplehilt,352,allHealer
+Advanced Versatile Hilt 54,246purplehilt,353,allHealer
+Versatile Hilt 46,236goldhilt,361,allHealer
+Versatile Hilt 49,242goldhilt,362,allHealer
+Versatile Hilt 52,248goldhilt,363,allHealer
+Versatile Hilt 50,230bluehilt,368,allHealer
+Versatile Hilt 52,234bluehilt,369,allHealer
+Versatile Hilt 55,240bluehilt,370,allHealer
+Versatile Hilt 57,244bluehilt,371,allHealer
+Versatile Hilt 54,228greenhilt,376,allHealer
+Versatile Hilt 56,232greenhilt,377,allHealer
+Versatile Hilt 59,238greenhilt,378,allHealer
+Versatile Hilt 62,244greenhilt,379,allHealer
+Advanced Eviscerating Crystal,136purplecrystal,380,allHealer
+Advanced Hawkeye Crystal,136purplecrystal,381,allHealer
+Advanced War Hero's Crystal,136purplecrystal,383,allHealer
+Adept Enhancement 54,228greenenhancement,384,allHealer
+Barrage Enhancement 54,228greenenhancement,385,allHealer
+Discipline Enhancement 54,228greenenhancement,388,allHealer
+Efficient Enhancement 54,228greenenhancement,389,allHealer
+Quick Savant Enhancement 54,228greenenhancement,393,allHealer
+Savant Enhancement 54,228greenenhancement,394,allHealer

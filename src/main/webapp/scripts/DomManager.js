@@ -48,7 +48,7 @@ let DomManager = (function()
     DomManager.prototype.getSlot = function(el)
     {
         let name;
-        if(el.classList.contains('character-slot'))
+        if(el.classList.contains('character-slot') || el.classList.contains('mod-slot'))
         {
             name = el.id;
         }
@@ -57,7 +57,7 @@ let DomManager = (function()
             name = el.parentNode.id;
         }
         let i = name.indexOf('slot');
-        if(name.indexOf('slot') !== 0)
+        if(i !== 0)
         {
             return null;
         }

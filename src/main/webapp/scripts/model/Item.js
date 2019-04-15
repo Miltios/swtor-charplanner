@@ -11,11 +11,7 @@ function Item(data)
     this.dynamicSlotType;
     this.description;
     this.image;
-    if(!data)
-    {
-        //should we even allow this?
-    }
-    else
+    if(data)
     {
         this.id = data.id;
         this.name = data.name;
@@ -28,13 +24,21 @@ function Item(data)
         this.dynamicSlotType = data.dynamicSlot;
         this.description = data.description;
         this.image = data.image;
+        if(typeof data.isCustom === 'undefined')
+        {
+            this.isCustom = false;
+        }
+        else
+        {
+            this.isCustom = data.isCustom;
+        }
 
         let contents = data.contents;
-        for(let i in data.contents)
+        for(let i in contents)
         {
-            if(data.contents.hasOwnProperty(i))
+            if(contents.hasOwnProperty(i))
             {
-                this.addItemModById(data.contents[i]);
+                this.addItemModById(contents[i]);
             }
         }
     }
@@ -88,10 +92,39 @@ Item.prototype.getItemMods = function()
 };
 Item.prototype.addItemModById = function(modId)
 {
-    if(!this.itemMods.indexOf(modId) !== -1)
+    let mod = ItemManager.getItemModById(modId);
+    if(mod === null)
     {
-        this.itemMods.push(modId);
+        console.error('Attempted to add nonexistent mod with ID ' + modId + '!');
+        return;
     }
+    this.addItemMod(mod);
+}
+Item.prototype.addItemMod = function(mod)
+{
+    let slotName = mod.slot;
+    let oldId = this.getModIdInSlot(slotName);
+    let newId = mod.id;
+    if(oldId)
+    {
+        this.itemMods[this.itemMods.indexOf(oldId)] = newId;
+    }
+    else
+    {
+        this.itemMods.push(newId);
+    }
+}
+Item.prototype.getModIdInSlot = function(slotName)
+{
+    for(let i=0; i<this.itemMods.length; i++)
+    {
+        let mod = ItemManager.getItemModById(this.itemMods[i]);
+        if(mod.slot === slotName)
+        {
+            return mod.id;
+        }
+    }
+    return null;
 }
 //'armoring', 'hilt', or 'barrel', or null for non-moddable items
 Item.prototype.getDynamicSlotType = function()

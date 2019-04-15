@@ -30,8 +30,6 @@ let PickerController = (function()
             return;
         }
 
-        //populate (or hide?) "currently equipped" section
-
         //get list of items and sort them into color lists
         let items;
         let slotName = slot.getGenericName();
@@ -70,6 +68,49 @@ let PickerController = (function()
 
         //do something with "custom item" section?
     };
+    PickerController.prototype.populateOptionsForModSlot = function(slot) //TODO:we could probably stand to have less duplicated code here
+    {
+        DomController.clearItemLists();
+        if(!slot)
+        {
+            return;
+        }
+
+        //get list of mods and sort them into color lists
+        let mods;
+        let slotName = slot.getName();
+        let specFilter = Settings.getSpecFilter();
+        if(specFilter === 'mySpec')
+        {
+            mods = ItemManager.getModsForSpecAndSlot(Settings.getSpec(), slotName);
+        }
+        else if(specFilter === 'myClass')
+        {
+            mods = ItemManager.getModsForClassAndSlot(Settings.getClass(), slotName);
+        }
+        else
+        {
+            mods = ItemManager.getModsForSlot(slotName);
+        }
+
+        let ratings = Settings.getItemRatings();
+        mods = mods.filter(i => ratings.indexOf(i.rating) !== -1);
+
+        mods = mods.sort((a,b) => (-1)*(a.rating-b.rating));
+        for(let i=0; i<mods.length; i++)
+        {
+            let mod = mods[i];
+            let color = mod.color;
+            let listEl = document.createElement('div');
+            listEl.className = 'list-item item-' + color;
+            listEl.setAttribute('itemId', mod.id);
+            listEl.innerHTML = '[' + mod.rating + '] ' + mod.name;
+            listEl.onclick = function(){DomController.userInput(listEl, 'listItemModClick');};
+            TooltipController.addTrigger(listEl);
+
+            DomManager.getItemList(color).appendChild(listEl);
+        }
+    }
     PickerController.prototype.populateCurrentItemForSlot = function(slot)
     {
         //first, remove all the existing color classes from the item elements
@@ -152,7 +193,7 @@ let PickerController = (function()
         for(let i=0; i<mods.length; i++)
         {
             let mod = mods[i];
-            let slot = SlotManager.getModSlot(mod.slot);
+            let slot = SlotManager.getSlot(mod.slot);
             if(slot !== null)
             {
                 slot.setItem(mod);

@@ -8,7 +8,7 @@ let SlotManager = (function()
         this.charSlots = {};
         this.itemSlots = {};
         this.currentSlot = null;
-        this.currentItemSlot = null;
+        this.currentModSlot = null;
 
         this.ima;
         this.imaSlots;
@@ -67,7 +67,7 @@ let SlotManager = (function()
         {
             return this.charSlots[name];
         }
-        return null;
+        return this.getModSlot(name); //if we don't find a char slot by that name, look for a mod slot instead.
     };
     SlotManager.prototype.getSlotFromLinkEl = function(el)
     {
@@ -118,6 +118,14 @@ let SlotManager = (function()
     SlotManager.prototype.setCurrentSlot = function(slot)
     {
         this.currentSlot = slot;
+    }
+    SlotManager.prototype.getCurrentModSlot = function()
+    {
+        return this.currentModSlot;
+    }
+    SlotManager.prototype.setCurrentModSlot = function(slot)
+    {
+        this.currentModSlot = slot;
     }
     SlotManager.prototype.getAllModSlots = function()
     {

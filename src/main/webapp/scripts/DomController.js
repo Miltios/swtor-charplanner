@@ -13,11 +13,21 @@ let DomController = (function()
         switch(str)
         {
             case 'charSlot':
+            {
                 let slot = DomManager.getSlot(el);
                 SlotManager.setCurrentSlot(slot);
                 this.spawnItemPicker(slot);
                 break;
+            }
+            case 'modSlot':
+            {
+                let slot = DomManager.getSlot(el);
+                SlotManager.setCurrentModSlot(slot);
+                PickerController.populateOptionsForModSlot(slot);
+                break;
+            }
             case 'factionToggle':
+            {
                 let faction = el.value;
                 DomManager.setFaction(faction);
                 Settings.updateFactionSelections();
@@ -31,7 +41,9 @@ let DomController = (function()
                 }
                 SlotManager.getSlot('offhand').updateAppearance();
                 break;
+            }
             case 'toggleExpand':
+            {
                 DomManager.dismissOtherPopups(event);
                 if(el.classList.contains('collapsed'))
                 {
@@ -66,13 +78,27 @@ let DomController = (function()
                 }
                 event.stopPropagation();
                 break;
+            }
             case 'listItemClick':
+            {
                 let currentSlot = SlotManager.getCurrentSlot();
                 let item = ItemManager.getItemById(el.getAttribute('itemId'));
                 currentSlot.setItem(item);
                 PickerController.populateCurrentItemForSlot(currentSlot);
                 break;
+            }
+            case 'listItemModClick':
+            {
+                let itemSlot = SlotManager.getCurrentSlot();
+                let mod = ItemManager.getItemModById(el.getAttribute('itemId'));
+                let oldItem = itemSlot.getItem();
+                let newItem = ItemManager.getCustomClone(oldItem);
+                newItem.addItemMod(mod)
+                itemSlot.setItem(newItem);
+                PickerController.populateCurrentItemModsForItem(newItem);
+            }
             case 'classSelect':
+            {
                 Settings.updateSpecDropdown();
                 SlotManager.getSlot('mainhand').updateAppearance();
                 SlotManager.getSlot('offhand').updateAppearance();
@@ -99,6 +125,7 @@ let DomController = (function()
                     //pyrotech pt gets +5% internal/elemental dmg reduction
                     //AP pt gets +3% melee/ranged def +2% ranged/tech crit chance
                 break;
+            }
             case 'specSelect':
                 PickerController.populateOptionsForSlot(SlotManager.getCurrentSlot());
                 break;

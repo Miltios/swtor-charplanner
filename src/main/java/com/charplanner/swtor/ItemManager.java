@@ -27,6 +27,7 @@ public class ItemManager
         updateItemSpecs();
         updateItemStats();
         updateItemMods();
+        updateItemModSpecs();
         updateItemModStats();
         updateItemContents();
     }
@@ -162,6 +163,36 @@ public class ItemManager
         {
             //TODO
             System.out.println("Failed to update ItemMods!");
+            e.printStackTrace();
+        }
+    }
+    public static void updateItemModSpecs()
+    {
+        Connection c = ConnectionManager.getConnection();
+        try
+        {
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemModSpecs"); //TODO:stop hard-coding schemas
+            if(statement.execute())
+            {
+                ResultSet rs = statement.getResultSet();
+                while(rs.next())
+                {
+                    int itemId = rs.getInt("ItemId");
+                    ItemMod i = itemMods.get(itemId);
+                    if(i == null)
+                    {
+                        Utilities.log("Item mod " + itemId + " is disabled.  Skipping...");
+                    }
+                    else
+                    {
+                        i.addSpec(rs.getString("Spec"));
+                    }
+                }
+            }
+        }
+        catch(SQLException e)
+        {
+            System.out.println("Failed to update ItemModSpecs!");
             e.printStackTrace();
         }
     }
@@ -316,15 +347,14 @@ public class ItemManager
             sb.append("rating:").append(i.getRating()).append(",\n");
             sb.append("color:'").append(i.getColor().toString().toLowerCase()).append("',\n"); //figure out some better toString method for this enum
             sb.append("image:'").append(i.getImage()).append("',\n");
-            //we may or may not want to add specs for mods later
-            /*sb.append("specs:[");
+            sb.append("specs:[");
             Set<String> specs = i.getSpecs();
             for(String spec : specs)
             {
                 sb.append("'").append(spec).append("',");
             }
             Utilities.removeTrailingChar(sb, ',');
-            sb.append("],\n");*/
+            sb.append("],\n");
             sb.append("stats:{");
             Map<String,Integer> stats = i.getStats();
             for(Map.Entry<String,Integer> entry : stats.entrySet())

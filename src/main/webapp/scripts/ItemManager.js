@@ -5,11 +5,12 @@ let ItemManager = (function()
         //declare vars
         this.items = [];
         this.itemMods = [];
+        this.lastItemId = 0;
     }
     ItemManager.prototype.init = function()
     {
-        this.populateItems(allItemData.items);
         this.populateItemMods(allItemData.itemMods);
+        this.populateItems(allItemData.items); //items reference mods, so mods must be populated first
 
         log('ItemManager initialized.');
     };
@@ -19,6 +20,11 @@ let ItemManager = (function()
         {
             let item = new Item(data[i]);
             this.items.push(item);
+            let id = parseInt(item.id);
+            if(id > this.lastItemId)
+            {
+                this.lastItemId = id;
+            }
         }
     };
     ItemManager.prototype.populateItemMods = function(data)
@@ -29,15 +35,15 @@ let ItemManager = (function()
             this.itemMods.push(mod);
         }
     }
-    ItemManager.prototype.getItemsForSlot = function(slotName)
+    ItemManager.prototype.filterListForSlot = function(slotName, list)
     {
-        let items = this.items.slice(); //shallow copy
+        let items = list.slice(); //shallow copy
         items = items.filter(i => (i.slot === slotName));
         return items;
     }
-    ItemManager.prototype.getItemsForSpecAndSlot = function(spec, slotName)
+    ItemManager.prototype.filterListForSpecAndSlot = function(spec, slotName, list)
     {
-        let items = this.items.slice(); //shallow copy
+        let items = list.slice(); //shallow copy
         items = items.filter(i => (i.slot === slotName));
         if(spec === 'all')
         {
@@ -61,16 +67,16 @@ let ItemManager = (function()
             || (i.specs.indexOf('all') !== -1)
             || (i.specs.indexOf(specRole) !== -1)));
     };
-    ItemManager.prototype.getItemsForClassAndSlot = function(classname, slotName)
+    ItemManager.prototype.filterListForClassAndSlot = function(className, slotName, list)
     {
-        let items = this.items.slice(); //shallow copy
+        let items = list.slice(); //shallow copy
         items = items.filter(i => (i.slot === slotName));
-        if(classname === 'all')
+        if(className === 'all')
         {
             return items;
         }
         let specs = [];
-        switch(classname)
+        switch(className)
         {
             case 'jugg':
                 specs = ['juggTank', 'juggSust', 'juggBurst', 'allTank', 'allDps'];
@@ -100,9 +106,40 @@ let ItemManager = (function()
         return items.filter(i => (Utilities.arrayMatch(specs, i.specs)
             || (i.specs.indexOf('all') !== -1)));
     };
+    ItemManager.prototype.getItemsForSlot = function(slotName)
+    {
+        return this.filterListForSlot(slotName, this.items);
+    }
+    ItemManager.prototype.getItemsForSpecAndSlot = function(spec, slotName)
+    {
+        return this.filterListForSpecAndSlot(spec, slotName, this.items);
+    }
+    ItemManager.prototype.getItemsForClassAndSlot = function(className, slotName)
+    {
+        return this.filterListForClassAndSlot(className, slotName, this.items);
+    }
+    ItemManager.prototype.getModsForSlot = function(slotName)
+    {
+        return this.filterListForSlot(slotName, this.itemMods);
+    }
+    ItemManager.prototype.getModsForSpecAndSlot = function(spec, slotName)
+    {
+        return this.filterListForSpecAndSlot(spec, slotName, this.itemMods);
+    };
+    ItemManager.prototype.getModsForClassAndSlot = function(className, slotName)
+    {
+        return this.filterListForClassAndSlot(className, slotName, this.itemMods);
+    };
     ItemManager.prototype.addItem = function(data)
     {
-        //TODO
+        //not actually used yet
+        let item = new Item(data);
+        this.items.push(item);
+        let id = parseInt(item.id);
+        if(id > this.lastItemId)
+        {
+            this.lastItemId = id;
+        }
     };
     ItemManager.prototype.getItemById = function(id)
     {
@@ -145,6 +182,40 @@ let ItemManager = (function()
         let mods = this.itemMods.slice(); //shallow copy
         mods = mods.filter(i => (i.slot === slotName));
         return mods;
+    }
+    ItemManager.prototype.getCustomClone = function(item)
+    {
+        if(item.isCustom)
+        {
+            return item;
+        }
+        let clone = new Item();
+        clone.id = this.getNewId();
+        clone.name = item.name;
+        clone.slot = item.slot;
+        clone.rating = item.rating;
+        clone.color = item.color;
+        clone.specs = item.specs.slice();
+        clone.stats = {};
+        for(let i in item.stats)
+        {
+            if(item.stats.hasOwnProperty(i))
+            {
+                clone.stats[i] = item.stats[i];
+            }
+        }
+        clone.dynamicSlotType = item.dynamicSlotType;
+        clone.description = item.description;
+        clone.image = item.image;
+        clone.isCustom = true;
+        clone.itemMods = item.itemMods.slice();
+
+        return clone;
+    }
+    ItemManager.prototype.getNewId = function()
+    {
+        this.lastItemId++;
+        return this.lastItemId + ''; //coerce to string
     }
     return new ItemManager();
 })();

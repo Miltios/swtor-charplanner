@@ -11,12 +11,6 @@ public class ItemMod extends Item //TODO: probably want an interface or abstract
     }
 
     @Override
-    public Set<String> getSpecs()
-    {
-        System.out.println("Attempted to access nonexistent method getSpecs for ItemMod " + this.getName() + " (itemId " + this.getId() + ")");
-        return null;
-    }
-    @Override
     public Map<String,Integer> getItemContents()
     {
         System.out.println("Attempted to access nonexistent method getItemContents for ItemMod " + this.getName() + " (itemId " + this.getId() + ")");
