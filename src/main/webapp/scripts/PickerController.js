@@ -98,7 +98,10 @@ let PickerController = (function()
         }
 
         let ratings = Settings.getItemRatings();
-        items = items.filter(i => ratings.indexOf(i.rating) !== -1);
+        if(slotName !== 'crystal') //HACK: crystals have a rating of 136, which will always fail
+        {
+            items = items.filter(i => ratings.indexOf(i.rating) !== -1);
+        }
 
         items = items.sort((a,b) => (-1)*(a.rating-b.rating));
         for(let i=0; i<items.length; i++)
