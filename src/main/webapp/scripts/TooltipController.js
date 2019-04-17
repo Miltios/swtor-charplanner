@@ -8,6 +8,7 @@ let TooltipController = (function()
         this.tir;
         this.tis;
         this.tid;
+        this.tsc;
 
         this.triggerElClasses = ['mod-slot-link', 'character-slot-link', 'list-item'];
 
@@ -22,6 +23,7 @@ let TooltipController = (function()
         this.tir = document.getElementById('tooltipItemRating');
         this.tis = document.getElementById('tooltipItemStats');
         this.tid = document.getElementById('tooltipItemDescription');
+        this.tsc = document.getElementById('tooltipStatComparison');
         for(let i=0; i<this.triggerElClasses.length; i++)
         {
             let els = document.getElementsByClassName(this.triggerElClasses[i]);
@@ -79,6 +81,7 @@ let TooltipController = (function()
     }
     TooltipController.prototype.updateTooltip = function(el)
     {
+        this.tsc.style.display = 'none';
         let item = null;
         if(el.classList.contains('mod-slot-link'))
         {
@@ -100,7 +103,6 @@ let TooltipController = (function()
         }
         else if(el.classList.contains('list-item'))
         {
-            //TODO:also show item comparison in this case?
             let itemId = parseInt(el.getAttribute('itemid'));
             if(PickerController.getListType() === 'items')
             {
@@ -114,6 +116,47 @@ let TooltipController = (function()
             {
                 console.error('updateTooltip called on empty item list!');
                 return false;
+            }
+
+            let slot;
+            if(PickerController.getListType() === 'items')
+            {
+                slot = SlotManager.getCurrentSlot();
+            }
+            else
+            {
+                slot = SlotManager.getCurrentModSlot();
+            }
+            if(slot !== null)
+            {
+                let oldItem = slot.getItem();
+                if(oldItem !== null)
+                {
+                    let statChanges = StatController.getStatChanges(oldItem, item);
+                    if(Object.keys(statChanges).length > 0)
+                    {
+                        this.tsc.innerHTML = '<span class="stat-changes-header">Stat Changes:</span>';
+                        for(let statName in statChanges)
+                        {
+                            if(statChanges.hasOwnProperty(statName) && statChanges[statName] !== 0)
+                            {
+                                let statEl = document.createElement('span');
+                                if(statChanges[statName] > 0)
+                                {
+                                    statEl.className = 'stat-change stat-change-up';
+                                    statEl.innerHTML = '+' + statChanges[statName] + ' ' + StatController.getStatName(statName);
+                                }
+                                else
+                                {
+                                    statEl.className = 'stat-change stat-change-down';
+                                    statEl.innerHTML = statChanges[statName] + ' ' + StatController.getStatName(statName);
+                                }
+                                this.tsc.appendChild(statEl);
+                            }
+                        }
+                        this.tsc.style.display = '';
+                    }
+                }
             }
         }
         if(item === null || item.name === 'empty')

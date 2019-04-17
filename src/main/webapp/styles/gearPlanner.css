@@ -317,3 +317,22 @@ body.faction-mode-pub .faction-imp
 {
     padding-left:10px;
 }
+#tooltipStatComparison
+{
+    margin-top:10px;
+}
+#tooltipStatComparison .stat-changes-header,
+#tooltipStatComparison .stat-change
+{
+    display:block;
+}
+#tooltipStatComparison .stat-change-up
+{
+    color:#12e713;
+    padding-left:10px;
+}
+#tooltipStatComparison .stat-change-down
+{
+    color:#e71212;
+    padding-left:10px;
+}

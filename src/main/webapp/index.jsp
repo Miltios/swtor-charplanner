@@ -335,6 +335,7 @@
         <div id="tooltipItemRating"></div>
         <div id="tooltipItemStats"></div>
         <div id="tooltipItemDescription"></div>
+        <div id="tooltipStatComparison"></div>
     </div>
 </body>
 <script type="text/javascript">
