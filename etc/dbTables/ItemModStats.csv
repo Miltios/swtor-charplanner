@@ -19,14 +19,14 @@ Resistive Armoring 46,14,armoring,,,endurance,210,236,gold,210
 Resistive Armoring 46,14,armoring,,,mastery,200,236,gold,200
 Resistive Armoring 49,22,armoring,,,endurance,226,242,gold,226
 Resistive Armoring 49,22,armoring,,,mastery,215,242,gold,215
-Resistive Armoring 52,10,armoring,,,endurance,242,248,gold,242
-Resistive Armoring 52,10,armoring,,,mastery,231,248,gold,231
+Resistive Armoring 52,30,armoring,,,endurance,242,248,gold,242
+Resistive Armoring 52,30,armoring,,,mastery,231,248,gold,231
 Versatile Armoring 46,15,armoring,,,mastery,221,236,gold,221
 Versatile Armoring 46,15,armoring,,,endurance,189,236,gold,189
 Versatile Armoring 49,23,armoring,,,mastery,231,242,gold,231
 Versatile Armoring 49,23,armoring,,,endurance,198,242,gold,198
-Versatile Armoring 52,11,armoring,,,mastery,254,248,gold,254
-Versatile Armoring 52,11,armoring,,,endurance,218,248,gold,218
+Versatile Armoring 52,31,armoring,,,mastery,254,248,gold,254
+Versatile Armoring 52,31,armoring,,,endurance,218,248,gold,218
 Resistive Armoring 54,2,armoring,,,endurance,186,228,green,186
 Resistive Armoring 54,2,armoring,,,mastery,177,228,green,177
 Resistive Armoring 56,8,armoring,,,endurance,196,232,green,196
@@ -62,9 +62,6 @@ Advanced Versatile Armoring 54,29,armoring,,,endurance,208,246,purple,208
 Adept Enhancement 50,215,enhancement,,,endurance,113,230,blue,113
 Adept Enhancement 50,215,enhancement,,,power,126,230,blue,126
 Adept Enhancement 50,215,enhancement,,,crit,181,230,blue,181
-Adept Enhancement 52,112,enhancement,,,endurance,119,234,blue,119
-Adept Enhancement 52,112,enhancement,,,power,132,234,blue,132
-Adept Enhancement 52,112,enhancement,,,crit,190,234,blue,190
 Adept Enhancement 55,217,enhancement,,,endurance,129,240,blue,129
 Adept Enhancement 55,217,enhancement,,,power,143,240,blue,143
 Adept Enhancement 55,217,enhancement,,,crit,205,240,blue,205
@@ -74,9 +71,6 @@ Adept Enhancement 57,218,enhancement,,,crit,215,246,blue,220
 Barrage Enhancement 50,219,enhancement,,,endurance,181,230,blue,181
 Barrage Enhancement 50,219,enhancement,,,power,49,230,blue,49
 Barrage Enhancement 50,219,enhancement,,,alacrity,171,230,blue,171
-Barrage Enhancement 52,115,enhancement,,,endurance,190,234,blue,190
-Barrage Enhancement 52,115,enhancement,,,power,52,234,blue,52
-Barrage Enhancement 52,115,enhancement,,,alacrity,180,234,blue,180
 Barrage Enhancement 55,221,enhancement,,,endurance,205,240,blue,205
 Barrage Enhancement 55,221,enhancement,,,power,57,240,blue,57
 Barrage Enhancement 55,221,enhancement,,,alacrity,193,240,blue,193
@@ -86,9 +80,6 @@ Barrage Enhancement 57,222,enhancement,,,alacrity,203,246,blue,208
 Bastion Enhancement 50,223,enhancement,,,endurance,150,230,blue,150
 Bastion Enhancement 50,223,enhancement,,,shield,181,230,blue,181
 Bastion Enhancement 50,223,enhancement,,,defense,84,230,blue,84
-Bastion Enhancement 52,118,enhancement,,,endurance,157,234,blue,157
-Bastion Enhancement 52,118,enhancement,,,shield,190,234,blue,190
-Bastion Enhancement 52,118,enhancement,,,defense,89,234,blue,89
 Bastion Enhancement 55,225,enhancement,,,endurance,170,240,blue,170
 Bastion Enhancement 55,225,enhancement,,,shield,205,240,blue,205
 Bastion Enhancement 55,225,enhancement,,,defense,96,240,blue,96
@@ -98,9 +89,6 @@ Bastion Enhancement 57,226,enhancement,,,defense,102,246,blue,104
 Bulwark Enhancement 50,227,enhancement,,,endurance,150,230,blue,150
 Bulwark Enhancement 50,227,enhancement,,,absorption,181,230,blue,181
 Bulwark Enhancement 50,227,enhancement,,,defense,84,230,blue,84
-Bulwark Enhancement 52,121,enhancement,,,endurance,157,234,blue,157
-Bulwark Enhancement 52,121,enhancement,,,absorption,190,234,blue,190
-Bulwark Enhancement 52,121,enhancement,,,defense,89,234,blue,89
 Bulwark Enhancement 55,229,enhancement,,,endurance,170,240,blue,170
 Bulwark Enhancement 55,229,enhancement,,,absorption,205,240,blue,205
 Bulwark Enhancement 55,229,enhancement,,,defense,96,240,blue,96
@@ -110,9 +98,6 @@ Bulwark Enhancement 57,230,enhancement,,,defense,102,246,blue,104
 Discipline Enhancement 50,231,enhancement,,,endurance,181,230,blue,181
 Discipline Enhancement 50,231,enhancement,,,power,49,230,blue,49
 Discipline Enhancement 50,231,enhancement,,,crit,171,230,blue,171
-Discipline Enhancement 52,124,enhancement,,,endurance,190,234,blue,190
-Discipline Enhancement 52,124,enhancement,,,power,52,234,blue,52
-Discipline Enhancement 52,124,enhancement,,,crit,180,234,blue,180
 Discipline Enhancement 55,233,enhancement,,,endurance,205,240,blue,205
 Discipline Enhancement 55,233,enhancement,,,power,57,240,blue,57
 Discipline Enhancement 55,233,enhancement,,,crit,193,240,blue,193
@@ -122,9 +107,6 @@ Discipline Enhancement 57,234,enhancement,,,crit,203,246,blue,208
 Efficient Enhancement 50,235,enhancement,,,endurance,150,230,blue,150
 Efficient Enhancement 50,235,enhancement,,,power,84,230,blue,84
 Efficient Enhancement 50,235,enhancement,,,crit,181,230,blue,181
-Efficient Enhancement 52,127,enhancement,,,endurance,157,234,blue,157
-Efficient Enhancement 52,127,enhancement,,,power,89,234,blue,89
-Efficient Enhancement 52,127,enhancement,,,crit,190,234,blue,190
 Efficient Enhancement 55,237,enhancement,,,endurance,170,240,blue,170
 Efficient Enhancement 55,237,enhancement,,,power,96,240,blue,96
 Efficient Enhancement 55,237,enhancement,,,crit,205,240,blue,205
@@ -134,9 +116,6 @@ Efficient Enhancement 57,238,enhancement,,,crit,215,246,blue,220
 Immunity Enhancement 50,239,enhancement,,,endurance,113,230,blue,113
 Immunity Enhancement 50,239,enhancement,,,shield,181,230,blue,181
 Immunity Enhancement 50,239,enhancement,,,defense,126,230,blue,126
-Immunity Enhancement 52,130,enhancement,,,endurance,119,234,blue,119
-Immunity Enhancement 52,130,enhancement,,,shield,190,234,blue,190
-Immunity Enhancement 52,130,enhancement,,,defense,132,234,blue,132
 Immunity Enhancement 55,241,enhancement,,,endurance,129,240,blue,129
 Immunity Enhancement 55,241,enhancement,,,shield,205,240,blue,205
 Immunity Enhancement 55,241,enhancement,,,defense,143,240,blue,143
@@ -146,9 +125,6 @@ Immunity Enhancement 57,242,enhancement,,,defense,151,246,blue,154
 Initiative Enhancement 50,243,enhancement,,,endurance,113,230,blue,113
 Initiative Enhancement 50,243,enhancement,,,accuracy,181,230,blue,181
 Initiative Enhancement 50,243,enhancement,,,power,126,230,blue,126
-Initiative Enhancement 52,133,enhancement,,,endurance,119,234,blue,119
-Initiative Enhancement 52,133,enhancement,,,accuracy,190,234,blue,190
-Initiative Enhancement 52,133,enhancement,,,power,132,234,blue,132
 Initiative Enhancement 55,245,enhancement,,,endurance,129,240,blue,129
 Initiative Enhancement 55,245,enhancement,,,accuracy,205,240,blue,205
 Initiative Enhancement 55,245,enhancement,,,power,143,240,blue,143
@@ -158,9 +134,6 @@ Initiative Enhancement 57,246,enhancement,,,power,151,246,blue,154
 Proficient Enhancement 50,247,enhancement,,,endurance,150,230,blue,150
 Proficient Enhancement 50,247,enhancement,,,accuracy,181,230,blue,181
 Proficient Enhancement 50,247,enhancement,,,power,84,230,blue,84
-Proficient Enhancement 52,136,enhancement,,,endurance,157,234,blue,157
-Proficient Enhancement 52,136,enhancement,,,accuracy,190,234,blue,190
-Proficient Enhancement 52,136,enhancement,,,power,89,234,blue,89
 Proficient Enhancement 55,249,enhancement,,,endurance,170,240,blue,170
 Proficient Enhancement 55,249,enhancement,,,accuracy,205,240,blue,205
 Proficient Enhancement 55,249,enhancement,,,power,96,240,blue,96
@@ -170,9 +143,6 @@ Proficient Enhancement 57,250,enhancement,,,power,102,246,blue,104
 Quick Savant Enhancement 50,251,enhancement,,,endurance,113,230,blue,113
 Quick Savant Enhancement 50,251,enhancement,,,power,126,230,blue,126
 Quick Savant Enhancement 50,251,enhancement,,,alacrity,181,230,blue,181
-Quick Savant Enhancement 52,139,enhancement,,,endurance,119,234,blue,119
-Quick Savant Enhancement 52,139,enhancement,,,power,132,234,blue,132
-Quick Savant Enhancement 52,139,enhancement,,,alacrity,190,234,blue,190
 Quick Savant Enhancement 55,253,enhancement,,,endurance,129,240,blue,129
 Quick Savant Enhancement 55,253,enhancement,,,power,143,240,blue,143
 Quick Savant Enhancement 55,253,enhancement,,,alacrity,205,240,blue,205
@@ -182,9 +152,6 @@ Quick Savant Enhancement 57,254,enhancement,,,alacrity,215,246,blue,220
 Savant Enhancement 50,255,enhancement,,,endurance,150,230,blue,150
 Savant Enhancement 50,255,enhancement,,,power,84,230,blue,84
 Savant Enhancement 50,255,enhancement,,,alacrity,181,230,blue,181
-Savant Enhancement 52,142,enhancement,,,endurance,157,234,blue,157
-Savant Enhancement 52,142,enhancement,,,power,89,234,blue,89
-Savant Enhancement 52,142,enhancement,,,alacrity,190,234,blue,190
 Savant Enhancement 55,257,enhancement,,,endurance,170,240,blue,170
 Savant Enhancement 55,257,enhancement,,,power,96,240,blue,96
 Savant Enhancement 55,257,enhancement,,,alacrity,205,240,blue,205
@@ -194,9 +161,6 @@ Savant Enhancement 57,258,enhancement,,,alacrity,215,246,blue,220
 Steadfast Enhancement 50,259,enhancement,,,endurance,181,230,blue,181
 Steadfast Enhancement 50,259,enhancement,,,shield,171,230,blue,171
 Steadfast Enhancement 50,259,enhancement,,,defense,49,230,blue,49
-Steadfast Enhancement 52,145,enhancement,,,endurance,190,234,blue,190
-Steadfast Enhancement 52,145,enhancement,,,shield,180,234,blue,180
-Steadfast Enhancement 52,145,enhancement,,,defense,52,234,blue,52
 Steadfast Enhancement 55,261,enhancement,,,endurance,205,240,blue,205
 Steadfast Enhancement 55,261,enhancement,,,shield,193,240,blue,193
 Steadfast Enhancement 55,261,enhancement,,,defense,57,240,blue,57
@@ -206,9 +170,6 @@ Steadfast Enhancement 57,262,enhancement,,,defense,60,246,blue,62
 Studious Enhancement 50,263,enhancement,,,endurance,181,230,blue,181
 Studious Enhancement 50,263,enhancement,,,accuracy,171,230,blue,171
 Studious Enhancement 50,263,enhancement,,,power,49,230,blue,49
-Studious Enhancement 52,148,enhancement,,,endurance,190,234,blue,190
-Studious Enhancement 52,148,enhancement,,,accuracy,180,234,blue,180
-Studious Enhancement 52,148,enhancement,,,power,52,234,blue,52
 Studious Enhancement 55,265,enhancement,,,endurance,205,240,blue,205
 Studious Enhancement 55,265,enhancement,,,accuracy,193,240,blue,193
 Studious Enhancement 55,265,enhancement,,,power,57,240,blue,57
@@ -218,9 +179,6 @@ Studious Enhancement 57,266,enhancement,,,power,60,246,blue,62
 Sturdiness Enhancement 50,267,enhancement,,,endurance,113,230,blue,113
 Sturdiness Enhancement 50,267,enhancement,,,absorption,181,230,blue,181
 Sturdiness Enhancement 50,267,enhancement,,,defense,126,230,blue,126
-Sturdiness Enhancement 52,151,enhancement,,,endurance,119,234,blue,119
-Sturdiness Enhancement 52,151,enhancement,,,absorption,190,234,blue,190
-Sturdiness Enhancement 52,151,enhancement,,,defense,132,234,blue,132
 Sturdiness Enhancement 55,269,enhancement,,,endurance,129,240,blue,129
 Sturdiness Enhancement 55,269,enhancement,,,absorption,205,240,blue,205
 Sturdiness Enhancement 55,269,enhancement,,,defense,143,240,blue,143
@@ -230,9 +188,6 @@ Sturdiness Enhancement 57,270,enhancement,,,defense,151,246,blue,154
 Vigilant Enhancement 50,271,enhancement,,,endurance,181,230,blue,181
 Vigilant Enhancement 50,271,enhancement,,,absorption,171,230,blue,171
 Vigilant Enhancement 50,271,enhancement,,,defense,49,230,blue,49
-Vigilant Enhancement 52,154,enhancement,,,endurance,190,234,blue,190
-Vigilant Enhancement 52,154,enhancement,,,absorption,180,234,blue,180
-Vigilant Enhancement 52,154,enhancement,,,defense,52,234,blue,52
 Vigilant Enhancement 55,273,enhancement,,,endurance,205,240,blue,205
 Vigilant Enhancement 55,273,enhancement,,,absorption,193,240,blue,193
 Vigilant Enhancement 55,273,enhancement,,,defense,57,240,blue,57
@@ -1114,8 +1069,6 @@ Proficient Enhancement 52,248,enhancement,,,power,89,234,blue,
 Quick Savant Enhancement 52,252,enhancement,,,endurance,119,234,blue,
 Quick Savant Enhancement 52,252,enhancement,,,power,132,234,blue,
 Quick Savant Enhancement 52,252,enhancement,,,alacrity,190,234,blue,
-Resistive Armoring 52,30,armoring,,,endurance,242,248,gold,
-Resistive Armoring 52,30,armoring,,,mastery,231,248,gold,
 Resistive Barrel 57,337,barrel,,,endurance,226,244,blue,
 Resistive Barrel 57,337,barrel,,,mastery,215,244,blue,
 Resistive Hilt 57,367,hilt,,,endurance,226,244,blue,
@@ -1132,8 +1085,6 @@ Studious Enhancement 52,264,enhancement,,,power,52,234,blue,
 Sturdiness Enhancement 52,268,enhancement,,,endurance,119,234,blue,
 Sturdiness Enhancement 52,268,enhancement,,,absorption,190,234,blue,
 Sturdiness Enhancement 52,268,enhancement,,,defense,132,234,blue,
-Versatile Armoring 52,31,armoring,,,endurance,218,248,gold,
-Versatile Armoring 52,31,armoring,,,mastery,254,248,gold,
 Versatile Barrel 57,341,barrel,,,endurance,203,244,blue,
 Versatile Barrel 57,341,barrel,,,mastery,237,244,blue,
 Versatile Hilt 57,371,hilt,,,endurance,203,244,blue,
@@ -1141,3 +1092,7 @@ Versatile Hilt 57,371,hilt,,,mastery,237,244,blue,
 Vigilant Enhancement 52,272,enhancement,,,endurance,190,234,blue,
 Vigilant Enhancement 52,272,enhancement,,,absorption,180,234,blue,
 Vigilant Enhancement 52,272,enhancement,,,defense,52,234,blue,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
