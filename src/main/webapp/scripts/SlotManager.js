@@ -69,6 +69,10 @@ let SlotManager = (function()
         }
         return this.getModSlot(name); //if we don't find a char slot by that name, look for a mod slot instead.
     };
+    SlotManager.prototype.getAllCharSlots = function()
+    {
+        return this.charSlots;
+    };
     SlotManager.prototype.getSlotFromLinkEl = function(el)
     {
         if(!el || !el.classList.contains('character-slot-link'))

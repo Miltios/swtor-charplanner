@@ -1,0 +1,11 @@
+/*Reset table styles across browsers*/
+table
+{
+    margin:0;
+    padding:0;
+    background:none;
+    border:none;
+    border-collapse:collapse;
+    border-spacing:0;
+    background-image:none;
+}

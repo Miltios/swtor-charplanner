@@ -30,7 +30,54 @@
                         </a>
                     </div>
                 </td>
-                <td colspan="2"></td>
+                <td colspan="2">
+                    <div id="charStatsWrapper">
+                        <div id="charStatsDiv">
+                            <table id="charStatsBody">
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Mastery</td>
+                                    <td class="char-stat-value" id="charStatMastery"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Endurance</td>
+                                    <td class="char-stat-value" id="charStatEndurance"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Power</td>
+                                    <td class="char-stat-value" id="charStatPower"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Critical</td>
+                                    <td class="char-stat-value" id="charStatCrit"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Alacrity</td>
+                                    <td class="char-stat-value" id="charStatAlacrity"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Accuracy</td>
+                                    <td class="char-stat-value" id="charStatAccuracy"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Defense</td>
+                                    <td class="char-stat-value" id="charStatDefense"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Absorb</td>
+                                    <td class="char-stat-value" id="charStatAbsorption"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Shield</td>
+                                    <td class="char-stat-value" id="charStatShield"></td>
+                                </tr>
+                                <tr class="char-stat-row">
+                                    <td class="char-stat-name">Presence</td>
+                                    <td class="char-stat-value" id="charStatPresence"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </td>
                 <td>
                     <div id="slotHead" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">

@@ -144,6 +144,7 @@ let DomController = (function()
                 PickerController.updateLists();
                 break;
         }
+        StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here
     };
     DomController.prototype.initSelections = function()
     {
@@ -203,7 +204,7 @@ let DomController = (function()
         {
             DomManager.getItemList('empty').style.display = '';
         }
-    }
+    };
 
     return new DomController();
 })();

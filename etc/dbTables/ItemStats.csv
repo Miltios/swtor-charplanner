@@ -481,7 +481,7 @@ GEMINI MK-2 Relic of the Primeval Fatesealer,1182,relic,[sec],relic[sec]244,powe
 GEMINI MK-2 Relic of the Shrouded Crusader,1183,relic,[pri],relic[pri]244,endurance,257,244
 GEMINI MK-2 Relic of the Shrouded Crusader,1183,relic,[sec],relic[sec]244,power,102,244
 GEMINI MK-3 Adept Device,1234,ear,[pri],ear[pri]246,endurance,504,246
-GEMINI MK-3 Adept Device,1234,ear,[sec],ear[sec]246,power,463,246
+GEMINI MK-3 Adept Device,1234,ear,[sec],ear[sec]246,mastery,463,246
 GEMINI MK-3 Adept Device,1234,ear,[tert],ear[tert]246,power,253,246
 GEMINI MK-3 Adept Device,1234,ear,[quat],ear[quat]246,crit,215,246
 GEMINI MK-3 Adept Package,1235,implant,[pri],implant[pri]246,endurance,504,246
@@ -535,27 +535,27 @@ GEMINI MK-3 Relic of Focused Retribution,1313,relic,[tert],relic[tert]246,crit,6
 GEMINI MK-3 Relic of Imperiling Serenity,1314,relic,[pri],relic[pri]246,mastery,242,246
 GEMINI MK-3 Relic of Imperiling Serenity,1314,relic,[sec],relic[sec]246,defense,104,246
 GEMINI MK-3 Relic of Imperiling Serenity,1314,relic,[tert],relic[tert]246,shield,62,246
-GEMINI MK-3 Relic of Reactive Warding,1315,relic,[pri],relic[pri]246,endurance,242,246
-GEMINI MK-3 Relic of Reactive Warding,1315,relic,[sec],relic[sec]246,power,104,246
-GEMINI MK-3 Relic of Reactive Warding,1315,relic,[tert],relic[tert]246,crit,62,246
-GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[pri],relic[pri]246,mastery,242,246
-GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[sec],relic[sec]246,defense,104,246
-GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[tert],relic[tert]246,shield,62,246
+GEMINI MK-3 Relic of Reactive Warding,1315,relic,[pri],relic[pri]246,mastery,242,246
+GEMINI MK-3 Relic of Reactive Warding,1315,relic,[sec],relic[sec]246,defense,104,246
+GEMINI MK-3 Relic of Reactive Warding,1315,relic,[tert],relic[tert]246,shield,62,246
+GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of Serendipitous Assault,1316,relic,[tert],relic[tert]246,crit,62,246
 GEMINI MK-3 Relic of Shield Amplification,1317,relic,[pri],relic[pri]246,mastery,242,246
 GEMINI MK-3 Relic of Shield Amplification,1317,relic,[sec],relic[sec]246,defense,104,246
 GEMINI MK-3 Relic of Shield Amplification,1317,relic,[tert],relic[tert]246,shield,62,246
-GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[pri],relic[pri]246,endurance,242,246
-GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[sec],relic[sec]246,power,104,246
-GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[tert],relic[tert]246,crit,62,246
-GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[pri],relic[pri]246,mastery,242,246
-GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[sec],relic[sec]246,defense,104,246
-GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[tert],relic[tert]246,shield,62,246
+GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[pri],relic[pri]246,mastery,242,246
+GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[sec],relic[sec]246,defense,104,246
+GEMINI MK-3 Relic of the Fortunate Redoubt,1318,relic,[tert],relic[tert]246,shield,62,246
+GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[pri],relic[pri]246,endurance,242,246
+GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[sec],relic[sec]246,power,104,246
+GEMINI MK-3 Relic of the Primeval Fatesealer,1319,relic,[tert],relic[tert]246,crit,62,246
 GEMINI MK-3 Relic of the Shrouded Crusader,1320,relic,[pri],relic[pri]246,endurance,242,246
 GEMINI MK-3 Relic of the Shrouded Crusader,1320,relic,[sec],relic[sec]246,power,104,246
 GEMINI MK-3 Relic of the Shrouded Crusader,1320,relic,[tert],relic[tert]246,crit,62,246
 GEMINI MK-5 Adept Device,1371,ear,[pri],ear[pri]248,endurance,526,248
-GEMINI MK-5 Adept Device,1371,ear,[sec],ear[sec]248,power,459,248
-GEMINI MK-5 Adept Device,1371,ear,[tert],ear[tert]248,crit,339,248
+GEMINI MK-5 Adept Device,1371,ear,[sec],ear[sec]248,mastery,459,248
+GEMINI MK-5 Adept Device,1371,ear,[tert],ear[tert]248,power,339,248
 GEMINI MK-5 Adept Device,1371,ear,[quat],ear[quat]248,crit,231,248
 GEMINI MK-5 Adept Package,1372,implant,[pri],implant[pri]248,endurance,526,248
 GEMINI MK-5 Adept Package,1372,implant,[sec],implant[sec]248,mastery,459,248
@@ -608,27 +608,27 @@ GEMINI MK-5 Relic of Focused Retribution,1450,relic,[tert],relic[tert]248,crit,6
 GEMINI MK-5 Relic of Imperiling Serenity,1451,relic,[pri],relic[pri]248,mastery,254,248
 GEMINI MK-5 Relic of Imperiling Serenity,1451,relic,[sec],relic[sec]248,defense,110,248
 GEMINI MK-5 Relic of Imperiling Serenity,1451,relic,[tert],relic[tert]248,shield,66,248
-GEMINI MK-5 Relic of Reactive Warding,1452,relic,[pri],relic[pri]248,endurance,254,248
-GEMINI MK-5 Relic of Reactive Warding,1452,relic,[sec],relic[sec]248,power,110,248
-GEMINI MK-5 Relic of Reactive Warding,1452,relic,[tert],relic[tert]248,crit,66,248
-GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[pri],relic[pri]248,mastery,254,248
-GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[sec],relic[sec]248,defense,110,248
-GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[tert],relic[tert]248,shield,66,248
+GEMINI MK-5 Relic of Reactive Warding,1452,relic,[pri],relic[pri]248,mastery,254,248
+GEMINI MK-5 Relic of Reactive Warding,1452,relic,[sec],relic[sec]248,defense,110,248
+GEMINI MK-5 Relic of Reactive Warding,1452,relic,[tert],relic[tert]248,shield,66,248
+GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of Serendipitous Assault,1453,relic,[tert],relic[tert]248,crit,66,248
 GEMINI MK-5 Relic of Shield Amplification,1454,relic,[pri],relic[pri]248,mastery,254,248
 GEMINI MK-5 Relic of Shield Amplification,1454,relic,[sec],relic[sec]248,defense,110,248
 GEMINI MK-5 Relic of Shield Amplification,1454,relic,[tert],relic[tert]248,shield,66,248
-GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[pri],relic[pri]248,endurance,254,248
-GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[sec],relic[sec]248,power,110,248
-GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[tert],relic[tert]248,crit,66,248
-GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[pri],relic[pri]248,mastery,254,248
-GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[sec],relic[sec]248,defense,110,248
-GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[tert],relic[tert]248,shield,66,248
+GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[pri],relic[pri]248,mastery,254,248
+GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[sec],relic[sec]248,defense,110,248
+GEMINI MK-5 Relic of the Fortunate Redoubt,1455,relic,[tert],relic[tert]248,shield,66,248
+GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[pri],relic[pri]248,endurance,254,248
+GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[sec],relic[sec]248,power,110,248
+GEMINI MK-5 Relic of the Primeval Fatesealer,1456,relic,[tert],relic[tert]248,crit,66,248
 GEMINI MK-5 Relic of the Shrouded Crusader,1457,relic,[pri],relic[pri]248,endurance,254,248
 GEMINI MK-5 Relic of the Shrouded Crusader,1457,relic,[sec],relic[sec]248,power,110,248
 GEMINI MK-5 Relic of the Shrouded Crusader,1457,relic,[tert],relic[tert]248,crit,66,248
 Iokath MK-1 Adept Device,1508,ear,[pri],ear[pri]238,endurance,467,238
-Iokath MK-1 Adept Device,1508,ear,[sec],ear[sec]238,power,431,238
-Iokath MK-1 Adept Device,1508,ear,[tert],ear[tert]238,crit,234,238
+Iokath MK-1 Adept Device,1508,ear,[sec],ear[sec]238,mastery,431,238
+Iokath MK-1 Adept Device,1508,ear,[tert],ear[tert]238,power,234,238
 Iokath MK-1 Adept Device,1508,ear,[quat],ear[quat]238,crit,200,238
 Iokath MK-1 Adept Package,1509,implant,[pri],implant[pri]238,endurance,467,238
 Iokath MK-1 Adept Package,1509,implant,[sec],implant[sec]238,mastery,431,238
@@ -761,27 +761,27 @@ Iokath MK-3 Relic of Focused Retribution,1861,relic,[tert],relic[tert]240,crit,5
 Iokath MK-3 Relic of Imperiling Serenity,1862,relic,[pri],relic[pri]240,mastery,226,240
 Iokath MK-3 Relic of Imperiling Serenity,1862,relic,[sec],relic[sec]240,defense,96,240
 Iokath MK-3 Relic of Imperiling Serenity,1862,relic,[tert],relic[tert]240,shield,57,240
-Iokath MK-3 Relic of Reactive Warding,1863,relic,[pri],relic[pri]240,endurance,226,240
-Iokath MK-3 Relic of Reactive Warding,1863,relic,[sec],relic[sec]240,power,96,240
-Iokath MK-3 Relic of Reactive Warding,1863,relic,[tert],relic[tert]240,crit,57,240
-Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[pri],relic[pri]240,mastery,226,240
-Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[sec],relic[sec]240,defense,96,240
-Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[tert],relic[tert]240,shield,57,240
+Iokath MK-3 Relic of Reactive Warding,1863,relic,[pri],relic[pri]240,mastery,226,240
+Iokath MK-3 Relic of Reactive Warding,1863,relic,[sec],relic[sec]240,defense,96,240
+Iokath MK-3 Relic of Reactive Warding,1863,relic,[tert],relic[tert]240,shield,57,240
+Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of Serendipitous Assault,1864,relic,[tert],relic[tert]240,crit,57,240
 Iokath MK-3 Relic of Shield Amplification,1865,relic,[pri],relic[pri]240,mastery,226,240
 Iokath MK-3 Relic of Shield Amplification,1865,relic,[sec],relic[sec]240,defense,96,240
 Iokath MK-3 Relic of Shield Amplification,1865,relic,[tert],relic[tert]240,shield,57,240
-Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[pri],relic[pri]240,endurance,226,240
-Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[sec],relic[sec]240,power,96,240
-Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[tert],relic[tert]240,crit,57,240
-Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[pri],relic[pri]240,mastery,226,240
-Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[sec],relic[sec]240,defense,96,240
-Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[tert],relic[tert]240,shield,57,240
+Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[pri],relic[pri]240,mastery,226,240
+Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[sec],relic[sec]240,defense,96,240
+Iokath MK-3 Relic of the Fortunate Redoubt,1866,relic,[tert],relic[tert]240,shield,57,240
+Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[pri],relic[pri]240,endurance,226,240
+Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[sec],relic[sec]240,power,96,240
+Iokath MK-3 Relic of the Primeval Fatesealer,1867,relic,[tert],relic[tert]240,crit,57,240
 Iokath MK-3 Relic of the Shrouded Crusader,1868,relic,[pri],relic[pri]240,endurance,226,240
 Iokath MK-3 Relic of the Shrouded Crusader,1868,relic,[sec],relic[sec]240,power,96,240
 Iokath MK-3 Relic of the Shrouded Crusader,1868,relic,[tert],relic[tert]240,crit,57,240
 Iokath MK-5 Adept Device,1919,ear,[pri],ear[pri]242,endurance,454,242
-Iokath MK-5 Adept Device,1919,ear,[sec],ear[sec]242,power,398,242
-Iokath MK-5 Adept Device,1919,ear,[tert],ear[tert]242,crit,293,242
+Iokath MK-5 Adept Device,1919,ear,[sec],ear[sec]242,mastery,398,242
+Iokath MK-5 Adept Device,1919,ear,[tert],ear[tert]242,power,293,242
 Iokath MK-5 Adept Device,1919,ear,[quat],ear[quat]242,crit,200,242
 Iokath MK-5 Adept Package,1920,implant,[pri],implant[pri]242,endurance,454,242
 Iokath MK-5 Adept Package,1920,implant,[sec],implant[sec]242,mastery,398,242
@@ -834,21 +834,21 @@ Iokath MK-5 Relic of Focused Retribution,1998,relic,[tert],relic[tert]242,crit,6
 Iokath MK-5 Relic of Imperiling Serenity,1999,relic,[pri],relic[pri]242,mastery,237,242
 Iokath MK-5 Relic of Imperiling Serenity,1999,relic,[sec],relic[sec]242,defense,102,242
 Iokath MK-5 Relic of Imperiling Serenity,1999,relic,[tert],relic[tert]242,shield,60,242
-Iokath MK-5 Relic of Reactive Warding,2000,relic,[pri],relic[pri]242,endurance,237,242
-Iokath MK-5 Relic of Reactive Warding,2000,relic,[sec],relic[sec]242,power,102,242
-Iokath MK-5 Relic of Reactive Warding,2000,relic,[tert],relic[tert]242,crit,60,242
-Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[pri],relic[pri]242,mastery,237,242
-Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[sec],relic[sec]242,defense,102,242
-Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[tert],relic[tert]242,shield,60,242
+Iokath MK-5 Relic of Reactive Warding,2000,relic,[pri],relic[pri]242,mastery,237,242
+Iokath MK-5 Relic of Reactive Warding,2000,relic,[sec],relic[sec]242,defense,102,242
+Iokath MK-5 Relic of Reactive Warding,2000,relic,[tert],relic[tert]242,shield,60,242
+Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of Serendipitous Assault,2001,relic,[tert],relic[tert]242,crit,60,242
 Iokath MK-5 Relic of Shield Amplification,2002,relic,[pri],relic[pri]242,mastery,237,242
 Iokath MK-5 Relic of Shield Amplification,2002,relic,[sec],relic[sec]242,defense,102,242
 Iokath MK-5 Relic of Shield Amplification,2002,relic,[tert],relic[tert]242,shield,60,242
-Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[pri],relic[pri]242,endurance,237,242
-Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[sec],relic[sec]242,power,102,242
-Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[tert],relic[tert]242,crit,60,242
-Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[pri],relic[pri]242,mastery,237,242
-Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[sec],relic[sec]242,defense,102,242
-Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[tert],relic[tert]242,shield,60,242
+Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[pri],relic[pri]242,mastery,237,242
+Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[sec],relic[sec]242,defense,102,242
+Iokath MK-5 Relic of the Fortunate Redoubt,2003,relic,[tert],relic[tert]242,shield,60,242
+Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[pri],relic[pri]242,endurance,237,242
+Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[sec],relic[sec]242,power,102,242
+Iokath MK-5 Relic of the Primeval Fatesealer,2004,relic,[tert],relic[tert]242,crit,60,242
 Iokath MK-5 Relic of the Shrouded Crusader,2005,relic,[pri],relic[pri]242,endurance,237,242
 Iokath MK-5 Relic of the Shrouded Crusader,2005,relic,[sec],relic[sec]242,power,102,242
 Iokath MK-5 Relic of the Shrouded Crusader,2005,relic,[tert],relic[tert]242,crit,60,242
