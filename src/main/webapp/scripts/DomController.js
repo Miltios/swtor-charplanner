@@ -128,6 +128,14 @@ let DomController = (function()
                         //+2% shield chance, +2% dmg reduction (+2% additional dmg reduction), +4% melee/ranged def, +4% absorb
                     //pyrotech pt gets +5% internal/elemental dmg reduction
                     //AP pt gets +3% melee/ranged def +2% ranged/tech crit chance
+
+                    //percentage bonuses are additive with calculated primary stat values
+                    //e.g. X amount of raw alacrity gives a 4% speed bonus, and arsenal gets +3% alacrity, so an arsenal merc with X alacrity gets +7% speed
+
+                    //raw primary stats are calculated with "base" (from leveling/datacrons) and "bonus" (from gear/companion buffs?)
+                    //e.g. a level 1 can increase their base mastery by becoming level 2/getting a datacron,
+                    //or increase their bonus mastery by putting on gear (or finishing companion story, in the case of presence).
+                    //both will increase the absolute mastery stat arithmetically, which later gets used to calculate damage/crit/etc.
                 break;
             }
             case 'specSelect':
