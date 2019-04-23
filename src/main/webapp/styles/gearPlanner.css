@@ -25,6 +25,40 @@ body.faction-mode-pub .faction-imp
 {
     display:none;
 }
+#factionToggleWrapper
+{
+    width:100%;
+    text-align:center;
+}
+#factionToggle
+{
+    width:100%;
+}
+.faction-select-button
+{
+    height:70px;;
+    padding:5px;
+    opacity:0.4;
+    text-align:center;
+    cursor:pointer;
+}
+.faction-select-button img
+{
+    height:50px;
+}
+.faction-select-button-pub
+{
+    background-color:#4b4bcf;
+}
+.faction-select-button-imp
+{
+    background-color:#cc2525;
+}
+.faction-select-button-checked
+{
+    opacity:1;
+    box-shadow:0 0 30px black inset;
+}
 #charBodyDiv
 {
     display:inline-block; /*TODO:HACK: quick fix for centering until we decide on a page layout*/
@@ -33,11 +67,9 @@ body.faction-mode-pub .faction-imp
 {
     /*width:500px;*/
     /*height:1000px;*/
-    /*TODO: get rid of the standard BS for tables*/
 }
 #charBodyTable td
 {
-    vertical-align:top;
     padding:2px;
 }
 .character-slot
@@ -351,24 +383,27 @@ body.faction-mode-pub .faction-imp
 #charStatsDiv
 {
     width:100%;
-    height:350px;
-    margin:30px 0;
+    /*height:350px;*/
+    margin:25px 0;
     box-sizing:border-box;
-    padding:5px;
+    /*padding:5px;*/
     border-radius:5px;
     border:2px solid #96D6F199;
     background-image:linear-gradient(90deg, #0e3744b3, #00050D, #0e3744e6);
+    overflow:hidden;
 }
 #charStatsBody
 {
     width:100%;
     height:100%;
+    margin:5px;
     font-weight:bold;
     font-size:1.2em;
 }
 #charStatsBody td
 {
     vertical-align:bottom;
+    padding:5px 10px;
 }
 .char-stat-name,
 .char-stat-value

@@ -31,13 +31,14 @@ let DomController = (function()
             }
             case 'factionToggle':
             {
-                let faction = el.value;
+                Settings.updateFactionButtons(el);
+                let faction = el.getAttribute('value');
                 DomManager.setFaction(faction);
                 Settings.updateFactionSelections();
                 let currSlot = SlotManager.getCurrentSlot();
 
                 //some republic classes have a different offhand from their imperial counterparts.  All other slots are the same.
-                if(currSlot.getName() === 'offhand')
+                if(currSlot && currSlot.getName() === 'offhand')
                 {
                     PickerController.updateLists();
                     PickerController.populateCurrentItemForSlot(currSlot);
@@ -161,6 +162,7 @@ let DomController = (function()
         Settings.updateFactionSelections();
         SlotManager.getSlot('mainhand').updateAppearance();
         SlotManager.getSlot('offhand').updateAppearance();
+        StatController.updateCharStats();
     }
     DomController.prototype.spawnItemPicker = function(slot)
     {

@@ -53,7 +53,7 @@ let Settings = (function()
     };
     Settings.prototype.getFaction = function()
     {
-        return this.ft.querySelector('input:checked').value;
+        return this.ft.querySelector('.faction-select-button-checked').getAttribute('value');
     };
     Settings.prototype.getSpecFilter = function()
     {
@@ -326,6 +326,15 @@ let Settings = (function()
         this.updateFactionDropdown(this.cd, faction, oldFaction);
         this.updateFactionDropdown(this.sd, faction, oldFaction);
     };
+    Settings.prototype.updateFactionButtons = function(el)
+    {
+        let buttons = this.ft.getElementsByClassName('faction-select-button');
+        for(let i=0; i<buttons.length; i++)
+        {
+            buttons[i].classList.remove('faction-select-button-checked');
+        }
+        el.classList.add('faction-select-button-checked');
+    }
     Settings.prototype.updateFactionDropdown = function(dropdown, faction, oldFaction)
     {
         if(!dropdown)
