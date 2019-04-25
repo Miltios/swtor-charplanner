@@ -127,15 +127,74 @@ let StatController = (function()
     };
     StatController.prototype.getBaseStats = function()
     {
-        //TODO:get stats for class/spec with no stim/buffs/datacrons/etc
-        return {};
+        //stats with no stim/buffs/datacrons/etc.  Base stats do not vary by class/spec, and we assume everyone is lvl 70.
+        return {
+            'mastery':850,
+            'endurance':765,
+            'power':0,
+            'crit':0,
+            'alacrity':0,
+            'accuracy':0,
+            'defense':0,
+            'absorption':0,
+            'shield':0,
+            'presence':765
+        };
     };
     StatController.prototype.getGearlessStats = function()
     {
         //TODO:get stats for character with no gear but everything else
+        //TODO:make this actually dependent on the settings that are checked
         //note that augments are NOT considered "gear" for this purpose
-        let miscStats = {};
-        return this.addStats(miscStats, this.getBaseStats());
+        let stats = {
+            'mastery':-17, //TODO:HACK: need this number to get 1050 mastery, but we don't know where it comes from
+            'endurance':14, //TODO:HACK:need this number to get 828 endurance, but we don't know where it comes from
+            'presence':100 //freebie from the Human legacy buff.  We just assume everyone has it.
+        };
+        /*let datacronStats = {
+            'mastery':200, //TODO:unconfirmed
+            'endurance':63, //TODO:49 or 59 endurance from datacrons, what about the rest?
+            'presence':443 //honestly I have no idea where all this presence comes from but nobody cares
+        };*/
+        let datacronStats = {
+            'mastery':0,
+            'endurance':0,
+            'presence':0
+        };
+        let datacrons = Settings.getDatacrons();
+        for(let i=0; i<datacrons.length; i++)
+        {
+            switch(datacrons[i])
+            {
+                case 'Ossus':
+                    datacronStats.mastery += 6;
+                    datacronStats.endurance += 2;
+                    datacronStats.presence += 5;
+                    break;
+                case 'Rishi':
+                    datacronStats.mastery += 40;
+                    break;
+                case 'Makeb':
+                    datacronStats.endurance += 10;
+                    datacronStats.presence += 10;
+                    break;
+                case 'Fleet':
+                    datacronStats.mastery += 10; //TODO:is this how fleet datacron works?
+                    break;
+                case 'Base':
+                    datacronStats.mastery += 161; //TODO:this seems high
+                    datacronStats.endurance += 37;
+                    datacronStats.presence += 41;
+                    break;
+            }
+        }
+        stats = this.addStats(stats, datacronStats);
+        let companionBuffs = Settings.getCompanionBuffs();
+        let companionStats = {
+            'presence':(companionBuffs.length*10)
+        };
+        stats =  this.addStats(stats, companionStats);
+        return this.addStats(stats, this.getBaseStats());
     };
     StatController.prototype.getCharStats = function()
     {

@@ -48,6 +48,11 @@ let Settings = (function()
             }
         }
 
+        //make sure parent checkboxes are in line with their children
+        this.updateDatacrons(null);
+        this.updateClassBuffs(null);
+        this.updateCompanionBuffs(null);
+
         this.updateFactionSelections();
         log('Settings initialized.');
     };
@@ -70,7 +75,17 @@ let Settings = (function()
     Settings.prototype.getDatacrons = function()
     {
         //rishi, makeb, ossus, fleet, base game
-        return null;
+        let datacrons = [];
+        for(let i=0; i<this.dcSub.length; i++)
+        {
+            if(this.dcSub[i].checked)
+            {
+                let id = this.dcSub[i].id;
+                id = id.substring(17);
+                datacrons.push(id);
+            }
+        }
+        return datacrons;
     };
     Settings.prototype.getClassBuffs = function()
     {
@@ -81,7 +96,17 @@ let Settings = (function()
         * 5% crit chance
         * 5% endurance
         */
-        return null;
+        let buffs = [];
+        for(let i=0; i<this.clbSub.length; i++)
+        {
+            if(this.clbSub[i].checked)
+            {
+                let id = this.clbSub[i].id;
+                id = id.substring(18);
+                buffs.push(id);
+            }
+        }
+        return buffs;
     };
     Settings.prototype.getCompanionBuffs = function()
     {
@@ -93,7 +118,17 @@ let Settings = (function()
         * 1% Critical Chance (Ranged DPS; e.g. Aric Jorgan)
         * 1% Accuracy (Melee Tank; e.g. SCORPIO)
         */
-        return null;
+        let buffs = [];
+        for(let i=0; i<this.cobSub.length; i++)
+        {
+            if(this.cobSub[i].checked)
+            {
+                let id = this.cobSub[i].id;
+                id = id.substring(22);
+                buffs.push(id);
+            }
+        }
+        return buffs;
     };
     Settings.prototype.getItemColors = function()
     {
@@ -310,6 +345,7 @@ let Settings = (function()
                 parent.indeterminate = true;
             }
         }
+        StatController.updateCharStats(); //HACK:probably shouldn't be triggering this here, but it's reliable
     };
     Settings.prototype.updateFactionSelections = function()
     {
