@@ -185,7 +185,20 @@ let SlotManager = (function()
             }
         }
         return 'empty_' + slotName + '.png';
-    }
+    };
+    SlotManager.prototype.getEquippedItems = function()
+    {
+        let items = [];
+        for(let slotName in this.charSlots)
+        {
+            let item = this.charSlots[slotName].getItem();
+            if(item !== null)
+            {
+                items.push(item);
+            }
+        }
+        return items;
+    };
     return new SlotManager();
 })();
 declareReady('SlotManager.js', function(){SlotManager.init();});

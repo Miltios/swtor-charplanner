@@ -192,6 +192,81 @@
             </tr>
         </table>
     </div>
+    <br/>
+    <div id="calcStatsDiv">
+        <table id="calcStatsTable">
+            <tr>
+                <td id="calcStatsOffense">
+                    <table class="calc-stats-table-inner">
+                        <tr>
+                            <td>Mainhand Damage:</td>
+                            <td id="calcStatDmgPri"></td>
+                        </tr>
+                        <tr>
+                            <td>Offhand Damage:</td>
+                            <td id="calcStatDmgSec"></td>
+                        </tr>
+                        <tr>
+                            <td>Bonus Damage (Melee/Ranged):</td>
+                            <td id="calcStatDmgBonusMR"></td>
+                        </tr>
+                        <tr>
+                            <td>Accuracy:</td>
+                            <td id="calcStatAccuracy"></td>
+                        </tr>
+                        <tr>
+                            <td>Critical Chance:</td>
+                            <td id="calcStatCritChance"></td>
+                        </tr>
+                        <tr>
+                            <td>Critical Multiplier:</td>
+                            <td id="calcStatCritMult"></td>
+                        </tr>
+                        <tr>
+                            <td>Bonus Damage (Force/Tech):</td>
+                            <td id="calcStatDmgBonusFT"></td>
+                        </tr>
+                        <tr>
+                            <td>Bonus Healing:</td>
+                            <td id="calcStatHealing"></td>
+                        </tr>
+                        <tr>
+                            <td>Alacrity:</td>
+                            <td id="calcStatAlacrity"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td id="calcStatsDefense">
+                    <table class="calc-stats-table-inner">
+                        <tr>
+                            <td>Health:</td>
+                            <td id="calcStatHealth"></td>
+                        </tr>
+                        <tr>
+                            <td>Armor Rating:</td>
+                            <td id="calcStatArmor"></td>
+                        </tr>
+                        <tr>
+                            <td>Damage Reduction:</td>
+                            <td id="calcStatDmgReduction"></td>
+                        </tr>
+                        <tr>
+                            <td>Defense Chance:</td>
+                            <td id="calcStatDefense"></td>
+                        </tr>
+                        <tr>
+                            <td>Shield Chance:</td>
+                            <td id="calcStatShield"></td>
+                        </tr>
+                        <tr>
+                            <td>Shield Absorption:</td>
+                            <td id="calcStatAbsorb"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="content-left">
         <div id="charSettings">
             <label "label-inline" for="classDropdown">Class:</label>
@@ -463,14 +538,17 @@ function log(str)
     requireJs("/swtor/scripts/SlotManager.js");
     requireJs("/swtor/scripts/SpecManager.js");
     requireJs("/swtor/scripts/StatController.js");
+    requireJs("/swtor/scripts/StatManager.js");
     requireJs("/swtor/scripts/TooltipController.js");
     requireJs("/swtor/scripts/Settings.js");
     requireJs("/swtor/scripts/Utilities.js");
+    requireJs("/swtor/scripts/Dev.js"); //TODO: developer hacks, not needed for functionality
     requireJs("/swtor/scripts/model/Item.js");
     requireJs("/swtor/scripts/model/ItemMod.js");
     requireJs("/swtor/scripts/model/Slot.js");
     //requireJs("/swtor/scripts/model/allItemData.js"); //TODO: temporary hard-code
 
     let allItemData = <%= ItemManager.getAllAsJson() %>;
+    let ratingData = <%= ItemManager.getRatingsAsJson() %>;
 </script>
 </html>

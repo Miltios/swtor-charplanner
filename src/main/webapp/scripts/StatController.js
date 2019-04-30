@@ -15,6 +15,21 @@ let StatController = (function()
         this.csElShield;
         this.csElPresence;
         this.csEls = [];
+        this.calcElDmgPri;
+        this.calcElDmgSec;
+        this.calcElDmgBonusMR;
+        this.calcElAccuracy;
+        this.calcElCritChance;
+        this.calcElCritMult;
+        this.calcElDmgBonusFT;
+        this.calcElHealing;
+        this.calcElAlacrity;
+        this.calcElHealth;
+        this.calcElArmor;
+        this.calcElDmgReduction;
+        this.calcElDefense;
+        this.calcElShield;
+        this.calcElAbsorb;
     }
     StatController.prototype.init = function()
     {
@@ -52,6 +67,22 @@ let StatController = (function()
         this.csEls.push(this.csElAbsorb);
         this.csEls.push(this.csElShield);
         this.csEls.push(this.csElPresence);
+
+        this.calcElDmgPri = document.getElementById('calcStatDmgPri');
+        this.calcElDmgSec = document.getElementById('calcStatDmgSec');
+        this.calcElDmgBonusMR = document.getElementById('calcStatDmgBonusMR');
+        this.calcElAccuracy = document.getElementById('calcStatAccuracy');
+        this.calcElCritChance = document.getElementById('calcStatCritChance');
+        this.calcElCritMult = document.getElementById('calcStatCritMult');
+        this.calcElDmgBonusFT = document.getElementById('calcStatDmgBonusFT');
+        this.calcElHealing = document.getElementById('calcStatHealing');
+        this.calcElAlacrity = document.getElementById('calcStatAlacrity');
+        this.calcElHealth = document.getElementById('calcStatHealth');
+        this.calcElArmor = document.getElementById('calcStatArmor');
+        this.calcElDmgReduction = document.getElementById('calcStatDmgReduction');
+        this.calcElDefense = document.getElementById('calcStatDefense');
+        this.calcElShield = document.getElementById('calcStatShield');
+        this.calcElAbsorb = document.getElementById('calcStatAbsorb');
 
         log('StatController initialized.');
     };
@@ -125,6 +156,14 @@ let StatController = (function()
         }
         return combined;
     };
+    StatController.prototype.roundStats = function(stats)
+    {
+        for(let statName in stats)
+        {
+            stats[statName] = Math.round(stats[statName]);
+        }
+        return stats;
+    };
     StatController.prototype.getBaseStats = function()
     {
         //stats with no stim/buffs/datacrons/etc.  Base stats do not vary by class/spec, and we assume everyone is lvl 70.
@@ -189,12 +228,21 @@ let StatController = (function()
             }
         }
         stats = this.addStats(stats, datacronStats);
+
+        //increase Presence by 10 for each companion buff
         let companionBuffs = Settings.getCompanionBuffs();
         let companionStats = {
             'presence':(companionBuffs.length*10)
         };
         stats =  this.addStats(stats, companionStats);
-        return this.addStats(stats, this.getBaseStats());
+
+        //add in the base stats
+        stats = this.addStats(stats, this.getBaseStats())
+
+        //apply combined multipliers
+        stats.endurance = stats.endurance * this.getMultipliersEndurance();
+
+        return stats;
     };
     StatController.prototype.getCharStats = function()
     {
@@ -212,7 +260,8 @@ let StatController = (function()
                 }
             }
         }
-        return this.addStats(gearStats, this.getGearlessStats());
+        let stats = this.addStats(gearStats, this.getGearlessStats());
+        return this.roundStats(stats);
     };
     StatController.prototype.updateCharStats = function()
     {
@@ -231,6 +280,188 @@ let StatController = (function()
                 el.innerHTML = '0';
             }
         }
+        this.updateCalcStats(); //TODO:do we always want this here?
+    };
+    StatController.prototype.updateCalcStats = function()
+    {
+        this.updateCalcDmgPri();
+        this.updateCalcDmgSec();
+        this.updateCalcDmgBonusMR();
+        this.updateCalcAccuracy();
+        this.updateCalcCritChance();
+        this.updateCalcCritMult();
+        this.updateCalcDmgBonusFT();
+        this.updateCalcHealing();
+        this.updateCalcAlacrity();
+
+        this.updateCalcHealth();
+        this.updateCalcArmor();
+        this.updateCalcDmgReduction();
+        this.updateCalcDefense();
+        this.updateCalcShield();
+        this.updateCalcAbsorb();
+    };
+    StatController.prototype.updateCalcDmgPri = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcDmgSec = function()
+    {
+        //TODO
+        //zero dmg unless offhand is of type "pistol" or "saber"
+    };
+    StatController.prototype.updateCalcDmgBonusMR = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcAccuracy = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcCritChance = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcCritMult = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcDmgBonusFT = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcHealing = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcAlacrity = function()
+    {
+        //TODO
+        //note: Tier 1 Alacrity = 7.143%, Tier 2 = 15.385%.  Ideally find some way to convey this.
+    };
+    StatController.prototype.updateCalcHealth = function()
+    {
+        //Health formula: (Base Health+[Endurance×12×(1+x)])×(1+y)
+        //x is the sum of any multiplicative increases to Endurance (e.g. Hunter's Boon buff or assassin training)
+        //y is the sum of any multiplicative increases to Health (e.g. ranged tank companion bonus)
+        //TODO:does this mean that endurance multipliers affect HP twice?
+
+        let baseHealth = 23750; //base HP from being lvl 70
+        let endurance = parseInt(this.csElEndurance.innerHTML);
+        let multEndurance = this.getMultipliersEndurance();
+        let multHp = 1;
+        if(Settings.getCompanionBuffs().indexOf('RTank') !== -1)
+        {
+            multHp += 0.01;
+        }
+        let hp = (baseHealth + (endurance*12*multEndurance)) * multHp;
+        this.calcElHealth.innerHTML = Math.round(hp);
+    };
+    StatController.prototype.updateCalcArmor = function()
+    {
+        let items = SlotManager.getEquippedItems();
+        let armor = 0;
+        for(let i=0; i<items.length; i++)
+        {
+            armor += StatManager.getArmorForItem(items[i]);
+        }
+
+        //apply any multiplicative armor bonuses ("gives +% armor")
+        let multArmor = 1;
+        let spec = Settings.getSpec();
+        if(spec === 'juggTank' || spec === 'ptTank')
+        {
+            multArmor += 0.60;
+            multArmor += 0.15;
+        }
+        else if(spec === 'sinTank')
+        {
+            multArmor += 1.30;
+            multArmor += 0.20;
+        }
+        armor *= multArmor;
+
+        this.calcElArmor.innerHTML = Math.round(armor);
+    };
+    StatController.prototype.updateCalcDmgReduction = function()
+    {
+        let armor = parseInt(this.calcElArmor.innerHTML);
+
+        let armorReduc = armor / (armor + (240 * 70) + 800);
+        let bonusReduc = 0;
+        let internalReduc = 0;
+        switch(Settings.getSpec()) //TODO:move logic to StatManager and have it read off a DB table
+        {
+            case 'sorcHealer':
+                bonusReduc = 0.03;
+                break;
+            case 'mercHealer':
+                bonusReduc = 0.05;
+                break;
+            case 'maraBurst':
+                bonusReduc = 0.02;
+                break;
+            case 'juggTank':
+                bonusReduc = 0.06;
+                internalReduc = 0.05;
+                break;
+            case 'juggSust':
+                bonusReduc = 0.05;
+                break;
+            case 'sinTank':
+                //bonusReduc = 0.25; //only when overchage saber is active
+                bonusReduc += 0.02; //"shroud of darkness" passive
+                bonusReduc += 0.02; //"swelling shadows" passive
+                internalReduc = 0.10; //"blood of sith" passive
+                internalReduc += 0.10 //TODO:what passive is this?  Not listed anywhere; could be double stance bug
+                break;
+            case 'ptTank':
+                bonusReduc = 0.05;
+                bonusReduc += 0.02;
+                bonusReduc += 0.02;
+                break;
+            case 'ptSust':
+                internalReduc = 0.05;
+                break;
+        }
+        internalReduc += bonusReduc; //any overall dmg reduction also counts as internal/elemental reduction
+
+        //internal/elemental is not factored in the final displayed stat UNLESS it's greater than the value that would get displayed (thanks BioWare...)
+        let totalReduc = (armorReduc + bonusReduc);
+        if(internalReduc > totalReduc)
+        {
+            totalReduc = internalReduc;
+        }
+
+        this.calcElDmgReduction.innerHTML = (100*totalReduc).toFixed(2);
+    };
+    StatController.prototype.updateCalcDefense = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcShield = function()
+    {
+        //TODO
+    };
+    StatController.prototype.updateCalcAbsorb = function()
+    {
+        //TODO
+    };
+    StatController.prototype.getMultipliersEndurance = function() //TODO:move logic to StatManager and have it read off a DB table
+    {
+        let mult = 1;
+
+        //increase Endurance by 3% if class is Assassin
+        if(Settings.getClass() === 'sin')
+        {
+            mult += 0.03;
+        }
+        //increase Endurance by 5% if Hunter's Boon is active
+        if(Settings.getClassBuffs().indexOf('Endurance') !== -1)
+        {
+            mult += 0.05;
+        }
+        return mult;
     }
     return new StatController();
 })();

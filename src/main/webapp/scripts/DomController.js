@@ -108,7 +108,11 @@ let DomController = (function()
                 SlotManager.getSlot('mainhand').updateAppearance();
                 SlotManager.getSlot('offhand').updateAppearance();
                 PickerController.updateLists();
-                PickerController.populateCurrentItemForSlot(SlotManager.getCurrentSlot());
+                let currSlot = SlotManager.getCurrentSlot();
+                if(currSlot !== null)
+                {
+                    PickerController.populateCurrentItemForSlot(currSlot);
+                }
                 //TODO: update stats:
                     //arsenal merc gets +3% alacrity
                     //corruption sorc gets +3% force crit chance, 3% dmg reduction, +3% bonus healing

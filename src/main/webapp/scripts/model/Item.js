@@ -11,6 +11,7 @@ function Item(data)
     this.dynamicSlotType;
     this.description;
     this.image;
+    this.type;
     if(data)
     {
         this.id = data.id;
@@ -24,6 +25,7 @@ function Item(data)
         this.dynamicSlotType = data.dynamicSlot;
         this.description = data.description;
         this.image = data.image;
+        this.type = data.type;
         if(typeof data.isCustom === 'undefined')
         {
             this.isCustom = false;

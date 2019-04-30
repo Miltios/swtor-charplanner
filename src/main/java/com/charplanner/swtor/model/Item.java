@@ -18,6 +18,7 @@ public class Item
     private DynamicSlot dynamicSlotType;
     private String description;
     private String image;
+    private String type;
 
     public enum TierColor{NONE, GREEN, BLUE, PURPLE, GOLD;}
 
@@ -156,5 +157,15 @@ public class Item
 
     public void setImage(String image) {
         this.image = image;
+    }
+
+    public String getType()
+    {
+        return type;
+    }
+
+    public void setType(String type)
+    {
+        this.type = type;
     }
 }

@@ -22,4 +22,10 @@ public class ItemMod extends Item //TODO: probably want an interface or abstract
         System.out.println("Attempted to access nonexistent method getDynamicSlotType for ItemMod " + this.getName() + " (itemId " + this.getId() + ")");
         return null;
     }
+    @Override
+    public String getType()
+    {
+        System.out.println("Attempted to access nonexistent method getType for ItemMod " + this.getName() + "(itemId " + this.getId() + ")");
+        return null;
+    }
 }

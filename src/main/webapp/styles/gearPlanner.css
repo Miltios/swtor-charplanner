@@ -59,7 +59,8 @@ body.faction-mode-pub .faction-imp
     opacity:1;
     box-shadow:0 0 30px black inset;
 }
-#charBodyDiv
+#charBodyDiv,
+#calcStatsDiv
 {
     display:inline-block; /*TODO:HACK: quick fix for centering until we decide on a page layout*/
 }

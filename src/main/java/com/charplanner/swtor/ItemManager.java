@@ -4,10 +4,7 @@ import com.charplanner.swtor.model.Item;
 import com.charplanner.swtor.model.ItemMod;
 import org.apache.commons.text.StringEscapeUtils;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -17,12 +14,14 @@ public class ItemManager
 {
     private static Map<Integer,Item> items; //currently a Map<itemId, Item> because it's easier to fetch stuff than a Set.  May reconsider later since we're duplicating itemId this way.
     private static Map<Integer, ItemMod> itemMods;
+    private static Map<Integer, Map<String,Integer>> ratings;
 
     private ItemManager(){}
     static
     {
         items = new HashMap<>();
         itemMods = new HashMap<>();
+        ratings = new HashMap<>();
         updateItems();
         updateItemSpecs();
         updateItemStats();
@@ -30,6 +29,7 @@ public class ItemManager
         updateItemModSpecs();
         updateItemModStats();
         updateItemContents();
+        updateRatings();
     }
     public static void updateItems()
     {
@@ -62,6 +62,7 @@ public class ItemManager
                     }
                     i.setDynamicSlotType(Item.DynamicSlot.valueOf(ds));
                     i.setImage(rs.getString("Image"));
+                    i.setType(rs.getString("Type"));
 
                     items.put(itemId, i); //TODO:better safety pls
                 }
@@ -254,6 +255,35 @@ public class ItemManager
             e.printStackTrace();
         }
     }
+    public static void updateRatings()
+    {
+        Connection c = ConnectionManager.getConnection();
+        try
+        {
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.RatingStats"); //TODO:stop hard-coding schemas
+            if(statement.execute())
+            {
+                ResultSet rs = statement.getResultSet();
+                ResultSetMetaData md = rs.getMetaData();
+                int cols = md.getColumnCount();
+                while(rs.next())
+                {
+                    HashMap<String,Integer> row = new HashMap<>(cols);
+                    for(int i=1; i<=cols; i++)
+                    {
+                        row.put(md.getColumnName(i), rs.getInt(i));
+                    }
+                    ratings.put(rs.getInt("Rating"), row);
+                }
+            }
+        }
+        catch(SQLException e)
+        {
+            //TODO
+            System.out.println("Failed to update ItemContents!");
+            e.printStackTrace();
+        }
+    }
     public static String getAllAsJson() //someday we probably want a method to get some items for performance, not the full list
     {
         StringBuilder sb = new StringBuilder("{");
@@ -298,6 +328,7 @@ public class ItemManager
             sb.append("rating:").append(i.getRating()).append(",\n");
             sb.append("color:'").append(i.getColor().toString().toLowerCase()).append("',\n"); //TODO:figure out some better toString method for this enum
             sb.append("image:'").append(i.getImage()).append("',\n");
+            sb.append("type:'").append(i.getType()).append("',\n");
             sb.append("specs:[");
             Set<String> specs = i.getSpecs();
             for(String spec : specs)
@@ -368,6 +399,28 @@ public class ItemManager
         }
         Utilities.removeTrailingChar(sb, ',');
         sb.append("],");
+
+        return sb.toString();
+    }
+    public static String getRatingsAsJson()
+    {
+        StringBuilder sb = new StringBuilder("{");
+        for(Map<String, Integer> row : ratings.values())
+        {
+            sb.append(row.get("Rating")).append(":{\n");
+            //sb.append("rating:").append(row.get("Rating")).append(",\n");
+            sb.append("lightpri:").append(row.get("LightPri")).append(",\n");
+            sb.append("lightsec:").append(row.get("LightSec")).append(",\n");
+            sb.append("mediumpri:").append(row.get("MediumPri")).append(",\n");
+            sb.append("mediumsec:").append(row.get("MediumSec")).append(",\n");
+            sb.append("heavypri:").append(row.get("HeavyPri")).append(",\n");
+            sb.append("heavysec:").append(row.get("HeavySec")).append(",\n");
+            Utilities.removeTrailingChar(sb, ',');
+
+            sb.append("},");
+        }
+        Utilities.removeTrailingChar(sb, ',');
+        sb.append("}");
 
         return sb.toString();
     }
