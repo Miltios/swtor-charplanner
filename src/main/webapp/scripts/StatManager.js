@@ -3,11 +3,13 @@ let StatManager = (function()
     function StatManager()
     {
         //declare vars
-        this.data = {};
+        this.ratings = {};
+        this.specBuffs = [];
     }
     StatManager.prototype.init = function()
     {
-        this.data = ratingData;
+        this.ratings = ratingData;
+        this.specBuffs = specBuffData;
     };
     StatManager.prototype.getArmorForItem = function(item)
     {
@@ -19,7 +21,7 @@ let StatManager = (function()
     };
     StatManager.prototype.getArmorForRatingAndSlot =  function(rating, slot)
     {
-        let row = this.data[rating];
+        let row = this.ratings[rating];
         if(!row)
         {
             console.error('No armor rating defined for rating "' + rating + '"!');
@@ -52,6 +54,38 @@ let StatManager = (function()
             return 0;
         }
         return armor;
+    };
+
+    /*
+    * Always returns a multiplier, which is >= 1 unless there are stat penalties.
+    */
+    StatManager.prototype.getMultiplierForSpecAndStat = function(spec, stat)
+    {
+        if(!spec || !stat)
+        {
+            console.error('Attempted to get spec buffs with invalid arguments: (' + spec + ', ' + stat + ')!');
+            return 1;
+        }
+        let buffs = this.specBuffs.filter(b => (b.spec === spec && b.stat === stat));
+        let mult = 1;
+        for(let i=0; i<buffs.length; i++)
+        {
+            mult += buffs[i].statValue;
+        }
+        return mult;
+    };
+    StatManager.prototype.getMultiplierForStat = function(stat)
+    {
+        let mult = this.getMultiplierForSpecAndStat(Settings.getSpec(), stat);
+        let classBuffs = Settings.getClassBuffs();
+        for(let i=0; i<classBuffs.length; i++)
+        {
+            if(classBuffs[i].toLowerCase() === stat.toLowerCase())
+            {
+                mult += 0.05;
+            }
+        }
+        return mult;
     }
     return new StatManager();
 })();

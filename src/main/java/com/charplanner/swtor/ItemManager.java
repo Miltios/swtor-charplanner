@@ -5,16 +5,14 @@ import com.charplanner.swtor.model.ItemMod;
 import org.apache.commons.text.StringEscapeUtils;
 
 import java.sql.*;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class ItemManager
 {
     private static Map<Integer,Item> items; //currently a Map<itemId, Item> because it's easier to fetch stuff than a Set.  May reconsider later since we're duplicating itemId this way.
     private static Map<Integer, ItemMod> itemMods;
-    private static Map<Integer, Map<String,Integer>> ratings;
+    private static Map<Integer, Map<String,Integer>> ratings; //TODO:move this out to another class
+    private static List<Map<String,Object>> specBuffs; //TODO:move this out to another class
 
     private ItemManager(){}
     static
@@ -22,6 +20,7 @@ public class ItemManager
         items = new HashMap<>();
         itemMods = new HashMap<>();
         ratings = new HashMap<>();
+        specBuffs = new ArrayList<>();
         updateItems();
         updateItemSpecs();
         updateItemStats();
@@ -30,6 +29,7 @@ public class ItemManager
         updateItemModStats();
         updateItemContents();
         updateRatings();
+        updateSpecBuffs();
     }
     public static void updateItems()
     {
@@ -280,7 +280,37 @@ public class ItemManager
         catch(SQLException e)
         {
             //TODO
-            System.out.println("Failed to update ItemContents!");
+            System.out.println("Failed to update Ratings!");
+            e.printStackTrace();
+        }
+    }
+    public static void updateSpecBuffs()
+    {
+        Connection c = ConnectionManager.getConnection();
+        try
+        {
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.SpecBuffs " +
+                    "WHERE Disabled = FALSE"); //TODO:stop hard-coding schemas
+            if(statement.execute())
+            {
+                ResultSet rs = statement.getResultSet();
+                ResultSetMetaData md = rs.getMetaData();
+                int cols = md.getColumnCount();
+                while(rs.next())
+                {
+                    HashMap<String,Object> row = new HashMap<>(cols);
+                    for(int i=1; i<=cols; i++)
+                    {
+                        row.put(md.getColumnName(i), rs.getObject(i));
+                    }
+                    specBuffs.add(row);
+                }
+            }
+        }
+        catch(SQLException e)
+        {
+            //TODO
+            System.out.println("Failed to update SpecBuffs!");
             e.printStackTrace();
         }
     }
@@ -414,13 +444,30 @@ public class ItemManager
             sb.append("mediumpri:").append(row.get("MediumPri")).append(",\n");
             sb.append("mediumsec:").append(row.get("MediumSec")).append(",\n");
             sb.append("heavypri:").append(row.get("HeavyPri")).append(",\n");
-            sb.append("heavysec:").append(row.get("HeavySec")).append(",\n");
-            Utilities.removeTrailingChar(sb, ',');
+            sb.append("heavysec:").append(row.get("HeavySec")).append("\n");
 
             sb.append("},");
         }
         Utilities.removeTrailingChar(sb, ',');
         sb.append("}");
+
+        return sb.toString();
+    }
+    public static String getSpecBuffsAsJson()
+    {
+        StringBuilder sb = new StringBuilder("[");
+        for(Map<String, Object> row : specBuffs)
+        {
+            sb.append("{\n");
+            sb.append("spec:'").append(row.get("Spec")).append("',\n");
+            sb.append("stat:'").append(row.get("Stat")).append("',\n");
+            sb.append("statValue:").append(row.get("StatValue")).append(",\n");
+            sb.append("passive:'").append(((String)row.get("Passive")).replaceAll("'", "\\\\'")).append("'\n");
+
+            sb.append("},");
+        }
+        Utilities.removeTrailingChar(sb, ',');
+        sb.append("]");
 
         return sb.toString();
     }

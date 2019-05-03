@@ -548,7 +548,9 @@ function log(str)
     requireJs("/swtor/scripts/model/Slot.js");
     //requireJs("/swtor/scripts/model/allItemData.js"); //TODO: temporary hard-code
 
+    //TODO:this may be getting unwieldy.  AJAX?
     let allItemData = <%= ItemManager.getAllAsJson() %>;
     let ratingData = <%= ItemManager.getRatingsAsJson() %>;
+    let specBuffData = <%= ItemManager.getSpecBuffsAsJson() %>;
 </script>
 </html>

@@ -183,7 +183,6 @@ let StatController = (function()
     StatController.prototype.getGearlessStats = function()
     {
         //TODO:get stats for character with no gear but everything else
-        //TODO:make this actually dependent on the settings that are checked
         //note that augments are NOT considered "gear" for this purpose
         let stats = {
             'mastery':-17, //TODO:HACK: need this number to get 1050 mastery, but we don't know where it comes from
@@ -240,7 +239,8 @@ let StatController = (function()
         stats = this.addStats(stats, this.getBaseStats())
 
         //apply combined multipliers
-        stats.endurance = stats.endurance * this.getMultipliersEndurance();
+        stats.endurance = stats.endurance * StatManager.getMultiplierForStat('endurance');
+        stats.mastery = stats.mastery * StatManager.getMultiplierForStat('mastery'); //TODO:is this factored in here or later?
 
         return stats;
     };
@@ -348,7 +348,7 @@ let StatController = (function()
 
         let baseHealth = 23750; //base HP from being lvl 70
         let endurance = parseInt(this.csElEndurance.innerHTML);
-        let multEndurance = this.getMultipliersEndurance();
+        let multEndurance = StatManager.getMultiplierForStat('endurance');
         let multHp = 1;
         if(Settings.getCompanionBuffs().indexOf('RTank') !== -1)
         {
@@ -367,18 +367,7 @@ let StatController = (function()
         }
 
         //apply any multiplicative armor bonuses ("gives +% armor")
-        let multArmor = 1;
-        let spec = Settings.getSpec();
-        if(spec === 'juggTank' || spec === 'ptTank')
-        {
-            multArmor += 0.60;
-            multArmor += 0.15;
-        }
-        else if(spec === 'sinTank')
-        {
-            multArmor += 1.30;
-            multArmor += 0.20;
-        }
+        let multArmor = StatManager.getMultiplierForStat('armor');
         armor *= multArmor;
 
         this.calcElArmor.innerHTML = Math.round(armor);
@@ -386,44 +375,9 @@ let StatController = (function()
     StatController.prototype.updateCalcDmgReduction = function()
     {
         let armor = parseInt(this.calcElArmor.innerHTML);
-
         let armorReduc = armor / (armor + (240 * 70) + 800);
-        let bonusReduc = 0;
-        let internalReduc = 0;
-        switch(Settings.getSpec()) //TODO:move logic to StatManager and have it read off a DB table
-        {
-            case 'sorcHealer':
-                bonusReduc = 0.03;
-                break;
-            case 'mercHealer':
-                bonusReduc = 0.05;
-                break;
-            case 'maraBurst':
-                bonusReduc = 0.02;
-                break;
-            case 'juggTank':
-                bonusReduc = 0.06;
-                internalReduc = 0.05;
-                break;
-            case 'juggSust':
-                bonusReduc = 0.05;
-                break;
-            case 'sinTank':
-                //bonusReduc = 0.25; //only when overchage saber is active
-                bonusReduc += 0.02; //"shroud of darkness" passive
-                bonusReduc += 0.02; //"swelling shadows" passive
-                internalReduc = 0.10; //"blood of sith" passive
-                internalReduc += 0.10 //TODO:what passive is this?  Not listed anywhere; could be double stance bug
-                break;
-            case 'ptTank':
-                bonusReduc = 0.05;
-                bonusReduc += 0.02;
-                bonusReduc += 0.02;
-                break;
-            case 'ptSust':
-                internalReduc = 0.05;
-                break;
-        }
+        let bonusReduc = StatManager.getMultiplierForStat('dmgReduc') - 1;
+        let internalReduc = StatManager.getMultiplierForStat('dmgReducIE') - 1;
         internalReduc += bonusReduc; //any overall dmg reduction also counts as internal/elemental reduction
 
         //internal/elemental is not factored in the final displayed stat UNLESS it's greater than the value that would get displayed (thanks BioWare...)
@@ -447,22 +401,6 @@ let StatController = (function()
     {
         //TODO
     };
-    StatController.prototype.getMultipliersEndurance = function() //TODO:move logic to StatManager and have it read off a DB table
-    {
-        let mult = 1;
-
-        //increase Endurance by 3% if class is Assassin
-        if(Settings.getClass() === 'sin')
-        {
-            mult += 0.03;
-        }
-        //increase Endurance by 5% if Hunter's Boon is active
-        if(Settings.getClassBuffs().indexOf('Endurance') !== -1)
-        {
-            mult += 0.05;
-        }
-        return mult;
-    }
     return new StatController();
 })();
 declareReady('StatController.js', function(){StatController.init();});
