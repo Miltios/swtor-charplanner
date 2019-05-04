@@ -273,6 +273,7 @@ let StatController = (function()
             statName = statName.substring(8);
             if(stats.hasOwnProperty(statName))
             {
+                StatManager.setStat(statName, stats[statName]);
                 el.innerHTML = stats[statName];
             }
             else
@@ -300,6 +301,8 @@ let StatController = (function()
         this.updateCalcDefense();
         this.updateCalcShield();
         this.updateCalcAbsorb();
+        //TODO:show/hide dmgBonus MR/FT
+        //TODO:show/hide offhand dmg
     };
     StatController.prototype.updateCalcDmgPri = function()
     {
@@ -316,15 +319,49 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcAccuracy = function()
     {
-        //TODO
+        //Accuracy formula: 30*(1-((1-(.01/.3))^(accuracy/70))).  As a reminder, "^" is NOT the operator we want once we translate this to actual code.
+
+        let accRating = StatManager.getStat('accuracy');
+        let baseAcc = 30*(1-((1-(.01/.3))**(accRating/70))); //0-100, not 0-1
+        let bonusAcc = StatManager.getMultiplierForStat('accuracy')-1; //this is additive, so we want a non-value to be 0 instead of 1
+        if(Settings.getCompanionBuffs().indexOf('MTank') !== -1)
+        {
+            bonusAcc += 0.01;
+        }
+        let accuracy = (100 + baseAcc + (100 * bonusAcc)).toFixed(2);
+        this.calcElAccuracy.innerHTML = accuracy;
     };
     StatController.prototype.updateCalcCritChance = function()
     {
-        //TODO
+        //TODO: the "ideal" crit rating is 1796-2235 (depending on MR vs FT attacks), after which points should be put into mastery instead.  Find a way to convey this?
+        //formula from crit stat: 30*(1-(1-(.01/.3))^(crit/56))
+        //formula from mastery stat: 20*(1-(1-(.01/.2))^(mastery/385))
+        let crit = StatManager.getStat('crit');
+        let mastery = StatManager.getStat('mastery');
+        let bonusCrit = StatManager.getMultiplierForStat('critChance')-1; //additive
+        if(Settings.getCompanionBuffs().indexOf('MDPS') !== -1)
+        {
+            bonusCrit += 0.01;
+        }
+        let critChance = 0.05; //base chance for all classes
+        critChance += bonusCrit;
+        critChance *= 100;
+        let critFromCrit = 30*(1-(1-(.01/.3))**(crit/56));
+        let critFromMastery = 20*(1-(1-(.01/.2))**(mastery/385));
+        critChance += critFromCrit;
+        critChance += critFromMastery;
+        this.calcElCritChance.innerHTML = critChance.toFixed(2);
     };
     StatController.prototype.updateCalcCritMult = function()
     {
-        //TODO
+        //formula from crit is the same as above, while mastery is not factored here
+        let crit = StatManager.getStat('crit');
+        let bonusCrit = StatManager.getMultiplierForStat('critDmg')-1; //additive
+        let critDmg = 0.50; //base multiplier for all classes
+        critDmg += bonusCrit;
+        critDmg *= 100;
+        critDmg += 30*(1-(1-(.01/.3))**(crit/56));
+        this.calcElCritMult.innerHTML = critDmg.toFixed(2);
     };
     StatController.prototype.updateCalcDmgBonusFT = function()
     {
@@ -336,8 +373,13 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcAlacrity = function()
     {
-        //TODO
-        //note: Tier 1 Alacrity = 7.143%, Tier 2 = 15.385%.  Ideally find some way to convey this.
+        //TODO: Tier 1 Alacrity = 7.143%, Tier 2 = 15.385%.  Ideally find some way to convey this.
+        //alacrity formula: 30*(1-(1-(.01/.3))^(alacrity/87.5))
+        let alacrity = StatManager.getStat('alacrity');
+        let bonusAlac = StatManager.getMultiplierForStat('alacrity')-1; //additive
+        let alacPerc = 30*(1-(1-(.01/.3))**(alacrity/87.5));
+        alacPerc += (100 * bonusAlac);
+        this.calcElAlacrity.innerHTML = alacPerc.toFixed(2);
     };
     StatController.prototype.updateCalcHealth = function()
     {
@@ -347,7 +389,7 @@ let StatController = (function()
         //TODO:does this mean that endurance multipliers affect HP twice?
 
         let baseHealth = 23750; //base HP from being lvl 70
-        let endurance = parseInt(this.csElEndurance.innerHTML);
+        let endurance = StatManager.getStat('endurance');
         let multEndurance = StatManager.getMultiplierForStat('endurance');
         let multHp = 1;
         if(Settings.getCompanionBuffs().indexOf('RTank') !== -1)
@@ -369,12 +411,14 @@ let StatController = (function()
         //apply any multiplicative armor bonuses ("gives +% armor")
         let multArmor = StatManager.getMultiplierForStat('armor');
         armor *= multArmor;
+        armor = Math.round(armor);
 
-        this.calcElArmor.innerHTML = Math.round(armor);
+        StatManager.setStat('armor', armor);
+        this.calcElArmor.innerHTML = armor;
     };
     StatController.prototype.updateCalcDmgReduction = function()
     {
-        let armor = parseInt(this.calcElArmor.innerHTML);
+        let armor = StatManager.getStat('armor');
         let armorReduc = armor / (armor + (240 * 70) + 800);
         let bonusReduc = StatManager.getMultiplierForStat('dmgReduc') - 1;
         let internalReduc = StatManager.getMultiplierForStat('dmgReducIE') - 1;
@@ -391,15 +435,59 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcDefense = function()
     {
-        //TODO
+        //defense formula: 30*(1-(1-(.01/.3))^(defense/84))
+        let defense = StatManager.getStat('defense');
+        let bonusMR = StatManager.getMultiplierForStat('defMR')-1; //additive
+        let bonusFT = StatManager.getMultiplierForStat('defFT')-1; //additive
+        let bonusAll = StatManager.getMultiplierForStat('defAll')-1; //additive
+        bonusMR += bonusAll;
+        bonusFT += bonusAll;
+        bonusMR += 0.05; //innate MR defense for all classes
+
+        //from this point on we deal with 0-100 scale instead of 0-1
+        bonusMR = bonusMR * 100;
+        bonusFT = bonusFT * 100;
+        let defChance = 30*(1-(1-(.01/.3))**(defense/84));
+        defChance += bonusMR; //defense from gear ONLY affects MR, not FT
+
+        //as with dmg reduction, FT defense is not factored unless it's greater than MR
+        if(bonusFT >= defChance)
+        {
+            defChance = bonusFT;
+        }
+        this.calcElDefense.innerHTML = defChance.toFixed(2);
     };
     StatController.prototype.updateCalcShield = function()
     {
-        //TODO
+        //shield chance formula: 50*(1-(1-(.01/.5))^(shield/54.6))
+        //can't shield anything without a shield equipped
+        let shieldChance = 0;
+        let item = SlotManager.getSlot('offhand').getItem();
+        if(item && item.type === 'shield')
+        {
+            shieldChance += 0.05; //automatic bonus for having a shield equipped
+            shieldChance += StatManager.getMultiplierForStat('shieldChance')-1; //additive
+            let shield = StatManager.getStat('shield');
+            shieldChance = shieldChance * 100; //from this point on we deal with 0-100 scale instead of 0-1
+            shieldChance += 50*(1-(1-(.01/.5))**(shield/54.6));
+        }
+        this.calcElShield.innerHTML = shieldChance.toFixed(2);
     };
     StatController.prototype.updateCalcAbsorb = function()
     {
-        //TODO
+        //absorption formula: 50*(1-(1-(.01/.5))^(absorb/45.5))
+        //can't shield anything without a shield equipped
+        let absorbPerc = 0;
+        let item = SlotManager.getSlot('offhand').getItem();
+        if(item && item.type === 'shield')
+        {
+            absorbPerc += 0.20; //automatic bonus for having a shield equipped
+            absorbPerc += StatManager.getMultiplierForStat('absorbPerc')-1; //additive
+            let absorb = StatManager.getStat('absorption');
+            absorbPerc = absorbPerc * 100; //from this point on we deal with 0-100 scale instead of 0-1
+            absorbPerc += 50*(1-(1-(.01/.5))**(absorb/45.5));
+        }
+        this.calcElAbsorb.innerHTML = absorbPerc.toFixed(2);
     };
     return new StatController();
 })();

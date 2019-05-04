@@ -5,12 +5,45 @@ let StatManager = (function()
         //declare vars
         this.ratings = {};
         this.specBuffs = [];
+        this.rawStats = {
+            'mastery':0,
+            'endurance':0,
+            'power':0,
+            'crit':0,
+            'alacrity':0,
+            'accuracy':0,
+            'defense':0,
+            'absorption':0,
+            'shield':0,
+            'presence':0,
+            'armor':0
+        }
     }
     StatManager.prototype.init = function()
     {
         this.ratings = ratingData;
         this.specBuffs = specBuffData;
     };
+    StatManager.prototype.getStat = function(stat)
+    {
+        if(this.rawStats.hasOwnProperty(stat))
+        {
+            return this.rawStats[stat];
+        }
+        console.error('Cannot getStat for invalid statName "' + stat + '"!');
+        return 0;
+    };
+    StatManager.prototype.setStat = function(stat, value)
+    {
+        if(this.rawStats.hasOwnProperty(stat))
+        {
+            this.rawStats[stat] = value;
+        }
+        else
+        {
+            console.error('Cannot setStat for invalid statName "' + stat + '"!');
+        }
+    }
     StatManager.prototype.getArmorForItem = function(item)
     {
         if(item.type === 'armor'/* || (item.slot==='offhand' && item.type==='shield')*/) //fun fact: offhands with an "armoring" (e.g. shields) do not actually grant armor
