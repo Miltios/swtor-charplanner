@@ -38,7 +38,7 @@ let DomController = (function()
                 let currSlot = SlotManager.getCurrentSlot();
 
                 //some republic classes have a different offhand from their imperial counterparts.  All other slots are the same.
-                if(currSlot && currSlot.getName() === 'offhand')
+                if(currSlot && (currSlot.getName() === 'offhand' || currSlot.getName() === 'mainhand'))
                 {
                     PickerController.updateLists();
                     PickerController.populateCurrentItemForSlot(currSlot);

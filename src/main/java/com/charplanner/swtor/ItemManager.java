@@ -444,7 +444,22 @@ public class ItemManager
             sb.append("mediumpri:").append(row.get("MediumPri")).append(",\n");
             sb.append("mediumsec:").append(row.get("MediumSec")).append(",\n");
             sb.append("heavypri:").append(row.get("HeavyPri")).append(",\n");
-            sb.append("heavysec:").append(row.get("HeavySec")).append("\n");
+            sb.append("heavysec:").append(row.get("HeavySec")).append(",\n");
+            sb.append("dmgminsaber:").append(row.get("DmgMinSaber")).append(",\n");
+            sb.append("dmgmaxsaber:").append(row.get("DmgMaxSaber")).append(",\n");
+            sb.append("dmgminpistol:").append(row.get("DmgMinPistol")).append(",\n");
+            sb.append("dmgmaxpistol:").append(row.get("DmgMaxPistol")).append(",\n");
+            sb.append("dmgminstaff:").append(row.get("DmgMinStaff")).append(",\n");
+            sb.append("dmgmaxstaff:").append(row.get("DmgMaxStaff")).append(",\n");
+            sb.append("dmgminsniper:").append(row.get("DmgMinSniper")).append(",\n");
+            sb.append("dmgmaxsniper:").append(row.get("DmgMaxSniper")).append(",\n");
+            sb.append("dmgmincannon:").append(row.get("DmgMinCannon")).append(",\n");
+            sb.append("dmgmaxcannon:").append(row.get("DmgMaxCannon")).append(",\n");
+            sb.append("dmgminshotgun:").append(row.get("DmgMinShotgun")).append(",\n");
+            sb.append("dmgmaxshotgun:").append(row.get("DmgMaxShotgun")).append(",\n");
+            sb.append("dmgminknife:").append(row.get("DmgMinKnife")).append(",\n");
+            sb.append("dmgmaxknife:").append(row.get("DmgMaxKnife")).append(",\n");
+            sb.append("ftpower:").append(row.get("FTPower")).append("\n");
 
             sb.append("},");
         }

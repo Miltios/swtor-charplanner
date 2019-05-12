@@ -16,7 +16,8 @@ let StatManager = (function()
             'absorption':0,
             'shield':0,
             'presence':0,
-            'armor':0
+            'armor':0,
+            'dmgMR':0
         }
     }
     StatManager.prototype.init = function()
@@ -88,6 +89,63 @@ let StatManager = (function()
         }
         return armor;
     };
+    StatManager.prototype.getDmgForItem = function(item)
+    {
+        let result = [0,0];
+        if(item === null)
+        {
+            return result;
+        }
+        let rating = item.rating;
+        let row = this.ratings[rating];
+        let type = item.type.toLowerCase();
+        if(!rating || !type || ['cannon', 'knife', 'pistol', 'rifle', 'saber', 'saberstaff', 'shotgun', 'sniper'].indexOf(type) === -1)
+        {
+            console.error('Attempted to get dmg for invalid item!');
+            return result;
+        }
+        let genericType;
+        switch(type)
+        {
+            case 'rifle':
+                genericType = 'saber';
+                break;
+            case 'saberstaff':
+                genericType = 'staff';
+                break;
+            default:
+                genericType = type;
+        }
+        let dmgMin = row['dmgmin' + genericType];
+        let dmgMax = row['dmgmax' + genericType];
+        if(typeof dmgMin !== 'number' || typeof dmgMax !== 'number')
+        {
+            return result;
+        }
+        result = [dmgMin, dmgMax];
+        return result;
+    };
+    StatManager.prototype.getFTPowerForItem = function(item)
+    {
+        let result = 0;
+        if(item === null)
+        {
+            return result;
+        }
+        let rating = item.rating;
+        let row = this.ratings[rating];
+        let type = item.type.toLowerCase();
+        if(!rating || !type || ['mainhand', 'offhand'].indexOf(item.slot) === -1)
+        {
+            return result;
+        }
+        result = row['ftpower'];
+        if(type === 'shield')
+        {
+            result = result * 2 / 3;
+        }
+        return parseInt(result.toFixed(0));
+    }
 
     /*
     * Always returns a multiplier, which is >= 1 unless there are stat penalties.

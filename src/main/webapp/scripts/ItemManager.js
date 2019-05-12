@@ -67,7 +67,7 @@ let ItemManager = (function()
             || (i.specs.indexOf('all') !== -1)
             || (i.specs.indexOf(specRole) !== -1)));
     };
-    ItemManager.prototype.filterListForClassAndSlot = function(className, slotName, list)
+    ItemManager.prototype.filterListForClassAndSlot = function(className, slotName, list) //TODO:this doesn't seem to adjust when toggling factions
     {
         let items = list.slice(); //shallow copy
         items = items.filter(i => (i.slot === slotName));

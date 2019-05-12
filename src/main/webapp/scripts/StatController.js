@@ -287,7 +287,7 @@ let StatController = (function()
     {
         this.updateCalcDmgPri();
         this.updateCalcDmgSec();
-        this.updateCalcDmgBonusMR();
+        //this.updateCalcDmgBonusMR(); //must be handled in DmgPri
         this.updateCalcAccuracy();
         this.updateCalcCritChance();
         this.updateCalcCritMult();
@@ -301,21 +301,72 @@ let StatController = (function()
         this.updateCalcDefense();
         this.updateCalcShield();
         this.updateCalcAbsorb();
-        //TODO:show/hide dmgBonus MR/FT
-        //TODO:show/hide offhand dmg
     };
     StatController.prototype.updateCalcDmgPri = function()
     {
-        //TODO
+        this.updateCalcDmgBonusMR(); //must be updated first, as this calculation is used for mainhand dmg
+        let weapon = SlotManager.getSlot('mainhand').getItem();
+        let dmg = [1,5]; //dmg value for fists, only applies if unarmed
+        if(weapon !== null)
+        {
+            dmg = StatManager.getDmgForItem(weapon);
+        }
+        let bonus = StatManager.getStat('dmgMR');
+        dmg[0] += bonus;
+        dmg[1] += bonus;
+        this.calcElDmgPri.innerHTML = dmg[0] + ' - ' + dmg[1];
     };
     StatController.prototype.updateCalcDmgSec = function()
     {
-        //TODO
-        //zero dmg unless offhand is of type "pistol" or "saber"
+        let weapon = SlotManager.getSlot('offhand').getItem();
+        if(weapon === null)
+        {
+            //TODO:should probably base this by class instead
+            this.calcElDmgSec.innerHTML = '0'
+            this.calcElDmgSec.parentNode.style.display = 'none';
+        }
+        else if(['pistol', 'saber', 'knife', 'shotgun'].indexOf(weapon.type.toLowerCase()) !== -1)
+        {
+            let dmg = StatManager.getDmgForItem(weapon);
+            dmg[0] *= 0.3;
+            dmg[1] *= 0.3;
+            this.calcElDmgSec.innerHTML = dmg[0].toFixed(0) + ' - ' + dmg[1].toFixed(0);
+            this.calcElDmgSec.parentNode.style.display = '';
+        }
+        else
+        {
+            this.calcElDmgSec.innerHTML = '0'
+            this.calcElDmgSec.parentNode.style.display = 'none';
+        }
     };
     StatController.prototype.updateCalcDmgBonusMR = function()
     {
-        //TODO
+        //bonus dmg formula ((mastery*0.2*(1+x)) + (power*0.23*(1+y))) * (1+z)
+        //x is the sum of multiplicative mastery bonuses (e.g. mark of power)
+        //y is the sum of multiplicative power bonuses
+        //z is the sum of multiplicative bonus dmg (e.g. unnatural might)
+        let dmgMastery = StatManager.getStat('mastery') * 0.2;
+        let bonusMastery = StatManager.getMultiplierForStat('mastery');
+        if(Settings.getClassBuffs().indexOf('Mastery') !== -1)
+        {
+            bonusMastery += 0.05;
+        }
+        dmgMastery *= bonusMastery;
+
+        let dmgPower = StatManager.getStat('power') * 0.23;
+        dmgPower *= StatManager.getMultiplierForStat('power');
+
+        let dmg = dmgMastery + dmgPower;
+        let bonusDmg = 1;
+        //bonusDmg += StatManager.getMultiplierForStat('dmgMR') - 1; //apparently doesn't get applied here
+        //bonusDmg += StatManager.getMultiplierForStat('dmgAll') - 1; //apparently doesn't get applied here
+        if(Settings.getClassBuffs().indexOf('Dmg') !== -1)
+        {
+            bonusDmg += 0.05;
+        }
+        dmg *= bonusDmg;
+        StatManager.setStat('dmgMR', parseInt(dmg.toFixed(0))); //BW likes to do their rounding BEFORE using this stat for further calculations.  We don't judge...
+        this.calcElDmgBonusMR.innerHTML = dmg.toFixed(1);
     };
     StatController.prototype.updateCalcAccuracy = function()
     {
@@ -365,11 +416,72 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcDmgBonusFT = function()
     {
-        //TODO
+        //bonus FT dmg formula ((mastery*0.2*(1+x)) + ((power+FTpower)*0.23*(1+y))) * (1+z)
+        //x is the sum of multiplicative mastery bonuses (e.g. mark of power)
+        //y is the sum of multiplicative power bonuses
+        //z is the sum of multiplicative bonus dmg (e.g. unnatural might)
+        let dmgMastery = StatManager.getStat('mastery') * 0.2;
+        let bonusMastery = StatManager.getMultiplierForStat('mastery');
+        if(Settings.getClassBuffs().indexOf('Mastery') !== -1)
+        {
+            bonusMastery += 0.05;
+        }
+        dmgMastery *= bonusMastery;
+
+        let dmgPower = StatManager.getStat('power');
+        let mainhand = SlotManager.getSlot('mainhand').getItem();
+        let offhand = SlotManager.getSlot('mainhand').getItem();
+        dmgPower += StatManager.getFTPowerForItem(mainhand);
+        dmgPower += StatManager.getFTPowerForItem(offhand);
+        dmgPower *= 0.23;
+        dmgPower *= StatManager.getMultiplierForStat('power');
+
+        let dmg = dmgMastery + dmgPower;
+        let bonusDmg = 1;
+        //bonusDmg += StatManager.getMultiplierForStat('dmgFT') - 1; //surprisingly, this does not get applied here
+        //bonusDmg += StatManager.getMultiplierForStat('dmgAll') - 1; //probably doesn't get applied here
+        if(Settings.getClassBuffs().indexOf('Dmg') !== -1)
+        {
+            bonusDmg += 0.05;
+        }
+        dmg *= bonusDmg;
+        //StatManager.setStat('dmg', parseInt(dmg.toFixed(0)));
+        this.calcElDmgBonusFT.innerHTML = dmg.toFixed(1);
     };
     StatController.prototype.updateCalcHealing = function()
     {
-        //TODO
+        //bonus healing formula ((mastery*0.14*(1+x)) + ((power+FTpower)*0.17*(1+y))) * (1+z)
+        //x is the sum of multiplicative mastery bonuses (e.g. mark of power)
+        //y is the sum of multiplicative power bonuses
+        //z is the sum of multiplicative bonus healing (e.g. unnatural might)
+        let healMastery = StatManager.getStat('mastery') * 0.14;
+        let bonusMastery = StatManager.getMultiplierForStat('mastery');
+        /*if(Settings.getClassBuffs().indexOf('Mastery') !== -1)
+        {
+            bonusMastery += 0.05; //already done in getMultiplierForStat
+        }*/
+        healMastery *= bonusMastery;
+
+        let healPower = StatManager.getStat('power');
+        let mainhand = SlotManager.getSlot('mainhand').getItem();
+        let offhand = SlotManager.getSlot('mainhand').getItem();
+        healPower += StatManager.getFTPowerForItem(mainhand);
+        healPower += StatManager.getFTPowerForItem(offhand);
+        healPower *= 0.17;
+        healPower *= StatManager.getMultiplierForStat('power');
+
+        let heal = healMastery + healPower;
+        let bonusHeal = 1;
+        //bonusDmg += StatManager.getMultiplierForStat('bonusHeal') - 1; //surprisingly, this does not get applied here
+        //bonusDmg += StatManager.getMultiplierForStat('dmgFT') - 1; //probably doesn't get applied here
+        //bonusDmg += StatManager.getMultiplierForStat('dmgAll') - 1; //probably doesn't get applied here
+        if(Settings.getClassBuffs().indexOf('Dmg') !== -1)
+        {
+            bonusHeal += 0.05;
+        }
+        heal *= bonusHeal;
+        //StatManager.setStat('healing', parseInt(heal.toFixed(0)));
+        this.calcElHealing.innerHTML = heal.toFixed(1);
     };
     StatController.prototype.updateCalcAlacrity = function()
     {
