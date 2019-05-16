@@ -24,6 +24,7 @@ let StatController = (function()
         this.calcElDmgBonusFT;
         this.calcElHealing;
         this.calcElAlacrity;
+        this.calcElEmpty;
         this.calcElHealth;
         this.calcElArmor;
         this.calcElDmgReduction;
@@ -77,6 +78,7 @@ let StatController = (function()
         this.calcElDmgBonusFT = document.getElementById('calcStatDmgBonusFT');
         this.calcElHealing = document.getElementById('calcStatHealing');
         this.calcElAlacrity = document.getElementById('calcStatAlacrity');
+        this.calcElEmpty = document.getElementById('calcStatEmpty');
         this.calcElHealth = document.getElementById('calcStatHealth');
         this.calcElArmor = document.getElementById('calcStatArmor');
         this.calcElDmgReduction = document.getElementById('calcStatDmgReduction');
@@ -324,6 +326,7 @@ let StatController = (function()
             //TODO:should probably base this by class instead
             this.calcElDmgSec.innerHTML = '0'
             this.calcElDmgSec.parentNode.style.display = 'none';
+            this.calcElEmpty.parentNode.style.display = '';
         }
         else if(['pistol', 'saber', 'knife', 'shotgun'].indexOf(weapon.type.toLowerCase()) !== -1)
         {
@@ -332,11 +335,13 @@ let StatController = (function()
             dmg[1] *= 0.3;
             this.calcElDmgSec.innerHTML = dmg[0].toFixed(0) + ' - ' + dmg[1].toFixed(0);
             this.calcElDmgSec.parentNode.style.display = '';
+            this.calcElEmpty.parentNode.style.display = 'none';
         }
         else
         {
             this.calcElDmgSec.innerHTML = '0'
             this.calcElDmgSec.parentNode.style.display = 'none';
+            this.calcElEmpty.parentNode.style.display = '';
         }
     };
     StatController.prototype.updateCalcDmgBonusMR = function()

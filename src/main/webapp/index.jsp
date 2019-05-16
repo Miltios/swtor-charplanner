@@ -199,68 +199,84 @@
                 <td id="calcStatsOffense">
                     <table class="calc-stats-table-inner">
                         <tr>
-                            <td>Mainhand Damage:</td>
-                            <td id="calcStatDmgPri"></td>
+                            <td class="calc-stat-name">Mainhand Damage:</td>
+                            <td class="calc-stat-value" id="calcStatDmgPri"></td>
                         </tr>
                         <tr>
-                            <td>Offhand Damage:</td>
-                            <td id="calcStatDmgSec"></td>
+                            <td class="calc-stat-name">Offhand Damage:</td>
+                            <td class="calc-stat-value" id="calcStatDmgSec"></td>
                         </tr>
                         <tr>
-                            <td>Bonus Damage (Melee/Ranged):</td>
-                            <td id="calcStatDmgBonusMR"></td>
+                            <td class="calc-stat-name">Bonus Damage (Melee/Ranged):</td>
+                            <td class="calc-stat-value" id="calcStatDmgBonusMR"></td>
                         </tr>
                         <tr>
-                            <td>Accuracy:</td>
-                            <td id="calcStatAccuracy"></td>
+                            <td class="calc-stat-name">Accuracy:</td>
+                            <td class="calc-stat-value" id="calcStatAccuracy"></td>
                         </tr>
                         <tr>
-                            <td>Critical Chance:</td>
-                            <td id="calcStatCritChance"></td>
+                            <td class="calc-stat-name">Critical Chance:</td>
+                            <td class="calc-stat-value" id="calcStatCritChance"></td>
                         </tr>
                         <tr>
-                            <td>Critical Multiplier:</td>
-                            <td id="calcStatCritMult"></td>
+                            <td class="calc-stat-name">Critical Multiplier:</td>
+                            <td class="calc-stat-value" id="calcStatCritMult"></td>
                         </tr>
                         <tr>
-                            <td>Bonus Damage (Force/Tech):</td>
-                            <td id="calcStatDmgBonusFT"></td>
+                            <td class="calc-stat-name">Bonus Damage (Force/Tech):</td>
+                            <td class="calc-stat-value" id="calcStatDmgBonusFT"></td>
                         </tr>
                         <tr>
-                            <td>Bonus Healing:</td>
-                            <td id="calcStatHealing"></td>
+                            <td class="calc-stat-name">Bonus Healing:</td>
+                            <td class="calc-stat-value" id="calcStatHealing"></td>
                         </tr>
                         <tr>
-                            <td>Alacrity:</td>
-                            <td id="calcStatAlacrity"></td>
+                            <td class="calc-stat-name">Alacrity:</td>
+                            <td class="calc-stat-value" id="calcStatAlacrity"></td>
+                        </tr>
+                        <tr>
+                            <td class="calc-stat-name">&nbsp;</td>
+                            <td class="calc-stat-value" id="calcStatEmpty">&nbsp;</td>
                         </tr>
                     </table>
                 </td>
                 <td id="calcStatsDefense">
                     <table class="calc-stats-table-inner">
                         <tr>
-                            <td>Health:</td>
-                            <td id="calcStatHealth"></td>
+                            <td class="calc-stat-name">Health:</td>
+                            <td class="calc-stat-value" id="calcStatHealth"></td>
                         </tr>
                         <tr>
-                            <td>Armor Rating:</td>
-                            <td id="calcStatArmor"></td>
+                            <td class="calc-stat-name">Armor Rating:</td>
+                            <td class="calc-stat-value" id="calcStatArmor"></td>
                         </tr>
                         <tr>
-                            <td>Damage Reduction:</td>
-                            <td id="calcStatDmgReduction"></td>
+                            <td class="calc-stat-name">Damage Reduction:</td>
+                            <td class="calc-stat-value" id="calcStatDmgReduction"></td>
                         </tr>
                         <tr>
-                            <td>Defense Chance:</td>
-                            <td id="calcStatDefense"></td>
+                            <td class="calc-stat-name">Defense Chance:</td>
+                            <td class="calc-stat-value" id="calcStatDefense"></td>
                         </tr>
                         <tr>
-                            <td>Shield Chance:</td>
-                            <td id="calcStatShield"></td>
+                            <td class="calc-stat-name">Shield Chance:</td>
+                            <td class="calc-stat-value" id="calcStatShield"></td>
                         </tr>
                         <tr>
-                            <td>Shield Absorption:</td>
-                            <td id="calcStatAbsorb"></td>
+                            <td class="calc-stat-name">Shield Absorption:</td>
+                            <td class="calc-stat-value" id="calcStatAbsorb"></td>
+                        </tr>
+                        <tr>
+                            <td class="calc-stat-name">&nbsp;</td>
+                            <td class="calc-stat-value">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="calc-stat-name">&nbsp;</td>
+                            <td class="calc-stat-value">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class="calc-stat-name">&nbsp;</td>
+                            <td class="calc-stat-value">&nbsp;</td>
                         </tr>
                     </table>
                 </td>

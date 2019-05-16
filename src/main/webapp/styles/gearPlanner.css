@@ -416,3 +416,33 @@ body.faction-mode-pub .faction-imp
     text-align:right;
     color:#CFE5F1;
 }
+#calcStatsDiv
+{
+    margin-top:20px;
+}
+#calcStatsOffense,
+#calcStatsDefense
+{
+    vertical-align:top;
+}
+.calc-stats-table-inner
+{
+    border-collapse:separate;
+    border:2px solid #96D6F1;
+    border-radius:5px;
+    padding:5px;
+}
+.calc-stats-table-inner td
+{
+    border-bottom:1px solid #23475A;
+}
+.calc-stat-value
+{
+    color:#CFE5F1;
+    text-align:right;
+}
+.calc-stats-table-inner td
+{
+    padding:2px;
+    font-weight:bold;
+}
