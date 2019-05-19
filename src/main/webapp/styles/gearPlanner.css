@@ -66,7 +66,7 @@ body.faction-mode-pub .faction-imp
 }
 #charBodyTable
 {
-    /*width:500px;*/
+    width:600px;
     /*height:1000px;*/
 }
 #charBodyTable td
@@ -75,26 +75,36 @@ body.faction-mode-pub .faction-imp
 }
 .character-slot
 {
-    width:120px;
+    /*width:120px;*/
     /*height:100px;*/
     text-align:center;
 }
-.character-slot-link
+.character-slot-link,
+.augment-slot-link
 {
     display:inline-block;
     cursor:pointer;
+}
+.character-slot-img,
+.mod-slot-img,
+.augment-slot-img
+{
+    border:2px solid grey;
+    border-radius:5px;
 }
 .character-slot-img,
 .mod-slot-img
 {
     width:80px;
     height:80px;
-    border:2px solid grey;
-    border-radius:5px;
 }
 .slot-empty
 {
     border-color:#96D6F1;
+}
+.augment-slot-img.slot-empty
+{
+    border-color:#6B8D9B;
 }
 .slot-green
 {
@@ -419,6 +429,11 @@ body.faction-mode-pub .faction-imp
 #calcStatsDiv
 {
     margin-top:20px;
+    width:600px;
+}
+#calcStatsTable
+{
+    width:100%;
 }
 #calcStatsOffense,
 #calcStatsDefense
@@ -427,6 +442,7 @@ body.faction-mode-pub .faction-imp
 }
 .calc-stats-table-inner
 {
+    width:100%;
     border-collapse:separate;
     border:2px solid #96D6F1;
     border-radius:5px;
@@ -435,14 +451,11 @@ body.faction-mode-pub .faction-imp
 .calc-stats-table-inner td
 {
     border-bottom:1px solid #23475A;
+    padding:2px;
+    font-weight:bold;
 }
 .calc-stat-value
 {
     color:#CFE5F1;
     text-align:right;
-}
-.calc-stats-table-inner td
-{
-    padding:2px;
-    font-weight:bold;
 }

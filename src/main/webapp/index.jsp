@@ -21,6 +21,9 @@
             <tr>
                 <td>
                     <div id="slotEar" class="character-slot">
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_ear.png" />
                         </a>
@@ -89,12 +92,18 @@
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_head.png" />
                         </a>
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotImplant1" class="character-slot">
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_implant.png" />
                         </a>
@@ -106,12 +115,18 @@
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_chest.png" />
                         </a>
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotImplant2" class="character-slot">
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_implant.png" />
                         </a>
@@ -123,12 +138,18 @@
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_hands.png" />
                         </a>
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotWrists" class="character-slot">
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_wrists.png" />
                         </a>
@@ -140,12 +161,18 @@
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_waist.png" />
                         </a>
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotRelic1" class="character-slot">
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_relic.png" />
                         </a>
@@ -157,12 +184,18 @@
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_legs.png" />
                         </a>
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div id="slotRelic2" class="character-slot">
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_relic.png" />
                         </a>
@@ -170,6 +203,9 @@
                 </td>
                 <td>
                     <div id="slotMainhand" class="character-slot">
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" />
                         </a>
@@ -180,12 +216,18 @@
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
+                        </a>
                     </div>
                 </td>
                 <td>
                     <div id="slotFeet" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
                             <img class="character-slot-img slot-empty" src="images/items80/empty_feet.png" />
+                        </a>
+                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                            <img class="augment-slot-img slot-empty" src="images/itemsMisc/empty_augment.png" />
                         </a>
                     </div>
                 </td>
