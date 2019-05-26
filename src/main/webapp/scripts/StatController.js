@@ -256,9 +256,14 @@ let StatController = (function()
             if(slots.hasOwnProperty(i))
             {
                 let item = slots[i].getItem();
+                let aug = slots[i].getAugment();
                 if(item !== null)
                 {
                     gearStats = this.addStats(gearStats, item.getStats());
+                }
+                if(aug !== null)
+                {
+                    gearStats = this.addStats(gearStats, aug.getStats());
                 }
             }
         }

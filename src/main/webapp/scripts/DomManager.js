@@ -10,6 +10,7 @@ let DomManager = (function()
         this.itemListPurple;
         this.itemListGold;
         this.itemListEmpty;
+        this.augmentPicker;
     }
     DomManager.prototype.init = function()
     {
@@ -24,6 +25,7 @@ let DomManager = (function()
         this.itemListPurple = document.getElementById('itemListPurple');
         this.itemListGold = document.getElementById('itemListGold');
         this.itemListEmpty = document.getElementById('itemListEmpty'); //just a dummy list to take up space in the layout if there aren't enough real lists display
+        this.augmentPicker = document.getElementById('augPicker');
 
         log('DomManager initialized.');
     };
@@ -67,6 +69,10 @@ let DomManager = (function()
     DomManager.prototype.getItemPicker = function()
     {
         return this.itemPicker;
+    };
+    DomManager.prototype.getAugmentPicker = function()
+    {
+        return this.augmentPicker;
     };
     DomManager.prototype.getItemList = function(color)
     {

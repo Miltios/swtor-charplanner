@@ -29,6 +29,13 @@ let DomController = (function()
                 }
                 break;
             }
+            case 'augSlot':
+            {
+                let slot = DomManager.getSlot(el);
+                SlotManager.setCurrentSlot(slot);
+                this.spawnAugmentPicker(slot);
+                break;
+            }
             case 'factionToggle':
             {
                 Settings.updateFactionButtons(el);
@@ -113,34 +120,6 @@ let DomController = (function()
                 {
                     PickerController.populateCurrentItemForSlot(currSlot);
                 }
-                //TODO: update stats:
-                    //arsenal merc gets +3% alacrity
-                    //corruption sorc gets +3% force crit chance, 3% dmg reduction, +3% bonus healing
-                    //bodyguard merc gets +3% healing/dmg, +5% dmg reduction +3% tech crit chance, +5% bonus healing
-                    //IO merc gets +5% ranged crit chance
-                    //concealment op gets +2% def chance
-                    //carnage mara gets +3% alacrity, +25% offhand dmg, +2% dmg reduction
-                    //fury mara gets +5% saber dmg, +3% force dmg, +10% crit dmg
-                    //immortal jugg gets +60% armor (+15% additional armor),
-                        //+6% dmg reduction, +15% shield chance, +10% accuracy, -10% dmg dealt,
-                        //+3% melee/ranged def, +4% shield chance, +5% elemental/internal dmg reduction
-                    //vengeance jugg gets +6% dmg, +5% melee dmg, +5% dmg reduction
-                    //rage jugg gets +5% saber dmg, +3% force dmg, +15% crit dmg
-                    //darkness sin gets -10% dmg dealt, +130% armor (+20% additional armor), +15% shield chance, +10% accuracy
-                        //+25% dmg reduction, +30% force regen, +10% internal/elemental dmg reduction
-                        //+4% melee/ranged def, +2% def, +4% absorb, +2% dmg reduction, +2% endurance
-                    //shield tech pt gets +60% armor rating (+15% additional armor), +5% dmg reduction, +15% shield chance, +10% accuracy, -10% dmg dealt
-                        //+2% shield chance, +2% dmg reduction (+2% additional dmg reduction), +4% melee/ranged def, +4% absorb
-                    //pyrotech pt gets +5% internal/elemental dmg reduction
-                    //AP pt gets +3% melee/ranged def +2% ranged/tech crit chance
-
-                    //percentage bonuses are additive with calculated primary stat values
-                    //e.g. X amount of raw alacrity gives a 4% speed bonus, and arsenal gets +3% alacrity, so an arsenal merc with X alacrity gets +7% speed
-
-                    //raw primary stats are calculated with "base" (from leveling/datacrons) and "bonus" (from gear/companion buffs?)
-                    //e.g. a level 1 can increase their base mastery by becoming level 2/getting a datacron,
-                    //or increase their bonus mastery by putting on gear (or finishing companion story, in the case of presence).
-                    //both will increase the absolute mastery stat arithmetically, which later gets used to calculate damage/crit/etc.
                 break;
             }
             case 'specSelect':
@@ -155,6 +134,14 @@ let DomController = (function()
                 break;
             case 'updateItemRatings':
                 PickerController.updateLists();
+                break;
+            case 'augTypeSelect':
+                PickerController.showHideAugRatings();
+                PickerController.setCurrentAug();
+                break;
+            case 'augRatingSelect':
+                PickerController.showHideAugTypes();
+                PickerController.setCurrentAug();
                 break;
         }
         StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here
@@ -178,6 +165,16 @@ let DomController = (function()
     DomController.prototype.hideItemPicker = function()
     {
         DomManager.getItemPicker().style.display = 'none';
+    };
+    DomController.prototype.spawnAugmentPicker = function(slot)
+    {
+        let pickerEl = DomManager.getAugmentPicker();
+        PickerController.populateCurrentAugForSlot(slot);
+        pickerEl.style.display = '';
+    };
+    DomController.prototype.hideAugmentPicker = function()
+    {
+        DomManager.getAugmentPicker().style.display = 'none';
     };
     DomController.prototype.clearItemLists = function()
     {

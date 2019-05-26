@@ -2054,3 +2054,33 @@ ItemId,Name,tempIdDuplicate,Slot,Rating,Color,DynamicSlot,Description,Disabled,I
 2053,Iokath MK-5 Weaponmaster's Greaves,2053,legs,242,gold,armoring,"<span class='description-setbonus-2'>(2) Battering Assault or Zealous Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 seconds.</span><span class='description-setbonus-4'>(4) Reduces the cooldown of Frenzy or Valorous Call by 15 seconds. Additionally, activating Berserk or Zen increases all damage dealt by 3% for 10 seconds.</span><span class='description-setbonus-6'>(6) Activating Ravage, Blade Barrage, Dual Saber Throw, or Twin Saber Throw will grant Weaponmaster's/Challenger's Critical Bonus making your next Gore, Furious Strike and Annihilate or Lance, Concentrated Slice and Merciless Slash critically hit. This effect can't occur more than once every minute.</span>",0,legs_stalker.png,armor
 2054,Iokath MK-5 Weaponmaster's Headgear,2054,head,242,gold,armoring,"<span class='description-setbonus-2'>(2) Battering Assault or Zealous Strike increases damage dealt by 2% for 15 seconds. Cannot occur more than once every 30 seconds.</span><span class='description-setbonus-4'>(4) Reduces the cooldown of Frenzy or Valorous Call by 15 seconds. Additionally, activating Berserk or Zen increases all damage dealt by 3% for 10 seconds.</span><span class='description-setbonus-6'>(6) Activating Ravage, Blade Barrage, Dual Saber Throw, or Twin Saber Throw will grant Weaponmaster's/Challenger's Critical Bonus making your next Gore, Furious Strike and Annihilate or Lance, Concentrated Slice and Merciless Slash critically hit. This effect can't occur more than once every minute.</span>",0,head_stalker.png,armor
 2055,Iokath MK-5 Weaponmaster's Offhand Saber,2055,offhand,242,gold,hilt,,0,saber_warleader.png,saber
+2056,Advanced Absorb Augment 45,2056,augment,228,purple,,,0,augment_blue.png,aug_absorption
+2057,Advanced Accuracy Augment 45,2057,augment,228,purple,,,0,augment_red.png,aug_accuracy
+2058,Advanced Alacrity Augment 45,2058,augment,228,purple,,,0,augment_red.png,aug_alacrity
+2059,Advanced Critical Augment 45,2059,augment,228,purple,,,0,augment_red.png,aug_crit
+2060,Advanced Fortitude Augment 45,2060,augment,228,purple,,,0,augment_blue.png,aug_endurance
+2061,Advanced Overkill Augment 45,2061,augment,228,purple,,,0,augment_red.png,aug_power
+2062,Advanced Redoubt Augment 45,2062,augment,228,purple,,,0,augment_blue.png,aug_defense
+2063,Advanced Shield Augment 45,2063,augment,228,purple,,,0,augment_blue.png,aug_shield
+2064,Advanced Versatile Augment 45,2064,augment,228,purple,,,0,augment_red.png,aug_mastery
+2065,Advanced Absorb Augment 46,2065,augment,230,purple,,,0,augment_blue.png,aug_absorption
+2066,Advanced Accuracy Augment 46,2066,augment,230,purple,,,0,augment_red.png,aug_accuracy
+2067,Advanced Alacrity Augment 46,2067,augment,230,purple,,,0,augment_red.png,aug_alacrity
+2068,Advanced Critical Augment 46,2068,augment,230,purple,,,0,augment_red.png,aug_crit
+2069,Advanced Redoubt Augment 46,2069,augment,230,purple,,,0,augment_blue.png,aug_defense
+2070,Advanced Shield Augment 46,2070,augment,230,purple,,,0,augment_blue.png,aug_shield
+2071,Advanced Versatile Augment 46,2071,augment,230,purple,,,0,augment_red.png,aug_mastery
+2072,Superior Absorb Augment 46,2072,augment,236,gold,,,0,augment_blue.png,aug_absorption
+2073,Superior Accuracy Augment 46,2073,augment,236,gold,,,0,augment_red.png,aug_accuracy
+2074,Superior Alacrity Augment 46,2074,augment,236,gold,,,0,augment_red.png,aug_alacrity
+2075,Superior Critical Augment 46,2075,augment,236,gold,,,0,augment_red.png,aug_crit
+2076,Superior Redoubt Augment 46,2076,augment,236,gold,,,0,augment_blue.png,aug_defense
+2077,Superior Shield Augment 46,2077,augment,236,gold,,,0,augment_blue.png,aug_shield
+2078,Superior Versatile Augment 46,2078,augment,236,gold,,,0,augment_red.png,aug_mastery
+2079,Superior Absorb Augment 48,2079,augment,240,gold,,,0,augment_blue.png,aug_absorption
+2080,Superior Accuracy Augment 48,2080,augment,240,gold,,,0,augment_red.png,aug_accuracy
+2081,Superior Alacrity Augment 48,2081,augment,240,gold,,,0,augment_red.png,aug_alacrity
+2082,Superior Critical Augment 48,2082,augment,240,gold,,,0,augment_red.png,aug_crit
+2083,Superior Redoubt Augment 48,2083,augment,240,gold,,,0,augment_blue.png,aug_defense
+2084,Superior Shield Augment 48,2084,augment,240,gold,,,0,augment_blue.png,aug_shield
+2085,Superior Versatile Augment 48,2085,augment,240,gold,,,0,augment_red.png,aug_mastery

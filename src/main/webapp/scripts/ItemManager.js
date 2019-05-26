@@ -130,6 +130,19 @@ let ItemManager = (function()
     {
         return this.filterListForClassAndSlot(className, slotName, this.itemMods);
     };
+    ItemManager.prototype.getAugmentForTypeAndRating = function(type, rating)
+    {
+        if(type !== 'none')
+        {
+            type = 'aug_' + type;
+            let augs = this.items.filter(i => (i.type===type && i.rating === rating));
+            if(augs.length === 1)
+            {
+                return augs[0];
+            }
+        }
+        return null;
+    }
     ItemManager.prototype.addItem = function(data)
     {
         //not actually used yet

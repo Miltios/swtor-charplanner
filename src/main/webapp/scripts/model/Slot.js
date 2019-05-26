@@ -2,12 +2,14 @@ function Slot(name, isSubSlot)
 {
     this.name = name;
     this.item = null;
+    this.augment = null;
     this.allowedSlots = {};
     this.isSubSlot = (isSubSlot === true);
     //this.isSubSlot = (['dynamic', 'armoring', 'barrel', 'hilt', 'mod', 'enhancement', 'crystal'].indexOf(this.name) !== -1);
 
     let className = (this.isSubSlot ? 'mod' : 'character') + '-slot-img';
     this.imgEl = this.getEl().getElementsByClassName(className)[0];
+    this.augImgEl = this.getEl().getElementsByClassName('augment-slot-img')[0];
 }
 Slot.prototype.getName = function()
 {
@@ -33,6 +35,10 @@ Slot.prototype.getItem = function()
 {
     return this.item;
 };
+Slot.prototype.getAugment = function()
+{
+    return this.augment;
+};
 Slot.prototype.setItem = function(item)
 {
     if(item === null)
@@ -57,10 +63,21 @@ Slot.prototype.setItem = function(item)
     this.item = item;
     this.updateAppearance();
 };
+Slot.prototype.setAugment = function(aug)
+{
+    if(aug && aug.slot !== 'augment')
+    {
+        console.error('Attempted to add non-augment type "' + aug.slot + '" to augment slot "' + this.getGenericName() + '"!');
+        alert('This slot cannot accept that item.');
+        return;
+    }
+    this.augment = aug;
+    this.updateAugAppearance();
+};
 Slot.prototype.isSubSlot = function()
 {
     return this.isSubSlot;
-}
+};
 Slot.prototype.allow = function(type, allow)
 {
     this.allowedSlots[type] = allow;
@@ -76,7 +93,7 @@ Slot.prototype.allows = function(type)
 Slot.prototype.getEl = function()
 {
     return document.getElementById('slot' + Utilities.capitalizeFirstLetter(this.getName()));
-}
+};
 Slot.prototype.updateAppearance = function()
 {
     let item = this.getItem();
@@ -106,6 +123,20 @@ Slot.prototype.updateAppearance = function()
             this.imgEl.src = 'images/items80/' + SlotManager.getImageForEmptySlot(this);
         }
     }
-}
+};
+Slot.prototype.updateAugAppearance = function()
+{
+    let aug = this.getAugment();
+    if(aug !== null)
+    {
+        this.augImgEl.className = 'augment-slot-img slot-' + aug.color;
+        this.augImgEl.src = 'images/items50/' + aug.image;
+    }
+    else
+    {
+        this.augImgEl.className = 'augment-slot-img slot-empty';
+        this.augImgEl.src = 'images/items50/empty_augment.png';
+    }
+};
 
 declareReady('Slot.js', null);
