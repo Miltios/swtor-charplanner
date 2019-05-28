@@ -1,399 +1,399 @@
-tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Image
-0noneall,1,empty,1,all,0,none,empty_mod.png
-228greenarmoring,2,Resistive Armoring 54,2,armoring,228,green,armoring_resistive.png
-228greenarmoring,3,Versatile Armoring 54,3,armoring,228,green,armoring_versatile.png
-230bluearmoring,4,Resistive Armoring 50,4,armoring,230,blue,armoring_resistive.png
-230bluearmoring,5,Versatile Armoring 50,5,armoring,230,blue,armoring_versatile.png
-230purplearmoring,6,Advanced Resistive Armoring 46,6,armoring,230,purple,armoring_resistive.png
-230purplearmoring,7,Advanced Versatile Armoring 46,7,armoring,230,purple,armoring_versatile.png
-232greenarmoring,8,Resistive Armoring 56,8,armoring,232,green,armoring_resistive.png
-232greenarmoring,9,Versatile Armoring 56,9,armoring,232,green,armoring_versatile.png
-234bluearmoring,10,Resistive Armoring 52,10,armoring,234,blue,armoring_resistive.png
-234bluearmoring,11,Versatile Armoring 52,11,armoring,234,blue,armoring_versatile.png
-234purplearmoring,12,Advanced Resistive Armoring 48,12,armoring,234,purple,armoring_resistive.png
-234purplearmoring,13,Advanced Versatile Armoring 48,13,armoring,234,purple,armoring_versatile.png
-236goldarmoring,14,Resistive Armoring 46,14,armoring,236,gold,armoring_resistive.png
-236goldarmoring,15,Versatile Armoring 46,15,armoring,236,gold,armoring_versatile.png
-238greenarmoring,16,Resistive Armoring 59,16,armoring,238,green,armoring_resistive.png
-238greenarmoring,17,Versatile Armoring 59,17,armoring,238,green,armoring_versatile.png
-240bluearmoring,18,Resistive Armoring 55,18,armoring,240,blue,armoring_resistive.png
-240bluearmoring,19,Versatile Armoring 55,19,armoring,240,blue,armoring_versatile.png
-240purplearmoring,20,Advanced Resistive Armoring 51,20,armoring,240,purple,armoring_resistive.png
-240purplearmoring,21,Advanced Versatile Armoring 51,21,armoring,240,purple,armoring_versatile.png
-242goldarmoring,22,Resistive Armoring 49,22,armoring,242,gold,armoring_resistive.png
-242goldarmoring,23,Versatile Armoring 49,23,armoring,242,gold,armoring_versatile.png
-244greenarmoring,24,Resistive Armoring 62,24,armoring,244,green,armoring_resistive.png
-244greenarmoring,25,Versatile Armoring 62,25,armoring,244,green,armoring_versatile.png
-244bluearmoring,26,Resistive Armoring 57,26,armoring,244,blue,armoring_resistive.png
-244bluearmoring,27,Versatile Armoring 57,27,armoring,244,blue,armoring_versatile.png
-246purplearmoring,28,Advanced Resistive Armoring 54,28,armoring,246,purple,armoring_resistive.png
-246purplearmoring,29,Advanced Versatile Armoring 54,29,armoring,246,purple,armoring_versatile.png
-248goldarmoring,30,Resistive Armoring 52,30,armoring,248,gold,armoring_resistive.png
-248goldarmoring,31,Versatile Armoring 52,31,armoring,248,gold,armoring_versatile.png
-228greenmod,32,Lethal Mod 54,32,mod,228,green,mod_lethal.png
-228greenmod,33,Lethal Mod 54A,33,mod,228,green,mod_lethal.png
-228greenmod,34,Lethal Mod 54B,34,mod,228,green,mod_lethal.png
-232greenmod,35,Lethal Mod 56,35,mod,232,green,mod_lethal.png
-232greenmod,36,Lethal Mod 56A,36,mod,232,green,mod_lethal.png
-232greenmod,37,Lethal Mod 56B,37,mod,232,green,mod_lethal.png
-238greenmod,38,Lethal Mod 59,38,mod,238,green,mod_lethal.png
-238greenmod,39,Lethal Mod 59A,39,mod,238,green,mod_lethal.png
-238greenmod,40,Lethal Mod 59B,40,mod,238,green,mod_lethal.png
-244greenmod,41,Lethal Mod 62,41,mod,244,green,mod_lethal.png
-244greenmod,42,Lethal Mod 62A,42,mod,244,green,mod_lethal.png
-244greenmod,43,Lethal Mod 62B,43,mod,244,green,mod_lethal.png
-228greenmod,44,Warding Mod 54,44,mod,228,green,mod_warding.png
-228greenmod,45,Warding Mod 54A,45,mod,228,green,mod_warding.png
-228greenmod,46,Warding Mod 54B,46,mod,228,green,mod_warding.png
-232greenmod,47,Warding Mod 56,47,mod,232,green,mod_warding.png
-232greenmod,48,Warding Mod 56A,48,mod,232,green,mod_warding.png
-232greenmod,49,Warding Mod 56B,49,mod,232,green,mod_warding.png
-238greenmod,50,Warding Mod 59,50,mod,238,green,mod_warding.png
-238greenmod,51,Warding Mod 59A,51,mod,238,green,mod_warding.png
-238greenmod,52,Warding Mod 59B,52,mod,238,green,mod_warding.png
-244greenmod,53,Warding Mod 62,53,mod,244,green,mod_warding.png
-244greenmod,54,Warding Mod 62A,54,mod,244,green,mod_warding.png
-244greenmod,55,Warding Mod 62B,55,mod,244,green,mod_warding.png
-230bluemod,56,Lethal Mod 50,56,mod,230,blue,mod_lethal.png
-230bluemod,57,Lethal Mod 50A,57,mod,230,blue,mod_lethal.png
-230bluemod,58,Lethal Mod 50B,58,mod,230,blue,mod_lethal.png
-234bluemod,59,Lethal Mod 52,59,mod,234,blue,mod_lethal.png
-234bluemod,60,Lethal Mod 52A,60,mod,234,blue,mod_lethal.png
-234bluemod,61,Lethal Mod 52B,61,mod,234,blue,mod_lethal.png
-240bluemod,62,Lethal Mod 55,62,mod,240,blue,mod_lethal.png
-240bluemod,63,Lethal Mod 55A,63,mod,240,blue,mod_lethal.png
-240bluemod,64,Lethal Mod 55B,64,mod,240,blue,mod_lethal.png
-244bluemod,65,Lethal Mod 57,65,mod,244,blue,mod_lethal.png
-244bluemod,66,Lethal Mod 57A,66,mod,244,blue,mod_lethal.png
-244bluemod,67,Lethal Mod 57B,67,mod,244,blue,mod_lethal.png
-230bluemod,68,Warding Mod 50,68,mod,230,blue,mod_warding.png
-230bluemod,69,Warding Mod 50A,69,mod,230,blue,mod_warding.png
-230bluemod,70,Warding Mod 50B,70,mod,230,blue,mod_warding.png
-234bluemod,71,Warding Mod 52,71,mod,234,blue,mod_warding.png
-234bluemod,72,Warding Mod 52A,72,mod,234,blue,mod_warding.png
-234bluemod,73,Warding Mod 52B,73,mod,234,blue,mod_warding.png
-240bluemod,74,Warding Mod 55,74,mod,240,blue,mod_warding.png
-240bluemod,75,Warding Mod 55A,75,mod,240,blue,mod_warding.png
-240bluemod,76,Warding Mod 55B,76,mod,240,blue,mod_warding.png
-244bluemod,77,Warding Mod 57,77,mod,244,blue,mod_warding.png
-244bluemod,78,Warding Mod 57A,78,mod,244,blue,mod_warding.png
-244bluemod,79,Warding Mod 57B,79,mod,244,blue,mod_warding.png
-230purplemod,80,Advanced Lethal Mod 46,80,mod,230,purple,mod_lethal.png
-230purplemod,81,Advanced Lethal Mod 46A,81,mod,230,purple,mod_lethal.png
-230purplemod,82,Advanced Lethal Mod 46B,82,mod,230,purple,mod_lethal.png
-234purplemod,83,Advanced Lethal Mod 48,83,mod,234,purple,mod_lethal.png
-234purplemod,84,Advanced Lethal Mod 48A,84,mod,234,purple,mod_lethal.png
-234purplemod,85,Advanced Lethal Mod 48B,85,mod,234,purple,mod_lethal.png
-240purplemod,86,Advanced Lethal Mod 51,86,mod,240,purple,mod_lethal.png
-240purplemod,87,Advanced Lethal Mod 51A,87,mod,240,purple,mod_lethal.png
-240purplemod,88,Advanced Lethal Mod 51B,88,mod,240,purple,mod_lethal.png
-246purplemod,89,Advanced Lethal Mod 54,89,mod,246,purple,mod_lethal.png
-246purplemod,90,Advanced Lethal Mod 54A,90,mod,246,purple,mod_lethal.png
-246purplemod,91,Advanced Lethal Mod 54B,91,mod,246,purple,mod_lethal.png
-230purplemod,92,Advanced Warding Mod 46,92,mod,230,purple,mod_warding.png
-230purplemod,93,Advanced Warding Mod 46A,93,mod,230,purple,mod_warding.png
-230purplemod,94,Advanced Warding Mod 46B,94,mod,230,purple,mod_warding.png
-234purplemod,95,Advanced Warding Mod 48,95,mod,234,purple,mod_warding.png
-234purplemod,96,Advanced Warding Mod 48A,96,mod,234,purple,mod_warding.png
-234purplemod,97,Advanced Warding Mod 48B,97,mod,234,purple,mod_warding.png
-240purplemod,98,Advanced Warding Mod 51,98,mod,240,purple,mod_warding.png
-240purplemod,99,Advanced Warding Mod 51A,99,mod,240,purple,mod_warding.png
-240purplemod,100,Advanced Warding Mod 51B,100,mod,240,purple,mod_warding.png
-246purplemod,101,Advanced Warding Mod 54,101,mod,246,purple,mod_warding.png
-246purplemod,102,Advanced Warding Mod 54A,102,mod,246,purple,mod_warding.png
-246purplemod,103,Advanced Warding Mod 54B,103,mod,246,purple,mod_warding.png
-236goldmod,104,Lethal Mod 46,104,mod,236,gold,mod_lethal.png
-242goldmod,105,Lethal Mod 49,105,mod,242,gold,mod_lethal.png
-248goldmod,106,Lethal Mod 52,106,mod,248,gold,mod_lethal.png
-236goldmod,107,Warding Mod 46,107,mod,236,gold,mod_warding.png
-242goldmod,108,Warding Mod 49,108,mod,242,gold,mod_warding.png
-248goldmod,109,Warding Mod 52,109,mod,248,gold,mod_warding.png
-236goldenhancement,110,Adept Enhancement 46,110,enhancement,236,gold,enhancement_adept.png
-242goldenhancement,111,Adept Enhancement 49,111,enhancement,242,gold,enhancement_adept.png
-248goldenhancement,112,Adept Enhancement 52,112,enhancement,248,gold,enhancement_adept.png
-236goldenhancement,113,Barrage Enhancement 46,113,enhancement,236,gold,enhancement_quicksavant.png
-242goldenhancement,114,Barrage Enhancement 49,114,enhancement,242,gold,enhancement_quicksavant.png
-248goldenhancement,115,Barrage Enhancement 52,115,enhancement,248,gold,enhancement_quicksavant.png
-236goldenhancement,116,Bastion Enhancement 46,116,enhancement,236,gold,enhancement_bastion.png
-242goldenhancement,117,Bastion Enhancement 49,117,enhancement,242,gold,enhancement_bastion.png
-248goldenhancement,118,Bastion Enhancement 52,118,enhancement,248,gold,enhancement_bastion.png
-236goldenhancement,119,Bulwark Enhancement 46,119,enhancement,236,gold,enhancement_bulwark.png
-242goldenhancement,120,Bulwark Enhancement 49,120,enhancement,242,gold,enhancement_bulwark.png
-248goldenhancement,121,Bulwark Enhancement 52,121,enhancement,248,gold,enhancement_bulwark.png
-236goldenhancement,122,Discipline Enhancement 46,122,enhancement,236,gold,enhancement_discipline.png
-242goldenhancement,123,Discipline Enhancement 49,123,enhancement,242,gold,enhancement_discipline.png
-248goldenhancement,124,Discipline Enhancement 52,124,enhancement,248,gold,enhancement_discipline.png
-236goldenhancement,125,Efficient Enhancement 46,125,enhancement,236,gold,enhancement_efficient.png
-242goldenhancement,126,Efficient Enhancement 49,126,enhancement,242,gold,enhancement_efficient.png
-248goldenhancement,127,Efficient Enhancement 52,127,enhancement,248,gold,enhancement_efficient.png
-236goldenhancement,128,Immunity Enhancement 46,128,enhancement,236,gold,enhancement_bastion.png
-242goldenhancement,129,Immunity Enhancement 49,129,enhancement,242,gold,enhancement_bastion.png
-248goldenhancement,130,Immunity Enhancement 52,130,enhancement,248,gold,enhancement_bastion.png
-236goldenhancement,131,Initiative Enhancement 46,131,enhancement,236,gold,enhancement_initiative.png
-242goldenhancement,132,Initiative Enhancement 49,132,enhancement,242,gold,enhancement_initiative.png
-248goldenhancement,133,Initiative Enhancement 52,133,enhancement,248,gold,enhancement_initiative.png
-236goldenhancement,134,Proficient Enhancement 46,134,enhancement,236,gold,enhancement_initiative.png
-242goldenhancement,135,Proficient Enhancement 49,135,enhancement,242,gold,enhancement_initiative.png
-248goldenhancement,136,Proficient Enhancement 52,136,enhancement,248,gold,enhancement_initiative.png
-236goldenhancement,137,Quick Savant Enhancement 46,137,enhancement,236,gold,enhancement_quicksavant.png
-242goldenhancement,138,Quick Savant Enhancement 49,138,enhancement,242,gold,enhancement_quicksavant.png
-248goldenhancement,139,Quick Savant Enhancement 52,139,enhancement,248,gold,enhancement_quicksavant.png
-236goldenhancement,140,Savant Enhancement 46,140,enhancement,236,gold,enhancement_quicksavant.png
-242goldenhancement,141,Savant Enhancement 49,141,enhancement,242,gold,enhancement_quicksavant.png
-248goldenhancement,142,Savant Enhancement 52,142,enhancement,248,gold,enhancement_quicksavant.png
-236goldenhancement,143,Steadfast Enhancement 46,143,enhancement,236,gold,enhancement_bastion.png
-242goldenhancement,144,Steadfast Enhancement 49,144,enhancement,242,gold,enhancement_bastion.png
-248goldenhancement,145,Steadfast Enhancement 52,145,enhancement,248,gold,enhancement_bastion.png
-236goldenhancement,146,Studious Enhancement 46,146,enhancement,236,gold,enhancement_initiative.png
-242goldenhancement,147,Studious Enhancement 49,147,enhancement,242,gold,enhancement_initiative.png
-248goldenhancement,148,Studious Enhancement 52,148,enhancement,248,gold,enhancement_initiative.png
-236goldenhancement,149,Sturdiness Enhancement 46,149,enhancement,236,gold,enhancement_bulwark.png
-242goldenhancement,150,Sturdiness Enhancement 49,150,enhancement,242,gold,enhancement_bulwark.png
-248goldenhancement,151,Sturdiness Enhancement 52,151,enhancement,248,gold,enhancement_bulwark.png
-236goldenhancement,152,Vigilant Enhancement 46,152,enhancement,236,gold,enhancement_bulwark.png
-242goldenhancement,153,Vigilant Enhancement 49,153,enhancement,242,gold,enhancement_bulwark.png
-248goldenhancement,154,Vigilant Enhancement 52,154,enhancement,248,gold,enhancement_bulwark.png
-230purpleenhancement,155,Advanced Adept Enhancement 46,155,enhancement,230,purple,enhancement_adept.png
-234purpleenhancement,156,Advanced Adept Enhancement 48,156,enhancement,234,purple,enhancement_adept.png
-240purpleenhancement,157,Advanced Adept Enhancement 51,157,enhancement,240,purple,enhancement_adept.png
-246purpleenhancement,158,Advanced Adept Enhancement 54,158,enhancement,246,purple,enhancement_adept.png
-230purpleenhancement,159,Advanced Barrage Enhancement 46,159,enhancement,230,purple,enhancement_quicksavant.png
-234purpleenhancement,160,Advanced Barrage Enhancement 48,160,enhancement,234,purple,enhancement_quicksavant.png
-240purpleenhancement,161,Advanced Barrage Enhancement 51,161,enhancement,240,purple,enhancement_quicksavant.png
-246purpleenhancement,162,Advanced Barrage Enhancement 54,162,enhancement,246,purple,enhancement_quicksavant.png
-230purpleenhancement,163,Advanced Bastion Enhancement 46,163,enhancement,230,purple,enhancement_bastion.png
-234purpleenhancement,164,Advanced Bastion Enhancement 48,164,enhancement,234,purple,enhancement_bastion.png
-240purpleenhancement,165,Advanced Bastion Enhancement 51,165,enhancement,240,purple,enhancement_bastion.png
-246purpleenhancement,166,Advanced Bastion Enhancement 54,166,enhancement,246,purple,enhancement_bastion.png
-230purpleenhancement,167,Advanced Bulwark Enhancement 46,167,enhancement,230,purple,enhancement_bulwark.png
-234purpleenhancement,168,Advanced Bulwark Enhancement 48,168,enhancement,234,purple,enhancement_bulwark.png
-240purpleenhancement,169,Advanced Bulwark Enhancement 51,169,enhancement,240,purple,enhancement_bulwark.png
-246purpleenhancement,170,Advanced Bulwark Enhancement 54,170,enhancement,246,purple,enhancement_bulwark.png
-230purpleenhancement,171,Advanced Discipline Enhancement 46,171,enhancement,230,purple,enhancement_discipline.png
-234purpleenhancement,172,Advanced Discipline Enhancement 48,172,enhancement,234,purple,enhancement_discipline.png
-240purpleenhancement,173,Advanced Discipline Enhancement 51,173,enhancement,240,purple,enhancement_discipline.png
-246purpleenhancement,174,Advanced Discipline Enhancement 54,174,enhancement,246,purple,enhancement_discipline.png
-230purpleenhancement,175,Advanced Efficient Enhancement 46,175,enhancement,230,purple,enhancement_efficient.png
-234purpleenhancement,176,Advanced Efficient Enhancement 48,176,enhancement,234,purple,enhancement_efficient.png
-240purpleenhancement,177,Advanced Efficient Enhancement 51,177,enhancement,240,purple,enhancement_efficient.png
-246purpleenhancement,178,Advanced Efficient Enhancement 54,178,enhancement,246,purple,enhancement_efficient.png
-230purpleenhancement,179,Advanced Immunity Enhancement 46,179,enhancement,230,purple,enhancement_bastion.png
-234purpleenhancement,180,Advanced Immunity Enhancement 48,180,enhancement,234,purple,enhancement_bastion.png
-240purpleenhancement,181,Advanced Immunity Enhancement 51,181,enhancement,240,purple,enhancement_bastion.png
-246purpleenhancement,182,Advanced Immunity Enhancement 54,182,enhancement,246,purple,enhancement_bastion.png
-230purpleenhancement,183,Advanced Initiative Enhancement 46,183,enhancement,230,purple,enhancement_initiative.png
-234purpleenhancement,184,Advanced Initiative Enhancement 48,184,enhancement,234,purple,enhancement_initiative.png
-240purpleenhancement,185,Advanced Initiative Enhancement 51,185,enhancement,240,purple,enhancement_initiative.png
-246purpleenhancement,186,Advanced Initiative Enhancement 54,186,enhancement,246,purple,enhancement_initiative.png
-230purpleenhancement,187,Advanced Proficient Enhancement 46,187,enhancement,230,purple,enhancement_initiative.png
-234purpleenhancement,188,Advanced Proficient Enhancement 48,188,enhancement,234,purple,enhancement_initiative.png
-240purpleenhancement,189,Advanced Proficient Enhancement 51,189,enhancement,240,purple,enhancement_initiative.png
-246purpleenhancement,190,Advanced Proficient Enhancement 54,190,enhancement,246,purple,enhancement_initiative.png
-230purpleenhancement,191,Advanced Quick Savant Enhancement 46,191,enhancement,230,purple,enhancement_quicksavant.png
-234purpleenhancement,192,Advanced Quick Savant Enhancement 48,192,enhancement,234,purple,enhancement_quicksavant.png
-240purpleenhancement,193,Advanced Quick Savant Enhancement 51,193,enhancement,240,purple,enhancement_quicksavant.png
-246purpleenhancement,194,Advanced Quick Savant Enhancement 54,194,enhancement,246,purple,enhancement_quicksavant.png
-230purpleenhancement,195,Advanced Savant Enhancement 46,195,enhancement,230,purple,enhancement_quicksavant.png
-234purpleenhancement,196,Advanced Savant Enhancement 48,196,enhancement,234,purple,enhancement_quicksavant.png
-240purpleenhancement,197,Advanced Savant Enhancement 51,197,enhancement,240,purple,enhancement_quicksavant.png
-246purpleenhancement,198,Advanced Savant Enhancement 54,198,enhancement,246,purple,enhancement_quicksavant.png
-230purpleenhancement,199,Advanced Steadfast Enhancement 46,199,enhancement,230,purple,enhancement_bastion.png
-234purpleenhancement,200,Advanced Steadfast Enhancement 48,200,enhancement,234,purple,enhancement_bastion.png
-240purpleenhancement,201,Advanced Steadfast Enhancement 51,201,enhancement,240,purple,enhancement_bastion.png
-246purpleenhancement,202,Advanced Steadfast Enhancement 54,202,enhancement,246,purple,enhancement_bastion.png
-230purpleenhancement,203,Advanced Studious Enhancement 46,203,enhancement,230,purple,enhancement_initiative.png
-234purpleenhancement,204,Advanced Studious Enhancement 48,204,enhancement,234,purple,enhancement_initiative.png
-240purpleenhancement,205,Advanced Studious Enhancement 51,205,enhancement,240,purple,enhancement_initiative.png
-246purpleenhancement,206,Advanced Studious Enhancement 54,206,enhancement,246,purple,enhancement_initiative.png
-230purpleenhancement,207,Advanced Sturdiness Enhancement 46,207,enhancement,230,purple,enhancement_bulwark.png
-234purpleenhancement,208,Advanced Sturdiness Enhancement 48,208,enhancement,234,purple,enhancement_bulwark.png
-240purpleenhancement,209,Advanced Sturdiness Enhancement 51,209,enhancement,240,purple,enhancement_bulwark.png
-246purpleenhancement,210,Advanced Sturdiness Enhancement 54,210,enhancement,246,purple,enhancement_bulwark.png
-230purpleenhancement,211,Advanced Vigilant Enhancement 46,211,enhancement,230,purple,enhancement_bulwark.png
-234purpleenhancement,212,Advanced Vigilant Enhancement 48,212,enhancement,234,purple,enhancement_bulwark.png
-240purpleenhancement,213,Advanced Vigilant Enhancement 51,213,enhancement,240,purple,enhancement_bulwark.png
-246purpleenhancement,214,Advanced Vigilant Enhancement 54,214,enhancement,246,purple,enhancement_bulwark.png
-230blueenhancement,215,Adept Enhancement 50,215,enhancement,230,blue,enhancement_adept.png
-234blueenhancement,216,Adept Enhancement 52,216,enhancement,234,blue,enhancement_adept.png
-240blueenhancement,217,Adept Enhancement 55,217,enhancement,240,blue,enhancement_adept.png
-244blueenhancement,218,Adept Enhancement 57,218,enhancement,244,blue,enhancement_adept.png
-230blueenhancement,219,Barrage Enhancement 50,219,enhancement,230,blue,enhancement_quicksavant.png
-234blueenhancement,220,Barrage Enhancement 52,220,enhancement,234,blue,enhancement_quicksavant.png
-240blueenhancement,221,Barrage Enhancement 55,221,enhancement,240,blue,enhancement_quicksavant.png
-244blueenhancement,222,Barrage Enhancement 57,222,enhancement,244,blue,enhancement_quicksavant.png
-230blueenhancement,223,Bastion Enhancement 50,223,enhancement,230,blue,enhancement_bastion.png
-234blueenhancement,224,Bastion Enhancement 52,224,enhancement,234,blue,enhancement_bastion.png
-240blueenhancement,225,Bastion Enhancement 55,225,enhancement,240,blue,enhancement_bastion.png
-244blueenhancement,226,Bastion Enhancement 57,226,enhancement,244,blue,enhancement_bastion.png
-230blueenhancement,227,Bulwark Enhancement 50,227,enhancement,230,blue,enhancement_bulwark.png
-234blueenhancement,228,Bulwark Enhancement 52,228,enhancement,234,blue,enhancement_bulwark.png
-240blueenhancement,229,Bulwark Enhancement 55,229,enhancement,240,blue,enhancement_bulwark.png
-244blueenhancement,230,Bulwark Enhancement 57,230,enhancement,244,blue,enhancement_bulwark.png
-230blueenhancement,231,Discipline Enhancement 50,231,enhancement,230,blue,enhancement_discipline.png
-234blueenhancement,232,Discipline Enhancement 52,232,enhancement,234,blue,enhancement_discipline.png
-240blueenhancement,233,Discipline Enhancement 55,233,enhancement,240,blue,enhancement_discipline.png
-244blueenhancement,234,Discipline Enhancement 57,234,enhancement,244,blue,enhancement_discipline.png
-230blueenhancement,235,Efficient Enhancement 50,235,enhancement,230,blue,enhancement_efficient.png
-234blueenhancement,236,Efficient Enhancement 52,236,enhancement,234,blue,enhancement_efficient.png
-240blueenhancement,237,Efficient Enhancement 55,237,enhancement,240,blue,enhancement_efficient.png
-244blueenhancement,238,Efficient Enhancement 57,238,enhancement,244,blue,enhancement_efficient.png
-230blueenhancement,239,Immunity Enhancement 50,239,enhancement,230,blue,enhancement_bastion.png
-234blueenhancement,240,Immunity Enhancement 52,240,enhancement,234,blue,enhancement_bastion.png
-240blueenhancement,241,Immunity Enhancement 55,241,enhancement,240,blue,enhancement_bastion.png
-244blueenhancement,242,Immunity Enhancement 57,242,enhancement,244,blue,enhancement_bastion.png
-230blueenhancement,243,Initiative Enhancement 50,243,enhancement,230,blue,enhancement_initiative.png
-234blueenhancement,244,Initiative Enhancement 52,244,enhancement,234,blue,enhancement_initiative.png
-240blueenhancement,245,Initiative Enhancement 55,245,enhancement,240,blue,enhancement_initiative.png
-244blueenhancement,246,Initiative Enhancement 57,246,enhancement,244,blue,enhancement_initiative.png
-230blueenhancement,247,Proficient Enhancement 50,247,enhancement,230,blue,enhancement_initiative.png
-234blueenhancement,248,Proficient Enhancement 52,248,enhancement,234,blue,enhancement_initiative.png
-240blueenhancement,249,Proficient Enhancement 55,249,enhancement,240,blue,enhancement_initiative.png
-244blueenhancement,250,Proficient Enhancement 57,250,enhancement,244,blue,enhancement_initiative.png
-230blueenhancement,251,Quick Savant Enhancement 50,251,enhancement,230,blue,enhancement_quicksavant.png
-234blueenhancement,252,Quick Savant Enhancement 52,252,enhancement,234,blue,enhancement_quicksavant.png
-240blueenhancement,253,Quick Savant Enhancement 55,253,enhancement,240,blue,enhancement_quicksavant.png
-244blueenhancement,254,Quick Savant Enhancement 57,254,enhancement,244,blue,enhancement_quicksavant.png
-230blueenhancement,255,Savant Enhancement 50,255,enhancement,230,blue,enhancement_quicksavant.png
-234blueenhancement,256,Savant Enhancement 52,256,enhancement,234,blue,enhancement_quicksavant.png
-240blueenhancement,257,Savant Enhancement 55,257,enhancement,240,blue,enhancement_quicksavant.png
-244blueenhancement,258,Savant Enhancement 57,258,enhancement,244,blue,enhancement_quicksavant.png
-230blueenhancement,259,Steadfast Enhancement 50,259,enhancement,230,blue,enhancement_bastion.png
-234blueenhancement,260,Steadfast Enhancement 52,260,enhancement,234,blue,enhancement_bastion.png
-240blueenhancement,261,Steadfast Enhancement 55,261,enhancement,240,blue,enhancement_bastion.png
-244blueenhancement,262,Steadfast Enhancement 57,262,enhancement,244,blue,enhancement_bastion.png
-230blueenhancement,263,Studious Enhancement 50,263,enhancement,230,blue,enhancement_initiative.png
-234blueenhancement,264,Studious Enhancement 52,264,enhancement,234,blue,enhancement_initiative.png
-240blueenhancement,265,Studious Enhancement 55,265,enhancement,240,blue,enhancement_initiative.png
-244blueenhancement,266,Studious Enhancement 57,266,enhancement,244,blue,enhancement_initiative.png
-230blueenhancement,267,Sturdiness Enhancement 50,267,enhancement,230,blue,enhancement_bulwark.png
-234blueenhancement,268,Sturdiness Enhancement 52,268,enhancement,234,blue,enhancement_bulwark.png
-240blueenhancement,269,Sturdiness Enhancement 55,269,enhancement,240,blue,enhancement_bulwark.png
-244blueenhancement,270,Sturdiness Enhancement 57,270,enhancement,244,blue,enhancement_bulwark.png
-230blueenhancement,271,Vigilant Enhancement 50,271,enhancement,230,blue,enhancement_bulwark.png
-234blueenhancement,272,Vigilant Enhancement 52,272,enhancement,234,blue,enhancement_bulwark.png
-240blueenhancement,273,Vigilant Enhancement 55,273,enhancement,240,blue,enhancement_bulwark.png
-244blueenhancement,274,Vigilant Enhancement 57,274,enhancement,244,blue,enhancement_bulwark.png
-232greenenhancement,275,Adept Enhancement 56,275,enhancement,232,green,enhancement_adept.png
-238greenenhancement,276,Adept Enhancement 59,276,enhancement,238,green,enhancement_adept.png
-244greenenhancement,277,Adept Enhancement 62,277,enhancement,244,green,enhancement_adept.png
-232greenenhancement,278,Barrage Enhancement 56,278,enhancement,232,green,enhancement_quicksavant.png
-238greenenhancement,279,Barrage Enhancement 59,279,enhancement,238,green,enhancement_quicksavant.png
-244greenenhancement,280,Barrage Enhancement 62,280,enhancement,244,green,enhancement_quicksavant.png
-232greenenhancement,281,Bastion Enhancement 56,281,enhancement,232,green,enhancement_bastion.png
-238greenenhancement,282,Bastion Enhancement 59,282,enhancement,238,green,enhancement_bastion.png
-244greenenhancement,283,Bastion Enhancement 62,283,enhancement,244,green,enhancement_bastion.png
-232greenenhancement,284,Bulwark Enhancement 56,284,enhancement,232,green,enhancement_bulwark.png
-238greenenhancement,285,Bulwark Enhancement 59,285,enhancement,238,green,enhancement_bulwark.png
-244greenenhancement,286,Bulwark Enhancement 62,286,enhancement,244,green,enhancement_bulwark.png
-232greenenhancement,287,Discipline Enhancement 56,287,enhancement,232,green,enhancement_discipline.png
-238greenenhancement,288,Discipline Enhancement 59,288,enhancement,238,green,enhancement_discipline.png
-244greenenhancement,289,Discipline Enhancement 62,289,enhancement,244,green,enhancement_discipline.png
-232greenenhancement,290,Efficient Enhancement 56,290,enhancement,232,green,enhancement_efficient.png
-238greenenhancement,291,Efficient Enhancement 59,291,enhancement,238,green,enhancement_efficient.png
-244greenenhancement,292,Efficient Enhancement 62,292,enhancement,244,green,enhancement_efficient.png
-232greenenhancement,293,Immunity Enhancement 56,293,enhancement,232,green,enhancement_bastion.png
-238greenenhancement,294,Immunity Enhancement 59,294,enhancement,238,green,enhancement_bastion.png
-244greenenhancement,295,Immunity Enhancement 62,295,enhancement,244,green,enhancement_bastion.png
-232greenenhancement,296,Initiative Enhancement 56,296,enhancement,232,green,enhancement_initiative.png
-238greenenhancement,297,Initiative Enhancement 59,297,enhancement,238,green,enhancement_initiative.png
-244greenenhancement,298,Initiative Enhancement 62,298,enhancement,244,green,enhancement_initiative.png
-232greenenhancement,299,Proficient Enhancement 56,299,enhancement,232,green,enhancement_initiative.png
-238greenenhancement,300,Proficient Enhancement 59,300,enhancement,238,green,enhancement_initiative.png
-244greenenhancement,301,Proficient Enhancement 62,301,enhancement,244,green,enhancement_initiative.png
-232greenenhancement,302,Quick Savant Enhancement 56,302,enhancement,232,green,enhancement_quicksavant.png
-238greenenhancement,303,Quick Savant Enhancement 59,303,enhancement,238,green,enhancement_quicksavant.png
-244greenenhancement,304,Quick Savant Enhancement 62,304,enhancement,244,green,enhancement_quicksavant.png
-232greenenhancement,305,Savant Enhancement 56,305,enhancement,232,green,enhancement_quicksavant.png
-238greenenhancement,306,Savant Enhancement 59,306,enhancement,238,green,enhancement_quicksavant.png
-244greenenhancement,307,Savant Enhancement 62,307,enhancement,244,green,enhancement_quicksavant.png
-232greenenhancement,308,Steadfast Enhancement 56,308,enhancement,232,green,enhancement_bastion.png
-238greenenhancement,309,Steadfast Enhancement 59,309,enhancement,238,green,enhancement_bastion.png
-244greenenhancement,310,Steadfast Enhancement 62,310,enhancement,244,green,enhancement_bastion.png
-232greenenhancement,311,Studious Enhancement 56,311,enhancement,232,green,enhancement_initiative.png
-238greenenhancement,312,Studious Enhancement 59,312,enhancement,238,green,enhancement_initiative.png
-244greenenhancement,313,Studious Enhancement 62,313,enhancement,244,green,enhancement_initiative.png
-232greenenhancement,314,Sturdiness Enhancement 56,314,enhancement,232,green,enhancement_bulwark.png
-238greenenhancement,315,Sturdiness Enhancement 59,315,enhancement,238,green,enhancement_bulwark.png
-244greenenhancement,316,Sturdiness Enhancement 62,316,enhancement,244,green,enhancement_bulwark.png
-232greenenhancement,317,Vigilant Enhancement 56,317,enhancement,232,green,enhancement_bulwark.png
-238greenenhancement,318,Vigilant Enhancement 59,318,enhancement,238,green,enhancement_bulwark.png
-244greenenhancement,319,Vigilant Enhancement 62,319,enhancement,244,green,enhancement_bulwark.png
-230purplebarrel,320,Advanced Resistive Barrel 46,320,barrel,230,purple,barrel_resistive.png
-234purplebarrel,321,Advanced Resistive Barrel 48,321,barrel,234,purple,barrel_resistive.png
-240purplebarrel,322,Advanced Resistive Barrel 51,322,barrel,240,purple,barrel_resistive.png
-246purplebarrel,323,Advanced Resistive Barrel 54,323,barrel,246,purple,barrel_resistive.png
-230purplebarrel,324,Advanced Versatile Barrel 46,324,barrel,230,purple,barrel_versatile.png
-234purplebarrel,325,Advanced Versatile Barrel 48,325,barrel,234,purple,barrel_versatile.png
-240purplebarrel,326,Advanced Versatile Barrel 51,326,barrel,240,purple,barrel_versatile.png
-246purplebarrel,327,Advanced Versatile Barrel 54,327,barrel,246,purple,barrel_versatile.png
-236goldbarrel,328,Resistive Barrel 46,328,barrel,236,gold,barrel_resistive.png
-242goldbarrel,329,Resistive Barrel 49,329,barrel,242,gold,barrel_resistive.png
-248goldbarrel,330,Resistive Barrel 52,330,barrel,248,gold,barrel_resistive.png
-236goldbarrel,331,Versatile Barrel 46,331,barrel,236,gold,barrel_versatile.png
-242goldbarrel,332,Versatile Barrel 49,332,barrel,242,gold,barrel_versatile.png
-248goldbarrel,333,Versatile Barrel 52,333,barrel,248,gold,barrel_versatile.png
-230bluebarrel,334,Resistive Barrel 50,334,barrel,230,blue,barrel_resistive.png
-234bluebarrel,335,Resistive Barrel 52,335,barrel,234,blue,barrel_resistive.png
-240bluebarrel,336,Resistive Barrel 55,336,barrel,240,blue,barrel_resistive.png
-244bluebarrel,337,Resistive Barrel 57,337,barrel,244,blue,barrel_resistive.png
-230bluebarrel,338,Versatile Barrel 50,338,barrel,230,blue,barrel_versatile.png
-234bluebarrel,339,Versatile Barrel 52,339,barrel,234,blue,barrel_versatile.png
-240bluebarrel,340,Versatile Barrel 55,340,barrel,240,blue,barrel_versatile.png
-244bluebarrel,341,Versatile Barrel 57,341,barrel,244,blue,barrel_versatile.png
-228greenbarrel,342,Resistive Barrel 54,342,barrel,228,green,barrel_resistive.png
-232greenbarrel,343,Resistive Barrel 56,343,barrel,232,green,barrel_resistive.png
-238greenbarrel,344,Resistive Barrel 59,344,barrel,238,green,barrel_resistive.png
-244greenbarrel,345,Resistive Barrel 62,345,barrel,244,green,barrel_resistive.png
-228greenbarrel,346,Versatile Barrel 54,346,barrel,228,green,barrel_versatile.png
-232greenbarrel,347,Versatile Barrel 56,347,barrel,232,green,barrel_versatile.png
-238greenbarrel,348,Versatile Barrel 59,348,barrel,238,green,barrel_versatile.png
-244greenbarrel,349,Versatile Barrel 62,349,barrel,244,green,barrel_versatile.png
-230purplehilt,350,Advanced Versatile Hilt 46,350,hilt,230,purple,hilt_versatile.png
-234purplehilt,351,Advanced Versatile Hilt 48,351,hilt,234,purple,hilt_versatile.png
-240purplehilt,352,Advanced Versatile Hilt 51,352,hilt,240,purple,hilt_versatile.png
-246purplehilt,353,Advanced Versatile Hilt 54,353,hilt,246,purple,hilt_versatile.png
-230purplehilt,354,Advanced Resistive Hilt 46,354,hilt,230,purple,hilt_resistive.png
-234purplehilt,355,Advanced Resistive Hilt 48,355,hilt,234,purple,hilt_resistive.png
-240purplehilt,356,Advanced Resistive Hilt 51,356,hilt,240,purple,hilt_resistive.png
-246purplehilt,357,Advanced Resistive Hilt 54,357,hilt,246,purple,hilt_resistive.png
-236goldhilt,358,Resistive Hilt 46,358,hilt,236,gold,hilt_resistive.png
-242goldhilt,359,Resistive Hilt 49,359,hilt,242,gold,hilt_resistive.png
-248goldhilt,360,Resistive Hilt 52,360,hilt,248,gold,hilt_resistive.png
-236goldhilt,361,Versatile Hilt 46,361,hilt,236,gold,hilt_versatile.png
-242goldhilt,362,Versatile Hilt 49,362,hilt,242,gold,hilt_versatile.png
-248goldhilt,363,Versatile Hilt 52,363,hilt,248,gold,hilt_versatile.png
-230bluehilt,364,Resistive Hilt 50,364,hilt,230,blue,hilt_resistive.png
-234bluehilt,365,Resistive Hilt 52,365,hilt,234,blue,hilt_resistive.png
-240bluehilt,366,Resistive Hilt 55,366,hilt,240,blue,hilt_resistive.png
-244bluehilt,367,Resistive Hilt 57,367,hilt,244,blue,hilt_resistive.png
-230bluehilt,368,Versatile Hilt 50,368,hilt,230,blue,hilt_versatile.png
-234bluehilt,369,Versatile Hilt 52,369,hilt,234,blue,hilt_versatile.png
-240bluehilt,370,Versatile Hilt 55,370,hilt,240,blue,hilt_versatile.png
-244bluehilt,371,Versatile Hilt 57,371,hilt,244,blue,hilt_versatile.png
-228greenhilt,372,Resistive Hilt 54,372,hilt,228,green,hilt_resistive.png
-232greenhilt,373,Resistive Hilt 56,373,hilt,232,green,hilt_resistive.png
-238greenhilt,374,Resistive Hilt 59,374,hilt,238,green,hilt_resistive.png
-244greenhilt,375,Resistive Hilt 62,375,hilt,244,green,hilt_resistive.png
-228greenhilt,376,Versatile Hilt 54,376,hilt,228,green,hilt_versatile.png
-232greenhilt,377,Versatile Hilt 56,377,hilt,232,green,hilt_versatile.png
-238greenhilt,378,Versatile Hilt 59,378,hilt,238,green,hilt_versatile.png
-244greenhilt,379,Versatile Hilt 62,379,hilt,244,green,hilt_versatile.png
-136purplecrystal,380,Advanced Eviscerating Crystal,380,crystal,136,purple,crystal_purple.png
-136purplecrystal,381,Advanced Hawkeye Crystal,381,crystal,136,purple,crystal_purple.png
-136purplecrystal,382,Advanced Indestructible Crystal,382,crystal,136,purple,crystal_purple.png
-136purplecrystal,383,Advanced War Hero's Crystal,383,crystal,136,purple,crystal_purple.png
-228greenenhancement,384,Adept Enhancement 54,384,enhancement,228,green,enhancement_adept.png
-228greenenhancement,385,Barrage Enhancement 54,385,enhancement,228,green,enhancement_quicksavant.png
-228greenenhancement,386,Bastion Enhancement 54,386,enhancement,228,green,enhancement_bastion.png
-228greenenhancement,387,Bulwark Enhancement 54,387,enhancement,228,green,enhancement_bulwark.png
-228greenenhancement,388,Discipline Enhancement 54,388,enhancement,228,green,enhancement_discipline.png
-228greenenhancement,389,Efficient Enhancement 54,389,enhancement,228,green,enhancement_efficient.png
-228greenenhancement,390,Immunity Enhancement 54,390,enhancement,228,green,enhancement_bastion.png
-228greenenhancement,391,Initiative Enhancement 54,391,enhancement,228,green,enhancement_initiative.png
-228greenenhancement,392,Proficient Enhancement 54,392,enhancement,228,green,enhancement_initiative.png
-228greenenhancement,393,Quick Savant Enhancement 54,393,enhancement,228,green,enhancement_quicksavant.png
-228greenenhancement,394,Savant Enhancement 54,394,enhancement,228,green,enhancement_quicksavant.png
-228greenenhancement,395,Steadfast Enhancement 54,395,enhancement,228,green,enhancement_bastion.png
-228greenenhancement,396,Studious Enhancement 54,396,enhancement,228,green,enhancement_initiative.png
-228greenenhancement,397,Sturdiness Enhancement 54,397,enhancement,228,green,enhancement_bulwark.png
-228greenenhancement,398,Vigilant Enhancement 54,398,enhancement,228,green,enhancement_bulwark.png
+tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Image,tempHasStats
+0noneall,1,empty,1,all,0,none,empty_mod.png,#N/A
+228greenarmoring,2,Resistive Armoring 54,2,armoring,228,green,armoring_resistive.png,29
+228greenarmoring,3,Versatile Armoring 54,3,armoring,228,green,armoring_versatile.png,37
+230bluearmoring,4,Resistive Armoring 50,4,armoring,230,blue,armoring_resistive.png,1
+230bluearmoring,5,Versatile Armoring 50,5,armoring,230,blue,armoring_versatile.png,9
+230purplearmoring,6,Advanced Resistive Armoring 46,6,armoring,230,purple,armoring_resistive.png,45
+230purplearmoring,7,Advanced Versatile Armoring 46,7,armoring,230,purple,armoring_versatile.png,53
+232greenarmoring,8,Resistive Armoring 56,8,armoring,232,green,armoring_resistive.png,31
+232greenarmoring,9,Versatile Armoring 56,9,armoring,232,green,armoring_versatile.png,39
+234bluearmoring,10,Resistive Armoring 52,10,armoring,234,blue,armoring_resistive.png,3
+234bluearmoring,11,Versatile Armoring 52,11,armoring,234,blue,armoring_versatile.png,11
+234purplearmoring,12,Advanced Resistive Armoring 48,12,armoring,234,purple,armoring_resistive.png,47
+234purplearmoring,13,Advanced Versatile Armoring 48,13,armoring,234,purple,armoring_versatile.png,55
+236goldarmoring,14,Resistive Armoring 46,14,armoring,236,gold,armoring_resistive.png,17
+236goldarmoring,15,Versatile Armoring 46,15,armoring,236,gold,armoring_versatile.png,23
+238greenarmoring,16,Resistive Armoring 59,16,armoring,238,green,armoring_resistive.png,33
+238greenarmoring,17,Versatile Armoring 59,17,armoring,238,green,armoring_versatile.png,41
+240bluearmoring,18,Resistive Armoring 55,18,armoring,240,blue,armoring_resistive.png,5
+240bluearmoring,19,Versatile Armoring 55,19,armoring,240,blue,armoring_versatile.png,13
+240purplearmoring,20,Advanced Resistive Armoring 51,20,armoring,240,purple,armoring_resistive.png,49
+240purplearmoring,21,Advanced Versatile Armoring 51,21,armoring,240,purple,armoring_versatile.png,57
+242goldarmoring,22,Resistive Armoring 49,22,armoring,242,gold,armoring_resistive.png,19
+242goldarmoring,23,Versatile Armoring 49,23,armoring,242,gold,armoring_versatile.png,25
+244greenarmoring,24,Resistive Armoring 62,24,armoring,244,green,armoring_resistive.png,35
+244greenarmoring,25,Versatile Armoring 62,25,armoring,244,green,armoring_versatile.png,43
+244bluearmoring,26,Resistive Armoring 57,26,armoring,244,blue,armoring_resistive.png,7
+244bluearmoring,27,Versatile Armoring 57,27,armoring,244,blue,armoring_versatile.png,15
+246purplearmoring,28,Advanced Resistive Armoring 54,28,armoring,246,purple,armoring_resistive.png,51
+246purplearmoring,29,Advanced Versatile Armoring 54,29,armoring,246,purple,armoring_versatile.png,59
+248goldarmoring,30,Resistive Armoring 52,30,armoring,248,gold,armoring_resistive.png,21
+248goldarmoring,31,Versatile Armoring 52,31,armoring,248,gold,armoring_versatile.png,27
+228greenmod,32,Lethal Mod 54,32,mod,228,green,mod_lethal.png,763
+228greenmod,33,Lethal Mod 54A,33,mod,228,green,mod_lethal.png,766
+228greenmod,34,Lethal Mod 54B,34,mod,228,green,mod_lethal.png,769
+232greenmod,35,Lethal Mod 56,35,mod,232,green,mod_lethal.png,772
+232greenmod,36,Lethal Mod 56A,36,mod,232,green,mod_lethal.png,775
+232greenmod,37,Lethal Mod 56B,37,mod,232,green,mod_lethal.png,778
+238greenmod,38,Lethal Mod 59,38,mod,238,green,mod_lethal.png,781
+238greenmod,39,Lethal Mod 59A,39,mod,238,green,mod_lethal.png,784
+238greenmod,40,Lethal Mod 59B,40,mod,238,green,mod_lethal.png,787
+244greenmod,41,Lethal Mod 62,41,mod,244,green,mod_lethal.png,790
+244greenmod,42,Lethal Mod 62A,42,mod,244,green,mod_lethal.png,793
+244greenmod,43,Lethal Mod 62B,43,mod,244,green,mod_lethal.png,796
+228greenmod,44,Warding Mod 54,44,mod,228,green,mod_warding.png,799
+228greenmod,45,Warding Mod 54A,45,mod,228,green,mod_warding.png,802
+228greenmod,46,Warding Mod 54B,46,mod,228,green,mod_warding.png,805
+232greenmod,47,Warding Mod 56,47,mod,232,green,mod_warding.png,808
+232greenmod,48,Warding Mod 56A,48,mod,232,green,mod_warding.png,811
+232greenmod,49,Warding Mod 56B,49,mod,232,green,mod_warding.png,814
+238greenmod,50,Warding Mod 59,50,mod,238,green,mod_warding.png,817
+238greenmod,51,Warding Mod 59A,51,mod,238,green,mod_warding.png,820
+238greenmod,52,Warding Mod 59B,52,mod,238,green,mod_warding.png,823
+244greenmod,53,Warding Mod 62,53,mod,244,green,mod_warding.png,826
+244greenmod,54,Warding Mod 62A,54,mod,244,green,mod_warding.png,829
+244greenmod,55,Warding Mod 62B,55,mod,244,green,mod_warding.png,832
+230bluemod,56,Lethal Mod 50,56,mod,230,blue,mod_lethal.png,691
+230bluemod,57,Lethal Mod 50A,57,mod,230,blue,mod_lethal.png,694
+230bluemod,58,Lethal Mod 50B,58,mod,230,blue,mod_lethal.png,697
+234bluemod,59,Lethal Mod 52,59,mod,234,blue,mod_lethal.png,700
+234bluemod,60,Lethal Mod 52A,60,mod,234,blue,mod_lethal.png,703
+234bluemod,61,Lethal Mod 52B,61,mod,234,blue,mod_lethal.png,706
+240bluemod,62,Lethal Mod 55,62,mod,240,blue,mod_lethal.png,709
+240bluemod,63,Lethal Mod 55A,63,mod,240,blue,mod_lethal.png,712
+240bluemod,64,Lethal Mod 55B,64,mod,240,blue,mod_lethal.png,715
+244bluemod,65,Lethal Mod 57,65,mod,244,blue,mod_lethal.png,718
+244bluemod,66,Lethal Mod 57A,66,mod,244,blue,mod_lethal.png,721
+244bluemod,67,Lethal Mod 57B,67,mod,244,blue,mod_lethal.png,724
+230bluemod,68,Warding Mod 50,68,mod,230,blue,mod_warding.png,727
+230bluemod,69,Warding Mod 50A,69,mod,230,blue,mod_warding.png,730
+230bluemod,70,Warding Mod 50B,70,mod,230,blue,mod_warding.png,733
+234bluemod,71,Warding Mod 52,71,mod,234,blue,mod_warding.png,736
+234bluemod,72,Warding Mod 52A,72,mod,234,blue,mod_warding.png,739
+234bluemod,73,Warding Mod 52B,73,mod,234,blue,mod_warding.png,742
+240bluemod,74,Warding Mod 55,74,mod,240,blue,mod_warding.png,745
+240bluemod,75,Warding Mod 55A,75,mod,240,blue,mod_warding.png,748
+240bluemod,76,Warding Mod 55B,76,mod,240,blue,mod_warding.png,751
+244bluemod,77,Warding Mod 57,77,mod,244,blue,mod_warding.png,754
+244bluemod,78,Warding Mod 57A,78,mod,244,blue,mod_warding.png,757
+244bluemod,79,Warding Mod 57B,79,mod,244,blue,mod_warding.png,760
+230purplemod,80,Advanced Lethal Mod 46,80,mod,230,purple,mod_lethal.png,951
+230purplemod,81,Advanced Lethal Mod 46A,81,mod,230,purple,mod_lethal.png,954
+230purplemod,82,Advanced Lethal Mod 46B,82,mod,230,purple,mod_lethal.png,957
+234purplemod,83,Advanced Lethal Mod 48,83,mod,234,purple,mod_lethal.png,960
+234purplemod,84,Advanced Lethal Mod 48A,84,mod,234,purple,mod_lethal.png,963
+234purplemod,85,Advanced Lethal Mod 48B,85,mod,234,purple,mod_lethal.png,966
+240purplemod,86,Advanced Lethal Mod 51,86,mod,240,purple,mod_lethal.png,969
+240purplemod,87,Advanced Lethal Mod 51A,87,mod,240,purple,mod_lethal.png,972
+240purplemod,88,Advanced Lethal Mod 51B,88,mod,240,purple,mod_lethal.png,975
+246purplemod,89,Advanced Lethal Mod 54,89,mod,246,purple,mod_lethal.png,978
+246purplemod,90,Advanced Lethal Mod 54A,90,mod,246,purple,mod_lethal.png,981
+246purplemod,91,Advanced Lethal Mod 54B,91,mod,246,purple,mod_lethal.png,984
+230purplemod,92,Advanced Warding Mod 46,92,mod,230,purple,mod_warding.png,987
+230purplemod,93,Advanced Warding Mod 46A,93,mod,230,purple,mod_warding.png,990
+230purplemod,94,Advanced Warding Mod 46B,94,mod,230,purple,mod_warding.png,993
+234purplemod,95,Advanced Warding Mod 48,95,mod,234,purple,mod_warding.png,996
+234purplemod,96,Advanced Warding Mod 48A,96,mod,234,purple,mod_warding.png,999
+234purplemod,97,Advanced Warding Mod 48B,97,mod,234,purple,mod_warding.png,1002
+240purplemod,98,Advanced Warding Mod 51,98,mod,240,purple,mod_warding.png,1005
+240purplemod,99,Advanced Warding Mod 51A,99,mod,240,purple,mod_warding.png,1008
+240purplemod,100,Advanced Warding Mod 51B,100,mod,240,purple,mod_warding.png,1011
+246purplemod,101,Advanced Warding Mod 54,101,mod,246,purple,mod_warding.png,1014
+246purplemod,102,Advanced Warding Mod 54A,102,mod,246,purple,mod_warding.png,1017
+246purplemod,103,Advanced Warding Mod 54B,103,mod,246,purple,mod_warding.png,1020
+236goldmod,104,Lethal Mod 46,104,mod,236,gold,mod_lethal.png,1023
+242goldmod,105,Lethal Mod 49,105,mod,242,gold,mod_lethal.png,1026
+248goldmod,106,Lethal Mod 52,106,mod,248,gold,mod_lethal.png,1029
+236goldmod,107,Warding Mod 46,107,mod,236,gold,mod_warding.png,1032
+242goldmod,108,Warding Mod 49,108,mod,242,gold,mod_warding.png,1035
+248goldmod,109,Warding Mod 52,109,mod,248,gold,mod_warding.png,1038
+236goldenhancement,110,Adept Enhancement 46,110,enhancement,236,gold,enhancement_adept.png,196
+242goldenhancement,111,Adept Enhancement 49,111,enhancement,242,gold,enhancement_adept.png,199
+248goldenhancement,112,Adept Enhancement 52,112,enhancement,248,gold,enhancement_adept.png,202
+236goldenhancement,113,Barrage Enhancement 46,113,enhancement,236,gold,enhancement_quicksavant.png,205
+242goldenhancement,114,Barrage Enhancement 49,114,enhancement,242,gold,enhancement_quicksavant.png,208
+248goldenhancement,115,Barrage Enhancement 52,115,enhancement,248,gold,enhancement_quicksavant.png,211
+236goldenhancement,116,Bastion Enhancement 46,116,enhancement,236,gold,enhancement_bastion.png,214
+242goldenhancement,117,Bastion Enhancement 49,117,enhancement,242,gold,enhancement_bastion.png,217
+248goldenhancement,118,Bastion Enhancement 52,118,enhancement,248,gold,enhancement_bastion.png,220
+236goldenhancement,119,Bulwark Enhancement 46,119,enhancement,236,gold,enhancement_bulwark.png,223
+242goldenhancement,120,Bulwark Enhancement 49,120,enhancement,242,gold,enhancement_bulwark.png,226
+248goldenhancement,121,Bulwark Enhancement 52,121,enhancement,248,gold,enhancement_bulwark.png,229
+236goldenhancement,122,Discipline Enhancement 46,122,enhancement,236,gold,enhancement_discipline.png,232
+242goldenhancement,123,Discipline Enhancement 49,123,enhancement,242,gold,enhancement_discipline.png,235
+248goldenhancement,124,Discipline Enhancement 52,124,enhancement,248,gold,enhancement_discipline.png,238
+236goldenhancement,125,Efficient Enhancement 46,125,enhancement,236,gold,enhancement_efficient.png,241
+242goldenhancement,126,Efficient Enhancement 49,126,enhancement,242,gold,enhancement_efficient.png,244
+248goldenhancement,127,Efficient Enhancement 52,127,enhancement,248,gold,enhancement_efficient.png,247
+236goldenhancement,128,Immunity Enhancement 46,128,enhancement,236,gold,enhancement_bastion.png,250
+242goldenhancement,129,Immunity Enhancement 49,129,enhancement,242,gold,enhancement_bastion.png,253
+248goldenhancement,130,Immunity Enhancement 52,130,enhancement,248,gold,enhancement_bastion.png,256
+236goldenhancement,131,Initiative Enhancement 46,131,enhancement,236,gold,enhancement_initiative.png,259
+242goldenhancement,132,Initiative Enhancement 49,132,enhancement,242,gold,enhancement_initiative.png,262
+248goldenhancement,133,Initiative Enhancement 52,133,enhancement,248,gold,enhancement_initiative.png,265
+236goldenhancement,134,Proficient Enhancement 46,134,enhancement,236,gold,enhancement_initiative.png,268
+242goldenhancement,135,Proficient Enhancement 49,135,enhancement,242,gold,enhancement_initiative.png,271
+248goldenhancement,136,Proficient Enhancement 52,136,enhancement,248,gold,enhancement_initiative.png,274
+236goldenhancement,137,Quick Savant Enhancement 46,137,enhancement,236,gold,enhancement_quicksavant.png,277
+242goldenhancement,138,Quick Savant Enhancement 49,138,enhancement,242,gold,enhancement_quicksavant.png,280
+248goldenhancement,139,Quick Savant Enhancement 52,139,enhancement,248,gold,enhancement_quicksavant.png,283
+236goldenhancement,140,Savant Enhancement 46,140,enhancement,236,gold,enhancement_quicksavant.png,286
+242goldenhancement,141,Savant Enhancement 49,141,enhancement,242,gold,enhancement_quicksavant.png,289
+248goldenhancement,142,Savant Enhancement 52,142,enhancement,248,gold,enhancement_quicksavant.png,292
+236goldenhancement,143,Steadfast Enhancement 46,143,enhancement,236,gold,enhancement_bastion.png,295
+242goldenhancement,144,Steadfast Enhancement 49,144,enhancement,242,gold,enhancement_bastion.png,298
+248goldenhancement,145,Steadfast Enhancement 52,145,enhancement,248,gold,enhancement_bastion.png,301
+236goldenhancement,146,Studious Enhancement 46,146,enhancement,236,gold,enhancement_initiative.png,304
+242goldenhancement,147,Studious Enhancement 49,147,enhancement,242,gold,enhancement_initiative.png,307
+248goldenhancement,148,Studious Enhancement 52,148,enhancement,248,gold,enhancement_initiative.png,310
+236goldenhancement,149,Sturdiness Enhancement 46,149,enhancement,236,gold,enhancement_bulwark.png,313
+242goldenhancement,150,Sturdiness Enhancement 49,150,enhancement,242,gold,enhancement_bulwark.png,316
+248goldenhancement,151,Sturdiness Enhancement 52,151,enhancement,248,gold,enhancement_bulwark.png,319
+236goldenhancement,152,Vigilant Enhancement 46,152,enhancement,236,gold,enhancement_bulwark.png,322
+242goldenhancement,153,Vigilant Enhancement 49,153,enhancement,242,gold,enhancement_bulwark.png,325
+248goldenhancement,154,Vigilant Enhancement 52,154,enhancement,248,gold,enhancement_bulwark.png,328
+230purpleenhancement,155,Advanced Adept Enhancement 46,155,enhancement,230,purple,enhancement_adept.png,511
+234purpleenhancement,156,Advanced Adept Enhancement 48,156,enhancement,234,purple,enhancement_adept.png,514
+240purpleenhancement,157,Advanced Adept Enhancement 51,157,enhancement,240,purple,enhancement_adept.png,517
+246purpleenhancement,158,Advanced Adept Enhancement 54,158,enhancement,246,purple,enhancement_adept.png,520
+230purpleenhancement,159,Advanced Barrage Enhancement 46,159,enhancement,230,purple,enhancement_quicksavant.png,523
+234purpleenhancement,160,Advanced Barrage Enhancement 48,160,enhancement,234,purple,enhancement_quicksavant.png,526
+240purpleenhancement,161,Advanced Barrage Enhancement 51,161,enhancement,240,purple,enhancement_quicksavant.png,529
+246purpleenhancement,162,Advanced Barrage Enhancement 54,162,enhancement,246,purple,enhancement_quicksavant.png,532
+230purpleenhancement,163,Advanced Bastion Enhancement 46,163,enhancement,230,purple,enhancement_bastion.png,535
+234purpleenhancement,164,Advanced Bastion Enhancement 48,164,enhancement,234,purple,enhancement_bastion.png,538
+240purpleenhancement,165,Advanced Bastion Enhancement 51,165,enhancement,240,purple,enhancement_bastion.png,541
+246purpleenhancement,166,Advanced Bastion Enhancement 54,166,enhancement,246,purple,enhancement_bastion.png,544
+230purpleenhancement,167,Advanced Bulwark Enhancement 46,167,enhancement,230,purple,enhancement_bulwark.png,547
+234purpleenhancement,168,Advanced Bulwark Enhancement 48,168,enhancement,234,purple,enhancement_bulwark.png,550
+240purpleenhancement,169,Advanced Bulwark Enhancement 51,169,enhancement,240,purple,enhancement_bulwark.png,553
+246purpleenhancement,170,Advanced Bulwark Enhancement 54,170,enhancement,246,purple,enhancement_bulwark.png,556
+230purpleenhancement,171,Advanced Discipline Enhancement 46,171,enhancement,230,purple,enhancement_discipline.png,559
+234purpleenhancement,172,Advanced Discipline Enhancement 48,172,enhancement,234,purple,enhancement_discipline.png,562
+240purpleenhancement,173,Advanced Discipline Enhancement 51,173,enhancement,240,purple,enhancement_discipline.png,565
+246purpleenhancement,174,Advanced Discipline Enhancement 54,174,enhancement,246,purple,enhancement_discipline.png,568
+230purpleenhancement,175,Advanced Efficient Enhancement 46,175,enhancement,230,purple,enhancement_efficient.png,571
+234purpleenhancement,176,Advanced Efficient Enhancement 48,176,enhancement,234,purple,enhancement_efficient.png,574
+240purpleenhancement,177,Advanced Efficient Enhancement 51,177,enhancement,240,purple,enhancement_efficient.png,577
+246purpleenhancement,178,Advanced Efficient Enhancement 54,178,enhancement,246,purple,enhancement_efficient.png,580
+230purpleenhancement,179,Advanced Immunity Enhancement 46,179,enhancement,230,purple,enhancement_bastion.png,583
+234purpleenhancement,180,Advanced Immunity Enhancement 48,180,enhancement,234,purple,enhancement_bastion.png,586
+240purpleenhancement,181,Advanced Immunity Enhancement 51,181,enhancement,240,purple,enhancement_bastion.png,589
+246purpleenhancement,182,Advanced Immunity Enhancement 54,182,enhancement,246,purple,enhancement_bastion.png,592
+230purpleenhancement,183,Advanced Initiative Enhancement 46,183,enhancement,230,purple,enhancement_initiative.png,595
+234purpleenhancement,184,Advanced Initiative Enhancement 48,184,enhancement,234,purple,enhancement_initiative.png,598
+240purpleenhancement,185,Advanced Initiative Enhancement 51,185,enhancement,240,purple,enhancement_initiative.png,601
+246purpleenhancement,186,Advanced Initiative Enhancement 54,186,enhancement,246,purple,enhancement_initiative.png,604
+230purpleenhancement,187,Advanced Proficient Enhancement 46,187,enhancement,230,purple,enhancement_initiative.png,607
+234purpleenhancement,188,Advanced Proficient Enhancement 48,188,enhancement,234,purple,enhancement_initiative.png,610
+240purpleenhancement,189,Advanced Proficient Enhancement 51,189,enhancement,240,purple,enhancement_initiative.png,613
+246purpleenhancement,190,Advanced Proficient Enhancement 54,190,enhancement,246,purple,enhancement_initiative.png,616
+230purpleenhancement,191,Advanced Quick Savant Enhancement 46,191,enhancement,230,purple,enhancement_quicksavant.png,619
+234purpleenhancement,192,Advanced Quick Savant Enhancement 48,192,enhancement,234,purple,enhancement_quicksavant.png,622
+240purpleenhancement,193,Advanced Quick Savant Enhancement 51,193,enhancement,240,purple,enhancement_quicksavant.png,625
+246purpleenhancement,194,Advanced Quick Savant Enhancement 54,194,enhancement,246,purple,enhancement_quicksavant.png,628
+230purpleenhancement,195,Advanced Savant Enhancement 46,195,enhancement,230,purple,enhancement_quicksavant.png,631
+234purpleenhancement,196,Advanced Savant Enhancement 48,196,enhancement,234,purple,enhancement_quicksavant.png,634
+240purpleenhancement,197,Advanced Savant Enhancement 51,197,enhancement,240,purple,enhancement_quicksavant.png,637
+246purpleenhancement,198,Advanced Savant Enhancement 54,198,enhancement,246,purple,enhancement_quicksavant.png,640
+230purpleenhancement,199,Advanced Steadfast Enhancement 46,199,enhancement,230,purple,enhancement_bastion.png,643
+234purpleenhancement,200,Advanced Steadfast Enhancement 48,200,enhancement,234,purple,enhancement_bastion.png,646
+240purpleenhancement,201,Advanced Steadfast Enhancement 51,201,enhancement,240,purple,enhancement_bastion.png,649
+246purpleenhancement,202,Advanced Steadfast Enhancement 54,202,enhancement,246,purple,enhancement_bastion.png,652
+230purpleenhancement,203,Advanced Studious Enhancement 46,203,enhancement,230,purple,enhancement_initiative.png,655
+234purpleenhancement,204,Advanced Studious Enhancement 48,204,enhancement,234,purple,enhancement_initiative.png,658
+240purpleenhancement,205,Advanced Studious Enhancement 51,205,enhancement,240,purple,enhancement_initiative.png,661
+246purpleenhancement,206,Advanced Studious Enhancement 54,206,enhancement,246,purple,enhancement_initiative.png,664
+230purpleenhancement,207,Advanced Sturdiness Enhancement 46,207,enhancement,230,purple,enhancement_bulwark.png,667
+234purpleenhancement,208,Advanced Sturdiness Enhancement 48,208,enhancement,234,purple,enhancement_bulwark.png,670
+240purpleenhancement,209,Advanced Sturdiness Enhancement 51,209,enhancement,240,purple,enhancement_bulwark.png,673
+246purpleenhancement,210,Advanced Sturdiness Enhancement 54,210,enhancement,246,purple,enhancement_bulwark.png,676
+230purpleenhancement,211,Advanced Vigilant Enhancement 46,211,enhancement,230,purple,enhancement_bulwark.png,679
+234purpleenhancement,212,Advanced Vigilant Enhancement 48,212,enhancement,234,purple,enhancement_bulwark.png,682
+240purpleenhancement,213,Advanced Vigilant Enhancement 51,213,enhancement,240,purple,enhancement_bulwark.png,685
+246purpleenhancement,214,Advanced Vigilant Enhancement 54,214,enhancement,246,purple,enhancement_bulwark.png,688
+230blueenhancement,215,Adept Enhancement 50,215,enhancement,230,blue,enhancement_adept.png,61
+234blueenhancement,216,Adept Enhancement 52,216,enhancement,234,blue,enhancement_adept.png,1041
+240blueenhancement,217,Adept Enhancement 55,217,enhancement,240,blue,enhancement_adept.png,64
+244blueenhancement,218,Adept Enhancement 57,218,enhancement,244,blue,enhancement_adept.png,67
+230blueenhancement,219,Barrage Enhancement 50,219,enhancement,230,blue,enhancement_quicksavant.png,70
+234blueenhancement,220,Barrage Enhancement 52,220,enhancement,234,blue,enhancement_quicksavant.png,1044
+240blueenhancement,221,Barrage Enhancement 55,221,enhancement,240,blue,enhancement_quicksavant.png,73
+244blueenhancement,222,Barrage Enhancement 57,222,enhancement,244,blue,enhancement_quicksavant.png,76
+230blueenhancement,223,Bastion Enhancement 50,223,enhancement,230,blue,enhancement_bastion.png,79
+234blueenhancement,224,Bastion Enhancement 52,224,enhancement,234,blue,enhancement_bastion.png,1047
+240blueenhancement,225,Bastion Enhancement 55,225,enhancement,240,blue,enhancement_bastion.png,82
+244blueenhancement,226,Bastion Enhancement 57,226,enhancement,244,blue,enhancement_bastion.png,85
+230blueenhancement,227,Bulwark Enhancement 50,227,enhancement,230,blue,enhancement_bulwark.png,88
+234blueenhancement,228,Bulwark Enhancement 52,228,enhancement,234,blue,enhancement_bulwark.png,1050
+240blueenhancement,229,Bulwark Enhancement 55,229,enhancement,240,blue,enhancement_bulwark.png,91
+244blueenhancement,230,Bulwark Enhancement 57,230,enhancement,244,blue,enhancement_bulwark.png,94
+230blueenhancement,231,Discipline Enhancement 50,231,enhancement,230,blue,enhancement_discipline.png,97
+234blueenhancement,232,Discipline Enhancement 52,232,enhancement,234,blue,enhancement_discipline.png,1053
+240blueenhancement,233,Discipline Enhancement 55,233,enhancement,240,blue,enhancement_discipline.png,100
+244blueenhancement,234,Discipline Enhancement 57,234,enhancement,244,blue,enhancement_discipline.png,103
+230blueenhancement,235,Efficient Enhancement 50,235,enhancement,230,blue,enhancement_efficient.png,106
+234blueenhancement,236,Efficient Enhancement 52,236,enhancement,234,blue,enhancement_efficient.png,1056
+240blueenhancement,237,Efficient Enhancement 55,237,enhancement,240,blue,enhancement_efficient.png,109
+244blueenhancement,238,Efficient Enhancement 57,238,enhancement,244,blue,enhancement_efficient.png,112
+230blueenhancement,239,Immunity Enhancement 50,239,enhancement,230,blue,enhancement_bastion.png,115
+234blueenhancement,240,Immunity Enhancement 52,240,enhancement,234,blue,enhancement_bastion.png,1059
+240blueenhancement,241,Immunity Enhancement 55,241,enhancement,240,blue,enhancement_bastion.png,118
+244blueenhancement,242,Immunity Enhancement 57,242,enhancement,244,blue,enhancement_bastion.png,121
+230blueenhancement,243,Initiative Enhancement 50,243,enhancement,230,blue,enhancement_initiative.png,124
+234blueenhancement,244,Initiative Enhancement 52,244,enhancement,234,blue,enhancement_initiative.png,1062
+240blueenhancement,245,Initiative Enhancement 55,245,enhancement,240,blue,enhancement_initiative.png,127
+244blueenhancement,246,Initiative Enhancement 57,246,enhancement,244,blue,enhancement_initiative.png,130
+230blueenhancement,247,Proficient Enhancement 50,247,enhancement,230,blue,enhancement_initiative.png,133
+234blueenhancement,248,Proficient Enhancement 52,248,enhancement,234,blue,enhancement_initiative.png,1065
+240blueenhancement,249,Proficient Enhancement 55,249,enhancement,240,blue,enhancement_initiative.png,136
+244blueenhancement,250,Proficient Enhancement 57,250,enhancement,244,blue,enhancement_initiative.png,139
+230blueenhancement,251,Quick Savant Enhancement 50,251,enhancement,230,blue,enhancement_quicksavant.png,142
+234blueenhancement,252,Quick Savant Enhancement 52,252,enhancement,234,blue,enhancement_quicksavant.png,1068
+240blueenhancement,253,Quick Savant Enhancement 55,253,enhancement,240,blue,enhancement_quicksavant.png,145
+244blueenhancement,254,Quick Savant Enhancement 57,254,enhancement,244,blue,enhancement_quicksavant.png,148
+230blueenhancement,255,Savant Enhancement 50,255,enhancement,230,blue,enhancement_quicksavant.png,151
+234blueenhancement,256,Savant Enhancement 52,256,enhancement,234,blue,enhancement_quicksavant.png,1075
+240blueenhancement,257,Savant Enhancement 55,257,enhancement,240,blue,enhancement_quicksavant.png,154
+244blueenhancement,258,Savant Enhancement 57,258,enhancement,244,blue,enhancement_quicksavant.png,157
+230blueenhancement,259,Steadfast Enhancement 50,259,enhancement,230,blue,enhancement_bastion.png,160
+234blueenhancement,260,Steadfast Enhancement 52,260,enhancement,234,blue,enhancement_bastion.png,1078
+240blueenhancement,261,Steadfast Enhancement 55,261,enhancement,240,blue,enhancement_bastion.png,163
+244blueenhancement,262,Steadfast Enhancement 57,262,enhancement,244,blue,enhancement_bastion.png,166
+230blueenhancement,263,Studious Enhancement 50,263,enhancement,230,blue,enhancement_initiative.png,169
+234blueenhancement,264,Studious Enhancement 52,264,enhancement,234,blue,enhancement_initiative.png,1081
+240blueenhancement,265,Studious Enhancement 55,265,enhancement,240,blue,enhancement_initiative.png,172
+244blueenhancement,266,Studious Enhancement 57,266,enhancement,244,blue,enhancement_initiative.png,175
+230blueenhancement,267,Sturdiness Enhancement 50,267,enhancement,230,blue,enhancement_bulwark.png,178
+234blueenhancement,268,Sturdiness Enhancement 52,268,enhancement,234,blue,enhancement_bulwark.png,1084
+240blueenhancement,269,Sturdiness Enhancement 55,269,enhancement,240,blue,enhancement_bulwark.png,181
+244blueenhancement,270,Sturdiness Enhancement 57,270,enhancement,244,blue,enhancement_bulwark.png,184
+230blueenhancement,271,Vigilant Enhancement 50,271,enhancement,230,blue,enhancement_bulwark.png,187
+234blueenhancement,272,Vigilant Enhancement 52,272,enhancement,234,blue,enhancement_bulwark.png,1091
+240blueenhancement,273,Vigilant Enhancement 55,273,enhancement,240,blue,enhancement_bulwark.png,190
+244blueenhancement,274,Vigilant Enhancement 57,274,enhancement,244,blue,enhancement_bulwark.png,193
+232greenenhancement,275,Adept Enhancement 56,275,enhancement,232,green,enhancement_adept.png,331
+238greenenhancement,276,Adept Enhancement 59,276,enhancement,238,green,enhancement_adept.png,334
+244greenenhancement,277,Adept Enhancement 62,277,enhancement,244,green,enhancement_adept.png,337
+232greenenhancement,278,Barrage Enhancement 56,278,enhancement,232,green,enhancement_quicksavant.png,340
+238greenenhancement,279,Barrage Enhancement 59,279,enhancement,238,green,enhancement_quicksavant.png,343
+244greenenhancement,280,Barrage Enhancement 62,280,enhancement,244,green,enhancement_quicksavant.png,346
+232greenenhancement,281,Bastion Enhancement 56,281,enhancement,232,green,enhancement_bastion.png,349
+238greenenhancement,282,Bastion Enhancement 59,282,enhancement,238,green,enhancement_bastion.png,352
+244greenenhancement,283,Bastion Enhancement 62,283,enhancement,244,green,enhancement_bastion.png,355
+232greenenhancement,284,Bulwark Enhancement 56,284,enhancement,232,green,enhancement_bulwark.png,358
+238greenenhancement,285,Bulwark Enhancement 59,285,enhancement,238,green,enhancement_bulwark.png,361
+244greenenhancement,286,Bulwark Enhancement 62,286,enhancement,244,green,enhancement_bulwark.png,364
+232greenenhancement,287,Discipline Enhancement 56,287,enhancement,232,green,enhancement_discipline.png,367
+238greenenhancement,288,Discipline Enhancement 59,288,enhancement,238,green,enhancement_discipline.png,370
+244greenenhancement,289,Discipline Enhancement 62,289,enhancement,244,green,enhancement_discipline.png,373
+232greenenhancement,290,Efficient Enhancement 56,290,enhancement,232,green,enhancement_efficient.png,376
+238greenenhancement,291,Efficient Enhancement 59,291,enhancement,238,green,enhancement_efficient.png,379
+244greenenhancement,292,Efficient Enhancement 62,292,enhancement,244,green,enhancement_efficient.png,382
+232greenenhancement,293,Immunity Enhancement 56,293,enhancement,232,green,enhancement_bastion.png,385
+238greenenhancement,294,Immunity Enhancement 59,294,enhancement,238,green,enhancement_bastion.png,388
+244greenenhancement,295,Immunity Enhancement 62,295,enhancement,244,green,enhancement_bastion.png,391
+232greenenhancement,296,Initiative Enhancement 56,296,enhancement,232,green,enhancement_initiative.png,394
+238greenenhancement,297,Initiative Enhancement 59,297,enhancement,238,green,enhancement_initiative.png,397
+244greenenhancement,298,Initiative Enhancement 62,298,enhancement,244,green,enhancement_initiative.png,400
+232greenenhancement,299,Proficient Enhancement 56,299,enhancement,232,green,enhancement_initiative.png,403
+238greenenhancement,300,Proficient Enhancement 59,300,enhancement,238,green,enhancement_initiative.png,406
+244greenenhancement,301,Proficient Enhancement 62,301,enhancement,244,green,enhancement_initiative.png,409
+232greenenhancement,302,Quick Savant Enhancement 56,302,enhancement,232,green,enhancement_quicksavant.png,412
+238greenenhancement,303,Quick Savant Enhancement 59,303,enhancement,238,green,enhancement_quicksavant.png,415
+244greenenhancement,304,Quick Savant Enhancement 62,304,enhancement,244,green,enhancement_quicksavant.png,418
+232greenenhancement,305,Savant Enhancement 56,305,enhancement,232,green,enhancement_quicksavant.png,421
+238greenenhancement,306,Savant Enhancement 59,306,enhancement,238,green,enhancement_quicksavant.png,424
+244greenenhancement,307,Savant Enhancement 62,307,enhancement,244,green,enhancement_quicksavant.png,427
+232greenenhancement,308,Steadfast Enhancement 56,308,enhancement,232,green,enhancement_bastion.png,430
+238greenenhancement,309,Steadfast Enhancement 59,309,enhancement,238,green,enhancement_bastion.png,433
+244greenenhancement,310,Steadfast Enhancement 62,310,enhancement,244,green,enhancement_bastion.png,436
+232greenenhancement,311,Studious Enhancement 56,311,enhancement,232,green,enhancement_initiative.png,439
+238greenenhancement,312,Studious Enhancement 59,312,enhancement,238,green,enhancement_initiative.png,442
+244greenenhancement,313,Studious Enhancement 62,313,enhancement,244,green,enhancement_initiative.png,445
+232greenenhancement,314,Sturdiness Enhancement 56,314,enhancement,232,green,enhancement_bulwark.png,448
+238greenenhancement,315,Sturdiness Enhancement 59,315,enhancement,238,green,enhancement_bulwark.png,451
+244greenenhancement,316,Sturdiness Enhancement 62,316,enhancement,244,green,enhancement_bulwark.png,454
+232greenenhancement,317,Vigilant Enhancement 56,317,enhancement,232,green,enhancement_bulwark.png,457
+238greenenhancement,318,Vigilant Enhancement 59,318,enhancement,238,green,enhancement_bulwark.png,460
+244greenenhancement,319,Vigilant Enhancement 62,319,enhancement,244,green,enhancement_bulwark.png,463
+230purplebarrel,320,Advanced Resistive Barrel 46,320,barrel,230,purple,barrel_resistive.png,891
+234purplebarrel,321,Advanced Resistive Barrel 48,321,barrel,234,purple,barrel_resistive.png,893
+240purplebarrel,322,Advanced Resistive Barrel 51,322,barrel,240,purple,barrel_resistive.png,895
+246purplebarrel,323,Advanced Resistive Barrel 54,323,barrel,246,purple,barrel_resistive.png,897
+230purplebarrel,324,Advanced Versatile Barrel 46,324,barrel,230,purple,barrel_versatile.png,899
+234purplebarrel,325,Advanced Versatile Barrel 48,325,barrel,234,purple,barrel_versatile.png,901
+240purplebarrel,326,Advanced Versatile Barrel 51,326,barrel,240,purple,barrel_versatile.png,903
+246purplebarrel,327,Advanced Versatile Barrel 54,327,barrel,246,purple,barrel_versatile.png,905
+236goldbarrel,328,Resistive Barrel 46,328,barrel,236,gold,barrel_resistive.png,907
+242goldbarrel,329,Resistive Barrel 49,329,barrel,242,gold,barrel_resistive.png,909
+248goldbarrel,330,Resistive Barrel 52,330,barrel,248,gold,barrel_resistive.png,915
+236goldbarrel,331,Versatile Barrel 46,331,barrel,236,gold,barrel_versatile.png,927
+242goldbarrel,332,Versatile Barrel 49,332,barrel,242,gold,barrel_versatile.png,929
+248goldbarrel,333,Versatile Barrel 52,333,barrel,248,gold,barrel_versatile.png,935
+230bluebarrel,334,Resistive Barrel 50,334,barrel,230,blue,barrel_resistive.png,911
+234bluebarrel,335,Resistive Barrel 52,335,barrel,234,blue,barrel_resistive.png,913
+240bluebarrel,336,Resistive Barrel 55,336,barrel,240,blue,barrel_resistive.png,919
+244bluebarrel,337,Resistive Barrel 57,337,barrel,244,blue,barrel_resistive.png,1071
+230bluebarrel,338,Versatile Barrel 50,338,barrel,230,blue,barrel_versatile.png,931
+234bluebarrel,339,Versatile Barrel 52,339,barrel,234,blue,barrel_versatile.png,933
+240bluebarrel,340,Versatile Barrel 55,340,barrel,240,blue,barrel_versatile.png,939
+244bluebarrel,341,Versatile Barrel 57,341,barrel,244,blue,barrel_versatile.png,1087
+228greenbarrel,342,Resistive Barrel 54,342,barrel,228,green,barrel_resistive.png,917
+232greenbarrel,343,Resistive Barrel 56,343,barrel,232,green,barrel_resistive.png,921
+238greenbarrel,344,Resistive Barrel 59,344,barrel,238,green,barrel_resistive.png,923
+244greenbarrel,345,Resistive Barrel 62,345,barrel,244,green,barrel_resistive.png,925
+228greenbarrel,346,Versatile Barrel 54,346,barrel,228,green,barrel_versatile.png,937
+232greenbarrel,347,Versatile Barrel 56,347,barrel,232,green,barrel_versatile.png,941
+238greenbarrel,348,Versatile Barrel 59,348,barrel,238,green,barrel_versatile.png,943
+244greenbarrel,349,Versatile Barrel 62,349,barrel,244,green,barrel_versatile.png,945
+230purplehilt,350,Advanced Versatile Hilt 46,350,hilt,230,purple,hilt_versatile.png,843
+234purplehilt,351,Advanced Versatile Hilt 48,351,hilt,234,purple,hilt_versatile.png,845
+240purplehilt,352,Advanced Versatile Hilt 51,352,hilt,240,purple,hilt_versatile.png,847
+246purplehilt,353,Advanced Versatile Hilt 54,353,hilt,246,purple,hilt_versatile.png,849
+230purplehilt,354,Advanced Resistive Hilt 46,354,hilt,230,purple,hilt_resistive.png,835
+234purplehilt,355,Advanced Resistive Hilt 48,355,hilt,234,purple,hilt_resistive.png,837
+240purplehilt,356,Advanced Resistive Hilt 51,356,hilt,240,purple,hilt_resistive.png,839
+246purplehilt,357,Advanced Resistive Hilt 54,357,hilt,246,purple,hilt_resistive.png,841
+236goldhilt,358,Resistive Hilt 46,358,hilt,236,gold,hilt_resistive.png,851
+242goldhilt,359,Resistive Hilt 49,359,hilt,242,gold,hilt_resistive.png,853
+248goldhilt,360,Resistive Hilt 52,360,hilt,248,gold,hilt_resistive.png,859
+236goldhilt,361,Versatile Hilt 46,361,hilt,236,gold,hilt_versatile.png,871
+242goldhilt,362,Versatile Hilt 49,362,hilt,242,gold,hilt_versatile.png,873
+248goldhilt,363,Versatile Hilt 52,363,hilt,248,gold,hilt_versatile.png,879
+230bluehilt,364,Resistive Hilt 50,364,hilt,230,blue,hilt_resistive.png,855
+234bluehilt,365,Resistive Hilt 52,365,hilt,234,blue,hilt_resistive.png,857
+240bluehilt,366,Resistive Hilt 55,366,hilt,240,blue,hilt_resistive.png,863
+244bluehilt,367,Resistive Hilt 57,367,hilt,244,blue,hilt_resistive.png,1073
+230bluehilt,368,Versatile Hilt 50,368,hilt,230,blue,hilt_versatile.png,875
+234bluehilt,369,Versatile Hilt 52,369,hilt,234,blue,hilt_versatile.png,877
+240bluehilt,370,Versatile Hilt 55,370,hilt,240,blue,hilt_versatile.png,883
+244bluehilt,371,Versatile Hilt 57,371,hilt,244,blue,hilt_versatile.png,1089
+228greenhilt,372,Resistive Hilt 54,372,hilt,228,green,hilt_resistive.png,861
+232greenhilt,373,Resistive Hilt 56,373,hilt,232,green,hilt_resistive.png,865
+238greenhilt,374,Resistive Hilt 59,374,hilt,238,green,hilt_resistive.png,867
+244greenhilt,375,Resistive Hilt 62,375,hilt,244,green,hilt_resistive.png,869
+228greenhilt,376,Versatile Hilt 54,376,hilt,228,green,hilt_versatile.png,881
+232greenhilt,377,Versatile Hilt 56,377,hilt,232,green,hilt_versatile.png,885
+238greenhilt,378,Versatile Hilt 59,378,hilt,238,green,hilt_versatile.png,887
+244greenhilt,379,Versatile Hilt 62,379,hilt,244,green,hilt_versatile.png,889
+136purplecrystal,380,Advanced Eviscerating Crystal,380,crystal,136,purple,crystal_red.png,947
+136purplecrystal,381,Advanced Hawkeye Crystal,381,crystal,136,purple,crystal_yellow.png,948
+136purplecrystal,382,Advanced Indestructible Crystal,382,crystal,136,purple,crystal_blue.png,949
+136purplecrystal,383,Advanced War Hero's Crystal,383,crystal,136,purple,crystal_purple.png,950
+228greenenhancement,384,Adept Enhancement 54,384,enhancement,228,green,enhancement_adept.png,466
+228greenenhancement,385,Barrage Enhancement 54,385,enhancement,228,green,enhancement_quicksavant.png,469
+228greenenhancement,386,Bastion Enhancement 54,386,enhancement,228,green,enhancement_bastion.png,472
+228greenenhancement,387,Bulwark Enhancement 54,387,enhancement,228,green,enhancement_bulwark.png,475
+228greenenhancement,388,Discipline Enhancement 54,388,enhancement,228,green,enhancement_discipline.png,478
+228greenenhancement,389,Efficient Enhancement 54,389,enhancement,228,green,enhancement_efficient.png,481
+228greenenhancement,390,Immunity Enhancement 54,390,enhancement,228,green,enhancement_bastion.png,484
+228greenenhancement,391,Initiative Enhancement 54,391,enhancement,228,green,enhancement_initiative.png,487
+228greenenhancement,392,Proficient Enhancement 54,392,enhancement,228,green,enhancement_initiative.png,490
+228greenenhancement,393,Quick Savant Enhancement 54,393,enhancement,228,green,enhancement_quicksavant.png,493
+228greenenhancement,394,Savant Enhancement 54,394,enhancement,228,green,enhancement_quicksavant.png,496
+228greenenhancement,395,Steadfast Enhancement 54,395,enhancement,228,green,enhancement_bastion.png,499
+228greenenhancement,396,Studious Enhancement 54,396,enhancement,228,green,enhancement_initiative.png,502
+228greenenhancement,397,Sturdiness Enhancement 54,397,enhancement,228,green,enhancement_bulwark.png,505
+228greenenhancement,398,Vigilant Enhancement 54,398,enhancement,228,green,enhancement_bulwark.png,508

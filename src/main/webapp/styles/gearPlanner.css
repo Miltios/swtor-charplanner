@@ -212,6 +212,7 @@ body.faction-mode-pub .faction-imp
 #currentItemArea td
 {
     padding:2px;
+    vertical-align:top;
 }
 #itemListArea
 {
