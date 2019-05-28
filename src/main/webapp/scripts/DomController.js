@@ -32,8 +32,15 @@ let DomController = (function()
             case 'augSlot':
             {
                 let slot = DomManager.getSlot(el);
-                SlotManager.setCurrentSlot(slot);
-                this.spawnAugmentPicker(slot);
+                if(AugmentController.isCopyMode())
+                {
+                    slot.setAugment(AugmentController.getAugmentToCopy());
+                }
+                else
+                {
+                    SlotManager.setCurrentSlot(slot);
+                    this.spawnAugmentPicker(slot);
+                }
                 break;
             }
             case 'factionToggle':
@@ -142,6 +149,9 @@ let DomController = (function()
             case 'augRatingSelect':
                 PickerController.showHideAugTypes();
                 PickerController.setCurrentAug();
+                break;
+            case 'toggleCopyAugment':
+                AugmentController.toggleCopyMode();
                 break;
         }
         StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here

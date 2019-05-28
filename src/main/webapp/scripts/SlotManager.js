@@ -75,7 +75,7 @@ let SlotManager = (function()
     };
     SlotManager.prototype.getSlotFromLinkEl = function(el)
     {
-        if(!el || !el.classList.contains('character-slot-link'))
+        if(!el || !(el.classList.contains('character-slot-link') || el.classList.contains('augment-slot-link')))
         {
             return null;
         }
@@ -83,7 +83,7 @@ let SlotManager = (function()
         parentId = parentId.substring(4); //trim the word "slot"
         parentId = parentId.toLowerCase();
         return this.getSlot(parentId);
-    }
+    };
     SlotManager.prototype.getModSlot = function(name)
     {
         if(typeof this.itemSlots[name] === 'object')

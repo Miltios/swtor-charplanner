@@ -558,7 +558,7 @@
                     <td id="currentAugStats">
                     </td>
                     <td>
-                        <button id="copyAugButton">Copy this augment..</button>
+                        <button id="copyAugButton" onclick="DomController.userInput(this, 'toggleCopyAugment')">Clone...</button>
                     </td>
                 </tr>
                 <tr id="currentAugMask" style="display:none">
@@ -654,6 +654,7 @@ function log(str)
     requireJs("/swtor/scripts/StatController.js");
     requireJs("/swtor/scripts/StatManager.js");
     requireJs("/swtor/scripts/TooltipController.js");
+    requireJs("/swtor/scripts/AugmentController.js");
     requireJs("/swtor/scripts/Settings.js");
     requireJs("/swtor/scripts/Utilities.js");
     requireJs("/swtor/scripts/Dev.js"); //TODO: developer hacks, not needed for functionality

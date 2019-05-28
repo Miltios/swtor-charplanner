@@ -502,3 +502,12 @@ body.faction-mode-pub .faction-imp
 {
     width:140px;
 }
+.augment-copy-mode .augment-slot-img.slot-empty,
+.augment-copy-mode .augment-slot-img
+{
+    border-color:#CFE5F1;
+}
+.augment-copy-mode .character-slot-img
+{
+    opacity:0.5;
+}

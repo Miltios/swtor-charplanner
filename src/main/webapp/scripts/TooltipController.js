@@ -10,7 +10,7 @@ let TooltipController = (function()
         this.tid;
         this.tsc;
 
-        this.triggerElClasses = ['mod-slot-link', 'character-slot-link', 'list-item'];
+        this.triggerElClasses = ['mod-slot-link', 'character-slot-link', 'augment-slot-link', 'list-item'];
 
         //distance between cursor and tooltip
         this.offsetX = 20;
@@ -100,6 +100,15 @@ let TooltipController = (function()
                 return false;
             }
             item = slot.getItem();
+        }
+        else if(el.classList.contains('augment-slot-link'))
+        {
+            let slot = SlotManager.getSlotFromLinkEl(el);
+            if(slot === null)
+            {
+                return false;
+            }
+            item = slot.getAugment();
         }
         else if(el.classList.contains('list-item'))
         {
