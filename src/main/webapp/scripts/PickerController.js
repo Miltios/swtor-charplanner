@@ -158,6 +158,8 @@ let PickerController = (function()
             this.cii.src = 'images/items80/' + SlotManager.getImageForEmptySlot(slot);
             this.cin.innerHTML = 'None';
             this.cir.innerHTML = '';
+            this.cis.innerHTML = '';
+            this.cid.innerHTML = '';
         }
         else
         {
