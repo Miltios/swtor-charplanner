@@ -153,6 +153,9 @@ let DomController = (function()
             case 'toggleCopyAugment':
                 AugmentController.toggleCopyMode();
                 break;
+            case 'stimClick':
+                Settings.updateStim(el);
+                break;
         }
         StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here
     };

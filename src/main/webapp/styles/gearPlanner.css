@@ -512,3 +512,24 @@ body.faction-mode-pub .faction-imp
 {
     opacity:0.5;
 }
+
+#stimDiv
+{
+    height:30px;
+}
+.button-stim
+{
+    width:25px;
+    vertical-align:middle;
+    margin:1px;
+    border:1px solid grey;
+    border-radius:3px;
+    cursor:pointer;
+    opacity:0.8;
+}
+.button-stim-selected
+{
+    margin:0;
+    border:2px solid #96D6F1;
+    opacity:1;
+}

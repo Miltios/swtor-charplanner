@@ -15,6 +15,7 @@ let Settings = (function()
         this.cobSub;
         this.ilsc;
         this.ilsr;
+        this.stim = 'none';
     }
     Settings.prototype.init = function()
     {
@@ -52,6 +53,17 @@ let Settings = (function()
         this.updateDatacrons(null);
         this.updateClassBuffs(null);
         this.updateCompanionBuffs(null);
+
+
+        let stims = document.getElementsByClassName('button-stim-selected');
+        if(stims.length !== 1)
+        {
+            this.stims = 'none';
+        }
+        else
+        {
+            this.stims = stims[0].getAttribute('data-stim-type');
+        }
 
         this.updateFactionSelections();
         log('Settings initialized.');
@@ -466,6 +478,34 @@ let Settings = (function()
             this.lastColor = el.value;
         }
         DomController.updateItemColorLists();
+    };
+    Settings.prototype.updateStim = function(el)
+    {
+        if(!el || !el.classList.contains('button-stim') || !el.getAttribute('data-stim-type'))
+        {
+            console.error('Invalid target for updateStim: ' + el);
+            return;
+        }
+        let id = el.id;
+        if(el.classList.contains('button-stim-selected'))
+        {
+            el.classList.remove('button-stim-selected');
+            this.stim = 'none';
+        }
+        else
+        {
+            let selected = document.getElementsByClassName('button-stim-selected');
+            for(let i=0; i<selected.length; i++)
+            {
+                selected[i].classList.remove('button-stim-selected');
+            }
+            el.classList.add('button-stim-selected');
+            this.stim = el.getAttribute('data-stim-type');
+        }
+    };
+    Settings.prototype.getStim = function()
+    {
+        return this.stim;
     }
     return new Settings();
 })();

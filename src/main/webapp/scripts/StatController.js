@@ -268,6 +268,29 @@ let StatController = (function()
             }
         }
         let stats = this.addStats(gearStats, this.getGearlessStats());
+        let pri = 240;
+        let sec = 99;
+        switch(Settings.getStim())
+        {
+            case 'blue':
+                stats = this.addStats(stats, {
+                    'endurance':pri,
+                    'defense':sec
+                });
+                break;
+            case 'yellow':
+                stats = this.addStats(stats, {
+                    'accuracy':pri,
+                    'crit':sec
+                });
+                break;
+            case 'red':
+                stats = this.addStats(stats, {
+                    'mastery':pri,
+                    'power':sec
+                });
+                break;
+        }
         return this.roundStats(stats);
     };
     StatController.prototype.updateCharStats = function()
