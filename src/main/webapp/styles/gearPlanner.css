@@ -533,3 +533,29 @@ body.faction-mode-pub .faction-imp
     border:2px solid #96D6F1;
     opacity:1;
 }
+#warningsContent
+{
+    border:1px solid #96D6F1;
+    border-radius:10px;
+    padding:10px;
+}
+.warnings-item
+{
+    margin:0 0 10px;
+}
+.warning-severity-high
+{
+    color:red;
+}
+.warning-severity-medium
+{
+    color:yellow;
+}
+.warning-severity-low
+{
+    color:grey;
+}
+.warning-text
+{
+    font-weight:normal;
+}

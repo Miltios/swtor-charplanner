@@ -523,7 +523,7 @@
         </div>
     </div>
     <div class="content-right">
-        <div id="warningsWrapper">
+        <div id="warningsWrapper" style="display:none;">
             <div id="warningsContent"></div>
         </div>
         <div id="augPicker" style="display:none">
@@ -661,6 +661,7 @@ function log(str)
     requireJs("/swtor/scripts/StatManager.js");
     requireJs("/swtor/scripts/TooltipController.js");
     requireJs("/swtor/scripts/AugmentController.js");
+    requireJs("/swtor/scripts/WarningsController.js");
     requireJs("/swtor/scripts/Settings.js");
     requireJs("/swtor/scripts/Utilities.js");
     requireJs("/swtor/scripts/Dev.js"); //TODO: developer hacks, not needed for functionality

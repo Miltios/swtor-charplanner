@@ -158,6 +158,7 @@ let DomController = (function()
                 break;
         }
         StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here
+        WarningsController.updateWarnings(); //ditto
     };
     DomController.prototype.initSelections = function()
     {
