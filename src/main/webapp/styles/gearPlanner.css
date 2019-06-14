@@ -66,7 +66,7 @@ body.faction-mode-pub .faction-imp
 }
 #charBodyTable
 {
-    width:600px;
+    width:650px;
     /*height:1000px;*/
 }
 #charBodyTable td
@@ -398,7 +398,9 @@ body.faction-mode-pub .faction-imp
 #charStatsWrapper
 {
     width:100%;
+    max-width:300px;
     height:0; /*HACK: this gets us around the table row height structure while still using flexible width*/
+    margin:0 auto;
 }
 #charStatsDiv
 {
@@ -438,7 +440,7 @@ body.faction-mode-pub .faction-imp
 #calcStatsDiv
 {
     margin-top:20px;
-    width:600px;
+    width:650px;
 }
 #calcStatsTable
 {

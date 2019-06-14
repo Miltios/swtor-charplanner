@@ -141,7 +141,8 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemMods"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemMods " +
+                    "WHERE Disabled = FALSE"); //TODO:stop hard-coding schemas
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
@@ -210,7 +211,14 @@ public class ItemManager
                 {
                     int itemId = rs.getInt("ItemId");
                     ItemMod i = itemMods.get(itemId);
-                    i.setStat(rs.getString("StatName"), rs.getInt("StatValue"));
+                    if(i == null)
+                    {
+                        Utilities.log("Item mod " + itemId + " is disabled.  Skipping...");
+                    }
+                    else
+                    {
+                        i.setStat(rs.getString("StatName"), rs.getInt("StatValue"));
+                    }
                 }
             }
         }

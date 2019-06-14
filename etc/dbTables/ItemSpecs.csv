@@ -3809,3 +3809,511 @@ Iokath MK-1 Force-Master's Focus,dps,sorc,dpssorc,1567,sinSust
 Iokath MK-2 Force-Master's Focus,dps,sorc,dpssorc,1704,sinSust
 Iokath MK-3 Force-Master's Focus,dps,sorc,dpssorc,1841,sinSust
 Iokath MK-5 Force-Master's Focus,dps,sorc,dpssorc,1978,sinSust
+Experimental Ossan Combat Medic's Body Armor,healer,merc,healermerc,2093,mercHealer
+Experimental Ossan Combat Tech's Body Armor,dps,pt,dpspt,2100,ptSust
+Experimental Ossan Eliminator's Body Armor,dps,merc,dpsmerc,2110,mercBurst
+Experimental Ossan Enforcer's Jacket,dps,op,dpsop,2123,opBurst
+Experimental Ossan Field Medic's Jacket,healer,op,healerop,2130,opHealer
+Experimental Ossan Field Tech's Jacket,dps,sniper,dpssniper,2137,sniperBurst
+Experimental Ossan Force-Master's Robe,dps,sorc,dpssorc,2150,sorcBurst
+Experimental Ossan Force-Mystic's Robe,healer,sorc,healersorc,2157,sorcHealer
+Experimental Ossan Stalker's Robe,dps,sin,dpssin,2179,sinBurst
+Experimental Ossan Supercommando's Body Armor,tank,pt,tankpt,2184,ptTank
+Experimental Ossan Survivor's Robe,tank,sin,tanksin,2197,sinTank
+Experimental Ossan Vindicator's Chestguard,dps,jugg,dpsjugg,2202,juggSust
+Experimental Ossan War Leader's Chestguard,tank,jugg,tankjugg,2209,juggTank
+Experimental Ossan Weaponmaster's Chestguard,dps,mara,dpsmara,2218,maraSust
+Experimental Ossan Combat Medic's Boots,healer,merc,healermerc,2094,mercHealer
+Experimental Ossan Combat Tech's Boots,dps,pt,dpspt,2101,ptSust
+Experimental Ossan Eliminator's Boots,dps,merc,dpsmerc,2111,mercBurst
+Experimental Ossan Enforcer's Boots,dps,op,dpsop,2119,opBurst
+Experimental Ossan Field Medic's Boots,healer,op,healerop,2126,opHealer
+Experimental Ossan Field Tech's Boots,dps,sniper,dpssniper,2133,sniperBurst
+Experimental Ossan Force-Master's Boots,dps,sorc,dpssorc,2143,sorcBurst
+Experimental Ossan Force-Mystic's Boots,healer,sorc,healersorc,2152,sorcHealer
+Experimental Ossan Stalker's Boots,dps,sin,dpssin,2174,sinBurst
+Experimental Ossan Supercommando's Boots,tank,pt,tankpt,2185,ptTank
+Experimental Ossan Survivor's Boots,tank,sin,tanksin,2192,sinTank
+Experimental Ossan Vindicator's Boots,dps,jugg,dpsjugg,2201,juggSust
+Experimental Ossan War Leader's Boots,tank,jugg,tankjugg,2208,juggTank
+Experimental Ossan Weaponmaster's Boots,dps,mara,dpsmara,2217,maraSust
+Experimental Ossan Combat Medic's Gauntlets,healer,merc,healermerc,2095,mercHealer
+Experimental Ossan Combat Tech's Gauntlets,dps,pt,dpspt,2102,ptSust
+Experimental Ossan Eliminator's Gauntlets,dps,merc,dpsmerc,2112,mercBurst
+Experimental Ossan Enforcer's Gloves,dps,op,dpsop,2121,opBurst
+Experimental Ossan Field Medic's Gloves,healer,op,healerop,2128,opHealer
+Experimental Ossan Field Tech's Gloves,dps,sniper,dpssniper,2135,sniperBurst
+Experimental Ossan Force-Master's Gloves,dps,sorc,dpssorc,2146,sorcBurst
+Experimental Ossan Force-Mystic's Gloves,healer,sorc,healersorc,2154,sorcHealer
+Experimental Ossan Stalker's Gloves,dps,sin,dpssin,2176,sinBurst
+Experimental Ossan Supercommando's Gauntlets,tank,pt,tankpt,2186,ptTank
+Experimental Ossan Survivor's Gloves,tank,sin,tanksin,2194,sinTank
+Experimental Ossan Vindicator's Gauntlets,dps,jugg,dpsjugg,2203,juggSust
+Experimental Ossan War Leader's Gauntlets,tank,jugg,tankjugg,2210,juggTank
+Experimental Ossan Weaponmaster's Gauntlets,dps,mara,dpsmara,2219,maraSust
+Experimental Ossan Combat Medic's Helmet,healer,merc,healermerc,2096,mercHealer
+Experimental Ossan Combat Tech's Helmet,dps,pt,dpspt,2103,ptSust
+Experimental Ossan Eliminator's Helmet,dps,merc,dpsmerc,2114,mercBurst
+Experimental Ossan Enforcer's Headgear,dps,op,dpsop,2122,opBurst
+Experimental Ossan Field Medic's Headgear,healer,op,healerop,2129,opHealer
+Experimental Ossan Field Tech's Headgear,dps,sniper,dpssniper,2136,sniperBurst
+Experimental Ossan Force-Master's Headgear,dps,sorc,dpssorc,2147,sorcBurst
+Experimental Ossan Force-Mystic's Headgear,healer,sorc,healersorc,2155,sorcHealer
+Experimental Ossan Stalker's Headgear,dps,sin,dpssin,2177,sinBurst
+Experimental Ossan Supercommando's Helmet,tank,pt,tankpt,2187,ptTank
+Experimental Ossan Survivor's Headgear,tank,sin,tanksin,2195,sinTank
+Experimental Ossan Vindicator's Headgear,dps,jugg,dpsjugg,2205,juggSust
+Experimental Ossan War Leader's Headgear,tank,jugg,tankjugg,2212,juggTank
+Experimental Ossan Weaponmaster's Headgear,dps,mara,dpsmara,2221,maraSust
+Experimental Ossan Combat Medic's Legplates,healer,merc,healermerc,2097,mercHealer
+Experimental Ossan Combat Tech's Legplates,dps,pt,dpspt,2104,ptSust
+Experimental Ossan Eliminator's Legplates,dps,merc,dpsmerc,2115,mercBurst
+Experimental Ossan Enforcer's Leggings,dps,op,dpsop,2124,opBurst
+Experimental Ossan Field Medic's Leggings,healer,op,healerop,2131,opHealer
+Experimental Ossan Field Tech's Leggings,dps,sniper,dpssniper,2138,sniperBurst
+Experimental Ossan Force-Master's Lower Robe,dps,sorc,dpssorc,2149,sorcBurst
+Experimental Ossan Force-Mystic's Lower Robe,healer,sorc,healersorc,2156,sorcHealer
+Experimental Ossan Stalker's Lower Robe,dps,sin,dpssin,2178,sinBurst
+Experimental Ossan Supercommando's Legplates,tank,pt,tankpt,2188,ptTank
+Experimental Ossan Survivor's Lower Robe,tank,sin,tanksin,2196,sinTank
+Experimental Ossan Vindicator's Greaves,dps,jugg,dpsjugg,2204,juggSust
+Experimental Ossan War Leader's Greaves,tank,jugg,tankjugg,2211,juggTank
+Experimental Ossan Weaponmaster's Greaves,dps,mara,dpsmara,2220,maraSust
+Experimental Ossan Eliminator's Generator,dps,merc,dpsmerc,2113,mercBurst
+Experimental Ossan Force-Master's Focus,dps,sorc,dpssorc,2145,sorcBurst
+Experimental Ossan Supercommando's Shield,tank,pt,tankpt,2189,ptTank
+Experimental Ossan War Leader's Shield,tank,jugg,tankjugg,2214,juggTank
+Experimental Ossan Combat Medic's Belt,healer,merc,healermerc,2092,mercHealer
+Experimental Ossan Combat Tech's Belt,dps,pt,dpspt,2099,ptSust
+Experimental Ossan Eliminator's Belt,dps,merc,dpsmerc,2107,mercBurst
+Experimental Ossan Enforcer's Belt,dps,op,dpsop,2118,opBurst
+Experimental Ossan Field Medic's Belt,healer,op,healerop,2125,opHealer
+Experimental Ossan Field Tech's Belt,dps,sniper,dpssniper,2132,sniperBurst
+Experimental Ossan Force-Master's Belt,dps,sorc,dpssorc,2142,sorcBurst
+Experimental Ossan Force-Mystic's Belt,healer,sorc,healersorc,2151,sorcHealer
+Experimental Ossan Stalker's Belt,dps,sin,dpssin,2173,sinBurst
+Experimental Ossan Supercommando's Belt,tank,pt,tankpt,2181,ptTank
+Experimental Ossan Survivor's Belt,tank,sin,tanksin,2191,sinTank
+Experimental Ossan Vindicator's Belt,dps,jugg,dpsjugg,2200,juggSust
+Experimental Ossan War Leader's Belt,tank,jugg,tankjugg,2207,juggTank
+Experimental Ossan Weaponmaster's Belt,dps,mara,dpsmara,2216,maraSust
+Experimental Ossan Combat Medic's Vambraces,healer,merc,healermerc,2098,mercHealer
+Experimental Ossan Combat Tech's Vambraces,dps,pt,dpspt,2105,ptSust
+Experimental Ossan Eliminator's Vambraces,dps,merc,dpsmerc,2117,mercBurst
+Experimental Ossan Enforcer's Bracers,dps,op,dpsop,2120,opBurst
+Experimental Ossan Field Medic's Bracers,healer,op,healerop,2127,opHealer
+Experimental Ossan Field Tech's Bracers,dps,sniper,dpssniper,2134,sniperBurst
+Experimental Ossan Force-Master's Cuffs,dps,sorc,dpssorc,2144,sorcBurst
+Experimental Ossan Force-Mystic's Cuffs,healer,sorc,healersorc,2153,sorcHealer
+Experimental Ossan Stalker's Cuffs,dps,sin,dpssin,2175,sinBurst
+Experimental Ossan Supercommando's Vambraces,tank,pt,tankpt,2190,ptTank
+Experimental Ossan Survivor's Cuffs,tank,sin,tanksin,2193,sinTank
+Experimental Ossan Vindicator's Armguards,dps,jugg,dpsjugg,2199,juggSust
+Experimental Ossan War Leader's Armguards,tank,jugg,tankjugg,2206,juggTank
+Experimental Ossan Weaponmaster's Armguards,dps,mara,dpsmara,2215,maraSust
+Experimental Ossan Eliminator's Assault Cannon,dps,merc,dpsmerc,2106,mercBurst
+Experimental Ossan Eliminator's Blaster Pistol,dps,merc,dpsmerc,2108,mercBurst
+Experimental Ossan Eliminator's Blaster Rifle,dps,merc,dpsmerc,2109,opHealer
+Experimental Ossan Field Tech's Sniper Rifle,dps,sniper,dpssniper,2140,sniperBurst
+Experimental Ossan Supercommando's Blaster Pistol,tank,pt,tankpt,2182,ptTank
+Experimental Ossan Supercommando's Blaster Rifle,tank,pt,tankpt,2183,ptTank
+Experimental Ossan Eliminator's Offhand Blaster,dps,merc,dpsmerc,2116,mercBurst
+Experimental Ossan Field Tech's Shotgun,dps,sniper,dpssniper,2139,sniperBurst
+Experimental Ossan Field Tech's Vibroknife,dps,sniper,dpssniper,2141,sniperBurst
+Experimental Ossan Eliminator's Blaster Rifle,dps,merc,dpsmerc,2109,opBurst
+Experimental Ossan Force-Master's Lightsaber,dps,sorc,dpssorc,2148,sorcBurst
+Experimental Ossan Stalker's Saberstaff,dps,sin,dpssin,2180,sinBurst
+Experimental Ossan Survivor's Saberstaff,tank,sin,tanksin,2198,sinTank
+Experimental Ossan War Leader's Lightsaber,tank,jugg,tankjugg,2213,juggTank
+Experimental Ossan Weaponmaster's Offhand Saber,dps,mara,dpsmara,2222,maraSust
+Experimental Ossan Eliminator's Blaster Rifle,dps,merc,dpsmerc,2109,opSust
+Experimental Ossan Adept Device,healer,,,2086,allHealer
+Experimental Ossan Adept Package,healer,,,2087,allHealer
+Experimental Ossan Bastion Device,tank,,,2088,allTank
+Experimental Ossan Bastion Package,tank,,,2089,allTank
+Experimental Ossan Bulwark Device,tank,,,2090,allTank
+Experimental Ossan Bulwark Package,tank,,,2091,allTank
+Experimental Ossan Initiative Device,dps,,,2158,allDps
+Experimental Ossan Initiative Package,dps,,,2159,allDps
+Experimental Ossan Quick Savant Device,healer,,,2160,allHealer
+Experimental Ossan Quick Savant Package,healer,,,2161,allHealer
+Experimental Ossan Relic of Boundless Ages,healer,,,2162,allHealer
+Experimental Ossan Relic of Devastating Vengeance,healer,,,2163,allHealer
+Experimental Ossan Relic of Ephemeral Mending,healer,,,2164,allHealer
+Experimental Ossan Relic of Focused Retribution,healer,,,2165,allHealer
+Experimental Ossan Relic of Imperiling Serenity,tank,,,2166,allTank
+Experimental Ossan Relic of Reactive Warding,tank,,,2167,allTank
+Experimental Ossan Relic of Serendipitous Assault,healer,,,2168,allHealer
+Experimental Ossan Relic of Shield Amplification,tank,,,2169,allTank
+Experimental Ossan Relic of the Fortunate Redoubt,tank,,,2170,allTank
+Experimental Ossan Relic of the Primeval Fatesealer,healer,,,2171,allHealer
+Experimental Ossan Relic of the Shrouded Crusader,tank,,,2172,allTank
+Experimental Ossan Relic of Focused Retribution,dps,,,2165,allDps
+Experimental Ossan Relic of Serendipitous Assault,dps,,,2168,allDps
+Experimental Ossan Relic of Boundless Ages,dps,,,2162,allDps
+Experimental Ossan Relic of Devastating Vengeance,dps,,,2163,allDps
+Experimental Ossan Relic of the Primeval Fatesealer,dps,,,2171,allDps
+Experimental Ossan Adept Device,dps,,,2086,allDps
+Experimental Ossan Adept Package,dps,,,2087,allDps
+Experimental Ossan Quick Savant Device,dps,,,2160,allDps
+Experimental Ossan Quick Savant Package,dps,,,2161,allDps
+Experimental Ossan Vindicator's Chestguard,dps,jugg,dpsjugg,2202,juggBurst
+Experimental Ossan Vindicator's Boots,dps,jugg,dpsjugg,2201,juggBurst
+Experimental Ossan Vindicator's Gauntlets,dps,jugg,dpsjugg,2203,juggBurst
+Experimental Ossan Vindicator's Headgear,dps,jugg,dpsjugg,2205,juggBurst
+Experimental Ossan Vindicator's Greaves,dps,jugg,dpsjugg,2204,juggBurst
+Experimental Ossan Vindicator's Belt,dps,jugg,dpsjugg,2200,juggBurst
+Experimental Ossan Vindicator's Armguards,dps,jugg,dpsjugg,2199,juggBurst
+Experimental Ossan Weaponmaster's Chestguard,dps,mara,dpsmara,2218,maraBurst
+Experimental Ossan Weaponmaster's Boots,dps,mara,dpsmara,2217,maraBurst
+Experimental Ossan Weaponmaster's Gauntlets,dps,mara,dpsmara,2219,maraBurst
+Experimental Ossan Weaponmaster's Headgear,dps,mara,dpsmara,2221,maraBurst
+Experimental Ossan Weaponmaster's Greaves,dps,mara,dpsmara,2220,maraBurst
+Experimental Ossan Weaponmaster's Belt,dps,mara,dpsmara,2216,maraBurst
+Experimental Ossan Weaponmaster's Armguards,dps,mara,dpsmara,2215,maraBurst
+Experimental Ossan Weaponmaster's Offhand Saber,dps,mara,dpsmara,2222,maraBurst
+Experimental Ossan Weaponmaster's Chestguard,dps,mara,dpsmara,2218,maraHybrid
+Experimental Ossan Weaponmaster's Boots,dps,mara,dpsmara,2217,maraHybrid
+Experimental Ossan Weaponmaster's Gauntlets,dps,mara,dpsmara,2219,maraHybrid
+Experimental Ossan Weaponmaster's Headgear,dps,mara,dpsmara,2221,maraHybrid
+Experimental Ossan Weaponmaster's Greaves,dps,mara,dpsmara,2220,maraHybrid
+Experimental Ossan Weaponmaster's Belt,dps,mara,dpsmara,2216,maraHybrid
+Experimental Ossan Weaponmaster's Armguards,dps,mara,dpsmara,2215,maraHybrid
+Experimental Ossan Weaponmaster's Offhand Saber,dps,mara,dpsmara,2222,maraHybrid
+Experimental Ossan Eliminator's Body Armor,dps,merc,dpsmerc,2110,mercSust
+Experimental Ossan Eliminator's Boots,dps,merc,dpsmerc,2111,mercSust
+Experimental Ossan Eliminator's Gauntlets,dps,merc,dpsmerc,2112,mercSust
+Experimental Ossan Eliminator's Helmet,dps,merc,dpsmerc,2114,mercSust
+Experimental Ossan Eliminator's Legplates,dps,merc,dpsmerc,2115,mercSust
+Experimental Ossan Eliminator's Generator,dps,merc,dpsmerc,2113,mercSust
+Experimental Ossan Eliminator's Belt,dps,merc,dpsmerc,2107,mercSust
+Experimental Ossan Eliminator's Vambraces,dps,merc,dpsmerc,2117,mercSust
+Experimental Ossan Eliminator's Assault Cannon,dps,merc,dpsmerc,2106,mercSust
+Experimental Ossan Eliminator's Blaster Pistol,dps,merc,dpsmerc,2108,mercSust
+Experimental Ossan Eliminator's Offhand Blaster,dps,merc,dpsmerc,2116,mercSust
+Experimental Ossan Enforcer's Jacket,dps,op,dpsop,2123,opSust
+Experimental Ossan Enforcer's Boots,dps,op,dpsop,2119,opSust
+Experimental Ossan Enforcer's Gloves,dps,op,dpsop,2121,opSust
+Experimental Ossan Enforcer's Headgear,dps,op,dpsop,2122,opSust
+Experimental Ossan Enforcer's Leggings,dps,op,dpsop,2124,opSust
+Experimental Ossan Enforcer's Belt,dps,op,dpsop,2118,opSust
+Experimental Ossan Enforcer's Bracers,dps,op,dpsop,2120,opSust
+Experimental Ossan Combat Tech's Body Armor,dps,pt,dpspt,2100,ptBurst
+Experimental Ossan Combat Tech's Boots,dps,pt,dpspt,2101,ptBurst
+Experimental Ossan Combat Tech's Gauntlets,dps,pt,dpspt,2102,ptBurst
+Experimental Ossan Combat Tech's Helmet,dps,pt,dpspt,2103,ptBurst
+Experimental Ossan Combat Tech's Legplates,dps,pt,dpspt,2104,ptBurst
+Experimental Ossan Combat Tech's Belt,dps,pt,dpspt,2099,ptBurst
+Experimental Ossan Combat Tech's Vambraces,dps,pt,dpspt,2105,ptBurst
+Experimental Ossan Stalker's Robe,dps,sin,dpssin,2179,sinSust
+Experimental Ossan Stalker's Boots,dps,sin,dpssin,2174,sinSust
+Experimental Ossan Stalker's Gloves,dps,sin,dpssin,2176,sinSust
+Experimental Ossan Stalker's Headgear,dps,sin,dpssin,2177,sinSust
+Experimental Ossan Stalker's Lower Robe,dps,sin,dpssin,2178,sinSust
+Experimental Ossan Stalker's Belt,dps,sin,dpssin,2173,sinSust
+Experimental Ossan Stalker's Cuffs,dps,sin,dpssin,2175,sinSust
+Experimental Ossan Stalker's Saberstaff,dps,sin,dpssin,2180,sinSust
+Experimental Ossan Field Tech's Jacket,dps,sniper,dpssniper,2137,sniperSust
+Experimental Ossan Field Tech's Boots,dps,sniper,dpssniper,2133,sniperSust
+Experimental Ossan Field Tech's Gloves,dps,sniper,dpssniper,2135,sniperSust
+Experimental Ossan Field Tech's Headgear,dps,sniper,dpssniper,2136,sniperSust
+Experimental Ossan Field Tech's Leggings,dps,sniper,dpssniper,2138,sniperSust
+Experimental Ossan Field Tech's Belt,dps,sniper,dpssniper,2132,sniperSust
+Experimental Ossan Field Tech's Bracers,dps,sniper,dpssniper,2134,sniperSust
+Experimental Ossan Field Tech's Sniper Rifle,dps,sniper,dpssniper,2140,sniperSust
+Experimental Ossan Field Tech's Shotgun,dps,sniper,dpssniper,2139,sniperSust
+Experimental Ossan Field Tech's Vibroknife,dps,sniper,dpssniper,2141,sniperSust
+Experimental Ossan Field Tech's Vibroknife,dps,sniper,dpssniper,2141,opBurst
+Experimental Ossan Field Tech's Jacket,dps,sniper,dpssniper,2137,sniperHybrid
+Experimental Ossan Field Tech's Boots,dps,sniper,dpssniper,2133,sniperHybrid
+Experimental Ossan Field Tech's Gloves,dps,sniper,dpssniper,2135,sniperHybrid
+Experimental Ossan Field Tech's Headgear,dps,sniper,dpssniper,2136,sniperHybrid
+Experimental Ossan Field Tech's Leggings,dps,sniper,dpssniper,2138,sniperHybrid
+Experimental Ossan Field Tech's Belt,dps,sniper,dpssniper,2132,sniperHybrid
+Experimental Ossan Field Tech's Bracers,dps,sniper,dpssniper,2134,sniperHybrid
+Experimental Ossan Field Tech's Sniper Rifle,dps,sniper,dpssniper,2140,sniperHybrid
+Experimental Ossan Field Tech's Shotgun,dps,sniper,dpssniper,2139,sniperHybrid
+Experimental Ossan Field Tech's Vibroknife,dps,sniper,dpssniper,2141,opHealer
+Experimental Ossan Field Tech's Vibroknife,dps,sniper,dpssniper,2141,sniperHybrid
+Experimental Ossan Field Tech's Vibroknife,dps,sniper,dpssniper,2141,opSust
+Experimental Ossan Force-Master's Robe,dps,sorc,dpssorc,2150,sorcSust
+Experimental Ossan Force-Master's Boots,dps,sorc,dpssorc,2143,sorcSust
+Experimental Ossan Force-Master's Gloves,dps,sorc,dpssorc,2146,sorcSust
+Experimental Ossan Force-Master's Headgear,dps,sorc,dpssorc,2147,sorcSust
+Experimental Ossan Force-Master's Lower Robe,dps,sorc,dpssorc,2149,sorcSust
+Experimental Ossan Force-Master's Focus,dps,sorc,dpssorc,2145,sorcSust
+Experimental Ossan Force-Master's Belt,dps,sorc,dpssorc,2142,sorcSust
+Experimental Ossan Force-Master's Cuffs,dps,sorc,dpssorc,2144,sorcSust
+Experimental Ossan Force-Master's Lightsaber,dps,sorc,dpssorc,2148,sorcSust
+Experimental Ossan Force-Master's Lightsaber,dps,sorc,dpssorc,2148,sorcHealer
+Experimental Ossan Force-Master's Focus,dps,sorc,dpssorc,2145,sorcHealer
+Experimental Ossan Eliminator's Blaster Pistol,dps,merc,dpsmerc,2108,mercHealer
+Experimental Ossan Eliminator's Offhand Blaster,dps,merc,dpsmerc,2116,mercHealer
+Experimental Ossan Eliminator's Blaster Pistol,dps,merc,dpsmerc,2108,ptSust
+Experimental Ossan Eliminator's Offhand Blaster,dps,merc,dpsmerc,2116,ptSust
+Experimental Ossan Eliminator's Blaster Pistol,dps,merc,dpsmerc,2108,ptBurst
+Experimental Ossan Eliminator's Offhand Blaster,dps,merc,dpsmerc,2116,ptBurst
+Experimental Ossan Force-Master's Focus,dps,sorc,dpssorc,2145,juggBurst
+Experimental Ossan Force-Master's Lightsaber,dps,sorc,dpssorc,2148,juggBurst
+Experimental Ossan Force-Master's Focus,dps,sorc,dpssorc,2145,juggSust
+Experimental Ossan Force-Master's Lightsaber,dps,sorc,dpssorc,2148,juggSust
+Experimental Ossan Force-Master's Lightsaber,dps,sorc,dpssorc,2148,maraBurst
+Experimental Ossan Force-Master's Lightsaber,dps,sorc,dpssorc,2148,maraSust
+Experimental Ossan Force-Master's Lightsaber,dps,sorc,dpssorc,2148,maraHybrid
+Experimental Ossan War Leader's Shield,tank,jugg,tankjugg,2214,sinTank
+Experimental Ossan Force-Master's Focus,dps,sorc,dpssorc,2145,sinBurst
+Experimental Ossan Force-Master's Focus,dps,sorc,dpssorc,2145,sinSust
+Masterwork Ancient Combat Medic's Body Armor,healer,merc,healermerc,2230,mercHealer
+Masterwork Ancient Combat Tech's Body Armor,dps,pt,dpspt,2237,ptSust
+Masterwork Ancient Eliminator's Body Armor,dps,merc,dpsmerc,2247,mercBurst
+Masterwork Ancient Enforcer's Jacket,dps,op,dpsop,2260,opBurst
+Masterwork Ancient Field Medic's Jacket,healer,op,healerop,2267,opHealer
+Masterwork Ancient Field Tech's Jacket,dps,sniper,dpssniper,2274,sniperBurst
+Masterwork Ancient Force-Master's Robe,dps,sorc,dpssorc,2287,sorcBurst
+Masterwork Ancient Force-Mystic's Robe,healer,sorc,healersorc,2294,sorcHealer
+Masterwork Ancient Stalker's Robe,dps,sin,dpssin,2316,sinBurst
+Masterwork Ancient Supercommando's Body Armor,tank,pt,tankpt,2321,ptTank
+Masterwork Ancient Survivor's Robe,tank,sin,tanksin,2334,sinTank
+Masterwork Ancient Vindicator's Chestguard,dps,jugg,dpsjugg,2339,juggSust
+Masterwork Ancient War Leader's Chestguard,tank,jugg,tankjugg,2346,juggTank
+Masterwork Ancient Weaponmaster's Chestguard,dps,mara,dpsmara,2355,maraSust
+Masterwork Ancient Combat Medic's Boots,healer,merc,healermerc,2231,mercHealer
+Masterwork Ancient Combat Tech's Boots,dps,pt,dpspt,2238,ptSust
+Masterwork Ancient Eliminator's Boots,dps,merc,dpsmerc,2248,mercBurst
+Masterwork Ancient Enforcer's Boots,dps,op,dpsop,2256,opBurst
+Masterwork Ancient Field Medic's Boots,healer,op,healerop,2263,opHealer
+Masterwork Ancient Field Tech's Boots,dps,sniper,dpssniper,2270,sniperBurst
+Masterwork Ancient Force-Master's Boots,dps,sorc,dpssorc,2280,sorcBurst
+Masterwork Ancient Force-Mystic's Boots,healer,sorc,healersorc,2289,sorcHealer
+Masterwork Ancient Stalker's Boots,dps,sin,dpssin,2311,sinBurst
+Masterwork Ancient Supercommando's Boots,tank,pt,tankpt,2322,ptTank
+Masterwork Ancient Survivor's Boots,tank,sin,tanksin,2329,sinTank
+Masterwork Ancient Vindicator's Boots,dps,jugg,dpsjugg,2338,juggSust
+Masterwork Ancient War Leader's Boots,tank,jugg,tankjugg,2345,juggTank
+Masterwork Ancient Weaponmaster's Boots,dps,mara,dpsmara,2354,maraSust
+Masterwork Ancient Combat Medic's Gauntlets,healer,merc,healermerc,2232,mercHealer
+Masterwork Ancient Combat Tech's Gauntlets,dps,pt,dpspt,2239,ptSust
+Masterwork Ancient Eliminator's Gauntlets,dps,merc,dpsmerc,2249,mercBurst
+Masterwork Ancient Enforcer's Gloves,dps,op,dpsop,2258,opBurst
+Masterwork Ancient Field Medic's Gloves,healer,op,healerop,2265,opHealer
+Masterwork Ancient Field Tech's Gloves,dps,sniper,dpssniper,2272,sniperBurst
+Masterwork Ancient Force-Master's Gloves,dps,sorc,dpssorc,2283,sorcBurst
+Masterwork Ancient Force-Mystic's Gloves,healer,sorc,healersorc,2291,sorcHealer
+Masterwork Ancient Stalker's Gloves,dps,sin,dpssin,2313,sinBurst
+Masterwork Ancient Supercommando's Gauntlets,tank,pt,tankpt,2323,ptTank
+Masterwork Ancient Survivor's Gloves,tank,sin,tanksin,2331,sinTank
+Masterwork Ancient Vindicator's Gauntlets,dps,jugg,dpsjugg,2340,juggSust
+Masterwork Ancient War Leader's Gauntlets,tank,jugg,tankjugg,2347,juggTank
+Masterwork Ancient Weaponmaster's Gauntlets,dps,mara,dpsmara,2356,maraSust
+Masterwork Ancient Combat Medic's Helmet,healer,merc,healermerc,2233,mercHealer
+Masterwork Ancient Combat Tech's Helmet,dps,pt,dpspt,2240,ptSust
+Masterwork Ancient Eliminator's Helmet,dps,merc,dpsmerc,2251,mercBurst
+Masterwork Ancient Enforcer's Headgear,dps,op,dpsop,2259,opBurst
+Masterwork Ancient Field Medic's Headgear,healer,op,healerop,2266,opHealer
+Masterwork Ancient Field Tech's Headgear,dps,sniper,dpssniper,2273,sniperBurst
+Masterwork Ancient Force-Master's Headgear,dps,sorc,dpssorc,2284,sorcBurst
+Masterwork Ancient Force-Mystic's Headgear,healer,sorc,healersorc,2292,sorcHealer
+Masterwork Ancient Stalker's Headgear,dps,sin,dpssin,2314,sinBurst
+Masterwork Ancient Supercommando's Helmet,tank,pt,tankpt,2324,ptTank
+Masterwork Ancient Survivor's Headgear,tank,sin,tanksin,2332,sinTank
+Masterwork Ancient Vindicator's Headgear,dps,jugg,dpsjugg,2342,juggSust
+Masterwork Ancient War Leader's Headgear,tank,jugg,tankjugg,2349,juggTank
+Masterwork Ancient Weaponmaster's Headgear,dps,mara,dpsmara,2358,maraSust
+Masterwork Ancient Combat Medic's Legplates,healer,merc,healermerc,2234,mercHealer
+Masterwork Ancient Combat Tech's Legplates,dps,pt,dpspt,2241,ptSust
+Masterwork Ancient Eliminator's Legplates,dps,merc,dpsmerc,2252,mercBurst
+Masterwork Ancient Enforcer's Leggings,dps,op,dpsop,2261,opBurst
+Masterwork Ancient Field Medic's Leggings,healer,op,healerop,2268,opHealer
+Masterwork Ancient Field Tech's Leggings,dps,sniper,dpssniper,2275,sniperBurst
+Masterwork Ancient Force-Master's Lower Robe,dps,sorc,dpssorc,2286,sorcBurst
+Masterwork Ancient Force-Mystic's Lower Robe,healer,sorc,healersorc,2293,sorcHealer
+Masterwork Ancient Stalker's Lower Robe,dps,sin,dpssin,2315,sinBurst
+Masterwork Ancient Supercommando's Legplates,tank,pt,tankpt,2325,ptTank
+Masterwork Ancient Survivor's Lower Robe,tank,sin,tanksin,2333,sinTank
+Masterwork Ancient Vindicator's Greaves,dps,jugg,dpsjugg,2341,juggSust
+Masterwork Ancient War Leader's Greaves,tank,jugg,tankjugg,2348,juggTank
+Masterwork Ancient Weaponmaster's Greaves,dps,mara,dpsmara,2357,maraSust
+Masterwork Ancient Eliminator's Generator,dps,merc,dpsmerc,2250,mercBurst
+Masterwork Ancient Force-Master's Focus,dps,sorc,dpssorc,2282,sorcBurst
+Masterwork Ancient Supercommando's Shield,tank,pt,tankpt,2326,ptTank
+Masterwork Ancient War Leader's Shield,tank,jugg,tankjugg,2351,juggTank
+Masterwork Ancient Combat Medic's Belt,healer,merc,healermerc,2229,mercHealer
+Masterwork Ancient Combat Tech's Belt,dps,pt,dpspt,2236,ptSust
+Masterwork Ancient Eliminator's Belt,dps,merc,dpsmerc,2244,mercBurst
+Masterwork Ancient Enforcer's Belt,dps,op,dpsop,2255,opBurst
+Masterwork Ancient Field Medic's Belt,healer,op,healerop,2262,opHealer
+Masterwork Ancient Field Tech's Belt,dps,sniper,dpssniper,2269,sniperBurst
+Masterwork Ancient Force-Master's Belt,dps,sorc,dpssorc,2279,sorcBurst
+Masterwork Ancient Force-Mystic's Belt,healer,sorc,healersorc,2288,sorcHealer
+Masterwork Ancient Stalker's Belt,dps,sin,dpssin,2310,sinBurst
+Masterwork Ancient Supercommando's Belt,tank,pt,tankpt,2318,ptTank
+Masterwork Ancient Survivor's Belt,tank,sin,tanksin,2328,sinTank
+Masterwork Ancient Vindicator's Belt,dps,jugg,dpsjugg,2337,juggSust
+Masterwork Ancient War Leader's Belt,tank,jugg,tankjugg,2344,juggTank
+Masterwork Ancient Weaponmaster's Belt,dps,mara,dpsmara,2353,maraSust
+Masterwork Ancient Combat Medic's Vambraces,healer,merc,healermerc,2235,mercHealer
+Masterwork Ancient Combat Tech's Vambraces,dps,pt,dpspt,2242,ptSust
+Masterwork Ancient Eliminator's Vambraces,dps,merc,dpsmerc,2254,mercBurst
+Masterwork Ancient Enforcer's Bracers,dps,op,dpsop,2257,opBurst
+Masterwork Ancient Field Medic's Bracers,healer,op,healerop,2264,opHealer
+Masterwork Ancient Field Tech's Bracers,dps,sniper,dpssniper,2271,sniperBurst
+Masterwork Ancient Force-Master's Cuffs,dps,sorc,dpssorc,2281,sorcBurst
+Masterwork Ancient Force-Mystic's Cuffs,healer,sorc,healersorc,2290,sorcHealer
+Masterwork Ancient Stalker's Cuffs,dps,sin,dpssin,2312,sinBurst
+Masterwork Ancient Supercommando's Vambraces,tank,pt,tankpt,2327,ptTank
+Masterwork Ancient Survivor's Cuffs,tank,sin,tanksin,2330,sinTank
+Masterwork Ancient Vindicator's Armguards,dps,jugg,dpsjugg,2336,juggSust
+Masterwork Ancient War Leader's Armguards,tank,jugg,tankjugg,2343,juggTank
+Masterwork Ancient Weaponmaster's Armguards,dps,mara,dpsmara,2352,maraSust
+Masterwork Ancient Eliminator's Assault Cannon,dps,merc,dpsmerc,2243,mercBurst
+Masterwork Ancient Eliminator's Blaster Pistol,dps,merc,dpsmerc,2245,mercBurst
+Masterwork Ancient Eliminator's Blaster Rifle,dps,merc,dpsmerc,2246,opHealer
+Masterwork Ancient Field Tech's Sniper Rifle,dps,sniper,dpssniper,2277,sniperBurst
+Masterwork Ancient Supercommando's Blaster Pistol,tank,pt,tankpt,2319,ptTank
+Masterwork Ancient Supercommando's Blaster Rifle,tank,pt,tankpt,2320,ptTank
+Masterwork Ancient Eliminator's Offhand Blaster,dps,merc,dpsmerc,2253,mercBurst
+Masterwork Ancient Field Tech's Shotgun,dps,sniper,dpssniper,2276,sniperBurst
+Masterwork Ancient Field Tech's Vibroknife,dps,sniper,dpssniper,2278,sniperBurst
+Masterwork Ancient Eliminator's Blaster Rifle,dps,merc,dpsmerc,2246,opBurst
+Masterwork Ancient Force-Master's Lightsaber,dps,sorc,dpssorc,2285,sorcBurst
+Masterwork Ancient Stalker's Saberstaff,dps,sin,dpssin,2317,sinBurst
+Masterwork Ancient Survivor's Saberstaff,tank,sin,tanksin,2335,sinTank
+Masterwork Ancient War Leader's Lightsaber,tank,jugg,tankjugg,2350,juggTank
+Masterwork Ancient Weaponmaster's Offhand Saber,dps,mara,dpsmara,2359,maraSust
+Masterwork Ancient Eliminator's Blaster Rifle,dps,merc,dpsmerc,2246,opSust
+Masterwork Ancient Adept Device,healer,,,2223,allHealer
+Masterwork Ancient Adept Package,healer,,,2224,allHealer
+Masterwork Ancient Bastion Device,tank,,,2225,allTank
+Masterwork Ancient Bastion Package,tank,,,2226,allTank
+Masterwork Ancient Bulwark Device,tank,,,2227,allTank
+Masterwork Ancient Bulwark Package,tank,,,2228,allTank
+Masterwork Ancient Initiative Device,dps,,,2295,allDps
+Masterwork Ancient Initiative Package,dps,,,2296,allDps
+Masterwork Ancient Quick Savant Device,healer,,,2297,allHealer
+Masterwork Ancient Quick Savant Package,healer,,,2298,allHealer
+Masterwork Ancient Relic of Boundless Ages,healer,,,2299,allHealer
+Masterwork Ancient Relic of Devastating Vengeance,healer,,,2300,allHealer
+Masterwork Ancient Relic of Ephemeral Mending,healer,,,2301,allHealer
+Masterwork Ancient Relic of Focused Retribution,healer,,,2302,allHealer
+Masterwork Ancient Relic of Imperiling Serenity,tank,,,2303,allTank
+Masterwork Ancient Relic of Reactive Warding,tank,,,2304,allTank
+Masterwork Ancient Relic of Serendipitous Assault,healer,,,2305,allHealer
+Masterwork Ancient Relic of Shield Amplification,tank,,,2306,allTank
+Masterwork Ancient Relic of the Fortunate Redoubt,tank,,,2307,allTank
+Masterwork Ancient Relic of the Primeval Fatesealer,healer,,,2308,allHealer
+Masterwork Ancient Relic of the Shrouded Crusader,tank,,,2309,allTank
+Masterwork Ancient Relic of Focused Retribution,dps,,,2302,allDps
+Masterwork Ancient Relic of Serendipitous Assault,dps,,,2305,allDps
+Masterwork Ancient Relic of Boundless Ages,dps,,,2299,allDps
+Masterwork Ancient Relic of Devastating Vengeance,dps,,,2300,allDps
+Masterwork Ancient Relic of the Primeval Fatesealer,dps,,,2308,allDps
+Masterwork Ancient Adept Device,dps,,,2223,allDps
+Masterwork Ancient Adept Package,dps,,,2224,allDps
+Masterwork Ancient Quick Savant Device,dps,,,2297,allDps
+Masterwork Ancient Quick Savant Package,dps,,,2298,allDps
+Masterwork Ancient Vindicator's Chestguard,dps,jugg,dpsjugg,2339,juggBurst
+Masterwork Ancient Vindicator's Boots,dps,jugg,dpsjugg,2338,juggBurst
+Masterwork Ancient Vindicator's Gauntlets,dps,jugg,dpsjugg,2340,juggBurst
+Masterwork Ancient Vindicator's Headgear,dps,jugg,dpsjugg,2342,juggBurst
+Masterwork Ancient Vindicator's Greaves,dps,jugg,dpsjugg,2341,juggBurst
+Masterwork Ancient Vindicator's Belt,dps,jugg,dpsjugg,2337,juggBurst
+Masterwork Ancient Vindicator's Armguards,dps,jugg,dpsjugg,2336,juggBurst
+Masterwork Ancient Weaponmaster's Chestguard,dps,mara,dpsmara,2355,maraBurst
+Masterwork Ancient Weaponmaster's Boots,dps,mara,dpsmara,2354,maraBurst
+Masterwork Ancient Weaponmaster's Gauntlets,dps,mara,dpsmara,2356,maraBurst
+Masterwork Ancient Weaponmaster's Headgear,dps,mara,dpsmara,2358,maraBurst
+Masterwork Ancient Weaponmaster's Greaves,dps,mara,dpsmara,2357,maraBurst
+Masterwork Ancient Weaponmaster's Belt,dps,mara,dpsmara,2353,maraBurst
+Masterwork Ancient Weaponmaster's Armguards,dps,mara,dpsmara,2352,maraBurst
+Masterwork Ancient Weaponmaster's Offhand Saber,dps,mara,dpsmara,2359,maraBurst
+Masterwork Ancient Weaponmaster's Chestguard,dps,mara,dpsmara,2355,maraHybrid
+Masterwork Ancient Weaponmaster's Boots,dps,mara,dpsmara,2354,maraHybrid
+Masterwork Ancient Weaponmaster's Gauntlets,dps,mara,dpsmara,2356,maraHybrid
+Masterwork Ancient Weaponmaster's Headgear,dps,mara,dpsmara,2358,maraHybrid
+Masterwork Ancient Weaponmaster's Greaves,dps,mara,dpsmara,2357,maraHybrid
+Masterwork Ancient Weaponmaster's Belt,dps,mara,dpsmara,2353,maraHybrid
+Masterwork Ancient Weaponmaster's Armguards,dps,mara,dpsmara,2352,maraHybrid
+Masterwork Ancient Weaponmaster's Offhand Saber,dps,mara,dpsmara,2359,maraHybrid
+Masterwork Ancient Eliminator's Body Armor,dps,merc,dpsmerc,2247,mercSust
+Masterwork Ancient Eliminator's Boots,dps,merc,dpsmerc,2248,mercSust
+Masterwork Ancient Eliminator's Gauntlets,dps,merc,dpsmerc,2249,mercSust
+Masterwork Ancient Eliminator's Helmet,dps,merc,dpsmerc,2251,mercSust
+Masterwork Ancient Eliminator's Legplates,dps,merc,dpsmerc,2252,mercSust
+Masterwork Ancient Eliminator's Generator,dps,merc,dpsmerc,2250,mercSust
+Masterwork Ancient Eliminator's Belt,dps,merc,dpsmerc,2244,mercSust
+Masterwork Ancient Eliminator's Vambraces,dps,merc,dpsmerc,2254,mercSust
+Masterwork Ancient Eliminator's Assault Cannon,dps,merc,dpsmerc,2243,mercSust
+Masterwork Ancient Eliminator's Blaster Pistol,dps,merc,dpsmerc,2245,mercSust
+Masterwork Ancient Eliminator's Offhand Blaster,dps,merc,dpsmerc,2253,mercSust
+Masterwork Ancient Enforcer's Jacket,dps,op,dpsop,2260,opSust
+Masterwork Ancient Enforcer's Boots,dps,op,dpsop,2256,opSust
+Masterwork Ancient Enforcer's Gloves,dps,op,dpsop,2258,opSust
+Masterwork Ancient Enforcer's Headgear,dps,op,dpsop,2259,opSust
+Masterwork Ancient Enforcer's Leggings,dps,op,dpsop,2261,opSust
+Masterwork Ancient Enforcer's Belt,dps,op,dpsop,2255,opSust
+Masterwork Ancient Enforcer's Bracers,dps,op,dpsop,2257,opSust
+Masterwork Ancient Combat Tech's Body Armor,dps,pt,dpspt,2237,ptBurst
+Masterwork Ancient Combat Tech's Boots,dps,pt,dpspt,2238,ptBurst
+Masterwork Ancient Combat Tech's Gauntlets,dps,pt,dpspt,2239,ptBurst
+Masterwork Ancient Combat Tech's Helmet,dps,pt,dpspt,2240,ptBurst
+Masterwork Ancient Combat Tech's Legplates,dps,pt,dpspt,2241,ptBurst
+Masterwork Ancient Combat Tech's Belt,dps,pt,dpspt,2236,ptBurst
+Masterwork Ancient Combat Tech's Vambraces,dps,pt,dpspt,2242,ptBurst
+Masterwork Ancient Stalker's Robe,dps,sin,dpssin,2316,sinSust
+Masterwork Ancient Stalker's Boots,dps,sin,dpssin,2311,sinSust
+Masterwork Ancient Stalker's Gloves,dps,sin,dpssin,2313,sinSust
+Masterwork Ancient Stalker's Headgear,dps,sin,dpssin,2314,sinSust
+Masterwork Ancient Stalker's Lower Robe,dps,sin,dpssin,2315,sinSust
+Masterwork Ancient Stalker's Belt,dps,sin,dpssin,2310,sinSust
+Masterwork Ancient Stalker's Cuffs,dps,sin,dpssin,2312,sinSust
+Masterwork Ancient Stalker's Saberstaff,dps,sin,dpssin,2317,sinSust
+Masterwork Ancient Field Tech's Jacket,dps,sniper,dpssniper,2274,sniperSust
+Masterwork Ancient Field Tech's Boots,dps,sniper,dpssniper,2270,sniperSust
+Masterwork Ancient Field Tech's Gloves,dps,sniper,dpssniper,2272,sniperSust
+Masterwork Ancient Field Tech's Headgear,dps,sniper,dpssniper,2273,sniperSust
+Masterwork Ancient Field Tech's Leggings,dps,sniper,dpssniper,2275,sniperSust
+Masterwork Ancient Field Tech's Belt,dps,sniper,dpssniper,2269,sniperSust
+Masterwork Ancient Field Tech's Bracers,dps,sniper,dpssniper,2271,sniperSust
+Masterwork Ancient Field Tech's Sniper Rifle,dps,sniper,dpssniper,2277,sniperSust
+Masterwork Ancient Field Tech's Shotgun,dps,sniper,dpssniper,2276,sniperSust
+Masterwork Ancient Field Tech's Vibroknife,dps,sniper,dpssniper,2278,sniperSust
+Masterwork Ancient Field Tech's Vibroknife,dps,sniper,dpssniper,2278,opBurst
+Masterwork Ancient Field Tech's Jacket,dps,sniper,dpssniper,2274,sniperHybrid
+Masterwork Ancient Field Tech's Boots,dps,sniper,dpssniper,2270,sniperHybrid
+Masterwork Ancient Field Tech's Gloves,dps,sniper,dpssniper,2272,sniperHybrid
+Masterwork Ancient Field Tech's Headgear,dps,sniper,dpssniper,2273,sniperHybrid
+Masterwork Ancient Field Tech's Leggings,dps,sniper,dpssniper,2275,sniperHybrid
+Masterwork Ancient Field Tech's Belt,dps,sniper,dpssniper,2269,sniperHybrid
+Masterwork Ancient Field Tech's Bracers,dps,sniper,dpssniper,2271,sniperHybrid
+Masterwork Ancient Field Tech's Sniper Rifle,dps,sniper,dpssniper,2277,sniperHybrid
+Masterwork Ancient Field Tech's Shotgun,dps,sniper,dpssniper,2276,sniperHybrid
+Masterwork Ancient Field Tech's Vibroknife,dps,sniper,dpssniper,2278,opHealer
+Masterwork Ancient Field Tech's Vibroknife,dps,sniper,dpssniper,2278,sniperHybrid
+Masterwork Ancient Field Tech's Vibroknife,dps,sniper,dpssniper,2278,opSust
+Masterwork Ancient Force-Master's Robe,dps,sorc,dpssorc,2287,sorcSust
+Masterwork Ancient Force-Master's Boots,dps,sorc,dpssorc,2280,sorcSust
+Masterwork Ancient Force-Master's Gloves,dps,sorc,dpssorc,2283,sorcSust
+Masterwork Ancient Force-Master's Headgear,dps,sorc,dpssorc,2284,sorcSust
+Masterwork Ancient Force-Master's Lower Robe,dps,sorc,dpssorc,2286,sorcSust
+Masterwork Ancient Force-Master's Focus,dps,sorc,dpssorc,2282,sorcSust
+Masterwork Ancient Force-Master's Belt,dps,sorc,dpssorc,2279,sorcSust
+Masterwork Ancient Force-Master's Cuffs,dps,sorc,dpssorc,2281,sorcSust
+Masterwork Ancient Force-Master's Lightsaber,dps,sorc,dpssorc,2285,sorcSust
+Masterwork Ancient Force-Master's Lightsaber,dps,sorc,dpssorc,2285,sorcHealer
+Masterwork Ancient Force-Master's Focus,dps,sorc,dpssorc,2282,sorcHealer
+Masterwork Ancient Eliminator's Blaster Pistol,dps,merc,dpsmerc,2245,mercHealer
+Masterwork Ancient Eliminator's Offhand Blaster,dps,merc,dpsmerc,2253,mercHealer
+Masterwork Ancient Eliminator's Blaster Pistol,dps,merc,dpsmerc,2245,ptSust
+Masterwork Ancient Eliminator's Offhand Blaster,dps,merc,dpsmerc,2253,ptSust
+Masterwork Ancient Eliminator's Blaster Pistol,dps,merc,dpsmerc,2245,ptBurst
+Masterwork Ancient Eliminator's Offhand Blaster,dps,merc,dpsmerc,2253,ptBurst
+Masterwork Ancient Force-Master's Focus,dps,sorc,dpssorc,2282,juggBurst
+Masterwork Ancient Force-Master's Lightsaber,dps,sorc,dpssorc,2285,juggBurst
+Masterwork Ancient Force-Master's Focus,dps,sorc,dpssorc,2282,juggSust
+Masterwork Ancient Force-Master's Lightsaber,dps,sorc,dpssorc,2285,juggSust
+Masterwork Ancient Force-Master's Lightsaber,dps,sorc,dpssorc,2285,maraBurst
+Masterwork Ancient Force-Master's Lightsaber,dps,sorc,dpssorc,2285,maraSust
+Masterwork Ancient Force-Master's Lightsaber,dps,sorc,dpssorc,2285,maraHybrid
+Masterwork Ancient War Leader's Shield,tank,jugg,tankjugg,2351,sinTank
+Masterwork Ancient Force-Master's Focus,dps,sorc,dpssorc,2282,sinBurst
+Masterwork Ancient Force-Master's Focus,dps,sorc,dpssorc,2282,sinSust

@@ -933,3 +933,149 @@ Superior Critical Augment 48,2082,,augment_red.png,,crit,99,240
 Superior Redoubt Augment 48,2083,,augment_blue.png,,defense,99,240
 Superior Shield Augment 48,2084,,augment_blue.png,,shield,99,240
 Superior Versatile Augment 48,2085,,augment_red.png,,mastery,99,240
+Experimental Ossan Adept Device,2086,ear,[pri],ear[pri]252,endurance,539,252
+Experimental Ossan Adept Device,2086,ear,[sec],ear[sec]252,mastery,470,252
+Experimental Ossan Adept Device,2086,ear,[tert],ear[tert]252,power,348,252
+Experimental Ossan Adept Device,2086,ear,[quat],ear[quat]252,crit,236,252
+Experimental Ossan Adept Package,2087,implant,[pri],implant[pri]252,endurance,539,252
+Experimental Ossan Adept Package,2087,implant,[sec],implant[sec]252,mastery,470,252
+Experimental Ossan Adept Package,2087,implant,[tert],implant[tert]252,power,348,252
+Experimental Ossan Adept Package,2087,implant,[quat],implant[quat]252,crit,236,252
+Experimental Ossan Bastion Device,2088,ear,[pri],ear[pri]252,endurance,539,252
+Experimental Ossan Bastion Device,2088,ear,[sec],ear[sec]252,shield,470,252
+Experimental Ossan Bastion Device,2088,ear,[tert],ear[tert]252,defense,348,252
+Experimental Ossan Bastion Device,2088,ear,[quat],ear[quat]252,mastery,236,252
+Experimental Ossan Bastion Package,2089,implant,[pri],implant[pri]252,endurance,539,252
+Experimental Ossan Bastion Package,2089,implant,[sec],implant[sec]252,shield,470,252
+Experimental Ossan Bastion Package,2089,implant,[tert],implant[tert]252,defense,348,252
+Experimental Ossan Bastion Package,2089,implant,[quat],implant[quat]252,mastery,236,252
+Experimental Ossan Bulwark Device,2090,ear,[pri],ear[pri]252,endurance,539,252
+Experimental Ossan Bulwark Device,2090,ear,[sec],ear[sec]252,absorption,470,252
+Experimental Ossan Bulwark Device,2090,ear,[tert],ear[tert]252,defense,348,252
+Experimental Ossan Bulwark Device,2090,ear,[quat],ear[quat]252,mastery,236,252
+Experimental Ossan Bulwark Package,2091,implant,[pri],implant[pri]252,endurance,539,252
+Experimental Ossan Bulwark Package,2091,implant,[sec],implant[sec]252,absorption,470,252
+Experimental Ossan Bulwark Package,2091,implant,[tert],implant[tert]252,defense,348,252
+Experimental Ossan Bulwark Package,2091,implant,[quat],implant[quat]252,mastery,236,252
+Experimental Ossan Initiative Device,2158,ear,[pri],ear[pri]252,endurance,539,252
+Experimental Ossan Initiative Device,2158,ear,[sec],ear[sec]252,mastery,470,252
+Experimental Ossan Initiative Device,2158,ear,[tert],ear[tert]252,power,348,252
+Experimental Ossan Initiative Device,2158,ear,[quat],ear[quat]252,accuracy,236,252
+Experimental Ossan Initiative Package,2159,implant,[pri],implant[pri]252,endurance,539,252
+Experimental Ossan Initiative Package,2159,implant,[sec],implant[sec]252,mastery,470,252
+Experimental Ossan Initiative Package,2159,implant,[tert],implant[tert]252,power,348,252
+Experimental Ossan Initiative Package,2159,implant,[quat],implant[quat]252,accuracy,236,252
+Experimental Ossan Quick Savant Device,2160,ear,[pri],ear[pri]252,endurance,539,252
+Experimental Ossan Quick Savant Device,2160,ear,[sec],ear[sec]252,mastery,470,252
+Experimental Ossan Quick Savant Device,2160,ear,[tert],ear[tert]252,power,348,252
+Experimental Ossan Quick Savant Device,2160,ear,[quat],ear[quat]252,alacrity,236,252
+Experimental Ossan Quick Savant Package,2161,implant,[pri],implant[pri]252,endurance,539,252
+Experimental Ossan Quick Savant Package,2161,implant,[sec],implant[sec]252,mastery,470,252
+Experimental Ossan Quick Savant Package,2161,implant,[tert],implant[tert]252,power,348,252
+Experimental Ossan Quick Savant Package,2161,implant,[quat],implant[quat]252,alacrity,236,252
+Experimental Ossan Relic of Boundless Ages,2162,relic,[pri],relic[pri]252,endurance,260,252
+Experimental Ossan Relic of Boundless Ages,2162,relic,[sec],relic[sec]252,power,113,252
+Experimental Ossan Relic of Boundless Ages,2162,relic,[tert],relic[tert]252,crit,68,252
+Experimental Ossan Relic of Devastating Vengeance,2163,relic,[pri],relic[pri]252,endurance,260,252
+Experimental Ossan Relic of Devastating Vengeance,2163,relic,[sec],relic[sec]252,power,113,252
+Experimental Ossan Relic of Devastating Vengeance,2163,relic,[tert],relic[tert]252,crit,68,252
+Experimental Ossan Relic of Ephemeral Mending,2164,relic,[pri],relic[pri]252,endurance,260,252
+Experimental Ossan Relic of Ephemeral Mending,2164,relic,[sec],relic[sec]252,power,113,252
+Experimental Ossan Relic of Ephemeral Mending,2164,relic,[tert],relic[tert]252,crit,68,252
+Experimental Ossan Relic of Focused Retribution,2165,relic,[pri],relic[pri]252,endurance,260,252
+Experimental Ossan Relic of Focused Retribution,2165,relic,[sec],relic[sec]252,power,113,252
+Experimental Ossan Relic of Focused Retribution,2165,relic,[tert],relic[tert]252,crit,68,252
+Experimental Ossan Relic of Imperiling Serenity,2166,relic,[pri],relic[pri]252,mastery,260,252
+Experimental Ossan Relic of Imperiling Serenity,2166,relic,[sec],relic[sec]252,defense,113,252
+Experimental Ossan Relic of Imperiling Serenity,2166,relic,[tert],relic[tert]252,shield,68,252
+Experimental Ossan Relic of Reactive Warding,2167,relic,[pri],relic[pri]252,mastery,260,252
+Experimental Ossan Relic of Reactive Warding,2167,relic,[sec],relic[sec]252,defense,113,252
+Experimental Ossan Relic of Reactive Warding,2167,relic,[tert],relic[tert]252,shield,68,252
+Experimental Ossan Relic of Serendipitous Assault,2168,relic,[pri],relic[pri]252,endurance,260,252
+Experimental Ossan Relic of Serendipitous Assault,2168,relic,[sec],relic[sec]252,power,113,252
+Experimental Ossan Relic of Serendipitous Assault,2168,relic,[tert],relic[tert]252,crit,68,252
+Experimental Ossan Relic of Shield Amplification,2169,relic,[pri],relic[pri]252,mastery,260,252
+Experimental Ossan Relic of Shield Amplification,2169,relic,[sec],relic[sec]252,defense,113,252
+Experimental Ossan Relic of Shield Amplification,2169,relic,[tert],relic[tert]252,shield,68,252
+Experimental Ossan Relic of the Fortunate Redoubt,2170,relic,[pri],relic[pri]252,mastery,260,252
+Experimental Ossan Relic of the Fortunate Redoubt,2170,relic,[sec],relic[sec]252,defense,113,252
+Experimental Ossan Relic of the Fortunate Redoubt,2170,relic,[tert],relic[tert]252,shield,68,252
+Experimental Ossan Relic of the Primeval Fatesealer,2171,relic,[pri],relic[pri]252,endurance,260,252
+Experimental Ossan Relic of the Primeval Fatesealer,2171,relic,[sec],relic[sec]252,power,113,252
+Experimental Ossan Relic of the Primeval Fatesealer,2171,relic,[tert],relic[tert]252,crit,68,252
+Experimental Ossan Relic of the Shrouded Crusader,2172,relic,[pri],relic[pri]252,endurance,260,252
+Experimental Ossan Relic of the Shrouded Crusader,2172,relic,[sec],relic[sec]252,power,113,252
+Experimental Ossan Relic of the Shrouded Crusader,2172,relic,[tert],relic[tert]252,crit,68,252
+Masterwork Ancient Adept Device,2223,ear,[pri],ear[pri]258,endurance,581,258
+Masterwork Ancient Adept Device,2223,ear,[sec],ear[sec]258,mastery,504,258
+Masterwork Ancient Adept Device,2223,ear,[tert],ear[tert]258,power,375,258
+Masterwork Ancient Adept Device,2223,ear,[quat],ear[quat]258,crit,253,258
+Masterwork Ancient Adept Package,2224,implant,[pri],implant[pri]258,endurance,581,258
+Masterwork Ancient Adept Package,2224,implant,[sec],implant[sec]258,mastery,504,258
+Masterwork Ancient Adept Package,2224,implant,[tert],implant[tert]258,power,375,258
+Masterwork Ancient Adept Package,2224,implant,[quat],implant[quat]258,crit,253,258
+Masterwork Ancient Bastion Device,2225,ear,[pri],ear[pri]258,endurance,581,258
+Masterwork Ancient Bastion Device,2225,ear,[sec],ear[sec]258,shield,504,258
+Masterwork Ancient Bastion Device,2225,ear,[tert],ear[tert]258,defense,375,258
+Masterwork Ancient Bastion Device,2225,ear,[quat],ear[quat]258,mastery,253,258
+Masterwork Ancient Bastion Package,2226,implant,[pri],implant[pri]258,endurance,581,258
+Masterwork Ancient Bastion Package,2226,implant,[sec],implant[sec]258,shield,504,258
+Masterwork Ancient Bastion Package,2226,implant,[tert],implant[tert]258,defense,375,258
+Masterwork Ancient Bastion Package,2226,implant,[quat],implant[quat]258,mastery,253,258
+Masterwork Ancient Bulwark Device,2227,ear,[pri],ear[pri]258,endurance,581,258
+Masterwork Ancient Bulwark Device,2227,ear,[sec],ear[sec]258,absorption,504,258
+Masterwork Ancient Bulwark Device,2227,ear,[tert],ear[tert]258,defense,375,258
+Masterwork Ancient Bulwark Device,2227,ear,[quat],ear[quat]258,mastery,253,258
+Masterwork Ancient Bulwark Package,2228,implant,[pri],implant[pri]258,endurance,581,258
+Masterwork Ancient Bulwark Package,2228,implant,[sec],implant[sec]258,absorption,504,258
+Masterwork Ancient Bulwark Package,2228,implant,[tert],implant[tert]258,defense,375,258
+Masterwork Ancient Bulwark Package,2228,implant,[quat],implant[quat]258,mastery,253,258
+Masterwork Ancient Initiative Device,2295,ear,[pri],ear[pri]258,endurance,581,258
+Masterwork Ancient Initiative Device,2295,ear,[sec],ear[sec]258,mastery,504,258
+Masterwork Ancient Initiative Device,2295,ear,[tert],ear[tert]258,power,375,258
+Masterwork Ancient Initiative Device,2295,ear,[quat],ear[quat]258,accuracy,253,258
+Masterwork Ancient Initiative Package,2296,implant,[pri],implant[pri]258,endurance,581,258
+Masterwork Ancient Initiative Package,2296,implant,[sec],implant[sec]258,mastery,504,258
+Masterwork Ancient Initiative Package,2296,implant,[tert],implant[tert]258,power,375,258
+Masterwork Ancient Initiative Package,2296,implant,[quat],implant[quat]258,accuracy,253,258
+Masterwork Ancient Quick Savant Device,2297,ear,[pri],ear[pri]258,endurance,581,258
+Masterwork Ancient Quick Savant Device,2297,ear,[sec],ear[sec]258,mastery,504,258
+Masterwork Ancient Quick Savant Device,2297,ear,[tert],ear[tert]258,power,375,258
+Masterwork Ancient Quick Savant Device,2297,ear,[quat],ear[quat]258,alacrity,253,258
+Masterwork Ancient Quick Savant Package,2298,implant,[pri],implant[pri]258,endurance,581,258
+Masterwork Ancient Quick Savant Package,2298,implant,[sec],implant[sec]258,mastery,504,258
+Masterwork Ancient Quick Savant Package,2298,implant,[tert],implant[tert]258,power,375,258
+Masterwork Ancient Quick Savant Package,2298,implant,[quat],implant[quat]258,alacrity,253,258
+Masterwork Ancient Relic of Boundless Ages,2299,relic,[pri],relic[pri]258,endurance,278,258
+Masterwork Ancient Relic of Boundless Ages,2299,relic,[sec],relic[sec]258,power,122,258
+Masterwork Ancient Relic of Boundless Ages,2299,relic,[tert],relic[tert]258,crit,74,258
+Masterwork Ancient Relic of Devastating Vengeance,2300,relic,[pri],relic[pri]258,endurance,278,258
+Masterwork Ancient Relic of Devastating Vengeance,2300,relic,[sec],relic[sec]258,power,122,258
+Masterwork Ancient Relic of Devastating Vengeance,2300,relic,[tert],relic[tert]258,crit,74,258
+Masterwork Ancient Relic of Ephemeral Mending,2301,relic,[pri],relic[pri]258,endurance,278,258
+Masterwork Ancient Relic of Ephemeral Mending,2301,relic,[sec],relic[sec]258,power,122,258
+Masterwork Ancient Relic of Ephemeral Mending,2301,relic,[tert],relic[tert]258,crit,74,258
+Masterwork Ancient Relic of Focused Retribution,2302,relic,[pri],relic[pri]258,endurance,278,258
+Masterwork Ancient Relic of Focused Retribution,2302,relic,[sec],relic[sec]258,power,122,258
+Masterwork Ancient Relic of Focused Retribution,2302,relic,[tert],relic[tert]258,crit,74,258
+Masterwork Ancient Relic of Imperiling Serenity,2303,relic,[pri],relic[pri]258,mastery,278,258
+Masterwork Ancient Relic of Imperiling Serenity,2303,relic,[sec],relic[sec]258,defense,122,258
+Masterwork Ancient Relic of Imperiling Serenity,2303,relic,[tert],relic[tert]258,shield,74,258
+Masterwork Ancient Relic of Reactive Warding,2304,relic,[pri],relic[pri]258,mastery,278,258
+Masterwork Ancient Relic of Reactive Warding,2304,relic,[sec],relic[sec]258,defense,122,258
+Masterwork Ancient Relic of Reactive Warding,2304,relic,[tert],relic[tert]258,shield,74,258
+Masterwork Ancient Relic of Serendipitous Assault,2305,relic,[pri],relic[pri]258,endurance,278,258
+Masterwork Ancient Relic of Serendipitous Assault,2305,relic,[sec],relic[sec]258,power,122,258
+Masterwork Ancient Relic of Serendipitous Assault,2305,relic,[tert],relic[tert]258,crit,74,258
+Masterwork Ancient Relic of Shield Amplification,2306,relic,[pri],relic[pri]258,mastery,278,258
+Masterwork Ancient Relic of Shield Amplification,2306,relic,[sec],relic[sec]258,defense,122,258
+Masterwork Ancient Relic of Shield Amplification,2306,relic,[tert],relic[tert]258,shield,74,258
+Masterwork Ancient Relic of the Fortunate Redoubt,2307,relic,[pri],relic[pri]258,mastery,278,258
+Masterwork Ancient Relic of the Fortunate Redoubt,2307,relic,[sec],relic[sec]258,defense,122,258
+Masterwork Ancient Relic of the Fortunate Redoubt,2307,relic,[tert],relic[tert]258,shield,74,258
+Masterwork Ancient Relic of the Primeval Fatesealer,2308,relic,[pri],relic[pri]258,endurance,278,258
+Masterwork Ancient Relic of the Primeval Fatesealer,2308,relic,[sec],relic[sec]258,power,122,258
+Masterwork Ancient Relic of the Primeval Fatesealer,2308,relic,[tert],relic[tert]258,crit,74,258
+Masterwork Ancient Relic of the Shrouded Crusader,2309,relic,[pri],relic[pri]258,endurance,278,258
+Masterwork Ancient Relic of the Shrouded Crusader,2309,relic,[sec],relic[sec]258,power,122,258
+Masterwork Ancient Relic of the Shrouded Crusader,2309,relic,[tert],relic[tert]258,crit,74,258

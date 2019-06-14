@@ -5069,3 +5069,679 @@ tempOrder,ItemId,tempName,tempSlot,tempRating,tempColor,tempRole,tempClass,tempI
 5069,2032,Iokath MK-5 Vindicator's Armguards,wrists,242,gold,dps,jugg,mod,242goldmod,105,Lethal Mod 49,,gold
 5070,2039,Iokath MK-5 War Leader's Armguards,wrists,242,gold,tank,jugg,mod,242goldmod,108,Warding Mod 49,,gold
 5071,2048,Iokath MK-5 Weaponmaster's Armguards,wrists,242,gold,dps,mara,mod,242goldmod,105,Lethal Mod 49,,gold
+5072,2093,Experimental Ossan Combat Medic's Body Armor,chest,252,purple,healer,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5073,2100,Experimental Ossan Combat Tech's Body Armor,chest,252,purple,dps,pt,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5074,2110,Experimental Ossan Eliminator's Body Armor,chest,252,purple,dps,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5075,2123,Experimental Ossan Enforcer's Jacket,chest,252,purple,dps,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5076,2130,Experimental Ossan Field Medic's Jacket,chest,252,purple,healer,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5077,2137,Experimental Ossan Field Tech's Jacket,chest,252,purple,dps,sniper,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5078,2150,Experimental Ossan Force-Master's Robe,chest,252,purple,dps,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5079,2157,Experimental Ossan Force-Mystic's Robe,chest,252,purple,healer,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5080,2179,Experimental Ossan Stalker's Robe,chest,252,purple,dps,sin,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5081,2184,Experimental Ossan Supercommando's Body Armor,chest,252,purple,tank,pt,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5082,2197,Experimental Ossan Survivor's Robe,chest,252,purple,tank,sin,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5083,2202,Experimental Ossan Vindicator's Chestguard,chest,252,purple,dps,jugg,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5084,2209,Experimental Ossan War Leader's Chestguard,chest,252,purple,tank,jugg,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5085,2218,Experimental Ossan Weaponmaster's Chestguard,chest,252,purple,dps,mara,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5086,2094,Experimental Ossan Combat Medic's Boots,feet,252,purple,healer,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5087,2101,Experimental Ossan Combat Tech's Boots,feet,252,purple,dps,pt,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5088,2111,Experimental Ossan Eliminator's Boots,feet,252,purple,dps,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5089,2119,Experimental Ossan Enforcer's Boots,feet,252,purple,dps,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5090,2126,Experimental Ossan Field Medic's Boots,feet,252,purple,healer,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5091,2133,Experimental Ossan Field Tech's Boots,feet,252,purple,dps,sniper,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5092,2143,Experimental Ossan Force-Master's Boots,feet,252,purple,dps,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5093,2152,Experimental Ossan Force-Mystic's Boots,feet,252,purple,healer,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5094,2174,Experimental Ossan Stalker's Boots,feet,252,purple,dps,sin,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5095,2185,Experimental Ossan Supercommando's Boots,feet,252,purple,tank,pt,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5096,2192,Experimental Ossan Survivor's Boots,feet,252,purple,tank,sin,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5097,2201,Experimental Ossan Vindicator's Boots,feet,252,purple,dps,jugg,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5098,2208,Experimental Ossan War Leader's Boots,feet,252,purple,tank,jugg,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5099,2217,Experimental Ossan Weaponmaster's Boots,feet,252,purple,dps,mara,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5100,2095,Experimental Ossan Combat Medic's Gauntlets,hands,252,purple,healer,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5101,2102,Experimental Ossan Combat Tech's Gauntlets,hands,252,purple,dps,pt,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5102,2112,Experimental Ossan Eliminator's Gauntlets,hands,252,purple,dps,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5103,2121,Experimental Ossan Enforcer's Gloves,hands,252,purple,dps,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5104,2128,Experimental Ossan Field Medic's Gloves,hands,252,purple,healer,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5105,2135,Experimental Ossan Field Tech's Gloves,hands,252,purple,dps,sniper,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5106,2146,Experimental Ossan Force-Master's Gloves,hands,252,purple,dps,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5107,2154,Experimental Ossan Force-Mystic's Gloves,hands,252,purple,healer,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5108,2176,Experimental Ossan Stalker's Gloves,hands,252,purple,dps,sin,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5109,2186,Experimental Ossan Supercommando's Gauntlets,hands,252,purple,tank,pt,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5110,2194,Experimental Ossan Survivor's Gloves,hands,252,purple,tank,sin,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5111,2203,Experimental Ossan Vindicator's Gauntlets,hands,252,purple,dps,jugg,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5112,2210,Experimental Ossan War Leader's Gauntlets,hands,252,purple,tank,jugg,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5113,2219,Experimental Ossan Weaponmaster's Gauntlets,hands,252,purple,dps,mara,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5114,2096,Experimental Ossan Combat Medic's Helmet,head,252,purple,healer,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5115,2103,Experimental Ossan Combat Tech's Helmet,head,252,purple,dps,pt,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5116,2114,Experimental Ossan Eliminator's Helmet,head,252,purple,dps,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5117,2122,Experimental Ossan Enforcer's Headgear,head,252,purple,dps,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5118,2129,Experimental Ossan Field Medic's Headgear,head,252,purple,healer,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5119,2136,Experimental Ossan Field Tech's Headgear,head,252,purple,dps,sniper,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5120,2147,Experimental Ossan Force-Master's Headgear,head,252,purple,dps,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5121,2155,Experimental Ossan Force-Mystic's Headgear,head,252,purple,healer,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5122,2177,Experimental Ossan Stalker's Headgear,head,252,purple,dps,sin,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5123,2187,Experimental Ossan Supercommando's Helmet,head,252,purple,tank,pt,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5124,2195,Experimental Ossan Survivor's Headgear,head,252,purple,tank,sin,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5125,2205,Experimental Ossan Vindicator's Headgear,head,252,purple,dps,jugg,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5126,2212,Experimental Ossan War Leader's Headgear,head,252,purple,tank,jugg,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5127,2221,Experimental Ossan Weaponmaster's Headgear,head,252,purple,dps,mara,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5128,2097,Experimental Ossan Combat Medic's Legplates,legs,252,purple,healer,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5129,2104,Experimental Ossan Combat Tech's Legplates,legs,252,purple,dps,pt,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5130,2115,Experimental Ossan Eliminator's Legplates,legs,252,purple,dps,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5131,2124,Experimental Ossan Enforcer's Leggings,legs,252,purple,dps,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5132,2131,Experimental Ossan Field Medic's Leggings,legs,252,purple,healer,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5133,2138,Experimental Ossan Field Tech's Leggings,legs,252,purple,dps,sniper,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5134,2149,Experimental Ossan Force-Master's Lower Robe,legs,252,purple,dps,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5135,2156,Experimental Ossan Force-Mystic's Lower Robe,legs,252,purple,healer,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5136,2178,Experimental Ossan Stalker's Lower Robe,legs,252,purple,dps,sin,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5137,2188,Experimental Ossan Supercommando's Legplates,legs,252,purple,tank,pt,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5138,2196,Experimental Ossan Survivor's Lower Robe,legs,252,purple,tank,sin,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5139,2204,Experimental Ossan Vindicator's Greaves,legs,252,purple,dps,jugg,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5140,2211,Experimental Ossan War Leader's Greaves,legs,252,purple,tank,jugg,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5141,2220,Experimental Ossan Weaponmaster's Greaves,legs,252,purple,dps,mara,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5142,2113,Experimental Ossan Eliminator's Generator,offhand,252,purple,dps,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,armoring,purple
+5143,2145,Experimental Ossan Force-Master's Focus,offhand,252,purple,dps,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,armoring,purple
+5144,2189,Experimental Ossan Supercommando's Shield,offhand,252,purple,tank,pt,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,armoring,purple
+5145,2214,Experimental Ossan War Leader's Shield,offhand,252,purple,tank,jugg,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,armoring,purple
+5146,2092,Experimental Ossan Combat Medic's Belt,waist,252,purple,healer,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5147,2099,Experimental Ossan Combat Tech's Belt,waist,252,purple,dps,pt,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5148,2107,Experimental Ossan Eliminator's Belt,waist,252,purple,dps,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5149,2118,Experimental Ossan Enforcer's Belt,waist,252,purple,dps,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5150,2125,Experimental Ossan Field Medic's Belt,waist,252,purple,healer,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5151,2132,Experimental Ossan Field Tech's Belt,waist,252,purple,dps,sniper,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5152,2142,Experimental Ossan Force-Master's Belt,waist,252,purple,dps,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5153,2151,Experimental Ossan Force-Mystic's Belt,waist,252,purple,healer,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5154,2173,Experimental Ossan Stalker's Belt,waist,252,purple,dps,sin,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5155,2181,Experimental Ossan Supercommando's Belt,waist,252,purple,tank,pt,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5156,2191,Experimental Ossan Survivor's Belt,waist,252,purple,tank,sin,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5157,2200,Experimental Ossan Vindicator's Belt,waist,252,purple,dps,jugg,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5158,2207,Experimental Ossan War Leader's Belt,waist,252,purple,tank,jugg,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5159,2216,Experimental Ossan Weaponmaster's Belt,waist,252,purple,dps,mara,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5160,2098,Experimental Ossan Combat Medic's Vambraces,wrists,252,purple,healer,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5161,2105,Experimental Ossan Combat Tech's Vambraces,wrists,252,purple,dps,pt,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5162,2117,Experimental Ossan Eliminator's Vambraces,wrists,252,purple,dps,merc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5163,2120,Experimental Ossan Enforcer's Bracers,wrists,252,purple,dps,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5164,2127,Experimental Ossan Field Medic's Bracers,wrists,252,purple,healer,op,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5165,2134,Experimental Ossan Field Tech's Bracers,wrists,252,purple,dps,sniper,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5166,2144,Experimental Ossan Force-Master's Cuffs,wrists,252,purple,dps,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5167,2153,Experimental Ossan Force-Mystic's Cuffs,wrists,252,purple,healer,sorc,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5168,2175,Experimental Ossan Stalker's Cuffs,wrists,252,purple,dps,sin,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5169,2190,Experimental Ossan Supercommando's Vambraces,wrists,252,purple,tank,pt,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5170,2193,Experimental Ossan Survivor's Cuffs,wrists,252,purple,tank,sin,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5171,2199,Experimental Ossan Vindicator's Armguards,wrists,252,purple,dps,jugg,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5172,2206,Experimental Ossan War Leader's Armguards,wrists,252,purple,tank,jugg,armoring,252purplearmoring,399,Advanced Resistive Armoring 57,,purple
+5173,2215,Experimental Ossan Weaponmaster's Armguards,wrists,252,purple,dps,mara,armoring,252purplearmoring,400,Advanced Versatile Armoring 57,,purple
+5174,2106,Experimental Ossan Eliminator's Assault Cannon,mainhand,252,gold,dps,merc,barrel,252purplebarrel,419,Advanced Versatile Barrel 57,barrel,purple
+5175,2108,Experimental Ossan Eliminator's Blaster Pistol,mainhand,252,gold,dps,merc,barrel,252purplebarrel,419,Advanced Versatile Barrel 57,barrel,purple
+5176,2109,Experimental Ossan Eliminator's Blaster Rifle,mainhand,252,gold,dps,merc,barrel,252purplebarrel,419,Advanced Versatile Barrel 57,barrel,purple
+5177,2140,Experimental Ossan Field Tech's Sniper Rifle,mainhand,252,gold,dps,sniper,barrel,252purplebarrel,419,Advanced Versatile Barrel 57,barrel,purple
+5178,2182,Experimental Ossan Supercommando's Blaster Pistol,mainhand,252,gold,tank,pt,barrel,252purplebarrel,418,Advanced Resistive Barrel 57,barrel,purple
+5179,2183,Experimental Ossan Supercommando's Blaster Rifle,mainhand,252,gold,tank,pt,barrel,252purplebarrel,418,Advanced Resistive Barrel 57,barrel,purple
+5180,2116,Experimental Ossan Eliminator's Offhand Blaster,offhand,252,gold,dps,merc,barrel,252purplebarrel,419,Advanced Versatile Barrel 57,barrel,purple
+5181,2139,Experimental Ossan Field Tech's Shotgun,offhand,252,gold,dps,sniper,barrel,252purplebarrel,419,Advanced Versatile Barrel 57,barrel,purple
+5182,2141,Experimental Ossan Field Tech's Vibroknife,offhand,252,gold,dps,sniper,barrel,252purplebarrel,419,Advanced Versatile Barrel 57,barrel,purple
+5183,2106,Experimental Ossan Eliminator's Assault Cannon,mainhand,252,purple,dps,merc,crystal,252purplecrystal,1,empty,barrel,none
+5184,2108,Experimental Ossan Eliminator's Blaster Pistol,mainhand,252,purple,dps,merc,crystal,252purplecrystal,1,empty,barrel,none
+5185,2109,Experimental Ossan Eliminator's Blaster Rifle,mainhand,252,purple,dps,merc,crystal,252purplecrystal,1,empty,barrel,none
+5186,2140,Experimental Ossan Field Tech's Sniper Rifle,mainhand,252,purple,dps,sniper,crystal,252purplecrystal,1,empty,barrel,none
+5187,2148,Experimental Ossan Force-Master's Lightsaber,mainhand,252,purple,dps,sorc,crystal,252purplecrystal,1,empty,hilt,none
+5188,2180,Experimental Ossan Stalker's Saberstaff,mainhand,252,purple,dps,sin,crystal,252purplecrystal,1,empty,hilt,none
+5189,2182,Experimental Ossan Supercommando's Blaster Pistol,mainhand,252,purple,tank,pt,crystal,252purplecrystal,1,empty,barrel,none
+5190,2183,Experimental Ossan Supercommando's Blaster Rifle,mainhand,252,purple,tank,pt,crystal,252purplecrystal,1,empty,barrel,none
+5191,2198,Experimental Ossan Survivor's Saberstaff,mainhand,252,purple,tank,sin,crystal,252purplecrystal,1,empty,hilt,none
+5192,2213,Experimental Ossan War Leader's Lightsaber,mainhand,252,purple,tank,jugg,crystal,252purplecrystal,1,empty,hilt,none
+5193,2113,Experimental Ossan Eliminator's Generator,offhand,252,purple,dps,merc,crystal,252purplecrystal,1,empty,armoring,none
+5194,2116,Experimental Ossan Eliminator's Offhand Blaster,offhand,252,purple,dps,merc,crystal,252purplecrystal,1,empty,barrel,none
+5195,2139,Experimental Ossan Field Tech's Shotgun,offhand,252,purple,dps,sniper,crystal,252purplecrystal,1,empty,barrel,none
+5196,2141,Experimental Ossan Field Tech's Vibroknife,offhand,252,purple,dps,sniper,crystal,252purplecrystal,1,empty,barrel,none
+5197,2145,Experimental Ossan Force-Master's Focus,offhand,252,purple,dps,sorc,crystal,252purplecrystal,1,empty,armoring,none
+5198,2189,Experimental Ossan Supercommando's Shield,offhand,252,purple,tank,pt,crystal,252purplecrystal,1,empty,armoring,none
+5199,2214,Experimental Ossan War Leader's Shield,offhand,252,purple,tank,jugg,crystal,252purplecrystal,1,empty,armoring,none
+5200,2222,Experimental Ossan Weaponmaster's Offhand Saber,offhand,252,purple,dps,mara,crystal,252purplecrystal,1,empty,hilt,none
+5201,2093,Experimental Ossan Combat Medic's Body Armor,chest,252,purple,healer,merc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5202,2100,Experimental Ossan Combat Tech's Body Armor,chest,252,purple,dps,pt,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5203,2110,Experimental Ossan Eliminator's Body Armor,chest,252,purple,dps,merc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5204,2123,Experimental Ossan Enforcer's Jacket,chest,252,purple,dps,op,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5205,2130,Experimental Ossan Field Medic's Jacket,chest,252,purple,healer,op,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5206,2137,Experimental Ossan Field Tech's Jacket,chest,252,purple,dps,sniper,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5207,2150,Experimental Ossan Force-Master's Robe,chest,252,purple,dps,sorc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5208,2157,Experimental Ossan Force-Mystic's Robe,chest,252,purple,healer,sorc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5209,2179,Experimental Ossan Stalker's Robe,chest,252,purple,dps,sin,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5210,2184,Experimental Ossan Supercommando's Body Armor,chest,252,purple,tank,pt,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,,purple
+5211,2197,Experimental Ossan Survivor's Robe,chest,252,purple,tank,sin,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,,purple
+5212,2202,Experimental Ossan Vindicator's Chestguard,chest,252,purple,dps,jugg,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5213,2209,Experimental Ossan War Leader's Chestguard,chest,252,purple,tank,jugg,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,,purple
+5214,2218,Experimental Ossan Weaponmaster's Chestguard,chest,252,purple,dps,mara,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5215,2094,Experimental Ossan Combat Medic's Boots,feet,252,purple,healer,merc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5216,2101,Experimental Ossan Combat Tech's Boots,feet,252,purple,dps,pt,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5217,2111,Experimental Ossan Eliminator's Boots,feet,252,purple,dps,merc,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5218,2119,Experimental Ossan Enforcer's Boots,feet,252,purple,dps,op,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5219,2126,Experimental Ossan Field Medic's Boots,feet,252,purple,healer,op,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5220,2133,Experimental Ossan Field Tech's Boots,feet,252,purple,dps,sniper,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5221,2143,Experimental Ossan Force-Master's Boots,feet,252,purple,dps,sorc,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5222,2152,Experimental Ossan Force-Mystic's Boots,feet,252,purple,healer,sorc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5223,2174,Experimental Ossan Stalker's Boots,feet,252,purple,dps,sin,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5224,2185,Experimental Ossan Supercommando's Boots,feet,252,purple,tank,pt,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5225,2192,Experimental Ossan Survivor's Boots,feet,252,purple,tank,sin,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5226,2201,Experimental Ossan Vindicator's Boots,feet,252,purple,dps,jugg,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5227,2208,Experimental Ossan War Leader's Boots,feet,252,purple,tank,jugg,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5228,2217,Experimental Ossan Weaponmaster's Boots,feet,252,purple,dps,mara,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5229,2095,Experimental Ossan Combat Medic's Gauntlets,hands,252,purple,healer,merc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5230,2102,Experimental Ossan Combat Tech's Gauntlets,hands,252,purple,dps,pt,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5231,2112,Experimental Ossan Eliminator's Gauntlets,hands,252,purple,dps,merc,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5232,2121,Experimental Ossan Enforcer's Gloves,hands,252,purple,dps,op,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5233,2128,Experimental Ossan Field Medic's Gloves,hands,252,purple,healer,op,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5234,2135,Experimental Ossan Field Tech's Gloves,hands,252,purple,dps,sniper,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5235,2146,Experimental Ossan Force-Master's Gloves,hands,252,purple,dps,sorc,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5236,2154,Experimental Ossan Force-Mystic's Gloves,hands,252,purple,healer,sorc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5237,2176,Experimental Ossan Stalker's Gloves,hands,252,purple,dps,sin,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5238,2186,Experimental Ossan Supercommando's Gauntlets,hands,252,purple,tank,pt,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5239,2194,Experimental Ossan Survivor's Gloves,hands,252,purple,tank,sin,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5240,2203,Experimental Ossan Vindicator's Gauntlets,hands,252,purple,dps,jugg,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5241,2210,Experimental Ossan War Leader's Gauntlets,hands,252,purple,tank,jugg,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5242,2219,Experimental Ossan Weaponmaster's Gauntlets,hands,252,purple,dps,mara,enhancement,252purpleenhancement,410,Advanced Initiative Enhancement 57,,purple
+5243,2096,Experimental Ossan Combat Medic's Helmet,head,252,purple,healer,merc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5244,2103,Experimental Ossan Combat Tech's Helmet,head,252,purple,dps,pt,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5245,2114,Experimental Ossan Eliminator's Helmet,head,252,purple,dps,merc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5246,2122,Experimental Ossan Enforcer's Headgear,head,252,purple,dps,op,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5247,2129,Experimental Ossan Field Medic's Headgear,head,252,purple,healer,op,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5248,2136,Experimental Ossan Field Tech's Headgear,head,252,purple,dps,sniper,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5249,2147,Experimental Ossan Force-Master's Headgear,head,252,purple,dps,sorc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5250,2155,Experimental Ossan Force-Mystic's Headgear,head,252,purple,healer,sorc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5251,2177,Experimental Ossan Stalker's Headgear,head,252,purple,dps,sin,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5252,2187,Experimental Ossan Supercommando's Helmet,head,252,purple,tank,pt,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,,purple
+5253,2195,Experimental Ossan Survivor's Headgear,head,252,purple,tank,sin,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,,purple
+5254,2205,Experimental Ossan Vindicator's Headgear,head,252,purple,dps,jugg,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5255,2212,Experimental Ossan War Leader's Headgear,head,252,purple,tank,jugg,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,,purple
+5256,2221,Experimental Ossan Weaponmaster's Headgear,head,252,purple,dps,mara,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,,purple
+5257,2097,Experimental Ossan Combat Medic's Legplates,legs,252,purple,healer,merc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5258,2104,Experimental Ossan Combat Tech's Legplates,legs,252,purple,dps,pt,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5259,2115,Experimental Ossan Eliminator's Legplates,legs,252,purple,dps,merc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5260,2124,Experimental Ossan Enforcer's Leggings,legs,252,purple,dps,op,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5261,2131,Experimental Ossan Field Medic's Leggings,legs,252,purple,healer,op,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5262,2138,Experimental Ossan Field Tech's Leggings,legs,252,purple,dps,sniper,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5263,2149,Experimental Ossan Force-Master's Lower Robe,legs,252,purple,dps,sorc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5264,2156,Experimental Ossan Force-Mystic's Lower Robe,legs,252,purple,healer,sorc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5265,2178,Experimental Ossan Stalker's Lower Robe,legs,252,purple,dps,sin,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5266,2188,Experimental Ossan Supercommando's Legplates,legs,252,purple,tank,pt,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5267,2196,Experimental Ossan Survivor's Lower Robe,legs,252,purple,tank,sin,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5268,2204,Experimental Ossan Vindicator's Greaves,legs,252,purple,dps,jugg,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5269,2211,Experimental Ossan War Leader's Greaves,legs,252,purple,tank,jugg,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,,purple
+5270,2220,Experimental Ossan Weaponmaster's Greaves,legs,252,purple,dps,mara,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,,purple
+5271,2106,Experimental Ossan Eliminator's Assault Cannon,mainhand,252,purple,dps,merc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,barrel,purple
+5272,2108,Experimental Ossan Eliminator's Blaster Pistol,mainhand,252,purple,dps,merc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,barrel,purple
+5273,2109,Experimental Ossan Eliminator's Blaster Rifle,mainhand,252,purple,dps,merc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,barrel,purple
+5274,2140,Experimental Ossan Field Tech's Sniper Rifle,mainhand,252,purple,dps,sniper,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,barrel,purple
+5275,2148,Experimental Ossan Force-Master's Lightsaber,mainhand,252,purple,dps,sorc,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,hilt,purple
+5276,2180,Experimental Ossan Stalker's Saberstaff,mainhand,252,purple,dps,sin,enhancement,252purpleenhancement,403,Advanced Adept Enhancement 57,hilt,purple
+5277,2182,Experimental Ossan Supercommando's Blaster Pistol,mainhand,252,purple,tank,pt,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,barrel,purple
+5278,2183,Experimental Ossan Supercommando's Blaster Rifle,mainhand,252,purple,tank,pt,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,barrel,purple
+5279,2198,Experimental Ossan Survivor's Saberstaff,mainhand,252,purple,tank,sin,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,hilt,purple
+5280,2213,Experimental Ossan War Leader's Lightsaber,mainhand,252,purple,tank,jugg,enhancement,252purpleenhancement,409,Advanced Immunity Enhancement 57,hilt,purple
+5281,2113,Experimental Ossan Eliminator's Generator,offhand,252,purple,dps,merc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,armoring,purple
+5282,2116,Experimental Ossan Eliminator's Offhand Blaster,offhand,252,purple,dps,merc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,barrel,purple
+5283,2139,Experimental Ossan Field Tech's Shotgun,offhand,252,purple,dps,sniper,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,barrel,purple
+5284,2141,Experimental Ossan Field Tech's Vibroknife,offhand,252,purple,dps,sniper,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,barrel,purple
+5285,2145,Experimental Ossan Force-Master's Focus,offhand,252,purple,dps,sorc,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,armoring,purple
+5286,2189,Experimental Ossan Supercommando's Shield,offhand,252,purple,tank,pt,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,armoring,purple
+5287,2214,Experimental Ossan War Leader's Shield,offhand,252,purple,tank,jugg,enhancement,252purpleenhancement,416,Advanced Sturdiness Enhancement 57,armoring,purple
+5288,2222,Experimental Ossan Weaponmaster's Offhand Saber,offhand,252,purple,dps,mara,enhancement,252purpleenhancement,412,Advanced Quick Savant Enhancement 57,hilt,purple
+5289,2148,Experimental Ossan Force-Master's Lightsaber,mainhand,252,gold,dps,sorc,hilt,252purplehilt,421,Advanced Versatile Hilt 57,hilt,purple
+5290,2180,Experimental Ossan Stalker's Saberstaff,mainhand,252,gold,dps,sin,hilt,252purplehilt,421,Advanced Versatile Hilt 57,hilt,purple
+5291,2198,Experimental Ossan Survivor's Saberstaff,mainhand,252,gold,tank,sin,hilt,252purplehilt,421,Advanced Versatile Hilt 57,hilt,purple
+5292,2213,Experimental Ossan War Leader's Lightsaber,mainhand,252,gold,tank,jugg,hilt,252purplehilt,421,Advanced Versatile Hilt 57,hilt,purple
+5293,2222,Experimental Ossan Weaponmaster's Offhand Saber,offhand,252,gold,dps,mara,hilt,252purplehilt,421,Advanced Versatile Hilt 57,hilt,purple
+5294,2093,Experimental Ossan Combat Medic's Body Armor,chest,252,purple,healer,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5295,2100,Experimental Ossan Combat Tech's Body Armor,chest,252,purple,dps,pt,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5296,2110,Experimental Ossan Eliminator's Body Armor,chest,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5297,2123,Experimental Ossan Enforcer's Jacket,chest,252,purple,dps,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5298,2130,Experimental Ossan Field Medic's Jacket,chest,252,purple,healer,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5299,2137,Experimental Ossan Field Tech's Jacket,chest,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5300,2150,Experimental Ossan Force-Master's Robe,chest,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5301,2157,Experimental Ossan Force-Mystic's Robe,chest,252,purple,healer,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5302,2179,Experimental Ossan Stalker's Robe,chest,252,purple,dps,sin,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5303,2184,Experimental Ossan Supercommando's Body Armor,chest,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5304,2197,Experimental Ossan Survivor's Robe,chest,252,purple,tank,sin,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5305,2202,Experimental Ossan Vindicator's Chestguard,chest,252,purple,dps,jugg,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5306,2209,Experimental Ossan War Leader's Chestguard,chest,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5307,2218,Experimental Ossan Weaponmaster's Chestguard,chest,252,purple,dps,mara,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5308,2094,Experimental Ossan Combat Medic's Boots,feet,252,purple,healer,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5309,2101,Experimental Ossan Combat Tech's Boots,feet,252,purple,dps,pt,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5310,2111,Experimental Ossan Eliminator's Boots,feet,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5311,2119,Experimental Ossan Enforcer's Boots,feet,252,purple,dps,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5312,2126,Experimental Ossan Field Medic's Boots,feet,252,purple,healer,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5313,2133,Experimental Ossan Field Tech's Boots,feet,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5314,2143,Experimental Ossan Force-Master's Boots,feet,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5315,2152,Experimental Ossan Force-Mystic's Boots,feet,252,purple,healer,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5316,2174,Experimental Ossan Stalker's Boots,feet,252,purple,dps,sin,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5317,2185,Experimental Ossan Supercommando's Boots,feet,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5318,2192,Experimental Ossan Survivor's Boots,feet,252,purple,tank,sin,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5319,2201,Experimental Ossan Vindicator's Boots,feet,252,purple,dps,jugg,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5320,2208,Experimental Ossan War Leader's Boots,feet,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5321,2217,Experimental Ossan Weaponmaster's Boots,feet,252,purple,dps,mara,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5322,2095,Experimental Ossan Combat Medic's Gauntlets,hands,252,purple,healer,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5323,2102,Experimental Ossan Combat Tech's Gauntlets,hands,252,purple,dps,pt,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5324,2112,Experimental Ossan Eliminator's Gauntlets,hands,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5325,2121,Experimental Ossan Enforcer's Gloves,hands,252,purple,dps,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5326,2128,Experimental Ossan Field Medic's Gloves,hands,252,purple,healer,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5327,2135,Experimental Ossan Field Tech's Gloves,hands,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5328,2146,Experimental Ossan Force-Master's Gloves,hands,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5329,2154,Experimental Ossan Force-Mystic's Gloves,hands,252,purple,healer,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5330,2176,Experimental Ossan Stalker's Gloves,hands,252,purple,dps,sin,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5331,2186,Experimental Ossan Supercommando's Gauntlets,hands,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5332,2194,Experimental Ossan Survivor's Gloves,hands,252,purple,tank,sin,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5333,2203,Experimental Ossan Vindicator's Gauntlets,hands,252,purple,dps,jugg,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5334,2210,Experimental Ossan War Leader's Gauntlets,hands,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5335,2219,Experimental Ossan Weaponmaster's Gauntlets,hands,252,purple,dps,mara,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5336,2096,Experimental Ossan Combat Medic's Helmet,head,252,purple,healer,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5337,2103,Experimental Ossan Combat Tech's Helmet,head,252,purple,dps,pt,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5338,2114,Experimental Ossan Eliminator's Helmet,head,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5339,2122,Experimental Ossan Enforcer's Headgear,head,252,purple,dps,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5340,2129,Experimental Ossan Field Medic's Headgear,head,252,purple,healer,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5341,2136,Experimental Ossan Field Tech's Headgear,head,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5342,2147,Experimental Ossan Force-Master's Headgear,head,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5343,2155,Experimental Ossan Force-Mystic's Headgear,head,252,purple,healer,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5344,2177,Experimental Ossan Stalker's Headgear,head,252,purple,dps,sin,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5345,2187,Experimental Ossan Supercommando's Helmet,head,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5346,2195,Experimental Ossan Survivor's Headgear,head,252,purple,tank,sin,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5347,2205,Experimental Ossan Vindicator's Headgear,head,252,purple,dps,jugg,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5348,2212,Experimental Ossan War Leader's Headgear,head,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5349,2221,Experimental Ossan Weaponmaster's Headgear,head,252,purple,dps,mara,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5350,2097,Experimental Ossan Combat Medic's Legplates,legs,252,purple,healer,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5351,2104,Experimental Ossan Combat Tech's Legplates,legs,252,purple,dps,pt,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5352,2115,Experimental Ossan Eliminator's Legplates,legs,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5353,2124,Experimental Ossan Enforcer's Leggings,legs,252,purple,dps,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5354,2131,Experimental Ossan Field Medic's Leggings,legs,252,purple,healer,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5355,2138,Experimental Ossan Field Tech's Leggings,legs,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5356,2149,Experimental Ossan Force-Master's Lower Robe,legs,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5357,2156,Experimental Ossan Force-Mystic's Lower Robe,legs,252,purple,healer,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5358,2178,Experimental Ossan Stalker's Lower Robe,legs,252,purple,dps,sin,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5359,2188,Experimental Ossan Supercommando's Legplates,legs,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5360,2196,Experimental Ossan Survivor's Lower Robe,legs,252,purple,tank,sin,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5361,2204,Experimental Ossan Vindicator's Greaves,legs,252,purple,dps,jugg,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5362,2211,Experimental Ossan War Leader's Greaves,legs,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5363,2220,Experimental Ossan Weaponmaster's Greaves,legs,252,purple,dps,mara,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5364,2106,Experimental Ossan Eliminator's Assault Cannon,mainhand,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,barrel,purple
+5365,2108,Experimental Ossan Eliminator's Blaster Pistol,mainhand,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,barrel,purple
+5366,2109,Experimental Ossan Eliminator's Blaster Rifle,mainhand,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,barrel,purple
+5367,2140,Experimental Ossan Field Tech's Sniper Rifle,mainhand,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,barrel,purple
+5368,2148,Experimental Ossan Force-Master's Lightsaber,mainhand,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,hilt,purple
+5369,2180,Experimental Ossan Stalker's Saberstaff,mainhand,252,purple,dps,sin,mod,252purplemod,401,Advanced Lethal Mod 57,hilt,purple
+5370,2182,Experimental Ossan Supercommando's Blaster Pistol,mainhand,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,barrel,purple
+5371,2183,Experimental Ossan Supercommando's Blaster Rifle,mainhand,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,barrel,purple
+5372,2198,Experimental Ossan Survivor's Saberstaff,mainhand,252,purple,tank,sin,mod,252purplemod,402,Advanced Warding Mod 57,hilt,purple
+5373,2213,Experimental Ossan War Leader's Lightsaber,mainhand,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,hilt,purple
+5374,2113,Experimental Ossan Eliminator's Generator,offhand,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,armoring,purple
+5375,2116,Experimental Ossan Eliminator's Offhand Blaster,offhand,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,barrel,purple
+5376,2139,Experimental Ossan Field Tech's Shotgun,offhand,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,barrel,purple
+5377,2141,Experimental Ossan Field Tech's Vibroknife,offhand,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,barrel,purple
+5378,2145,Experimental Ossan Force-Master's Focus,offhand,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,armoring,purple
+5379,2189,Experimental Ossan Supercommando's Shield,offhand,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,armoring,purple
+5380,2214,Experimental Ossan War Leader's Shield,offhand,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,armoring,purple
+5381,2222,Experimental Ossan Weaponmaster's Offhand Saber,offhand,252,purple,dps,mara,mod,252purplemod,401,Advanced Lethal Mod 57,hilt,purple
+5382,2092,Experimental Ossan Combat Medic's Belt,waist,252,purple,healer,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5383,2099,Experimental Ossan Combat Tech's Belt,waist,252,purple,dps,pt,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5384,2107,Experimental Ossan Eliminator's Belt,waist,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5385,2118,Experimental Ossan Enforcer's Belt,waist,252,purple,dps,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5386,2125,Experimental Ossan Field Medic's Belt,waist,252,purple,healer,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5387,2132,Experimental Ossan Field Tech's Belt,waist,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5388,2142,Experimental Ossan Force-Master's Belt,waist,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5389,2151,Experimental Ossan Force-Mystic's Belt,waist,252,purple,healer,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5390,2173,Experimental Ossan Stalker's Belt,waist,252,purple,dps,sin,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5391,2181,Experimental Ossan Supercommando's Belt,waist,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5392,2191,Experimental Ossan Survivor's Belt,waist,252,purple,tank,sin,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5393,2200,Experimental Ossan Vindicator's Belt,waist,252,purple,dps,jugg,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5394,2207,Experimental Ossan War Leader's Belt,waist,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5395,2216,Experimental Ossan Weaponmaster's Belt,waist,252,purple,dps,mara,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5396,2098,Experimental Ossan Combat Medic's Vambraces,wrists,252,purple,healer,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5397,2105,Experimental Ossan Combat Tech's Vambraces,wrists,252,purple,dps,pt,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5398,2117,Experimental Ossan Eliminator's Vambraces,wrists,252,purple,dps,merc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5399,2120,Experimental Ossan Enforcer's Bracers,wrists,252,purple,dps,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5400,2127,Experimental Ossan Field Medic's Bracers,wrists,252,purple,healer,op,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5401,2134,Experimental Ossan Field Tech's Bracers,wrists,252,purple,dps,sniper,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5402,2144,Experimental Ossan Force-Master's Cuffs,wrists,252,purple,dps,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5403,2153,Experimental Ossan Force-Mystic's Cuffs,wrists,252,purple,healer,sorc,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5404,2175,Experimental Ossan Stalker's Cuffs,wrists,252,purple,dps,sin,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5405,2190,Experimental Ossan Supercommando's Vambraces,wrists,252,purple,tank,pt,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5406,2193,Experimental Ossan Survivor's Cuffs,wrists,252,purple,tank,sin,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5407,2199,Experimental Ossan Vindicator's Armguards,wrists,252,purple,dps,jugg,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5408,2206,Experimental Ossan War Leader's Armguards,wrists,252,purple,tank,jugg,mod,252purplemod,402,Advanced Warding Mod 57,,purple
+5409,2215,Experimental Ossan Weaponmaster's Armguards,wrists,252,purple,dps,mara,mod,252purplemod,401,Advanced Lethal Mod 57,,purple
+5410,2230,Masterwork Ancient Combat Medic's Body Armor,chest,258,gold,healer,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5411,2237,Masterwork Ancient Combat Tech's Body Armor,chest,258,gold,dps,pt,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5412,2247,Masterwork Ancient Eliminator's Body Armor,chest,258,gold,dps,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5413,2260,Masterwork Ancient Enforcer's Jacket,chest,258,gold,dps,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5414,2267,Masterwork Ancient Field Medic's Jacket,chest,258,gold,healer,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5415,2274,Masterwork Ancient Field Tech's Jacket,chest,258,gold,dps,sniper,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5416,2287,Masterwork Ancient Force-Master's Robe,chest,258,gold,dps,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5417,2294,Masterwork Ancient Force-Mystic's Robe,chest,258,gold,healer,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5418,2316,Masterwork Ancient Stalker's Robe,chest,258,gold,dps,sin,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5419,2321,Masterwork Ancient Supercommando's Body Armor,chest,258,gold,tank,pt,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5420,2334,Masterwork Ancient Survivor's Robe,chest,258,gold,tank,sin,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5421,2339,Masterwork Ancient Vindicator's Chestguard,chest,258,gold,dps,jugg,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5422,2346,Masterwork Ancient War Leader's Chestguard,chest,258,gold,tank,jugg,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5423,2355,Masterwork Ancient Weaponmaster's Chestguard,chest,258,gold,dps,mara,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5424,2231,Masterwork Ancient Combat Medic's Boots,feet,258,gold,healer,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5425,2238,Masterwork Ancient Combat Tech's Boots,feet,258,gold,dps,pt,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5426,2248,Masterwork Ancient Eliminator's Boots,feet,258,gold,dps,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5427,2256,Masterwork Ancient Enforcer's Boots,feet,258,gold,dps,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5428,2263,Masterwork Ancient Field Medic's Boots,feet,258,gold,healer,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5429,2270,Masterwork Ancient Field Tech's Boots,feet,258,gold,dps,sniper,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5430,2280,Masterwork Ancient Force-Master's Boots,feet,258,gold,dps,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5431,2289,Masterwork Ancient Force-Mystic's Boots,feet,258,gold,healer,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5432,2311,Masterwork Ancient Stalker's Boots,feet,258,gold,dps,sin,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5433,2322,Masterwork Ancient Supercommando's Boots,feet,258,gold,tank,pt,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5434,2329,Masterwork Ancient Survivor's Boots,feet,258,gold,tank,sin,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5435,2338,Masterwork Ancient Vindicator's Boots,feet,258,gold,dps,jugg,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5436,2345,Masterwork Ancient War Leader's Boots,feet,258,gold,tank,jugg,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5437,2354,Masterwork Ancient Weaponmaster's Boots,feet,258,gold,dps,mara,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5438,2232,Masterwork Ancient Combat Medic's Gauntlets,hands,258,gold,healer,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5439,2239,Masterwork Ancient Combat Tech's Gauntlets,hands,258,gold,dps,pt,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5440,2249,Masterwork Ancient Eliminator's Gauntlets,hands,258,gold,dps,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5441,2258,Masterwork Ancient Enforcer's Gloves,hands,258,gold,dps,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5442,2265,Masterwork Ancient Field Medic's Gloves,hands,258,gold,healer,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5443,2272,Masterwork Ancient Field Tech's Gloves,hands,258,gold,dps,sniper,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5444,2283,Masterwork Ancient Force-Master's Gloves,hands,258,gold,dps,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5445,2291,Masterwork Ancient Force-Mystic's Gloves,hands,258,gold,healer,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5446,2313,Masterwork Ancient Stalker's Gloves,hands,258,gold,dps,sin,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5447,2323,Masterwork Ancient Supercommando's Gauntlets,hands,258,gold,tank,pt,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5448,2331,Masterwork Ancient Survivor's Gloves,hands,258,gold,tank,sin,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5449,2340,Masterwork Ancient Vindicator's Gauntlets,hands,258,gold,dps,jugg,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5450,2347,Masterwork Ancient War Leader's Gauntlets,hands,258,gold,tank,jugg,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5451,2356,Masterwork Ancient Weaponmaster's Gauntlets,hands,258,gold,dps,mara,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5452,2233,Masterwork Ancient Combat Medic's Helmet,head,258,gold,healer,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5453,2240,Masterwork Ancient Combat Tech's Helmet,head,258,gold,dps,pt,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5454,2251,Masterwork Ancient Eliminator's Helmet,head,258,gold,dps,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5455,2259,Masterwork Ancient Enforcer's Headgear,head,258,gold,dps,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5456,2266,Masterwork Ancient Field Medic's Headgear,head,258,gold,healer,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5457,2273,Masterwork Ancient Field Tech's Headgear,head,258,gold,dps,sniper,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5458,2284,Masterwork Ancient Force-Master's Headgear,head,258,gold,dps,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5459,2292,Masterwork Ancient Force-Mystic's Headgear,head,258,gold,healer,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5460,2314,Masterwork Ancient Stalker's Headgear,head,258,gold,dps,sin,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5461,2324,Masterwork Ancient Supercommando's Helmet,head,258,gold,tank,pt,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5462,2332,Masterwork Ancient Survivor's Headgear,head,258,gold,tank,sin,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5463,2342,Masterwork Ancient Vindicator's Headgear,head,258,gold,dps,jugg,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5464,2349,Masterwork Ancient War Leader's Headgear,head,258,gold,tank,jugg,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5465,2358,Masterwork Ancient Weaponmaster's Headgear,head,258,gold,dps,mara,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5466,2234,Masterwork Ancient Combat Medic's Legplates,legs,258,gold,healer,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5467,2241,Masterwork Ancient Combat Tech's Legplates,legs,258,gold,dps,pt,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5468,2252,Masterwork Ancient Eliminator's Legplates,legs,258,gold,dps,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5469,2261,Masterwork Ancient Enforcer's Leggings,legs,258,gold,dps,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5470,2268,Masterwork Ancient Field Medic's Leggings,legs,258,gold,healer,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5471,2275,Masterwork Ancient Field Tech's Leggings,legs,258,gold,dps,sniper,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5472,2286,Masterwork Ancient Force-Master's Lower Robe,legs,258,gold,dps,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5473,2293,Masterwork Ancient Force-Mystic's Lower Robe,legs,258,gold,healer,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5474,2315,Masterwork Ancient Stalker's Lower Robe,legs,258,gold,dps,sin,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5475,2325,Masterwork Ancient Supercommando's Legplates,legs,258,gold,tank,pt,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5476,2333,Masterwork Ancient Survivor's Lower Robe,legs,258,gold,tank,sin,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5477,2341,Masterwork Ancient Vindicator's Greaves,legs,258,gold,dps,jugg,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5478,2348,Masterwork Ancient War Leader's Greaves,legs,258,gold,tank,jugg,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5479,2357,Masterwork Ancient Weaponmaster's Greaves,legs,258,gold,dps,mara,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5480,2250,Masterwork Ancient Eliminator's Generator,offhand,258,gold,dps,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,armoring,gold
+5481,2282,Masterwork Ancient Force-Master's Focus,offhand,258,gold,dps,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,armoring,gold
+5482,2326,Masterwork Ancient Supercommando's Shield,offhand,258,gold,tank,pt,armoring,258goldarmoring,422,Superior Resistive Armoring 56,armoring,gold
+5483,2351,Masterwork Ancient War Leader's Shield,offhand,258,gold,tank,jugg,armoring,258goldarmoring,422,Superior Resistive Armoring 56,armoring,gold
+5484,2229,Masterwork Ancient Combat Medic's Belt,waist,258,gold,healer,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5485,2236,Masterwork Ancient Combat Tech's Belt,waist,258,gold,dps,pt,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5486,2244,Masterwork Ancient Eliminator's Belt,waist,258,gold,dps,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5487,2255,Masterwork Ancient Enforcer's Belt,waist,258,gold,dps,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5488,2262,Masterwork Ancient Field Medic's Belt,waist,258,gold,healer,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5489,2269,Masterwork Ancient Field Tech's Belt,waist,258,gold,dps,sniper,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5490,2279,Masterwork Ancient Force-Master's Belt,waist,258,gold,dps,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5491,2288,Masterwork Ancient Force-Mystic's Belt,waist,258,gold,healer,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5492,2310,Masterwork Ancient Stalker's Belt,waist,258,gold,dps,sin,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5493,2318,Masterwork Ancient Supercommando's Belt,waist,258,gold,tank,pt,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5494,2328,Masterwork Ancient Survivor's Belt,waist,258,gold,tank,sin,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5495,2337,Masterwork Ancient Vindicator's Belt,waist,258,gold,dps,jugg,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5496,2344,Masterwork Ancient War Leader's Belt,waist,258,gold,tank,jugg,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5497,2353,Masterwork Ancient Weaponmaster's Belt,waist,258,gold,dps,mara,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5498,2235,Masterwork Ancient Combat Medic's Vambraces,wrists,258,gold,healer,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5499,2242,Masterwork Ancient Combat Tech's Vambraces,wrists,258,gold,dps,pt,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5500,2254,Masterwork Ancient Eliminator's Vambraces,wrists,258,gold,dps,merc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5501,2257,Masterwork Ancient Enforcer's Bracers,wrists,258,gold,dps,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5502,2264,Masterwork Ancient Field Medic's Bracers,wrists,258,gold,healer,op,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5503,2271,Masterwork Ancient Field Tech's Bracers,wrists,258,gold,dps,sniper,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5504,2281,Masterwork Ancient Force-Master's Cuffs,wrists,258,gold,dps,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5505,2290,Masterwork Ancient Force-Mystic's Cuffs,wrists,258,gold,healer,sorc,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5506,2312,Masterwork Ancient Stalker's Cuffs,wrists,258,gold,dps,sin,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5507,2327,Masterwork Ancient Supercommando's Vambraces,wrists,258,gold,tank,pt,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5508,2330,Masterwork Ancient Survivor's Cuffs,wrists,258,gold,tank,sin,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5509,2336,Masterwork Ancient Vindicator's Armguards,wrists,258,gold,dps,jugg,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5510,2343,Masterwork Ancient War Leader's Armguards,wrists,258,gold,tank,jugg,armoring,258goldarmoring,422,Superior Resistive Armoring 56,,gold
+5511,2352,Masterwork Ancient Weaponmaster's Armguards,wrists,258,gold,dps,mara,armoring,258goldarmoring,423,Superior Versatile Armoring 56,,gold
+5512,2243,Masterwork Ancient Eliminator's Assault Cannon,mainhand,258,gold,dps,merc,barrel,258goldbarrel,442,Superior Versatile Barrel 56,barrel,gold
+5513,2245,Masterwork Ancient Eliminator's Blaster Pistol,mainhand,258,gold,dps,merc,barrel,258goldbarrel,442,Superior Versatile Barrel 56,barrel,gold
+5514,2246,Masterwork Ancient Eliminator's Blaster Rifle,mainhand,258,gold,dps,merc,barrel,258goldbarrel,442,Superior Versatile Barrel 56,barrel,gold
+5515,2277,Masterwork Ancient Field Tech's Sniper Rifle,mainhand,258,gold,dps,sniper,barrel,258goldbarrel,442,Superior Versatile Barrel 56,barrel,gold
+5516,2319,Masterwork Ancient Supercommando's Blaster Pistol,mainhand,258,gold,tank,pt,barrel,258goldbarrel,441,Superior Resistive Barrel 56,barrel,gold
+5517,2320,Masterwork Ancient Supercommando's Blaster Rifle,mainhand,258,gold,tank,pt,barrel,258goldbarrel,441,Superior Resistive Barrel 56,barrel,gold
+5518,2253,Masterwork Ancient Eliminator's Offhand Blaster,offhand,258,gold,dps,merc,barrel,258goldbarrel,442,Superior Versatile Barrel 56,barrel,gold
+5519,2276,Masterwork Ancient Field Tech's Shotgun,offhand,258,gold,dps,sniper,barrel,258goldbarrel,442,Superior Versatile Barrel 56,barrel,gold
+5520,2278,Masterwork Ancient Field Tech's Vibroknife,offhand,258,gold,dps,sniper,barrel,258goldbarrel,442,Superior Versatile Barrel 56,barrel,gold
+5521,2243,Masterwork Ancient Eliminator's Assault Cannon,mainhand,258,gold,dps,merc,crystal,258goldcrystal,1,empty,barrel,none
+5522,2245,Masterwork Ancient Eliminator's Blaster Pistol,mainhand,258,gold,dps,merc,crystal,258goldcrystal,1,empty,barrel,none
+5523,2246,Masterwork Ancient Eliminator's Blaster Rifle,mainhand,258,gold,dps,merc,crystal,258goldcrystal,1,empty,barrel,none
+5524,2277,Masterwork Ancient Field Tech's Sniper Rifle,mainhand,258,gold,dps,sniper,crystal,258goldcrystal,1,empty,barrel,none
+5525,2285,Masterwork Ancient Force-Master's Lightsaber,mainhand,258,gold,dps,sorc,crystal,258goldcrystal,1,empty,hilt,none
+5526,2317,Masterwork Ancient Stalker's Saberstaff,mainhand,258,gold,dps,sin,crystal,258goldcrystal,1,empty,hilt,none
+5527,2319,Masterwork Ancient Supercommando's Blaster Pistol,mainhand,258,gold,tank,pt,crystal,258goldcrystal,1,empty,barrel,none
+5528,2320,Masterwork Ancient Supercommando's Blaster Rifle,mainhand,258,gold,tank,pt,crystal,258goldcrystal,1,empty,barrel,none
+5529,2335,Masterwork Ancient Survivor's Saberstaff,mainhand,258,gold,tank,sin,crystal,258goldcrystal,1,empty,hilt,none
+5530,2350,Masterwork Ancient War Leader's Lightsaber,mainhand,258,gold,tank,jugg,crystal,258goldcrystal,1,empty,hilt,none
+5531,2250,Masterwork Ancient Eliminator's Generator,offhand,258,gold,dps,merc,crystal,258goldcrystal,1,empty,armoring,none
+5532,2253,Masterwork Ancient Eliminator's Offhand Blaster,offhand,258,gold,dps,merc,crystal,258goldcrystal,1,empty,barrel,none
+5533,2276,Masterwork Ancient Field Tech's Shotgun,offhand,258,gold,dps,sniper,crystal,258goldcrystal,1,empty,barrel,none
+5534,2278,Masterwork Ancient Field Tech's Vibroknife,offhand,258,gold,dps,sniper,crystal,258goldcrystal,1,empty,barrel,none
+5535,2282,Masterwork Ancient Force-Master's Focus,offhand,258,gold,dps,sorc,crystal,258goldcrystal,1,empty,armoring,none
+5536,2326,Masterwork Ancient Supercommando's Shield,offhand,258,gold,tank,pt,crystal,258goldcrystal,1,empty,armoring,none
+5537,2351,Masterwork Ancient War Leader's Shield,offhand,258,gold,tank,jugg,crystal,258goldcrystal,1,empty,armoring,none
+5538,2359,Masterwork Ancient Weaponmaster's Offhand Saber,offhand,258,gold,dps,mara,crystal,258goldcrystal,1,empty,hilt,none
+5539,2230,Masterwork Ancient Combat Medic's Body Armor,chest,258,gold,healer,merc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5540,2237,Masterwork Ancient Combat Tech's Body Armor,chest,258,gold,dps,pt,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5541,2247,Masterwork Ancient Eliminator's Body Armor,chest,258,gold,dps,merc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5542,2260,Masterwork Ancient Enforcer's Jacket,chest,258,gold,dps,op,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5543,2267,Masterwork Ancient Field Medic's Jacket,chest,258,gold,healer,op,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5544,2274,Masterwork Ancient Field Tech's Jacket,chest,258,gold,dps,sniper,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5545,2287,Masterwork Ancient Force-Master's Robe,chest,258,gold,dps,sorc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5546,2294,Masterwork Ancient Force-Mystic's Robe,chest,258,gold,healer,sorc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5547,2316,Masterwork Ancient Stalker's Robe,chest,258,gold,dps,sin,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5548,2321,Masterwork Ancient Supercommando's Body Armor,chest,258,gold,tank,pt,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,,gold
+5549,2334,Masterwork Ancient Survivor's Robe,chest,258,gold,tank,sin,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,,gold
+5550,2339,Masterwork Ancient Vindicator's Chestguard,chest,258,gold,dps,jugg,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5551,2346,Masterwork Ancient War Leader's Chestguard,chest,258,gold,tank,jugg,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,,gold
+5552,2355,Masterwork Ancient Weaponmaster's Chestguard,chest,258,gold,dps,mara,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5553,2231,Masterwork Ancient Combat Medic's Boots,feet,258,gold,healer,merc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5554,2238,Masterwork Ancient Combat Tech's Boots,feet,258,gold,dps,pt,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5555,2248,Masterwork Ancient Eliminator's Boots,feet,258,gold,dps,merc,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5556,2256,Masterwork Ancient Enforcer's Boots,feet,258,gold,dps,op,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5557,2263,Masterwork Ancient Field Medic's Boots,feet,258,gold,healer,op,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5558,2270,Masterwork Ancient Field Tech's Boots,feet,258,gold,dps,sniper,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5559,2280,Masterwork Ancient Force-Master's Boots,feet,258,gold,dps,sorc,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5560,2289,Masterwork Ancient Force-Mystic's Boots,feet,258,gold,healer,sorc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5561,2311,Masterwork Ancient Stalker's Boots,feet,258,gold,dps,sin,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5562,2322,Masterwork Ancient Supercommando's Boots,feet,258,gold,tank,pt,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5563,2329,Masterwork Ancient Survivor's Boots,feet,258,gold,tank,sin,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5564,2338,Masterwork Ancient Vindicator's Boots,feet,258,gold,dps,jugg,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5565,2345,Masterwork Ancient War Leader's Boots,feet,258,gold,tank,jugg,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5566,2354,Masterwork Ancient Weaponmaster's Boots,feet,258,gold,dps,mara,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5567,2232,Masterwork Ancient Combat Medic's Gauntlets,hands,258,gold,healer,merc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5568,2239,Masterwork Ancient Combat Tech's Gauntlets,hands,258,gold,dps,pt,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5569,2249,Masterwork Ancient Eliminator's Gauntlets,hands,258,gold,dps,merc,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5570,2258,Masterwork Ancient Enforcer's Gloves,hands,258,gold,dps,op,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5571,2265,Masterwork Ancient Field Medic's Gloves,hands,258,gold,healer,op,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5572,2272,Masterwork Ancient Field Tech's Gloves,hands,258,gold,dps,sniper,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5573,2283,Masterwork Ancient Force-Master's Gloves,hands,258,gold,dps,sorc,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5574,2291,Masterwork Ancient Force-Mystic's Gloves,hands,258,gold,healer,sorc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5575,2313,Masterwork Ancient Stalker's Gloves,hands,258,gold,dps,sin,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5576,2323,Masterwork Ancient Supercommando's Gauntlets,hands,258,gold,tank,pt,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5577,2331,Masterwork Ancient Survivor's Gloves,hands,258,gold,tank,sin,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5578,2340,Masterwork Ancient Vindicator's Gauntlets,hands,258,gold,dps,jugg,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5579,2347,Masterwork Ancient War Leader's Gauntlets,hands,258,gold,tank,jugg,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5580,2356,Masterwork Ancient Weaponmaster's Gauntlets,hands,258,gold,dps,mara,enhancement,258goldenhancement,433,Superior Initiative Enhancement 56,,gold
+5581,2233,Masterwork Ancient Combat Medic's Helmet,head,258,gold,healer,merc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5582,2240,Masterwork Ancient Combat Tech's Helmet,head,258,gold,dps,pt,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5583,2251,Masterwork Ancient Eliminator's Helmet,head,258,gold,dps,merc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5584,2259,Masterwork Ancient Enforcer's Headgear,head,258,gold,dps,op,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5585,2266,Masterwork Ancient Field Medic's Headgear,head,258,gold,healer,op,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5586,2273,Masterwork Ancient Field Tech's Headgear,head,258,gold,dps,sniper,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5587,2284,Masterwork Ancient Force-Master's Headgear,head,258,gold,dps,sorc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5588,2292,Masterwork Ancient Force-Mystic's Headgear,head,258,gold,healer,sorc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5589,2314,Masterwork Ancient Stalker's Headgear,head,258,gold,dps,sin,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5590,2324,Masterwork Ancient Supercommando's Helmet,head,258,gold,tank,pt,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,,gold
+5591,2332,Masterwork Ancient Survivor's Headgear,head,258,gold,tank,sin,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,,gold
+5592,2342,Masterwork Ancient Vindicator's Headgear,head,258,gold,dps,jugg,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5593,2349,Masterwork Ancient War Leader's Headgear,head,258,gold,tank,jugg,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,,gold
+5594,2358,Masterwork Ancient Weaponmaster's Headgear,head,258,gold,dps,mara,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,,gold
+5595,2234,Masterwork Ancient Combat Medic's Legplates,legs,258,gold,healer,merc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5596,2241,Masterwork Ancient Combat Tech's Legplates,legs,258,gold,dps,pt,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5597,2252,Masterwork Ancient Eliminator's Legplates,legs,258,gold,dps,merc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5598,2261,Masterwork Ancient Enforcer's Leggings,legs,258,gold,dps,op,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5599,2268,Masterwork Ancient Field Medic's Leggings,legs,258,gold,healer,op,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5600,2275,Masterwork Ancient Field Tech's Leggings,legs,258,gold,dps,sniper,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5601,2286,Masterwork Ancient Force-Master's Lower Robe,legs,258,gold,dps,sorc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5602,2293,Masterwork Ancient Force-Mystic's Lower Robe,legs,258,gold,healer,sorc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5603,2315,Masterwork Ancient Stalker's Lower Robe,legs,258,gold,dps,sin,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5604,2325,Masterwork Ancient Supercommando's Legplates,legs,258,gold,tank,pt,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5605,2333,Masterwork Ancient Survivor's Lower Robe,legs,258,gold,tank,sin,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5606,2341,Masterwork Ancient Vindicator's Greaves,legs,258,gold,dps,jugg,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5607,2348,Masterwork Ancient War Leader's Greaves,legs,258,gold,tank,jugg,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,,gold
+5608,2357,Masterwork Ancient Weaponmaster's Greaves,legs,258,gold,dps,mara,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,,gold
+5609,2243,Masterwork Ancient Eliminator's Assault Cannon,mainhand,258,gold,dps,merc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,barrel,gold
+5610,2245,Masterwork Ancient Eliminator's Blaster Pistol,mainhand,258,gold,dps,merc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,barrel,gold
+5611,2246,Masterwork Ancient Eliminator's Blaster Rifle,mainhand,258,gold,dps,merc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,barrel,gold
+5612,2277,Masterwork Ancient Field Tech's Sniper Rifle,mainhand,258,gold,dps,sniper,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,barrel,gold
+5613,2285,Masterwork Ancient Force-Master's Lightsaber,mainhand,258,gold,dps,sorc,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,hilt,gold
+5614,2317,Masterwork Ancient Stalker's Saberstaff,mainhand,258,gold,dps,sin,enhancement,258goldenhancement,426,Superior Adept Enhancement 56,hilt,gold
+5615,2319,Masterwork Ancient Supercommando's Blaster Pistol,mainhand,258,gold,tank,pt,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,barrel,gold
+5616,2320,Masterwork Ancient Supercommando's Blaster Rifle,mainhand,258,gold,tank,pt,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,barrel,gold
+5617,2335,Masterwork Ancient Survivor's Saberstaff,mainhand,258,gold,tank,sin,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,hilt,gold
+5618,2350,Masterwork Ancient War Leader's Lightsaber,mainhand,258,gold,tank,jugg,enhancement,258goldenhancement,432,Superior Immunity Enhancement 56,hilt,gold
+5619,2250,Masterwork Ancient Eliminator's Generator,offhand,258,gold,dps,merc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,armoring,gold
+5620,2253,Masterwork Ancient Eliminator's Offhand Blaster,offhand,258,gold,dps,merc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,barrel,gold
+5621,2276,Masterwork Ancient Field Tech's Shotgun,offhand,258,gold,dps,sniper,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,barrel,gold
+5622,2278,Masterwork Ancient Field Tech's Vibroknife,offhand,258,gold,dps,sniper,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,barrel,gold
+5623,2282,Masterwork Ancient Force-Master's Focus,offhand,258,gold,dps,sorc,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,armoring,gold
+5624,2326,Masterwork Ancient Supercommando's Shield,offhand,258,gold,tank,pt,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,armoring,gold
+5625,2351,Masterwork Ancient War Leader's Shield,offhand,258,gold,tank,jugg,enhancement,258goldenhancement,439,Superior Sturdiness Enhancement 56,armoring,gold
+5626,2359,Masterwork Ancient Weaponmaster's Offhand Saber,offhand,258,gold,dps,mara,enhancement,258goldenhancement,435,Superior Quick Savant Enhancement 56,hilt,gold
+5627,2285,Masterwork Ancient Force-Master's Lightsaber,mainhand,258,gold,dps,sorc,hilt,258goldhilt,444,Superior Versatile Hilt 56,hilt,gold
+5628,2317,Masterwork Ancient Stalker's Saberstaff,mainhand,258,gold,dps,sin,hilt,258goldhilt,444,Superior Versatile Hilt 56,hilt,gold
+5629,2335,Masterwork Ancient Survivor's Saberstaff,mainhand,258,gold,tank,sin,hilt,258goldhilt,444,Superior Versatile Hilt 56,hilt,gold
+5630,2350,Masterwork Ancient War Leader's Lightsaber,mainhand,258,gold,tank,jugg,hilt,258goldhilt,444,Superior Versatile Hilt 56,hilt,gold
+5631,2359,Masterwork Ancient Weaponmaster's Offhand Saber,offhand,258,gold,dps,mara,hilt,258goldhilt,444,Superior Versatile Hilt 56,hilt,gold
+5632,2230,Masterwork Ancient Combat Medic's Body Armor,chest,258,gold,healer,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5633,2237,Masterwork Ancient Combat Tech's Body Armor,chest,258,gold,dps,pt,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5634,2247,Masterwork Ancient Eliminator's Body Armor,chest,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5635,2260,Masterwork Ancient Enforcer's Jacket,chest,258,gold,dps,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5636,2267,Masterwork Ancient Field Medic's Jacket,chest,258,gold,healer,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5637,2274,Masterwork Ancient Field Tech's Jacket,chest,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5638,2287,Masterwork Ancient Force-Master's Robe,chest,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5639,2294,Masterwork Ancient Force-Mystic's Robe,chest,258,gold,healer,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5640,2316,Masterwork Ancient Stalker's Robe,chest,258,gold,dps,sin,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5641,2321,Masterwork Ancient Supercommando's Body Armor,chest,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5642,2334,Masterwork Ancient Survivor's Robe,chest,258,gold,tank,sin,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5643,2339,Masterwork Ancient Vindicator's Chestguard,chest,258,gold,dps,jugg,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5644,2346,Masterwork Ancient War Leader's Chestguard,chest,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5645,2355,Masterwork Ancient Weaponmaster's Chestguard,chest,258,gold,dps,mara,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5646,2231,Masterwork Ancient Combat Medic's Boots,feet,258,gold,healer,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5647,2238,Masterwork Ancient Combat Tech's Boots,feet,258,gold,dps,pt,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5648,2248,Masterwork Ancient Eliminator's Boots,feet,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5649,2256,Masterwork Ancient Enforcer's Boots,feet,258,gold,dps,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5650,2263,Masterwork Ancient Field Medic's Boots,feet,258,gold,healer,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5651,2270,Masterwork Ancient Field Tech's Boots,feet,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5652,2280,Masterwork Ancient Force-Master's Boots,feet,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5653,2289,Masterwork Ancient Force-Mystic's Boots,feet,258,gold,healer,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5654,2311,Masterwork Ancient Stalker's Boots,feet,258,gold,dps,sin,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5655,2322,Masterwork Ancient Supercommando's Boots,feet,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5656,2329,Masterwork Ancient Survivor's Boots,feet,258,gold,tank,sin,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5657,2338,Masterwork Ancient Vindicator's Boots,feet,258,gold,dps,jugg,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5658,2345,Masterwork Ancient War Leader's Boots,feet,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5659,2354,Masterwork Ancient Weaponmaster's Boots,feet,258,gold,dps,mara,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5660,2232,Masterwork Ancient Combat Medic's Gauntlets,hands,258,gold,healer,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5661,2239,Masterwork Ancient Combat Tech's Gauntlets,hands,258,gold,dps,pt,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5662,2249,Masterwork Ancient Eliminator's Gauntlets,hands,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5663,2258,Masterwork Ancient Enforcer's Gloves,hands,258,gold,dps,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5664,2265,Masterwork Ancient Field Medic's Gloves,hands,258,gold,healer,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5665,2272,Masterwork Ancient Field Tech's Gloves,hands,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5666,2283,Masterwork Ancient Force-Master's Gloves,hands,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5667,2291,Masterwork Ancient Force-Mystic's Gloves,hands,258,gold,healer,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5668,2313,Masterwork Ancient Stalker's Gloves,hands,258,gold,dps,sin,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5669,2323,Masterwork Ancient Supercommando's Gauntlets,hands,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5670,2331,Masterwork Ancient Survivor's Gloves,hands,258,gold,tank,sin,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5671,2340,Masterwork Ancient Vindicator's Gauntlets,hands,258,gold,dps,jugg,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5672,2347,Masterwork Ancient War Leader's Gauntlets,hands,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5673,2356,Masterwork Ancient Weaponmaster's Gauntlets,hands,258,gold,dps,mara,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5674,2233,Masterwork Ancient Combat Medic's Helmet,head,258,gold,healer,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5675,2240,Masterwork Ancient Combat Tech's Helmet,head,258,gold,dps,pt,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5676,2251,Masterwork Ancient Eliminator's Helmet,head,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5677,2259,Masterwork Ancient Enforcer's Headgear,head,258,gold,dps,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5678,2266,Masterwork Ancient Field Medic's Headgear,head,258,gold,healer,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5679,2273,Masterwork Ancient Field Tech's Headgear,head,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5680,2284,Masterwork Ancient Force-Master's Headgear,head,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5681,2292,Masterwork Ancient Force-Mystic's Headgear,head,258,gold,healer,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5682,2314,Masterwork Ancient Stalker's Headgear,head,258,gold,dps,sin,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5683,2324,Masterwork Ancient Supercommando's Helmet,head,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5684,2332,Masterwork Ancient Survivor's Headgear,head,258,gold,tank,sin,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5685,2342,Masterwork Ancient Vindicator's Headgear,head,258,gold,dps,jugg,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5686,2349,Masterwork Ancient War Leader's Headgear,head,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5687,2358,Masterwork Ancient Weaponmaster's Headgear,head,258,gold,dps,mara,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5688,2234,Masterwork Ancient Combat Medic's Legplates,legs,258,gold,healer,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5689,2241,Masterwork Ancient Combat Tech's Legplates,legs,258,gold,dps,pt,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5690,2252,Masterwork Ancient Eliminator's Legplates,legs,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5691,2261,Masterwork Ancient Enforcer's Leggings,legs,258,gold,dps,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5692,2268,Masterwork Ancient Field Medic's Leggings,legs,258,gold,healer,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5693,2275,Masterwork Ancient Field Tech's Leggings,legs,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5694,2286,Masterwork Ancient Force-Master's Lower Robe,legs,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5695,2293,Masterwork Ancient Force-Mystic's Lower Robe,legs,258,gold,healer,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5696,2315,Masterwork Ancient Stalker's Lower Robe,legs,258,gold,dps,sin,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5697,2325,Masterwork Ancient Supercommando's Legplates,legs,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5698,2333,Masterwork Ancient Survivor's Lower Robe,legs,258,gold,tank,sin,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5699,2341,Masterwork Ancient Vindicator's Greaves,legs,258,gold,dps,jugg,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5700,2348,Masterwork Ancient War Leader's Greaves,legs,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5701,2357,Masterwork Ancient Weaponmaster's Greaves,legs,258,gold,dps,mara,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5702,2243,Masterwork Ancient Eliminator's Assault Cannon,mainhand,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,barrel,gold
+5703,2245,Masterwork Ancient Eliminator's Blaster Pistol,mainhand,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,barrel,gold
+5704,2246,Masterwork Ancient Eliminator's Blaster Rifle,mainhand,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,barrel,gold
+5705,2277,Masterwork Ancient Field Tech's Sniper Rifle,mainhand,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,barrel,gold
+5706,2285,Masterwork Ancient Force-Master's Lightsaber,mainhand,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,hilt,gold
+5707,2317,Masterwork Ancient Stalker's Saberstaff,mainhand,258,gold,dps,sin,mod,258goldmod,424,Superior Lethal Mod 56,hilt,gold
+5708,2319,Masterwork Ancient Supercommando's Blaster Pistol,mainhand,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,barrel,gold
+5709,2320,Masterwork Ancient Supercommando's Blaster Rifle,mainhand,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,barrel,gold
+5710,2335,Masterwork Ancient Survivor's Saberstaff,mainhand,258,gold,tank,sin,mod,258goldmod,425,Superior Warding Mod 56,hilt,gold
+5711,2350,Masterwork Ancient War Leader's Lightsaber,mainhand,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,hilt,gold
+5712,2250,Masterwork Ancient Eliminator's Generator,offhand,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,armoring,gold
+5713,2253,Masterwork Ancient Eliminator's Offhand Blaster,offhand,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,barrel,gold
+5714,2276,Masterwork Ancient Field Tech's Shotgun,offhand,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,barrel,gold
+5715,2278,Masterwork Ancient Field Tech's Vibroknife,offhand,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,barrel,gold
+5716,2282,Masterwork Ancient Force-Master's Focus,offhand,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,armoring,gold
+5717,2326,Masterwork Ancient Supercommando's Shield,offhand,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,armoring,gold
+5718,2351,Masterwork Ancient War Leader's Shield,offhand,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,armoring,gold
+5719,2359,Masterwork Ancient Weaponmaster's Offhand Saber,offhand,258,gold,dps,mara,mod,258goldmod,424,Superior Lethal Mod 56,hilt,gold
+5720,2229,Masterwork Ancient Combat Medic's Belt,waist,258,gold,healer,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5721,2236,Masterwork Ancient Combat Tech's Belt,waist,258,gold,dps,pt,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5722,2244,Masterwork Ancient Eliminator's Belt,waist,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5723,2255,Masterwork Ancient Enforcer's Belt,waist,258,gold,dps,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5724,2262,Masterwork Ancient Field Medic's Belt,waist,258,gold,healer,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5725,2269,Masterwork Ancient Field Tech's Belt,waist,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5726,2279,Masterwork Ancient Force-Master's Belt,waist,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5727,2288,Masterwork Ancient Force-Mystic's Belt,waist,258,gold,healer,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5728,2310,Masterwork Ancient Stalker's Belt,waist,258,gold,dps,sin,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5729,2318,Masterwork Ancient Supercommando's Belt,waist,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5730,2328,Masterwork Ancient Survivor's Belt,waist,258,gold,tank,sin,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5731,2337,Masterwork Ancient Vindicator's Belt,waist,258,gold,dps,jugg,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5732,2344,Masterwork Ancient War Leader's Belt,waist,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5733,2353,Masterwork Ancient Weaponmaster's Belt,waist,258,gold,dps,mara,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5734,2235,Masterwork Ancient Combat Medic's Vambraces,wrists,258,gold,healer,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5735,2242,Masterwork Ancient Combat Tech's Vambraces,wrists,258,gold,dps,pt,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5736,2254,Masterwork Ancient Eliminator's Vambraces,wrists,258,gold,dps,merc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5737,2257,Masterwork Ancient Enforcer's Bracers,wrists,258,gold,dps,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5738,2264,Masterwork Ancient Field Medic's Bracers,wrists,258,gold,healer,op,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5739,2271,Masterwork Ancient Field Tech's Bracers,wrists,258,gold,dps,sniper,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5740,2281,Masterwork Ancient Force-Master's Cuffs,wrists,258,gold,dps,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5741,2290,Masterwork Ancient Force-Mystic's Cuffs,wrists,258,gold,healer,sorc,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5742,2312,Masterwork Ancient Stalker's Cuffs,wrists,258,gold,dps,sin,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5743,2327,Masterwork Ancient Supercommando's Vambraces,wrists,258,gold,tank,pt,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5744,2330,Masterwork Ancient Survivor's Cuffs,wrists,258,gold,tank,sin,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5745,2336,Masterwork Ancient Vindicator's Armguards,wrists,258,gold,dps,jugg,mod,258goldmod,424,Superior Lethal Mod 56,,gold
+5746,2343,Masterwork Ancient War Leader's Armguards,wrists,258,gold,tank,jugg,mod,258goldmod,425,Superior Warding Mod 56,,gold
+5747,2352,Masterwork Ancient Weaponmaster's Armguards,wrists,258,gold,dps,mara,mod,258goldmod,424,Superior Lethal Mod 56,,gold
