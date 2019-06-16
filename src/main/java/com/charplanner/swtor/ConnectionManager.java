@@ -16,6 +16,7 @@ public class ConnectionManager
         try
         {
             Class.forName(driverName);
+            Utilities.log("Registered driver " + driverName + "!");
         }
         catch(ClassNotFoundException e)
         {
@@ -35,7 +36,7 @@ public class ConnectionManager
             catch(SQLException e)
             {
                 System.out.println("Failed to establish DB connection!");
-                e.printStackTrace();
+                e.printStackTrace(System.out); //TODO: replace this hack with proper logging
                 System.exit(1);
             }
         }

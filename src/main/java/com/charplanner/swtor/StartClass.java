@@ -10,6 +10,7 @@ import java.util.Properties;
 public class StartClass implements ServletContextListener //TODO:what do we actually call this?
 {
     private static Properties properties; //TODO: is this the appropriate place for this info?
+    private ConnectionManager cm;
 
     @Override
     public void contextDestroyed(ServletContextEvent servletContextEvent)
@@ -28,6 +29,7 @@ public class StartClass implements ServletContextListener //TODO:what do we actu
         {
             input = new FileInputStream("D:/web/swtor/config.properties"); //TODO
             properties.load(input);
+            cm = new ConnectionManager();
         }
         catch(IOException e)
         {

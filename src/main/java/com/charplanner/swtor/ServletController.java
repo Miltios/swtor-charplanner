@@ -16,33 +16,33 @@ public class ServletController extends HttpServlet
     public ServletController() {
     }
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        System.out.println(request.getServletPath()); //TODO:DEBUG
-        System.out.println(request.getRequestURI()); //TODO:DEBUG
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
+    {
+        Utilities.log("Received request: " + request.getRequestURI());
 
-        response.setContentType("text/html");
         PrintWriter writer = response.getWriter();
-        writer.println("<html>");
-        writer.println("<head>");
-        writer.println("<title>Sample Application Servlet Page</title>");
-        writer.println("</head>");
-        writer.println("<body bgcolor=white>");
-        writer.println("<table border=\"0\">");
-        writer.println("<tr>");
-        writer.println("<td>");
-        writer.println("<img src=\"images/tomcat.gif\">");
-        writer.println("</td>");
-        writer.println("<td>");
-        writer.println("<h1>Sample Application Servlet</h1>");
-        writer.println("Hello from a custom servlet!");
-        writer.println("</td>");
-        writer.println("</tr>");
-        writer.println("</table>");
-        writer.println("</body>");
-        writer.println("</html>");
-
-        //TODO:honestly what are we even doing here
-        RequestDispatcher rd = request.getRequestDispatcher("/index.jsp");
-        rd.forward(request, response);
+        try
+        {
+            String action = request.getRequestURI().toLowerCase().split("/request/")[1];
+            switch (action)
+            {
+                case "ping":
+                    response.setContentType("text/html");
+                    writer.println("pong!");
+                    break;
+                case "getallitems":
+                    response.setContentType("application/JSON");
+                    writer.println(ItemManager.getAllAsJson());
+                default:
+                    response.setContentType("text/html");
+                    writer.println("ERROR: Unable to process request: " + action);
+                    break;
+            }
+        }
+        catch(ArrayIndexOutOfBoundsException e)
+        {
+            response.setContentType("text/html");
+            writer.println("ERROR: Unable to process request; no action specified.");
+        }
     }
 }
