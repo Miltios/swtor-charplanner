@@ -5,6 +5,8 @@ import javax.servlet.ServletContextListener;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.Properties;
 
 public class StartClass implements ServletContextListener //TODO:what do we actually call this?
@@ -33,8 +35,25 @@ public class StartClass implements ServletContextListener //TODO:what do we actu
         }
         catch(IOException e)
         {
-            System.out.println("ERROR: Failed to read properties file!");
-            System.exit(1);
+            System.out.println("Config.properties file not found.  Checking environment variable...");
+            try
+            {
+                URI jdbUri = new URI(System.getenv("JAWSDB_URL"));
+                properties.setProperty("driverName", "com.mysql.cj.jdbc.Driver");
+                properties.setProperty("userName", jdbUri.getUserInfo().split(":")[0]);
+                properties.setProperty("userPass", jdbUri.getUserInfo().split(":")[1]);
+                properties.setProperty("connectionUrl", "jdbc:mysql://" + jdbUri.getHost() + ":" + jdbUri.getPort() + jdbUri.getPath());
+            }
+            catch(URISyntaxException u)
+            {
+                System.out.println("ERROR: Unable to parse environment variable JAWSDB_URL");
+            }
+            catch(Exception x)
+            {
+                System.out.println("ERROR: Failed to read properties from JAWSDB_URL!");
+                System.out.println(x.getMessage());
+                x.printStackTrace(); //TODO:DEBUG
+            }
         }
     }
 

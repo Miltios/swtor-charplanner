@@ -13,6 +13,7 @@ public class ItemManager
     private static Map<Integer, ItemMod> itemMods;
     private static Map<Integer, Map<String,Integer>> ratings; //TODO:move this out to another class
     private static List<Map<String,Object>> specBuffs; //TODO:move this out to another class
+    private static String schemaString = ConnectionManager.getSchemaString();
 
     private ItemManager(){}
     static
@@ -36,8 +37,8 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.Items " +
-                    "WHERE Disabled = FALSE"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "Items " +
+                    "WHERE Disabled = FALSE");
             if(statement.execute()) //TODO:try-with-resources?
             {
                 ResultSet rs = statement.getResultSet();
@@ -80,7 +81,7 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemSpecs"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "ItemSpecs");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
@@ -110,7 +111,7 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemStats"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "ItemStats");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
@@ -141,8 +142,8 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemMods " +
-                    "WHERE Disabled = FALSE"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "ItemMods " +
+                    "WHERE Disabled = FALSE");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
@@ -173,7 +174,7 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemModSpecs"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "ItemModSpecs");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
@@ -203,7 +204,7 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemModStats"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "ItemModStats");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
@@ -234,7 +235,7 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemContents"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "ItemContents");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
@@ -268,7 +269,7 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.RatingStats"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "RatingStats");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
@@ -297,8 +298,8 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.SpecBuffs " +
-                    "WHERE Disabled = FALSE"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "SpecBuffs " +
+                    "WHERE Disabled = FALSE");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();

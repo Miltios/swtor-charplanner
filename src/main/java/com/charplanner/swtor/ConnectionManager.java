@@ -43,6 +43,16 @@ public class ConnectionManager
         return conn;
     }
 
+    public static String getSchemaString()
+    {
+        String schema = StartClass.getProperty("schemaName");
+        if(schema != null)
+        {
+            return schema = ".";
+        }
+        return "";
+    }
+
     public static void closeConnection()
     {
         try
