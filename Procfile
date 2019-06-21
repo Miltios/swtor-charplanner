@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* com.charplanner.swtor.StartClass
+web: java -cp target/classes/com/charplanner/swtor/:target/dependency/* com.charplanner.swtor.StartClass
