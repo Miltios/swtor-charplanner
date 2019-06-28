@@ -1,1 +1,1 @@
-web: java -jar target/dependency/javax-servlet-api-*.jar
+web: java -jar target/dependency/javax.servlet-api-*.jar
