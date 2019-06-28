@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* com.charplanner.swtor.StartClass
+web: java -jar target/classes/:target/dependency/* javax-servlet-api-*.jar
