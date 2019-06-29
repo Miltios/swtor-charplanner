@@ -135,10 +135,70 @@ let WarningsController = (function()
     };
     WarningsController.prototype.checkShieldAbsorb = function()
     {
-        //TODO
-        //check absorb higher than shield
+        let shield = StatManager.getStat('shieldchance');
+        let absorb = StatManager.getStat('absorbperc');
+        let role = SpecManager.getRoleFromSpec(Settings.getSpec());
+
         //check very large difference between shield/absorb
+        if(shield/absorb > 2)
+        {
+            this.warnings.push({
+                id:'shieldAbsorbGap',
+                title:'Shield/Absorb imbalance',
+                severity:'medium',
+                text:'Your Shield chance is much higher than your Absorption.  Shield and Absorb are multiplied together to calculate damage reduction, so you will get the most overall damage reduction by having them about equal.'
+            });
+        }
+
+        //check absorb higher than shield
+        if(absorb > shield)
+        {
+            this.warnings.push({
+                id:'absorbOverShield',
+                title:'Absorb higher than Shield',
+                severity:'low',
+                text:'Your Absorb percentage is higher than your Shield chance.  You will get the most overall damage reduction by having them about equal, ' +
+                    'or you can get more predictable damage by having shield higher than absorb.  Note that different classes can get different ' +
+                    'shield/absorb boosts during normal rotation.'
+            });
+        }
+
         //check shield XOR absorb at zero
+        if(!(shield === 0) != !(absorb === 0)) //HACK: logical XOR, because JS doesn't have one
+        {
+            this.warnings.push({
+                id:'shieldAbsorbZero',
+                title:'Shield or Absorb at zero',
+                severity:'high',
+                text:'The Shield and Absorb stats are multiplied together to calculate damage reduction.  If one of them is at zero, you will gain no benefit from the other!'
+            });
+        }
+
+        //check shield/absorb on non-tank spec
+        if((shield > 0 || absorb > 0) && role !== 'tank')
+        {
+            this.warnings.push({
+                id:'shieldClass',
+                title:'Shield/Absorb for non-tank spec',
+                severity:'medium',
+                text:'Your build includes shield/absorb stats, but you are not in a tank spec.'
+            });
+        }
+
+        //check offhand shield not equipped
+        if(role === 'tank')
+        {
+            let offhand = SlotManager.getSlot('offhand').getItem();
+            if(offhand === null || offhand.type !== 'shield')
+            {
+                this.warnings.push({
+                    id:'noShield',
+                    title:'Shield not equipped',
+                    severity:'high',
+                    text:'Your build includes shield/absorb stats, but you do not have a shield equipped!  You gain no benefit from these stats without a shield.'
+                });
+            }
+        }
     };
     WarningsController.prototype.checkAugments = function()
     {

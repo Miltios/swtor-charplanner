@@ -356,7 +356,7 @@ let StatController = (function()
             this.calcElDmgSec.parentNode.style.display = 'none';
             this.calcElEmpty.parentNode.style.display = '';
         }
-        else if(['pistol', 'saber', 'knife', 'shotgun'].indexOf(weapon.type.toLowerCase()) !== -1)
+        else if(weapon.type && ['pistol', 'saber', 'knife', 'shotgun'].indexOf(weapon.type.toLowerCase()) !== -1)
         {
             let dmg = StatManager.getDmgForItem(weapon);
             dmg[0] *= 0.3;
@@ -616,6 +616,7 @@ let StatController = (function()
             shieldChance = shieldChance * 100; //from this point on we deal with 0-100 scale instead of 0-1
             shieldChance += 50*(1-(1-(.01/.5))**(shield/54.6));
         }
+        StatManager.setStat('shieldchance', shieldChance);
         this.calcElShield.innerHTML = shieldChance.toFixed(2);
     };
     StatController.prototype.updateCalcAbsorb = function()
@@ -632,6 +633,7 @@ let StatController = (function()
             absorbPerc = absorbPerc * 100; //from this point on we deal with 0-100 scale instead of 0-1
             absorbPerc += 50*(1-(1-(.01/.5))**(absorb/45.5));
         }
+        StatManager.setStat('absorbperc', absorbPerc);
         this.calcElAbsorb.innerHTML = absorbPerc.toFixed(2);
     };
     return new StatController();
