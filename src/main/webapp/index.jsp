@@ -2,8 +2,8 @@
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="/swtor/styles/global.css">
-    <link rel="stylesheet" type="text/css" href="/swtor/styles/gearPlanner.css">
+    <link rel="stylesheet" type="text/css" href="/styles/global.css">
+    <link rel="stylesheet" type="text/css" href="/styles/gearPlanner.css">
 </head>
 <body id="documentBody" class="faction-mode-imp">
     <div>
@@ -651,24 +651,24 @@ function log(str)
 }
 </script>
 <script type="text/javascript">
-    requireJs("/swtor/scripts/DomController.js");
-    requireJs("/swtor/scripts/DomManager.js");
-    requireJs("/swtor/scripts/ItemManager.js");
-    requireJs("/swtor/scripts/PickerController.js");
-    requireJs("/swtor/scripts/SlotManager.js");
-    requireJs("/swtor/scripts/SpecManager.js");
-    requireJs("/swtor/scripts/StatController.js");
-    requireJs("/swtor/scripts/StatManager.js");
-    requireJs("/swtor/scripts/TooltipController.js");
-    requireJs("/swtor/scripts/AugmentController.js");
-    requireJs("/swtor/scripts/WarningsController.js");
-    requireJs("/swtor/scripts/Settings.js");
-    requireJs("/swtor/scripts/Utilities.js");
-    requireJs("/swtor/scripts/Dev.js"); //TODO: developer hacks, not needed for functionality
-    requireJs("/swtor/scripts/model/Item.js");
-    requireJs("/swtor/scripts/model/ItemMod.js");
-    requireJs("/swtor/scripts/model/Slot.js");
-    //requireJs("/swtor/scripts/model/allItemData.js"); //TODO: temporary hard-code
+    requireJs("/scripts/DomController.js");
+    requireJs("/scripts/DomManager.js");
+    requireJs("/scripts/ItemManager.js");
+    requireJs("/scripts/PickerController.js");
+    requireJs("/scripts/SlotManager.js");
+    requireJs("/scripts/SpecManager.js");
+    requireJs("/scripts/StatController.js");
+    requireJs("/scripts/StatManager.js");
+    requireJs("/scripts/TooltipController.js");
+    requireJs("/scripts/AugmentController.js");
+    requireJs("/scripts/WarningsController.js");
+    requireJs("/scripts/Settings.js");
+    requireJs("/scripts/Utilities.js");
+    requireJs("/scripts/Dev.js"); //TODO: developer hacks, not needed for functionality
+    requireJs("/scripts/model/Item.js");
+    requireJs("/scripts/model/ItemMod.js");
+    requireJs("/scripts/model/Slot.js");
+    //requireJs("/scripts/model/allItemData.js"); //TODO: temporary hard-code
 
     //TODO:this may be getting unwieldy.  AJAX?
     let allItemData = <%= ItemManager.getAllAsJson() %>;
