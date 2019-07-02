@@ -120,14 +120,38 @@ let ItemManager = (function()
     }
     ItemManager.prototype.getModsForSlot = function(slotName)
     {
+        if(slotName === 'dynamic')
+        {
+            let item = SlotManager.getCurrentSlot().getItem();
+            if(item !== null && typeof item.dynamicSlotType === 'string')
+            {
+                return this.filterListForSlot(item.dynamicSlotType.toLowerCase(), this.itemMods);
+            }
+        }
         return this.filterListForSlot(slotName, this.itemMods);
     }
     ItemManager.prototype.getModsForSpecAndSlot = function(spec, slotName)
     {
+        if(slotName === 'dynamic')
+        {
+            let item = SlotManager.getCurrentSlot().getItem();
+            if(item !== null && typeof item.dynamicSlotType === 'string')
+            {
+                return this.filterListForSpecAndSlot(spec, item.dynamicSlotType.toLowerCase(), this.itemMods);
+            }
+        }
         return this.filterListForSpecAndSlot(spec, slotName, this.itemMods);
     };
     ItemManager.prototype.getModsForClassAndSlot = function(className, slotName)
     {
+        if(slotName === 'dynamic')
+        {
+            let item = SlotManager.getCurrentSlot().getItem();
+            if(item !== null && typeof item.dynamicSlotType === 'string')
+            {
+                return this.filterListForClassAndSlot(className, item.dynamicSlotType.toLowerCase(), this.itemMods);
+            }
+        }
         return this.filterListForClassAndSlot(className, slotName, this.itemMods);
     };
     ItemManager.prototype.getAugmentForTypeAndRating = function(type, rating)
