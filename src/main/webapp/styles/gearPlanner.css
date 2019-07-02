@@ -106,6 +106,14 @@ body.faction-mode-pub .faction-imp
 {
     border-color:#6B8D9B;
 }
+.slot-current .augment-slot-img
+{
+    border-color:#96D6F1;
+}
+.has-current-slot .character-slot:not(.slot-current) .augment-slot-img
+{
+    opacity:0.5;
+}
 .slot-green
 {
     border-color:#12e713;

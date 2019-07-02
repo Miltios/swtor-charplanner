@@ -149,7 +149,7 @@ let SpecManager = (function()
     SpecManager.prototype.getSpecsForClass = function(className)
     {
         return this.classSpecMapping[className];
-    }
+    };
     SpecManager.prototype.getSpecName = function(className)
     {
         if(!className)
@@ -157,7 +157,7 @@ let SpecManager = (function()
             return null;
         }
         return this.specNames[className];
-    }
+    };
     SpecManager.prototype.getSpecMirror = function(className)
     {
         if(!className)
@@ -165,7 +165,24 @@ let SpecManager = (function()
             return null;
         }
         return this.specMirrors[className];
-    }
+    };
+    SpecManager.prototype.getRoleFromSpec = function(specName)
+    {
+        if(!specName)
+        {
+            return null;
+        }
+        let spec = specName.toLowerCase();
+        if(spec.indexOf('tank') !== -1)
+        {
+            return 'tank';
+        }
+        if(spec.indexOf('healer') !== -1)
+        {
+            return 'healer';
+        }
+        return 'dps';
+    };
     return new SpecManager();
 })();
 declareReady('SpecManager.js', function(){SpecManager.init()});

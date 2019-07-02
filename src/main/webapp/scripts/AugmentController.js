@@ -30,6 +30,17 @@ let AugmentController = (function()
             this.augToCopy = SlotManager.getCurrentSlot().getAugment();
         }
     };
+    AugmentController.prototype.setHasCurrent = function(hasCurrent)
+    {
+        if(hasCurrent)
+        {
+            this.cbt.classList.add('has-current-slot');
+        }
+        else
+        {
+            this.cbt.classList.remove('has-current-slot');
+        }
+    }
     AugmentController.prototype.isCopyMode = function()
     {
         return this.copyMode;

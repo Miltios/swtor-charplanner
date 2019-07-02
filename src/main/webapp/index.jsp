@@ -564,6 +564,7 @@
                     <td id="currentAugStats">
                     </td>
                     <td>
+                        <button id="saveAugButton" onclick="DomController.userInput(this, 'saveAugment')">Add</button><br />
                         <button id="copyAugButton" onclick="DomController.userInput(this, 'toggleCopyAugment')">Clone...</button>
                     </td>
                 </tr>
@@ -573,9 +574,9 @@
                     </td>
                 </tr>
             </table>
-            <div id="bulkAugsArea">
+            <!--<div id="bulkAugsArea">
                 <button id="bulkAugsButton">Edit bulk augments...</button>
-            </div>
+            </div>-->
         </div>
     </div>
     <div id="tooltipEl" style="display:none">

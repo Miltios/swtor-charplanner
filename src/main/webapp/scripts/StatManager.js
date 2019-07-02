@@ -17,7 +17,9 @@ let StatManager = (function()
             'shield':0,
             'presence':0,
             'armor':0,
-            'dmgMR':0
+            'dmgMR':0,
+            'shieldchance':0,
+            'absorbperc':0
         }
     }
     StatManager.prototype.init = function()

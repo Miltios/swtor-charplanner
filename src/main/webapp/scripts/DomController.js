@@ -39,6 +39,7 @@ let DomController = (function()
                 else
                 {
                     SlotManager.setCurrentSlot(slot);
+                    AugmentController.setHasCurrent(true);
                     this.spawnAugmentPicker(slot);
                 }
                 break;
@@ -144,10 +145,13 @@ let DomController = (function()
                 break;
             case 'augTypeSelect':
                 PickerController.showHideAugRatings();
-                PickerController.setCurrentAug();
+                //PickerController.setCurrentAug();
                 break;
             case 'augRatingSelect':
                 PickerController.showHideAugTypes();
+                //PickerController.setCurrentAug();
+                break;
+            case 'saveAugment':
                 PickerController.setCurrentAug();
                 break;
             case 'toggleCopyAugment':
