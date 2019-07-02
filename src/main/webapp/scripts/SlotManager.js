@@ -121,7 +121,14 @@ let SlotManager = (function()
     }
     SlotManager.prototype.setCurrentSlot = function(slot)
     {
+        let old = this.currentSlot;
+        if(old !== null)
+        {
+            let el = old.getEl();
+            el.classList.remove('slot-current');
+        }
         this.currentSlot = slot;
+        slot.getEl().classList.add('slot-current');
     }
     SlotManager.prototype.getCurrentModSlot = function()
     {
