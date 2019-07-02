@@ -48,7 +48,7 @@ public class ConnectionManager
         String schema = StartClass.getProperty("schemaName");
         if(schema != null)
         {
-            return schema = ".";
+            return schema + ".";
         }
         return "";
     }
