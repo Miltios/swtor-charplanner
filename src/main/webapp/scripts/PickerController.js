@@ -267,6 +267,10 @@ let PickerController = (function()
                 this.cai.classList.remove(cls);
             }
         }
+
+        this.cai.src = 'images/items50/empty_augment.png';
+        this.can.innerHTML = 'None';
+        this.cas.innerHTML = '';
     }
     PickerController.prototype.populateCurrentAugForSlot = function(slot)
     {
@@ -298,12 +302,7 @@ let PickerController = (function()
     };
     PickerController.prototype.populateDisplayForAug = function(aug)
     {
-        if(aug === null)
-        {
-            this.cai.src = 'images/items50/empty_augment.png';
-            this.can.innerHTML = 'None';
-        }
-        else
+        if(aug !== null)
         {
             this.cai.src = 'images/items50/' + aug.image;
             this.cai.classList.add('slot-' + aug.color);
