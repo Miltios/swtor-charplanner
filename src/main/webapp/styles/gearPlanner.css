@@ -502,6 +502,10 @@ body.faction-mode-pub .faction-imp
     /*min-height:300px;*/
     padding:6px;
 }
+#inputAugType
+{
+    margin-right:5px;
+}
 #currentAugDisplay,
 #currentAugMask
 {
@@ -521,6 +525,7 @@ body.faction-mode-pub .faction-imp
 #currentAugName
 {
     width:160px;
+    font-size:0.9em;
 }
 #currentAugStats
 {
@@ -536,6 +541,14 @@ body.faction-mode-pub .faction-imp
     opacity:0.5;
 }
 
+#datacronsCheckboxDiv
+{
+    margin-top:4px;
+}
+#companionBuffsCheckboxDiv
+{
+    margin-bottom:4px;
+}
 #stimDiv
 {
     height:30px;
