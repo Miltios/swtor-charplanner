@@ -329,6 +329,10 @@ body.faction-mode-pub .faction-imp
     color:#e7cb6e;
     font-size:0.9em;
 }
+#currentItemName.item-orange:after
+{
+    content:" [modified]";
+}
 #currentItemRating
 {
     margin-bottom:10px;
