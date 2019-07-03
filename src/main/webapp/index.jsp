@@ -389,23 +389,23 @@
                 <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
                     <div class="setting">
                         <input type="checkbox" checked id="classBuffsCheckboxMastery" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
-                        <label class="label-single-line faction-imp" for="classBuffsCheckboxMastery">Mark of Power</label>
-                        <label class="label-single-line faction-pub" for="classBuffsCheckboxMastery">Force Valor</label>
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxMastery">Mark of Power (Sith Inquisitor)</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxMastery">Force Valor (Jedi Consular)</label>
                     </div>
                     <div class="setting">
                         <input type="checkbox" checked id="classBuffsCheckboxDmg" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
-                        <label class="label-single-line faction-imp" for="classBuffsCheckboxDmg">Unnatural Might</label>
-                        <label class="label-single-line faction-pub" for="classBuffsCheckboxDmg">Force Might</label>
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxDmg">Unnatural Might (Sith Warrior)</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxDmg">Force Might (Jedi Knight)</label>
                     </div>
                     <div class="setting">
                         <input type="checkbox" checked id="classBuffsCheckboxCrit" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
-                        <label class="label-single-line faction-imp" for="classBuffsCheckboxCrit">Coordination</label>
-                        <label class="label-single-line faction-pub" for="classBuffsCheckboxCrit">Lucky Shots</label>
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxCrit">Coordination (Imperial Agent)</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxCrit">Lucky Shots (Smuggler)</label>
                     </div>
                     <div class="setting">
                         <input type="checkbox" checked id="classBuffsCheckboxEndurance" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
-                        <label class="label-single-line faction-imp" for="classBuffsCheckboxEndurance">Hunter&apos;s Boon</label>
-                        <label class="label-single-line faction-pub" for="classBuffsCheckboxEndurance">Fortification</label>
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxEndurance">Hunter&apos;s Boon (Bounty Hunter)</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxEndurance">Fortification (Republic Trooper)</label>
                     </div>
                 </div>
             </div>
