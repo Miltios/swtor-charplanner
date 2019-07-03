@@ -163,10 +163,15 @@ let PickerController = (function()
         }
         else
         {
+            let color = item.color;
+            if(item.isCustom)
+            {
+                color = 'orange';
+            }
             this.cii.src = 'images/items80/' + item.image;
-            this.cii.classList.add('slot-' + item.color);
+            this.cii.classList.add('slot-' + color);
             this.cin.innerHTML = slot.getItem().name;
-            this.cin.classList.add('item-' + item.color);
+            this.cin.classList.add('item-' + color);
             this.cir.innerHTML = 'Item Rating ' + item.rating;
             this.cis.innerHTML = '';
             let stats = item.getStats();
