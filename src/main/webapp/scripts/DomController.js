@@ -145,11 +145,11 @@ let DomController = (function()
                 break;
             case 'augTypeSelect':
                 PickerController.showHideAugRatings();
-                //PickerController.setCurrentAug();
+                PickerController.updateCurrentAugDisplay();
                 break;
             case 'augRatingSelect':
                 PickerController.showHideAugTypes();
-                //PickerController.setCurrentAug();
+                PickerController.updateCurrentAugDisplay();
                 break;
             case 'saveAugment':
                 PickerController.setCurrentAug();
