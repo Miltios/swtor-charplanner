@@ -25,6 +25,10 @@ body.faction-mode-pub .faction-imp
 {
     display:none;
 }
+.popup-volatile
+{
+    z-index:1;
+}
 #factionToggleWrapper
 {
     width:100%;
