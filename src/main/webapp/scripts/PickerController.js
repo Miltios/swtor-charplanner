@@ -247,9 +247,8 @@ let PickerController = (function()
             }
         }
     };
-    PickerController.prototype.populateCurrentAugForSlot = function(slot)
+    PickerController.prototype.clearCurrentAugDisplay = function()
     {
-        //first, remove all the existing color classes from the item elements
         let classList = this.can.classList;
         for(let i=0; i<classList.length; i++)
         {
@@ -268,16 +267,16 @@ let PickerController = (function()
                 this.cai.classList.remove(cls);
             }
         }
+    }
+    PickerController.prototype.populateCurrentAugForSlot = function(slot)
+    {
+        this.clearCurrentAugDisplay();
 
-        //then update everything
         let aug = slot.getAugment();
         if(aug === null)
         {
             this.iat.value = 'none';
             this.iar.value = '228';
-
-            this.cai.src = 'images/items50/empty_augment.png';
-            this.can.innerHTML = 'None';
         }
         else
         {
@@ -286,7 +285,26 @@ let PickerController = (function()
             type = type.split('_')[1];
             this.iat.value = type;
             this.iar.value = '' + aug.rating;
-
+        }
+        this.populateDisplayForAug(aug);
+    };
+    PickerController.prototype.updateCurrentAugDisplay = function()
+    {
+        this.clearCurrentAugDisplay();
+        let type = this.iat.value;
+        let rating = parseInt(this.iar.value);
+        let aug = ItemManager.getAugmentForTypeAndRating(type, rating);
+        this.populateDisplayForAug(aug);
+    };
+    PickerController.prototype.populateDisplayForAug = function(aug)
+    {
+        if(aug === null)
+        {
+            this.cai.src = 'images/items50/empty_augment.png';
+            this.can.innerHTML = 'None';
+        }
+        else
+        {
             this.cai.src = 'images/items50/' + aug.image;
             this.cai.classList.add('slot-' + aug.color);
             this.can.innerHTML = aug.name;
@@ -304,7 +322,7 @@ let PickerController = (function()
                 }
             }
         }
-    };
+    }
     PickerController.prototype.showHideAugTypes = function()
     {
         //the endurance and power augs only exist for 228, so for 230+ ratings we hide the option

@@ -520,11 +520,11 @@ body.faction-mode-pub .faction-imp
 }
 #currentAugName
 {
-    width:150px;
+    width:160px;
 }
 #currentAugStats
 {
-    width:140px;
+    width:160px;
 }
 .augment-copy-mode .augment-slot-img.slot-empty,
 .augment-copy-mode .augment-slot-img
