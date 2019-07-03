@@ -189,7 +189,7 @@ let WarningsController = (function()
         if(role === 'tank')
         {
             let offhand = SlotManager.getSlot('offhand').getItem();
-            if(offhand === null || offhand.type !== 'shield')
+            if(offhand !== null && offhand.type !== 'shield')
             {
                 this.warnings.push({
                     id:'noShield',
