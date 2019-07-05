@@ -424,7 +424,7 @@ let Settings = (function()
                 impOption.value = spec;
                 pubOption.value = spec;
                 impOption.innerHTML = SpecManager.getSpecName(spec);
-                pubOption.innerHTML = SpecManager.getSpecMirror(spec);
+                pubOption.innerHTML = SpecManager.getSpecMirrorName(spec);
                 if(first)
                 {
                     if(this.getFaction() == 'imp')

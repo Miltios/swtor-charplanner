@@ -84,6 +84,16 @@ let SpecManager = (function()
             maraBurst: 'Combat',
             maraHybrid: 'Concentration'
         }
+        this.classMirrors = {
+            jugg: 'guardian',
+            sin: 'shadow',
+            pt: 'van',
+            merc: 'mando',
+            sorc: 'sage',
+            op: 'scoundrel',
+            sniper: 'slinger',
+            mara: 'sent'
+        }
         log('SpecManager initialized.');
     };
     SpecManager.prototype.specFitsRole = function(spec, role)
@@ -158,13 +168,27 @@ let SpecManager = (function()
         }
         return this.specNames[className];
     };
-    SpecManager.prototype.getSpecMirror = function(className)
+    SpecManager.prototype.getSpecMirrorName = function(specName)
     {
-        if(!className)
+        if(!specName)
         {
             return null;
         }
-        return this.specMirrors[className];
+        return this.specMirrors[specName];
+    };
+    SpecManager.prototype.getSpecMirror = function(specName)
+    {
+        if(specName === null)
+        {
+            return null;
+        }
+        let className = specName.split(/[A-Z]/)[0];
+        let mirrorClass = this.classMirrors[className];
+        if(!mirrorClass)
+        {
+            return specName;
+        }
+        return specName.replace(className, mirrorClass);
     };
     SpecManager.prototype.getRoleFromSpec = function(specName)
     {
