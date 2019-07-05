@@ -62,12 +62,16 @@ let ItemManager = (function()
         {
             specRole = 'allHealer';
         }
+        if(Settings.getFaction() === 'pub' && ['mainhand', 'offhand'].indexOf(slotName) !== -1) //some pubside classes use different mainhand/offhand types from imperials
+        {
+            spec = SpecManager.getSpecMirror(spec);
+        }
         return items.filter(i => ((i.specs.indexOf(spec) !== -1)
             || (i.specs.indexOf('all') !== -1)
             || (i.specs.indexOf('all') !== -1)
             || (i.specs.indexOf(specRole) !== -1)));
     };
-    ItemManager.prototype.filterListForClassAndSlot = function(className, slotName, list) //TODO:this doesn't seem to adjust when toggling factions
+    ItemManager.prototype.filterListForClassAndSlot = function(className, slotName, list)
     {
         let items = list.slice(); //shallow copy
         items = items.filter(i => (i.slot === slotName));
@@ -76,6 +80,7 @@ let ItemManager = (function()
             return items;
         }
         let specs = [];
+        let faction = Settings.getFaction(); //some pubside classes use different mainhand/offhand types from imperials
         switch(className)
         {
             case 'jugg':
@@ -85,19 +90,47 @@ let ItemManager = (function()
                 specs = ['sinTank', 'sinBurst', 'sinSust', 'allTank', 'allDps'];
                 break;
             case 'pt':
-                specs = ['ptTank', 'ptSust', 'ptBurst', 'allTank', 'allDps'];
+                if(faction === 'pub' && ['mainhand', 'offhand'].indexOf(slotName) !== -1)
+                {
+                    specs = ['vanTank', 'vanSust', 'vanBurst', 'allTank', 'allDps'];
+                }
+                else
+                {
+                    specs = ['ptTank', 'ptSust', 'ptBurst', 'allTank', 'allDps'];
+                }
                 break;
             case 'merc':
-                specs = ['mercHealer', 'mercBurst', 'mercSust', 'allHealer', 'allDps'];
+                if(faction === 'pub' && ['mainhand', 'offhand'].indexOf(slotName) !== -1)
+                {
+                    specs = ['mandoHealer', 'mandoBurst', 'mandoSust', 'allHealer', 'allDps'];
+                }
+                else
+                {
+                    specs = ['mercHealer', 'mercBurst', 'mercSust', 'allHealer', 'allDps'];
+                }
                 break;
             case 'sorc':
                 specs = ['sorcHealer', 'sorcBurst', 'sorcSust', 'allHealer', 'allDps'];
                 break;
             case 'op':
-                specs = ['opHealer', 'opBurst', 'opSust', 'allHealer', 'allDps'];
+                if(faction === 'pub' && ['mainhand', 'offhand'].indexOf(slotName) !== -1)
+                {
+                    specs = ['scoundrelHealer', 'scoundrelBurst', 'scoundrelSust', 'allHealer', 'allDps'];
+                }
+                else
+                {
+                    specs = ['opHealer', 'opBurst', 'opSust', 'allHealer', 'allDps'];
+                }
                 break;
             case 'sniper':
-                specs = ['sniperBurst', 'sniperSust', 'sniperHybrid', 'allDps'];
+                if(faction === 'pub' && ['mainhand', 'offhand'].indexOf(slotName) !== -1)
+                {
+                    specs = ['slingerBurst', 'slingerSust', 'slingerHybrid', 'allDps'];
+                }
+                else
+                {
+                    specs = ['sniperBurst', 'sniperSust', 'sniperHybrid', 'allDps'];
+                }
                 break;
             case 'mara':
                 specs = ['maraSust', 'maraBurst', 'maraHybrid', 'allDps'];
