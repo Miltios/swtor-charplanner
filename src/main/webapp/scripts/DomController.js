@@ -63,7 +63,9 @@ let DomController = (function()
             }
             case 'toggleExpand':
             {
-                DomManager.dismissOtherPopups(event);
+                let parentEl = el.parentNode;
+                let popups = parentEl.getElementsByClassName('popup-volatile');
+                DomManager.dismissAllPopupsExcept(parentEl);
                 if(el.classList.contains('collapsed'))
                 {
                     el.classList.remove('collapsed');
@@ -74,8 +76,6 @@ let DomController = (function()
                     el.classList.remove('expanded');
                     el.classList.add('collapsed');
                 }
-                let parentEl = el.parentNode;
-                let popups = parentEl.getElementsByClassName('popup-volatile');
                 if(parentEl.classList.contains('spawns-popup-hidden'))
                 {
                     parentEl.classList.remove('spawns-popup-hidden');
@@ -90,7 +90,6 @@ let DomController = (function()
                     parentEl.classList.remove('spawns-popup-visible');
                     parentEl.classList.add('spawns-popup-hidden');
                 }
-
                 else
                 {
                     console.error('Expandable node not found!');
@@ -98,12 +97,19 @@ let DomController = (function()
                 event.stopPropagation();
                 break;
             }
+            case 'popupInteriorClick':
+            {
+                event.stopPropagation();
+            }
             case 'listItemClick':
             {
                 let currentSlot = SlotManager.getCurrentSlot();
                 let item = ItemManager.getItemById(el.getAttribute('itemId'));
-                currentSlot.setItem(item);
-                PickerController.populateCurrentItemForSlot(currentSlot);
+                if(currentSlot !== null)
+                {
+                    currentSlot.setItem(item);
+                    PickerController.populateCurrentItemForSlot(currentSlot);
+                }
                 break;
             }
             case 'listItemModClick':

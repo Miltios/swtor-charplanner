@@ -115,6 +115,10 @@ let DomManager = (function()
             }
             parentEl = parentEl.parentNode;
         }
+        this.dismissAllPopupsExcept(keepEl);
+    };
+    DomManager.prototype.dismissAllPopupsExcept = function(keepEl)
+    {
         let popups = document.getElementsByClassName('popup-volatile');
         for(let i in popups)
         {
@@ -122,7 +126,6 @@ let DomManager = (function()
             {
                 if(!Utilities.elHasAncestor(popups[i], keepEl) || keepEl.classList.contains('spawns-popup-visible'))
                 {
-                    //popups[i].classList.add('popup-hidden');
                     this.hideVolatilePopup(popups[i], keepEl);
                 }
             }
@@ -140,7 +143,7 @@ let DomManager = (function()
             if(spawners.hasOwnProperty(i))
             {
                 let spawner = spawners[i];
-                if(!Utilities.elHasAncestor(popupEl, keepEl))
+                if(!Utilities.elHasAncestor(popupEl, keepEl) && spawner !== keepEl)
                 {
                     spawner.classList.remove('spawns-popup-visible');
                     spawner.classList.add('spawns-popup-hidden');
