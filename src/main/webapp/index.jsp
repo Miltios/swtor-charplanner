@@ -355,7 +355,7 @@
                 <option class="faction-pub" value="sinBurst">Infiltration</option>
                 <option class="faction-pub" value="sinSust">Serenity</option>
             </select>
-            <div id="datacronsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
+            <div id="datacronsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden" onclick="DomController.userInput(this, 'popupInteriorClick', event)">
                 <span class="expand-settings" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
                 <input type="checkbox" checked id="datacronsCheckbox" onchange='Settings.updateDatacrons(this)'>
                 <label class="label-single-line" for="datacronsCheckbox">All datacrons</label>
@@ -382,7 +382,7 @@
                     </div>
                 </div>
             </div>
-            <div id="classBuffsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
+            <div id="classBuffsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden" onclick="DomController.userInput(this, 'popupInteriorClick', event)">
                 <span class="expand-settings collapsed" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
                 <input type="checkbox" checked id="classBuffsCheckbox" onchange='Settings.updateClassBuffs(this)'>
                 <label class="label-single-line" for="classBuffsCheckbox">All class buffs</label>
@@ -409,7 +409,7 @@
                     </div>
                 </div>
             </div>
-            <div id="companionBuffsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden">
+            <div id="companionBuffsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden" onclick="DomController.userInput(this, 'popupInteriorClick', event)">
                 <span class="expand-settings collapsed" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
                 <input type="checkbox" checked id="companionBuffsCheckbox" onchange='Settings.updateCompanionBuffs(this)'>
                 <label class="label-single-line" for="companionBuffsCheckbox">All companion buffs</label>
