@@ -595,3 +595,8 @@ body.faction-mode-pub .faction-imp
 {
     font-weight:normal;
 }
+#helpDiv
+{
+    width:650px;
+    margin:10px auto;
+}
