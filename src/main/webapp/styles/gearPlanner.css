@@ -146,7 +146,6 @@ body.faction-mode-pub .faction-imp
     height:100%;
     width:500px;
     text-align:left;
-    padding-top:8px;
 }
 .content-left
 {
@@ -158,7 +157,10 @@ body.faction-mode-pub .faction-imp
 }
 #charSettings
 {
-    padding:0 5px 5px;
+    padding:5px;
+    font-size:0.9em;
+    background-image:url('../images/frames/frame_settings.png');
+    background-repeat:no-repeat;
 }
 .setting-expandable
 {
