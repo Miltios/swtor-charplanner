@@ -17,6 +17,7 @@ let DomController = (function()
                 let slot = DomManager.getSlot(el);
                 SlotManager.setCurrentSlot(slot);
                 this.spawnItemPicker(slot);
+                HelpController.display('itemPicker');
                 break;
             }
             case 'modSlot':
@@ -109,6 +110,7 @@ let DomController = (function()
                 {
                     currentSlot.setItem(item);
                     PickerController.populateCurrentItemForSlot(currentSlot);
+                    HelpController.display('itemSelected');
                 }
                 break;
             }
