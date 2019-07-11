@@ -332,34 +332,36 @@
     </div>
     <div class="content-left">
         <div id="charSettings">
-            <label "label-inline" for="classDropdown">Class:</label>
-            <select id="classDropdown" onchange="DomController.userInput(this, 'classSelect')">
-                <option class="faction-imp" value="sin">Assassin</option>
-                <option class="faction-imp" value="jugg">Juggernaut</option>
-                <option class="faction-imp" value="mara">Marauder</option>
-                <option class="faction-imp" value="merc">Mercenary</option>
-                <option class="faction-imp" value="op">Operative</option>
-                <option class="faction-imp" value="pt">Powertech</option>
-                <option class="faction-imp" value="sniper">Sniper</option>
-                <option class="faction-imp" value="sorc">Sorcerer</option>
-                <option class="faction-pub" value="merc">Commando</option>
-                <option class="faction-pub" value="jugg">Guardian</option>
-                <option class="faction-pub" value="sniper">Gunslinger</option>
-                <option class="faction-pub" value="sorc">Sage</option>
-                <option class="faction-pub" value="op">Scoundrel</option>
-                <option class="faction-pub" value="mara">Sentinel</option>
-                <option class="faction-pub" value="sin">Shadow</option>
-                <option class="faction-pub" value="pt">Vanguard</option>
-            </select>
-            <label "label-inline" for="specDropdown">Spec:</label>
-            <select id="specDropdown" onchange="DomController.userInput(this, 'specSelect')">
-                <option class="faction-imp" value="sinTank">Darkness</option>
-                <option class="faction-imp" value="sinBurst">Deception</option>
-                <option class="faction-imp" value="sinSust">Hatred</option>
-                <option class="faction-pub" value="sinTank">Kinetic Combat</option>
-                <option class="faction-pub" value="sinBurst">Infiltration</option>
-                <option class="faction-pub" value="sinSust">Serenity</option>
-            </select>
+            <div id="classSpecDiv">
+                <label "label-inline" for="classDropdown">Class:</label>
+                <select id="classDropdown" onchange="DomController.userInput(this, 'classSelect')">
+                    <option class="faction-imp" value="sin">Assassin</option>
+                    <option class="faction-imp" value="jugg">Juggernaut</option>
+                    <option class="faction-imp" value="mara">Marauder</option>
+                    <option class="faction-imp" value="merc">Mercenary</option>
+                    <option class="faction-imp" value="op">Operative</option>
+                    <option class="faction-imp" value="pt">Powertech</option>
+                    <option class="faction-imp" value="sniper">Sniper</option>
+                    <option class="faction-imp" value="sorc">Sorcerer</option>
+                    <option class="faction-pub" value="merc">Commando</option>
+                    <option class="faction-pub" value="jugg">Guardian</option>
+                    <option class="faction-pub" value="sniper">Gunslinger</option>
+                    <option class="faction-pub" value="sorc">Sage</option>
+                    <option class="faction-pub" value="op">Scoundrel</option>
+                    <option class="faction-pub" value="mara">Sentinel</option>
+                    <option class="faction-pub" value="sin">Shadow</option>
+                    <option class="faction-pub" value="pt">Vanguard</option>
+                </select>
+                <label "label-inline" for="specDropdown">Spec:</label>
+                <select id="specDropdown" onchange="DomController.userInput(this, 'specSelect')">
+                    <option class="faction-imp" value="sinTank">Darkness</option>
+                    <option class="faction-imp" value="sinBurst">Deception</option>
+                    <option class="faction-imp" value="sinSust">Hatred</option>
+                    <option class="faction-pub" value="sinTank">Kinetic Combat</option>
+                    <option class="faction-pub" value="sinBurst">Infiltration</option>
+                    <option class="faction-pub" value="sinSust">Serenity</option>
+                </select>
+            </div>
             <div id="datacronsCheckboxDiv" class="setting-expandable spawns-popup spawns-popup-hidden" onclick="DomController.userInput(this, 'popupInteriorClick', event)">
                 <span class="expand-settings" onclick="DomController.userInput(this, 'toggleExpand', event)"></span>
                 <input type="checkbox" checked id="datacronsCheckbox" onchange='Settings.updateDatacrons(this)'>

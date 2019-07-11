@@ -157,14 +157,19 @@ body.faction-mode-pub .faction-imp
 }
 #charSettings
 {
-    padding:5px;
+    padding:5px 5px 12px;
     font-size:0.9em;
     background-image:url('../images/frames/frame_settings.png');
     background-repeat:no-repeat;
 }
+#classSpecDiv
+{
+    padding-left:14px;
+}
 .setting-expandable
 {
     padding:2px 5px;
+    height:16px;
 }
 /*.setting-expanded .setting-extra
 {
@@ -561,6 +566,7 @@ body.faction-mode-pub .faction-imp
 #stimDiv
 {
     height:30px;
+    padding-top:3px;
 }
 .button-stim
 {
