@@ -101,6 +101,7 @@ let DomController = (function()
             case 'popupInteriorClick':
             {
                 event.stopPropagation();
+                break;
             }
             case 'listItemClick':
             {
