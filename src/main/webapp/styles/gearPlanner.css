@@ -71,7 +71,6 @@ body.faction-mode-pub .faction-imp
 #charBodyTable
 {
     width:650px;
-    /*height:1000px;*/
 }
 #charBodyTable td
 {
@@ -79,8 +78,6 @@ body.faction-mode-pub .faction-imp
 }
 .character-slot
 {
-    /*width:120px;*/
-    /*height:100px;*/
     text-align:center;
 }
 .character-slot-link,
@@ -144,16 +141,17 @@ body.faction-mode-pub .faction-imp
     position:absolute;
     top:0;
     height:100%;
-    width:500px;
     text-align:left;
 }
 .content-left
 {
     left:0;
+    width:504px;
 }
 .content-right
 {
     right:8px;
+    width:500px;
 }
 #charSettings
 {
@@ -171,17 +169,12 @@ body.faction-mode-pub .faction-imp
     padding:2px 5px;
     height:16px;
 }
-/*.setting-expanded .setting-extra
-{
-    display:block;
-}*/
 .setting-expandable input
 {
     margin:0;
 }
 .expand-settings
 {
-    /*border:1px solid lightgrey;*/
     border-radius:3px;
     padding:0 3px;
     min-width:9px;
@@ -202,7 +195,6 @@ body.faction-mode-pub .faction-imp
 .setting-extra
 {
     margin-left:35px;
-    /*display:none;*/
     position:absolute;
     background-color:#00050dcc;
     padding:7px;
@@ -211,22 +203,18 @@ body.faction-mode-pub .faction-imp
 }
 #itemPicker
 {
-    /*display:none;*/
-    /*position:absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:500px;*/
+    margin-top:-30px;
+    padding:67px 30px 60px 0px;
 
     width:100%;
 
-    /*background-color:lightgrey;*/
-    border:1px solid grey;
+    background-image:url('../images/frames/frame_itempicker.png');
+    background-repeat:no-repeat;
 }
 #currentItemArea
 {
-    /*display:none;*/
-    min-height:300px;
+    width:445px;
+    height:300px;
     padding:6px;
 }
 #currentItemArea td
@@ -242,11 +230,14 @@ body.faction-mode-pub .faction-imp
 .item-list
 {
     flex:1;
-    min-width:250px;
+    min-width:252px;
     height:320px;
     overflow-y:auto;
     box-sizing:border-box;
-    border:2px solid white;
+    padding-top:4px;
+    border-width:2px;
+    border-color:#50D4FF;
+    border-style:none solid none solid;
     vertical-align:top;
 }
 .item-green
@@ -350,7 +341,7 @@ body.faction-mode-pub .faction-imp
 }
 #currentItemDescription
 {
-    font-size:0.9em;
+    font-size:0.8em;
 }
 .description-proctype
 {
@@ -370,6 +361,7 @@ body.faction-mode-pub .faction-imp
 #itemModdingArea
 {
     padding:0 10px 10px;
+    margin-bottom:10px;
 }
 .mod-slot
 {
@@ -584,10 +576,18 @@ body.faction-mode-pub .faction-imp
     border:2px solid #96D6F1;
     opacity:1;
 }
+#warningsWrapper
+{
+    position:fixed;
+    bottom:0;
+    background-image:url('../images/frames/frame_warnings.png');
+    background-repeat:no-repeat;
+    padding:38px 0 0 28px;
+}
 #warningsContent
 {
-    border:1px solid #96D6F1;
-    border-radius:10px;
+    /*border:1px solid #96D6F1;*/
+    /*border-radius:10px;*/
     padding:10px;
 }
 .warnings-item
@@ -604,7 +604,7 @@ body.faction-mode-pub .faction-imp
 }
 .warning-severity-low
 {
-    color:grey;
+    color:lightgrey;
 }
 .warning-text
 {
