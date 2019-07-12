@@ -277,6 +277,7 @@ let ItemManager = (function()
         clone.dynamicSlotType = item.dynamicSlotType;
         clone.description = item.description;
         clone.image = item.image;
+        clone.type = item.type;
         clone.isCustom = true;
         clone.itemMods = item.itemMods.slice();
 

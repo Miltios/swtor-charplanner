@@ -100,8 +100,8 @@ let StatManager = (function()
         }
         let rating = item.rating;
         let row = this.ratings[rating];
-        let type = item.type.toLowerCase();
-        if(!rating || !type || ['cannon', 'knife', 'pistol', 'rifle', 'saber', 'saberstaff', 'shotgun', 'sniper'].indexOf(type) === -1)
+        let type = item.type;
+        if(!rating || !type || ['cannon', 'knife', 'pistol', 'rifle', 'saber', 'saberstaff', 'shotgun', 'sniper'].indexOf(type=type.toLowerCase()) === -1)
         {
             console.error('Attempted to get dmg for invalid item!');
             return result;
@@ -136,11 +136,12 @@ let StatManager = (function()
         }
         let rating = item.rating;
         let row = this.ratings[rating];
-        let type = item.type.toLowerCase();
+        let type = item.type;
         if(!rating || !type || ['mainhand', 'offhand'].indexOf(item.slot) === -1)
         {
             return result;
         }
+        type = type.toLowerCase();
         result = row['ftpower'];
         if(type === 'shield')
         {
