@@ -532,6 +532,7 @@ let StatController = (function()
         {
             tier = '3';
         }
+        StatManager.setStat('alacrityperc', alacPerc);
         this.calcElAlacrity.innerHTML = alacPerc.toFixed(2);
         this.calcElAlacrity.className = 'calc-stat-value alacrity-tier-' + tier;
     };

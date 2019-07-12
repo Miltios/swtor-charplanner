@@ -39,7 +39,9 @@ let HelpController = (function()
                 msg = 'Each alacrity tier reduces the length of your global cooldown (GCD) by 0.1 seconds.  The tiers are as follows:<br/>' +
                     'Tier 1 (1.5s): 0.00% to 7.142%<br/>' +
                     'Tier 2 (1.4s): 7.143% to 15.384%<br/>' +
-                    'Tier 3 (1.3s): 15.385% and higher';
+                    'Tier 3 (1.3s): 15.385% and higher<br/>' +
+                    'As far as GCD reduction goes, there is no benefit to getting additional alacrity unless it moves you up to the next tier.  ' +
+                    'Try to stay as close to the cutoffs as possible without going below them.';
                 break;
             }
         }
