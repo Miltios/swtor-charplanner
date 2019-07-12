@@ -518,13 +518,22 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcAlacrity = function()
     {
-        //TODO: Tier 1 Alacrity = 7.143%, Tier 2 = 15.385%.  Ideally find some way to convey this.
         //alacrity formula: 30*(1-(1-(.01/.3))^(alacrity/87.5))
         let alacrity = StatManager.getStat('alacrity');
         let bonusAlac = StatManager.getMultiplierForStat('alacrity')-1; //additive
         let alacPerc = 30*(1-(1-(.01/.3))**(alacrity/87.5));
         alacPerc += (100 * bonusAlac);
+        let tier = '0';
+        if(alacPerc >= 7.143 && alacPerc < 15.385)
+        {
+            tier = '1';
+        }
+        else if(alacPerc > 15.385)
+        {
+            tier = '2';
+        }
         this.calcElAlacrity.innerHTML = alacPerc.toFixed(2);
+        this.calcElAlacrity.className = 'calc-stat-value alacrity-tier-' + tier;
     };
     StatController.prototype.updateCalcHealth = function()
     {
