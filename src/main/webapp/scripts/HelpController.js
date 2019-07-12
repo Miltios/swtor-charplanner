@@ -37,9 +37,9 @@ let HelpController = (function()
             case 'alacTiers':
             {
                 msg = 'Each alacrity tier reduces the length of your global cooldown (GCD) by 0.1 seconds.  The tiers are as follows:<br/>' +
-                    'Tier 0 (1.5s): 0.00% to 7.142%<br/>' +
-                    'Tier 1 (1.4s): 7.143% to 15.384%<br/>' +
-                    'Tier 2 (1.3s): 15.385% and higher';
+                    'Tier 1 (1.5s): 0.00% to 7.142%<br/>' +
+                    'Tier 2 (1.4s): 7.143% to 15.384%<br/>' +
+                    'Tier 3 (1.3s): 15.385% and higher';
                 break;
             }
         }

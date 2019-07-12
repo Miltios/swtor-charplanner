@@ -523,14 +523,14 @@ let StatController = (function()
         let bonusAlac = StatManager.getMultiplierForStat('alacrity')-1; //additive
         let alacPerc = 30*(1-(1-(.01/.3))**(alacrity/87.5));
         alacPerc += (100 * bonusAlac);
-        let tier = '0';
+        let tier = '1';
         if(alacPerc >= 7.143 && alacPerc < 15.385)
         {
-            tier = '1';
+            tier = '2';
         }
         else if(alacPerc > 15.385)
         {
-            tier = '2';
+            tier = '3';
         }
         this.calcElAlacrity.innerHTML = alacPerc.toFixed(2);
         this.calcElAlacrity.className = 'calc-stat-value alacrity-tier-' + tier;
