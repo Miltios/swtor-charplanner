@@ -235,7 +235,7 @@ body.faction-mode-pub .faction-imp
     overflow-y:auto;
     box-sizing:border-box;
     padding-top:4px;
-    border-width:2px;
+    border-width:0 2px 0 0;
     border-color:#50D4FF;
     border-style:none solid none solid;
     vertical-align:top;
@@ -492,6 +492,18 @@ body.faction-mode-pub .faction-imp
 {
     color:#CFE5F1;
     text-align:right;
+}
+.alacrity-tier-0:after
+{
+    content:" (tier 0)";
+}
+.alacrity-tier-1:after
+{
+    content:" (tier 1)";
+}
+.alacrity-tier-2:after
+{
+    content:" (tier 2)";
 }
 #augPicker
 {
