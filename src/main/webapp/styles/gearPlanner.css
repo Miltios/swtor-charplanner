@@ -493,10 +493,6 @@ body.faction-mode-pub .faction-imp
     color:#CFE5F1;
     text-align:right;
 }
-.alacrity-tier-0:after
-{
-    content:" (tier 0)";
-}
 .alacrity-tier-1:after
 {
     content:" (tier 1)";
@@ -504,6 +500,10 @@ body.faction-mode-pub .faction-imp
 .alacrity-tier-2:after
 {
     content:" (tier 2)";
+}
+.alacrity-tier-3:after
+{
+    content:" (tier 3)";
 }
 #augPicker
 {
