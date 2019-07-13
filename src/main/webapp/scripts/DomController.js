@@ -41,6 +41,7 @@ let DomController = (function()
                 {
                     SlotManager.setCurrentSlot(slot);
                     AugmentController.setHasCurrent(true);
+                    this.clearItemLists();
                     this.spawnAugmentPicker(slot);
                 }
                 break;
