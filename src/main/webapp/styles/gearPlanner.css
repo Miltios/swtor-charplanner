@@ -624,6 +624,16 @@ body.faction-mode-pub .faction-imp
 }
 #helpDiv
 {
-    width:650px;
-    margin:10px auto;
+    width:648px;
+    height:147px;
+    margin:-20px auto;
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding:30px 12px;
+    background-image:url('../images/frames/frame_help.png');
+    background-repeat:no-repeat;
+}
+#helpDivContent
+{
+    padding:5px;
 }
