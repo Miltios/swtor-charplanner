@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/styles/global.css">
     <link rel="stylesheet" type="text/css" href="/styles/gearPlanner.css">
+    <link rel="icon" href="/favicon.ico?">
 </head>
 <body id="documentBody" class="faction-mode-imp">
     <div>
