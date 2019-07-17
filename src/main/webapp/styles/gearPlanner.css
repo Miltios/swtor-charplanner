@@ -632,6 +632,10 @@ body.faction-mode-pub .faction-imp
     padding:30px 12px;
     background-image:url('../images/frames/frame_help.png');
     background-repeat:no-repeat;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 #helpDivContent
 {

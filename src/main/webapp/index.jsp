@@ -5,6 +5,16 @@
     <link rel="stylesheet" type="text/css" href="/styles/global.css">
     <link rel="stylesheet" type="text/css" href="/styles/gearPlanner.css">
     <link rel="icon" href="/favicon.ico?">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144106875-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '<%=StartClass.getProperty("analyticsId")%>');
+    </script>
+
 </head>
 <body id="documentBody" class="faction-mode-imp">
     <div>
