@@ -54,6 +54,16 @@ public class StartClass implements ServletContextListener //TODO:what do we actu
                 System.out.println(x.getMessage());
                 x.printStackTrace(); //TODO:DEBUG
             }
+            try
+            {
+                String id = System.getenv("analyticsId");
+                properties.setProperty("analyticsId", id);
+            }
+            catch(Exception x)
+            {
+                System.out.println("ERROR: Failed to read analyticsId from environment variable!");
+                x.printStackTrace(); //TODO:DEBUG
+            }
         }
     }
 
