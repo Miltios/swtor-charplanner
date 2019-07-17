@@ -125,11 +125,6 @@
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>
                     <version>3.0.2</version>
-                    <configuration>
-                        <nonFilteredFileExtensions>
-                            <nonFilteredFileExtension>ico</nonFilteredFileExtension>
-                        </nonFilteredFileExtensions>
-                    </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -151,6 +146,9 @@
                                 <filtering>true</filtering>
                             </resource>
                         </webResources>
+                        <nonFilteredFileExtensions>
+                            <nonFilteredFileExtension>ico</nonFilteredFileExtension>
+                        </nonFilteredFileExtensions>
                     </configuration>
                 </plugin>
                 <plugin>
