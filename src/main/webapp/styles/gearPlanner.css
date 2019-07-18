@@ -150,8 +150,8 @@ body.faction-mode-pub .faction-imp
 }
 .content-right
 {
-    right:8px;
-    width:500px;
+    right:0px;
+    /*width:500px;*/
 }
 #charSettings
 {
@@ -624,14 +624,15 @@ body.faction-mode-pub .faction-imp
 }
 #helpDiv
 {
-    width:648px;
-    height:147px;
+    width:507px;
+    height:200px;
     margin:-20px auto;
     overflow-y:auto;
     overflow-x:hidden;
-    padding:30px 12px;
+    padding:0 0 40px 30px;
     background-image:url('../images/frames/frame_help.png');
     background-repeat:no-repeat;
+    background-position:bottom right;
 
     display:flex;
     flex-direction:column;
@@ -639,5 +640,5 @@ body.faction-mode-pub .faction-imp
 }
 #helpDivContent
 {
-    padding:5px;
+    padding:7px;
 }
