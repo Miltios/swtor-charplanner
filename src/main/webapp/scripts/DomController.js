@@ -27,6 +27,7 @@ let DomController = (function()
                     let slot = DomManager.getSlot(el);
                     SlotManager.setCurrentModSlot(slot);
                     PickerController.populateOptionsForModSlot(slot);
+                    HelpController.display('modPicker');
                 }
                 break;
             }
@@ -43,6 +44,7 @@ let DomController = (function()
                     AugmentController.setHasCurrent(true);
                     this.clearItemLists();
                     this.spawnAugmentPicker(slot);
+                    HelpController.display('augPicker');
                 }
                 break;
             }

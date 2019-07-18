@@ -21,6 +21,7 @@ let AugmentController = (function()
             this.cbt.classList.remove('augment-copy-mode');
             this.cab.innerHTML = 'Clone';
             this.augToCopy = null;
+            HelpController.display('augPicker');
         }
         else
         {
@@ -28,6 +29,7 @@ let AugmentController = (function()
             this.cbt.classList.add('augment-copy-mode');
             this.cab.innerHTML = 'Done';
             this.augToCopy = SlotManager.getCurrentSlot().getAugment();
+            HelpController.display('augClone');
         }
     };
     AugmentController.prototype.setHasCurrent = function(hasCurrent)
