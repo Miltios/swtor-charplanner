@@ -336,54 +336,61 @@
             </tr>
         </table>
     </div>
+    <br/>
     <div id="augPicker" style="display:none">
-        <table id="currentAugArea">
-            <tr id="currentAugSettings">
-                <td colspan="4">
-                 <label for="inputAugType">Augment type:</label>
-                 <select onchange="DomController.userInput(this, 'augTypeSelect')" id="inputAugType">
-                    <option value="none" selected>None</option>
-                    <option value="absorption">Absorb</option>
-                    <option value="accuracy">Accuracy</option>
-                    <option value="alacrity">Alacrity</option>
-                    <option value="crit">Critical</option>
-                    <option value="defense">Defense</option>
-                    <option value="endurance">Endurance</option>
-                    <option value="mastery">Mastery</option>
-                    <option value="power">Power</option>
-                    <option value="shield">Shield</option>
-                 </select>
-                 <label for="inputAugRating">Augment rating:</label>
-                 <select onchange="DomController.userInput(this, 'augRatingSelect')" id="inputAugRating">
-                    <option value="228">228</option>
-                    <option value="230">230</option>
-                    <option value="236">236</option>
-                    <option value="240">240</option>
-                 </select>
-                 <br />
-                 <!--<button id="removeAugButton">Remove this augment</button>-->
-                </td>
-            </tr>
-            <tr id="currentAugDisplay">
-                <td>
-                    <img id="currentAugImg" class="character-slot-img slot-empty"> <!--TODO:empty img src?-->
-                </td>
-                <td id="currentAugName">
-                    None
-                </td>
-                <td id="currentAugStats">
-                </td>
-                <td>
-                    <button id="saveAugButton" onclick="DomController.userInput(this, 'saveAugment')">Add</button><br />
-                    <button id="copyAugButton" onclick="DomController.userInput(this, 'toggleCopyAugment')">Clone...</button>
-                </td>
-            </tr>
-            <tr id="currentAugMask" style="display:none">
-                <td>
-                    <button id="singleAugButton" style="display:none">Edit single augment...</button>
-                </td>
-            </tr>
-        </table>
+        <div id="currentAugArea">
+            <table>
+                <tr id="currentAugSettings">
+                    <td colspan="4">
+                     <label for="inputAugType">Augment type:</label>
+                     <select onchange="DomController.userInput(this, 'augTypeSelect')" id="inputAugType">
+                        <option value="none" selected>None</option>
+                        <option value="absorption">Absorb</option>
+                        <option value="accuracy">Accuracy</option>
+                        <option value="alacrity">Alacrity</option>
+                        <option value="crit">Critical</option>
+                        <option value="defense">Defense</option>
+                        <option value="endurance">Endurance</option>
+                        <option value="mastery">Mastery</option>
+                        <option value="power">Power</option>
+                        <option value="shield">Shield</option>
+                     </select>
+                     <label for="inputAugRating">Augment rating:</label>
+                     <select onchange="DomController.userInput(this, 'augRatingSelect')" id="inputAugRating">
+                        <option value="228">228</option>
+                        <option value="230">230</option>
+                        <option value="236">236</option>
+                        <option value="240">240</option>
+                     </select>
+                     <br />
+                     <!--<button id="removeAugButton">Remove this augment</button>-->
+                    </td>
+                </tr>
+                <tr id="currentAugDisplay">
+                    <td>
+                        <img id="currentAugImg" class="character-slot-img slot-empty"> <!--TODO:empty img src?-->
+                    </td>
+                    <td id="currentAugName">
+                        None
+                    </td>
+                    <td id="currentAugStats">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <div id="currentAugButtons">
+                            <button id="saveAugButton" onclick="DomController.userInput(this, 'saveAugment')">Add</button>
+                            <button id="copyAugButton" onclick="DomController.userInput(this, 'toggleCopyAugment')">Clone</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr id="currentAugMask" style="display:none">
+                    <td>
+                        <button id="singleAugButton" style="display:none">Edit single augment...</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
         <!--<div id="bulkAugsArea">
             <button id="bulkAugsButton">Edit bulk augments...</button>
         </div>-->
