@@ -19,7 +19,7 @@ let AugmentController = (function()
         {
             this.copyMode = false;
             this.cbt.classList.remove('augment-copy-mode');
-            this.cab.innerHTML = 'Clone...';
+            this.cab.innerHTML = 'Clone';
             this.augToCopy = null;
         }
         else
