@@ -184,7 +184,9 @@
                         </a>
                     </div>
                 </td>
-                <td colspan="2"></td>
+                <td colspan="2">
+                    <button id="autofillGearButton" onclick="DomController.userInput(this, 'autofillGear')">Autofill gear for spec</button>
+                </td>
                 <td>
                     <div id="slotLegs" class="character-slot">
                         <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
@@ -686,11 +688,10 @@ function log(str)
     requireJs("/swtor/scripts/HelpController.js");
     requireJs("/swtor/scripts/Settings.js");
     requireJs("/swtor/scripts/Utilities.js");
-    requireJs("/swtor/scripts/Dev.js"); //TODO: developer hacks, not needed for functionality
+    requireJs("/swtor/scripts/AutofillController.js");
     requireJs("/swtor/scripts/model/Item.js");
     requireJs("/swtor/scripts/model/ItemMod.js");
     requireJs("/swtor/scripts/model/Slot.js");
-    //requireJs("/swtor/scripts/model/allItemData.js"); //TODO: temporary hard-code
 
     //TODO:this may be getting unwieldy.  AJAX?
     let allItemData = <%= ItemManager.getAllAsJson() %>;

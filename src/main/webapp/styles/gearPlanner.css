@@ -413,13 +413,14 @@ body.faction-mode-pub .faction-imp
 {
     width:100%;
     /*height:350px;*/
-    margin:25px 0;
+    margin:15px 0;
     box-sizing:border-box;
     /*padding:5px;*/
     border-radius:5px;
     border:2px solid #96D6F199;
     background-image:linear-gradient(90deg, #0e3744b3, #00050D, #0e3744e6);
     overflow:hidden;
+    border-width:14px 2px 7px; /*TODO: this is a temporary border to give the correct dimensions until we replace it with greebling*/
 }
 #charStatsBody
 {
@@ -673,8 +674,32 @@ body.faction-mode-pub .faction-imp
     color:#FFC800;
     letter-spacing:1.5px;
     text-decoration:none;
+    transition:0.3s;
 }
 .site-nav-item:hover
 {
     color:#b19c4f;
+    transition:0.3s;
+}
+#autofillGearButton
+{
+    display:block;
+    margin:0 auto;
+    position:relative;
+    top:20px;
+
+    background-color:#0f2333;
+    color:#96d6f1;
+    border:2px outset #96d6f1;
+    border-radius:4px;
+    cursor:pointer;
+    padding:3px 9px;
+}
+#autofillGearButton:hover
+{
+    border-color:#326b9d;
+}
+#autofillGearButton:active
+{
+    border-style:inset;
 }
