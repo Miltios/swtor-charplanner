@@ -17,15 +17,10 @@
 
 </head>
 <body id="documentBody" class="faction-mode-imp">
-    <div>
-        <!--TODO:
-            -choose class/spec
-            -class buffs (on by default?)
-            -datacrons (mastery/endurance/presence...should these be on by default?)
-            -stim?
-            -checkbox or dropdown for "show only: [gear for my spec]/[gear for my class]/[all]"
-            -gearPlanner should be greyed out until options are chosen?
-        -->
+    <div id="siteNavWrapper">
+        <a class="site-nav-item" href="javascript:alert('This page does not exist yet!');">About</a>
+        <a class="site-nav-item" href="javascript:alert('This page does not exist yet!');">FAQ</a>
+        <a class="site-nav-item" href="javascript:alert('This page does not exist yet!');">Contact</a>
     </div>
     <div id="charBodyDiv">
         <table id="charBodyTable">
