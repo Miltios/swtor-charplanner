@@ -148,6 +148,7 @@
                         </webResources>
                         <nonFilteredFileExtensions>
                             <nonFilteredFileExtension>ico</nonFilteredFileExtension>
+                            <nonFilteredFileExtension>woff</nonFilteredFileExtension>
                         </nonFilteredFileExtensions>
                     </configuration>
                 </plugin>
