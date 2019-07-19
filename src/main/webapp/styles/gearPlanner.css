@@ -1,13 +1,3 @@
-body
-{
-    text-align:center; /*TODO:HACK: quick fix for centering until we decide on a page layout*/
-    background-color:#00050D;
-    color:#96D6F1;
-    font-family:Eurofont,"TitilliumText22LMedium",Helvetica,Arial,sans-serif; /*TODO: this is shamelessly stolen from torcommunity. Figure out what we actually want to use.*/
-    font-weight:bold;
-    font-size:14px;
-    letter-spacing:0.3px;
-}
 body.faction-mode-imp
 {
     background-color:#00050D;
@@ -485,6 +475,7 @@ body.faction-mode-pub .faction-imp
 }
 .calc-stats-table-inner td
 {
+    height:23px;
     border-bottom:1px solid #23475A;
     padding:2px;
     font-weight:bold;
@@ -623,6 +614,7 @@ body.faction-mode-pub .faction-imp
     /*border:1px solid #96D6F1;*/
     /*border-radius:10px;*/
     padding:10px;
+    font-size:1.15em;
 }
 .warnings-item
 {
@@ -662,4 +654,6 @@ body.faction-mode-pub .faction-imp
 #helpDivContent
 {
     padding:7px;
+    font-weight:normal;
+    font-size:1.15em;
 }

@@ -10,3 +10,20 @@ table
     background-image:none;
     font-size:16px;
 }
+
+/*fonts*/
+@font-face {
+    font-family: "Eurostile";
+    src: url("../fonts/Eurostile.woff") format('woff');
+}
+
+body
+{
+    text-align:center; /*TODO:HACK: quick fix for centering until we decide on a page layout*/
+    background-color:#00050D;
+    color:#96D6F1;
+    font-family:Eurostile,Helvetica,Arial,sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    letter-spacing:0.75px;
+}
