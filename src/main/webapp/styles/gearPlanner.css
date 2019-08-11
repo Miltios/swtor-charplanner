@@ -658,29 +658,6 @@ body.faction-mode-pub .faction-imp
     font-weight:normal;
     font-size:1.15em;
 }
-#siteNavWrapper
-{
-    width:304px;
-    margin:0 auto;
-    padding:17px 0 25px;
-    background-image:url('../images/frames/frame_menu.png');
-    background-repeat:no-repeat;
-}
-.site-nav-item
-{
-    display:inline-block;
-    width:75px;
-
-    color:#FFC800;
-    letter-spacing:1.5px;
-    text-decoration:none;
-    transition:0.3s;
-}
-.site-nav-item:hover
-{
-    color:#b19c4f;
-    transition:0.3s;
-}
 #autofillGearButton
 {
     display:block;
