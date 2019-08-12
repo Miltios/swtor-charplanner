@@ -1,4 +1,4 @@
-.about-item
+.about-item-wrapper
 {
     width:480px;
     height:848px;
@@ -10,3 +10,34 @@
     margin: 60px 15px 0px;
     line-height: 1.5;
 }
+
+/*Vertical centering for content*/
+.about-item
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.about-item .item-title,
+.about-item .item-content
+{
+    display:block;
+    margin:8px;
+}
+
+#aboutDivMiltios
+{
+    background-image: url('../images/about/imageMiltios.png');
+}
+
+#aboutDivZasmi
+{
+    background-image: url('../images/about/imageZasmi.png');
+}
+
+#aboutDivThanks
+{
+    background-image: url('../images/about/imageThanks.png');
+}
+
