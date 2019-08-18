@@ -19,6 +19,22 @@
     height:100%;
 }
 
+.about-mask
+{
+    width:480px;
+    height:848px;
+    background-color:#00050D;
+    position: absolute;
+    opacity:0;
+    transition:0.5s;
+}
+
+.about-item-wrapper:hover .about-mask
+{
+    opacity:0.8;
+    transition:1s;
+}
+
 .about-item .item-title,
 .about-item .item-content
 {
@@ -26,13 +42,19 @@
     margin:8px;
     padding: 0px 20px;
     opacity:0;
+    transition:0.5s;
+}
+
+.about-item-content
+{
+    z-index:1;
 }
 
 .about-item:hover .item-title,
 .about-item:hover .item-content
 {
     opacity:1;
-    transition:0.5s;
+    transition:1s;
 }
 
 #aboutDivMiltios
