@@ -16,6 +16,7 @@ let Settings = (function()
         this.ilsc;
         this.ilsr;
         this.stim = 'none';
+        this.maxLevel = 75;
     }
     Settings.prototype.init = function()
     {
@@ -506,7 +507,15 @@ let Settings = (function()
     Settings.prototype.getStim = function()
     {
         return this.stim;
-    }
+    };
+    Settings.prototype.getMaxLevel = function()
+    {
+        return this.maxLevel;
+    };
+    Settings.prototype.setMaxLevel = function(level)
+    {
+        this.maxLevel = level;
+    };
     return new Settings();
 })();
 declareReady('Settings.js', function(){Settings.init()});
