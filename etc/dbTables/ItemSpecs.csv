@@ -4589,3 +4589,127 @@ Experimental Ossan Eliminator's Blaster Rifle,,,,2109,vanBurst
 Experimental Ossan Eliminator's Blaster Rifle,,,,2109,vanSust
 Masterwork Ancient Eliminator's Blaster Rifle,,,,2246,vanBurst
 Masterwork Ancient Eliminator's Blaster Rifle,,,,2246,vanSust
+T6 Tank's Armguards,,,,2360,allTank
+T6 Tank's Belt,,,,2361,allTank
+T6 Tank's Boots,,,,2362,allTank
+T6 Tank's Chestpiece,,,,2363,allTank
+T6 Tank's Gauntlets,,,,2364,allTank
+T6 Tank's Greaves,,,,2365,allTank
+T6 Tank's Headgear,,,,2366,allTank
+T6 DPS's Armguards,,,,2367,allDps
+T6 DPS's Belt,,,,2368,allDps
+T6 DPS's Boots,,,,2369,allDps
+T6 DPS's Chestpiece,,,,2370,allDps
+T6 DPS's Gauntlets,,,,2371,allDps
+T6 DPS's Greaves,,,,2372,allDps
+T6 DPS's Headgear,,,,2373,allDps
+T6 Healer's Armguards,,,,2374,allHealer
+T6 Healer's Belt,,,,2375,allHealer
+T6 Healer's Boots,,,,2376,allHealer
+T6 Healer's Chestpiece,,,,2377,allHealer
+T6 Healer's Gauntlets,,,,2378,allHealer
+T6 Healer's Greaves,,,,2379,allHealer
+T6 Healer's Headgear,,,,2380,allHealer
+T6 Tank's Saber,,,,2381,juggTank
+T6 Tank's Saberstaff,,,,2382,sinTank
+T6 Tank's Blaster Pistol,,,,2383,ptTank
+T6 Tank's Blaster Rifle,,,,2384,vanTank
+T6 Tank's Shield (force),,,,2385,sinTank
+T6 Tank's Shield (force),,,,2385,juggTank
+T6 Tank's Shield (tech),,,,2386,ptTank
+T6 Tank's Shield (tech),,,,2386,vanTank
+T6 DPS's Saber,,,,2387,juggBurst
+T6 DPS's Saber,,,,2387,juggSust
+T6 DPS's Saber,,,,2387,maraBurst
+T6 DPS's Saber,,,,2387,maraSust
+T6 DPS's Saber,,,,2387,maraHybrid
+T6 DPS's Saber,,,,2387,sorcBurst
+T6 DPS's Saber,,,,2387,sorcSust
+T6 DPS's Saberstaff,,,,2388,sinBurst
+T6 DPS's Saberstaff,,,,2388,sinSust
+T6 DPS's Blaster Pistol,,,,2389,ptBurst
+T6 DPS's Blaster Pistol,,,,2389,ptSust
+T6 DPS's Blaster Pistol,,,,2389,mercBurst
+T6 DPS's Blaster Pistol,,,,2389,mercSust
+T6 DPS's Blaster Pistol,,,,2389,slingerBurst
+T6 DPS's Blaster Pistol,,,,2389,slingerSust
+T6 DPS's Blaster Pistol,,,,2389,slingerHybrid
+T6 DPS's Blaster Pistol,,,,2389,scoundrelBurst
+T6 DPS's Blaster Pistol,,,,2389,scoundrelSust
+T6 DPS's Blaster Rifle,,,,2390,opBurst
+T6 DPS's Blaster Rifle,,,,2390,opSust
+T6 DPS's Blaster Rifle,,,,2390,vanBurst
+T6 DPS's Blaster Rifle,,,,2390,vanSust
+T6 DPS's Sniper Rifle,,,,2391,sniperBurst
+T6 DPS's Sniper Rifle,,,,2391,sniperSust
+T6 DPS's Sniper Rifle,,,,2391,sniperHybrid
+T6 DPS's Assault Cannon,,,,2392,mandoBurst
+T6 DPS's Assault Cannon,,,,2392,mandoSust
+T6 DPS's Focus,,,,2393,juggBurst
+T6 DPS's Focus,,,,2393,juggSust
+T6 DPS's Focus,,,,2393,sinBurst
+T6 DPS's Focus,,,,2393,sinSust
+T6 DPS's Focus,,,,2393,sorcBurst
+T6 DPS's Focus,,,,2393,sorcSust
+T6 DPS's Generator,,,,2394,ptBurst
+T6 DPS's Generator,,,,2394,ptSust
+T6 DPS's Generator,,,,2394,mandoBurst
+T6 DPS's Generator,,,,2394,mandoSust
+T6 DPS's Generator,,,,2394,vanBurst
+T6 DPS's Generator,,,,2394,vanSust
+T6 DPS's Vibroknife,,,,2395,opBurst
+T6 DPS's Vibroknife,,,,2395,opSust
+T6 DPS's Vibroknife,,,,2395,sniperBurst
+T6 DPS's Vibroknife,,,,2395,sniperSust
+T6 DPS's Vibroknife,,,,2395,sniperHybrid
+T6 DPS's Shotgun,,,,2396,scoundrelBurst
+T6 DPS's Shotgun,,,,2396,scoundrelSust
+T6 DPS's Offhand Saber,,,,2397,maraBurst
+T6 DPS's Offhand Saber,,,,2397,maraSust
+T6 DPS's Offhand Saber,,,,2397,maraHybrid
+T6 DPS's Offhand Blaster,,,,2398,mercBurst
+T6 DPS's Offhand Blaster,,,,2398,mercSust
+T6 DPS's Offhand Blaster,,,,2398,slingerBurst
+T6 DPS's Offhand Blaster,,,,2398,slingerSust
+T6 DPS's Offhand Blaster,,,,2398,slingerHybrid
+T6 Healer's Saber,,,,2399,sorcHealer
+T6 Healer's Blaster Pistol,,,,2400,mercHealer
+T6 Healer's Blaster Pistol,,,,2400,scoundrelHealer
+T6 Healer's Blaster Rifle,,,,2401,opHealer
+T6 Healer's Assault Cannon,,,,2402,mandoHealer
+T6 Healer's Focus,,,,2403,sorcHealer
+T6 Healer's Generator,,,,2404,mandoHealer
+T6 Healer's Vibroknife,,,,2405,opHealer
+T6 Healer's Shotgun,,,,2406,scoundrelHealer
+T6 Healer's Offhand Blaster,,,,2407,mercHealer
+Sha'tek Adept Device MK-19,,,,,allHealer
+Sha'tek Bastion Device MK-19,,,,,allTank
+Sha'tek Bulwark Device MK-19,,,,,allTank
+Sha'tek Initiative Device MK-19,,,,,allDps
+Sha'tek Quick Savant Device MK-19,,,,,allHealer
+Sha'tek Adept Device MK-19,,,,,alllDps
+Sha'tek Quick Savant Device MK-19,,,,,allDps
+Sha'tek Adept Package MK-19,,,,,allHealer
+Sha'tek Bastion Package MK-19,,,,,allTank
+Sha'tek Bulwark Package MK-19,,,,,allTank
+Sha'tek Initiative Package MK-19,,,,,allDps
+Sha'tek Quick Savant Package MK-19,,,,,allHealer
+Sha'tek Adept Package MK-19,,,,,alllDps
+Sha'tek Quick Savant Package MK-19,,,,,allDps
+Sha'tek Relic of Avoidance,,,,,allTank
+Sha'tek Relic of Boundless Ages MK-19,,,,,allHealer
+Sha'tek Relic of Devastating Vengeance MK-19,,,,,allHealer
+Sha'tek Relic of Ephemeral Mending MK-19,,,,,allHealer
+Sha'tek Relic of Focused Retribution MK-19,,,,,allHealer
+Sha'tek Relic of Imperiling Serenity MK-19,,,,,allHealer
+Sha'tek Relic of Reactive Warding MK-19,,,,,allTank
+Sha'tek Relic of Serendipitous Assault MK-19,,,,,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-19,,,,,allHealer
+Sha'tek Relic of the Shield Matrix MK-19,,,,,allTank
+Sha'tek Relic of the Shrouded Crusader MK-19,,,,,allTank
+Sha'tek Relic of Boundless Ages MK-19,,,,,allDps
+Sha'tek Relic of Devastating Vengeance MK-19,,,,,allDps
+Sha'tek Relic of Focused Retribution MK-19,,,,,allDps
+Sha'tek Relic of Imperiling Serenity MK-19,,,,,allDps
+Sha'tek Relic of Serendipitous Assault MK-19,,,,,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-19,,,,,allDps

@@ -1,4 +1,3 @@
-tempItemName,ItemId,tempSlot,tempStatType,tempKey,StatName,StatValue,tempRating
 Eternal Commander MK-1 Adept Device,1,ear,[pri],ear[pri]228,endurance,411,228
 Eternal Commander MK-1 Adept Device,1,ear,[sec],ear[sec]228,mastery,382,228
 Eternal Commander MK-1 Adept Device,1,ear,[tert],ear[tert]228,power,205,228
@@ -1079,3 +1078,118 @@ Masterwork Ancient Relic of the Primeval Fatesealer,2308,relic,[tert],relic[tert
 Masterwork Ancient Relic of the Shrouded Crusader,2309,relic,[pri],relic[pri]258,endurance,278,258
 Masterwork Ancient Relic of the Shrouded Crusader,2309,relic,[sec],relic[sec]258,power,122,258
 Masterwork Ancient Relic of the Shrouded Crusader,2309,relic,[tert],relic[tert]258,crit,74,258
+Sha'tek Adept Device MK-19,2408,ear,,,mastery,858,306
+Sha'tek Adept Device MK-19,2408,ear,,,endurance,1007,306
+Sha'tek Adept Device MK-19,2408,ear,,,power,652,306
+Sha'tek Adept Device MK-19,2408,ear,,,crit,431,306
+Sha'tek Adept Package MK-19,2409,implant,,,mastery,858,306
+Sha'tek Adept Package MK-19,2409,implant,,,endurance,1007,306
+Sha'tek Adept Package MK-19,2409,implant,,,power,652,306
+Sha'tek Adept Package MK-19,2409,implant,,,crit,431,306
+Sha'tek Bastion Device MK-19,2410,ear,,,mastery,818,306
+Sha'tek Bastion Device MK-19,2410,ear,,,endurance,1049,306
+Sha'tek Bastion Device MK-19,2410,ear,,,shield,431,306
+Sha'tek Bastion Device MK-19,2410,ear,,,defense,652,306
+Sha'tek Bastion Package MK-19,2411,implant,,,mastery,818,306
+Sha'tek Bastion Package MK-19,2411,implant,,,endurance,1049,306
+Sha'tek Bastion Package MK-19,2411,implant,,,shield,431,306
+Sha'tek Bastion Package MK-19,2411,implant,,,defense,652,306
+Sha'tek Bulwark Device MK-19,2412,ear,,,mastery,818,306
+Sha'tek Bulwark Device MK-19,2412,ear,,,endurance,1049,306
+Sha'tek Bulwark Device MK-19,2412,ear,,,absorption,431,306
+Sha'tek Bulwark Device MK-19,2412,ear,,,defense,652,306
+Sha'tek Bulwark Package MK-19,2413,implant,,,mastery,818,306
+Sha'tek Bulwark Package MK-19,2413,implant,,,endurance,1049,306
+Sha'tek Bulwark Package MK-19,2413,implant,,,absorption,431,306
+Sha'tek Bulwark Package MK-19,2413,implant,,,defense,652,306
+Sha'tek Initiative Device MK-19,2414,ear,,,mastery,858,306
+Sha'tek Initiative Device MK-19,2414,ear,,,endurance,1007,306
+Sha'tek Initiative Device MK-19,2414,ear,,,accuracy,431,306
+Sha'tek Initiative Device MK-19,2414,ear,,,power,652,306
+Sha'tek Initiative Package MK-19,2415,implant,,,mastery,858,306
+Sha'tek Initiative Package MK-19,2415,implant,,,endurance,1007,306
+Sha'tek Initiative Package MK-19,2415,implant,,,accuracy,431,306
+Sha'tek Initiative Package MK-19,2415,implant,,,power,652,306
+Sha'tek Quick Savant Device MK-19,2416,ear,,,mastery,858,306
+Sha'tek Quick Savant Device MK-19,2416,ear,,,endurance,1007,306
+Sha'tek Quick Savant Device MK-19,2416,ear,,,power,652,306
+Sha'tek Quick Savant Device MK-19,2416,ear,,,alacrity,431,306
+Sha'tek Quick Savant Package MK-19,2417,implant,,,mastery,858,306
+Sha'tek Quick Savant Package MK-19,2417,implant,,,endurance,1007,306
+Sha'tek Quick Savant Package MK-19,2417,implant,,,power,652,306
+Sha'tek Quick Savant Package MK-19,2417,implant,,,alacrity,431,306
+Sha'tek Relic of Avoidance,2418,relic,,,mastery,526,306
+Sha'tek Relic of Avoidance,2418,relic,,,absorption,723,306
+Sha'tek Relic of Avoidance,2418,relic,,,defense,184,306
+Sha'tek Relic of Boundless Ages MK-19,2419,relic,,,endurance,471,306
+Sha'tek Relic of Boundless Ages MK-19,2419,relic,,,power,221,306
+Sha'tek Relic of Boundless Ages MK-19,2419,relic,,,crit,140,306
+Sha'tek Relic of Devastating Vengeance MK-19,2420,relic,,,endurance,471,306
+Sha'tek Relic of Devastating Vengeance MK-19,2420,relic,,,power,221,306
+Sha'tek Relic of Devastating Vengeance MK-19,2420,relic,,,crit,140,306
+Sha'tek Relic of Ephemeral Mending MK-19,2421,relic,,,endurace,471,306
+Sha'tek Relic of Ephemeral Mending MK-19,2421,relic,,,power,221,306
+Sha'tek Relic of Ephemeral Mending MK-19,2421,relic,,,crit,140,306
+Sha'tek Relic of Focused Retribution MK-19,2422,relic,,,endurace,471,306
+Sha'tek Relic of Focused Retribution MK-19,2422,relic,,,power,221,306
+Sha'tek Relic of Focused Retribution MK-19,2422,relic,,,crit,140,306
+Sha'tek Relic of Imperiling Serenity MK-19,2423,relic,,,mastery,471,306
+Sha'tek Relic of Imperiling Serenity MK-19,2423,relic,,,shield,140,306
+Sha'tek Relic of Imperiling Serenity MK-19,2423,relic,,,defense,221,306
+Sha'tek Relic of Reactive Warding MK-19,2424,relic,,,mastery,471,306
+Sha'tek Relic of Reactive Warding MK-19,2424,relic,,,shield,140,306
+Sha'tek Relic of Reactive Warding MK-19,2424,relic,,,defense,221,306
+Sha'tek Relic of Serendipitous Assault MK-19,2425,relic,,,endurance,471,306
+Sha'tek Relic of Serendipitous Assault MK-19,2425,relic,,,power,221,306
+Sha'tek Relic of Serendipitous Assault MK-19,2425,relic,,,crit,140,306
+Sha'tek Relic of the Primeval Fatesealer MK-19,2426,relic,,,endurance,471,306
+Sha'tek Relic of the Primeval Fatesealer MK-19,2426,relic,,,power,221,306
+Sha'tek Relic of the Primeval Fatesealer MK-19,2426,relic,,,crit,140,306
+Sha'tek Relic of the Shield Matrix MK-19,2427,relic,,,mastery,526,306
+Sha'tek Relic of the Shield Matrix MK-19,2427,relic,,,shield,723,306
+Sha'tek Relic of the Shield Matrix MK-19,2427,relic,,,defense,184,306
+Sha'tek Relic of the Shrouded Crusader MK-19,2428,relic,,,mastery,471,306
+Sha'tek Relic of the Shrouded Crusader MK-19,2428,relic,,,shield,140,306
+Sha'tek Relic of the Shrouded Crusader MK-19,2428,relic,,,defense,221,306
+Advanced Absorb Augment 74,2429,,,,endurance,144,286
+Advanced Absorb Augment 74,2429,,,,power,144,286
+Advanced Absorb Augment 74,2429,,,,absorption,108,286
+Advanced Accuracy Augment 74,2430,,,,endurance,144,286
+Advanced Accuracy Augment 74,2430,,,,power,144,286
+Advanced Accuracy Augment 74,2430,,,,accuracy,108,286
+Advanced Alacrity Augment 74,2431,,,,endurance,144,286
+Advanced Alacrity Augment 74,2431,,,,power,144,286
+Advanced Alacrity Augment 74,2431,,,,alacrity,108,286
+Advanced Critical Augment 74,2432,,,,endurance,144,286
+Advanced Critical Augment 74,2432,,,,power,144,286
+Advanced Critical Augment 74,2432,,,,crit,108,286
+Advanced Redoubt Augment 74,2433,,,,endurance,144,286
+Advanced Redoubt Augment 74,2433,,,,power,144,286
+Advanced Redoubt Augment 74,2433,,,,defense,108,286
+Advanced Shield Augment 74,2434,,,,endurance,144,286
+Advanced Shield Augment 74,2434,,,,power,144,286
+Advanced Shield Augment 74,2434,,,,shield,108,286
+Advanced Versatile Augment 74,2435,,,,endurance,144,286
+Advanced Versatile Augment 74,2435,,,,power,144,286
+Advanced Versatile Augment 74,2435,,,,mastery,108,286
+Absorb Augment 73,2437,,,,endurance,126,276
+Absorb Augment 73,2437,,,,power,126,276
+Absorb Augment 73,2437,,,,absorption,95,276
+Accuracy Augment 73,2438,,,,endurance,126,276
+Accuracy Augment 73,2438,,,,power,126,276
+Accuracy Augment 73,2438,,,,accuracy,95,276
+Alacrity Augment 73,2436,,,,endurance,126,276
+Alacrity Augment 73,2436,,,,power,126,276
+Alacrity Augment 73,2436,,,,alacrity,95,276
+Critical Augment 73,2439,,,,endurance,126,276
+Critical Augment 73,2439,,,,power,126,276
+Critical Augment 73,2439,,,,crit,95,276
+Redoubt Augment 73,2440,,,,endurance,126,276
+Redoubt Augment 73,2440,,,,power,126,276
+Redoubt Augment 73,2440,,,,defense,95,276
+Shield Augment 73,2441,,,,endurance,126,276
+Shield Augment 73,2441,,,,power,126,276
+Shield Augment 73,2441,,,,shield,95,276
+Versatile Augment 73,2442,,,,endurance,126,276
+Versatile Augment 73,2442,,,,power,126,276
+Versatile Augment 73,2442,,,,mastery,95,276
