@@ -541,13 +541,24 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcHealth = function()
     {
-        //Health formula: (Base Health+[Endurance×12×(1+x)])×(1+y)
+        //Health formula for 5.x: (Base Health+[Endurance×12×(1+x)])×(1+y)
+        //Health formula for 6.0: (Base Health+[Endurance×14×(1+x)])×(1+y)
         //x is the sum of any multiplicative increases to Endurance (e.g. Hunter's Boon buff or assassin training)
         //y is the sum of any multiplicative increases to Health (e.g. ranged tank companion bonus)
         //TODO:does this mean that endurance multipliers affect HP twice?
 
-        //let baseHealth = 23750; //base HP from being lvl 70 //TODO:adjust for lvl 75?
-        let baseHealth = 52295; //base HP from being lvl 75 //TODO:this is giving wrong values
+        let baseHealth;
+        let endCoefficient;
+        if(Settings.getMaxLevel() === 70)
+        {
+            baseHealth = 23750; //base HP from being lvl 70
+            endCoefficient = 12;
+        }
+        else
+        {
+            baseHealth = 52295; //base HP from being lvl 75
+            endCoefficient = 14;
+        }
         let endurance = StatManager.getStat('endurance');
         let multEndurance = StatManager.getMultiplierForStat('endurance');
         let multHp = 1;
@@ -555,7 +566,7 @@ let StatController = (function()
         {
             multHp += 0.01;
         }
-        let hp = (baseHealth + (endurance*12*multEndurance)) * multHp;
+        let hp = (baseHealth + (endurance*endCoefficient*multEndurance)) * multHp;
         this.calcElHealth.innerHTML = Math.round(hp);
     };
     StatController.prototype.updateCalcArmor = function()
