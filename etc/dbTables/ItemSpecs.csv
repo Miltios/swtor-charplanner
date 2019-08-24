@@ -4610,68 +4610,68 @@ T6 Healer's Chestpiece,,,,2377,allHealer
 T6 Healer's Gauntlets,,,,2378,allHealer
 T6 Healer's Greaves,,,,2379,allHealer
 T6 Healer's Headgear,,,,2380,allHealer
-T6 Tank's Saber,,,,2381,juggTank
-T6 Tank's Saberstaff,,,,2382,sinTank
-T6 Tank's Blaster Pistol,,,,2383,ptTank
-T6 Tank's Blaster Rifle,,,,2384,vanTank
-T6 Tank's Shield (force),,,,2385,sinTank
-T6 Tank's Shield (force),,,,2385,juggTank
-T6 Tank's Shield (tech),,,,2386,ptTank
-T6 Tank's Shield (tech),,,,2386,vanTank
-T6 DPS's Saber,,,,2387,juggBurst
-T6 DPS's Saber,,,,2387,juggSust
-T6 DPS's Saber,,,,2387,maraBurst
-T6 DPS's Saber,,,,2387,maraSust
-T6 DPS's Saber,,,,2387,maraHybrid
-T6 DPS's Saber,,,,2387,sorcBurst
-T6 DPS's Saber,,,,2387,sorcSust
-T6 DPS's Saberstaff,,,,2388,sinBurst
-T6 DPS's Saberstaff,,,,2388,sinSust
-T6 DPS's Blaster Pistol,,,,2389,ptBurst
-T6 DPS's Blaster Pistol,,,,2389,ptSust
-T6 DPS's Blaster Pistol,,,,2389,mercBurst
-T6 DPS's Blaster Pistol,,,,2389,mercSust
-T6 DPS's Blaster Pistol,,,,2389,slingerBurst
-T6 DPS's Blaster Pistol,,,,2389,slingerSust
-T6 DPS's Blaster Pistol,,,,2389,slingerHybrid
-T6 DPS's Blaster Pistol,,,,2389,scoundrelBurst
-T6 DPS's Blaster Pistol,,,,2389,scoundrelSust
-T6 DPS's Blaster Rifle,,,,2390,opBurst
-T6 DPS's Blaster Rifle,,,,2390,opSust
-T6 DPS's Blaster Rifle,,,,2390,vanBurst
-T6 DPS's Blaster Rifle,,,,2390,vanSust
-T6 DPS's Sniper Rifle,,,,2391,sniperBurst
-T6 DPS's Sniper Rifle,,,,2391,sniperSust
-T6 DPS's Sniper Rifle,,,,2391,sniperHybrid
-T6 DPS's Assault Cannon,,,,2392,mandoBurst
-T6 DPS's Assault Cannon,,,,2392,mandoSust
-T6 DPS's Focus,,,,2393,juggBurst
-T6 DPS's Focus,,,,2393,juggSust
-T6 DPS's Focus,,,,2393,sinBurst
-T6 DPS's Focus,,,,2393,sinSust
-T6 DPS's Focus,,,,2393,sorcBurst
-T6 DPS's Focus,,,,2393,sorcSust
-T6 DPS's Generator,,,,2394,ptBurst
-T6 DPS's Generator,,,,2394,ptSust
-T6 DPS's Generator,,,,2394,mandoBurst
-T6 DPS's Generator,,,,2394,mandoSust
-T6 DPS's Generator,,,,2394,vanBurst
-T6 DPS's Generator,,,,2394,vanSust
-T6 DPS's Vibroknife,,,,2395,opBurst
-T6 DPS's Vibroknife,,,,2395,opSust
-T6 DPS's Vibroknife,,,,2395,sniperBurst
-T6 DPS's Vibroknife,,,,2395,sniperSust
-T6 DPS's Vibroknife,,,,2395,sniperHybrid
-T6 DPS's Shotgun,,,,2396,scoundrelBurst
-T6 DPS's Shotgun,,,,2396,scoundrelSust
-T6 DPS's Offhand Saber,,,,2397,maraBurst
-T6 DPS's Offhand Saber,,,,2397,maraSust
-T6 DPS's Offhand Saber,,,,2397,maraHybrid
-T6 DPS's Offhand Blaster,,,,2398,mercBurst
-T6 DPS's Offhand Blaster,,,,2398,mercSust
-T6 DPS's Offhand Blaster,,,,2398,slingerBurst
-T6 DPS's Offhand Blaster,,,,2398,slingerSust
-T6 DPS's Offhand Blaster,,,,2398,slingerHybrid
+Sha'tek War Leader's Lightsaber,,,,2381,juggTank
+Sha'tek Survivor's Saberstaff,,,,2382,sinTank
+Sha'tek Supercommando's Blaster Pistol,,,,2383,ptTank
+Sha'tek Supercommando's Blaster Rifle,,,,2384,vanTank
+Sha'tek War Leader's Shield,,,,2385,sinTank
+Sha'tek War Leader's Shield,,,,2385,juggTank
+Sha'tek Supercommando's Shield,,,,2386,ptTank
+Sha'tek Supercommando's Shield,,,,2386,vanTank
+Sha'tek Force-Master's Lightsaber,,,,2387,juggBurst
+Sha'tek Force-Master's Lightsaber,,,,2387,juggSust
+Sha'tek Force-Master's Lightsaber,,,,2387,maraBurst
+Sha'tek Force-Master's Lightsaber,,,,2387,maraSust
+Sha'tek Force-Master's Lightsaber,,,,2387,maraHybrid
+Sha'tek Force-Master's Lightsaber,,,,2387,sorcBurst
+Sha'tek Force-Master's Lightsaber,,,,2387,sorcSust
+Sha'tek Stalker's Saberstaff,,,,2388,sinBurst
+Sha'tek Stalker's Saberstaff,,,,2388,sinSust
+Sha'tek Eliminator's Blaster Pistol,,,,2389,ptBurst
+Sha'tek Eliminator's Blaster Pistol,,,,2389,ptSust
+Sha'tek Eliminator's Blaster Pistol,,,,2389,mercBurst
+Sha'tek Eliminator's Blaster Pistol,,,,2389,mercSust
+Sha'tek Eliminator's Blaster Pistol,,,,2389,slingerBurst
+Sha'tek Eliminator's Blaster Pistol,,,,2389,slingerSust
+Sha'tek Eliminator's Blaster Pistol,,,,2389,slingerHybrid
+Sha'tek Eliminator's Blaster Pistol,,,,2389,scoundrelBurst
+Sha'tek Eliminator's Blaster Pistol,,,,2389,scoundrelSust
+Sha'tek Eliminator's Blaster Rifle,,,,2390,opBurst
+Sha'tek Eliminator's Blaster Rifle,,,,2390,opSust
+Sha'tek Eliminator's Blaster Rifle,,,,2390,vanBurst
+Sha'tek Eliminator's Blaster Rifle,,,,2390,vanSust
+Sha'tek Field Tech's Sniper Rifle,,,,2391,sniperBurst
+Sha'tek Field Tech's Sniper Rifle,,,,2391,sniperSust
+Sha'tek Field Tech's Sniper Rifle,,,,2391,sniperHybrid
+Sha'tek Eliminator's Assault Cannon,,,,2392,mandoBurst
+Sha'tek Eliminator's Assault Cannon,,,,2392,mandoSust
+Sha'tek Force-Master's Focus,,,,2393,juggBurst
+Sha'tek Force-Master's Focus,,,,2393,juggSust
+Sha'tek Force-Master's Focus,,,,2393,sinBurst
+Sha'tek Force-Master's Focus,,,,2393,sinSust
+Sha'tek Force-Master's Focus,,,,2393,sorcBurst
+Sha'tek Force-Master's Focus,,,,2393,sorcSust
+Sha'tek Eliminator's Generator,,,,2394,ptBurst
+Sha'tek Eliminator's Generator,,,,2394,ptSust
+Sha'tek Eliminator's Generator,,,,2394,mandoBurst
+Sha'tek Eliminator's Generator,,,,2394,mandoSust
+Sha'tek Eliminator's Generator,,,,2394,vanBurst
+Sha'tek Eliminator's Generator,,,,2394,vanSust
+Sha'tek Field Tech's Vibroknife,,,,2395,opBurst
+Sha'tek Field Tech's Vibroknife,,,,2395,opSust
+Sha'tek Field Tech's Vibroknife,,,,2395,sniperBurst
+Sha'tek Field Tech's Vibroknife,,,,2395,sniperSust
+Sha'tek Field Tech's Vibroknife,,,,2395,sniperHybrid
+Sha'tek Field Tech's Shotgun,,,,2396,scoundrelBurst
+Sha'tek Field Tech's Shotgun,,,,2396,scoundrelSust
+Sha'tek Weaponmaster's Offhand Saber,,,,2397,maraBurst
+Sha'tek Weaponmaster's Offhand Saber,,,,2397,maraSust
+Sha'tek Weaponmaster's Offhand Saber,,,,2397,maraHybrid
+Sha'tek Eliminator's Offhand Blaster,,,,2398,mercBurst
+Sha'tek Eliminator's Offhand Blaster,,,,2398,mercSust
+Sha'tek Eliminator's Offhand Blaster,,,,2398,slingerBurst
+Sha'tek Eliminator's Offhand Blaster,,,,2398,slingerSust
+Sha'tek Eliminator's Offhand Blaster,,,,2398,slingerHybrid
 T6 Healer's Saber,,,,2399,sorcHealer
 T6 Healer's Blaster Pistol,,,,2400,mercHealer
 T6 Healer's Blaster Pistol,,,,2400,scoundrelHealer
@@ -4682,34 +4682,783 @@ T6 Healer's Generator,,,,2404,mandoHealer
 T6 Healer's Vibroknife,,,,2405,opHealer
 T6 Healer's Shotgun,,,,2406,scoundrelHealer
 T6 Healer's Offhand Blaster,,,,2407,mercHealer
-Sha'tek Adept Device MK-19,,,,,allHealer
-Sha'tek Bastion Device MK-19,,,,,allTank
-Sha'tek Bulwark Device MK-19,,,,,allTank
-Sha'tek Initiative Device MK-19,,,,,allDps
-Sha'tek Quick Savant Device MK-19,,,,,allHealer
-Sha'tek Adept Device MK-19,,,,,alllDps
-Sha'tek Quick Savant Device MK-19,,,,,allDps
-Sha'tek Adept Package MK-19,,,,,allHealer
-Sha'tek Bastion Package MK-19,,,,,allTank
-Sha'tek Bulwark Package MK-19,,,,,allTank
-Sha'tek Initiative Package MK-19,,,,,allDps
-Sha'tek Quick Savant Package MK-19,,,,,allHealer
-Sha'tek Adept Package MK-19,,,,,alllDps
-Sha'tek Quick Savant Package MK-19,,,,,allDps
-Sha'tek Relic of Avoidance,,,,,allTank
-Sha'tek Relic of Boundless Ages MK-19,,,,,allHealer
-Sha'tek Relic of Devastating Vengeance MK-19,,,,,allHealer
-Sha'tek Relic of Ephemeral Mending MK-19,,,,,allHealer
-Sha'tek Relic of Focused Retribution MK-19,,,,,allHealer
-Sha'tek Relic of Imperiling Serenity MK-19,,,,,allHealer
-Sha'tek Relic of Reactive Warding MK-19,,,,,allTank
-Sha'tek Relic of Serendipitous Assault MK-19,,,,,allHealer
-Sha'tek Relic of the Primeval Fatesealer MK-19,,,,,allHealer
-Sha'tek Relic of the Shield Matrix MK-19,,,,,allTank
-Sha'tek Relic of the Shrouded Crusader MK-19,,,,,allTank
-Sha'tek Relic of Boundless Ages MK-19,,,,,allDps
-Sha'tek Relic of Devastating Vengeance MK-19,,,,,allDps
-Sha'tek Relic of Focused Retribution MK-19,,,,,allDps
-Sha'tek Relic of Imperiling Serenity MK-19,,,,,allDps
-Sha'tek Relic of Serendipitous Assault MK-19,,,,,allDps
-Sha'tek Relic of the Primeval Fatesealer MK-19,,,,,allDps
+Sha'tek Adept Device MK-19,,,,2408,allHealer
+Sha'tek Bastion Device MK-19,,,,2410,allTank
+Sha'tek Bulwark Device MK-19,,,,2412,allTank
+Sha'tek Initiative Device MK-19,,,,2414,allDps
+Sha'tek Quick Savant Device MK-19,,,,2416,allHealer
+Sha'tek Adept Device MK-19,,,,2408,alllDps
+Sha'tek Quick Savant Device MK-19,,,,2416,allDps
+Sha'tek Adept Package MK-19,,,,2409,allHealer
+Sha'tek Bastion Package MK-19,,,,2411,allTank
+Sha'tek Bulwark Package MK-19,,,,2413,allTank
+Sha'tek Initiative Package MK-19,,,,2415,allDps
+Sha'tek Quick Savant Package MK-19,,,,2417,allHealer
+Sha'tek Adept Package MK-19,,,,2409,alllDps
+Sha'tek Quick Savant Package MK-19,,,,2417,allDps
+Sha'tek Relic of Avoidance,,,,2418,allTank
+Sha'tek Relic of Boundless Ages MK-19,,,,2419,allHealer
+Sha'tek Relic of Devastating Vengeance MK-19,,,,2420,allHealer
+Sha'tek Relic of Ephemeral Mending MK-19,,,,2421,allHealer
+Sha'tek Relic of Focused Retribution MK-19,,,,2422,allHealer
+Sha'tek Relic of Imperiling Serenity MK-19,,,,2423,allHealer
+Sha'tek Relic of Reactive Warding MK-19,,,,2424,allTank
+Sha'tek Relic of Serendipitous Assault MK-19,,,,2425,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-19,,,,2426,allHealer
+Sha'tek Relic of the Shield Matrix MK-19,,,,2427,allTank
+Sha'tek Relic of the Shrouded Crusader MK-19,,,,2428,allTank
+Sha'tek Relic of Boundless Ages MK-19,,,,2419,allDps
+Sha'tek Relic of Devastating Vengeance MK-19,,,,2420,allDps
+Sha'tek Relic of Focused Retribution MK-19,,,,2422,allDps
+Sha'tek Relic of Imperiling Serenity MK-19,,,,2423,allDps
+Sha'tek Relic of Serendipitous Assault MK-19,,,,2425,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-19,,,,2426,allDps
+Descent of the Fearless Armguards,dps,,,2443,allDps
+Force Bound Armguards,dps,,,2444,allDps
+Nimble Master Armguards,dps,,,2445,allDps
+Perfect Form Armguards,dps,,,2446,allDps
+Culling Blade Armguards,dps,,,2447,allDps
+Dashing Blademaster Armguards,dps,,,2448,allDps
+The Undying Armguards,dps,,,2449,allDps
+Tormented Armguards,dps,,,2450,allDps
+Flawless Riposte Armguards,tank,,,2451,allTank
+Lord of Pain Armguards,tank,,,2452,allTank
+Controller Armguards,all,,,2453,allTank
+Decelerator Armguards,all,,,2454,allTank
+Dire Retaliation Armguards,all,,,2455,allTank
+Soulbender's Armguards,all,,,2456,allTank
+Empowered Restorer's Armguards,healer,,,2457,allHealer
+Endless Offensive Armguards,dps,,,2458,allDps
+Gathering Storm Armguards,dps,,,2459,allDps
+Revitalized Mystic Armguards,healer,,,2460,allHealer
+Death Knell Armguards,dps,,,2461,allDps
+Efficient Termination Armguards,tank,,,2462,allTank
+Murderous Revelation Armguards,dps,,,2463,allDps
+Rebuking Assault Armguards,tank,,,2464,allTank
+Saber Master's Armguards,dps,,,2465,allDps
+Shadow Purger Armguards,tank,,,2466,allTank
+Game Plan Armguards,all,,,2467,allTank
+Hunter Killer Armguards,all,,,2468,allTank
+Squad Leader's Armguards,all,,,2469,allTank
+Woads Armguards,all,,,2470,allTank
+Apex Predator Armguards,all,,,2471,allTank
+Concentrated Fire Armguards,all,,,2472,allTank
+Notorious Armguards,dps,,,2473,allDps
+Tech Medic Armguards,healer,,,2474,allHealer
+Double Time Armguards,all,,,2475,allTank
+Right Price Armguards,tank,,,2476,allTank
+Stragist's Armguards,all,,,2477,allTank
+Veteran Ranger's Armguards,dps,,,2478,allDps
+Escape Artist's Armguards,healer,,,2479,allHealer
+Probe Tech Armguards,all,,,2480,allTank
+Quick Thinker Armguards,all,,,2481,allTank
+The Slow Road Armguards,dps,,,2482,allDps
+Aggressive Treatment Armguards,healer,,,2483,allHealer
+Authority Armguards,dps,,,2484,allDps
+Debilitator's Armguards,all,,,2485,allTank
+Tactician's Armguards,all,,,2486,allTank
+Established Foothold Armguards,dps,,,2487,allDps
+Outlaw Parlay Armguards,dps,,,2488,allDps
+Precise Targeter's Armguards,dps,,,2489,allDps
+Repositioning Armguards,dps,,,2490,allDps
+Amplified Champion's Armguards,all,,,2491,allTank
+Avenger's Armguards,tank,,,2492,allTank
+Dying Precision Armguards,all,,,2493,allTank
+Final Breath Armguards,tank,,,2494,allTank
+Berserker's Armguards,dps,,,2495,allDps
+Preserver's Armguards,tank,,,2496,allTank
+Rapid Response Armguards,all,,,2497,allTank
+Stationary Grit Armguards,all,,,2498,allTank
+Stimulated Armguards,all,,,2499,allTank
+Taskmaster's Armguards,all,,,2500,allTank
+The Entertainer's Armguards,all,,,2501,allTank
+The Victor's Armguards,tank,,,2502,allTank
+Trishin's Retort Armguards,tank,,,2503,allTank
+Descent of the Fearless Belt,dps,,,2504,allDps
+Force Bound Belt,dps,,,2505,allDps
+Nimble Master Belt,dps,,,2506,allDps
+Perfect Form Belt,dps,,,2507,allDps
+Culling Blade Belt,dps,,,2508,allDps
+Dashing Blademaster Belt,dps,,,2509,allDps
+The Undying Belt,dps,,,2510,allDps
+Tormented Belt,dps,,,2511,allDps
+Flawless Riposte Belt,tank,,,2512,allTank
+Lord of Pain Belt,tank,,,2513,allTank
+Controller Belt,all,,,2514,allTank
+Decelerator Belt,all,,,2515,allTank
+Dire Retaliation Belt,all,,,2516,allTank
+Soulbender's Belt,all,,,2517,allTank
+Empowered Restorer's Belt,healer,,,2518,allHealer
+Endless Offensive Belt,dps,,,2519,allDps
+Gathering Storm Belt,dps,,,2520,allDps
+Revitalized Mystic Belt,healer,,,2521,allHealer
+Death Knell Belt,dps,,,2522,allDps
+Efficient Termination Belt,tank,,,2523,allTank
+Murderous Revelation Belt,dps,,,2524,allDps
+Rebuking Assault Belt,tank,,,2525,allTank
+Saber Master's Belt,dps,,,2526,allDps
+Shadow Purger Belt,tank,,,2527,allTank
+Game Plan Belt,all,,,2528,allTank
+Hunter Killer Belt,all,,,2529,allTank
+Squad Leader's Belt,all,,,2530,allTank
+Woads Belt,all,,,2531,allTank
+Apex Predator Belt,all,,,2532,allTank
+Concentrated Fire Belt,all,,,2533,allTank
+Notorious Belt,dps,,,2534,allDps
+Tech Medic Belt,healer,,,2535,allHealer
+Double Time Belt,all,,,2536,allTank
+Right Price Belt,tank,,,2537,allTank
+Stragist's Belt,all,,,2538,allTank
+Veteran Ranger's Belt,dps,,,2539,allDps
+Escape Artist's Belt,healer,,,2540,allHealer
+Probe Tech Belt,all,,,2541,allTank
+Quick Thinker Belt,all,,,2542,allTank
+The Slow Road Belt,dps,,,2543,allDps
+Aggressive Treatment Belt,healer,,,2544,allHealer
+Authority Belt,dps,,,2545,allDps
+Debilitator's Belt,all,,,2546,allTank
+Tactician's Belt,all,,,2547,allTank
+Established Foothold Belt,dps,,,2548,allDps
+Outlaw Parlay Belt,dps,,,2549,allDps
+Precise Targeter's Belt,dps,,,2550,allDps
+Repositioning Belt,dps,,,2551,allDps
+Amplified Champion's Belt,all,,,2552,allTank
+Avenger's Belt,tank,,,2553,allTank
+Dying Precision Belt,all,,,2554,allTank
+Final Breath Belt,tank,,,2555,allTank
+Berserker's Belt,dps,,,2556,allDps
+Preserver's Belt,tank,,,2557,allTank
+Rapid Response Belt,all,,,2558,allTank
+Stationary Grit Belt,all,,,2559,allTank
+Stimulated Belt,all,,,2560,allTank
+Taskmaster's Belt,all,,,2561,allTank
+The Entertainer's Belt,all,,,2562,allTank
+The Victor's Belt,tank,,,2563,allTank
+Trishin's Retort Belt,tank,,,2564,allTank
+Descent of the Fearless Boots,dps,,,2565,allDps
+Force Bound Boots,dps,,,2566,allDps
+Nimble Master Boots,dps,,,2567,allDps
+Perfect Form Boots,dps,,,2568,allDps
+Culling Blade Boots,dps,,,2569,allDps
+Dashing Blademaster Boots,dps,,,2570,allDps
+The Undying Boots,dps,,,2571,allDps
+Tormented Boots,dps,,,2572,allDps
+Flawless Riposte Boots,tank,,,2573,allTank
+Lord of Pain Boots,tank,,,2574,allTank
+Controller Boots,all,,,2575,allTank
+Decelerator Boots,all,,,2576,allTank
+Dire Retaliation Boots,all,,,2577,allTank
+Soulbender's Boots,all,,,2578,allTank
+Empowered Restorer's Boots,healer,,,2579,allHealer
+Endless Offensive Boots,dps,,,2580,allDps
+Gathering Storm Boots,dps,,,2581,allDps
+Revitalized Mystic Boots,healer,,,2582,allHealer
+Death Knell Boots,dps,,,2583,allDps
+Efficient Termination Boots,tank,,,2584,allTank
+Murderous Revelation Boots,dps,,,2585,allDps
+Rebuking Assault Boots,tank,,,2586,allTank
+Saber Master's Boots,dps,,,2587,allDps
+Shadow Purger Boots,tank,,,2588,allTank
+Game Plan Boots,all,,,2589,allTank
+Hunter Killer Boots,all,,,2590,allTank
+Squad Leader's Boots,all,,,2591,allTank
+Woads Boots,all,,,2592,allTank
+Apex Predator Boots,all,,,2593,allTank
+Concentrated Fire Boots,all,,,2594,allTank
+Notorious Boots,dps,,,2595,allDps
+Tech Medic Boots,healer,,,2596,allHealer
+Double Time Boots,all,,,2597,allTank
+Right Price Boots,tank,,,2598,allTank
+Stragist's Boots,all,,,2599,allTank
+Veteran Ranger's Boots,dps,,,2600,allDps
+Escape Artist's Boots,healer,,,2601,allHealer
+Probe Tech Boots,all,,,2602,allTank
+Quick Thinker Boots,all,,,2603,allTank
+The Slow Road Boots,dps,,,2604,allDps
+Aggressive Treatment Boots,healer,,,2605,allHealer
+Authority Boots,dps,,,2606,allDps
+Debilitator's Boots,all,,,2607,allTank
+Tactician's Boots,all,,,2608,allTank
+Established Foothold Boots,dps,,,2609,allDps
+Outlaw Parlay Boots,dps,,,2610,allDps
+Precise Targeter's Boots,dps,,,2611,allDps
+Repositioning Boots,dps,,,2612,allDps
+Amplified Champion's Boots,all,,,2613,allTank
+Avenger's Boots,tank,,,2614,allTank
+Dying Precision Boots,all,,,2615,allTank
+Final Breath Boots,tank,,,2616,allTank
+Berserker's Boots,dps,,,2617,allDps
+Preserver's Boots,tank,,,2618,allTank
+Rapid Response Boots,all,,,2619,allTank
+Stationary Grit Boots,all,,,2620,allTank
+Stimulated Boots,all,,,2621,allTank
+Taskmaster's Boots,all,,,2622,allTank
+The Entertainer's Boots,all,,,2623,allTank
+The Victor's Boots,tank,,,2624,allTank
+Trishin's Retort Boots,tank,,,2625,allTank
+Descent of the Fearless Chestpiece,dps,,,2626,allDps
+Force Bound Chestpiece,dps,,,2627,allDps
+Nimble Master Chestpiece,dps,,,2628,allDps
+Perfect Form Chestpiece,dps,,,2629,allDps
+Culling Blade Chestpiece,dps,,,2630,allDps
+Dashing Blademaster Chestpiece,dps,,,2631,allDps
+The Undying Chestpiece,dps,,,2632,allDps
+Tormented Chestpiece,dps,,,2633,allDps
+Flawless Riposte Chestpiece,tank,,,2634,allTank
+Lord of Pain Chestpiece,tank,,,2635,allTank
+Controller Chestpiece,all,,,2636,allTank
+Decelerator Chestpiece,all,,,2637,allTank
+Dire Retaliation Chestpiece,all,,,2638,allTank
+Soulbender's Chestpiece,all,,,2639,allTank
+Empowered Restorer's Chestpiece,healer,,,2640,allHealer
+Endless Offensive Chestpiece,dps,,,2641,allDps
+Gathering Storm Chestpiece,dps,,,2642,allDps
+Revitalized Mystic Chestpiece,healer,,,2643,allHealer
+Death Knell Chestpiece,dps,,,2644,allDps
+Efficient Termination Chestpiece,tank,,,2645,allTank
+Murderous Revelation Chestpiece,dps,,,2646,allDps
+Rebuking Assault Chestpiece,tank,,,2647,allTank
+Saber Master's Chestpiece,dps,,,2648,allDps
+Shadow Purger Chestpiece,tank,,,2649,allTank
+Game Plan Chestpiece,all,,,2650,allTank
+Hunter Killer Chestpiece,all,,,2651,allTank
+Squad Leader's Chestpiece,all,,,2652,allTank
+Woads Chestpiece,all,,,2653,allTank
+Apex Predator Chestpiece,all,,,2654,allTank
+Concentrated Fire Chestpiece,all,,,2655,allTank
+Notorious Chestpiece,dps,,,2656,allDps
+Tech Medic Chestpiece,healer,,,2657,allHealer
+Double Time Chestpiece,all,,,2658,allTank
+Right Price Chestpiece,tank,,,2659,allTank
+Stragist's Chestpiece,all,,,2660,allTank
+Veteran Ranger's Chestpiece,dps,,,2661,allDps
+Escape Artist's Chestpiece,healer,,,2662,allHealer
+Probe Tech Chestpiece,all,,,2663,allTank
+Quick Thinker Chestpiece,all,,,2664,allTank
+The Slow Road Chestpiece,dps,,,2665,allDps
+Aggressive Treatment Chestpiece,healer,,,2666,allHealer
+Authority Chestpiece,dps,,,2667,allDps
+Debilitator's Chestpiece,all,,,2668,allTank
+Tactician's Chestpiece,all,,,2669,allTank
+Established Foothold Chestpiece,dps,,,2670,allDps
+Outlaw Parlay Chestpiece,dps,,,2671,allDps
+Precise Targeter's Chestpiece,dps,,,2672,allDps
+Repositioning Chestpiece,dps,,,2673,allDps
+Amplified Champion's Chestpiece,all,,,2674,allTank
+Avenger's Chestpiece,tank,,,2675,allTank
+Dying Precision Chestpiece,all,,,2676,allTank
+Final Breath Chestpiece,tank,,,2677,allTank
+Berserker's Chestpiece,dps,,,2678,allDps
+Preserver's Chestpiece,tank,,,2679,allTank
+Rapid Response Chestpiece,all,,,2680,allTank
+Stationary Grit Chestpiece,all,,,2681,allTank
+Stimulated Chestpiece,all,,,2682,allTank
+Taskmaster's Chestpiece,all,,,2683,allTank
+The Entertainer's Chestpiece,all,,,2684,allTank
+The Victor's Chestpiece,tank,,,2685,allTank
+Trishin's Retort Chestpiece,tank,,,2686,allTank
+Descent of the Fearless Gauntlets,dps,,,2687,allDps
+Force Bound Gauntlets,dps,,,2688,allDps
+Nimble Master Gauntlets,dps,,,2689,allDps
+Perfect Form Gauntlets,dps,,,2690,allDps
+Culling Blade Gauntlets,dps,,,2691,allDps
+Dashing Blademaster Gauntlets,dps,,,2692,allDps
+The Undying Gauntlets,dps,,,2693,allDps
+Tormented Gauntlets,dps,,,2694,allDps
+Flawless Riposte Gauntlets,tank,,,2695,allTank
+Lord of Pain Gauntlets,tank,,,2696,allTank
+Controller Gauntlets,all,,,2697,allTank
+Decelerator Gauntlets,all,,,2698,allTank
+Dire Retaliation Gauntlets,all,,,2699,allTank
+Soulbender's Gauntlets,all,,,2700,allTank
+Empowered Restorer's Gauntlets,healer,,,2701,allHealer
+Endless Offensive Gauntlets,dps,,,2702,allDps
+Gathering Storm Gauntlets,dps,,,2703,allDps
+Revitalized Mystic Gauntlets,healer,,,2704,allHealer
+Death Knell Gauntlets,dps,,,2705,allDps
+Efficient Termination Gauntlets,tank,,,2706,allTank
+Murderous Revelation Gauntlets,dps,,,2707,allDps
+Rebuking Assault Gauntlets,tank,,,2708,allTank
+Saber Master's Gauntlets,dps,,,2709,allDps
+Shadow Purger Gauntlets,tank,,,2710,allTank
+Game Plan Gauntlets,all,,,2711,allTank
+Hunter Killer Gauntlets,all,,,2712,allTank
+Squad Leader's Gauntlets,all,,,2713,allTank
+Woads Gauntlets,all,,,2714,allTank
+Apex Predator Gauntlets,all,,,2715,allTank
+Concentrated Fire Gauntlets,all,,,2716,allTank
+Notorious Gauntlets,dps,,,2717,allDps
+Tech Medic Gauntlets,healer,,,2718,allHealer
+Double Time Gauntlets,all,,,2719,allTank
+Right Price Gauntlets,tank,,,2720,allTank
+Stragist's Gauntlets,all,,,2721,allTank
+Veteran Ranger's Gauntlets,dps,,,2722,allDps
+Escape Artist's Gauntlets,healer,,,2723,allHealer
+Probe Tech Gauntlets,all,,,2724,allTank
+Quick Thinker Gauntlets,all,,,2725,allTank
+The Slow Road Gauntlets,dps,,,2726,allDps
+Aggressive Treatment Gauntlets,healer,,,2727,allHealer
+Authority Gauntlets,dps,,,2728,allDps
+Debilitator's Gauntlets,all,,,2729,allTank
+Tactician's Gauntlets,all,,,2730,allTank
+Established Foothold Gauntlets,dps,,,2731,allDps
+Outlaw Parlay Gauntlets,dps,,,2732,allDps
+Precise Targeter's Gauntlets,dps,,,2733,allDps
+Repositioning Gauntlets,dps,,,2734,allDps
+Amplified Champion's Gauntlets,all,,,2735,allTank
+Avenger's Gauntlets,tank,,,2736,allTank
+Dying Precision Gauntlets,all,,,2737,allTank
+Final Breath Gauntlets,tank,,,2738,allTank
+Berserker's Gauntlets,dps,,,2739,allDps
+Preserver's Gauntlets,tank,,,2740,allTank
+Rapid Response Gauntlets,all,,,2741,allTank
+Stationary Grit Gauntlets,all,,,2742,allTank
+Stimulated Gauntlets,all,,,2743,allTank
+Taskmaster's Gauntlets,all,,,2744,allTank
+The Entertainer's Gauntlets,all,,,2745,allTank
+The Victor's Gauntlets,tank,,,2746,allTank
+Trishin's Retort Gauntlets,tank,,,2747,allTank
+Descent of the Fearless Greaves,dps,,,2748,allDps
+Force Bound Greaves,dps,,,2749,allDps
+Nimble Master Greaves,dps,,,2750,allDps
+Perfect Form Greaves,dps,,,2751,allDps
+Culling Blade Greaves,dps,,,2752,allDps
+Dashing Blademaster Greaves,dps,,,2753,allDps
+The Undying Greaves,dps,,,2754,allDps
+Tormented Greaves,dps,,,2755,allDps
+Flawless Riposte Greaves,tank,,,2756,allTank
+Lord of Pain Greaves,tank,,,2757,allTank
+Controller Greaves,all,,,2758,allTank
+Decelerator Greaves,all,,,2759,allTank
+Dire Retaliation Greaves,all,,,2760,allTank
+Soulbender's Greaves,all,,,2761,allTank
+Empowered Restorer's Greaves,healer,,,2762,allHealer
+Endless Offensive Greaves,dps,,,2763,allDps
+Gathering Storm Greaves,dps,,,2764,allDps
+Revitalized Mystic Greaves,healer,,,2765,allHealer
+Death Knell Greaves,dps,,,2766,allDps
+Efficient Termination Greaves,tank,,,2767,allTank
+Murderous Revelation Greaves,dps,,,2768,allDps
+Rebuking Assault Greaves,tank,,,2769,allTank
+Saber Master's Greaves,dps,,,2770,allDps
+Shadow Purger Greaves,tank,,,2771,allTank
+Game Plan Greaves,all,,,2772,allTank
+Hunter Killer Greaves,all,,,2773,allTank
+Squad Leader's Greaves,all,,,2774,allTank
+Woads Greaves,all,,,2775,allTank
+Apex Predator Greaves,all,,,2776,allTank
+Concentrated Fire Greaves,all,,,2777,allTank
+Notorious Greaves,dps,,,2778,allDps
+Tech Medic Greaves,healer,,,2779,allHealer
+Double Time Greaves,all,,,2780,allTank
+Right Price Greaves,tank,,,2781,allTank
+Stragist's Greaves,all,,,2782,allTank
+Veteran Ranger's Greaves,dps,,,2783,allDps
+Escape Artist's Greaves,healer,,,2784,allHealer
+Probe Tech Greaves,all,,,2785,allTank
+Quick Thinker Greaves,all,,,2786,allTank
+The Slow Road Greaves,dps,,,2787,allDps
+Aggressive Treatment Greaves,healer,,,2788,allHealer
+Authority Greaves,dps,,,2789,allDps
+Debilitator's Greaves,all,,,2790,allTank
+Tactician's Greaves,all,,,2791,allTank
+Established Foothold Greaves,dps,,,2792,allDps
+Outlaw Parlay Greaves,dps,,,2793,allDps
+Precise Targeter's Greaves,dps,,,2794,allDps
+Repositioning Greaves,dps,,,2795,allDps
+Amplified Champion's Greaves,all,,,2796,allTank
+Avenger's Greaves,tank,,,2797,allTank
+Dying Precision Greaves,all,,,2798,allTank
+Final Breath Greaves,tank,,,2799,allTank
+Berserker's Greaves,dps,,,2800,allDps
+Preserver's Greaves,tank,,,2801,allTank
+Rapid Response Greaves,all,,,2802,allTank
+Stationary Grit Greaves,all,,,2803,allTank
+Stimulated Greaves,all,,,2804,allTank
+Taskmaster's Greaves,all,,,2805,allTank
+The Entertainer's Greaves,all,,,2806,allTank
+The Victor's Greaves,tank,,,2807,allTank
+Trishin's Retort Greaves,tank,,,2808,allTank
+Descent of the Fearless Headgear,dps,,,2809,allDps
+Force Bound Headgear,dps,,,2810,allDps
+Nimble Master Headgear,dps,,,2811,allDps
+Perfect Form Headgear,dps,,,2812,allDps
+Culling Blade Headgear,dps,,,2813,allDps
+Dashing Blademaster Headgear,dps,,,2814,allDps
+The Undying Headgear,dps,,,2815,allDps
+Tormented Headgear,dps,,,2816,allDps
+Flawless Riposte Headgear,tank,,,2817,allTank
+Lord of Pain Headgear,tank,,,2818,allTank
+Controller Headgear,all,,,2819,allTank
+Decelerator Headgear,all,,,2820,allTank
+Dire Retaliation Headgear,all,,,2821,allTank
+Soulbender's Headgear,all,,,2822,allTank
+Empowered Restorer's Headgear,healer,,,2823,allHealer
+Endless Offensive Headgear,dps,,,2824,allDps
+Gathering Storm Headgear,dps,,,2825,allDps
+Revitalized Mystic Headgear,healer,,,2826,allHealer
+Death Knell Headgear,dps,,,2827,allDps
+Efficient Termination Headgear,tank,,,2828,allTank
+Murderous Revelation Headgear,dps,,,2829,allDps
+Rebuking Assault Headgear,tank,,,2830,allTank
+Saber Master's Headgear,dps,,,2831,allDps
+Shadow Purger Headgear,tank,,,2832,allTank
+Game Plan Headgear,all,,,2833,allTank
+Hunter Killer Headgear,all,,,2834,allTank
+Squad Leader's Headgear,all,,,2835,allTank
+Woads Headgear,all,,,2836,allTank
+Apex Predator Headgear,all,,,2837,allTank
+Concentrated Fire Headgear,all,,,2838,allTank
+Notorious Headgear,dps,,,2839,allDps
+Tech Medic Headgear,healer,,,2840,allHealer
+Double Time Headgear,all,,,2841,allTank
+Right Price Headgear,tank,,,2842,allTank
+Stragist's Headgear,all,,,2843,allTank
+Veteran Ranger's Headgear,dps,,,2844,allDps
+Escape Artist's Headgear,healer,,,2845,allHealer
+Probe Tech Headgear,all,,,2846,allTank
+Quick Thinker Headgear,all,,,2847,allTank
+The Slow Road Headgear,dps,,,2848,allDps
+Aggressive Treatment Headgear,healer,,,2849,allHealer
+Authority Headgear,dps,,,2850,allDps
+Debilitator's Headgear,all,,,2851,allTank
+Tactician's Headgear,all,,,2852,allTank
+Established Foothold Headgear,dps,,,2853,allDps
+Outlaw Parlay Headgear,dps,,,2854,allDps
+Precise Targeter's Headgear,dps,,,2855,allDps
+Repositioning Headgear,dps,,,2856,allDps
+Amplified Champion's Headgear,all,,,2857,allTank
+Avenger's Headgear,tank,,,2858,allTank
+Dying Precision Headgear,all,,,2859,allTank
+Final Breath Headgear,tank,,,2860,allTank
+Berserker's Headgear,dps,,,2861,allDps
+Preserver's Headgear,tank,,,2862,allTank
+Rapid Response Headgear,all,,,2863,allTank
+Stationary Grit Headgear,all,,,2864,allTank
+Stimulated Headgear,all,,,2865,allTank
+Taskmaster's Headgear,all,,,2866,allTank
+The Entertainer's Headgear,all,,,2867,allTank
+The Victor's Headgear,tank,,,2868,allTank
+Trishin's Retort Headgear,tank,,,2869,allTank
+Controller Armguards,all,,,2453,allDps
+Decelerator Armguards,all,,,2454,allDps
+Dire Retaliation Armguards,all,,,2455,allDps
+Soulbender's Armguards,all,,,2456,allDps
+Game Plan Armguards,all,,,2467,allDps
+Hunter Killer Armguards,all,,,2468,allDps
+Squad Leader's Armguards,all,,,2469,allDps
+Woads Armguards,all,,,2470,allDps
+Apex Predator Armguards,all,,,2471,allDps
+Concentrated Fire Armguards,all,,,2472,allDps
+Double Time Armguards,all,,,2475,allDps
+Stragist's Armguards,all,,,2477,allDps
+Probe Tech Armguards,all,,,2480,allDps
+Quick Thinker Armguards,all,,,2481,allDps
+Debilitator's Armguards,all,,,2485,allDps
+Tactician's Armguards,all,,,2486,allDps
+Amplified Champion's Armguards,all,,,2491,allDps
+Dying Precision Armguards,all,,,2493,allDps
+Rapid Response Armguards,all,,,2497,allDps
+Stationary Grit Armguards,all,,,2498,allDps
+Stimulated Armguards,all,,,2499,allDps
+Taskmaster's Armguards,all,,,2500,allDps
+The Entertainer's Armguards,all,,,2501,allDps
+Controller Belt,all,,,2514,allDps
+Decelerator Belt,all,,,2515,allDps
+Dire Retaliation Belt,all,,,2516,allDps
+Soulbender's Belt,all,,,2517,allDps
+Game Plan Belt,all,,,2528,allDps
+Hunter Killer Belt,all,,,2529,allDps
+Squad Leader's Belt,all,,,2530,allDps
+Woads Belt,all,,,2531,allDps
+Apex Predator Belt,all,,,2532,allDps
+Concentrated Fire Belt,all,,,2533,allDps
+Double Time Belt,all,,,2536,allDps
+Stragist's Belt,all,,,2538,allDps
+Probe Tech Belt,all,,,2541,allDps
+Quick Thinker Belt,all,,,2542,allDps
+Debilitator's Belt,all,,,2546,allDps
+Tactician's Belt,all,,,2547,allDps
+Amplified Champion's Belt,all,,,2552,allDps
+Dying Precision Belt,all,,,2554,allDps
+Rapid Response Belt,all,,,2558,allDps
+Stationary Grit Belt,all,,,2559,allDps
+Stimulated Belt,all,,,2560,allDps
+Taskmaster's Belt,all,,,2561,allDps
+The Entertainer's Belt,all,,,2562,allDps
+Controller Boots,all,,,2575,allDps
+Decelerator Boots,all,,,2576,allDps
+Dire Retaliation Boots,all,,,2577,allDps
+Soulbender's Boots,all,,,2578,allDps
+Game Plan Boots,all,,,2589,allDps
+Hunter Killer Boots,all,,,2590,allDps
+Squad Leader's Boots,all,,,2591,allDps
+Woads Boots,all,,,2592,allDps
+Apex Predator Boots,all,,,2593,allDps
+Concentrated Fire Boots,all,,,2594,allDps
+Double Time Boots,all,,,2597,allDps
+Stragist's Boots,all,,,2599,allDps
+Probe Tech Boots,all,,,2602,allDps
+Quick Thinker Boots,all,,,2603,allDps
+Debilitator's Boots,all,,,2607,allDps
+Tactician's Boots,all,,,2608,allDps
+Amplified Champion's Boots,all,,,2613,allDps
+Dying Precision Boots,all,,,2615,allDps
+Rapid Response Boots,all,,,2619,allDps
+Stationary Grit Boots,all,,,2620,allDps
+Stimulated Boots,all,,,2621,allDps
+Taskmaster's Boots,all,,,2622,allDps
+The Entertainer's Boots,all,,,2623,allDps
+Controller Chestpiece,all,,,2636,allDps
+Decelerator Chestpiece,all,,,2637,allDps
+Dire Retaliation Chestpiece,all,,,2638,allDps
+Soulbender's Chestpiece,all,,,2639,allDps
+Game Plan Chestpiece,all,,,2650,allDps
+Hunter Killer Chestpiece,all,,,2651,allDps
+Squad Leader's Chestpiece,all,,,2652,allDps
+Woads Chestpiece,all,,,2653,allDps
+Apex Predator Chestpiece,all,,,2654,allDps
+Concentrated Fire Chestpiece,all,,,2655,allDps
+Double Time Chestpiece,all,,,2658,allDps
+Stragist's Chestpiece,all,,,2660,allDps
+Probe Tech Chestpiece,all,,,2663,allDps
+Quick Thinker Chestpiece,all,,,2664,allDps
+Debilitator's Chestpiece,all,,,2668,allDps
+Tactician's Chestpiece,all,,,2669,allDps
+Amplified Champion's Chestpiece,all,,,2674,allDps
+Dying Precision Chestpiece,all,,,2676,allDps
+Rapid Response Chestpiece,all,,,2680,allDps
+Stationary Grit Chestpiece,all,,,2681,allDps
+Stimulated Chestpiece,all,,,2682,allDps
+Taskmaster's Chestpiece,all,,,2683,allDps
+The Entertainer's Chestpiece,all,,,2684,allDps
+Controller Gauntlets,all,,,2697,allDps
+Decelerator Gauntlets,all,,,2698,allDps
+Dire Retaliation Gauntlets,all,,,2699,allDps
+Soulbender's Gauntlets,all,,,2700,allDps
+Game Plan Gauntlets,all,,,2711,allDps
+Hunter Killer Gauntlets,all,,,2712,allDps
+Squad Leader's Gauntlets,all,,,2713,allDps
+Woads Gauntlets,all,,,2714,allDps
+Apex Predator Gauntlets,all,,,2715,allDps
+Concentrated Fire Gauntlets,all,,,2716,allDps
+Double Time Gauntlets,all,,,2719,allDps
+Stragist's Gauntlets,all,,,2721,allDps
+Probe Tech Gauntlets,all,,,2724,allDps
+Quick Thinker Gauntlets,all,,,2725,allDps
+Debilitator's Gauntlets,all,,,2729,allDps
+Tactician's Gauntlets,all,,,2730,allDps
+Amplified Champion's Gauntlets,all,,,2735,allDps
+Dying Precision Gauntlets,all,,,2737,allDps
+Rapid Response Gauntlets,all,,,2741,allDps
+Stationary Grit Gauntlets,all,,,2742,allDps
+Stimulated Gauntlets,all,,,2743,allDps
+Taskmaster's Gauntlets,all,,,2744,allDps
+The Entertainer's Gauntlets,all,,,2745,allDps
+Controller Greaves,all,,,2758,allDps
+Decelerator Greaves,all,,,2759,allDps
+Dire Retaliation Greaves,all,,,2760,allDps
+Soulbender's Greaves,all,,,2761,allDps
+Game Plan Greaves,all,,,2772,allDps
+Hunter Killer Greaves,all,,,2773,allDps
+Squad Leader's Greaves,all,,,2774,allDps
+Woads Greaves,all,,,2775,allDps
+Apex Predator Greaves,all,,,2776,allDps
+Concentrated Fire Greaves,all,,,2777,allDps
+Double Time Greaves,all,,,2780,allDps
+Stragist's Greaves,all,,,2782,allDps
+Probe Tech Greaves,all,,,2785,allDps
+Quick Thinker Greaves,all,,,2786,allDps
+Debilitator's Greaves,all,,,2790,allDps
+Tactician's Greaves,all,,,2791,allDps
+Amplified Champion's Greaves,all,,,2796,allDps
+Dying Precision Greaves,all,,,2798,allDps
+Rapid Response Greaves,all,,,2802,allDps
+Stationary Grit Greaves,all,,,2803,allDps
+Stimulated Greaves,all,,,2804,allDps
+Taskmaster's Greaves,all,,,2805,allDps
+The Entertainer's Greaves,all,,,2806,allDps
+Controller Headgear,all,,,2819,allDps
+Decelerator Headgear,all,,,2820,allDps
+Dire Retaliation Headgear,all,,,2821,allDps
+Soulbender's Headgear,all,,,2822,allDps
+Game Plan Headgear,all,,,2833,allDps
+Hunter Killer Headgear,all,,,2834,allDps
+Squad Leader's Headgear,all,,,2835,allDps
+Woads Headgear,all,,,2836,allDps
+Apex Predator Headgear,all,,,2837,allDps
+Concentrated Fire Headgear,all,,,2838,allDps
+Double Time Headgear,all,,,2841,allDps
+Stragist's Headgear,all,,,2843,allDps
+Probe Tech Headgear,all,,,2846,allDps
+Quick Thinker Headgear,all,,,2847,allDps
+Debilitator's Headgear,all,,,2851,allDps
+Tactician's Headgear,all,,,2852,allDps
+Amplified Champion's Headgear,all,,,2857,allDps
+Dying Precision Headgear,all,,,2859,allDps
+Rapid Response Headgear,all,,,2863,allDps
+Stationary Grit Headgear,all,,,2864,allDps
+Stimulated Headgear,all,,,2865,allDps
+Taskmaster's Headgear,all,,,2866,allDps
+The Entertainer's Headgear,all,,,2867,allDps
+Controller Armguards,all,,,2453,allHealer
+Decelerator Armguards,all,,,2454,allHealer
+Dire Retaliation Armguards,all,,,2455,allHealer
+Soulbender's Armguards,all,,,2456,allHealer
+Game Plan Armguards,all,,,2467,allHealer
+Hunter Killer Armguards,all,,,2468,allHealer
+Squad Leader's Armguards,all,,,2469,allHealer
+Woads Armguards,all,,,2470,allHealer
+Apex Predator Armguards,all,,,2471,allHealer
+Concentrated Fire Armguards,all,,,2472,allHealer
+Double Time Armguards,all,,,2475,allHealer
+Stragist's Armguards,all,,,2477,allHealer
+Probe Tech Armguards,all,,,2480,allHealer
+Quick Thinker Armguards,all,,,2481,allHealer
+Debilitator's Armguards,all,,,2485,allHealer
+Tactician's Armguards,all,,,2486,allHealer
+Amplified Champion's Armguards,all,,,2491,allHealer
+Dying Precision Armguards,all,,,2493,allHealer
+Rapid Response Armguards,all,,,2497,allHealer
+Stationary Grit Armguards,all,,,2498,allHealer
+Stimulated Armguards,all,,,2499,allHealer
+Taskmaster's Armguards,all,,,2500,allHealer
+The Entertainer's Armguards,all,,,2501,allHealer
+Controller Belt,all,,,2514,allHealer
+Decelerator Belt,all,,,2515,allHealer
+Dire Retaliation Belt,all,,,2516,allHealer
+Soulbender's Belt,all,,,2517,allHealer
+Game Plan Belt,all,,,2528,allHealer
+Hunter Killer Belt,all,,,2529,allHealer
+Squad Leader's Belt,all,,,2530,allHealer
+Woads Belt,all,,,2531,allHealer
+Apex Predator Belt,all,,,2532,allHealer
+Concentrated Fire Belt,all,,,2533,allHealer
+Double Time Belt,all,,,2536,allHealer
+Stragist's Belt,all,,,2538,allHealer
+Probe Tech Belt,all,,,2541,allHealer
+Quick Thinker Belt,all,,,2542,allHealer
+Debilitator's Belt,all,,,2546,allHealer
+Tactician's Belt,all,,,2547,allHealer
+Amplified Champion's Belt,all,,,2552,allHealer
+Dying Precision Belt,all,,,2554,allHealer
+Rapid Response Belt,all,,,2558,allHealer
+Stationary Grit Belt,all,,,2559,allHealer
+Stimulated Belt,all,,,2560,allHealer
+Taskmaster's Belt,all,,,2561,allHealer
+The Entertainer's Belt,all,,,2562,allHealer
+Controller Boots,all,,,2575,allHealer
+Decelerator Boots,all,,,2576,allHealer
+Dire Retaliation Boots,all,,,2577,allHealer
+Soulbender's Boots,all,,,2578,allHealer
+Game Plan Boots,all,,,2589,allHealer
+Hunter Killer Boots,all,,,2590,allHealer
+Squad Leader's Boots,all,,,2591,allHealer
+Woads Boots,all,,,2592,allHealer
+Apex Predator Boots,all,,,2593,allHealer
+Concentrated Fire Boots,all,,,2594,allHealer
+Double Time Boots,all,,,2597,allHealer
+Stragist's Boots,all,,,2599,allHealer
+Probe Tech Boots,all,,,2602,allHealer
+Quick Thinker Boots,all,,,2603,allHealer
+Debilitator's Boots,all,,,2607,allHealer
+Tactician's Boots,all,,,2608,allHealer
+Amplified Champion's Boots,all,,,2613,allHealer
+Dying Precision Boots,all,,,2615,allHealer
+Rapid Response Boots,all,,,2619,allHealer
+Stationary Grit Boots,all,,,2620,allHealer
+Stimulated Boots,all,,,2621,allHealer
+Taskmaster's Boots,all,,,2622,allHealer
+The Entertainer's Boots,all,,,2623,allHealer
+Controller Chestpiece,all,,,2636,allHealer
+Decelerator Chestpiece,all,,,2637,allHealer
+Dire Retaliation Chestpiece,all,,,2638,allHealer
+Soulbender's Chestpiece,all,,,2639,allHealer
+Game Plan Chestpiece,all,,,2650,allHealer
+Hunter Killer Chestpiece,all,,,2651,allHealer
+Squad Leader's Chestpiece,all,,,2652,allHealer
+Woads Chestpiece,all,,,2653,allHealer
+Apex Predator Chestpiece,all,,,2654,allHealer
+Concentrated Fire Chestpiece,all,,,2655,allHealer
+Double Time Chestpiece,all,,,2658,allHealer
+Stragist's Chestpiece,all,,,2660,allHealer
+Probe Tech Chestpiece,all,,,2663,allHealer
+Quick Thinker Chestpiece,all,,,2664,allHealer
+Debilitator's Chestpiece,all,,,2668,allHealer
+Tactician's Chestpiece,all,,,2669,allHealer
+Amplified Champion's Chestpiece,all,,,2674,allHealer
+Dying Precision Chestpiece,all,,,2676,allHealer
+Rapid Response Chestpiece,all,,,2680,allHealer
+Stationary Grit Chestpiece,all,,,2681,allHealer
+Stimulated Chestpiece,all,,,2682,allHealer
+Taskmaster's Chestpiece,all,,,2683,allHealer
+The Entertainer's Chestpiece,all,,,2684,allHealer
+Controller Gauntlets,all,,,2697,allHealer
+Decelerator Gauntlets,all,,,2698,allHealer
+Dire Retaliation Gauntlets,all,,,2699,allHealer
+Soulbender's Gauntlets,all,,,2700,allHealer
+Game Plan Gauntlets,all,,,2711,allHealer
+Hunter Killer Gauntlets,all,,,2712,allHealer
+Squad Leader's Gauntlets,all,,,2713,allHealer
+Woads Gauntlets,all,,,2714,allHealer
+Apex Predator Gauntlets,all,,,2715,allHealer
+Concentrated Fire Gauntlets,all,,,2716,allHealer
+Double Time Gauntlets,all,,,2719,allHealer
+Stragist's Gauntlets,all,,,2721,allHealer
+Probe Tech Gauntlets,all,,,2724,allHealer
+Quick Thinker Gauntlets,all,,,2725,allHealer
+Debilitator's Gauntlets,all,,,2729,allHealer
+Tactician's Gauntlets,all,,,2730,allHealer
+Amplified Champion's Gauntlets,all,,,2735,allHealer
+Dying Precision Gauntlets,all,,,2737,allHealer
+Rapid Response Gauntlets,all,,,2741,allHealer
+Stationary Grit Gauntlets,all,,,2742,allHealer
+Stimulated Gauntlets,all,,,2743,allHealer
+Taskmaster's Gauntlets,all,,,2744,allHealer
+The Entertainer's Gauntlets,all,,,2745,allHealer
+Controller Greaves,all,,,2758,allHealer
+Decelerator Greaves,all,,,2759,allHealer
+Dire Retaliation Greaves,all,,,2760,allHealer
+Soulbender's Greaves,all,,,2761,allHealer
+Game Plan Greaves,all,,,2772,allHealer
+Hunter Killer Greaves,all,,,2773,allHealer
+Squad Leader's Greaves,all,,,2774,allHealer
+Woads Greaves,all,,,2775,allHealer
+Apex Predator Greaves,all,,,2776,allHealer
+Concentrated Fire Greaves,all,,,2777,allHealer
+Double Time Greaves,all,,,2780,allHealer
+Stragist's Greaves,all,,,2782,allHealer
+Probe Tech Greaves,all,,,2785,allHealer
+Quick Thinker Greaves,all,,,2786,allHealer
+Debilitator's Greaves,all,,,2790,allHealer
+Tactician's Greaves,all,,,2791,allHealer
+Amplified Champion's Greaves,all,,,2796,allHealer
+Dying Precision Greaves,all,,,2798,allHealer
+Rapid Response Greaves,all,,,2802,allHealer
+Stationary Grit Greaves,all,,,2803,allHealer
+Stimulated Greaves,all,,,2804,allHealer
+Taskmaster's Greaves,all,,,2805,allHealer
+The Entertainer's Greaves,all,,,2806,allHealer
+Controller Headgear,all,,,2819,allHealer
+Decelerator Headgear,all,,,2820,allHealer
+Dire Retaliation Headgear,all,,,2821,allHealer
+Soulbender's Headgear,all,,,2822,allHealer
+Game Plan Headgear,all,,,2833,allHealer
+Hunter Killer Headgear,all,,,2834,allHealer
+Squad Leader's Headgear,all,,,2835,allHealer
+Woads Headgear,all,,,2836,allHealer
+Apex Predator Headgear,all,,,2837,allHealer
+Concentrated Fire Headgear,all,,,2838,allHealer
+Double Time Headgear,all,,,2841,allHealer
+Stragist's Headgear,all,,,2843,allHealer
+Probe Tech Headgear,all,,,2846,allHealer
+Quick Thinker Headgear,all,,,2847,allHealer
+Debilitator's Headgear,all,,,2851,allHealer
+Tactician's Headgear,all,,,2852,allHealer
+Amplified Champion's Headgear,all,,,2857,allHealer
+Dying Precision Headgear,all,,,2859,allHealer
+Rapid Response Headgear,all,,,2863,allHealer
+Stationary Grit Headgear,all,,,2864,allHealer
+Stimulated Headgear,all,,,2865,allHealer
+Taskmaster's Headgear,all,,,2866,allHealer
+The Entertainer's Headgear,all,,,2867,allHealer

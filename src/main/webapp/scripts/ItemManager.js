@@ -19,11 +19,21 @@ let ItemManager = (function()
         for(let i=0; i<data.length; i++)
         {
             let item = new Item(data[i]);
-            this.items.push(item);
-            let id = parseInt(item.id);
-            if(id > this.lastItemId)
+            let add = [item];
+
+            //spawn clones of each color for this item
+            if(item.color === 'all')
             {
-                this.lastItemId = id;
+                add = this.getColorClones(item);
+            }
+            for(let j=0; j<add.length; j++)
+            {
+                this.items.push(add[j]);
+                let id = parseInt(add[j].id);
+                if(id > this.lastItemId)
+                {
+                    this.lastItemId = id;
+                }
             }
         }
     };
@@ -34,13 +44,13 @@ let ItemManager = (function()
             let mod = new ItemMod(data[i]);
             this.itemMods.push(mod);
         }
-    }
+    };
     ItemManager.prototype.filterListForSlot = function(slotName, list)
     {
         let items = list.slice(); //shallow copy
         items = items.filter(i => (i.slot === slotName));
         return items;
-    }
+    };
     ItemManager.prototype.filterListForSpecAndSlot = function(spec, slotName, list)
     {
         let items = list.slice(); //shallow copy
@@ -142,15 +152,15 @@ let ItemManager = (function()
     ItemManager.prototype.getItemsForSlot = function(slotName)
     {
         return this.filterListForSlot(slotName, this.items);
-    }
+    };
     ItemManager.prototype.getItemsForSpecAndSlot = function(spec, slotName)
     {
         return this.filterListForSpecAndSlot(spec, slotName, this.items);
-    }
+    };
     ItemManager.prototype.getItemsForClassAndSlot = function(className, slotName)
     {
         return this.filterListForClassAndSlot(className, slotName, this.items);
-    }
+    };
     ItemManager.prototype.getModsForSlot = function(slotName)
     {
         if(slotName === 'dynamic')
@@ -162,7 +172,7 @@ let ItemManager = (function()
             }
         }
         return this.filterListForSlot(slotName, this.itemMods);
-    }
+    };
     ItemManager.prototype.getModsForSpecAndSlot = function(spec, slotName)
     {
         if(slotName === 'dynamic')
@@ -199,7 +209,7 @@ let ItemManager = (function()
             }
         }
         return null;
-    }
+    };
     ItemManager.prototype.addItem = function(data)
     {
         //not actually used yet
@@ -228,7 +238,7 @@ let ItemManager = (function()
             }
         }
         return null;
-    }
+    };
     ItemManager.prototype.getItemModById = function(id)
     {
         //we need strongly typed values here, so we coerce id to string and parse intId from there
@@ -246,19 +256,15 @@ let ItemManager = (function()
             }
         }
         return null;
-    }
+    };
     ItemManager.prototype.getItemsModsForSlot = function(slotName)
     {
         let mods = this.itemMods.slice(); //shallow copy
         mods = mods.filter(i => (i.slot === slotName));
         return mods;
-    }
-    ItemManager.prototype.getCustomClone = function(item)
+    };
+    ItemManager.prototype.getClone = function(item)
     {
-        if(item.isCustom)
-        {
-            return item;
-        }
         let clone = new Item();
         clone.id = this.getNewId();
         clone.name = item.name;
@@ -278,16 +284,39 @@ let ItemManager = (function()
         clone.description = item.description;
         clone.image = item.image;
         clone.type = item.type;
-        clone.isCustom = true;
+        clone.isCustom = item.isCustom;
         clone.itemMods = item.itemMods.slice();
-
         return clone;
     }
+    ItemManager.prototype.getCustomClone = function(item)
+    {
+        if(item.isCustom)
+        {
+            return item;
+        }
+        let clone = this.getClone(item);
+        clone.isCustom = true;
+        return clone;
+    };
+    ItemManager.prototype.getColorClones = function(item)
+    {
+        //TODO: needs to adjust item rating and contents as well
+        //return an array of item clones, one for each color
+        let clones = [];
+        let colors = ['green', 'blue', 'purple', 'gold'];
+        for(let i=0; i<colors.length; i++)
+        {
+            let clone = this.getClone(item);
+            clone.color = colors[i];
+            clones.push(clone);
+        }
+        return clones;
+    };
     ItemManager.prototype.getNewId = function()
     {
         this.lastItemId++;
         return this.lastItemId + ''; //coerce to string
-    }
+    };
     return new ItemManager();
 })();
 declareReady('ItemManager.js', function(){ItemManager.init()});

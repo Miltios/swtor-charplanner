@@ -20,9 +20,9 @@ public class Item
     private String image;
     private String type;
 
-    public enum TierColor{NONE, GREEN, BLUE, PURPLE, GOLD;}
+    public enum TierColor{NONE, GREEN, BLUE, PURPLE, GOLD, ALL}
 
-    public enum DynamicSlot{NONE, HILT, BARREL, ARMORING;}
+    public enum DynamicSlot{NONE, HILT, BARREL, ARMORING}
 
     public Item()
     {

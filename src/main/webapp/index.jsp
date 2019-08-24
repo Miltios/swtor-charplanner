@@ -579,6 +579,7 @@
                     <div><input type="checkbox" checked id="itemRatingCheckboxT3" class="item-rating-checkbox" value="238-242" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT3">Tier 3 (238-242)</label></div>
                     <div><input type="checkbox" checked id="itemRatingCheckboxT4" class="item-rating-checkbox" value="244-248" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT4">Tier 4 (244-248)</label></div>
                     <div><input type="checkbox" checked id="itemRatingCheckboxT5" class="item-rating-checkbox" value="252-258" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT5">Tier 5 (252-258)</label></div>
+                    <div><input type="checkbox" checked id="itemRatingCheckboxT6" class="item-rating-checkbox" value="276-306" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT6">Tier 6 (276-306)</label></div>
                 </div>
                 <div class="item-list-settings-block settings-partwidth" style="width:30%;">
                     <label class="block-title" for="specFilterDropdown">Show items for:</label>
