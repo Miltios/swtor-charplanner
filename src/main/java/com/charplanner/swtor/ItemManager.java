@@ -13,6 +13,7 @@ public class ItemManager
     private static Map<Integer, ItemMod> itemMods;
     private static Map<Integer, Map<String,Integer>> ratings; //TODO:move this out to another class
     private static List<Map<String,Object>> specBuffs; //TODO:move this out to another class
+    private static List<Map<String,Object>> setBonuses; //TODO:move this out to another class
 
     private ItemManager(){}
     static
@@ -21,6 +22,7 @@ public class ItemManager
         itemMods = new HashMap<>();
         ratings = new HashMap<>();
         specBuffs = new ArrayList<>();
+        setBonuses = new ArrayList<>();
         updateItems();
         updateItemSpecs();
         updateItemStats();
@@ -30,6 +32,7 @@ public class ItemManager
         updateItemContents();
         updateRatings();
         updateSpecBuffs();
+        updateSetBonuses();
     }
     public static void updateItems()
     {
@@ -63,6 +66,7 @@ public class ItemManager
                     i.setDynamicSlotType(Item.DynamicSlot.valueOf(ds));
                     i.setImage(rs.getString("Image"));
                     i.setType(rs.getString("Type"));
+                    i.setSetId(rs.getString("SetId"));
 
                     items.put(itemId, i); //TODO:better safety pls
                 }
@@ -322,6 +326,35 @@ public class ItemManager
             e.printStackTrace();
         }
     }
+    public static void updateSetBonuses()
+    {
+        Connection c = ConnectionManager.getConnection();
+        try
+        {
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.SetBonuses"); //TODO:stop hard-coding schemas
+            if(statement.execute())
+            {
+                ResultSet rs = statement.getResultSet();
+                ResultSetMetaData md = rs.getMetaData();
+                int cols = md.getColumnCount();
+                while(rs.next())
+                {
+                    HashMap<String,Object> row = new HashMap<>(cols);
+                    for(int i=1; i<=cols; i++)
+                    {
+                        row.put(md.getColumnName(i), rs.getObject(i));
+                    }
+                    setBonuses.add(row);
+                }
+            }
+        }
+        catch(SQLException e)
+        {
+            //TODO
+            System.out.println("Failed to update SetBonuses!");
+            e.printStackTrace();
+        }
+    }
     public static String getAllAsJson() //someday we probably want a method to get some items for performance, not the full list
     {
         StringBuilder sb = new StringBuilder("{");
@@ -367,6 +400,7 @@ public class ItemManager
             sb.append("color:'").append(i.getColor().toString().toLowerCase()).append("',\n"); //TODO:figure out some better toString method for this enum
             sb.append("image:'").append(i.getImage()).append("',\n");
             sb.append("type:'").append(i.getType()).append("',\n");
+            sb.append("setId:'").append(i.getSetId()).append("',\n");
             sb.append("specs:[");
             Set<String> specs = i.getSpecs();
             for(String spec : specs)
@@ -486,6 +520,33 @@ public class ItemManager
             sb.append("stat:'").append(row.get("Stat")).append("',\n");
             sb.append("statValue:").append(row.get("StatValue")).append(",\n");
             sb.append("passive:'").append(((String)row.get("Passive")).replaceAll("'", "\\\\'")).append("'\n");
+
+            sb.append("},");
+        }
+        Utilities.removeTrailingChar(sb, ',');
+        sb.append("]");
+
+        return sb.toString();
+    }
+    public static String getSetBonusesAsJson()
+    {
+        StringBuilder sb = new StringBuilder("[");
+        for(Map<String, Object> row : setBonuses)
+        {
+            sb.append("{\n");
+            sb.append("setId:'").append(row.get("SetId")).append("',\n");
+            sb.append("setName:'").append(((String)row.get("SetName")).replaceAll("'", "\\\\'")).append("',\n");
+            sb.append("setClass:'").append(row.get("SetClass")).append("',\n");
+            sb.append("bonus2Stat:'").append(row.get("Bonus2Stat")).append("',\n");
+            sb.append("bonus2Value:").append(row.get("Bonus2Value")).append(",\n");
+            sb.append("bonus2Desc:'").append(((String)row.get("Bonus2Desc")).replaceAll("'", "\\\\'")).append("',\n");
+            sb.append("bonus4Stat:'").append(row.get("Bonus4Stat")).append("',\n");
+            sb.append("bonus4Value:").append(row.get("Bonus4Value")).append(",\n");
+            sb.append("bonus4Desc:'").append(((String)row.get("Bonus4Desc")).replaceAll("'", "\\\\'")).append("',\n");
+            sb.append("bonus6Stat:'").append(row.get("Bonus6Stat")).append("',\n");
+            sb.append("bonus6Value:").append(row.get("Bonus6Value")).append(",\n");
+            sb.append("bonus6Desc:'").append(((String)row.get("Bonus6Desc")).replaceAll("'", "\\\\'")).append("',\n");
+            sb.append("role:'").append(row.get("Role")).append("'\n");
 
             sb.append("},");
         }

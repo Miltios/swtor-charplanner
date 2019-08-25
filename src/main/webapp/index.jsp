@@ -683,6 +683,7 @@ function log(str)
     requireJs("/swtor/scripts/SpecManager.js");
     requireJs("/swtor/scripts/StatController.js");
     requireJs("/swtor/scripts/StatManager.js");
+    requireJs("/swtor/scripts/SetManager.js");
     requireJs("/swtor/scripts/TooltipController.js");
     requireJs("/swtor/scripts/AugmentController.js");
     requireJs("/swtor/scripts/WarningsController.js");
@@ -698,5 +699,6 @@ function log(str)
     let allItemData = <%= ItemManager.getAllAsJson() %>;
     let ratingData = <%= ItemManager.getRatingsAsJson() %>;
     let specBuffData = <%= ItemManager.getSpecBuffsAsJson() %>;
+    let setBonusData = <%= ItemManager.getSetBonusesAsJson() %>;
 </script>
 </html>

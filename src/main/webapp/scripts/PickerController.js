@@ -185,7 +185,14 @@ let PickerController = (function()
                     this.cis.appendChild(el);
                 }
             }
-            this.cid.innerHTML = item.description;
+            if(!item.setId)
+            {
+                this.cid.innerHTML = item.description;
+            }
+            else
+            {
+                this.cid.innerHTML = SetManager.getDescriptionForSet(item.setId);
+            }
         }
         this.populateCurrentItemModsForItem(item);
         this.showOrHideModSlots(slot);

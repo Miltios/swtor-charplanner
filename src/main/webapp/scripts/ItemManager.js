@@ -284,6 +284,7 @@ let ItemManager = (function()
         clone.description = item.description;
         clone.image = item.image;
         clone.type = item.type;
+        clone.setId = item.setId;
         clone.isCustom = item.isCustom;
         clone.itemMods = item.itemMods.slice();
         return clone;
@@ -303,7 +304,8 @@ let ItemManager = (function()
         //TODO: needs to adjust item rating and contents as well
         //return an array of item clones, one for each color
         let clones = [];
-        let colors = ['green', 'blue', 'purple', 'gold'];
+        //let colors = ['green', 'blue', 'purple', 'gold'];
+        let colors = ['gold']; //TODO:temporary workaround while we only have gold data
         for(let i=0; i<colors.length; i++)
         {
             let clone = this.getClone(item);
