@@ -17,6 +17,41 @@
     flex-direction:column;
     justify-content:center;
     height:100%;
+    position:relative; /*Forcing about-item-title to position itself relative to this element*/
+}
+
+.about-item-title
+{
+    text-align:center;
+    position:absolute;
+    bottom:5px;
+    width:100%;
+    font-size:2em;
+    padding:5px 0px;
+    text-transform:uppercase;
+    letter-spacing:2.5px;
+    color:rgba(255, 255, 255, 0.8);
+}
+
+#aboutDivMiltios .about-item-title
+{
+    background-image: radial-gradient(ellipse at center, #9b9cd09c 0%,#7db9e800 67%);
+}
+
+#aboutDivZasmi .about-item-title
+{
+    background-image: radial-gradient(ellipse at center, #250b05d9 0%,#7db9e800 67%);
+}
+
+#aboutDivThanks .about-item-title
+{
+    background-image: radial-gradient(ellipse at center, #021e3e 0%,#021e3e 10%,#7db9e800 80%);
+}
+
+.about-item-wrapper:hover .about-item-title
+{
+    opacity:0;
+    transition:1s;
 }
 
 .about-mask
