@@ -11,6 +11,7 @@ function ItemMod(data)
     //this.dynamicSlotType;
     //this.description;
     this.image;
+    this.isCustom;
     if(!data)
     {
         //should we even allow this?
@@ -28,6 +29,14 @@ function ItemMod(data)
         //this.dynamicSlotType = data.dynamicSlot;
         //this.description = data.description;
         this.image = data.image;
+        if(typeof data.isCustom === 'undefined')
+        {
+            this.isCustom = false;
+        }
+        else
+        {
+            this.isCustom = data.isCustom;
+        }
     }
     ItemMod.prototype.getStats = function()
     {

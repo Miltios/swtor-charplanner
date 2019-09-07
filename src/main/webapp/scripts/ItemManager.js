@@ -288,7 +288,28 @@ let ItemManager = (function()
         clone.isCustom = item.isCustom;
         clone.itemMods = item.itemMods.slice();
         return clone;
-    }
+    };
+    ItemManager.prototype.getModClone = function(mod)
+    {
+        let clone = new ItemMod();
+        clone.id = this.getNewId();
+        clone.name = mod.name;
+        clone.slot = mod.slot;
+        clone.rating = mod.rating;
+        clone.color = mod.color;
+        clone.specs = mod.specs.slice();
+        clone.stats = {};
+        for(let i in mod.stats)
+        {
+            if(mod.stats.hasOwnProperty(i))
+            {
+                clone.stats[i] = mod.stats[i];
+            }
+        }
+        clone.image = mod.image;
+        clone.isCustom = mod.isCustom;
+        return clone;
+    };
     ItemManager.prototype.getCustomClone = function(item)
     {
         if(item.isCustom)
@@ -296,6 +317,16 @@ let ItemManager = (function()
             return item;
         }
         let clone = this.getClone(item);
+        clone.isCustom = true;
+        return clone;
+    };
+    ItemManager.prototype.getCustomModClone = function(mod)
+    {
+        if(mod.isCustom)
+        {
+            return mod;
+        }
+        let clone = this.getModClone(mod);
         clone.isCustom = true;
         return clone;
     };
