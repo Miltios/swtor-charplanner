@@ -609,6 +609,14 @@
         <div id="tooltipItemDescription"></div>
         <div id="tooltipStatComparison"></div>
     </div>
+    <div id="customStatsEl" class="modal-popup" style="display:none">
+        <div id="customStatsContent"></div>
+        <div id="customStatsButtons">
+            <button id="customStatsCancelButton" onclick="DomController.userInput(this, 'cancelCustomStats')">Cancel</button>
+            <button id="customStatsSaveButton" onclick="DomController.userInput(this, 'saveCustomStats')">Save</button>
+        </div>
+    </div>
+    <div id="modalMask" style="display:none;"></div>
 </body>
 <script type="text/javascript">
 let debug = true;
@@ -684,6 +692,7 @@ function log(str)
     requireJs("/swtor/scripts/StatController.js");
     requireJs("/swtor/scripts/StatManager.js");
     requireJs("/swtor/scripts/SetManager.js");
+    requireJs("/swtor/scripts/CustomStatsController.js");
     requireJs("/swtor/scripts/TooltipController.js");
     requireJs("/swtor/scripts/AugmentController.js");
     requireJs("/swtor/scripts/WarningsController.js");

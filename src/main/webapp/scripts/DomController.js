@@ -175,6 +175,12 @@ let DomController = (function()
             case 'autofillGear':
                 AutofillController.populateRightSide();
                 break;
+            case 'cancelCustomStats':
+                CustomStatsController.cancel();
+                break;
+            case 'saveCustomStats':
+                CustomStatsController.save();
+                break;
         }
         StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here
         WarningsController.updateWarnings(); //ditto
