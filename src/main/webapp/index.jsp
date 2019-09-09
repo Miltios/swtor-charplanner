@@ -519,7 +519,10 @@
                         <td colspan="2"><span class="block-title">Currently Equipped:&nbsp;</span><span id="currentItemName" class="block-title">None</span></td>
                     </tr>
                     <tr>
-                        <td><img id="currentItemImg" class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" /></td>
+                        <td class="edit-on-hover">
+                            <div class="slot-edit-link edit-item" onclick="DomController.userInput(this, 'editItemLink');"></div>
+                            <img id="currentItemImg" class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" />
+                        </td>
                         <td style="width:100%">
                             <div id="currentItemRating"></div>
                             <div id="currentItemStats"></div>
@@ -533,22 +536,26 @@
             <div id="itemModdingArea">
                 <div>
                     <div id="slotDynamic" class="mod-slot">
-                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                        <a class="mod-slot-link edit-on-hover" onclick="DomController.userInput(this, 'modSlot');">
+                            <div class="slot-edit-link edit-mod" onclick="DomController.userInput(this, 'editModLink');"></div>
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>
                     <div id="slotMod" class="mod-slot">
-                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                        <a class="mod-slot-link edit-on-hover" onclick="DomController.userInput(this, 'modSlot');">
+                            <div class="slot-edit-link edit-mod" onclick="DomController.userInput(this, 'editModLink');"></div>
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>
                     <div id="slotEnhancement" class="mod-slot">
-                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                        <a class="mod-slot-link edit-on-hover" onclick="DomController.userInput(this, 'modSlot');">
+                            <div class="slot-edit-link edit-mod" onclick="DomController.userInput(this, 'editModLink');"></div>
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>
                     <div id="slotCrystal" class="mod-slot">
-                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                        <a class="mod-slot-link edit-on-hover" onclick="DomController.userInput(this, 'modSlot');">
+                            <div class="slot-edit-link edit-mod" onclick="DomController.userInput(this, 'editModLink');"></div>
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>

@@ -711,3 +711,22 @@ body.faction-mode-pub .faction-imp
     top:50%;
     left:50%;
 }
+.slot-edit-link
+{
+    /*TODO:placeholder hack*/
+    display:none;
+    width:20px;
+    height:20px;
+    position:absolute;
+    margin:5px;
+    background-color:purple;
+    cursor:pointer;
+}
+.slot-edit-link.edit-item
+{
+    margin-top:10px;
+}
+.edit-on-hover:hover .slot-edit-link
+{
+    display:block;
+}
