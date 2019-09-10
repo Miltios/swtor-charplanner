@@ -375,6 +375,7 @@ let StatController = (function()
     StatController.prototype.updateCalcDmgBonusMR = function()
     {
         //bonus dmg formula ((mastery*0.2*(1+x)) + (power*0.23*(1+y))) * (1+z)
+        //(same formula for 5.x and 6.0)
         //x is the sum of multiplicative mastery bonuses (e.g. mark of power)
         //y is the sum of multiplicative power bonuses
         //z is the sum of multiplicative bonus dmg (e.g. unnatural might)
@@ -404,10 +405,11 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcAccuracy = function()
     {
-        //Accuracy formula: 30*(1-((1-(.01/.3))^(accuracy/level))).  As a reminder, "^" is NOT the operator we want once we translate this to actual code.
+        //Accuracy formula for 5.x: 30*(1-((1-(.01/.3))^(accuracy/level)))
+        //Accuracy formula for 6.0: 30*(1-((1-(.01/.3))^(accuracy/level*2.015)))
 
         let accRating = StatManager.getStat('accuracy');
-        let baseAcc = 30*(1-((1-(.01/.3))**(accRating/Settings.getMaxLevel()))); //0-100, not 0-1
+        let baseAcc = 30*(1-((1-(.01/.3))**(accRating/(Settings.getMaxLevel()*2.015)))); //0-100, not 0-1
         let bonusAcc = StatManager.getMultiplierForStat('accuracy')-1; //this is additive, so we want a non-value to be 0 instead of 1
         if(Settings.getCompanionBuffs().indexOf('MTank') !== -1)
         {
@@ -419,8 +421,10 @@ let StatController = (function()
     StatController.prototype.updateCalcCritChance = function()
     {
         //TODO: the "ideal" crit rating is 1796-2235 (depending on MR vs FT attacks), after which points should be put into mastery instead.  Find a way to convey this?
-        //formula from crit stat: 30*(1-(1-(.01/.3))^(crit/(level*0.8)))
-        //formula from mastery stat: 20*(1-(1-(.01/.2))^(mastery/(level*5.5)))
+        //formula from crit stat in 5.x: 30*(1-(1-(.01/.3))^(crit/(level*0.8)))
+        //formula from crit stat in 6.0: 30*(1-(1-(.01/.3))^(crit/(level*1.503)))
+        //formula from mastery stat in 5.x: 20*(1-(1-(.01/.2))^(mastery/(level*5.5)))
+        //formula from mastery stat in 6.0: 20*(1-(1-(.01/.2))^(mastery/(level*8.43)))
         let crit = StatManager.getStat('crit');
         let mastery = StatManager.getStat('mastery');
         let bonusCrit = StatManager.getMultiplierForStat('critChance')-1; //additive
@@ -431,8 +435,8 @@ let StatController = (function()
         let critChance = 0.05; //base chance for all classes
         critChance += bonusCrit;
         critChance *= 100;
-        let critFromCrit = 30*(1-(1-(.01/.3))**(crit/(Settings.getMaxLevel() * 0.8)));
-        let critFromMastery = 20*(1-(1-(.01/.2))**(mastery/(Settings.getMaxLevel() * 5.5)));
+        let critFromCrit = 30*(1-(1-(.01/.3))**(crit/(Settings.getMaxLevel() * 1.503)));
+        let critFromMastery = 20*(1-(1-(.01/.2))**(mastery/(Settings.getMaxLevel() * 8.43)));
         critChance += critFromCrit;
         critChance += critFromMastery;
         this.calcElCritChance.innerHTML = critChance.toFixed(2);
@@ -445,12 +449,13 @@ let StatController = (function()
         let critDmg = 0.50; //base multiplier for all classes
         critDmg += bonusCrit;
         critDmg *= 100;
-        critDmg += 30*(1-(1-(.01/.3))**(crit/(Settings.getMaxLevel() * 0.8)));
+        critDmg += 30*(1-(1-(.01/.3))**(crit/(Settings.getMaxLevel() * 1.503)));
         this.calcElCritMult.innerHTML = critDmg.toFixed(2);
     };
     StatController.prototype.updateCalcDmgBonusFT = function()
     {
         //bonus FT dmg formula ((mastery*0.2*(1+x)) + ((power+FTpower)*0.23*(1+y))) * (1+z)
+        //(same formula for 5.x and 6.0)
         //x is the sum of multiplicative mastery bonuses (e.g. mark of power)
         //y is the sum of multiplicative power bonuses
         //z is the sum of multiplicative bonus dmg (e.g. unnatural might)
@@ -486,6 +491,7 @@ let StatController = (function()
     StatController.prototype.updateCalcHealing = function()
     {
         //bonus healing formula ((mastery*0.14*(1+x)) + ((power+FTpower)*0.17*(1+y))) * (1+z)
+        //(same formula for 5.x and 6.0)
         //x is the sum of multiplicative mastery bonuses (e.g. mark of power)
         //y is the sum of multiplicative power bonuses
         //z is the sum of multiplicative bonus healing (e.g. unnatural might)
@@ -521,10 +527,11 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcAlacrity = function()
     {
-        //alacrity formula: 30*(1-(1-(.01/.3))^(alacrity/level/1.25))
+        //alacrity formula for 5.x: 30*(1-(1-(.01/.3))^(alacrity/level/1.25))
+        //alacrity formula for 6.0: 30*(1-(1-(.01/.3))^(alacrity/level/2.015))
         let alacrity = StatManager.getStat('alacrity');
         let bonusAlac = StatManager.getMultiplierForStat('alacrity')-1; //additive
-        let alacPerc = 30*(1-((1-(.01/.3))**((alacrity/Settings.getMaxLevel())/1.25)));
+        let alacPerc = 30*(1-((1-(.01/.3))**((alacrity/Settings.getMaxLevel())/2.015)));
         alacPerc += (100 * bonusAlac);
         let tier = '1';
         if(alacPerc >= 7.143 && alacPerc < 15.385)
@@ -589,7 +596,8 @@ let StatController = (function()
     StatController.prototype.updateCalcDmgReduction = function()
     {
         let armor = StatManager.getStat('armor');
-        let armorReduc = armor / (armor + (240 * Settings.getMaxLevel()) + 800);
+        //let armorReduc = armor / (armor + (240 * Settings.getMaxLevel()) + 800); //old 5.x formula
+        let armorReduc = armor / (armor + (465 * Settings.getMaxLevel()) - 7900); //6.0
         let bonusReduc = StatManager.getMultiplierForStat('dmgReduc') - 1;
         let internalReduc = StatManager.getMultiplierForStat('dmgReducIE') - 1;
         internalReduc += bonusReduc; //any overall dmg reduction also counts as internal/elemental reduction
@@ -605,7 +613,8 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcDefense = function()
     {
-        //defense formula: 30*(1-(1-(.01/.3))^(defense/(level*1.2)))
+        //defense formula for 5.x: 30*(1-(1-(.01/.3))^(defense/(level*1.2)))
+        //defense formula for 6.0: 30*(1-(1-(.01/.3))^(defense/(level*2.125)))
         let defense = StatManager.getStat('defense');
         let bonusMR = StatManager.getMultiplierForStat('defMR')-1; //additive
         let bonusFT = StatManager.getMultiplierForStat('defFT')-1; //additive
@@ -617,7 +626,7 @@ let StatController = (function()
         //from this point on we deal with 0-100 scale instead of 0-1
         bonusMR = bonusMR * 100;
         bonusFT = bonusFT * 100;
-        let defChance = 30*(1-(1-(.01/.3))**(defense/(Settings.getMaxLevel() * 1.2)));
+        let defChance = 30*(1-(1-(.01/.3))**(defense/(Settings.getMaxLevel() * 2.125)));
         defChance += bonusMR; //defense from gear ONLY affects MR, not FT
 
         //as with dmg reduction, FT defense is not factored unless it's greater than MR
@@ -629,7 +638,8 @@ let StatController = (function()
     };
     StatController.prototype.updateCalcShield = function()
     {
-        //shield chance formula: 50*(1-(1-(.01/.5))^(shield/(level*0.78)))
+        //shield chance formula for 5.x: 50*(1-(1-(.01/.5))^(shield/(level*0.78)))
+        //shield chance formula for 6.0: 50*(1-(1-(.01/.5))^(shield/(level*1.279)))
         //can't shield anything without a shield equipped
         let shieldChance = 0;
         let item = SlotManager.getSlot('offhand').getItem();
@@ -639,14 +649,15 @@ let StatController = (function()
             shieldChance += StatManager.getMultiplierForStat('shieldChance')-1; //additive
             let shield = StatManager.getStat('shield');
             shieldChance = shieldChance * 100; //from this point on we deal with 0-100 scale instead of 0-1
-            shieldChance += 50*(1-(1-(.01/.5))**(shield/(Settings.getMaxLevel() * 0.78)));
+            shieldChance += 50*(1-(1-(.01/.5))**(shield/(Settings.getMaxLevel() * 1.279)));
         }
         StatManager.setStat('shieldchance', shieldChance);
         this.calcElShield.innerHTML = shieldChance.toFixed(2);
     };
     StatController.prototype.updateCalcAbsorb = function()
     {
-        //absorption formula: 50*(1-(1-(.01/.5))^(absorb/(level*0.65)))
+        //absorption formula for 5.x: 50*(1-(1-(.01/.5))^(absorb/(level*0.65)))
+        //absorption formula for 6.0: 50*(1-(1-(.01/.5))^(absorb/(level*1.066)))
         //can't shield anything without a shield equipped
         let absorbPerc = 0;
         let item = SlotManager.getSlot('offhand').getItem();
@@ -656,7 +667,7 @@ let StatController = (function()
             absorbPerc += StatManager.getMultiplierForStat('absorbPerc')-1; //additive
             let absorb = StatManager.getStat('absorption');
             absorbPerc = absorbPerc * 100; //from this point on we deal with 0-100 scale instead of 0-1
-            absorbPerc += 50*(1-(1-(.01/.5))**(absorb/(Settings.getMaxLevel() * 0.65)));
+            absorbPerc += 50*(1-(1-(.01/.5))**(absorb/(Settings.getMaxLevel() * 1.066)));
         }
         StatManager.setStat('absorbperc', absorbPerc);
         this.calcElAbsorb.innerHTML = absorbPerc.toFixed(2);
