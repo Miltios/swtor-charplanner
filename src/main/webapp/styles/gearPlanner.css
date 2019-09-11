@@ -691,6 +691,31 @@ body.faction-mode-pub .faction-imp
 {
     border-style:inset;
 }
+#customStatsEl
+{
+    background-color:#00050D;
+    border:2px solid #96D6F199;
+    border-radius:5px;
+    padding:10px;
+}
+#customStatsContent td:not(.custom-stat-name)
+{
+    text-align:right;
+}
+.custom-stat-input
+{
+    width:50px;
+    text-align:right;
+}
+.custom-stat-name
+{
+    text-align:left;
+    padding-right:15px;
+}
+#customStatsButtons
+{
+    margin-top:10px;
+}
 #modalMask
 {
     position:fixed;
@@ -706,20 +731,22 @@ body.faction-mode-pub .faction-imp
 {
     margin:auto;
     z-index:2;
-    /*TODO:HACK:figure out positioning later*/
     position:fixed;
     top:50%;
     left:50%;
+    transform:translate(-50%,-50%);
 }
 .slot-edit-link
 {
-    /*TODO:placeholder hack*/
     display:none;
-    width:20px;
+    width:19px;
     height:20px;
     position:absolute;
     margin:5px;
-    background-color:purple;
+    background-image:url('../images/icon_pencil_20.png');
+    background-color:whitesmoke;
+    border:2px solid whitesmoke;
+    border-radius:3px;
     cursor:pointer;
 }
 .slot-edit-link.edit-item

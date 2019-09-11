@@ -29,8 +29,8 @@ let CustomStatsController = (function()
         let statEls = [];
         for(let statName in item.stats)
         {
-            let row = document.createElement('div');
-            row.innerHTML = statName + ': <input type="text" class="custom-stat-input" id="customStatValue_' + statName + '" value="' + item.stats[statName] + '"/>';
+            let row = document.createElement('tr');
+            row.innerHTML = '<td class="custom-stat-name">' + StatController.getStatName(statName) + ':</td><td><input type="text" class="custom-stat-input" id="customStatValue_' + statName + '" value="' + item.stats[statName] + '"/></td>';
             statEls.push(row);
         }
         if(statEls.length === 0)

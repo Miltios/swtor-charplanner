@@ -617,7 +617,7 @@
         <div id="tooltipStatComparison"></div>
     </div>
     <div id="customStatsEl" class="modal-popup" style="display:none">
-        <div id="customStatsContent"></div>
+        <table id="customStatsContent"></table>
         <div id="customStatsButtons">
             <button id="customStatsCancelButton" onclick="DomController.userInput(this, 'cancelCustomStats')">Cancel</button>
             <button id="customStatsSaveButton" onclick="DomController.userInput(this, 'saveCustomStats')">Save</button>
