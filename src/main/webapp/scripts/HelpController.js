@@ -36,7 +36,7 @@ let HelpController = (function()
                     'Click the "clear slot" button if you wish to remove this item.';
                 break;
             }
-            case 'alacTiers': //TODO: these values are out of date
+            case 'alacTiers':
             {
                 msg = 'Each alacrity tier reduces the length of your global cooldown (GCD) by 0.1 seconds.  The tiers are as follows:<br/>' +
                     '-Tier 1 (1.5s): 0.00% to 7.142%<br/>' +

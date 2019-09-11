@@ -415,7 +415,7 @@ let StatController = (function()
         {
             bonusAcc += 0.01;
         }
-        let accuracy = (100 + baseAcc + (100 * bonusAcc)).toFixed(2);
+        let accuracy = (100 + baseAcc + (100 * bonusAcc)).toFixed(2) + '%';
         this.calcElAccuracy.innerHTML = accuracy;
     };
     StatController.prototype.updateCalcCritChance = function()
@@ -439,7 +439,7 @@ let StatController = (function()
         let critFromMastery = 20*(1-(1-(.01/.2))**(mastery/(Settings.getMaxLevel() * 8.43)));
         critChance += critFromCrit;
         critChance += critFromMastery;
-        this.calcElCritChance.innerHTML = critChance.toFixed(2);
+        this.calcElCritChance.innerHTML = critChance.toFixed(2) + '%';
     };
     StatController.prototype.updateCalcCritMult = function()
     {
@@ -450,7 +450,7 @@ let StatController = (function()
         critDmg += bonusCrit;
         critDmg *= 100;
         critDmg += 30*(1-(1-(.01/.3))**(crit/(Settings.getMaxLevel() * 1.503)));
-        this.calcElCritMult.innerHTML = critDmg.toFixed(2);
+        this.calcElCritMult.innerHTML = critDmg.toFixed(2) + '%';
     };
     StatController.prototype.updateCalcDmgBonusFT = function()
     {
@@ -543,7 +543,7 @@ let StatController = (function()
             tier = '3';
         }
         StatManager.setStat('alacrityperc', alacPerc);
-        this.calcElAlacrity.innerHTML = alacPerc.toFixed(2);
+        this.calcElAlacrity.innerHTML = alacPerc.toFixed(2) + '%';
         this.calcElAlacrity.className = 'calc-stat-value alacrity-tier-' + tier;
     };
     StatController.prototype.updateCalcHealth = function()
@@ -609,7 +609,7 @@ let StatController = (function()
             totalReduc = internalReduc;
         }
 
-        this.calcElDmgReduction.innerHTML = (100*totalReduc).toFixed(2);
+        this.calcElDmgReduction.innerHTML = (100*totalReduc).toFixed(2) + '%';
     };
     StatController.prototype.updateCalcDefense = function()
     {
@@ -634,7 +634,7 @@ let StatController = (function()
         {
             defChance = bonusFT;
         }
-        this.calcElDefense.innerHTML = defChance.toFixed(2);
+        this.calcElDefense.innerHTML = defChance.toFixed(2) + '%';
     };
     StatController.prototype.updateCalcShield = function()
     {
@@ -652,7 +652,7 @@ let StatController = (function()
             shieldChance += 50*(1-(1-(.01/.5))**(shield/(Settings.getMaxLevel() * 1.279)));
         }
         StatManager.setStat('shieldchance', shieldChance);
-        this.calcElShield.innerHTML = shieldChance.toFixed(2);
+        this.calcElShield.innerHTML = shieldChance.toFixed(2) + '%';
     };
     StatController.prototype.updateCalcAbsorb = function()
     {
@@ -670,7 +670,7 @@ let StatController = (function()
             absorbPerc += 50*(1-(1-(.01/.5))**(absorb/(Settings.getMaxLevel() * 1.066)));
         }
         StatManager.setStat('absorbperc', absorbPerc);
-        this.calcElAbsorb.innerHTML = absorbPerc.toFixed(2);
+        this.calcElAbsorb.innerHTML = absorbPerc.toFixed(2) + '%';
     };
     return new StatController();
 })();
