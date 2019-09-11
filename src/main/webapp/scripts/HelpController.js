@@ -32,10 +32,11 @@ let HelpController = (function()
             case 'itemSelected':
             {
                 msg = 'Now that you\'ve selected an item, your stats have updated automatically.  ' +
-                    'If the item is moddable, you can also click the individual mods to swap them out.';
+                    'If the item is moddable, you can also click the individual mods to swap them out.<br /><br />' +
+                    'Click the "clear slot" button if you wish to remove this item.';
                 break;
             }
-            case 'alacTiers':
+            case 'alacTiers': //TODO: these values are out of date
             {
                 msg = 'Each alacrity tier reduces the length of your global cooldown (GCD) by 0.1 seconds.  The tiers are as follows:<br/>' +
                     '-Tier 1 (1.5s): 0.00% to 7.142%<br/>' +

@@ -175,6 +175,13 @@ let DomController = (function()
             case 'autofillGear':
                 AutofillController.populateRightSide();
                 break;
+            case 'deleteItem':
+            {
+                let slot = SlotManager.getCurrentSlot();
+                slot.setItem(null);
+                PickerController.populateCurrentItemForSlot(slot);
+                break;
+            }
         }
         StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here
         WarningsController.updateWarnings(); //ditto

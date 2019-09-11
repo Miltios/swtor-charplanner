@@ -531,7 +531,7 @@
                 </table>
             </div>
             <div id="itemModdingArea">
-                <div>
+                <div id="itemModdingSlots">
                     <div id="slotDynamic" class="mod-slot">
                         <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
@@ -553,6 +553,7 @@
                         </a>
                     </div>
                 </div>
+                <button id="deleteItemButton" onclick="DomController.userInput(this, 'deleteItem');" style="display:none;">Clear slot</button>
             </div>
             <div id="itemListSettingsTop">
             </div>
