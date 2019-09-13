@@ -74,7 +74,10 @@ let ItemManager = (function()
         }
         if(Settings.getFaction() === 'pub' && ['mainhand', 'offhand'].indexOf(slotName) !== -1) //some pubside classes use different mainhand/offhand types from imperials
         {
-            spec = SpecManager.getSpecMirror(spec);
+            if(['pt', 'merc', 'op', 'sniper'].indexOf(Settings.getClass()) !== -1) //these classes are the ones that have different pubside gear
+            {
+                spec = SpecManager.getSpecMirror(spec);
+            }
         }
         return items.filter(i => ((i.specs.indexOf(spec) !== -1)
             || (i.specs.indexOf('all') !== -1)
