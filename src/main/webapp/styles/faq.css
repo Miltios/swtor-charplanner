@@ -42,6 +42,7 @@
     color:#fff;
     margin:10px 0px;
     cursor:pointer;
+    user-select:none;
 }
 
 .faq-item a
