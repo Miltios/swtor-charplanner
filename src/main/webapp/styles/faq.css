@@ -1,1 +1,4 @@
-/* this is a CSS comment */
+.faq-item-collapsed .faq-answer
+{
+    display:none;
+}
