@@ -1119,38 +1119,38 @@ Sha'tek Quick Savant Package MK-19,2417,implant,,,mastery,858,306
 Sha'tek Quick Savant Package MK-19,2417,implant,,,endurance,1007,306
 Sha'tek Quick Savant Package MK-19,2417,implant,,,power,652,306
 Sha'tek Quick Savant Package MK-19,2417,implant,,,alacrity,431,306
-Sha'tek Relic of Avoidance,2418,relic,,,mastery,526,306
-Sha'tek Relic of Avoidance,2418,relic,,,absorption,723,306
-Sha'tek Relic of Avoidance,2418,relic,,,defense,184,306
+Sha'tek Relic of Avoidance MK-19,2418,relic,,,mastery,526,306
+Sha'tek Relic of Avoidance MK-19,2418,relic,,,absorption,723,306
+Sha'tek Relic of Avoidance MK-19,2418,relic,,,defense,184,306
 Sha'tek Relic of Boundless Ages MK-19,2419,relic,,,endurance,471,306
 Sha'tek Relic of Boundless Ages MK-19,2419,relic,,,power,221,306
-Sha'tek Relic of Boundless Ages MK-19,2419,relic,,,crit,140,306
+Sha'tek Relic of Boundless Ages MK-19,2419,relic,,,crit,0,306
 Sha'tek Relic of Devastating Vengeance MK-19,2420,relic,,,endurance,471,306
 Sha'tek Relic of Devastating Vengeance MK-19,2420,relic,,,power,221,306
-Sha'tek Relic of Devastating Vengeance MK-19,2420,relic,,,crit,140,306
+Sha'tek Relic of Devastating Vengeance MK-19,2420,relic,,,crit,0,306
 Sha'tek Relic of Ephemeral Mending MK-19,2421,relic,,,endurace,471,306
 Sha'tek Relic of Ephemeral Mending MK-19,2421,relic,,,power,221,306
-Sha'tek Relic of Ephemeral Mending MK-19,2421,relic,,,crit,140,306
+Sha'tek Relic of Ephemeral Mending MK-19,2421,relic,,,crit,0,306
 Sha'tek Relic of Focused Retribution MK-19,2422,relic,,,endurace,471,306
 Sha'tek Relic of Focused Retribution MK-19,2422,relic,,,power,221,306
-Sha'tek Relic of Focused Retribution MK-19,2422,relic,,,crit,140,306
+Sha'tek Relic of Focused Retribution MK-19,2422,relic,,,crit,0,306
 Sha'tek Relic of Imperiling Serenity MK-19,2423,relic,,,mastery,471,306
-Sha'tek Relic of Imperiling Serenity MK-19,2423,relic,,,shield,140,306
+Sha'tek Relic of Imperiling Serenity MK-19,2423,relic,,,shield,0,306
 Sha'tek Relic of Imperiling Serenity MK-19,2423,relic,,,defense,221,306
 Sha'tek Relic of Reactive Warding MK-19,2424,relic,,,mastery,471,306
-Sha'tek Relic of Reactive Warding MK-19,2424,relic,,,shield,140,306
+Sha'tek Relic of Reactive Warding MK-19,2424,relic,,,shield,0,306
 Sha'tek Relic of Reactive Warding MK-19,2424,relic,,,defense,221,306
 Sha'tek Relic of Serendipitous Assault MK-19,2425,relic,,,endurance,471,306
 Sha'tek Relic of Serendipitous Assault MK-19,2425,relic,,,power,221,306
-Sha'tek Relic of Serendipitous Assault MK-19,2425,relic,,,crit,140,306
+Sha'tek Relic of Serendipitous Assault MK-19,2425,relic,,,crit,0,306
 Sha'tek Relic of the Primeval Fatesealer MK-19,2426,relic,,,endurance,471,306
 Sha'tek Relic of the Primeval Fatesealer MK-19,2426,relic,,,power,221,306
-Sha'tek Relic of the Primeval Fatesealer MK-19,2426,relic,,,crit,140,306
+Sha'tek Relic of the Primeval Fatesealer MK-19,2426,relic,,,crit,0,306
 Sha'tek Relic of the Shield Matrix MK-19,2427,relic,,,mastery,526,306
 Sha'tek Relic of the Shield Matrix MK-19,2427,relic,,,shield,723,306
 Sha'tek Relic of the Shield Matrix MK-19,2427,relic,,,defense,184,306
 Sha'tek Relic of the Shrouded Crusader MK-19,2428,relic,,,mastery,471,306
-Sha'tek Relic of the Shrouded Crusader MK-19,2428,relic,,,shield,140,306
+Sha'tek Relic of the Shrouded Crusader MK-19,2428,relic,,,shield,0,306
 Sha'tek Relic of the Shrouded Crusader MK-19,2428,relic,,,defense,221,306
 Advanced Absorb Augment 74,2429,,,,endurance,144,286
 Advanced Absorb Augment 74,2429,,,,power,144,286
@@ -1194,3 +1194,1308 @@ Shield Augment 73,2441,,,,shield,95,276
 Versatile Augment 73,2442,,,,endurance,126,276
 Versatile Augment 73,2442,,,,power,126,276
 Versatile Augment 73,2442,,,,mastery,95,276
+Sha'tek Adept Device MK-1,2888,ear,,,mastery,578,270
+Sha'tek Adept Device MK-1,2888,ear,,,endurance,669,270
+Sha'tek Adept Device MK-1,2888,ear,,,power,432,270
+Sha'tek Adept Device MK-1,2888,ear,,,crit,290,270
+Sha'tek Adept Package MK-1,2889,implant,,,mastery,578,270
+Sha'tek Adept Package MK-1,2889,implant,,,endurance,669,270
+Sha'tek Adept Package MK-1,2889,implant,,,power,432,270
+Sha'tek Adept Package MK-1,2889,implant,,,crit,290,270
+Sha'tek Bastion Device MK-1,2890,ear,,,mastery,549,270
+Sha'tek Bastion Device MK-1,2890,ear,,,endurance,699,270
+Sha'tek Bastion Device MK-1,2890,ear,,,shield,290,270
+Sha'tek Bastion Device MK-1,2890,ear,,,defense,432,270
+Sha'tek Bastion Package MK-1,2891,implant,,,mastery,549,270
+Sha'tek Bastion Package MK-1,2891,implant,,,endurance,699,270
+Sha'tek Bastion Package MK-1,2891,implant,,,shield,290,270
+Sha'tek Bastion Package MK-1,2891,implant,,,defense,432,270
+Sha'tek Bulwark Device MK-1,2892,ear,,,mastery,549,270
+Sha'tek Bulwark Device MK-1,2892,ear,,,endurance,699,270
+Sha'tek Bulwark Device MK-1,2892,ear,,,absorption,290,270
+Sha'tek Bulwark Device MK-1,2892,ear,,,defense,432,270
+Sha'tek Bulwark Package MK-1,2893,implant,,,mastery,549,270
+Sha'tek Bulwark Package MK-1,2893,implant,,,endurance,699,270
+Sha'tek Bulwark Package MK-1,2893,implant,,,absorption,290,270
+Sha'tek Bulwark Package MK-1,2893,implant,,,defense,432,270
+Sha'tek Initiative Device MK-1,2894,ear,,,mastery,578,270
+Sha'tek Initiative Device MK-1,2894,ear,,,endurance,669,270
+Sha'tek Initiative Device MK-1,2894,ear,,,accuracy,432,270
+Sha'tek Initiative Device MK-1,2894,ear,,,power,290,270
+Sha'tek Initiative Package MK-1,2895,implant,,,mastery,578,270
+Sha'tek Initiative Package MK-1,2895,implant,,,endurance,669,270
+Sha'tek Initiative Package MK-1,2895,implant,,,accuracy,432,270
+Sha'tek Initiative Package MK-1,2895,implant,,,power,290,270
+Sha'tek Quick Savant Device MK-1,2896,ear,,,mastery,578,270
+Sha'tek Quick Savant Device MK-1,2896,ear,,,endurance,669,270
+Sha'tek Quick Savant Device MK-1,2896,ear,,,power,432,270
+Sha'tek Quick Savant Device MK-1,2896,ear,,,alacrity,290,270
+Sha'tek Quick Savant Package MK-1,2897,implant,,,mastery,578,270
+Sha'tek Quick Savant Package MK-1,2897,implant,,,endurance,669,270
+Sha'tek Quick Savant Package MK-1,2897,implant,,,power,432,270
+Sha'tek Quick Savant Package MK-1,2897,implant,,,alacrity,290,270
+Sha'tek Relic of Avoidance MK-1,2898,relic,,,mastery,358,270
+Sha'tek Relic of Avoidance MK-1,2898,relic,,,absorption,498,270
+Sha'tek Relic of Avoidance MK-1,2898,relic,,,defense,117,270
+Sha'tek Relic of Boundless Ages MK-1,2899,relic,,,endurance,358,270
+Sha'tek Relic of Boundless Ages MK-1,2899,relic,,,power,117,270
+Sha'tek Relic of Devastating Vengeance MK-1,2900,relic,,,endurance,358,270
+Sha'tek Relic of Devastating Vengeance MK-1,2900,relic,,,power,117,270
+Sha'tek Relic of Ephemeral Mending MK-1,2901,relic,,,endurace,358,270
+Sha'tek Relic of Ephemeral Mending MK-1,2901,relic,,,power,117,270
+Sha'tek Relic of Focused Retribution MK-1,2902,relic,,,endurace,358,270
+Sha'tek Relic of Focused Retribution MK-1,2902,relic,,,power,117,270
+Sha'tek Relic of Imperiling Serenity MK-1,2903,relic,,,mastery,358,270
+Sha'tek Relic of Imperiling Serenity MK-1,2903,relic,,,defense,117,270
+Sha'tek Relic of Reactive Warding MK-1,2904,relic,,,mastery,358,270
+Sha'tek Relic of Reactive Warding MK-1,2904,relic,,,defense,117,270
+Sha'tek Relic of Serendipitous Assault MK-1,2905,relic,,,endurance,358,270
+Sha'tek Relic of Serendipitous Assault MK-1,2905,relic,,,power,117,270
+Sha'tek Relic of the Primeval Fatesealer MK-1,2906,relic,,,endurance,358,270
+Sha'tek Relic of the Primeval Fatesealer MK-1,2906,relic,,,power,117,270
+Sha'tek Relic of the Shield Matrix MK-1,2907,relic,,,mastery,358,270
+Sha'tek Relic of the Shield Matrix MK-1,2907,relic,,,shield,498,270
+Sha'tek Relic of the Shield Matrix MK-1,2907,relic,,,defense,117,270
+Sha'tek Relic of the Shrouded Crusader MK-1,2908,relic,,,mastery,358,270
+Sha'tek Relic of the Shrouded Crusader MK-1,2908,relic,,,defense,117,270
+Sha'tek Adept Device MK-2,2927,ear,,,mastery,591,272
+Sha'tek Adept Device MK-2,2927,ear,,,endurance,685,272
+Sha'tek Adept Device MK-2,2927,ear,,,power,443,272
+Sha'tek Adept Device MK-2,2927,ear,,,crit,297,272
+Sha'tek Adept Package MK-2,2928,implant,,,mastery,591,272
+Sha'tek Adept Package MK-2,2928,implant,,,endurance,685,272
+Sha'tek Adept Package MK-2,2928,implant,,,power,443,272
+Sha'tek Adept Package MK-2,2928,implant,,,crit,297,272
+Sha'tek Bastion Device MK-2,2929,ear,,,mastery,562,272
+Sha'tek Bastion Device MK-2,2929,ear,,,endurance,716,272
+Sha'tek Bastion Device MK-2,2929,ear,,,shield,297,272
+Sha'tek Bastion Device MK-2,2929,ear,,,defense,443,272
+Sha'tek Bastion Package MK-2,2930,implant,,,mastery,562,272
+Sha'tek Bastion Package MK-2,2930,implant,,,endurance,716,272
+Sha'tek Bastion Package MK-2,2930,implant,,,shield,297,272
+Sha'tek Bastion Package MK-2,2930,implant,,,defense,443,272
+Sha'tek Bulwark Device MK-2,2931,ear,,,mastery,562,272
+Sha'tek Bulwark Device MK-2,2931,ear,,,endurance,716,272
+Sha'tek Bulwark Device MK-2,2931,ear,,,absorption,297,272
+Sha'tek Bulwark Device MK-2,2931,ear,,,defense,443,272
+Sha'tek Bulwark Package MK-2,2932,implant,,,mastery,562,272
+Sha'tek Bulwark Package MK-2,2932,implant,,,endurance,716,272
+Sha'tek Bulwark Package MK-2,2932,implant,,,absorption,297,272
+Sha'tek Bulwark Package MK-2,2932,implant,,,defense,443,272
+Sha'tek Initiative Device MK-2,2933,ear,,,mastery,591,272
+Sha'tek Initiative Device MK-2,2933,ear,,,endurance,685,272
+Sha'tek Initiative Device MK-2,2933,ear,,,accuracy,297,272
+Sha'tek Initiative Device MK-2,2933,ear,,,power,443,272
+Sha'tek Initiative Package MK-2,2934,implant,,,mastery,591,272
+Sha'tek Initiative Package MK-2,2934,implant,,,endurance,685,272
+Sha'tek Initiative Package MK-2,2934,implant,,,accuracy,297,272
+Sha'tek Initiative Package MK-2,2934,implant,,,power,443,272
+Sha'tek Quick Savant Device MK-2,2935,ear,,,mastery,591,272
+Sha'tek Quick Savant Device MK-2,2935,ear,,,endurance,685,272
+Sha'tek Quick Savant Device MK-2,2935,ear,,,power,443,272
+Sha'tek Quick Savant Device MK-2,2935,ear,,,alacrity,297,272
+Sha'tek Quick Savant Package MK-2,2936,implant,,,mastery,591,272
+Sha'tek Quick Savant Package MK-2,2936,implant,,,endurance,685,272
+Sha'tek Quick Savant Package MK-2,2936,implant,,,power,443,272
+Sha'tek Quick Savant Package MK-2,2936,implant,,,alacrity,297,272
+Sha'tek Relic of Avoidance MK-2,2937,relic,,,mastery,366,272
+Sha'tek Relic of Avoidance MK-2,2937,relic,,,absorption,509,272
+Sha'tek Relic of Avoidance MK-2,2937,relic,,,defense,120,272
+Sha'tek Relic of Boundless Ages MK-2,2938,relic,,,endurance,366,272
+Sha'tek Relic of Boundless Ages MK-2,2938,relic,,,power,120,272
+Sha'tek Relic of Boundless Ages MK-2,2938,relic,,,crit,0,272
+Sha'tek Relic of Devastating Vengeance MK-2,2939,relic,,,endurance,366,272
+Sha'tek Relic of Devastating Vengeance MK-2,2939,relic,,,power,120,272
+Sha'tek Relic of Devastating Vengeance MK-2,2939,relic,,,crit,0,272
+Sha'tek Relic of Ephemeral Mending MK-2,2940,relic,,,endurace,366,272
+Sha'tek Relic of Ephemeral Mending MK-2,2940,relic,,,power,120,272
+Sha'tek Relic of Ephemeral Mending MK-2,2940,relic,,,crit,0,272
+Sha'tek Relic of Focused Retribution MK-2,2941,relic,,,endurace,366,272
+Sha'tek Relic of Focused Retribution MK-2,2941,relic,,,power,120,272
+Sha'tek Relic of Focused Retribution MK-2,2941,relic,,,crit,0,272
+Sha'tek Relic of Imperiling Serenity MK-2,2942,relic,,,mastery,366,272
+Sha'tek Relic of Imperiling Serenity MK-2,2942,relic,,,shield,0,272
+Sha'tek Relic of Imperiling Serenity MK-2,2942,relic,,,defense,120,272
+Sha'tek Relic of Reactive Warding MK-2,2943,relic,,,mastery,366,272
+Sha'tek Relic of Reactive Warding MK-2,2943,relic,,,shield,0,272
+Sha'tek Relic of Reactive Warding MK-2,2943,relic,,,defense,120,272
+Sha'tek Relic of Serendipitous Assault MK-2,2944,relic,,,endurance,366,272
+Sha'tek Relic of Serendipitous Assault MK-2,2944,relic,,,power,120,272
+Sha'tek Relic of Serendipitous Assault MK-2,2944,relic,,,crit,0,272
+Sha'tek Relic of the Primeval Fatesealer MK-2,2945,relic,,,endurance,366,272
+Sha'tek Relic of the Primeval Fatesealer MK-2,2945,relic,,,power,120,272
+Sha'tek Relic of the Primeval Fatesealer MK-2,2945,relic,,,crit,0,272
+Sha'tek Relic of the Shield Matrix MK-2,2946,relic,,,mastery,366,272
+Sha'tek Relic of the Shield Matrix MK-2,2946,relic,,,shield,509,272
+Sha'tek Relic of the Shield Matrix MK-2,2946,relic,,,defense,120,272
+Sha'tek Relic of the Shrouded Crusader MK-2,2947,relic,,,mastery,366,272
+Sha'tek Relic of the Shrouded Crusader MK-2,2947,relic,,,shield,0,272
+Sha'tek Relic of the Shrouded Crusader MK-2,2947,relic,,,defense,120,272
+Sha'tek Adept Device MK-3,2966,ear,,,mastery,605,274
+Sha'tek Adept Device MK-3,2966,ear,,,endurance,702,274
+Sha'tek Adept Device MK-3,2966,ear,,,power,453,274
+Sha'tek Adept Device MK-3,2966,ear,,,crit,304,274
+Sha'tek Adept Package MK-3,2967,implant,,,mastery,605,274
+Sha'tek Adept Package MK-3,2967,implant,,,endurance,702,274
+Sha'tek Adept Package MK-3,2967,implant,,,power,453,274
+Sha'tek Adept Package MK-3,2967,implant,,,crit,304,274
+Sha'tek Bastion Device MK-3,2968,ear,,,mastery,576,274
+Sha'tek Bastion Device MK-3,2968,ear,,,endurance,733,274
+Sha'tek Bastion Device MK-3,2968,ear,,,shield,304,274
+Sha'tek Bastion Device MK-3,2968,ear,,,defense,453,274
+Sha'tek Bastion Package MK-3,2969,implant,,,mastery,576,274
+Sha'tek Bastion Package MK-3,2969,implant,,,endurance,733,274
+Sha'tek Bastion Package MK-3,2969,implant,,,shield,304,274
+Sha'tek Bastion Package MK-3,2969,implant,,,defense,453,274
+Sha'tek Bulwark Device MK-3,2970,ear,,,mastery,576,274
+Sha'tek Bulwark Device MK-3,2970,ear,,,endurance,733,274
+Sha'tek Bulwark Device MK-3,2970,ear,,,absorption,304,274
+Sha'tek Bulwark Device MK-3,2970,ear,,,defense,453,274
+Sha'tek Bulwark Package MK-3,2971,implant,,,mastery,576,274
+Sha'tek Bulwark Package MK-3,2971,implant,,,endurance,733,274
+Sha'tek Bulwark Package MK-3,2971,implant,,,absorption,304,274
+Sha'tek Bulwark Package MK-3,2971,implant,,,defense,453,274
+Sha'tek Initiative Device MK-3,2972,ear,,,mastery,605,274
+Sha'tek Initiative Device MK-3,2972,ear,,,endurance,702,274
+Sha'tek Initiative Device MK-3,2972,ear,,,accuracy,304,274
+Sha'tek Initiative Device MK-3,2972,ear,,,power,453,274
+Sha'tek Initiative Package MK-3,2973,implant,,,mastery,605,274
+Sha'tek Initiative Package MK-3,2973,implant,,,endurance,702,274
+Sha'tek Initiative Package MK-3,2973,implant,,,accuracy,304,274
+Sha'tek Initiative Package MK-3,2973,implant,,,power,453,274
+Sha'tek Quick Savant Device MK-3,2974,ear,,,mastery,605,274
+Sha'tek Quick Savant Device MK-3,2974,ear,,,endurance,702,274
+Sha'tek Quick Savant Device MK-3,2974,ear,,,power,453,274
+Sha'tek Quick Savant Device MK-3,2974,ear,,,alacrity,304,274
+Sha'tek Quick Savant Package MK-3,2975,implant,,,mastery,605,274
+Sha'tek Quick Savant Package MK-3,2975,implant,,,endurance,702,274
+Sha'tek Quick Savant Package MK-3,2975,implant,,,power,453,274
+Sha'tek Quick Savant Package MK-3,2975,implant,,,alacrity,304,274
+Sha'tek Relic of Avoidance MK-3,2976,relic,,,mastery,374,274
+Sha'tek Relic of Avoidance MK-3,2976,relic,,,absorption,520,274
+Sha'tek Relic of Avoidance MK-3,2976,relic,,,defense,123,274
+Sha'tek Relic of Boundless Ages MK-3,2977,relic,,,endurance,374,274
+Sha'tek Relic of Boundless Ages MK-3,2977,relic,,,power,123,274
+Sha'tek Relic of Boundless Ages MK-3,2977,relic,,,crit,0,274
+Sha'tek Relic of Devastating Vengeance MK-3,2978,relic,,,endurance,374,274
+Sha'tek Relic of Devastating Vengeance MK-3,2978,relic,,,power,123,274
+Sha'tek Relic of Devastating Vengeance MK-3,2978,relic,,,crit,0,274
+Sha'tek Relic of Ephemeral Mending MK-3,2979,relic,,,endurace,374,274
+Sha'tek Relic of Ephemeral Mending MK-3,2979,relic,,,power,123,274
+Sha'tek Relic of Ephemeral Mending MK-3,2979,relic,,,crit,0,274
+Sha'tek Relic of Focused Retribution MK-3,2980,relic,,,endurace,374,274
+Sha'tek Relic of Focused Retribution MK-3,2980,relic,,,power,123,274
+Sha'tek Relic of Focused Retribution MK-3,2980,relic,,,crit,0,274
+Sha'tek Relic of Imperiling Serenity MK-3,2981,relic,,,mastery,374,274
+Sha'tek Relic of Imperiling Serenity MK-3,2981,relic,,,shield,0,274
+Sha'tek Relic of Imperiling Serenity MK-3,2981,relic,,,defense,123,274
+Sha'tek Relic of Reactive Warding MK-3,2982,relic,,,mastery,374,274
+Sha'tek Relic of Reactive Warding MK-3,2982,relic,,,shield,0,274
+Sha'tek Relic of Reactive Warding MK-3,2982,relic,,,defense,123,274
+Sha'tek Relic of Serendipitous Assault MK-3,2983,relic,,,endurance,374,274
+Sha'tek Relic of Serendipitous Assault MK-3,2983,relic,,,power,123,274
+Sha'tek Relic of Serendipitous Assault MK-3,2983,relic,,,crit,0,274
+Sha'tek Relic of the Primeval Fatesealer MK-3,2984,relic,,,endurance,374,274
+Sha'tek Relic of the Primeval Fatesealer MK-3,2984,relic,,,power,123,274
+Sha'tek Relic of the Primeval Fatesealer MK-3,2984,relic,,,crit,0,274
+Sha'tek Relic of the Shield Matrix MK-3,2985,relic,,,mastery,374,274
+Sha'tek Relic of the Shield Matrix MK-3,2985,relic,,,shield,520,274
+Sha'tek Relic of the Shield Matrix MK-3,2985,relic,,,defense,123,274
+Sha'tek Relic of the Shrouded Crusader MK-3,2986,relic,,,mastery,374,274
+Sha'tek Relic of the Shrouded Crusader MK-3,2986,relic,,,shield,0,274
+Sha'tek Relic of the Shrouded Crusader MK-3,2986,relic,,,defense,123,274
+Sha'tek Adept Device MK-4,3005,ear,,,mastery,619,276
+Sha'tek Adept Device MK-4,3005,ear,,,endurance,718,276
+Sha'tek Adept Device MK-4,3005,ear,,,power,464,276
+Sha'tek Adept Device MK-4,3005,ear,,,crit,311,276
+Sha'tek Adept Package MK-4,3006,implant,,,mastery,619,276
+Sha'tek Adept Package MK-4,3006,implant,,,endurance,718,276
+Sha'tek Adept Package MK-4,3006,implant,,,power,464,276
+Sha'tek Adept Package MK-4,3006,implant,,,crit,311,276
+Sha'tek Bastion Device MK-4,3007,ear,,,mastery,589,276
+Sha'tek Bastion Device MK-4,3007,ear,,,endurance,749,276
+Sha'tek Bastion Device MK-4,3007,ear,,,shield,311,276
+Sha'tek Bastion Device MK-4,3007,ear,,,defense,464,276
+Sha'tek Bastion Package MK-4,3008,implant,,,mastery,589,276
+Sha'tek Bastion Package MK-4,3008,implant,,,endurance,749,276
+Sha'tek Bastion Package MK-4,3008,implant,,,shield,311,276
+Sha'tek Bastion Package MK-4,3008,implant,,,defense,464,276
+Sha'tek Bulwark Device MK-4,3009,ear,,,mastery,589,276
+Sha'tek Bulwark Device MK-4,3009,ear,,,endurance,749,276
+Sha'tek Bulwark Device MK-4,3009,ear,,,absorption,311,276
+Sha'tek Bulwark Device MK-4,3009,ear,,,defense,464,276
+Sha'tek Bulwark Package MK-4,3010,implant,,,mastery,589,276
+Sha'tek Bulwark Package MK-4,3010,implant,,,endurance,749,276
+Sha'tek Bulwark Package MK-4,3010,implant,,,absorption,311,276
+Sha'tek Bulwark Package MK-4,3010,implant,,,defense,464,276
+Sha'tek Initiative Device MK-4,3011,ear,,,mastery,619,276
+Sha'tek Initiative Device MK-4,3011,ear,,,endurance,718,276
+Sha'tek Initiative Device MK-4,3011,ear,,,accuracy,311,276
+Sha'tek Initiative Device MK-4,3011,ear,,,power,464,276
+Sha'tek Initiative Package MK-4,3012,implant,,,mastery,619,276
+Sha'tek Initiative Package MK-4,3012,implant,,,endurance,718,276
+Sha'tek Initiative Package MK-4,3012,implant,,,accuracy,311,276
+Sha'tek Initiative Package MK-4,3012,implant,,,power,464,276
+Sha'tek Quick Savant Device MK-4,3013,ear,,,mastery,619,276
+Sha'tek Quick Savant Device MK-4,3013,ear,,,endurance,718,276
+Sha'tek Quick Savant Device MK-4,3013,ear,,,power,464,276
+Sha'tek Quick Savant Device MK-4,3013,ear,,,alacrity,311,276
+Sha'tek Quick Savant Package MK-4,3014,implant,,,mastery,619,276
+Sha'tek Quick Savant Package MK-4,3014,implant,,,endurance,718,276
+Sha'tek Quick Savant Package MK-4,3014,implant,,,power,464,276
+Sha'tek Quick Savant Package MK-4,3014,implant,,,alacrity,311,276
+Sha'tek Relic of Avoidance MK-4,3015,relic,,,mastery,382,276
+Sha'tek Relic of Avoidance MK-4,3015,relic,,,absorption,531,276
+Sha'tek Relic of Avoidance MK-4,3015,relic,,,defense,126,276
+Sha'tek Relic of Boundless Ages MK-4,3016,relic,,,endurance,382,276
+Sha'tek Relic of Boundless Ages MK-4,3016,relic,,,power,126,276
+Sha'tek Relic of Boundless Ages MK-4,3016,relic,,,crit,0,276
+Sha'tek Relic of Devastating Vengeance MK-4,3017,relic,,,endurance,382,276
+Sha'tek Relic of Devastating Vengeance MK-4,3017,relic,,,power,126,276
+Sha'tek Relic of Devastating Vengeance MK-4,3017,relic,,,crit,0,276
+Sha'tek Relic of Ephemeral Mending MK-4,3018,relic,,,endurace,382,276
+Sha'tek Relic of Ephemeral Mending MK-4,3018,relic,,,power,126,276
+Sha'tek Relic of Ephemeral Mending MK-4,3018,relic,,,crit,0,276
+Sha'tek Relic of Focused Retribution MK-4,3019,relic,,,endurace,382,276
+Sha'tek Relic of Focused Retribution MK-4,3019,relic,,,power,126,276
+Sha'tek Relic of Focused Retribution MK-4,3019,relic,,,crit,0,276
+Sha'tek Relic of Imperiling Serenity MK-4,3020,relic,,,mastery,382,276
+Sha'tek Relic of Imperiling Serenity MK-4,3020,relic,,,shield,0,276
+Sha'tek Relic of Imperiling Serenity MK-4,3020,relic,,,defense,126,276
+Sha'tek Relic of Reactive Warding MK-4,3021,relic,,,mastery,382,276
+Sha'tek Relic of Reactive Warding MK-4,3021,relic,,,shield,0,276
+Sha'tek Relic of Reactive Warding MK-4,3021,relic,,,defense,126,276
+Sha'tek Relic of Serendipitous Assault MK-4,3022,relic,,,endurance,382,276
+Sha'tek Relic of Serendipitous Assault MK-4,3022,relic,,,power,126,276
+Sha'tek Relic of Serendipitous Assault MK-4,3022,relic,,,crit,0,276
+Sha'tek Relic of the Primeval Fatesealer MK-4,3023,relic,,,endurance,382,276
+Sha'tek Relic of the Primeval Fatesealer MK-4,3023,relic,,,power,126,276
+Sha'tek Relic of the Primeval Fatesealer MK-4,3023,relic,,,crit,0,276
+Sha'tek Relic of the Shield Matrix MK-4,3024,relic,,,mastery,382,276
+Sha'tek Relic of the Shield Matrix MK-4,3024,relic,,,shield,531,276
+Sha'tek Relic of the Shield Matrix MK-4,3024,relic,,,defense,126,276
+Sha'tek Relic of the Shrouded Crusader MK-4,3025,relic,,,mastery,382,276
+Sha'tek Relic of the Shrouded Crusader MK-4,3025,relic,,,shield,0,276
+Sha'tek Relic of the Shrouded Crusader MK-4,3025,relic,,,defense,126,276
+Sha'tek Adept Device MK-5,3044,ear,,,mastery,632,278
+Sha'tek Adept Device MK-5,3044,ear,,,endurance,735,278
+Sha'tek Adept Device MK-5,3044,ear,,,power,475,278
+Sha'tek Adept Device MK-5,3044,ear,,,crit,318,278
+Sha'tek Adept Package MK-5,3045,implant,,,mastery,632,278
+Sha'tek Adept Package MK-5,3045,implant,,,endurance,735,278
+Sha'tek Adept Package MK-5,3045,implant,,,power,475,278
+Sha'tek Adept Package MK-5,3045,implant,,,crit,318,278
+Sha'tek Bastion Device MK-5,3046,ear,,,mastery,602,278
+Sha'tek Bastion Device MK-5,3046,ear,,,endurance,767,278
+Sha'tek Bastion Device MK-5,3046,ear,,,shield,318,278
+Sha'tek Bastion Device MK-5,3046,ear,,,defense,475,278
+Sha'tek Bastion Package MK-5,3047,implant,,,mastery,602,278
+Sha'tek Bastion Package MK-5,3047,implant,,,endurance,767,278
+Sha'tek Bastion Package MK-5,3047,implant,,,shield,318,278
+Sha'tek Bastion Package MK-5,3047,implant,,,defense,475,278
+Sha'tek Bulwark Device MK-5,3048,ear,,,mastery,602,278
+Sha'tek Bulwark Device MK-5,3048,ear,,,endurance,767,278
+Sha'tek Bulwark Device MK-5,3048,ear,,,absorption,318,278
+Sha'tek Bulwark Device MK-5,3048,ear,,,defense,475,278
+Sha'tek Bulwark Package MK-5,3049,implant,,,mastery,602,278
+Sha'tek Bulwark Package MK-5,3049,implant,,,endurance,767,278
+Sha'tek Bulwark Package MK-5,3049,implant,,,absorption,318,278
+Sha'tek Bulwark Package MK-5,3049,implant,,,defense,475,278
+Sha'tek Initiative Device MK-5,3050,ear,,,mastery,632,278
+Sha'tek Initiative Device MK-5,3050,ear,,,endurance,735,278
+Sha'tek Initiative Device MK-5,3050,ear,,,accuracy,318,278
+Sha'tek Initiative Device MK-5,3050,ear,,,power,475,278
+Sha'tek Initiative Package MK-5,3051,implant,,,mastery,632,278
+Sha'tek Initiative Package MK-5,3051,implant,,,endurance,735,278
+Sha'tek Initiative Package MK-5,3051,implant,,,accuracy,318,278
+Sha'tek Initiative Package MK-5,3051,implant,,,power,475,278
+Sha'tek Quick Savant Device MK-5,3052,ear,,,mastery,632,278
+Sha'tek Quick Savant Device MK-5,3052,ear,,,endurance,735,278
+Sha'tek Quick Savant Device MK-5,3052,ear,,,power,475,278
+Sha'tek Quick Savant Device MK-5,3052,ear,,,alacrity,318,278
+Sha'tek Quick Savant Package MK-5,3053,implant,,,mastery,632,278
+Sha'tek Quick Savant Package MK-5,3053,implant,,,endurance,735,278
+Sha'tek Quick Savant Package MK-5,3053,implant,,,power,475,278
+Sha'tek Quick Savant Package MK-5,3053,implant,,,alacrity,318,278
+Sha'tek Relic of Avoidance MK-5,3054,relic,,,mastery,391,278
+Sha'tek Relic of Avoidance MK-5,3054,relic,,,absorption,542,278
+Sha'tek Relic of Avoidance MK-5,3054,relic,,,defense,130,278
+Sha'tek Relic of Boundless Ages MK-5,3055,relic,,,endurance,391,278
+Sha'tek Relic of Boundless Ages MK-5,3055,relic,,,power,130,278
+Sha'tek Relic of Boundless Ages MK-5,3055,relic,,,crit,0,278
+Sha'tek Relic of Devastating Vengeance MK-5,3056,relic,,,endurance,391,278
+Sha'tek Relic of Devastating Vengeance MK-5,3056,relic,,,power,130,278
+Sha'tek Relic of Devastating Vengeance MK-5,3056,relic,,,crit,0,278
+Sha'tek Relic of Ephemeral Mending MK-5,3057,relic,,,endurace,391,278
+Sha'tek Relic of Ephemeral Mending MK-5,3057,relic,,,power,130,278
+Sha'tek Relic of Ephemeral Mending MK-5,3057,relic,,,crit,0,278
+Sha'tek Relic of Focused Retribution MK-5,3058,relic,,,endurace,391,278
+Sha'tek Relic of Focused Retribution MK-5,3058,relic,,,power,130,278
+Sha'tek Relic of Focused Retribution MK-5,3058,relic,,,crit,0,278
+Sha'tek Relic of Imperiling Serenity MK-5,3059,relic,,,mastery,391,278
+Sha'tek Relic of Imperiling Serenity MK-5,3059,relic,,,shield,0,278
+Sha'tek Relic of Imperiling Serenity MK-5,3059,relic,,,defense,130,278
+Sha'tek Relic of Reactive Warding MK-5,3060,relic,,,mastery,391,278
+Sha'tek Relic of Reactive Warding MK-5,3060,relic,,,shield,0,278
+Sha'tek Relic of Reactive Warding MK-5,3060,relic,,,defense,130,278
+Sha'tek Relic of Serendipitous Assault MK-5,3061,relic,,,endurance,391,278
+Sha'tek Relic of Serendipitous Assault MK-5,3061,relic,,,power,130,278
+Sha'tek Relic of Serendipitous Assault MK-5,3061,relic,,,crit,0,278
+Sha'tek Relic of the Primeval Fatesealer MK-5,3062,relic,,,endurance,391,278
+Sha'tek Relic of the Primeval Fatesealer MK-5,3062,relic,,,power,130,278
+Sha'tek Relic of the Primeval Fatesealer MK-5,3062,relic,,,crit,0,278
+Sha'tek Relic of the Shield Matrix MK-5,3063,relic,,,mastery,391,278
+Sha'tek Relic of the Shield Matrix MK-5,3063,relic,,,shield,542,278
+Sha'tek Relic of the Shield Matrix MK-5,3063,relic,,,defense,130,278
+Sha'tek Relic of the Shrouded Crusader MK-5,3064,relic,,,mastery,391,278
+Sha'tek Relic of the Shrouded Crusader MK-5,3064,relic,,,shield,0,278
+Sha'tek Relic of the Shrouded Crusader MK-5,3064,relic,,,defense,130,278
+Sha'tek Adept Device MK-6,3083,ear,,,mastery,647,280
+Sha'tek Adept Device MK-6,3083,ear,,,endurance,752,280
+Sha'tek Adept Device MK-6,3083,ear,,,power,486,280
+Sha'tek Adept Device MK-6,3083,ear,,,crit,325,280
+Sha'tek Adept Package MK-6,3084,implant,,,mastery,647,280
+Sha'tek Adept Package MK-6,3084,implant,,,endurance,752,280
+Sha'tek Adept Package MK-6,3084,implant,,,power,486,280
+Sha'tek Adept Package MK-6,3084,implant,,,crit,325,280
+Sha'tek Bastion Device MK-6,3085,ear,,,mastery,616,280
+Sha'tek Bastion Device MK-6,3085,ear,,,endurance,785,280
+Sha'tek Bastion Device MK-6,3085,ear,,,shield,325,280
+Sha'tek Bastion Device MK-6,3085,ear,,,defense,486,280
+Sha'tek Bastion Package MK-6,3086,implant,,,mastery,616,280
+Sha'tek Bastion Package MK-6,3086,implant,,,endurance,785,280
+Sha'tek Bastion Package MK-6,3086,implant,,,shield,325,280
+Sha'tek Bastion Package MK-6,3086,implant,,,defense,486,280
+Sha'tek Bulwark Device MK-6,3087,ear,,,mastery,616,280
+Sha'tek Bulwark Device MK-6,3087,ear,,,endurance,785,280
+Sha'tek Bulwark Device MK-6,3087,ear,,,absorption,325,280
+Sha'tek Bulwark Device MK-6,3087,ear,,,defense,486,280
+Sha'tek Bulwark Package MK-6,3088,implant,,,mastery,616,280
+Sha'tek Bulwark Package MK-6,3088,implant,,,endurance,785,280
+Sha'tek Bulwark Package MK-6,3088,implant,,,absorption,325,280
+Sha'tek Bulwark Package MK-6,3088,implant,,,defense,486,280
+Sha'tek Initiative Device MK-6,3089,ear,,,mastery,647,280
+Sha'tek Initiative Device MK-6,3089,ear,,,endurance,752,280
+Sha'tek Initiative Device MK-6,3089,ear,,,accuracy,325,280
+Sha'tek Initiative Device MK-6,3089,ear,,,power,486,280
+Sha'tek Initiative Package MK-6,3090,implant,,,mastery,647,280
+Sha'tek Initiative Package MK-6,3090,implant,,,endurance,752,280
+Sha'tek Initiative Package MK-6,3090,implant,,,accuracy,325,280
+Sha'tek Initiative Package MK-6,3090,implant,,,power,486,280
+Sha'tek Quick Savant Device MK-6,3091,ear,,,mastery,647,280
+Sha'tek Quick Savant Device MK-6,3091,ear,,,endurance,752,280
+Sha'tek Quick Savant Device MK-6,3091,ear,,,power,486,280
+Sha'tek Quick Savant Device MK-6,3091,ear,,,alacrity,325,280
+Sha'tek Quick Savant Package MK-6,3092,implant,,,mastery,647,280
+Sha'tek Quick Savant Package MK-6,3092,implant,,,endurance,752,280
+Sha'tek Quick Savant Package MK-6,3092,implant,,,power,486,280
+Sha'tek Quick Savant Package MK-6,3092,implant,,,alacrity,325,280
+Sha'tek Relic of Avoidance MK-6,3093,relic,,,mastery,399,280
+Sha'tek Relic of Avoidance MK-6,3093,relic,,,absorption,554,280
+Sha'tek Relic of Avoidance MK-6,3093,relic,,,defense,133,280
+Sha'tek Relic of Boundless Ages MK-6,3094,relic,,,endurance,399,280
+Sha'tek Relic of Boundless Ages MK-6,3094,relic,,,power,133,280
+Sha'tek Relic of Boundless Ages MK-6,3094,relic,,,crit,0,280
+Sha'tek Relic of Devastating Vengeance MK-6,3095,relic,,,endurance,399,280
+Sha'tek Relic of Devastating Vengeance MK-6,3095,relic,,,power,133,280
+Sha'tek Relic of Devastating Vengeance MK-6,3095,relic,,,crit,0,280
+Sha'tek Relic of Ephemeral Mending MK-6,3096,relic,,,endurace,399,280
+Sha'tek Relic of Ephemeral Mending MK-6,3096,relic,,,power,133,280
+Sha'tek Relic of Ephemeral Mending MK-6,3096,relic,,,crit,0,280
+Sha'tek Relic of Focused Retribution MK-6,3097,relic,,,endurace,399,280
+Sha'tek Relic of Focused Retribution MK-6,3097,relic,,,power,133,280
+Sha'tek Relic of Focused Retribution MK-6,3097,relic,,,crit,0,280
+Sha'tek Relic of Imperiling Serenity MK-6,3098,relic,,,mastery,399,280
+Sha'tek Relic of Imperiling Serenity MK-6,3098,relic,,,shield,0,280
+Sha'tek Relic of Imperiling Serenity MK-6,3098,relic,,,defense,133,280
+Sha'tek Relic of Reactive Warding MK-6,3099,relic,,,mastery,399,280
+Sha'tek Relic of Reactive Warding MK-6,3099,relic,,,shield,0,280
+Sha'tek Relic of Reactive Warding MK-6,3099,relic,,,defense,133,280
+Sha'tek Relic of Serendipitous Assault MK-6,3100,relic,,,endurance,399,280
+Sha'tek Relic of Serendipitous Assault MK-6,3100,relic,,,power,133,280
+Sha'tek Relic of Serendipitous Assault MK-6,3100,relic,,,crit,0,280
+Sha'tek Relic of the Primeval Fatesealer MK-6,3101,relic,,,endurance,399,280
+Sha'tek Relic of the Primeval Fatesealer MK-6,3101,relic,,,power,133,280
+Sha'tek Relic of the Primeval Fatesealer MK-6,3101,relic,,,crit,0,280
+Sha'tek Relic of the Shield Matrix MK-6,3102,relic,,,mastery,399,280
+Sha'tek Relic of the Shield Matrix MK-6,3102,relic,,,shield,554,280
+Sha'tek Relic of the Shield Matrix MK-6,3102,relic,,,defense,133,280
+Sha'tek Relic of the Shrouded Crusader MK-6,3103,relic,,,mastery,399,280
+Sha'tek Relic of the Shrouded Crusader MK-6,3103,relic,,,shield,0,280
+Sha'tek Relic of the Shrouded Crusader MK-6,3103,relic,,,defense,133,280
+Sha'tek Adept Device MK-7,3122,ear,,,mastery,661,282
+Sha'tek Adept Device MK-7,3122,ear,,,endurance,769,282
+Sha'tek Adept Device MK-7,3122,ear,,,power,497,282
+Sha'tek Adept Device MK-7,3122,ear,,,crit,332,282
+Sha'tek Adept Package MK-7,3123,implant,,,mastery,661,282
+Sha'tek Adept Package MK-7,3123,implant,,,endurance,769,282
+Sha'tek Adept Package MK-7,3123,implant,,,power,497,282
+Sha'tek Adept Package MK-7,3123,implant,,,crit,332,282
+Sha'tek Bastion Device MK-7,3124,ear,,,mastery,629,282
+Sha'tek Bastion Device MK-7,3124,ear,,,endurance,802,282
+Sha'tek Bastion Device MK-7,3124,ear,,,shield,332,282
+Sha'tek Bastion Device MK-7,3124,ear,,,defense,497,282
+Sha'tek Bastion Package MK-7,3125,implant,,,mastery,629,282
+Sha'tek Bastion Package MK-7,3125,implant,,,endurance,802,282
+Sha'tek Bastion Package MK-7,3125,implant,,,shield,332,282
+Sha'tek Bastion Package MK-7,3125,implant,,,defense,497,282
+Sha'tek Bulwark Device MK-7,3126,ear,,,mastery,629,282
+Sha'tek Bulwark Device MK-7,3126,ear,,,endurance,802,282
+Sha'tek Bulwark Device MK-7,3126,ear,,,absorption,332,282
+Sha'tek Bulwark Device MK-7,3126,ear,,,defense,497,282
+Sha'tek Bulwark Package MK-7,3127,implant,,,mastery,629,282
+Sha'tek Bulwark Package MK-7,3127,implant,,,endurance,802,282
+Sha'tek Bulwark Package MK-7,3127,implant,,,absorption,332,282
+Sha'tek Bulwark Package MK-7,3127,implant,,,defense,497,282
+Sha'tek Initiative Device MK-7,3128,ear,,,mastery,661,282
+Sha'tek Initiative Device MK-7,3128,ear,,,endurance,769,282
+Sha'tek Initiative Device MK-7,3128,ear,,,accuracy,332,282
+Sha'tek Initiative Device MK-7,3128,ear,,,power,497,282
+Sha'tek Initiative Package MK-7,3129,implant,,,mastery,661,282
+Sha'tek Initiative Package MK-7,3129,implant,,,endurance,769,282
+Sha'tek Initiative Package MK-7,3129,implant,,,accuracy,332,282
+Sha'tek Initiative Package MK-7,3129,implant,,,power,497,282
+Sha'tek Quick Savant Device MK-7,3130,ear,,,mastery,661,282
+Sha'tek Quick Savant Device MK-7,3130,ear,,,endurance,769,282
+Sha'tek Quick Savant Device MK-7,3130,ear,,,power,497,282
+Sha'tek Quick Savant Device MK-7,3130,ear,,,alacrity,332,282
+Sha'tek Quick Savant Package MK-7,3131,implant,,,mastery,661,282
+Sha'tek Quick Savant Package MK-7,3131,implant,,,endurance,769,282
+Sha'tek Quick Savant Package MK-7,3131,implant,,,power,497,282
+Sha'tek Quick Savant Package MK-7,3131,implant,,,alacrity,332,282
+Sha'tek Relic of Avoidance MK-7,3132,relic,,,mastery,408,282
+Sha'tek Relic of Avoidance MK-7,3132,relic,,,absorption,565,282
+Sha'tek Relic of Avoidance MK-7,3132,relic,,,defense,136,282
+Sha'tek Relic of Boundless Ages MK-7,3133,relic,,,endurance,408,282
+Sha'tek Relic of Boundless Ages MK-7,3133,relic,,,power,136,282
+Sha'tek Relic of Boundless Ages MK-7,3133,relic,,,crit,0,282
+Sha'tek Relic of Devastating Vengeance MK-7,3134,relic,,,endurance,408,282
+Sha'tek Relic of Devastating Vengeance MK-7,3134,relic,,,power,136,282
+Sha'tek Relic of Devastating Vengeance MK-7,3134,relic,,,crit,0,282
+Sha'tek Relic of Ephemeral Mending MK-7,3135,relic,,,endurace,408,282
+Sha'tek Relic of Ephemeral Mending MK-7,3135,relic,,,power,136,282
+Sha'tek Relic of Ephemeral Mending MK-7,3135,relic,,,crit,0,282
+Sha'tek Relic of Focused Retribution MK-7,3136,relic,,,endurace,408,282
+Sha'tek Relic of Focused Retribution MK-7,3136,relic,,,power,136,282
+Sha'tek Relic of Focused Retribution MK-7,3136,relic,,,crit,0,282
+Sha'tek Relic of Imperiling Serenity MK-7,3137,relic,,,mastery,408,282
+Sha'tek Relic of Imperiling Serenity MK-7,3137,relic,,,shield,0,282
+Sha'tek Relic of Imperiling Serenity MK-7,3137,relic,,,defense,136,282
+Sha'tek Relic of Reactive Warding MK-7,3138,relic,,,mastery,408,282
+Sha'tek Relic of Reactive Warding MK-7,3138,relic,,,shield,0,282
+Sha'tek Relic of Reactive Warding MK-7,3138,relic,,,defense,136,282
+Sha'tek Relic of Serendipitous Assault MK-7,3139,relic,,,endurance,408,282
+Sha'tek Relic of Serendipitous Assault MK-7,3139,relic,,,power,136,282
+Sha'tek Relic of Serendipitous Assault MK-7,3139,relic,,,crit,0,282
+Sha'tek Relic of the Primeval Fatesealer MK-7,3140,relic,,,endurance,408,282
+Sha'tek Relic of the Primeval Fatesealer MK-7,3140,relic,,,power,136,282
+Sha'tek Relic of the Primeval Fatesealer MK-7,3140,relic,,,crit,0,282
+Sha'tek Relic of the Shield Matrix MK-7,3141,relic,,,mastery,408,282
+Sha'tek Relic of the Shield Matrix MK-7,3141,relic,,,shield,565,282
+Sha'tek Relic of the Shield Matrix MK-7,3141,relic,,,defense,136,282
+Sha'tek Relic of the Shrouded Crusader MK-7,3142,relic,,,mastery,408,282
+Sha'tek Relic of the Shrouded Crusader MK-7,3142,relic,,,shield,0,282
+Sha'tek Relic of the Shrouded Crusader MK-7,3142,relic,,,defense,136,282
+Sha'tek Adept Device MK-8,3161,ear,,,mastery,676,284
+Sha'tek Adept Device MK-8,3161,ear,,,endurance,787,284
+Sha'tek Adept Device MK-8,3161,ear,,,power,509,284
+Sha'tek Adept Device MK-8,3161,ear,,,crit,339,284
+Sha'tek Adept Package MK-8,3162,implant,,,mastery,676,284
+Sha'tek Adept Package MK-8,3162,implant,,,endurance,787,284
+Sha'tek Adept Package MK-8,3162,implant,,,power,509,284
+Sha'tek Adept Package MK-8,3162,implant,,,crit,339,284
+Sha'tek Bastion Device MK-8,3163,ear,,,mastery,643,284
+Sha'tek Bastion Device MK-8,3163,ear,,,endurance,821,284
+Sha'tek Bastion Device MK-8,3163,ear,,,shield,339,284
+Sha'tek Bastion Device MK-8,3163,ear,,,defense,509,284
+Sha'tek Bastion Package MK-8,3164,implant,,,mastery,643,284
+Sha'tek Bastion Package MK-8,3164,implant,,,endurance,821,284
+Sha'tek Bastion Package MK-8,3164,implant,,,shield,339,284
+Sha'tek Bastion Package MK-8,3164,implant,,,defense,509,284
+Sha'tek Bulwark Device MK-8,3165,ear,,,mastery,643,284
+Sha'tek Bulwark Device MK-8,3165,ear,,,endurance,821,284
+Sha'tek Bulwark Device MK-8,3165,ear,,,absorption,339,284
+Sha'tek Bulwark Device MK-8,3165,ear,,,defense,509,284
+Sha'tek Bulwark Package MK-8,3166,implant,,,mastery,643,284
+Sha'tek Bulwark Package MK-8,3166,implant,,,endurance,821,284
+Sha'tek Bulwark Package MK-8,3166,implant,,,absorption,339,284
+Sha'tek Bulwark Package MK-8,3166,implant,,,defense,509,284
+Sha'tek Initiative Device MK-8,3167,ear,,,mastery,676,284
+Sha'tek Initiative Device MK-8,3167,ear,,,endurance,787,284
+Sha'tek Initiative Device MK-8,3167,ear,,,accuracy,339,284
+Sha'tek Initiative Device MK-8,3167,ear,,,power,509,284
+Sha'tek Initiative Package MK-8,3168,implant,,,mastery,676,284
+Sha'tek Initiative Package MK-8,3168,implant,,,endurance,787,284
+Sha'tek Initiative Package MK-8,3168,implant,,,accuracy,339,284
+Sha'tek Initiative Package MK-8,3168,implant,,,power,509,284
+Sha'tek Quick Savant Device MK-8,3169,ear,,,mastery,676,284
+Sha'tek Quick Savant Device MK-8,3169,ear,,,endurance,787,284
+Sha'tek Quick Savant Device MK-8,3169,ear,,,power,509,284
+Sha'tek Quick Savant Device MK-8,3169,ear,,,alacrity,339,284
+Sha'tek Quick Savant Package MK-8,3170,implant,,,mastery,676,284
+Sha'tek Quick Savant Package MK-8,3170,implant,,,endurance,787,284
+Sha'tek Quick Savant Package MK-8,3170,implant,,,power,509,284
+Sha'tek Quick Savant Package MK-8,3170,implant,,,alacrity,339,284
+Sha'tek Relic of Avoidance MK-8,3171,relic,,,mastery,417,284
+Sha'tek Relic of Avoidance MK-8,3171,relic,,,absorption,577,284
+Sha'tek Relic of Avoidance MK-8,3171,relic,,,defense,140,284
+Sha'tek Relic of Boundless Ages MK-8,3172,relic,,,endurance,417,284
+Sha'tek Relic of Boundless Ages MK-8,3172,relic,,,power,140,284
+Sha'tek Relic of Boundless Ages MK-8,3172,relic,,,crit,0,284
+Sha'tek Relic of Devastating Vengeance MK-8,3173,relic,,,endurance,417,284
+Sha'tek Relic of Devastating Vengeance MK-8,3173,relic,,,power,140,284
+Sha'tek Relic of Devastating Vengeance MK-8,3173,relic,,,crit,0,284
+Sha'tek Relic of Ephemeral Mending MK-8,3174,relic,,,endurace,417,284
+Sha'tek Relic of Ephemeral Mending MK-8,3174,relic,,,power,140,284
+Sha'tek Relic of Ephemeral Mending MK-8,3174,relic,,,crit,0,284
+Sha'tek Relic of Focused Retribution MK-8,3175,relic,,,endurace,417,284
+Sha'tek Relic of Focused Retribution MK-8,3175,relic,,,power,140,284
+Sha'tek Relic of Focused Retribution MK-8,3175,relic,,,crit,0,284
+Sha'tek Relic of Imperiling Serenity MK-8,3176,relic,,,mastery,417,284
+Sha'tek Relic of Imperiling Serenity MK-8,3176,relic,,,shield,0,284
+Sha'tek Relic of Imperiling Serenity MK-8,3176,relic,,,defense,140,284
+Sha'tek Relic of Reactive Warding MK-8,3177,relic,,,mastery,417,284
+Sha'tek Relic of Reactive Warding MK-8,3177,relic,,,shield,0,284
+Sha'tek Relic of Reactive Warding MK-8,3177,relic,,,defense,140,284
+Sha'tek Relic of Serendipitous Assault MK-8,3178,relic,,,endurance,417,284
+Sha'tek Relic of Serendipitous Assault MK-8,3178,relic,,,power,140,284
+Sha'tek Relic of Serendipitous Assault MK-8,3178,relic,,,crit,0,284
+Sha'tek Relic of the Primeval Fatesealer MK-8,3179,relic,,,endurance,417,284
+Sha'tek Relic of the Primeval Fatesealer MK-8,3179,relic,,,power,140,284
+Sha'tek Relic of the Primeval Fatesealer MK-8,3179,relic,,,crit,0,284
+Sha'tek Relic of the Shield Matrix MK-8,3180,relic,,,mastery,417,284
+Sha'tek Relic of the Shield Matrix MK-8,3180,relic,,,shield,577,284
+Sha'tek Relic of the Shield Matrix MK-8,3180,relic,,,defense,140,284
+Sha'tek Relic of the Shrouded Crusader MK-8,3181,relic,,,mastery,417,284
+Sha'tek Relic of the Shrouded Crusader MK-8,3181,relic,,,shield,0,284
+Sha'tek Relic of the Shrouded Crusader MK-8,3181,relic,,,defense,140,284
+Sha'tek Adept Device MK-9,3200,ear,,,mastery,691,286
+Sha'tek Adept Device MK-9,3200,ear,,,endurance,806,286
+Sha'tek Adept Device MK-9,3200,ear,,,power,521,286
+Sha'tek Adept Device MK-9,3200,ear,,,crit,347,286
+Sha'tek Adept Package MK-9,3201,implant,,,mastery,691,286
+Sha'tek Adept Package MK-9,3201,implant,,,endurance,806,286
+Sha'tek Adept Package MK-9,3201,implant,,,power,521,286
+Sha'tek Adept Package MK-9,3201,implant,,,crit,347,286
+Sha'tek Bastion Device MK-9,3202,ear,,,mastery,658,286
+Sha'tek Bastion Device MK-9,3202,ear,,,endurance,841,286
+Sha'tek Bastion Device MK-9,3202,ear,,,shield,347,286
+Sha'tek Bastion Device MK-9,3202,ear,,,defense,521,286
+Sha'tek Bastion Package MK-9,3203,implant,,,mastery,658,286
+Sha'tek Bastion Package MK-9,3203,implant,,,endurance,841,286
+Sha'tek Bastion Package MK-9,3203,implant,,,shield,347,286
+Sha'tek Bastion Package MK-9,3203,implant,,,defense,521,286
+Sha'tek Bulwark Device MK-9,3204,ear,,,mastery,658,286
+Sha'tek Bulwark Device MK-9,3204,ear,,,endurance,841,286
+Sha'tek Bulwark Device MK-9,3204,ear,,,absorption,347,286
+Sha'tek Bulwark Device MK-9,3204,ear,,,defense,521,286
+Sha'tek Bulwark Package MK-9,3205,implant,,,mastery,658,286
+Sha'tek Bulwark Package MK-9,3205,implant,,,endurance,841,286
+Sha'tek Bulwark Package MK-9,3205,implant,,,absorption,347,286
+Sha'tek Bulwark Package MK-9,3205,implant,,,defense,521,286
+Sha'tek Initiative Device MK-9,3206,ear,,,mastery,691,286
+Sha'tek Initiative Device MK-9,3206,ear,,,endurance,806,286
+Sha'tek Initiative Device MK-9,3206,ear,,,accuracy,347,286
+Sha'tek Initiative Device MK-9,3206,ear,,,power,521,286
+Sha'tek Initiative Package MK-9,3207,implant,,,mastery,691,286
+Sha'tek Initiative Package MK-9,3207,implant,,,endurance,806,286
+Sha'tek Initiative Package MK-9,3207,implant,,,accuracy,347,286
+Sha'tek Initiative Package MK-9,3207,implant,,,power,521,286
+Sha'tek Quick Savant Device MK-9,3208,ear,,,mastery,691,286
+Sha'tek Quick Savant Device MK-9,3208,ear,,,endurance,806,286
+Sha'tek Quick Savant Device MK-9,3208,ear,,,power,521,286
+Sha'tek Quick Savant Device MK-9,3208,ear,,,alacrity,347,286
+Sha'tek Quick Savant Package MK-9,3209,implant,,,mastery,691,286
+Sha'tek Quick Savant Package MK-9,3209,implant,,,endurance,806,286
+Sha'tek Quick Savant Package MK-9,3209,implant,,,power,521,286
+Sha'tek Quick Savant Package MK-9,3209,implant,,,alacrity,347,286
+Sha'tek Relic of Avoidance MK-9,3210,relic,,,mastery,426,286
+Sha'tek Relic of Avoidance MK-9,3210,relic,,,absorption,589,286
+Sha'tek Relic of Avoidance MK-9,3210,relic,,,defense,144,286
+Sha'tek Relic of Boundless Ages MK-9,3211,relic,,,endurance,426,286
+Sha'tek Relic of Boundless Ages MK-9,3211,relic,,,power,144,286
+Sha'tek Relic of Boundless Ages MK-9,3211,relic,,,crit,0,286
+Sha'tek Relic of Devastating Vengeance MK-9,3212,relic,,,endurance,426,286
+Sha'tek Relic of Devastating Vengeance MK-9,3212,relic,,,power,144,286
+Sha'tek Relic of Devastating Vengeance MK-9,3212,relic,,,crit,0,286
+Sha'tek Relic of Ephemeral Mending MK-9,3213,relic,,,endurace,426,286
+Sha'tek Relic of Ephemeral Mending MK-9,3213,relic,,,power,144,286
+Sha'tek Relic of Ephemeral Mending MK-9,3213,relic,,,crit,0,286
+Sha'tek Relic of Focused Retribution MK-9,3214,relic,,,endurace,426,286
+Sha'tek Relic of Focused Retribution MK-9,3214,relic,,,power,144,286
+Sha'tek Relic of Focused Retribution MK-9,3214,relic,,,crit,0,286
+Sha'tek Relic of Imperiling Serenity MK-9,3215,relic,,,mastery,426,286
+Sha'tek Relic of Imperiling Serenity MK-9,3215,relic,,,shield,0,286
+Sha'tek Relic of Imperiling Serenity MK-9,3215,relic,,,defense,144,286
+Sha'tek Relic of Reactive Warding MK-9,3216,relic,,,mastery,426,286
+Sha'tek Relic of Reactive Warding MK-9,3216,relic,,,shield,0,286
+Sha'tek Relic of Reactive Warding MK-9,3216,relic,,,defense,144,286
+Sha'tek Relic of Serendipitous Assault MK-9,3217,relic,,,endurance,426,286
+Sha'tek Relic of Serendipitous Assault MK-9,3217,relic,,,power,144,286
+Sha'tek Relic of Serendipitous Assault MK-9,3217,relic,,,crit,0,286
+Sha'tek Relic of the Primeval Fatesealer MK-9,3218,relic,,,endurance,426,286
+Sha'tek Relic of the Primeval Fatesealer MK-9,3218,relic,,,power,144,286
+Sha'tek Relic of the Primeval Fatesealer MK-9,3218,relic,,,crit,0,286
+Sha'tek Relic of the Shield Matrix MK-9,3219,relic,,,mastery,426,286
+Sha'tek Relic of the Shield Matrix MK-9,3219,relic,,,shield,589,286
+Sha'tek Relic of the Shield Matrix MK-9,3219,relic,,,defense,144,286
+Sha'tek Relic of the Shrouded Crusader MK-9,3220,relic,,,mastery,426,286
+Sha'tek Relic of the Shrouded Crusader MK-9,3220,relic,,,shield,0,286
+Sha'tek Relic of the Shrouded Crusader MK-9,3220,relic,,,defense,144,286
+Sha'tek Adept Device MK-10,3239,ear,,,mastery,706,288
+Sha'tek Adept Device MK-10,3239,ear,,,endurance,824,288
+Sha'tek Adept Device MK-10,3239,ear,,,power,532,288
+Sha'tek Adept Device MK-10,3239,ear,,,crit,355,288
+Sha'tek Adept Package MK-10,3240,implant,,,mastery,706,288
+Sha'tek Adept Package MK-10,3240,implant,,,endurance,824,288
+Sha'tek Adept Package MK-10,3240,implant,,,power,532,288
+Sha'tek Adept Package MK-10,3240,implant,,,crit,355,288
+Sha'tek Bastion Device MK-10,3241,ear,,,mastery,673,288
+Sha'tek Bastion Device MK-10,3241,ear,,,endurance,859,288
+Sha'tek Bastion Device MK-10,3241,ear,,,shield,355,288
+Sha'tek Bastion Device MK-10,3241,ear,,,defense,532,288
+Sha'tek Bastion Package MK-10,3242,implant,,,mastery,673,288
+Sha'tek Bastion Package MK-10,3242,implant,,,endurance,859,288
+Sha'tek Bastion Package MK-10,3242,implant,,,shield,355,288
+Sha'tek Bastion Package MK-10,3242,implant,,,defense,532,288
+Sha'tek Bulwark Device MK-10,3243,ear,,,mastery,673,288
+Sha'tek Bulwark Device MK-10,3243,ear,,,endurance,859,288
+Sha'tek Bulwark Device MK-10,3243,ear,,,absorption,355,288
+Sha'tek Bulwark Device MK-10,3243,ear,,,defense,532,288
+Sha'tek Bulwark Package MK-10,3244,implant,,,mastery,673,288
+Sha'tek Bulwark Package MK-10,3244,implant,,,endurance,859,288
+Sha'tek Bulwark Package MK-10,3244,implant,,,absorption,355,288
+Sha'tek Bulwark Package MK-10,3244,implant,,,defense,532,288
+Sha'tek Initiative Device MK-10,3245,ear,,,mastery,706,288
+Sha'tek Initiative Device MK-10,3245,ear,,,endurance,824,288
+Sha'tek Initiative Device MK-10,3245,ear,,,accuracy,355,288
+Sha'tek Initiative Device MK-10,3245,ear,,,power,532,288
+Sha'tek Initiative Package MK-10,3246,implant,,,mastery,706,288
+Sha'tek Initiative Package MK-10,3246,implant,,,endurance,824,288
+Sha'tek Initiative Package MK-10,3246,implant,,,accuracy,355,288
+Sha'tek Initiative Package MK-10,3246,implant,,,power,532,288
+Sha'tek Quick Savant Device MK-10,3247,ear,,,mastery,706,288
+Sha'tek Quick Savant Device MK-10,3247,ear,,,endurance,824,288
+Sha'tek Quick Savant Device MK-10,3247,ear,,,power,532,288
+Sha'tek Quick Savant Device MK-10,3247,ear,,,alacrity,355,288
+Sha'tek Quick Savant Package MK-10,3248,implant,,,mastery,706,288
+Sha'tek Quick Savant Package MK-10,3248,implant,,,endurance,824,288
+Sha'tek Quick Savant Package MK-10,3248,implant,,,power,532,288
+Sha'tek Quick Savant Package MK-10,3248,implant,,,alacrity,355,288
+Sha'tek Relic of Avoidance MK-10,3249,relic,,,mastery,435,288
+Sha'tek Relic of Avoidance MK-10,3249,relic,,,absorption,602,288
+Sha'tek Relic of Avoidance MK-10,3249,relic,,,defense,147,288
+Sha'tek Relic of Boundless Ages MK-10,3250,relic,,,endurance,435,288
+Sha'tek Relic of Boundless Ages MK-10,3250,relic,,,power,147,288
+Sha'tek Relic of Boundless Ages MK-10,3250,relic,,,crit,0,288
+Sha'tek Relic of Devastating Vengeance MK-10,3251,relic,,,endurance,435,288
+Sha'tek Relic of Devastating Vengeance MK-10,3251,relic,,,power,147,288
+Sha'tek Relic of Devastating Vengeance MK-10,3251,relic,,,crit,0,288
+Sha'tek Relic of Ephemeral Mending MK-10,3252,relic,,,endurace,435,288
+Sha'tek Relic of Ephemeral Mending MK-10,3252,relic,,,power,147,288
+Sha'tek Relic of Ephemeral Mending MK-10,3252,relic,,,crit,0,288
+Sha'tek Relic of Focused Retribution MK-10,3253,relic,,,endurace,435,288
+Sha'tek Relic of Focused Retribution MK-10,3253,relic,,,power,147,288
+Sha'tek Relic of Focused Retribution MK-10,3253,relic,,,crit,0,288
+Sha'tek Relic of Imperiling Serenity MK-10,3254,relic,,,mastery,435,288
+Sha'tek Relic of Imperiling Serenity MK-10,3254,relic,,,shield,0,288
+Sha'tek Relic of Imperiling Serenity MK-10,3254,relic,,,defense,147,288
+Sha'tek Relic of Reactive Warding MK-10,3255,relic,,,mastery,435,288
+Sha'tek Relic of Reactive Warding MK-10,3255,relic,,,shield,0,288
+Sha'tek Relic of Reactive Warding MK-10,3255,relic,,,defense,147,288
+Sha'tek Relic of Serendipitous Assault MK-10,3256,relic,,,endurance,435,288
+Sha'tek Relic of Serendipitous Assault MK-10,3256,relic,,,power,147,288
+Sha'tek Relic of Serendipitous Assault MK-10,3256,relic,,,crit,0,288
+Sha'tek Relic of the Primeval Fatesealer MK-10,3257,relic,,,endurance,435,288
+Sha'tek Relic of the Primeval Fatesealer MK-10,3257,relic,,,power,147,288
+Sha'tek Relic of the Primeval Fatesealer MK-10,3257,relic,,,crit,0,288
+Sha'tek Relic of the Shield Matrix MK-10,3258,relic,,,mastery,435,288
+Sha'tek Relic of the Shield Matrix MK-10,3258,relic,,,shield,602,288
+Sha'tek Relic of the Shield Matrix MK-10,3258,relic,,,defense,147,288
+Sha'tek Relic of the Shrouded Crusader MK-10,3259,relic,,,mastery,435,288
+Sha'tek Relic of the Shrouded Crusader MK-10,3259,relic,,,shield,0,288
+Sha'tek Relic of the Shrouded Crusader MK-10,3259,relic,,,defense,147,288
+Sha'tek Adept Device MK-11,3278,ear,,,mastery,722,290
+Sha'tek Adept Device MK-11,3278,ear,,,endurance,842,290
+Sha'tek Adept Device MK-11,3278,ear,,,power,545,290
+Sha'tek Adept Device MK-11,3278,ear,,,crit,362,290
+Sha'tek Adept Package MK-11,3279,implant,,,mastery,722,290
+Sha'tek Adept Package MK-11,3279,implant,,,endurance,842,290
+Sha'tek Adept Package MK-11,3279,implant,,,power,545,290
+Sha'tek Adept Package MK-11,3279,implant,,,crit,362,290
+Sha'tek Bastion Device MK-11,3280,ear,,,mastery,687,290
+Sha'tek Bastion Device MK-11,3280,ear,,,endurance,878,290
+Sha'tek Bastion Device MK-11,3280,ear,,,shield,362,290
+Sha'tek Bastion Device MK-11,3280,ear,,,defense,545,290
+Sha'tek Bastion Package MK-11,3281,implant,,,mastery,687,290
+Sha'tek Bastion Package MK-11,3281,implant,,,endurance,878,290
+Sha'tek Bastion Package MK-11,3281,implant,,,shield,362,290
+Sha'tek Bastion Package MK-11,3281,implant,,,defense,545,290
+Sha'tek Bulwark Device MK-11,3282,ear,,,mastery,687,290
+Sha'tek Bulwark Device MK-11,3282,ear,,,endurance,878,290
+Sha'tek Bulwark Device MK-11,3282,ear,,,absorption,362,290
+Sha'tek Bulwark Device MK-11,3282,ear,,,defense,545,290
+Sha'tek Bulwark Package MK-11,3283,implant,,,mastery,687,290
+Sha'tek Bulwark Package MK-11,3283,implant,,,endurance,878,290
+Sha'tek Bulwark Package MK-11,3283,implant,,,absorption,362,290
+Sha'tek Bulwark Package MK-11,3283,implant,,,defense,545,290
+Sha'tek Initiative Device MK-11,3284,ear,,,mastery,722,290
+Sha'tek Initiative Device MK-11,3284,ear,,,endurance,842,290
+Sha'tek Initiative Device MK-11,3284,ear,,,accuracy,362,290
+Sha'tek Initiative Device MK-11,3284,ear,,,power,545,290
+Sha'tek Initiative Package MK-11,3285,implant,,,mastery,722,290
+Sha'tek Initiative Package MK-11,3285,implant,,,endurance,842,290
+Sha'tek Initiative Package MK-11,3285,implant,,,accuracy,362,290
+Sha'tek Initiative Package MK-11,3285,implant,,,power,545,290
+Sha'tek Quick Savant Device MK-11,3286,ear,,,mastery,722,290
+Sha'tek Quick Savant Device MK-11,3286,ear,,,endurance,842,290
+Sha'tek Quick Savant Device MK-11,3286,ear,,,power,545,290
+Sha'tek Quick Savant Device MK-11,3286,ear,,,alacrity,362,290
+Sha'tek Quick Savant Package MK-11,3287,implant,,,mastery,722,290
+Sha'tek Quick Savant Package MK-11,3287,implant,,,endurance,842,290
+Sha'tek Quick Savant Package MK-11,3287,implant,,,power,545,290
+Sha'tek Quick Savant Package MK-11,3287,implant,,,alacrity,362,290
+Sha'tek Relic of Avoidance MK-11,3288,relic,,,mastery,444,290
+Sha'tek Relic of Avoidance MK-11,3288,relic,,,absorption,614,290
+Sha'tek Relic of Avoidance MK-11,3288,relic,,,defense,151,290
+Sha'tek Relic of Boundless Ages MK-11,3289,relic,,,endurance,444,290
+Sha'tek Relic of Boundless Ages MK-11,3289,relic,,,power,151,290
+Sha'tek Relic of Boundless Ages MK-11,3289,relic,,,crit,0,290
+Sha'tek Relic of Devastating Vengeance MK-11,3290,relic,,,endurance,444,290
+Sha'tek Relic of Devastating Vengeance MK-11,3290,relic,,,power,151,290
+Sha'tek Relic of Devastating Vengeance MK-11,3290,relic,,,crit,0,290
+Sha'tek Relic of Ephemeral Mending MK-11,3291,relic,,,endurace,444,290
+Sha'tek Relic of Ephemeral Mending MK-11,3291,relic,,,power,151,290
+Sha'tek Relic of Ephemeral Mending MK-11,3291,relic,,,crit,0,290
+Sha'tek Relic of Focused Retribution MK-11,3292,relic,,,endurace,444,290
+Sha'tek Relic of Focused Retribution MK-11,3292,relic,,,power,151,290
+Sha'tek Relic of Focused Retribution MK-11,3292,relic,,,crit,0,290
+Sha'tek Relic of Imperiling Serenity MK-11,3293,relic,,,mastery,444,290
+Sha'tek Relic of Imperiling Serenity MK-11,3293,relic,,,shield,0,290
+Sha'tek Relic of Imperiling Serenity MK-11,3293,relic,,,defense,151,290
+Sha'tek Relic of Reactive Warding MK-11,3294,relic,,,mastery,444,290
+Sha'tek Relic of Reactive Warding MK-11,3294,relic,,,shield,0,290
+Sha'tek Relic of Reactive Warding MK-11,3294,relic,,,defense,151,290
+Sha'tek Relic of Serendipitous Assault MK-11,3295,relic,,,endurance,444,290
+Sha'tek Relic of Serendipitous Assault MK-11,3295,relic,,,power,151,290
+Sha'tek Relic of Serendipitous Assault MK-11,3295,relic,,,crit,0,290
+Sha'tek Relic of the Primeval Fatesealer MK-11,3296,relic,,,endurance,444,290
+Sha'tek Relic of the Primeval Fatesealer MK-11,3296,relic,,,power,151,290
+Sha'tek Relic of the Primeval Fatesealer MK-11,3296,relic,,,crit,0,290
+Sha'tek Relic of the Shield Matrix MK-11,3297,relic,,,mastery,444,290
+Sha'tek Relic of the Shield Matrix MK-11,3297,relic,,,shield,614,290
+Sha'tek Relic of the Shield Matrix MK-11,3297,relic,,,defense,151,290
+Sha'tek Relic of the Shrouded Crusader MK-11,3298,relic,,,mastery,444,290
+Sha'tek Relic of the Shrouded Crusader MK-11,3298,relic,,,shield,0,290
+Sha'tek Relic of the Shrouded Crusader MK-11,3298,relic,,,defense,151,290
+Sha'tek Adept Device MK-12,3317,ear,,,mastery,738,292
+Sha'tek Adept Device MK-12,3317,ear,,,endurance,862,292
+Sha'tek Adept Device MK-12,3317,ear,,,power,557,292
+Sha'tek Adept Device MK-12,3317,ear,,,crit,370,292
+Sha'tek Adept Package MK-12,3318,implant,,,mastery,738,292
+Sha'tek Adept Package MK-12,3318,implant,,,endurance,862,292
+Sha'tek Adept Package MK-12,3318,implant,,,power,557,292
+Sha'tek Adept Package MK-12,3318,implant,,,crit,370,292
+Sha'tek Bastion Device MK-12,3319,ear,,,mastery,702,292
+Sha'tek Bastion Device MK-12,3319,ear,,,endurance,898,292
+Sha'tek Bastion Device MK-12,3319,ear,,,shield,370,292
+Sha'tek Bastion Device MK-12,3319,ear,,,defense,557,292
+Sha'tek Bastion Package MK-12,3320,implant,,,mastery,702,292
+Sha'tek Bastion Package MK-12,3320,implant,,,endurance,898,292
+Sha'tek Bastion Package MK-12,3320,implant,,,shield,370,292
+Sha'tek Bastion Package MK-12,3320,implant,,,defense,557,292
+Sha'tek Bulwark Device MK-12,3321,ear,,,mastery,702,292
+Sha'tek Bulwark Device MK-12,3321,ear,,,endurance,898,292
+Sha'tek Bulwark Device MK-12,3321,ear,,,absorption,370,292
+Sha'tek Bulwark Device MK-12,3321,ear,,,defense,557,292
+Sha'tek Bulwark Package MK-12,3322,implant,,,mastery,702,292
+Sha'tek Bulwark Package MK-12,3322,implant,,,endurance,898,292
+Sha'tek Bulwark Package MK-12,3322,implant,,,absorption,370,292
+Sha'tek Bulwark Package MK-12,3322,implant,,,defense,557,292
+Sha'tek Initiative Device MK-12,3323,ear,,,mastery,738,292
+Sha'tek Initiative Device MK-12,3323,ear,,,endurance,862,292
+Sha'tek Initiative Device MK-12,3323,ear,,,accuracy,370,292
+Sha'tek Initiative Device MK-12,3323,ear,,,power,557,292
+Sha'tek Initiative Package MK-12,3324,implant,,,mastery,738,292
+Sha'tek Initiative Package MK-12,3324,implant,,,endurance,862,292
+Sha'tek Initiative Package MK-12,3324,implant,,,accuracy,370,292
+Sha'tek Initiative Package MK-12,3324,implant,,,power,557,292
+Sha'tek Quick Savant Device MK-12,3325,ear,,,mastery,738,292
+Sha'tek Quick Savant Device MK-12,3325,ear,,,endurance,862,292
+Sha'tek Quick Savant Device MK-12,3325,ear,,,power,557,292
+Sha'tek Quick Savant Device MK-12,3325,ear,,,alacrity,370,292
+Sha'tek Quick Savant Package MK-12,3326,implant,,,mastery,738,292
+Sha'tek Quick Savant Package MK-12,3326,implant,,,endurance,862,292
+Sha'tek Quick Savant Package MK-12,3326,implant,,,power,557,292
+Sha'tek Quick Savant Package MK-12,3326,implant,,,alacrity,370,292
+Sha'tek Relic of Avoidance MK-12,3327,relic,,,mastery,454,292
+Sha'tek Relic of Avoidance MK-12,3327,relic,,,absorption,627,292
+Sha'tek Relic of Avoidance MK-12,3327,relic,,,defense,155,292
+Sha'tek Relic of Boundless Ages MK-12,3328,relic,,,endurance,454,292
+Sha'tek Relic of Boundless Ages MK-12,3328,relic,,,power,155,292
+Sha'tek Relic of Boundless Ages MK-12,3328,relic,,,crit,0,292
+Sha'tek Relic of Devastating Vengeance MK-12,3329,relic,,,endurance,454,292
+Sha'tek Relic of Devastating Vengeance MK-12,3329,relic,,,power,155,292
+Sha'tek Relic of Devastating Vengeance MK-12,3329,relic,,,crit,0,292
+Sha'tek Relic of Ephemeral Mending MK-12,3330,relic,,,endurace,454,292
+Sha'tek Relic of Ephemeral Mending MK-12,3330,relic,,,power,155,292
+Sha'tek Relic of Ephemeral Mending MK-12,3330,relic,,,crit,0,292
+Sha'tek Relic of Focused Retribution MK-12,3331,relic,,,endurace,454,292
+Sha'tek Relic of Focused Retribution MK-12,3331,relic,,,power,155,292
+Sha'tek Relic of Focused Retribution MK-12,3331,relic,,,crit,0,292
+Sha'tek Relic of Imperiling Serenity MK-12,3332,relic,,,mastery,454,292
+Sha'tek Relic of Imperiling Serenity MK-12,3332,relic,,,shield,0,292
+Sha'tek Relic of Imperiling Serenity MK-12,3332,relic,,,defense,155,292
+Sha'tek Relic of Reactive Warding MK-12,3333,relic,,,mastery,454,292
+Sha'tek Relic of Reactive Warding MK-12,3333,relic,,,shield,0,292
+Sha'tek Relic of Reactive Warding MK-12,3333,relic,,,defense,155,292
+Sha'tek Relic of Serendipitous Assault MK-12,3334,relic,,,endurance,454,292
+Sha'tek Relic of Serendipitous Assault MK-12,3334,relic,,,power,155,292
+Sha'tek Relic of Serendipitous Assault MK-12,3334,relic,,,crit,0,292
+Sha'tek Relic of the Primeval Fatesealer MK-12,3335,relic,,,endurance,454,292
+Sha'tek Relic of the Primeval Fatesealer MK-12,3335,relic,,,power,155,292
+Sha'tek Relic of the Primeval Fatesealer MK-12,3335,relic,,,crit,0,292
+Sha'tek Relic of the Shield Matrix MK-12,3336,relic,,,mastery,454,292
+Sha'tek Relic of the Shield Matrix MK-12,3336,relic,,,shield,627,292
+Sha'tek Relic of the Shield Matrix MK-12,3336,relic,,,defense,155,292
+Sha'tek Relic of the Shrouded Crusader MK-12,3337,relic,,,mastery,454,292
+Sha'tek Relic of the Shrouded Crusader MK-12,3337,relic,,,shield,0,292
+Sha'tek Relic of the Shrouded Crusader MK-12,3337,relic,,,defense,155,292
+Sha'tek Adept Device MK-13,3356,ear,,,mastery,754,294
+Sha'tek Adept Device MK-13,3356,ear,,,endurance,883,294
+Sha'tek Adept Device MK-13,3356,ear,,,power,571,294
+Sha'tek Adept Device MK-13,3356,ear,,,crit,379,294
+Sha'tek Adept Package MK-13,3357,implant,,,mastery,754,294
+Sha'tek Adept Package MK-13,3357,implant,,,endurance,883,294
+Sha'tek Adept Package MK-13,3357,implant,,,power,571,294
+Sha'tek Adept Package MK-13,3357,implant,,,crit,379,294
+Sha'tek Bastion Device MK-13,3358,ear,,,mastery,719,294
+Sha'tek Bastion Device MK-13,3358,ear,,,endurance,920,294
+Sha'tek Bastion Device MK-13,3358,ear,,,shield,379,294
+Sha'tek Bastion Device MK-13,3358,ear,,,defense,571,294
+Sha'tek Bastion Package MK-13,3359,implant,,,mastery,719,294
+Sha'tek Bastion Package MK-13,3359,implant,,,endurance,920,294
+Sha'tek Bastion Package MK-13,3359,implant,,,shield,379,294
+Sha'tek Bastion Package MK-13,3359,implant,,,defense,571,294
+Sha'tek Bulwark Device MK-13,3360,ear,,,mastery,719,294
+Sha'tek Bulwark Device MK-13,3360,ear,,,endurance,920,294
+Sha'tek Bulwark Device MK-13,3360,ear,,,absorption,379,294
+Sha'tek Bulwark Device MK-13,3360,ear,,,defense,571,294
+Sha'tek Bulwark Package MK-13,3361,implant,,,mastery,719,294
+Sha'tek Bulwark Package MK-13,3361,implant,,,endurance,920,294
+Sha'tek Bulwark Package MK-13,3361,implant,,,absorption,379,294
+Sha'tek Bulwark Package MK-13,3361,implant,,,defense,571,294
+Sha'tek Initiative Device MK-13,3362,ear,,,mastery,754,294
+Sha'tek Initiative Device MK-13,3362,ear,,,endurance,883,294
+Sha'tek Initiative Device MK-13,3362,ear,,,accuracy,379,294
+Sha'tek Initiative Device MK-13,3362,ear,,,power,571,294
+Sha'tek Initiative Package MK-13,3363,implant,,,mastery,754,294
+Sha'tek Initiative Package MK-13,3363,implant,,,endurance,883,294
+Sha'tek Initiative Package MK-13,3363,implant,,,accuracy,379,294
+Sha'tek Initiative Package MK-13,3363,implant,,,power,571,294
+Sha'tek Quick Savant Device MK-13,3364,ear,,,mastery,754,294
+Sha'tek Quick Savant Device MK-13,3364,ear,,,endurance,883,294
+Sha'tek Quick Savant Device MK-13,3364,ear,,,power,571,294
+Sha'tek Quick Savant Device MK-13,3364,ear,,,alacrity,379,294
+Sha'tek Quick Savant Package MK-13,3365,implant,,,mastery,754,294
+Sha'tek Quick Savant Package MK-13,3365,implant,,,endurance,883,294
+Sha'tek Quick Savant Package MK-13,3365,implant,,,power,571,294
+Sha'tek Quick Savant Package MK-13,3365,implant,,,alacrity,379,294
+Sha'tek Relic of Avoidance MK-13,3366,relic,,,mastery,464,294
+Sha'tek Relic of Avoidance MK-13,3366,relic,,,absorption,640,294
+Sha'tek Relic of Avoidance MK-13,3366,relic,,,defense,159,294
+Sha'tek Relic of Boundless Ages MK-13,3367,relic,,,endurance,464,294
+Sha'tek Relic of Boundless Ages MK-13,3367,relic,,,power,159,294
+Sha'tek Relic of Boundless Ages MK-13,3367,relic,,,crit,0,294
+Sha'tek Relic of Devastating Vengeance MK-13,3368,relic,,,endurance,464,294
+Sha'tek Relic of Devastating Vengeance MK-13,3368,relic,,,power,159,294
+Sha'tek Relic of Devastating Vengeance MK-13,3368,relic,,,crit,0,294
+Sha'tek Relic of Ephemeral Mending MK-13,3369,relic,,,endurace,464,294
+Sha'tek Relic of Ephemeral Mending MK-13,3369,relic,,,power,159,294
+Sha'tek Relic of Ephemeral Mending MK-13,3369,relic,,,crit,0,294
+Sha'tek Relic of Focused Retribution MK-13,3370,relic,,,endurace,464,294
+Sha'tek Relic of Focused Retribution MK-13,3370,relic,,,power,159,294
+Sha'tek Relic of Focused Retribution MK-13,3370,relic,,,crit,0,294
+Sha'tek Relic of Imperiling Serenity MK-13,3371,relic,,,mastery,464,294
+Sha'tek Relic of Imperiling Serenity MK-13,3371,relic,,,shield,0,294
+Sha'tek Relic of Imperiling Serenity MK-13,3371,relic,,,defense,159,294
+Sha'tek Relic of Reactive Warding MK-13,3372,relic,,,mastery,464,294
+Sha'tek Relic of Reactive Warding MK-13,3372,relic,,,shield,0,294
+Sha'tek Relic of Reactive Warding MK-13,3372,relic,,,defense,159,294
+Sha'tek Relic of Serendipitous Assault MK-13,3373,relic,,,endurance,464,294
+Sha'tek Relic of Serendipitous Assault MK-13,3373,relic,,,power,159,294
+Sha'tek Relic of Serendipitous Assault MK-13,3373,relic,,,crit,0,294
+Sha'tek Relic of the Primeval Fatesealer MK-13,3374,relic,,,endurance,464,294
+Sha'tek Relic of the Primeval Fatesealer MK-13,3374,relic,,,power,159,294
+Sha'tek Relic of the Primeval Fatesealer MK-13,3374,relic,,,crit,0,294
+Sha'tek Relic of the Shield Matrix MK-13,3375,relic,,,mastery,464,294
+Sha'tek Relic of the Shield Matrix MK-13,3375,relic,,,shield,640,294
+Sha'tek Relic of the Shield Matrix MK-13,3375,relic,,,defense,159,294
+Sha'tek Relic of the Shrouded Crusader MK-13,3376,relic,,,mastery,464,294
+Sha'tek Relic of the Shrouded Crusader MK-13,3376,relic,,,shield,0,294
+Sha'tek Relic of the Shrouded Crusader MK-13,3376,relic,,,defense,159,294
+Sha'tek Adept Device MK-14,3395,ear,,,mastery,770,296
+Sha'tek Adept Device MK-14,3395,ear,,,endurance,901,296
+Sha'tek Adept Device MK-14,3395,ear,,,power,584,296
+Sha'tek Adept Device MK-14,3395,ear,,,crit,387,296
+Sha'tek Adept Package MK-14,3396,implant,,,mastery,770,296
+Sha'tek Adept Package MK-14,3396,implant,,,endurance,901,296
+Sha'tek Adept Package MK-14,3396,implant,,,power,584,296
+Sha'tek Adept Package MK-14,3396,implant,,,crit,387,296
+Sha'tek Bastion Device MK-14,3397,ear,,,mastery,734,296
+Sha'tek Bastion Device MK-14,3397,ear,,,endurance,939,296
+Sha'tek Bastion Device MK-14,3397,ear,,,shield,387,296
+Sha'tek Bastion Device MK-14,3397,ear,,,defense,584,296
+Sha'tek Bastion Package MK-14,3398,implant,,,mastery,734,296
+Sha'tek Bastion Package MK-14,3398,implant,,,endurance,939,296
+Sha'tek Bastion Package MK-14,3398,implant,,,shield,387,296
+Sha'tek Bastion Package MK-14,3398,implant,,,defense,584,296
+Sha'tek Bulwark Device MK-14,3399,ear,,,mastery,734,296
+Sha'tek Bulwark Device MK-14,3399,ear,,,endurance,939,296
+Sha'tek Bulwark Device MK-14,3399,ear,,,absorption,387,296
+Sha'tek Bulwark Device MK-14,3399,ear,,,defense,584,296
+Sha'tek Bulwark Package MK-14,3400,implant,,,mastery,734,296
+Sha'tek Bulwark Package MK-14,3400,implant,,,endurance,939,296
+Sha'tek Bulwark Package MK-14,3400,implant,,,absorption,387,296
+Sha'tek Bulwark Package MK-14,3400,implant,,,defense,584,296
+Sha'tek Initiative Device MK-14,3401,ear,,,mastery,770,296
+Sha'tek Initiative Device MK-14,3401,ear,,,endurance,901,296
+Sha'tek Initiative Device MK-14,3401,ear,,,accuracy,387,296
+Sha'tek Initiative Device MK-14,3401,ear,,,power,584,296
+Sha'tek Initiative Package MK-14,3402,implant,,,mastery,770,296
+Sha'tek Initiative Package MK-14,3402,implant,,,endurance,901,296
+Sha'tek Initiative Package MK-14,3402,implant,,,accuracy,387,296
+Sha'tek Initiative Package MK-14,3402,implant,,,power,584,296
+Sha'tek Quick Savant Device MK-14,3403,ear,,,mastery,770,296
+Sha'tek Quick Savant Device MK-14,3403,ear,,,endurance,901,296
+Sha'tek Quick Savant Device MK-14,3403,ear,,,power,584,296
+Sha'tek Quick Savant Device MK-14,3403,ear,,,alacrity,387,296
+Sha'tek Quick Savant Package MK-14,3404,implant,,,mastery,770,296
+Sha'tek Quick Savant Package MK-14,3404,implant,,,endurance,901,296
+Sha'tek Quick Savant Package MK-14,3404,implant,,,power,584,296
+Sha'tek Quick Savant Package MK-14,3404,implant,,,alacrity,387,296
+Sha'tek Relic of Avoidance MK-14,3405,relic,,,mastery,474,296
+Sha'tek Relic of Avoidance MK-14,3405,relic,,,absorption,653,296
+Sha'tek Relic of Avoidance MK-14,3405,relic,,,defense,163,296
+Sha'tek Relic of Boundless Ages MK-14,3406,relic,,,endurance,474,296
+Sha'tek Relic of Boundless Ages MK-14,3406,relic,,,power,163,296
+Sha'tek Relic of Boundless Ages MK-14,3406,relic,,,crit,0,296
+Sha'tek Relic of Devastating Vengeance MK-14,3407,relic,,,endurance,474,296
+Sha'tek Relic of Devastating Vengeance MK-14,3407,relic,,,power,163,296
+Sha'tek Relic of Devastating Vengeance MK-14,3407,relic,,,crit,0,296
+Sha'tek Relic of Ephemeral Mending MK-14,3408,relic,,,endurace,474,296
+Sha'tek Relic of Ephemeral Mending MK-14,3408,relic,,,power,163,296
+Sha'tek Relic of Ephemeral Mending MK-14,3408,relic,,,crit,0,296
+Sha'tek Relic of Focused Retribution MK-14,3409,relic,,,endurace,474,296
+Sha'tek Relic of Focused Retribution MK-14,3409,relic,,,power,163,296
+Sha'tek Relic of Focused Retribution MK-14,3409,relic,,,crit,0,296
+Sha'tek Relic of Imperiling Serenity MK-14,3410,relic,,,mastery,474,296
+Sha'tek Relic of Imperiling Serenity MK-14,3410,relic,,,shield,0,296
+Sha'tek Relic of Imperiling Serenity MK-14,3410,relic,,,defense,163,296
+Sha'tek Relic of Reactive Warding MK-14,3411,relic,,,mastery,474,296
+Sha'tek Relic of Reactive Warding MK-14,3411,relic,,,shield,0,296
+Sha'tek Relic of Reactive Warding MK-14,3411,relic,,,defense,163,296
+Sha'tek Relic of Serendipitous Assault MK-14,3412,relic,,,endurance,474,296
+Sha'tek Relic of Serendipitous Assault MK-14,3412,relic,,,power,163,296
+Sha'tek Relic of Serendipitous Assault MK-14,3412,relic,,,crit,0,296
+Sha'tek Relic of the Primeval Fatesealer MK-14,3413,relic,,,endurance,474,296
+Sha'tek Relic of the Primeval Fatesealer MK-14,3413,relic,,,power,163,296
+Sha'tek Relic of the Primeval Fatesealer MK-14,3413,relic,,,crit,0,296
+Sha'tek Relic of the Shield Matrix MK-14,3414,relic,,,mastery,474,296
+Sha'tek Relic of the Shield Matrix MK-14,3414,relic,,,shield,653,296
+Sha'tek Relic of the Shield Matrix MK-14,3414,relic,,,defense,163,296
+Sha'tek Relic of the Shrouded Crusader MK-14,3415,relic,,,mastery,474,296
+Sha'tek Relic of the Shrouded Crusader MK-14,3415,relic,,,shield,0,296
+Sha'tek Relic of the Shrouded Crusader MK-14,3415,relic,,,defense,163,296
+Sha'tek Adept Device MK-15,3434,ear,,,mastery,788,298
+Sha'tek Adept Device MK-15,3434,ear,,,endurance,922,298
+Sha'tek Adept Device MK-15,3434,ear,,,power,596,298
+Sha'tek Adept Device MK-15,3434,ear,,,crit,395,298
+Sha'tek Adept Package MK-15,3435,implant,,,mastery,788,298
+Sha'tek Adept Package MK-15,3435,implant,,,endurance,922,298
+Sha'tek Adept Package MK-15,3435,implant,,,power,596,298
+Sha'tek Adept Package MK-15,3435,implant,,,crit,395,298
+Sha'tek Bastion Device MK-15,3436,ear,,,mastery,750,298
+Sha'tek Bastion Device MK-15,3436,ear,,,endurance,960,298
+Sha'tek Bastion Device MK-15,3436,ear,,,shield,395,298
+Sha'tek Bastion Device MK-15,3436,ear,,,defense,596,298
+Sha'tek Bastion Package MK-15,3437,implant,,,mastery,750,298
+Sha'tek Bastion Package MK-15,3437,implant,,,endurance,960,298
+Sha'tek Bastion Package MK-15,3437,implant,,,shield,395,298
+Sha'tek Bastion Package MK-15,3437,implant,,,defense,596,298
+Sha'tek Bulwark Device MK-15,3438,ear,,,mastery,750,298
+Sha'tek Bulwark Device MK-15,3438,ear,,,endurance,960,298
+Sha'tek Bulwark Device MK-15,3438,ear,,,absorption,395,298
+Sha'tek Bulwark Device MK-15,3438,ear,,,defense,596,298
+Sha'tek Bulwark Package MK-15,3439,implant,,,mastery,750,298
+Sha'tek Bulwark Package MK-15,3439,implant,,,endurance,960,298
+Sha'tek Bulwark Package MK-15,3439,implant,,,absorption,395,298
+Sha'tek Bulwark Package MK-15,3439,implant,,,defense,596,298
+Sha'tek Initiative Device MK-15,3440,ear,,,mastery,788,298
+Sha'tek Initiative Device MK-15,3440,ear,,,endurance,922,298
+Sha'tek Initiative Device MK-15,3440,ear,,,accuracy,395,298
+Sha'tek Initiative Device MK-15,3440,ear,,,power,596,298
+Sha'tek Initiative Package MK-15,3441,implant,,,mastery,788,298
+Sha'tek Initiative Package MK-15,3441,implant,,,endurance,922,298
+Sha'tek Initiative Package MK-15,3441,implant,,,accuracy,395,298
+Sha'tek Initiative Package MK-15,3441,implant,,,power,596,298
+Sha'tek Quick Savant Device MK-15,3442,ear,,,mastery,788,298
+Sha'tek Quick Savant Device MK-15,3442,ear,,,endurance,922,298
+Sha'tek Quick Savant Device MK-15,3442,ear,,,power,596,298
+Sha'tek Quick Savant Device MK-15,3442,ear,,,alacrity,395,298
+Sha'tek Quick Savant Package MK-15,3443,implant,,,mastery,788,298
+Sha'tek Quick Savant Package MK-15,3443,implant,,,endurance,922,298
+Sha'tek Quick Savant Package MK-15,3443,implant,,,power,596,298
+Sha'tek Quick Savant Package MK-15,3443,implant,,,alacrity,395,298
+Sha'tek Relic of Avoidance MK-15,3444,relic,,,mastery,484,298
+Sha'tek Relic of Avoidance MK-15,3444,relic,,,absorption,667,298
+Sha'tek Relic of Avoidance MK-15,3444,relic,,,defense,167,298
+Sha'tek Relic of Boundless Ages MK-15,3445,relic,,,endurance,484,298
+Sha'tek Relic of Boundless Ages MK-15,3445,relic,,,power,167,298
+Sha'tek Relic of Boundless Ages MK-15,3445,relic,,,crit,0,298
+Sha'tek Relic of Devastating Vengeance MK-15,3446,relic,,,endurance,484,298
+Sha'tek Relic of Devastating Vengeance MK-15,3446,relic,,,power,167,298
+Sha'tek Relic of Devastating Vengeance MK-15,3446,relic,,,crit,0,298
+Sha'tek Relic of Ephemeral Mending MK-15,3447,relic,,,endurace,484,298
+Sha'tek Relic of Ephemeral Mending MK-15,3447,relic,,,power,167,298
+Sha'tek Relic of Ephemeral Mending MK-15,3447,relic,,,crit,0,298
+Sha'tek Relic of Focused Retribution MK-15,3448,relic,,,endurace,484,298
+Sha'tek Relic of Focused Retribution MK-15,3448,relic,,,power,167,298
+Sha'tek Relic of Focused Retribution MK-15,3448,relic,,,crit,0,298
+Sha'tek Relic of Imperiling Serenity MK-15,3449,relic,,,mastery,484,298
+Sha'tek Relic of Imperiling Serenity MK-15,3449,relic,,,shield,0,298
+Sha'tek Relic of Imperiling Serenity MK-15,3449,relic,,,defense,167,298
+Sha'tek Relic of Reactive Warding MK-15,3450,relic,,,mastery,484,298
+Sha'tek Relic of Reactive Warding MK-15,3450,relic,,,shield,0,298
+Sha'tek Relic of Reactive Warding MK-15,3450,relic,,,defense,167,298
+Sha'tek Relic of Serendipitous Assault MK-15,3451,relic,,,endurance,484,298
+Sha'tek Relic of Serendipitous Assault MK-15,3451,relic,,,power,167,298
+Sha'tek Relic of Serendipitous Assault MK-15,3451,relic,,,crit,0,298
+Sha'tek Relic of the Primeval Fatesealer MK-15,3452,relic,,,endurance,484,298
+Sha'tek Relic of the Primeval Fatesealer MK-15,3452,relic,,,power,167,298
+Sha'tek Relic of the Primeval Fatesealer MK-15,3452,relic,,,crit,0,298
+Sha'tek Relic of the Shield Matrix MK-15,3453,relic,,,mastery,484,298
+Sha'tek Relic of the Shield Matrix MK-15,3453,relic,,,shield,667,298
+Sha'tek Relic of the Shield Matrix MK-15,3453,relic,,,defense,167,298
+Sha'tek Relic of the Shrouded Crusader MK-15,3454,relic,,,mastery,484,298
+Sha'tek Relic of the Shrouded Crusader MK-15,3454,relic,,,shield,0,298
+Sha'tek Relic of the Shrouded Crusader MK-15,3454,relic,,,defense,167,298
+Sha'tek Adept Device MK-16,3473,ear,,,mastery,805,300
+Sha'tek Adept Device MK-16,3473,ear,,,endurance,943,300
+Sha'tek Adept Device MK-16,3473,ear,,,power,610,300
+Sha'tek Adept Device MK-16,3473,ear,,,crit,404,300
+Sha'tek Adept Package MK-16,3474,implant,,,mastery,805,300
+Sha'tek Adept Package MK-16,3474,implant,,,endurance,943,300
+Sha'tek Adept Package MK-16,3474,implant,,,power,610,300
+Sha'tek Adept Package MK-16,3474,implant,,,crit,404,300
+Sha'tek Bastion Device MK-16,3475,ear,,,mastery,767,300
+Sha'tek Bastion Device MK-16,3475,ear,,,endurance,982,300
+Sha'tek Bastion Device MK-16,3475,ear,,,shield,404,300
+Sha'tek Bastion Device MK-16,3475,ear,,,defense,610,300
+Sha'tek Bastion Package MK-16,3476,implant,,,mastery,767,300
+Sha'tek Bastion Package MK-16,3476,implant,,,endurance,982,300
+Sha'tek Bastion Package MK-16,3476,implant,,,shield,404,300
+Sha'tek Bastion Package MK-16,3476,implant,,,defense,610,300
+Sha'tek Bulwark Device MK-16,3477,ear,,,mastery,767,300
+Sha'tek Bulwark Device MK-16,3477,ear,,,endurance,982,300
+Sha'tek Bulwark Device MK-16,3477,ear,,,absorption,404,300
+Sha'tek Bulwark Device MK-16,3477,ear,,,defense,610,300
+Sha'tek Bulwark Package MK-16,3478,implant,,,mastery,767,300
+Sha'tek Bulwark Package MK-16,3478,implant,,,endurance,982,300
+Sha'tek Bulwark Package MK-16,3478,implant,,,absorption,404,300
+Sha'tek Bulwark Package MK-16,3478,implant,,,defense,610,300
+Sha'tek Initiative Device MK-16,3479,ear,,,mastery,805,300
+Sha'tek Initiative Device MK-16,3479,ear,,,endurance,943,300
+Sha'tek Initiative Device MK-16,3479,ear,,,accuracy,404,300
+Sha'tek Initiative Device MK-16,3479,ear,,,power,610,300
+Sha'tek Initiative Package MK-16,3480,implant,,,mastery,805,300
+Sha'tek Initiative Package MK-16,3480,implant,,,endurance,943,300
+Sha'tek Initiative Package MK-16,3480,implant,,,accuracy,404,300
+Sha'tek Initiative Package MK-16,3480,implant,,,power,610,300
+Sha'tek Quick Savant Device MK-16,3481,ear,,,mastery,805,300
+Sha'tek Quick Savant Device MK-16,3481,ear,,,endurance,943,300
+Sha'tek Quick Savant Device MK-16,3481,ear,,,power,610,300
+Sha'tek Quick Savant Device MK-16,3481,ear,,,alacrity,404,300
+Sha'tek Quick Savant Package MK-16,3482,implant,,,mastery,805,300
+Sha'tek Quick Savant Package MK-16,3482,implant,,,endurance,943,300
+Sha'tek Quick Savant Package MK-16,3482,implant,,,power,610,300
+Sha'tek Quick Savant Package MK-16,3482,implant,,,alacrity,404,300
+Sha'tek Relic of Avoidance MK-16,3483,relic,,,mastery,494,300
+Sha'tek Relic of Avoidance MK-16,3483,relic,,,absorption,680,300
+Sha'tek Relic of Avoidance MK-16,3483,relic,,,defense,171,300
+Sha'tek Relic of Boundless Ages MK-16,3484,relic,,,endurance,494,300
+Sha'tek Relic of Boundless Ages MK-16,3484,relic,,,power,171,300
+Sha'tek Relic of Boundless Ages MK-16,3484,relic,,,crit,0,300
+Sha'tek Relic of Devastating Vengeance MK-16,3485,relic,,,endurance,494,300
+Sha'tek Relic of Devastating Vengeance MK-16,3485,relic,,,power,171,300
+Sha'tek Relic of Devastating Vengeance MK-16,3485,relic,,,crit,0,300
+Sha'tek Relic of Ephemeral Mending MK-16,3486,relic,,,endurace,494,300
+Sha'tek Relic of Ephemeral Mending MK-16,3486,relic,,,power,171,300
+Sha'tek Relic of Ephemeral Mending MK-16,3486,relic,,,crit,0,300
+Sha'tek Relic of Focused Retribution MK-16,3487,relic,,,endurace,494,300
+Sha'tek Relic of Focused Retribution MK-16,3487,relic,,,power,171,300
+Sha'tek Relic of Focused Retribution MK-16,3487,relic,,,crit,0,300
+Sha'tek Relic of Imperiling Serenity MK-16,3488,relic,,,mastery,494,300
+Sha'tek Relic of Imperiling Serenity MK-16,3488,relic,,,shield,0,300
+Sha'tek Relic of Imperiling Serenity MK-16,3488,relic,,,defense,171,300
+Sha'tek Relic of Reactive Warding MK-16,3489,relic,,,mastery,494,300
+Sha'tek Relic of Reactive Warding MK-16,3489,relic,,,shield,0,300
+Sha'tek Relic of Reactive Warding MK-16,3489,relic,,,defense,171,300
+Sha'tek Relic of Serendipitous Assault MK-16,3490,relic,,,endurance,494,300
+Sha'tek Relic of Serendipitous Assault MK-16,3490,relic,,,power,171,300
+Sha'tek Relic of Serendipitous Assault MK-16,3490,relic,,,crit,0,300
+Sha'tek Relic of the Primeval Fatesealer MK-16,3491,relic,,,endurance,494,300
+Sha'tek Relic of the Primeval Fatesealer MK-16,3491,relic,,,power,171,300
+Sha'tek Relic of the Primeval Fatesealer MK-16,3491,relic,,,crit,0,300
+Sha'tek Relic of the Shield Matrix MK-16,3492,relic,,,mastery,494,300
+Sha'tek Relic of the Shield Matrix MK-16,3492,relic,,,shield,680,300
+Sha'tek Relic of the Shield Matrix MK-16,3492,relic,,,defense,171,300
+Sha'tek Relic of the Shrouded Crusader MK-16,3493,relic,,,mastery,494,300
+Sha'tek Relic of the Shrouded Crusader MK-16,3493,relic,,,shield,0,300
+Sha'tek Relic of the Shrouded Crusader MK-16,3493,relic,,,defense,171,300
+Sha'tek Adept Device MK-17,3512,ear,,,mastery,822,302
+Sha'tek Adept Device MK-17,3512,ear,,,endurance,963,302
+Sha'tek Adept Device MK-17,3512,ear,,,power,624,302
+Sha'tek Adept Device MK-17,3512,ear,,,crit,413,302
+Sha'tek Adept Package MK-17,3513,implant,,,mastery,822,302
+Sha'tek Adept Package MK-17,3513,implant,,,endurance,963,302
+Sha'tek Adept Package MK-17,3513,implant,,,power,624,302
+Sha'tek Adept Package MK-17,3513,implant,,,crit,413,302
+Sha'tek Bastion Device MK-17,3514,ear,,,mastery,784,302
+Sha'tek Bastion Device MK-17,3514,ear,,,endurance,1003,302
+Sha'tek Bastion Device MK-17,3514,ear,,,shield,413,302
+Sha'tek Bastion Device MK-17,3514,ear,,,defense,624,302
+Sha'tek Bastion Package MK-17,3515,implant,,,mastery,784,302
+Sha'tek Bastion Package MK-17,3515,implant,,,endurance,1003,302
+Sha'tek Bastion Package MK-17,3515,implant,,,shield,413,302
+Sha'tek Bastion Package MK-17,3515,implant,,,defense,624,302
+Sha'tek Bulwark Device MK-17,3516,ear,,,mastery,784,302
+Sha'tek Bulwark Device MK-17,3516,ear,,,endurance,1003,302
+Sha'tek Bulwark Device MK-17,3516,ear,,,absorption,413,302
+Sha'tek Bulwark Device MK-17,3516,ear,,,defense,624,302
+Sha'tek Bulwark Package MK-17,3517,implant,,,mastery,784,302
+Sha'tek Bulwark Package MK-17,3517,implant,,,endurance,1003,302
+Sha'tek Bulwark Package MK-17,3517,implant,,,absorption,413,302
+Sha'tek Bulwark Package MK-17,3517,implant,,,defense,624,302
+Sha'tek Initiative Device MK-17,3518,ear,,,mastery,822,302
+Sha'tek Initiative Device MK-17,3518,ear,,,endurance,963,302
+Sha'tek Initiative Device MK-17,3518,ear,,,accuracy,413,302
+Sha'tek Initiative Device MK-17,3518,ear,,,power,624,302
+Sha'tek Initiative Package MK-17,3519,implant,,,mastery,822,302
+Sha'tek Initiative Package MK-17,3519,implant,,,endurance,963,302
+Sha'tek Initiative Package MK-17,3519,implant,,,accuracy,413,302
+Sha'tek Initiative Package MK-17,3519,implant,,,power,624,302
+Sha'tek Quick Savant Device MK-17,3520,ear,,,mastery,822,302
+Sha'tek Quick Savant Device MK-17,3520,ear,,,endurance,963,302
+Sha'tek Quick Savant Device MK-17,3520,ear,,,power,624,302
+Sha'tek Quick Savant Device MK-17,3520,ear,,,alacrity,413,302
+Sha'tek Quick Savant Package MK-17,3521,implant,,,mastery,822,302
+Sha'tek Quick Savant Package MK-17,3521,implant,,,endurance,963,302
+Sha'tek Quick Savant Package MK-17,3521,implant,,,power,624,302
+Sha'tek Quick Savant Package MK-17,3521,implant,,,alacrity,413,302
+Sha'tek Relic of Avoidance MK-17,3522,relic,,,mastery,505,302
+Sha'tek Relic of Avoidance MK-17,3522,relic,,,absorption,694,302
+Sha'tek Relic of Avoidance MK-17,3522,relic,,,defense,175,302
+Sha'tek Relic of Boundless Ages MK-17,3523,relic,,,endurance,505,302
+Sha'tek Relic of Boundless Ages MK-17,3523,relic,,,power,175,302
+Sha'tek Relic of Boundless Ages MK-17,3523,relic,,,crit,0,302
+Sha'tek Relic of Devastating Vengeance MK-17,3524,relic,,,endurance,505,302
+Sha'tek Relic of Devastating Vengeance MK-17,3524,relic,,,power,175,302
+Sha'tek Relic of Devastating Vengeance MK-17,3524,relic,,,crit,0,302
+Sha'tek Relic of Ephemeral Mending MK-17,3525,relic,,,endurace,505,302
+Sha'tek Relic of Ephemeral Mending MK-17,3525,relic,,,power,175,302
+Sha'tek Relic of Ephemeral Mending MK-17,3525,relic,,,crit,0,302
+Sha'tek Relic of Focused Retribution MK-17,3526,relic,,,endurace,505,302
+Sha'tek Relic of Focused Retribution MK-17,3526,relic,,,power,175,302
+Sha'tek Relic of Focused Retribution MK-17,3526,relic,,,crit,0,302
+Sha'tek Relic of Imperiling Serenity MK-17,3527,relic,,,mastery,505,302
+Sha'tek Relic of Imperiling Serenity MK-17,3527,relic,,,shield,0,302
+Sha'tek Relic of Imperiling Serenity MK-17,3527,relic,,,defense,175,302
+Sha'tek Relic of Reactive Warding MK-17,3528,relic,,,mastery,505,302
+Sha'tek Relic of Reactive Warding MK-17,3528,relic,,,shield,0,302
+Sha'tek Relic of Reactive Warding MK-17,3528,relic,,,defense,175,302
+Sha'tek Relic of Serendipitous Assault MK-17,3529,relic,,,endurance,505,302
+Sha'tek Relic of Serendipitous Assault MK-17,3529,relic,,,power,175,302
+Sha'tek Relic of Serendipitous Assault MK-17,3529,relic,,,crit,0,302
+Sha'tek Relic of the Primeval Fatesealer MK-17,3530,relic,,,endurance,505,302
+Sha'tek Relic of the Primeval Fatesealer MK-17,3530,relic,,,power,175,302
+Sha'tek Relic of the Primeval Fatesealer MK-17,3530,relic,,,crit,0,302
+Sha'tek Relic of the Shield Matrix MK-17,3531,relic,,,mastery,505,302
+Sha'tek Relic of the Shield Matrix MK-17,3531,relic,,,shield,694,302
+Sha'tek Relic of the Shield Matrix MK-17,3531,relic,,,defense,175,302
+Sha'tek Relic of the Shrouded Crusader MK-17,3532,relic,,,mastery,505,302
+Sha'tek Relic of the Shrouded Crusader MK-17,3532,relic,,,shield,0,302
+Sha'tek Relic of the Shrouded Crusader MK-17,3532,relic,,,defense,175,302
+Sha'tek Adept Device MK-18,3551,ear,,,mastery,840,304
+Sha'tek Adept Device MK-18,3551,ear,,,endurance,986,304
+Sha'tek Adept Device MK-18,3551,ear,,,power,638,304
+Sha'tek Adept Device MK-18,3551,ear,,,crit,422,304
+Sha'tek Adept Package MK-18,3552,implant,,,mastery,840,304
+Sha'tek Adept Package MK-18,3552,implant,,,endurance,986,304
+Sha'tek Adept Package MK-18,3552,implant,,,power,638,304
+Sha'tek Adept Package MK-18,3552,implant,,,crit,422,304
+Sha'tek Bastion Device MK-18,3553,ear,,,mastery,801,304
+Sha'tek Bastion Device MK-18,3553,ear,,,endurance,1027,304
+Sha'tek Bastion Device MK-18,3553,ear,,,shield,422,304
+Sha'tek Bastion Device MK-18,3553,ear,,,defense,638,304
+Sha'tek Bastion Package MK-18,3554,implant,,,mastery,801,304
+Sha'tek Bastion Package MK-18,3554,implant,,,endurance,1027,304
+Sha'tek Bastion Package MK-18,3554,implant,,,shield,422,304
+Sha'tek Bastion Package MK-18,3554,implant,,,defense,638,304
+Sha'tek Bulwark Device MK-18,3555,ear,,,mastery,801,304
+Sha'tek Bulwark Device MK-18,3555,ear,,,endurance,1027,304
+Sha'tek Bulwark Device MK-18,3555,ear,,,absorption,422,304
+Sha'tek Bulwark Device MK-18,3555,ear,,,defense,638,304
+Sha'tek Bulwark Package MK-18,3556,implant,,,mastery,801,304
+Sha'tek Bulwark Package MK-18,3556,implant,,,endurance,1027,304
+Sha'tek Bulwark Package MK-18,3556,implant,,,absorption,422,304
+Sha'tek Bulwark Package MK-18,3556,implant,,,defense,638,304
+Sha'tek Initiative Device MK-18,3557,ear,,,mastery,840,304
+Sha'tek Initiative Device MK-18,3557,ear,,,endurance,986,304
+Sha'tek Initiative Device MK-18,3557,ear,,,accuracy,422,304
+Sha'tek Initiative Device MK-18,3557,ear,,,power,638,304
+Sha'tek Initiative Package MK-18,3558,implant,,,mastery,840,304
+Sha'tek Initiative Package MK-18,3558,implant,,,endurance,986,304
+Sha'tek Initiative Package MK-18,3558,implant,,,accuracy,422,304
+Sha'tek Initiative Package MK-18,3558,implant,,,power,638,304
+Sha'tek Quick Savant Device MK-18,3559,ear,,,mastery,840,304
+Sha'tek Quick Savant Device MK-18,3559,ear,,,endurance,986,304
+Sha'tek Quick Savant Device MK-18,3559,ear,,,power,638,304
+Sha'tek Quick Savant Device MK-18,3559,ear,,,alacrity,422,304
+Sha'tek Quick Savant Package MK-18,3560,implant,,,mastery,840,304
+Sha'tek Quick Savant Package MK-18,3560,implant,,,endurance,986,304
+Sha'tek Quick Savant Package MK-18,3560,implant,,,power,638,304
+Sha'tek Quick Savant Package MK-18,3560,implant,,,alacrity,422,304
+Sha'tek Relic of Avoidance MK-18,3561,relic,,,mastery,515,304
+Sha'tek Relic of Avoidance MK-18,3561,relic,,,absorption,708,304
+Sha'tek Relic of Avoidance MK-18,3561,relic,,,defense,179,304
+Sha'tek Relic of Boundless Ages MK-18,3562,relic,,,endurance,515,304
+Sha'tek Relic of Boundless Ages MK-18,3562,relic,,,power,179,304
+Sha'tek Relic of Boundless Ages MK-18,3562,relic,,,crit,0,304
+Sha'tek Relic of Devastating Vengeance MK-18,3563,relic,,,endurance,515,304
+Sha'tek Relic of Devastating Vengeance MK-18,3563,relic,,,power,179,304
+Sha'tek Relic of Devastating Vengeance MK-18,3563,relic,,,crit,0,304
+Sha'tek Relic of Ephemeral Mending MK-18,3564,relic,,,endurace,515,304
+Sha'tek Relic of Ephemeral Mending MK-18,3564,relic,,,power,179,304
+Sha'tek Relic of Ephemeral Mending MK-18,3564,relic,,,crit,0,304
+Sha'tek Relic of Focused Retribution MK-18,3565,relic,,,endurace,515,304
+Sha'tek Relic of Focused Retribution MK-18,3565,relic,,,power,179,304
+Sha'tek Relic of Focused Retribution MK-18,3565,relic,,,crit,0,304
+Sha'tek Relic of Imperiling Serenity MK-18,3566,relic,,,mastery,515,304
+Sha'tek Relic of Imperiling Serenity MK-18,3566,relic,,,shield,0,304
+Sha'tek Relic of Imperiling Serenity MK-18,3566,relic,,,defense,179,304
+Sha'tek Relic of Reactive Warding MK-18,3567,relic,,,mastery,515,304
+Sha'tek Relic of Reactive Warding MK-18,3567,relic,,,shield,0,304
+Sha'tek Relic of Reactive Warding MK-18,3567,relic,,,defense,179,304
+Sha'tek Relic of Serendipitous Assault MK-18,3568,relic,,,endurance,515,304
+Sha'tek Relic of Serendipitous Assault MK-18,3568,relic,,,power,179,304
+Sha'tek Relic of Serendipitous Assault MK-18,3568,relic,,,crit,0,304
+Sha'tek Relic of the Primeval Fatesealer MK-18,3569,relic,,,endurance,515,304
+Sha'tek Relic of the Primeval Fatesealer MK-18,3569,relic,,,power,179,304
+Sha'tek Relic of the Primeval Fatesealer MK-18,3569,relic,,,crit,0,304
+Sha'tek Relic of the Shield Matrix MK-18,3570,relic,,,mastery,515,304
+Sha'tek Relic of the Shield Matrix MK-18,3570,relic,,,shield,708,304
+Sha'tek Relic of the Shield Matrix MK-18,3570,relic,,,defense,179,304
+Sha'tek Relic of the Shrouded Crusader MK-18,3571,relic,,,mastery,515,304
+Sha'tek Relic of the Shrouded Crusader MK-18,3571,relic,,,shield,0,304
+Sha'tek Relic of the Shrouded Crusader MK-18,3571,relic,,,defense,179,304

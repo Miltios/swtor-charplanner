@@ -114,7 +114,8 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemStats"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.ItemStats " +
+                    "WHERE StatValue != 0"); //TODO:stop hard-coding schemas
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();

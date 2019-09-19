@@ -4696,7 +4696,7 @@ Sha'tek Initiative Package MK-19,,,,2415,allDps
 Sha'tek Quick Savant Package MK-19,,,,2417,allHealer
 Sha'tek Adept Package MK-19,,,,2409,alllDps
 Sha'tek Quick Savant Package MK-19,,,,2417,allDps
-Sha'tek Relic of Avoidance,,,,2418,allTank
+Sha'tek Relic of Avoidance MK-19,,,,2418,allTank
 Sha'tek Relic of Boundless Ages MK-19,,,,2419,allHealer
 Sha'tek Relic of Devastating Vengeance MK-19,,,,2420,allHealer
 Sha'tek Relic of Ephemeral Mending MK-19,,,,2421,allHealer
@@ -5462,3 +5462,561 @@ Stationary Grit Headgear,all,,,2864,allHealer
 Stimulated Headgear,all,,,2865,allHealer
 Taskmaster's Headgear,all,,,2866,allHealer
 The Entertainer's Headgear,all,,,2867,allHealer
+Sha'tek Adept Device MK-1,,,,2888,allHealer
+Sha'tek Bastion Device MK-1,,,,2890,allTank
+Sha'tek Bulwark Device MK-1,,,,2892,allTank
+Sha'tek Initiative Device MK-1,,,,2894,allDps
+Sha'tek Quick Savant Device MK-1,,,,2896,allHealer
+Sha'tek Adept Device MK-1,,,,2888,alllDps
+Sha'tek Quick Savant Device MK-1,,,,2896,allDps
+Sha'tek Adept Package MK-1,,,,2889,allHealer
+Sha'tek Bastion Package MK-1,,,,2891,allTank
+Sha'tek Bulwark Package MK-1,,,,2893,allTank
+Sha'tek Initiative Package MK-1,,,,2895,allDps
+Sha'tek Quick Savant Package MK-1,,,,2897,allHealer
+Sha'tek Adept Package MK-1,,,,2889,alllDps
+Sha'tek Quick Savant Package MK-1,,,,2897,allDps
+Sha'tek Relic of Avoidance MK-1,,,,2898,allTank
+Sha'tek Relic of Boundless Ages MK-1,,,,2899,allHealer
+Sha'tek Relic of Devastating Vengeance MK-1,,,,2900,allHealer
+Sha'tek Relic of Ephemeral Mending MK-1,,,,2901,allHealer
+Sha'tek Relic of Focused Retribution MK-1,,,,2902,allHealer
+Sha'tek Relic of Imperiling Serenity MK-1,,,,2903,allHealer
+Sha'tek Relic of Reactive Warding MK-1,,,,2904,allTank
+Sha'tek Relic of Serendipitous Assault MK-1,,,,2905,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-1,,,,2906,allHealer
+Sha'tek Relic of the Shield Matrix MK-1,,,,2907,allTank
+Sha'tek Relic of the Shrouded Crusader MK-1,,,,2908,allTank
+Sha'tek Relic of Boundless Ages MK-1,,,,2899,allDps
+Sha'tek Relic of Devastating Vengeance MK-1,,,,2900,allDps
+Sha'tek Relic of Focused Retribution MK-1,,,,2902,allDps
+Sha'tek Relic of Imperiling Serenity MK-1,,,,2903,allDps
+Sha'tek Relic of Serendipitous Assault MK-1,,,,2905,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-1,,,,2906,allDps
+Sha'tek Adept Device MK-2,,,,2927,allHealer
+Sha'tek Bastion Device MK-2,,,,2929,allTank
+Sha'tek Bulwark Device MK-2,,,,2931,allTank
+Sha'tek Initiative Device MK-2,,,,2933,allDps
+Sha'tek Quick Savant Device MK-2,,,,2935,allHealer
+Sha'tek Adept Device MK-2,,,,2927,alllDps
+Sha'tek Quick Savant Device MK-2,,,,2935,allDps
+Sha'tek Adept Package MK-2,,,,2928,allHealer
+Sha'tek Bastion Package MK-2,,,,2930,allTank
+Sha'tek Bulwark Package MK-2,,,,2932,allTank
+Sha'tek Initiative Package MK-2,,,,2934,allDps
+Sha'tek Quick Savant Package MK-2,,,,2936,allHealer
+Sha'tek Adept Package MK-2,,,,2928,alllDps
+Sha'tek Quick Savant Package MK-2,,,,2936,allDps
+Sha'tek Relic of Avoidance MK-2,,,,2937,allTank
+Sha'tek Relic of Boundless Ages MK-2,,,,2938,allHealer
+Sha'tek Relic of Devastating Vengeance MK-2,,,,2939,allHealer
+Sha'tek Relic of Ephemeral Mending MK-2,,,,2940,allHealer
+Sha'tek Relic of Focused Retribution MK-2,,,,2941,allHealer
+Sha'tek Relic of Imperiling Serenity MK-2,,,,2942,allHealer
+Sha'tek Relic of Reactive Warding MK-2,,,,2943,allTank
+Sha'tek Relic of Serendipitous Assault MK-2,,,,2944,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-2,,,,2945,allHealer
+Sha'tek Relic of the Shield Matrix MK-2,,,,2946,allTank
+Sha'tek Relic of the Shrouded Crusader MK-2,,,,2947,allTank
+Sha'tek Relic of Boundless Ages MK-2,,,,2938,allDps
+Sha'tek Relic of Devastating Vengeance MK-2,,,,2939,allDps
+Sha'tek Relic of Focused Retribution MK-2,,,,2941,allDps
+Sha'tek Relic of Imperiling Serenity MK-2,,,,2942,allDps
+Sha'tek Relic of Serendipitous Assault MK-2,,,,2944,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-2,,,,2945,allDps
+Sha'tek Adept Device MK-3,,,,2966,allHealer
+Sha'tek Bastion Device MK-3,,,,2968,allTank
+Sha'tek Bulwark Device MK-3,,,,2970,allTank
+Sha'tek Initiative Device MK-3,,,,2972,allDps
+Sha'tek Quick Savant Device MK-3,,,,2974,allHealer
+Sha'tek Adept Device MK-3,,,,2966,alllDps
+Sha'tek Quick Savant Device MK-3,,,,2974,allDps
+Sha'tek Adept Package MK-3,,,,2967,allHealer
+Sha'tek Bastion Package MK-3,,,,2969,allTank
+Sha'tek Bulwark Package MK-3,,,,2971,allTank
+Sha'tek Initiative Package MK-3,,,,2973,allDps
+Sha'tek Quick Savant Package MK-3,,,,2975,allHealer
+Sha'tek Adept Package MK-3,,,,2967,alllDps
+Sha'tek Quick Savant Package MK-3,,,,2975,allDps
+Sha'tek Relic of Avoidance MK-3,,,,2976,allTank
+Sha'tek Relic of Boundless Ages MK-3,,,,2977,allHealer
+Sha'tek Relic of Devastating Vengeance MK-3,,,,2978,allHealer
+Sha'tek Relic of Ephemeral Mending MK-3,,,,2979,allHealer
+Sha'tek Relic of Focused Retribution MK-3,,,,2980,allHealer
+Sha'tek Relic of Imperiling Serenity MK-3,,,,2981,allHealer
+Sha'tek Relic of Reactive Warding MK-3,,,,2982,allTank
+Sha'tek Relic of Serendipitous Assault MK-3,,,,2983,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-3,,,,2984,allHealer
+Sha'tek Relic of the Shield Matrix MK-3,,,,2985,allTank
+Sha'tek Relic of the Shrouded Crusader MK-3,,,,2986,allTank
+Sha'tek Relic of Boundless Ages MK-3,,,,2977,allDps
+Sha'tek Relic of Devastating Vengeance MK-3,,,,2978,allDps
+Sha'tek Relic of Focused Retribution MK-3,,,,2980,allDps
+Sha'tek Relic of Imperiling Serenity MK-3,,,,2981,allDps
+Sha'tek Relic of Serendipitous Assault MK-3,,,,2983,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-3,,,,2984,allDps
+Sha'tek Adept Device MK-4,,,,3005,allHealer
+Sha'tek Bastion Device MK-4,,,,3007,allTank
+Sha'tek Bulwark Device MK-4,,,,3009,allTank
+Sha'tek Initiative Device MK-4,,,,3011,allDps
+Sha'tek Quick Savant Device MK-4,,,,3013,allHealer
+Sha'tek Adept Device MK-4,,,,3005,alllDps
+Sha'tek Quick Savant Device MK-4,,,,3013,allDps
+Sha'tek Adept Package MK-4,,,,3006,allHealer
+Sha'tek Bastion Package MK-4,,,,3008,allTank
+Sha'tek Bulwark Package MK-4,,,,3010,allTank
+Sha'tek Initiative Package MK-4,,,,3012,allDps
+Sha'tek Quick Savant Package MK-4,,,,3014,allHealer
+Sha'tek Adept Package MK-4,,,,3006,alllDps
+Sha'tek Quick Savant Package MK-4,,,,3014,allDps
+Sha'tek Relic of Avoidance MK-4,,,,3015,allTank
+Sha'tek Relic of Boundless Ages MK-4,,,,3016,allHealer
+Sha'tek Relic of Devastating Vengeance MK-4,,,,3017,allHealer
+Sha'tek Relic of Ephemeral Mending MK-4,,,,3018,allHealer
+Sha'tek Relic of Focused Retribution MK-4,,,,3019,allHealer
+Sha'tek Relic of Imperiling Serenity MK-4,,,,3020,allHealer
+Sha'tek Relic of Reactive Warding MK-4,,,,3021,allTank
+Sha'tek Relic of Serendipitous Assault MK-4,,,,3022,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-4,,,,3023,allHealer
+Sha'tek Relic of the Shield Matrix MK-4,,,,3024,allTank
+Sha'tek Relic of the Shrouded Crusader MK-4,,,,3025,allTank
+Sha'tek Relic of Boundless Ages MK-4,,,,3016,allDps
+Sha'tek Relic of Devastating Vengeance MK-4,,,,3017,allDps
+Sha'tek Relic of Focused Retribution MK-4,,,,3019,allDps
+Sha'tek Relic of Imperiling Serenity MK-4,,,,3020,allDps
+Sha'tek Relic of Serendipitous Assault MK-4,,,,3022,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-4,,,,3023,allDps
+Sha'tek Adept Device MK-5,,,,3044,allHealer
+Sha'tek Bastion Device MK-5,,,,3046,allTank
+Sha'tek Bulwark Device MK-5,,,,3048,allTank
+Sha'tek Initiative Device MK-5,,,,3050,allDps
+Sha'tek Quick Savant Device MK-5,,,,3052,allHealer
+Sha'tek Adept Device MK-5,,,,3044,alllDps
+Sha'tek Quick Savant Device MK-5,,,,3052,allDps
+Sha'tek Adept Package MK-5,,,,3045,allHealer
+Sha'tek Bastion Package MK-5,,,,3047,allTank
+Sha'tek Bulwark Package MK-5,,,,3049,allTank
+Sha'tek Initiative Package MK-5,,,,3051,allDps
+Sha'tek Quick Savant Package MK-5,,,,3053,allHealer
+Sha'tek Adept Package MK-5,,,,3045,alllDps
+Sha'tek Quick Savant Package MK-5,,,,3053,allDps
+Sha'tek Relic of Avoidance MK-5,,,,3054,allTank
+Sha'tek Relic of Boundless Ages MK-5,,,,3055,allHealer
+Sha'tek Relic of Devastating Vengeance MK-5,,,,3056,allHealer
+Sha'tek Relic of Ephemeral Mending MK-5,,,,3057,allHealer
+Sha'tek Relic of Focused Retribution MK-5,,,,3058,allHealer
+Sha'tek Relic of Imperiling Serenity MK-5,,,,3059,allHealer
+Sha'tek Relic of Reactive Warding MK-5,,,,3060,allTank
+Sha'tek Relic of Serendipitous Assault MK-5,,,,3061,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-5,,,,3062,allHealer
+Sha'tek Relic of the Shield Matrix MK-5,,,,3063,allTank
+Sha'tek Relic of the Shrouded Crusader MK-5,,,,3064,allTank
+Sha'tek Relic of Boundless Ages MK-5,,,,3055,allDps
+Sha'tek Relic of Devastating Vengeance MK-5,,,,3056,allDps
+Sha'tek Relic of Focused Retribution MK-5,,,,3058,allDps
+Sha'tek Relic of Imperiling Serenity MK-5,,,,3059,allDps
+Sha'tek Relic of Serendipitous Assault MK-5,,,,3061,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-5,,,,3062,allDps
+Sha'tek Adept Device MK-6,,,,3083,allHealer
+Sha'tek Bastion Device MK-6,,,,3085,allTank
+Sha'tek Bulwark Device MK-6,,,,3087,allTank
+Sha'tek Initiative Device MK-6,,,,3089,allDps
+Sha'tek Quick Savant Device MK-6,,,,3091,allHealer
+Sha'tek Adept Device MK-6,,,,3083,alllDps
+Sha'tek Quick Savant Device MK-6,,,,3091,allDps
+Sha'tek Adept Package MK-6,,,,3084,allHealer
+Sha'tek Bastion Package MK-6,,,,3086,allTank
+Sha'tek Bulwark Package MK-6,,,,3088,allTank
+Sha'tek Initiative Package MK-6,,,,3090,allDps
+Sha'tek Quick Savant Package MK-6,,,,3092,allHealer
+Sha'tek Adept Package MK-6,,,,3084,alllDps
+Sha'tek Quick Savant Package MK-6,,,,3092,allDps
+Sha'tek Relic of Avoidance MK-6,,,,3093,allTank
+Sha'tek Relic of Boundless Ages MK-6,,,,3094,allHealer
+Sha'tek Relic of Devastating Vengeance MK-6,,,,3095,allHealer
+Sha'tek Relic of Ephemeral Mending MK-6,,,,3096,allHealer
+Sha'tek Relic of Focused Retribution MK-6,,,,3097,allHealer
+Sha'tek Relic of Imperiling Serenity MK-6,,,,3098,allHealer
+Sha'tek Relic of Reactive Warding MK-6,,,,3099,allTank
+Sha'tek Relic of Serendipitous Assault MK-6,,,,3100,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-6,,,,3101,allHealer
+Sha'tek Relic of the Shield Matrix MK-6,,,,3102,allTank
+Sha'tek Relic of the Shrouded Crusader MK-6,,,,3103,allTank
+Sha'tek Relic of Boundless Ages MK-6,,,,3094,allDps
+Sha'tek Relic of Devastating Vengeance MK-6,,,,3095,allDps
+Sha'tek Relic of Focused Retribution MK-6,,,,3097,allDps
+Sha'tek Relic of Imperiling Serenity MK-6,,,,3098,allDps
+Sha'tek Relic of Serendipitous Assault MK-6,,,,3100,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-6,,,,3101,allDps
+Sha'tek Adept Device MK-7,,,,3122,allHealer
+Sha'tek Bastion Device MK-7,,,,3124,allTank
+Sha'tek Bulwark Device MK-7,,,,3126,allTank
+Sha'tek Initiative Device MK-7,,,,3128,allDps
+Sha'tek Quick Savant Device MK-7,,,,3130,allHealer
+Sha'tek Adept Device MK-7,,,,3122,alllDps
+Sha'tek Quick Savant Device MK-7,,,,3130,allDps
+Sha'tek Adept Package MK-7,,,,3123,allHealer
+Sha'tek Bastion Package MK-7,,,,3125,allTank
+Sha'tek Bulwark Package MK-7,,,,3127,allTank
+Sha'tek Initiative Package MK-7,,,,3129,allDps
+Sha'tek Quick Savant Package MK-7,,,,3131,allHealer
+Sha'tek Adept Package MK-7,,,,3123,alllDps
+Sha'tek Quick Savant Package MK-7,,,,3131,allDps
+Sha'tek Relic of Avoidance MK-7,,,,3132,allTank
+Sha'tek Relic of Boundless Ages MK-7,,,,3133,allHealer
+Sha'tek Relic of Devastating Vengeance MK-7,,,,3134,allHealer
+Sha'tek Relic of Ephemeral Mending MK-7,,,,3135,allHealer
+Sha'tek Relic of Focused Retribution MK-7,,,,3136,allHealer
+Sha'tek Relic of Imperiling Serenity MK-7,,,,3137,allHealer
+Sha'tek Relic of Reactive Warding MK-7,,,,3138,allTank
+Sha'tek Relic of Serendipitous Assault MK-7,,,,3139,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-7,,,,3140,allHealer
+Sha'tek Relic of the Shield Matrix MK-7,,,,3141,allTank
+Sha'tek Relic of the Shrouded Crusader MK-7,,,,3142,allTank
+Sha'tek Relic of Boundless Ages MK-7,,,,3133,allDps
+Sha'tek Relic of Devastating Vengeance MK-7,,,,3134,allDps
+Sha'tek Relic of Focused Retribution MK-7,,,,3136,allDps
+Sha'tek Relic of Imperiling Serenity MK-7,,,,3137,allDps
+Sha'tek Relic of Serendipitous Assault MK-7,,,,3139,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-7,,,,3140,allDps
+Sha'tek Adept Device MK-8,,,,3161,allHealer
+Sha'tek Bastion Device MK-8,,,,3163,allTank
+Sha'tek Bulwark Device MK-8,,,,3165,allTank
+Sha'tek Initiative Device MK-8,,,,3167,allDps
+Sha'tek Quick Savant Device MK-8,,,,3169,allHealer
+Sha'tek Adept Device MK-8,,,,3161,alllDps
+Sha'tek Quick Savant Device MK-8,,,,3169,allDps
+Sha'tek Adept Package MK-8,,,,3162,allHealer
+Sha'tek Bastion Package MK-8,,,,3164,allTank
+Sha'tek Bulwark Package MK-8,,,,3166,allTank
+Sha'tek Initiative Package MK-8,,,,3168,allDps
+Sha'tek Quick Savant Package MK-8,,,,3170,allHealer
+Sha'tek Adept Package MK-8,,,,3162,alllDps
+Sha'tek Quick Savant Package MK-8,,,,3170,allDps
+Sha'tek Relic of Avoidance MK-8,,,,3171,allTank
+Sha'tek Relic of Boundless Ages MK-8,,,,3172,allHealer
+Sha'tek Relic of Devastating Vengeance MK-8,,,,3173,allHealer
+Sha'tek Relic of Ephemeral Mending MK-8,,,,3174,allHealer
+Sha'tek Relic of Focused Retribution MK-8,,,,3175,allHealer
+Sha'tek Relic of Imperiling Serenity MK-8,,,,3176,allHealer
+Sha'tek Relic of Reactive Warding MK-8,,,,3177,allTank
+Sha'tek Relic of Serendipitous Assault MK-8,,,,3178,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-8,,,,3179,allHealer
+Sha'tek Relic of the Shield Matrix MK-8,,,,3180,allTank
+Sha'tek Relic of the Shrouded Crusader MK-8,,,,3181,allTank
+Sha'tek Relic of Boundless Ages MK-8,,,,3172,allDps
+Sha'tek Relic of Devastating Vengeance MK-8,,,,3173,allDps
+Sha'tek Relic of Focused Retribution MK-8,,,,3175,allDps
+Sha'tek Relic of Imperiling Serenity MK-8,,,,3176,allDps
+Sha'tek Relic of Serendipitous Assault MK-8,,,,3178,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-8,,,,3179,allDps
+Sha'tek Adept Device MK-9,,,,3200,allHealer
+Sha'tek Bastion Device MK-9,,,,3202,allTank
+Sha'tek Bulwark Device MK-9,,,,3204,allTank
+Sha'tek Initiative Device MK-9,,,,3206,allDps
+Sha'tek Quick Savant Device MK-9,,,,3208,allHealer
+Sha'tek Adept Device MK-9,,,,3200,alllDps
+Sha'tek Quick Savant Device MK-9,,,,3208,allDps
+Sha'tek Adept Package MK-9,,,,3201,allHealer
+Sha'tek Bastion Package MK-9,,,,3203,allTank
+Sha'tek Bulwark Package MK-9,,,,3205,allTank
+Sha'tek Initiative Package MK-9,,,,3207,allDps
+Sha'tek Quick Savant Package MK-9,,,,3209,allHealer
+Sha'tek Adept Package MK-9,,,,3201,alllDps
+Sha'tek Quick Savant Package MK-9,,,,3209,allDps
+Sha'tek Relic of Avoidance MK-9,,,,3210,allTank
+Sha'tek Relic of Boundless Ages MK-9,,,,3211,allHealer
+Sha'tek Relic of Devastating Vengeance MK-9,,,,3212,allHealer
+Sha'tek Relic of Ephemeral Mending MK-9,,,,3213,allHealer
+Sha'tek Relic of Focused Retribution MK-9,,,,3214,allHealer
+Sha'tek Relic of Imperiling Serenity MK-9,,,,3215,allHealer
+Sha'tek Relic of Reactive Warding MK-9,,,,3216,allTank
+Sha'tek Relic of Serendipitous Assault MK-9,,,,3217,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-9,,,,3218,allHealer
+Sha'tek Relic of the Shield Matrix MK-9,,,,3219,allTank
+Sha'tek Relic of the Shrouded Crusader MK-9,,,,3220,allTank
+Sha'tek Relic of Boundless Ages MK-9,,,,3211,allDps
+Sha'tek Relic of Devastating Vengeance MK-9,,,,3212,allDps
+Sha'tek Relic of Focused Retribution MK-9,,,,3214,allDps
+Sha'tek Relic of Imperiling Serenity MK-9,,,,3215,allDps
+Sha'tek Relic of Serendipitous Assault MK-9,,,,3217,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-9,,,,3218,allDps
+Sha'tek Adept Device MK-10,,,,3239,allHealer
+Sha'tek Bastion Device MK-10,,,,3241,allTank
+Sha'tek Bulwark Device MK-10,,,,3243,allTank
+Sha'tek Initiative Device MK-10,,,,3245,allDps
+Sha'tek Quick Savant Device MK-10,,,,3247,allHealer
+Sha'tek Adept Device MK-10,,,,3239,alllDps
+Sha'tek Quick Savant Device MK-10,,,,3247,allDps
+Sha'tek Adept Package MK-10,,,,3240,allHealer
+Sha'tek Bastion Package MK-10,,,,3242,allTank
+Sha'tek Bulwark Package MK-10,,,,3244,allTank
+Sha'tek Initiative Package MK-10,,,,3246,allDps
+Sha'tek Quick Savant Package MK-10,,,,3248,allHealer
+Sha'tek Adept Package MK-10,,,,3240,alllDps
+Sha'tek Quick Savant Package MK-10,,,,3248,allDps
+Sha'tek Relic of Avoidance MK-10,,,,3249,allTank
+Sha'tek Relic of Boundless Ages MK-10,,,,3250,allHealer
+Sha'tek Relic of Devastating Vengeance MK-10,,,,3251,allHealer
+Sha'tek Relic of Ephemeral Mending MK-10,,,,3252,allHealer
+Sha'tek Relic of Focused Retribution MK-10,,,,3253,allHealer
+Sha'tek Relic of Imperiling Serenity MK-10,,,,3254,allHealer
+Sha'tek Relic of Reactive Warding MK-10,,,,3255,allTank
+Sha'tek Relic of Serendipitous Assault MK-10,,,,3256,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-10,,,,3257,allHealer
+Sha'tek Relic of the Shield Matrix MK-10,,,,3258,allTank
+Sha'tek Relic of the Shrouded Crusader MK-10,,,,3259,allTank
+Sha'tek Relic of Boundless Ages MK-10,,,,3250,allDps
+Sha'tek Relic of Devastating Vengeance MK-10,,,,3251,allDps
+Sha'tek Relic of Focused Retribution MK-10,,,,3253,allDps
+Sha'tek Relic of Imperiling Serenity MK-10,,,,3254,allDps
+Sha'tek Relic of Serendipitous Assault MK-10,,,,3256,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-10,,,,3257,allDps
+Sha'tek Adept Device MK-11,,,,3278,allHealer
+Sha'tek Bastion Device MK-11,,,,3280,allTank
+Sha'tek Bulwark Device MK-11,,,,3282,allTank
+Sha'tek Initiative Device MK-11,,,,3284,allDps
+Sha'tek Quick Savant Device MK-11,,,,3286,allHealer
+Sha'tek Adept Device MK-11,,,,3278,alllDps
+Sha'tek Quick Savant Device MK-11,,,,3286,allDps
+Sha'tek Adept Package MK-11,,,,3279,allHealer
+Sha'tek Bastion Package MK-11,,,,3281,allTank
+Sha'tek Bulwark Package MK-11,,,,3283,allTank
+Sha'tek Initiative Package MK-11,,,,3285,allDps
+Sha'tek Quick Savant Package MK-11,,,,3287,allHealer
+Sha'tek Adept Package MK-11,,,,3279,alllDps
+Sha'tek Quick Savant Package MK-11,,,,3287,allDps
+Sha'tek Relic of Avoidance MK-11,,,,3288,allTank
+Sha'tek Relic of Boundless Ages MK-11,,,,3289,allHealer
+Sha'tek Relic of Devastating Vengeance MK-11,,,,3290,allHealer
+Sha'tek Relic of Ephemeral Mending MK-11,,,,3291,allHealer
+Sha'tek Relic of Focused Retribution MK-11,,,,3292,allHealer
+Sha'tek Relic of Imperiling Serenity MK-11,,,,3293,allHealer
+Sha'tek Relic of Reactive Warding MK-11,,,,3294,allTank
+Sha'tek Relic of Serendipitous Assault MK-11,,,,3295,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-11,,,,3296,allHealer
+Sha'tek Relic of the Shield Matrix MK-11,,,,3297,allTank
+Sha'tek Relic of the Shrouded Crusader MK-11,,,,3298,allTank
+Sha'tek Relic of Boundless Ages MK-11,,,,3289,allDps
+Sha'tek Relic of Devastating Vengeance MK-11,,,,3290,allDps
+Sha'tek Relic of Focused Retribution MK-11,,,,3292,allDps
+Sha'tek Relic of Imperiling Serenity MK-11,,,,3293,allDps
+Sha'tek Relic of Serendipitous Assault MK-11,,,,3295,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-11,,,,3296,allDps
+Sha'tek Adept Device MK-12,,,,3317,allHealer
+Sha'tek Bastion Device MK-12,,,,3319,allTank
+Sha'tek Bulwark Device MK-12,,,,3321,allTank
+Sha'tek Initiative Device MK-12,,,,3323,allDps
+Sha'tek Quick Savant Device MK-12,,,,3325,allHealer
+Sha'tek Adept Device MK-12,,,,3317,alllDps
+Sha'tek Quick Savant Device MK-12,,,,3325,allDps
+Sha'tek Adept Package MK-12,,,,3318,allHealer
+Sha'tek Bastion Package MK-12,,,,3320,allTank
+Sha'tek Bulwark Package MK-12,,,,3322,allTank
+Sha'tek Initiative Package MK-12,,,,3324,allDps
+Sha'tek Quick Savant Package MK-12,,,,3326,allHealer
+Sha'tek Adept Package MK-12,,,,3318,alllDps
+Sha'tek Quick Savant Package MK-12,,,,3326,allDps
+Sha'tek Relic of Avoidance MK-12,,,,3327,allTank
+Sha'tek Relic of Boundless Ages MK-12,,,,3328,allHealer
+Sha'tek Relic of Devastating Vengeance MK-12,,,,3329,allHealer
+Sha'tek Relic of Ephemeral Mending MK-12,,,,3330,allHealer
+Sha'tek Relic of Focused Retribution MK-12,,,,3331,allHealer
+Sha'tek Relic of Imperiling Serenity MK-12,,,,3332,allHealer
+Sha'tek Relic of Reactive Warding MK-12,,,,3333,allTank
+Sha'tek Relic of Serendipitous Assault MK-12,,,,3334,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-12,,,,3335,allHealer
+Sha'tek Relic of the Shield Matrix MK-12,,,,3336,allTank
+Sha'tek Relic of the Shrouded Crusader MK-12,,,,3337,allTank
+Sha'tek Relic of Boundless Ages MK-12,,,,3328,allDps
+Sha'tek Relic of Devastating Vengeance MK-12,,,,3329,allDps
+Sha'tek Relic of Focused Retribution MK-12,,,,3331,allDps
+Sha'tek Relic of Imperiling Serenity MK-12,,,,3332,allDps
+Sha'tek Relic of Serendipitous Assault MK-12,,,,3334,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-12,,,,3335,allDps
+Sha'tek Adept Device MK-13,,,,3356,allHealer
+Sha'tek Bastion Device MK-13,,,,3358,allTank
+Sha'tek Bulwark Device MK-13,,,,3360,allTank
+Sha'tek Initiative Device MK-13,,,,3362,allDps
+Sha'tek Quick Savant Device MK-13,,,,3364,allHealer
+Sha'tek Adept Device MK-13,,,,3356,alllDps
+Sha'tek Quick Savant Device MK-13,,,,3364,allDps
+Sha'tek Adept Package MK-13,,,,3357,allHealer
+Sha'tek Bastion Package MK-13,,,,3359,allTank
+Sha'tek Bulwark Package MK-13,,,,3361,allTank
+Sha'tek Initiative Package MK-13,,,,3363,allDps
+Sha'tek Quick Savant Package MK-13,,,,3365,allHealer
+Sha'tek Adept Package MK-13,,,,3357,alllDps
+Sha'tek Quick Savant Package MK-13,,,,3365,allDps
+Sha'tek Relic of Avoidance MK-13,,,,3366,allTank
+Sha'tek Relic of Boundless Ages MK-13,,,,3367,allHealer
+Sha'tek Relic of Devastating Vengeance MK-13,,,,3368,allHealer
+Sha'tek Relic of Ephemeral Mending MK-13,,,,3369,allHealer
+Sha'tek Relic of Focused Retribution MK-13,,,,3370,allHealer
+Sha'tek Relic of Imperiling Serenity MK-13,,,,3371,allHealer
+Sha'tek Relic of Reactive Warding MK-13,,,,3372,allTank
+Sha'tek Relic of Serendipitous Assault MK-13,,,,3373,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-13,,,,3374,allHealer
+Sha'tek Relic of the Shield Matrix MK-13,,,,3375,allTank
+Sha'tek Relic of the Shrouded Crusader MK-13,,,,3376,allTank
+Sha'tek Relic of Boundless Ages MK-13,,,,3367,allDps
+Sha'tek Relic of Devastating Vengeance MK-13,,,,3368,allDps
+Sha'tek Relic of Focused Retribution MK-13,,,,3370,allDps
+Sha'tek Relic of Imperiling Serenity MK-13,,,,3371,allDps
+Sha'tek Relic of Serendipitous Assault MK-13,,,,3373,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-13,,,,3374,allDps
+Sha'tek Adept Device MK-14,,,,3395,allHealer
+Sha'tek Bastion Device MK-14,,,,3397,allTank
+Sha'tek Bulwark Device MK-14,,,,3399,allTank
+Sha'tek Initiative Device MK-14,,,,3401,allDps
+Sha'tek Quick Savant Device MK-14,,,,3403,allHealer
+Sha'tek Adept Device MK-14,,,,3395,alllDps
+Sha'tek Quick Savant Device MK-14,,,,3403,allDps
+Sha'tek Adept Package MK-14,,,,3396,allHealer
+Sha'tek Bastion Package MK-14,,,,3398,allTank
+Sha'tek Bulwark Package MK-14,,,,3400,allTank
+Sha'tek Initiative Package MK-14,,,,3402,allDps
+Sha'tek Quick Savant Package MK-14,,,,3404,allHealer
+Sha'tek Adept Package MK-14,,,,3396,alllDps
+Sha'tek Quick Savant Package MK-14,,,,3404,allDps
+Sha'tek Relic of Avoidance MK-14,,,,3405,allTank
+Sha'tek Relic of Boundless Ages MK-14,,,,3406,allHealer
+Sha'tek Relic of Devastating Vengeance MK-14,,,,3407,allHealer
+Sha'tek Relic of Ephemeral Mending MK-14,,,,3408,allHealer
+Sha'tek Relic of Focused Retribution MK-14,,,,3409,allHealer
+Sha'tek Relic of Imperiling Serenity MK-14,,,,3410,allHealer
+Sha'tek Relic of Reactive Warding MK-14,,,,3411,allTank
+Sha'tek Relic of Serendipitous Assault MK-14,,,,3412,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-14,,,,3413,allHealer
+Sha'tek Relic of the Shield Matrix MK-14,,,,3414,allTank
+Sha'tek Relic of the Shrouded Crusader MK-14,,,,3415,allTank
+Sha'tek Relic of Boundless Ages MK-14,,,,3406,allDps
+Sha'tek Relic of Devastating Vengeance MK-14,,,,3407,allDps
+Sha'tek Relic of Focused Retribution MK-14,,,,3409,allDps
+Sha'tek Relic of Imperiling Serenity MK-14,,,,3410,allDps
+Sha'tek Relic of Serendipitous Assault MK-14,,,,3412,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-14,,,,3413,allDps
+Sha'tek Adept Device MK-15,,,,3434,allHealer
+Sha'tek Bastion Device MK-15,,,,3436,allTank
+Sha'tek Bulwark Device MK-15,,,,3438,allTank
+Sha'tek Initiative Device MK-15,,,,3440,allDps
+Sha'tek Quick Savant Device MK-15,,,,3442,allHealer
+Sha'tek Adept Device MK-15,,,,3434,alllDps
+Sha'tek Quick Savant Device MK-15,,,,3442,allDps
+Sha'tek Adept Package MK-15,,,,3435,allHealer
+Sha'tek Bastion Package MK-15,,,,3437,allTank
+Sha'tek Bulwark Package MK-15,,,,3439,allTank
+Sha'tek Initiative Package MK-15,,,,3441,allDps
+Sha'tek Quick Savant Package MK-15,,,,3443,allHealer
+Sha'tek Adept Package MK-15,,,,3435,alllDps
+Sha'tek Quick Savant Package MK-15,,,,3443,allDps
+Sha'tek Relic of Avoidance MK-15,,,,3444,allTank
+Sha'tek Relic of Boundless Ages MK-15,,,,3445,allHealer
+Sha'tek Relic of Devastating Vengeance MK-15,,,,3446,allHealer
+Sha'tek Relic of Ephemeral Mending MK-15,,,,3447,allHealer
+Sha'tek Relic of Focused Retribution MK-15,,,,3448,allHealer
+Sha'tek Relic of Imperiling Serenity MK-15,,,,3449,allHealer
+Sha'tek Relic of Reactive Warding MK-15,,,,3450,allTank
+Sha'tek Relic of Serendipitous Assault MK-15,,,,3451,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-15,,,,3452,allHealer
+Sha'tek Relic of the Shield Matrix MK-15,,,,3453,allTank
+Sha'tek Relic of the Shrouded Crusader MK-15,,,,3454,allTank
+Sha'tek Relic of Boundless Ages MK-15,,,,3445,allDps
+Sha'tek Relic of Devastating Vengeance MK-15,,,,3446,allDps
+Sha'tek Relic of Focused Retribution MK-15,,,,3448,allDps
+Sha'tek Relic of Imperiling Serenity MK-15,,,,3449,allDps
+Sha'tek Relic of Serendipitous Assault MK-15,,,,3451,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-15,,,,3452,allDps
+Sha'tek Adept Device MK-16,,,,3473,allHealer
+Sha'tek Bastion Device MK-16,,,,3475,allTank
+Sha'tek Bulwark Device MK-16,,,,3477,allTank
+Sha'tek Initiative Device MK-16,,,,3479,allDps
+Sha'tek Quick Savant Device MK-16,,,,3481,allHealer
+Sha'tek Adept Device MK-16,,,,3473,alllDps
+Sha'tek Quick Savant Device MK-16,,,,3481,allDps
+Sha'tek Adept Package MK-16,,,,3474,allHealer
+Sha'tek Bastion Package MK-16,,,,3476,allTank
+Sha'tek Bulwark Package MK-16,,,,3478,allTank
+Sha'tek Initiative Package MK-16,,,,3480,allDps
+Sha'tek Quick Savant Package MK-16,,,,3482,allHealer
+Sha'tek Adept Package MK-16,,,,3474,alllDps
+Sha'tek Quick Savant Package MK-16,,,,3482,allDps
+Sha'tek Relic of Avoidance MK-16,,,,3483,allTank
+Sha'tek Relic of Boundless Ages MK-16,,,,3484,allHealer
+Sha'tek Relic of Devastating Vengeance MK-16,,,,3485,allHealer
+Sha'tek Relic of Ephemeral Mending MK-16,,,,3486,allHealer
+Sha'tek Relic of Focused Retribution MK-16,,,,3487,allHealer
+Sha'tek Relic of Imperiling Serenity MK-16,,,,3488,allHealer
+Sha'tek Relic of Reactive Warding MK-16,,,,3489,allTank
+Sha'tek Relic of Serendipitous Assault MK-16,,,,3490,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-16,,,,3491,allHealer
+Sha'tek Relic of the Shield Matrix MK-16,,,,3492,allTank
+Sha'tek Relic of the Shrouded Crusader MK-16,,,,3493,allTank
+Sha'tek Relic of Boundless Ages MK-16,,,,3484,allDps
+Sha'tek Relic of Devastating Vengeance MK-16,,,,3485,allDps
+Sha'tek Relic of Focused Retribution MK-16,,,,3487,allDps
+Sha'tek Relic of Imperiling Serenity MK-16,,,,3488,allDps
+Sha'tek Relic of Serendipitous Assault MK-16,,,,3490,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-16,,,,3491,allDps
+Sha'tek Adept Device MK-17,,,,3512,allHealer
+Sha'tek Bastion Device MK-17,,,,3514,allTank
+Sha'tek Bulwark Device MK-17,,,,3516,allTank
+Sha'tek Initiative Device MK-17,,,,3518,allDps
+Sha'tek Quick Savant Device MK-17,,,,3520,allHealer
+Sha'tek Adept Device MK-17,,,,3512,alllDps
+Sha'tek Quick Savant Device MK-17,,,,3520,allDps
+Sha'tek Adept Package MK-17,,,,3513,allHealer
+Sha'tek Bastion Package MK-17,,,,3515,allTank
+Sha'tek Bulwark Package MK-17,,,,3517,allTank
+Sha'tek Initiative Package MK-17,,,,3519,allDps
+Sha'tek Quick Savant Package MK-17,,,,3521,allHealer
+Sha'tek Adept Package MK-17,,,,3513,alllDps
+Sha'tek Quick Savant Package MK-17,,,,3521,allDps
+Sha'tek Relic of Avoidance MK-17,,,,3522,allTank
+Sha'tek Relic of Boundless Ages MK-17,,,,3523,allHealer
+Sha'tek Relic of Devastating Vengeance MK-17,,,,3524,allHealer
+Sha'tek Relic of Ephemeral Mending MK-17,,,,3525,allHealer
+Sha'tek Relic of Focused Retribution MK-17,,,,3526,allHealer
+Sha'tek Relic of Imperiling Serenity MK-17,,,,3527,allHealer
+Sha'tek Relic of Reactive Warding MK-17,,,,3528,allTank
+Sha'tek Relic of Serendipitous Assault MK-17,,,,3529,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-17,,,,3530,allHealer
+Sha'tek Relic of the Shield Matrix MK-17,,,,3531,allTank
+Sha'tek Relic of the Shrouded Crusader MK-17,,,,3532,allTank
+Sha'tek Relic of Boundless Ages MK-17,,,,3523,allDps
+Sha'tek Relic of Devastating Vengeance MK-17,,,,3524,allDps
+Sha'tek Relic of Focused Retribution MK-17,,,,3526,allDps
+Sha'tek Relic of Imperiling Serenity MK-17,,,,3527,allDps
+Sha'tek Relic of Serendipitous Assault MK-17,,,,3529,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-17,,,,3530,allDps
+Sha'tek Adept Device MK-18,,,,3551,allHealer
+Sha'tek Bastion Device MK-18,,,,3553,allTank
+Sha'tek Bulwark Device MK-18,,,,3555,allTank
+Sha'tek Initiative Device MK-18,,,,3557,allDps
+Sha'tek Quick Savant Device MK-18,,,,3559,allHealer
+Sha'tek Adept Device MK-18,,,,3551,alllDps
+Sha'tek Quick Savant Device MK-18,,,,3559,allDps
+Sha'tek Adept Package MK-18,,,,3552,allHealer
+Sha'tek Bastion Package MK-18,,,,3554,allTank
+Sha'tek Bulwark Package MK-18,,,,3556,allTank
+Sha'tek Initiative Package MK-18,,,,3558,allDps
+Sha'tek Quick Savant Package MK-18,,,,3560,allHealer
+Sha'tek Adept Package MK-18,,,,3552,alllDps
+Sha'tek Quick Savant Package MK-18,,,,3560,allDps
+Sha'tek Relic of Avoidance MK-18,,,,3561,allTank
+Sha'tek Relic of Boundless Ages MK-18,,,,3562,allHealer
+Sha'tek Relic of Devastating Vengeance MK-18,,,,3563,allHealer
+Sha'tek Relic of Ephemeral Mending MK-18,,,,3564,allHealer
+Sha'tek Relic of Focused Retribution MK-18,,,,3565,allHealer
+Sha'tek Relic of Imperiling Serenity MK-18,,,,3566,allHealer
+Sha'tek Relic of Reactive Warding MK-18,,,,3567,allTank
+Sha'tek Relic of Serendipitous Assault MK-18,,,,3568,allHealer
+Sha'tek Relic of the Primeval Fatesealer MK-18,,,,3569,allHealer
+Sha'tek Relic of the Shield Matrix MK-18,,,,3570,allTank
+Sha'tek Relic of the Shrouded Crusader MK-18,,,,3571,allTank
+Sha'tek Relic of Boundless Ages MK-18,,,,3562,allDps
+Sha'tek Relic of Devastating Vengeance MK-18,,,,3563,allDps
+Sha'tek Relic of Focused Retribution MK-18,,,,3565,allDps
+Sha'tek Relic of Imperiling Serenity MK-18,,,,3566,allDps
+Sha'tek Relic of Serendipitous Assault MK-18,,,,3568,allDps
+Sha'tek Relic of the Primeval Fatesealer MK-18,,,,3569,allDps
