@@ -32,7 +32,8 @@ let HelpController = (function()
             case 'itemSelected':
             {
                 msg = 'Now that you\'ve selected an item, your stats have updated automatically.  ' +
-                    'If the item is moddable, you can also click the individual mods to swap them out.';
+                    'If the item is moddable, you can also click the individual mods to swap them out.<br /><br />' +
+                    'Click the "clear slot" button if you wish to remove this item.';
                 break;
             }
             case 'alacTiers':

@@ -19,10 +19,11 @@ public class Item
     private String description;
     private String image;
     private String type;
+    private String setId;
 
-    public enum TierColor{NONE, GREEN, BLUE, PURPLE, GOLD;}
+    public enum TierColor{NONE, GREEN, BLUE, PURPLE, GOLD, ALL}
 
-    public enum DynamicSlot{NONE, HILT, BARREL, ARMORING;}
+    public enum DynamicSlot{NONE, HILT, BARREL, ARMORING}
 
     public Item()
     {
@@ -167,5 +168,15 @@ public class Item
     public void setType(String type)
     {
         this.type = type;
+    }
+
+    public String getSetId()
+    {
+        return setId;
+    }
+
+    public void setSetId(String setId)
+    {
+        this.setId = setId;
     }
 }

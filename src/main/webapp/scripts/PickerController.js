@@ -16,6 +16,7 @@ let PickerController = (function()
         this.cas;
         this.iat;
         this.iar;
+        this.dib;
     }
     PickerController.prototype.init = function()
     {
@@ -31,6 +32,8 @@ let PickerController = (function()
         this.cas = document.getElementById('currentAugStats');
         this.iat = document.getElementById('inputAugType');
         this.iar = document.getElementById('inputAugRating');
+
+        this.dib = document.getElementById('deleteItemButton');
 
         log('PickerController initialized.');
     };
@@ -160,9 +163,12 @@ let PickerController = (function()
             this.cir.innerHTML = '';
             this.cis.innerHTML = '';
             this.cid.innerHTML = '';
+            this.dib.style.display = 'none';
         }
         else
         {
+            this.dib.style.display = '';
+
             let color = item.color;
             if(item.isCustom)
             {
@@ -185,7 +191,14 @@ let PickerController = (function()
                     this.cis.appendChild(el);
                 }
             }
-            this.cid.innerHTML = item.description;
+            if(!item.setId)
+            {
+                this.cid.innerHTML = item.description;
+            }
+            else
+            {
+                this.cid.innerHTML = SetManager.getDescriptionForSet(item.setId);
+            }
         }
         this.populateCurrentItemModsForItem(item);
         this.showOrHideModSlots(slot);

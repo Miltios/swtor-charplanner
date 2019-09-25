@@ -531,7 +531,7 @@
                 </table>
             </div>
             <div id="itemModdingArea">
-                <div>
+                <div id="itemModdingSlots">
                     <div id="slotDynamic" class="mod-slot">
                         <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
@@ -553,6 +553,7 @@
                         </a>
                     </div>
                 </div>
+                <button id="deleteItemButton" onclick="DomController.userInput(this, 'deleteItem');" style="display:none;">Clear slot</button>
             </div>
             <div id="itemListSettingsTop">
             </div>
@@ -579,6 +580,7 @@
                     <div><input type="checkbox" checked id="itemRatingCheckboxT3" class="item-rating-checkbox" value="238-242" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT3">Tier 3 (238-242)</label></div>
                     <div><input type="checkbox" checked id="itemRatingCheckboxT4" class="item-rating-checkbox" value="244-248" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT4">Tier 4 (244-248)</label></div>
                     <div><input type="checkbox" checked id="itemRatingCheckboxT5" class="item-rating-checkbox" value="252-258" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT5">Tier 5 (252-258)</label></div>
+                    <div><input type="checkbox" checked id="itemRatingCheckboxT6" class="item-rating-checkbox" value="270-306" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT6">Tier 6 (270-306)</label></div>
                 </div>
                 <div class="item-list-settings-block settings-partwidth" style="width:30%;">
                     <label class="block-title" for="specFilterDropdown">Show items for:</label>
@@ -682,13 +684,14 @@ function log(str)
     requireJs("/scripts/SpecManager.js");
     requireJs("/scripts/StatController.js");
     requireJs("/scripts/StatManager.js");
+    requireJs("/scripts/SetManager.js");
     requireJs("/scripts/TooltipController.js");
     requireJs("/scripts/AugmentController.js");
     requireJs("/scripts/WarningsController.js");
     requireJs("/scripts/HelpController.js");
     requireJs("/scripts/Settings.js");
     requireJs("/scripts/Utilities.js");
-    requireJs("/scripts/AutofillController.js"); //TODO: developer hacks, not needed for functionality
+    requireJs("/scripts/AutofillController.js");
     requireJs("/scripts/model/Item.js");
     requireJs("/scripts/model/ItemMod.js");
     requireJs("/scripts/model/Slot.js");
@@ -697,5 +700,6 @@ function log(str)
     let allItemData = <%= ItemManager.getAllAsJson() %>;
     let ratingData = <%= ItemManager.getRatingsAsJson() %>;
     let specBuffData = <%= ItemManager.getSpecBuffsAsJson() %>;
+    let setBonusData = <%= ItemManager.getSetBonusesAsJson() %>;
 </script>
 </html>

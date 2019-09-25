@@ -12,6 +12,7 @@ function Item(data)
     this.description;
     this.image;
     this.type;
+    this.setId;
     if(data)
     {
         this.id = data.id;
@@ -26,6 +27,7 @@ function Item(data)
         this.description = data.description;
         this.image = data.image;
         this.type = data.type;
+        this.setId = data.setId;
         if(typeof data.isCustom === 'undefined')
         {
             this.isCustom = false;

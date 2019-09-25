@@ -599,3 +599,611 @@ Superior Quick Savant Enhancement 56,258goldenhancement,435,allHealer
 Superior Savant Enhancement 56,258goldenhancement,436,allHealer
 Superior Versatile Barrel 56,258goldbarrel,442,allHealer
 Superior Versatile Hilt 56,258goldhilt,444,allHealer
+Superior Bastion Enhancement 80,306goldenhancement,451,allTank
+Superior Bulwark Enhancement 80,306goldenhancement,452,allTank
+Superior Immunity Enhancement 80,306goldenhancement,453,allTank
+Superior Steadfast Enhancement 80,306goldenhancement,454,allTank
+Superior Sturdiness Enhancement 80,306goldenhancement,455,allTank
+Superior Vigilant Enhancement 80,306goldenhancement,456,allTank
+Superior Warding Mod 80,306goldmod,460,allTank
+Superior Warding Mod 80A,306goldmod,461,allTank
+Superior Warding Mod 80B,306goldmod,462,allTank
+Superior Resistive Armoring 80,306goldarmoring,463,allTank
+Superior Resistive Hilt 80,306goldhilt,465,allTank
+Superior Resistive Barrel 80,306goldbarrel,467,allTank
+Superior Adept Enhancement 80,306goldenhancement,445,allDps
+Superior Discipline Enhancement 80,306goldenhancement,446,allDps
+Superior Efficient Enhancement 80,306goldenhancement,447,allDps
+Superior Initiative Enhancement 80,306goldenhancement,448,allDps
+Superior Proficient Enhancement 80,306goldenhancement,449,allDps
+Superior Studious Enhancement 80,306goldenhancement,450,allDps
+Superior Lethal Mod 80,306goldmod,457,all
+Superior Lethal Mod 80A,306goldmod,458,all
+Superior Lethal Mod 80B,306goldmod,459,all
+Superior Versatile Armoring 80,306goldarmoring,464,allDps
+Superior Versatile Hilt 80,306goldhilt,466,allDps
+Superior Versatile Barrel 80,306goldbarrel,468,allDps
+Superior Adept Enhancement 80,306goldenhancement,445,allHealer
+Superior Discipline Enhancement 80,306goldenhancement,446,allHealer
+Superior Efficient Enhancement 80,306goldenhancement,447,allHealer
+Superior Versatile Armoring 80,306goldenhancement,464,allHealer
+Superior Versatile Hilt 80,306goldenhancement,466,allHealer
+Superior Versatile Barrel 80,306goldenhancement,468,allHealer
+Superior Quick Savant Enhancement 80,306goldenhancement,469,allDps
+Superior Quick Savant Enhancement 80,306goldenhancement,469,allHealer
+Bastion Enhancement 75,270greenenhancement,476,allTank
+Bulwark Enhancement 75,270greenenhancement,477,allTank
+Immunity Enhancement 75,270greenenhancement,478,allTank
+Steadfast Enhancement 75,270greenenhancement,479,allTank
+Sturdiness Enhancement 75,270greenenhancement,480,allTank
+Vigilant Enhancement 75,270greenenhancement,481,allTank
+Warding Mod 75,270greenmod,485,allTank
+Warding Mod 75A,270greenmod,486,allTank
+Warding Mod 75B,270greenmod,487,allTank
+Resistive Armoring 75,270greenarmoring,488,allTank
+Resistive Hilt 75,270greenhilt,490,allTank
+Resistive Barrel 75,270greenbarrel,492,allTank
+Adept Enhancement 75,270greenenhancement,470,allDps
+Discipline Enhancement 75,270greenenhancement,471,allDps
+Efficient Enhancement 75,270greenenhancement,472,allDps
+Initiative Enhancement 75,270greenenhancement,473,allDps
+Proficient Enhancement 75,270greenenhancement,474,allDps
+Studious Enhancement 75,270greenenhancement,475,allDps
+Lethal Mod 75,270greenmod,482,all
+Lethal Mod 75A,270greenmod,483,all
+Lethal Mod 75B,270greenmod,484,all
+Versatile Armoring 75,270greenarmoring,489,allDps
+Versatile Hilt 75,270greenhilt,491,allDps
+Versatile Barrel 75,270greenbarrel,493,allDps
+Adept Enhancement 75,270greenenhancement,470,allHealer
+Discipline Enhancement 75,270greenenhancement,471,allHealer
+Efficient Enhancement 75,270greenenhancement,472,allHealer
+Versatile Armoring 75,270greenenhancement,489,allHealer
+Versatile Hilt 75,270greenenhancement,491,allHealer
+Versatile Barrel 75,270greenenhancement,493,allHealer
+Nimble Enhancement 75,270greenenhancement,494,allDps
+Nimble Enhancement 75,270greenenhancement,494,allHealer
+Bastion Enhancement 76,272greenenhancement,501,allTank
+Bulwark Enhancement 76,272greenenhancement,502,allTank
+Immunity Enhancement 76,272greenenhancement,503,allTank
+Steadfast Enhancement 76,272greenenhancement,504,allTank
+Sturdiness Enhancement 76,272greenenhancement,505,allTank
+Vigilant Enhancement 76,272greenenhancement,506,allTank
+Warding Mod 76,272greenmod,510,allTank
+Warding Mod 76A,272greenmod,511,allTank
+Warding Mod 76B,272greenmod,512,allTank
+Resistive Armoring 76,272greenarmoring,513,allTank
+Resistive Hilt 76,272greenhilt,515,allTank
+Resistive Barrel 76,272greenbarrel,517,allTank
+Adept Enhancement 76,272greenenhancement,495,allDps
+Discipline Enhancement 76,272greenenhancement,496,allDps
+Efficient Enhancement 76,272greenenhancement,497,allDps
+Initiative Enhancement 76,272greenenhancement,498,allDps
+Proficient Enhancement 76,272greenenhancement,499,allDps
+Studious Enhancement 76,272greenenhancement,500,allDps
+Lethal Mod 76,272greenmod,507,all
+Lethal Mod 76A,272greenmod,508,all
+Lethal Mod 76B,272greenmod,509,all
+Versatile Armoring 76,272greenarmoring,514,allDps
+Versatile Hilt 76,272greenhilt,516,allDps
+Versatile Barrel 76,272greenbarrel,518,allDps
+Adept Enhancement 76,272greenenhancement,495,allHealer
+Discipline Enhancement 76,272greenenhancement,496,allHealer
+Efficient Enhancement 76,272greenenhancement,497,allHealer
+Versatile Armoring 76,272greenenhancement,514,allHealer
+Versatile Hilt 76,272greenenhancement,516,allHealer
+Versatile Barrel 76,272greenenhancement,518,allHealer
+Nimble Enhancement 76,272greenenhancement,519,allDps
+Nimble Enhancement 76,272greenenhancement,519,allHealer
+Bastion Enhancement 77,274greenenhancement,526,allTank
+Bulwark Enhancement 77,274greenenhancement,527,allTank
+Immunity Enhancement 77,274greenenhancement,528,allTank
+Steadfast Enhancement 77,274greenenhancement,529,allTank
+Sturdiness Enhancement 77,274greenenhancement,530,allTank
+Vigilant Enhancement 77,274greenenhancement,531,allTank
+Warding Mod 77,274greenmod,535,allTank
+Warding Mod 77A,274greenmod,536,allTank
+Warding Mod 77B,274greenmod,537,allTank
+Resistive Armoring 77,274greenarmoring,538,allTank
+Resistive Hilt 77,274greenhilt,540,allTank
+Resistive Barrel 77,274greenbarrel,542,allTank
+Adept Enhancement 77,274greenenhancement,520,allDps
+Discipline Enhancement 77,274greenenhancement,521,allDps
+Efficient Enhancement 77,274greenenhancement,522,allDps
+Initiative Enhancement 77,274greenenhancement,523,allDps
+Proficient Enhancement 77,274greenenhancement,524,allDps
+Studious Enhancement 77,274greenenhancement,525,allDps
+Lethal Mod 77,274greenmod,532,all
+Lethal Mod 77A,274greenmod,533,all
+Lethal Mod 77B,274greenmod,534,all
+Versatile Armoring 77,274greenarmoring,539,allDps
+Versatile Hilt 77,274greenhilt,541,allDps
+Versatile Barrel 77,274greenbarrel,543,allDps
+Adept Enhancement 77,274greenenhancement,520,allHealer
+Discipline Enhancement 77,274greenenhancement,521,allHealer
+Efficient Enhancement 77,274greenenhancement,522,allHealer
+Versatile Armoring 77,274greenenhancement,539,allHealer
+Versatile Hilt 77,274greenenhancement,541,allHealer
+Versatile Barrel 77,274greenenhancement,543,allHealer
+Nimble Enhancement 77,274greenenhancement,544,allDps
+Nimble Enhancement 77,274greenenhancement,544,allHealer
+Bastion Enhancement 73,276blueenhancement,551,allTank
+Bulwark Enhancement 73,276blueenhancement,552,allTank
+Immunity Enhancement 73,276blueenhancement,553,allTank
+Steadfast Enhancement 73,276blueenhancement,554,allTank
+Sturdiness Enhancement 73,276blueenhancement,555,allTank
+Vigilant Enhancement 73,276blueenhancement,556,allTank
+Warding Mod 73,276bluemod,560,allTank
+Warding Mod 73A,276bluemod,561,allTank
+Warding Mod 73B,276bluemod,562,allTank
+Resistive Armoring 73,276bluearmoring,563,allTank
+Resistive Hilt 73,276bluehilt,565,allTank
+Resistive Barrel 73,276bluebarrel,567,allTank
+Adept Enhancement 73,276blueenhancement,545,allDps
+Discipline Enhancement 73,276blueenhancement,546,allDps
+Efficient Enhancement 73,276blueenhancement,547,allDps
+Initiative Enhancement 73,276blueenhancement,548,allDps
+Proficient Enhancement 73,276blueenhancement,549,allDps
+Studious Enhancement 73,276blueenhancement,550,allDps
+Lethal Mod 73,276bluemod,557,all
+Lethal Mod 73A,276bluemod,558,all
+Lethal Mod 73B,276bluemod,559,all
+Versatile Armoring 73,276bluearmoring,564,allDps
+Versatile Hilt 73,276bluehilt,566,allDps
+Versatile Barrel 73,276bluebarrel,568,allDps
+Adept Enhancement 73,276blueenhancement,545,allHealer
+Discipline Enhancement 73,276blueenhancement,546,allHealer
+Efficient Enhancement 73,276blueenhancement,547,allHealer
+Versatile Armoring 73,276blueenhancement,564,allHealer
+Versatile Hilt 73,276blueenhancement,566,allHealer
+Versatile Barrel 73,276blueenhancement,568,allHealer
+Nimble Enhancement 73,276blueenhancement,569,allDps
+Nimble Enhancement 73,276blueenhancement,569,allHealer
+Bastion Enhancement 74,278blueenhancement,576,allTank
+Bulwark Enhancement 74,278blueenhancement,577,allTank
+Immunity Enhancement 74,278blueenhancement,578,allTank
+Steadfast Enhancement 74,278blueenhancement,579,allTank
+Sturdiness Enhancement 74,278blueenhancement,580,allTank
+Vigilant Enhancement 74,278blueenhancement,581,allTank
+Warding Mod 74,278bluemod,585,allTank
+Warding Mod 74A,278bluemod,586,allTank
+Warding Mod 74B,278bluemod,587,allTank
+Resistive Armoring 74,278bluearmoring,588,allTank
+Resistive Hilt 74,278bluehilt,590,allTank
+Resistive Barrel 74,278bluebarrel,592,allTank
+Adept Enhancement 74,278blueenhancement,570,allDps
+Discipline Enhancement 74,278blueenhancement,571,allDps
+Efficient Enhancement 74,278blueenhancement,572,allDps
+Initiative Enhancement 74,278blueenhancement,573,allDps
+Proficient Enhancement 74,278blueenhancement,574,allDps
+Studious Enhancement 74,278blueenhancement,575,allDps
+Lethal Mod 74,278bluemod,582,all
+Lethal Mod 74A,278bluemod,583,all
+Lethal Mod 74B,278bluemod,584,all
+Versatile Armoring 74,278bluearmoring,589,allDps
+Versatile Hilt 74,278bluehilt,591,allDps
+Versatile Barrel 74,278bluebarrel,593,allDps
+Adept Enhancement 74,278blueenhancement,570,allHealer
+Discipline Enhancement 74,278blueenhancement,571,allHealer
+Efficient Enhancement 74,278blueenhancement,572,allHealer
+Versatile Armoring 74,278blueenhancement,589,allHealer
+Versatile Hilt 74,278blueenhancement,591,allHealer
+Versatile Barrel 74,278blueenhancement,593,allHealer
+Nimble Enhancement 74,278blueenhancement,594,allDps
+Nimble Enhancement 74,278blueenhancement,594,allHealer
+Bastion Enhancement 75,280blueenhancement,601,allTank
+Bulwark Enhancement 75,280blueenhancement,602,allTank
+Immunity Enhancement 75,280blueenhancement,603,allTank
+Steadfast Enhancement 75,280blueenhancement,604,allTank
+Sturdiness Enhancement 75,280blueenhancement,605,allTank
+Vigilant Enhancement 75,280blueenhancement,606,allTank
+Warding Mod 75,280bluemod,610,allTank
+Warding Mod 75A,280bluemod,611,allTank
+Warding Mod 75B,280bluemod,612,allTank
+Resistive Armoring 75,280bluearmoring,613,allTank
+Resistive Hilt 75,280bluehilt,615,allTank
+Resistive Barrel 75,280bluebarrel,617,allTank
+Adept Enhancement 75,280blueenhancement,595,allDps
+Discipline Enhancement 75,280blueenhancement,596,allDps
+Efficient Enhancement 75,280blueenhancement,597,allDps
+Initiative Enhancement 75,280blueenhancement,598,allDps
+Proficient Enhancement 75,280blueenhancement,599,allDps
+Studious Enhancement 75,280blueenhancement,600,allDps
+Lethal Mod 75,280bluemod,607,all
+Lethal Mod 75A,280bluemod,608,all
+Lethal Mod 75B,280bluemod,609,all
+Versatile Armoring 75,280bluearmoring,614,allDps
+Versatile Hilt 75,280bluehilt,616,allDps
+Versatile Barrel 75,280bluebarrel,618,allDps
+Adept Enhancement 75,280blueenhancement,595,allHealer
+Discipline Enhancement 75,280blueenhancement,596,allHealer
+Efficient Enhancement 75,280blueenhancement,597,allHealer
+Versatile Armoring 75,280blueenhancement,614,allHealer
+Versatile Hilt 75,280blueenhancement,616,allHealer
+Versatile Barrel 75,280blueenhancement,618,allHealer
+Nimble Enhancement 75,280blueenhancement,619,allDps
+Nimble Enhancement 75,280blueenhancement,619,allHealer
+Bastion Enhancement 76,282blueenhancement,626,allTank
+Bulwark Enhancement 76,282blueenhancement,627,allTank
+Immunity Enhancement 76,282blueenhancement,628,allTank
+Steadfast Enhancement 76,282blueenhancement,629,allTank
+Sturdiness Enhancement 76,282blueenhancement,630,allTank
+Vigilant Enhancement 76,282blueenhancement,631,allTank
+Warding Mod 76,282bluemod,635,allTank
+Warding Mod 76A,282bluemod,636,allTank
+Warding Mod 76B,282bluemod,637,allTank
+Resistive Armoring 76,282bluearmoring,638,allTank
+Resistive Hilt 76,282bluehilt,640,allTank
+Resistive Barrel 76,282bluebarrel,642,allTank
+Adept Enhancement 76,282blueenhancement,620,allDps
+Discipline Enhancement 76,282blueenhancement,621,allDps
+Efficient Enhancement 76,282blueenhancement,622,allDps
+Initiative Enhancement 76,282blueenhancement,623,allDps
+Proficient Enhancement 76,282blueenhancement,624,allDps
+Studious Enhancement 76,282blueenhancement,625,allDps
+Lethal Mod 76,282bluemod,632,all
+Lethal Mod 76A,282bluemod,633,all
+Lethal Mod 76B,282bluemod,634,all
+Versatile Armoring 76,282bluearmoring,639,allDps
+Versatile Hilt 76,282bluehilt,641,allDps
+Versatile Barrel 76,282bluebarrel,643,allDps
+Adept Enhancement 76,282blueenhancement,620,allHealer
+Discipline Enhancement 76,282blueenhancement,621,allHealer
+Efficient Enhancement 76,282blueenhancement,622,allHealer
+Versatile Armoring 76,282blueenhancement,639,allHealer
+Versatile Hilt 76,282blueenhancement,641,allHealer
+Versatile Barrel 76,282blueenhancement,643,allHealer
+Nimble Enhancement 76,282blueenhancement,644,allDps
+Nimble Enhancement 76,282blueenhancement,644,allHealer
+Bastion Enhancement 77,284blueenhancement,651,allTank
+Bulwark Enhancement 77,284blueenhancement,652,allTank
+Immunity Enhancement 77,284blueenhancement,653,allTank
+Steadfast Enhancement 77,284blueenhancement,654,allTank
+Sturdiness Enhancement 77,284blueenhancement,655,allTank
+Vigilant Enhancement 77,284blueenhancement,656,allTank
+Warding Mod 77,284bluemod,660,allTank
+Warding Mod 77A,284bluemod,661,allTank
+Warding Mod 77B,284bluemod,662,allTank
+Resistive Armoring 77,284bluearmoring,663,allTank
+Resistive Hilt 77,284bluehilt,665,allTank
+Resistive Barrel 77,284bluebarrel,667,allTank
+Adept Enhancement 77,284blueenhancement,645,allDps
+Discipline Enhancement 77,284blueenhancement,646,allDps
+Efficient Enhancement 77,284blueenhancement,647,allDps
+Initiative Enhancement 77,284blueenhancement,648,allDps
+Proficient Enhancement 77,284blueenhancement,649,allDps
+Studious Enhancement 77,284blueenhancement,650,allDps
+Lethal Mod 77,284bluemod,657,all
+Lethal Mod 77A,284bluemod,658,all
+Lethal Mod 77B,284bluemod,659,all
+Versatile Armoring 77,284bluearmoring,664,allDps
+Versatile Hilt 77,284bluehilt,666,allDps
+Versatile Barrel 77,284bluebarrel,668,allDps
+Adept Enhancement 77,284blueenhancement,645,allHealer
+Discipline Enhancement 77,284blueenhancement,646,allHealer
+Efficient Enhancement 77,284blueenhancement,647,allHealer
+Versatile Armoring 77,284blueenhancement,664,allHealer
+Versatile Hilt 77,284blueenhancement,666,allHealer
+Versatile Barrel 77,284blueenhancement,668,allHealer
+Nimble Enhancement 77,284blueenhancement,669,allDps
+Nimble Enhancement 77,284blueenhancement,669,allHealer
+Advanced Bastion Enhancement 74,286purpleenhancement,676,allTank
+Advanced Bulwark Enhancement 74,286purpleenhancement,677,allTank
+Advanced Immunity Enhancement 74,286purpleenhancement,678,allTank
+Advanced Steadfast Enhancement 74,286purpleenhancement,679,allTank
+Advanced Sturdiness Enhancement 74,286purpleenhancement,680,allTank
+Advanced Vigilant Enhancement 74,286purpleenhancement,681,allTank
+Advanced Warding Mod 74,286purplemod,685,allTank
+Advanced Warding Mod 74A,286purplemod,686,allTank
+Advanced Warding Mod 74B,286purplemod,687,allTank
+Advanced Resistive Armoring 74,286purplearmoring,688,allTank
+Advanced Resistive Hilt 74,286purplehilt,690,allTank
+Advanced Resistive Barrel 74,286purplebarrel,692,allTank
+Advanced Adept Enhancement 74,286purpleenhancement,670,allDps
+Advanced Discipline Enhancement 74,286purpleenhancement,671,allDps
+Advanced Efficient Enhancement 74,286purpleenhancement,672,allDps
+Advanced Initiative Enhancement 74,286purpleenhancement,673,allDps
+Advanced Proficient Enhancement 74,286purpleenhancement,674,allDps
+Advanced Studious Enhancement 74,286purpleenhancement,675,allDps
+Advanced Lethal Mod 74,286purplemod,682,all
+Advanced Lethal Mod 74A,286purplemod,683,all
+Advanced Lethal Mod 74B,286purplemod,684,all
+Advanced Versatile Armoring 74,286purplearmoring,689,allDps
+Advanced Versatile Hilt 74,286purplehilt,691,allDps
+Advanced Versatile Barrel 74,286purplebarrel,693,allDps
+Advanced Adept Enhancement 74,286purpleenhancement,670,allHealer
+Advanced Discipline Enhancement 74,286purpleenhancement,671,allHealer
+Advanced Efficient Enhancement 74,286purpleenhancement,672,allHealer
+Advanced Versatile Armoring 74,286purpleenhancement,689,allHealer
+Advanced Versatile Hilt 74,286purpleenhancement,691,allHealer
+Advanced Versatile Barrel 74,286purpleenhancement,693,allHealer
+Advanced Nimble Enhancement 74,286purpleenhancement,694,allDps
+Advanced Nimble Enhancement 74,286purpleenhancement,694,allHealer
+Advanced Bastion Enhancement 75,288purpleenhancement,701,allTank
+Advanced Bulwark Enhancement 75,288purpleenhancement,702,allTank
+Advanced Immunity Enhancement 75,288purpleenhancement,703,allTank
+Advanced Steadfast Enhancement 75,288purpleenhancement,704,allTank
+Advanced Sturdiness Enhancement 75,288purpleenhancement,705,allTank
+Advanced Vigilant Enhancement 75,288purpleenhancement,706,allTank
+Advanced Warding Mod 75,288purplemod,710,allTank
+Advanced Warding Mod 75A,288purplemod,711,allTank
+Advanced Warding Mod 75B,288purplemod,712,allTank
+Advanced Resistive Armoring 75,288purplearmoring,713,allTank
+Advanced Resistive Hilt 75,288purplehilt,715,allTank
+Advanced Resistive Barrel 75,288purplebarrel,717,allTank
+Advanced Adept Enhancement 75,288purpleenhancement,695,allDps
+Advanced Discipline Enhancement 75,288purpleenhancement,696,allDps
+Advanced Efficient Enhancement 75,288purpleenhancement,697,allDps
+Advanced Initiative Enhancement 75,288purpleenhancement,698,allDps
+Advanced Proficient Enhancement 75,288purpleenhancement,699,allDps
+Advanced Studious Enhancement 75,288purpleenhancement,700,allDps
+Advanced Lethal Mod 75,288purplemod,707,all
+Advanced Lethal Mod 75A,288purplemod,708,all
+Advanced Lethal Mod 75B,288purplemod,709,all
+Advanced Versatile Armoring 75,288purplearmoring,714,allDps
+Advanced Versatile Hilt 75,288purplehilt,716,allDps
+Advanced Versatile Barrel 75,288purplebarrel,718,allDps
+Advanced Adept Enhancement 75,288purpleenhancement,695,allHealer
+Advanced Discipline Enhancement 75,288purpleenhancement,696,allHealer
+Advanced Efficient Enhancement 75,288purpleenhancement,697,allHealer
+Advanced Versatile Armoring 75,288purpleenhancement,714,allHealer
+Advanced Versatile Hilt 75,288purpleenhancement,716,allHealer
+Advanced Versatile Barrel 75,288purpleenhancement,718,allHealer
+Advanced Nimble Enhancement 75,288purpleenhancement,719,allDps
+Advanced Nimble Enhancement 75,288purpleenhancement,719,allHealer
+Advanced Bastion Enhancement 76,290purpleenhancement,726,allTank
+Advanced Bulwark Enhancement 76,290purpleenhancement,727,allTank
+Advanced Immunity Enhancement 76,290purpleenhancement,728,allTank
+Advanced Steadfast Enhancement 76,290purpleenhancement,729,allTank
+Advanced Sturdiness Enhancement 76,290purpleenhancement,730,allTank
+Advanced Vigilant Enhancement 76,290purpleenhancement,731,allTank
+Advanced Warding Mod 76,290purplemod,735,allTank
+Advanced Warding Mod 76A,290purplemod,736,allTank
+Advanced Warding Mod 76B,290purplemod,737,allTank
+Advanced Resistive Armoring 76,290purplearmoring,738,allTank
+Advanced Resistive Hilt 76,290purplehilt,740,allTank
+Advanced Resistive Barrel 76,290purplebarrel,742,allTank
+Advanced Adept Enhancement 76,290purpleenhancement,720,allDps
+Advanced Discipline Enhancement 76,290purpleenhancement,721,allDps
+Advanced Efficient Enhancement 76,290purpleenhancement,722,allDps
+Advanced Initiative Enhancement 76,290purpleenhancement,723,allDps
+Advanced Proficient Enhancement 76,290purpleenhancement,724,allDps
+Advanced Studious Enhancement 76,290purpleenhancement,725,allDps
+Advanced Lethal Mod 76,290purplemod,732,all
+Advanced Lethal Mod 76A,290purplemod,733,all
+Advanced Lethal Mod 76B,290purplemod,734,all
+Advanced Versatile Armoring 76,290purplearmoring,739,allDps
+Advanced Versatile Hilt 76,290purplehilt,741,allDps
+Advanced Versatile Barrel 76,290purplebarrel,743,allDps
+Advanced Adept Enhancement 76,290purpleenhancement,720,allHealer
+Advanced Discipline Enhancement 76,290purpleenhancement,721,allHealer
+Advanced Efficient Enhancement 76,290purpleenhancement,722,allHealer
+Advanced Versatile Armoring 76,290purpleenhancement,739,allHealer
+Advanced Versatile Hilt 76,290purpleenhancement,741,allHealer
+Advanced Versatile Barrel 76,290purpleenhancement,743,allHealer
+Advanced Nimble Enhancement 76,290purpleenhancement,744,allDps
+Advanced Nimble Enhancement 76,290purpleenhancement,744,allHealer
+Advanced Bastion Enhancement 77,292purpleenhancement,751,allTank
+Advanced Bulwark Enhancement 77,292purpleenhancement,752,allTank
+Advanced Immunity Enhancement 77,292purpleenhancement,753,allTank
+Advanced Steadfast Enhancement 77,292purpleenhancement,754,allTank
+Advanced Sturdiness Enhancement 77,292purpleenhancement,755,allTank
+Advanced Vigilant Enhancement 77,292purpleenhancement,756,allTank
+Advanced Warding Mod 77,292purplemod,760,allTank
+Advanced Warding Mod 77A,292purplemod,761,allTank
+Advanced Warding Mod 77B,292purplemod,762,allTank
+Advanced Resistive Armoring 77,292purplearmoring,763,allTank
+Advanced Resistive Hilt 77,292purplehilt,765,allTank
+Advanced Resistive Barrel 77,292purplebarrel,767,allTank
+Advanced Adept Enhancement 77,292purpleenhancement,745,allDps
+Advanced Discipline Enhancement 77,292purpleenhancement,746,allDps
+Advanced Efficient Enhancement 77,292purpleenhancement,747,allDps
+Advanced Initiative Enhancement 77,292purpleenhancement,748,allDps
+Advanced Proficient Enhancement 77,292purpleenhancement,749,allDps
+Advanced Studious Enhancement 77,292purpleenhancement,750,allDps
+Advanced Lethal Mod 77,292purplemod,757,all
+Advanced Lethal Mod 77A,292purplemod,758,all
+Advanced Lethal Mod 77B,292purplemod,759,all
+Advanced Versatile Armoring 77,292purplearmoring,764,allDps
+Advanced Versatile Hilt 77,292purplehilt,766,allDps
+Advanced Versatile Barrel 77,292purplebarrel,768,allDps
+Advanced Adept Enhancement 77,292purpleenhancement,745,allHealer
+Advanced Discipline Enhancement 77,292purpleenhancement,746,allHealer
+Advanced Efficient Enhancement 77,292purpleenhancement,747,allHealer
+Advanced Versatile Armoring 77,292purpleenhancement,764,allHealer
+Advanced Versatile Hilt 77,292purpleenhancement,766,allHealer
+Advanced Versatile Barrel 77,292purpleenhancement,768,allHealer
+Advanced Nimble Enhancement 77,292purpleenhancement,769,allDps
+Advanced Nimble Enhancement 77,292purpleenhancement,769,allHealer
+Advanced Bastion Enhancement 78,294purpleenhancement,776,allTank
+Advanced Bulwark Enhancement 78,294purpleenhancement,777,allTank
+Advanced Immunity Enhancement 78,294purpleenhancement,778,allTank
+Advanced Steadfast Enhancement 78,294purpleenhancement,779,allTank
+Advanced Sturdiness Enhancement 78,294purpleenhancement,780,allTank
+Advanced Vigilant Enhancement 78,294purpleenhancement,781,allTank
+Advanced Warding Mod 78,294purplemod,785,allTank
+Advanced Warding Mod 78A,294purplemod,786,allTank
+Advanced Warding Mod 78B,294purplemod,787,allTank
+Advanced Resistive Armoring 78,294purplearmoring,788,allTank
+Advanced Resistive Hilt 78,294purplehilt,790,allTank
+Advanced Resistive Barrel 78,294purplebarrel,792,allTank
+Advanced Adept Enhancement 78,294purpleenhancement,770,allDps
+Advanced Discipline Enhancement 78,294purpleenhancement,771,allDps
+Advanced Efficient Enhancement 78,294purpleenhancement,772,allDps
+Advanced Initiative Enhancement 78,294purpleenhancement,773,allDps
+Advanced Proficient Enhancement 78,294purpleenhancement,774,allDps
+Advanced Studious Enhancement 78,294purpleenhancement,775,allDps
+Advanced Lethal Mod 78,294purplemod,782,all
+Advanced Lethal Mod 78A,294purplemod,783,all
+Advanced Lethal Mod 78B,294purplemod,784,all
+Advanced Versatile Armoring 78,294purplearmoring,789,allDps
+Advanced Versatile Hilt 78,294purplehilt,791,allDps
+Advanced Versatile Barrel 78,294purplebarrel,793,allDps
+Advanced Adept Enhancement 78,294purpleenhancement,770,allHealer
+Advanced Discipline Enhancement 78,294purpleenhancement,771,allHealer
+Advanced Efficient Enhancement 78,294purpleenhancement,772,allHealer
+Advanced Versatile Armoring 78,294purpleenhancement,789,allHealer
+Advanced Versatile Hilt 78,294purpleenhancement,791,allHealer
+Advanced Versatile Barrel 78,294purpleenhancement,793,allHealer
+Advanced Nimble Enhancement 78,294purpleenhancement,794,allDps
+Advanced Nimble Enhancement 78,294purpleenhancement,794,allHealer
+Advanced Bastion Enhancement 79,296purpleenhancement,801,allTank
+Advanced Bulwark Enhancement 79,296purpleenhancement,802,allTank
+Advanced Immunity Enhancement 79,296purpleenhancement,803,allTank
+Advanced Steadfast Enhancement 79,296purpleenhancement,804,allTank
+Advanced Sturdiness Enhancement 79,296purpleenhancement,805,allTank
+Advanced Vigilant Enhancement 79,296purpleenhancement,806,allTank
+Advanced Warding Mod 79,296purplemod,810,allTank
+Advanced Warding Mod 79A,296purplemod,811,allTank
+Advanced Warding Mod 79B,296purplemod,812,allTank
+Advanced Resistive Armoring 79,296purplearmoring,813,allTank
+Advanced Resistive Hilt 79,296purplehilt,815,allTank
+Advanced Resistive Barrel 79,296purplebarrel,817,allTank
+Advanced Adept Enhancement 79,296purpleenhancement,795,allDps
+Advanced Discipline Enhancement 79,296purpleenhancement,796,allDps
+Advanced Efficient Enhancement 79,296purpleenhancement,797,allDps
+Advanced Initiative Enhancement 79,296purpleenhancement,798,allDps
+Advanced Proficient Enhancement 79,296purpleenhancement,799,allDps
+Advanced Studious Enhancement 79,296purpleenhancement,800,allDps
+Advanced Lethal Mod 79,296purplemod,807,all
+Advanced Lethal Mod 79A,296purplemod,808,all
+Advanced Lethal Mod 79B,296purplemod,809,all
+Advanced Versatile Armoring 79,296purplearmoring,814,allDps
+Advanced Versatile Hilt 79,296purplehilt,816,allDps
+Advanced Versatile Barrel 79,296purplebarrel,818,allDps
+Advanced Adept Enhancement 79,296purpleenhancement,795,allHealer
+Advanced Discipline Enhancement 79,296purpleenhancement,796,allHealer
+Advanced Efficient Enhancement 79,296purpleenhancement,797,allHealer
+Advanced Versatile Armoring 79,296purpleenhancement,814,allHealer
+Advanced Versatile Hilt 79,296purpleenhancement,816,allHealer
+Advanced Versatile Barrel 79,296purpleenhancement,818,allHealer
+Advanced Nimble Enhancement 79,296purpleenhancement,819,allDps
+Advanced Nimble Enhancement 79,296purpleenhancement,819,allHealer
+Advanced Bastion Enhancement 80,298purpleenhancement,826,allTank
+Advanced Bulwark Enhancement 80,298purpleenhancement,827,allTank
+Advanced Immunity Enhancement 80,298purpleenhancement,828,allTank
+Advanced Steadfast Enhancement 80,298purpleenhancement,829,allTank
+Advanced Sturdiness Enhancement 80,298purpleenhancement,830,allTank
+Advanced Vigilant Enhancement 80,298purpleenhancement,831,allTank
+Advanced Warding Mod 80,298purplemod,835,allTank
+Advanced Warding Mod 80A,298purplemod,836,allTank
+Advanced Warding Mod 80B,298purplemod,837,allTank
+Advanced Resistive Armoring 80,298purplearmoring,838,allTank
+Advanced Resistive Hilt 80,298purplehilt,840,allTank
+Advanced Resistive Barrel 80,298purplebarrel,842,allTank
+Advanced Adept Enhancement 80,298purpleenhancement,820,allDps
+Advanced Discipline Enhancement 80,298purpleenhancement,821,allDps
+Advanced Efficient Enhancement 80,298purpleenhancement,822,allDps
+Advanced Initiative Enhancement 80,298purpleenhancement,823,allDps
+Advanced Proficient Enhancement 80,298purpleenhancement,824,allDps
+Advanced Studious Enhancement 80,298purpleenhancement,825,allDps
+Advanced Lethal Mod 80,298purplemod,832,all
+Advanced Lethal Mod 80A,298purplemod,833,all
+Advanced Lethal Mod 80B,298purplemod,834,all
+Advanced Versatile Armoring 80,298purplearmoring,839,allDps
+Advanced Versatile Hilt 80,298purplehilt,841,allDps
+Advanced Versatile Barrel 80,298purplebarrel,843,allDps
+Advanced Adept Enhancement 80,298purpleenhancement,820,allHealer
+Advanced Discipline Enhancement 80,298purpleenhancement,821,allHealer
+Advanced Efficient Enhancement 80,298purpleenhancement,822,allHealer
+Advanced Versatile Armoring 80,298purpleenhancement,839,allHealer
+Advanced Versatile Hilt 80,298purpleenhancement,841,allHealer
+Advanced Versatile Barrel 80,298purpleenhancement,843,allHealer
+Advanced Nimble Enhancement 80,298purpleenhancement,844,allDps
+Advanced Nimble Enhancement 80,298purpleenhancement,844,allHealer
+Superior Bastion Enhancement 77,300goldenhancement,851,allTank
+Superior Bulwark Enhancement 77,300goldenhancement,852,allTank
+Superior Immunity Enhancement 77,300goldenhancement,853,allTank
+Superior Steadfast Enhancement 77,300goldenhancement,854,allTank
+Superior Sturdiness Enhancement 77,300goldenhancement,855,allTank
+Superior Vigilant Enhancement 77,300goldenhancement,856,allTank
+Superior Warding Mod 77,300goldmod,860,allTank
+Superior Warding Mod 77A,300goldmod,861,allTank
+Superior Warding Mod 77B,300goldmod,862,allTank
+Superior Resistive Armoring 77,300goldarmoring,863,allTank
+Superior Resistive Hilt 77,300goldhilt,865,allTank
+Superior Resistive Barrel 77,300goldbarrel,867,allTank
+Superior Adept Enhancement 77,300goldenhancement,845,allDps
+Superior Discipline Enhancement 77,300goldenhancement,846,allDps
+Superior Efficient Enhancement 77,300goldenhancement,847,allDps
+Superior Initiative Enhancement 77,300goldenhancement,848,allDps
+Superior Proficient Enhancement 77,300goldenhancement,849,allDps
+Superior Studious Enhancement 77,300goldenhancement,850,allDps
+Superior Lethal Mod 77,300goldmod,857,all
+Superior Lethal Mod 77A,300goldmod,858,all
+Superior Lethal Mod 77B,300goldmod,859,all
+Superior Versatile Armoring 77,300goldarmoring,864,allDps
+Superior Versatile Hilt 77,300goldhilt,866,allDps
+Superior Versatile Barrel 77,300goldbarrel,868,allDps
+Superior Adept Enhancement 77,300goldenhancement,845,allHealer
+Superior Discipline Enhancement 77,300goldenhancement,846,allHealer
+Superior Efficient Enhancement 77,300goldenhancement,847,allHealer
+Superior Versatile Armoring 77,300goldenhancement,864,allHealer
+Superior Versatile Hilt 77,300goldenhancement,866,allHealer
+Superior Versatile Barrel 77,300goldenhancement,868,allHealer
+Superior Nimble Enhancement 77,300goldenhancement,869,allDps
+Superior Nimble Enhancement 77,300goldenhancement,869,allHealer
+Superior Bastion Enhancement 78,302goldenhancement,876,allTank
+Superior Bulwark Enhancement 78,302goldenhancement,877,allTank
+Superior Immunity Enhancement 78,302goldenhancement,878,allTank
+Superior Steadfast Enhancement 78,302goldenhancement,879,allTank
+Superior Sturdiness Enhancement 78,302goldenhancement,880,allTank
+Superior Vigilant Enhancement 78,302goldenhancement,881,allTank
+Superior Warding Mod 78,302goldmod,885,allTank
+Superior Warding Mod 78A,302goldmod,886,allTank
+Superior Warding Mod 78B,302goldmod,887,allTank
+Superior Resistive Armoring 78,302goldarmoring,888,allTank
+Superior Resistive Hilt 78,302goldhilt,890,allTank
+Superior Resistive Barrel 78,302goldbarrel,892,allTank
+Superior Adept Enhancement 78,302goldenhancement,870,allDps
+Superior Discipline Enhancement 78,302goldenhancement,871,allDps
+Superior Efficient Enhancement 78,302goldenhancement,872,allDps
+Superior Initiative Enhancement 78,302goldenhancement,873,allDps
+Superior Proficient Enhancement 78,302goldenhancement,874,allDps
+Superior Studious Enhancement 78,302goldenhancement,875,allDps
+Superior Lethal Mod 78,302goldmod,882,all
+Superior Lethal Mod 78A,302goldmod,883,all
+Superior Lethal Mod 78B,302goldmod,884,all
+Superior Versatile Armoring 78,302goldarmoring,889,allDps
+Superior Versatile Hilt 78,302goldhilt,891,allDps
+Superior Versatile Barrel 78,302goldbarrel,893,allDps
+Superior Adept Enhancement 78,302goldenhancement,870,allHealer
+Superior Discipline Enhancement 78,302goldenhancement,871,allHealer
+Superior Efficient Enhancement 78,302goldenhancement,872,allHealer
+Superior Versatile Armoring 78,302goldenhancement,889,allHealer
+Superior Versatile Hilt 78,302goldenhancement,891,allHealer
+Superior Versatile Barrel 78,302goldenhancement,893,allHealer
+Superior Nimble Enhancement 78,302goldenhancement,894,allDps
+Superior Nimble Enhancement 78,302goldenhancement,894,allHealer
+Superior Bastion Enhancement 79,304goldenhancement,901,allTank
+Superior Bulwark Enhancement 79,304goldenhancement,902,allTank
+Superior Immunity Enhancement 79,304goldenhancement,903,allTank
+Superior Steadfast Enhancement 79,304goldenhancement,904,allTank
+Superior Sturdiness Enhancement 79,304goldenhancement,905,allTank
+Superior Vigilant Enhancement 79,304goldenhancement,906,allTank
+Superior Warding Mod 79,304goldmod,910,allTank
+Superior Warding Mod 79A,304goldmod,911,allTank
+Superior Warding Mod 79B,304goldmod,912,allTank
+Superior Resistive Armoring 79,304goldarmoring,913,allTank
+Superior Resistive Hilt 79,304goldhilt,915,allTank
+Superior Resistive Barrel 79,304goldbarrel,917,allTank
+Superior Adept Enhancement 79,304goldenhancement,895,allDps
+Superior Discipline Enhancement 79,304goldenhancement,896,allDps
+Superior Efficient Enhancement 79,304goldenhancement,897,allDps
+Superior Initiative Enhancement 79,304goldenhancement,898,allDps
+Superior Proficient Enhancement 79,304goldenhancement,899,allDps
+Superior Studious Enhancement 79,304goldenhancement,900,allDps
+Superior Lethal Mod 79,304goldmod,907,all
+Superior Lethal Mod 79A,304goldmod,908,all
+Superior Lethal Mod 79B,304goldmod,909,all
+Superior Versatile Armoring 79,304goldarmoring,914,allDps
+Superior Versatile Hilt 79,304goldhilt,916,allDps
+Superior Versatile Barrel 79,304goldbarrel,918,allDps
+Superior Adept Enhancement 79,304goldenhancement,895,allHealer
+Superior Discipline Enhancement 79,304goldenhancement,896,allHealer
+Superior Efficient Enhancement 79,304goldenhancement,897,allHealer
+Superior Versatile Armoring 79,304goldenhancement,914,allHealer
+Superior Versatile Hilt 79,304goldenhancement,916,allHealer
+Superior Versatile Barrel 79,304goldenhancement,918,allHealer
+Superior Nimble Enhancement 79,304goldenhancement,919,allDps
+Superior Nimble Enhancement 79,304goldenhancement,919,allHealer

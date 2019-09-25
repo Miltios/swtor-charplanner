@@ -342,17 +342,34 @@ body.faction-mode-pub .faction-imp
 {
     color:#e7cb6e;
 }
+/*TODO:get rid of these number-specific classes once old setbonuses are converted*/
 .description-setbonus-2,
 .description-setbonus-4,
-.description-setbonus-6
+.description-setbonus-6,
+.description-setbonus-active
 {
     color:#12e713;
     display:block;
+}
+.description-setbonus-inactive
+{
+    color:lightgrey;
+}
+.description-setbonus-count
+{
+    display:block;
+    color:#e7cb6e;
 }
 #itemModdingArea
 {
     padding:0 10px 10px;
     margin-bottom:10px;
+    position:relative;
+    width:445px;
+}
+#itemModdingSlots
+{
+    display:inline-block;
 }
 .mod-slot
 {
@@ -363,6 +380,25 @@ body.faction-mode-pub .faction-imp
 {
     width:50px;
     height:50px;
+}
+#deleteItemButton
+{
+    position:absolute;
+    right:19px;
+    bottom:13px;
+    /*padding:15px;*/
+    width:54px;
+    height:54px;
+
+    background-color:#0f2333;
+    color:#96d6f1;
+    border:2px outset #96d6f1;
+    border-radius:4px;
+    cursor:pointer;
+}
+#deleteItemButton:hover
+{
+    border-color:#326b9d;
 }
 #tooltipEl
 {
