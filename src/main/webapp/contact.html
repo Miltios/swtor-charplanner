@@ -13,13 +13,42 @@
     <div id="content">
         <div>We are always delighted to hear from our adoring fans.  For a faster, less grouchy response, please make sure to use the appropriate mailing address:</div>
         <ul>
-            <li>Incorrect item stats: <a href="">stats@charplanner.com</a></li>
-            <li>Bugs &amp; other tech support: <a href="">bugs@charplanner.com</a></li>
-            <li>Feature requests: <a href="">features@charplanner.com</a></li>
-            <li>General inquiries: <a href="">admin@charplanner.com</a></li>
-            <li>Discussion of which space waifu is best: <a href="">HK_romance_please@support.swtor.com</a></li>
+            <li>Incorrect item stats: <a class="hover-link" onclick="navigator.clipboard.writeText(this.innerHTML)">stats@charplanner.com</a></li>
+            <li>Bugs &amp; other tech support: <a class="hover-link" onclick="navigator.clipboard.writeText(this.innerHTML)">bugs@charplanner.com</a></li>
+            <li>Feature requests: <a class="hover-link" onclick="navigator.clipboard.writeText(this.innerHTML)">features@charplanner.com</a></li>
+            <li>General inquiries: <a class="hover-link" onclick="navigator.clipboard.writeText(this.innerHTML)">admin@charplanner.com</a></li>
+            <li>Discussion of which space waifu is best: <a onclick="navigator.clipboard.writeText(this.innerHTML)">HK_romance_please@support.swtor.com</a></li>
         </ul>
         <div>You can also send an in-game mail to Miltios (empire) or Milorad (republic).  Response times for this method may be significantly slower than email.</div>
     </div>
+    <div id="tooltipEl" style="display:none; position:absolute;">Click to copy this address to clipboard</div>
+    <script type="text/javascript">
+        (function()
+        {
+            let links = document.getElementsByClassName('hover-link');
+            for(let i=0; i<links.length; i++)
+            {
+                links[i].addEventListener('mouseover', function(event)
+                {
+                    let tooltip = document.getElementById('tooltipEl');
+                    tooltip.innerHTML = 'Click to copy this address to clipboard';
+
+                    tooltip.style.left = (event.clientX + 5) + 'px';
+                    tooltip.style.top = (event.clientY + 5) + 'px';
+
+                    tooltip.style.display = '';
+                });
+                links[i].addEventListener('mouseout', function(e)
+                {
+                    document.getElementById('tooltipEl').style.display = 'none';
+                });
+                links[i].addEventListener('click', function(e)
+                {
+                    let tooltip = document.getElementById('tooltipEl');
+                    tooltip.innerHTML = 'Copied successfully!';
+                });
+            }
+        })();
+    </script>
 </body>
 </html>
