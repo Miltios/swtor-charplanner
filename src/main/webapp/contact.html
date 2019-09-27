@@ -17,7 +17,7 @@
             <li>Bugs &amp; other tech support: <a class="hover-link" onclick="navigator.clipboard.writeText(this.innerHTML)">bugs@charplanner.com</a></li>
             <li>Feature requests: <a class="hover-link" onclick="navigator.clipboard.writeText(this.innerHTML)">features@charplanner.com</a></li>
             <li>General inquiries: <a class="hover-link" onclick="navigator.clipboard.writeText(this.innerHTML)">admin@charplanner.com</a></li>
-            <li>Discussion of which space waifu is best: <a onclick="navigator.clipboard.writeText(this.innerHTML)">HK_romance_please@support.swtor.com</a></li>
+            <li>Discussion of which space waifu is best: <a class="hover-link" onclick="navigator.clipboard.writeText(this.innerHTML)">HK_romance_please@charplanner.com</a></li>
         </ul>
         <div>You can also send an in-game mail to Miltios (Empire) or Milorad (Republic).  Response times for this method may be significantly slower than email.</div>
     </div>
@@ -28,15 +28,14 @@
             let links = document.getElementsByClassName('hover-link');
             for(let i=0; i<links.length; i++)
             {
-                links[i].addEventListener('mouseover', function(event)
+                links[i].addEventListener('mousemove', function(event)
                 {
                     let tooltip = document.getElementById('tooltipEl');
                     tooltip.innerHTML = 'Click to copy this address to clipboard';
+                    tooltip.style.display = ''; //display first so getBoundingClientRect gives accurate dimensions
 
                     tooltip.style.left = (event.clientX + 5) + 'px';
-                    tooltip.style.top = (event.clientY + 5) + 'px';
-
-                    tooltip.style.display = '';
+                    tooltip.style.top = (event.clientY - tooltip.getBoundingClientRect().height - 5) + 'px';
                 });
                 links[i].addEventListener('mouseout', function(e)
                 {
