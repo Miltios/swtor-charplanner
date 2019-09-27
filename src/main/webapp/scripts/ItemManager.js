@@ -304,18 +304,67 @@ let ItemManager = (function()
     };
     ItemManager.prototype.getColorClones = function(item)
     {
-        //TODO: needs to adjust item rating and contents as well
         //return an array of item clones, one for each color
         let clones = [];
-        //let colors = ['green', 'blue', 'purple', 'gold'];
-        let colors = ['gold']; //TODO:temporary workaround while we only have gold data
-        for(let i=0; i<colors.length; i++)
+        let ratings = [
+            {rating:270, color:'green'},
+            {rating:272, color:'green'},
+            {rating:274, color:'green'},
+            {rating:276, color:'blue'},
+            {rating:278, color:'blue'},
+            {rating:280, color:'blue'},
+            {rating:282, color:'blue'},
+            {rating:284, color:'blue'},
+            {rating:286, color:'purple'},
+            {rating:288, color:'purple'},
+            {rating:290, color:'purple'},
+            {rating:292, color:'purple'},
+            {rating:294, color:'purple'},
+            {rating:296, color:'purple'},
+            {rating:298, color:'purple'},
+            {rating:300, color:'gold'},
+            {rating:302, color:'gold'},
+            {rating:304, color:'gold'},
+            {rating:306, color:'gold'},
+        ];
+        for(let i=0; i<ratings.length; i++)
         {
             let clone = this.getClone(item);
-            clone.color = colors[i];
+            clone.color = ratings[i].color;
+            clone.rating = ratings[i].rating;
+            clone.itemMods = this.getEquivalentMods(item, ratings[i].rating);
             clones.push(clone);
         }
         return clones;
+    };
+    ItemManager.prototype.getEquivalentMods = function(item, rating)
+    {
+        let newMods = [];
+        if(item === null || !Array.isArray(item.itemMods))
+        {
+            console.error('Cannot get equivalent mods for invalid item!');
+            return newMods;
+        }
+        for(let i=0; i<item.itemMods.length; i++)
+        {
+            let mod = this.getItemModById(item.itemMods[i]);
+            if(mod !== null && mod.name !== 'empty')
+            {
+                let name = mod.name;
+                name = name.replace(/^(Superior )|(Advanced )/, '');
+                name = name.replace(/ \d+[AB]?$/, '');
+                try
+                {
+                    let newMod = this.itemMods.filter(m => m.name.indexOf(name)!==-1 && m.rating === rating)[0];
+                    newMods.push(newMod.id);
+                }
+                catch(e)
+                {
+                    console.error('Unable to find equivalent mod for "' + name + '" at item rating ' + rating + '!');
+                }
+            }
+        }
+        return newMods;
     };
     ItemManager.prototype.getNewId = function()
     {
