@@ -135,9 +135,9 @@ Initiative Enhancement 52,248goldenhancement,133,allDps
 Proficient Enhancement 46,236goldenhancement,134,allDps
 Proficient Enhancement 49,242goldenhancement,135,allDps
 Proficient Enhancement 52,248goldenhancement,136,allDps
-Quick Savant Enhancement 46,236goldenhancement,137,allDps
-Quick Savant Enhancement 49,242goldenhancement,138,allDps
-Quick Savant Enhancement 52,248goldenhancement,139,allDps
+Nimble Enhancement 46,236goldenhancement,137,allDps
+Nimble Enhancement 49,242goldenhancement,138,allDps
+Nimble Enhancement 52,248goldenhancement,139,allDps
 Savant Enhancement 46,236goldenhancement,140,allDps
 Savant Enhancement 49,242goldenhancement,141,allDps
 Savant Enhancement 52,248goldenhancement,142,allDps
@@ -189,10 +189,10 @@ Advanced Proficient Enhancement 46,230purpleenhancement,187,allDps
 Advanced Proficient Enhancement 48,234purpleenhancement,188,allDps
 Advanced Proficient Enhancement 51,240purpleenhancement,189,allDps
 Advanced Proficient Enhancement 54,246purpleenhancement,190,allDps
-Advanced Quick Savant Enhancement 46,230purpleenhancement,191,allDps
-Advanced Quick Savant Enhancement 48,234purpleenhancement,192,allDps
-Advanced Quick Savant Enhancement 51,240purpleenhancement,193,allDps
-Advanced Quick Savant Enhancement 54,246purpleenhancement,194,allDps
+Advanced Nimble Enhancement 46,230purpleenhancement,191,allDps
+Advanced Nimble Enhancement 48,234purpleenhancement,192,allDps
+Advanced Nimble Enhancement 51,240purpleenhancement,193,allDps
+Advanced Nimble Enhancement 54,246purpleenhancement,194,allDps
 Advanced Savant Enhancement 46,230purpleenhancement,195,allDps
 Advanced Savant Enhancement 48,234purpleenhancement,196,allDps
 Advanced Savant Enhancement 51,240purpleenhancement,197,allDps
@@ -249,10 +249,10 @@ Proficient Enhancement 50,230blueenhancement,247,allDps
 Proficient Enhancement 52,234blueenhancement,248,allDps
 Proficient Enhancement 55,240blueenhancement,249,allDps
 Proficient Enhancement 57,244blueenhancement,250,allDps
-Quick Savant Enhancement 50,230blueenhancement,251,allDps
-Quick Savant Enhancement 52,234blueenhancement,252,allDps
-Quick Savant Enhancement 55,240blueenhancement,253,allDps
-Quick Savant Enhancement 57,244blueenhancement,254,allDps
+Nimble Enhancement 50,230blueenhancement,251,allDps
+Nimble Enhancement 52,234blueenhancement,252,allDps
+Nimble Enhancement 55,240blueenhancement,253,allDps
+Nimble Enhancement 57,244blueenhancement,254,allDps
 Savant Enhancement 50,230blueenhancement,255,allDps
 Savant Enhancement 52,234blueenhancement,256,allDps
 Savant Enhancement 55,240blueenhancement,257,allDps
@@ -300,9 +300,9 @@ Initiative Enhancement 62,244greenenhancement,298,allDps
 Proficient Enhancement 56,232greenenhancement,299,allDps
 Proficient Enhancement 59,238greenenhancement,300,allDps
 Proficient Enhancement 62,244greenenhancement,301,allDps
-Quick Savant Enhancement 56,232greenenhancement,302,allDps
-Quick Savant Enhancement 59,238greenenhancement,303,allDps
-Quick Savant Enhancement 62,244greenenhancement,304,allDps
+Nimble Enhancement 56,232greenenhancement,302,allDps
+Nimble Enhancement 59,238greenenhancement,303,allDps
+Nimble Enhancement 62,244greenenhancement,304,allDps
 Savant Enhancement 56,232greenenhancement,305,allDps
 Savant Enhancement 59,238greenenhancement,306,allDps
 Savant Enhancement 62,244greenenhancement,307,allDps
@@ -391,7 +391,7 @@ Efficient Enhancement 54,228greenenhancement,389,allDps
 Immunity Enhancement 54,228greenenhancement,390,allTank
 Initiative Enhancement 54,228greenenhancement,391,allDps
 Proficient Enhancement 54,228greenenhancement,392,allDps
-Quick Savant Enhancement 54,228greenenhancement,393,allDps
+Nimble Enhancement 54,228greenenhancement,393,allDps
 Savant Enhancement 54,228greenenhancement,394,allDps
 Steadfast Enhancement 54,228greenenhancement,395,allTank
 Studious Enhancement 54,228greenenhancement,396,allDps
@@ -424,9 +424,9 @@ Discipline Enhancement 52,248goldenhancement,124,allHealer
 Efficient Enhancement 46,236goldenhancement,125,allHealer
 Efficient Enhancement 49,242goldenhancement,126,allHealer
 Efficient Enhancement 52,248goldenhancement,127,allHealer
-Quick Savant Enhancement 46,236goldenhancement,137,allHealer
-Quick Savant Enhancement 49,242goldenhancement,138,allHealer
-Quick Savant Enhancement 52,248goldenhancement,139,allHealer
+Nimble Enhancement 46,236goldenhancement,137,allHealer
+Nimble Enhancement 49,242goldenhancement,138,allHealer
+Nimble Enhancement 52,248goldenhancement,139,allHealer
 Savant Enhancement 46,236goldenhancement,140,allHealer
 Savant Enhancement 49,242goldenhancement,141,allHealer
 Savant Enhancement 52,248goldenhancement,142,allHealer
@@ -446,10 +446,10 @@ Advanced Efficient Enhancement 46,230purpleenhancement,175,allHealer
 Advanced Efficient Enhancement 48,234purpleenhancement,176,allHealer
 Advanced Efficient Enhancement 51,240purpleenhancement,177,allHealer
 Advanced Efficient Enhancement 54,246purpleenhancement,178,allHealer
-Advanced Quick Savant Enhancement 46,230purpleenhancement,191,allHealer
-Advanced Quick Savant Enhancement 48,234purpleenhancement,192,allHealer
-Advanced Quick Savant Enhancement 51,240purpleenhancement,193,allHealer
-Advanced Quick Savant Enhancement 54,246purpleenhancement,194,allHealer
+Advanced Nimble Enhancement 46,230purpleenhancement,191,allHealer
+Advanced Nimble Enhancement 48,234purpleenhancement,192,allHealer
+Advanced Nimble Enhancement 51,240purpleenhancement,193,allHealer
+Advanced Nimble Enhancement 54,246purpleenhancement,194,allHealer
 Advanced Savant Enhancement 46,230purpleenhancement,195,allHealer
 Advanced Savant Enhancement 48,234purpleenhancement,196,allHealer
 Advanced Savant Enhancement 51,240purpleenhancement,197,allHealer
@@ -470,10 +470,10 @@ Efficient Enhancement 50,230blueenhancement,235,allHealer
 Efficient Enhancement 52,234blueenhancement,236,allHealer
 Efficient Enhancement 55,240blueenhancement,237,allHealer
 Efficient Enhancement 57,244blueenhancement,238,allHealer
-Quick Savant Enhancement 50,230blueenhancement,251,allHealer
-Quick Savant Enhancement 52,234blueenhancement,252,allHealer
-Quick Savant Enhancement 55,240blueenhancement,253,allHealer
-Quick Savant Enhancement 57,244blueenhancement,254,allHealer
+Nimble Enhancement 50,230blueenhancement,251,allHealer
+Nimble Enhancement 52,234blueenhancement,252,allHealer
+Nimble Enhancement 55,240blueenhancement,253,allHealer
+Nimble Enhancement 57,244blueenhancement,254,allHealer
 Savant Enhancement 50,230blueenhancement,255,allHealer
 Savant Enhancement 52,234blueenhancement,256,allHealer
 Savant Enhancement 55,240blueenhancement,257,allHealer
@@ -490,9 +490,9 @@ Discipline Enhancement 62,244greenenhancement,289,allHealer
 Efficient Enhancement 56,232greenenhancement,290,allHealer
 Efficient Enhancement 59,238greenenhancement,291,allHealer
 Efficient Enhancement 62,244greenenhancement,292,allHealer
-Quick Savant Enhancement 56,232greenenhancement,302,allHealer
-Quick Savant Enhancement 59,238greenenhancement,303,allHealer
-Quick Savant Enhancement 62,244greenenhancement,304,allHealer
+Nimble Enhancement 56,232greenenhancement,302,allHealer
+Nimble Enhancement 59,238greenenhancement,303,allHealer
+Nimble Enhancement 62,244greenenhancement,304,allHealer
 Savant Enhancement 56,232greenenhancement,305,allHealer
 Savant Enhancement 59,238greenenhancement,306,allHealer
 Savant Enhancement 62,244greenenhancement,307,allHealer
@@ -533,7 +533,7 @@ Adept Enhancement 54,228greenenhancement,384,allHealer
 Barrage Enhancement 54,228greenenhancement,385,allHealer
 Discipline Enhancement 54,228greenenhancement,388,allHealer
 Efficient Enhancement 54,228greenenhancement,389,allHealer
-Quick Savant Enhancement 54,228greenenhancement,393,allHealer
+Nimble Enhancement 54,228greenenhancement,393,allHealer
 Savant Enhancement 54,228greenenhancement,394,allHealer
 Advanced Resistive Armoring 57,252goldarmoring,399,allTank
 Advanced Versatile Armoring 57,252goldarmoring,400,allDps
@@ -548,7 +548,7 @@ Advanced Efficient Enhancement 57,252goldenhancement,408,allDps
 Advanced Immunity Enhancement 57,252goldenhancement,409,allTank
 Advanced Initiative Enhancement 57,252goldenhancement,410,allDps
 Advanced Proficient Enhancement 57,252goldenhancement,411,allDps
-Advanced Quick Savant Enhancement 57,252goldenhancement,412,allDps
+Advanced Nimble Enhancement 57,252goldenhancement,412,allDps
 Advanced Savant Enhancement 57,252goldenhancement,413,allDps
 Advanced Steadfast Enhancement 57,252goldenhancement,414,allTank
 Advanced Studious Enhancement 57,252goldenhancement,415,allDps
@@ -563,7 +563,7 @@ Advanced Adept Enhancement 57,252goldenhancement,403,allHealer
 Advanced Barrage Enhancement 57,252goldenhancement,404,allHealer
 Advanced Discipline Enhancement 57,252goldenhancement,407,allHealer
 Advanced Efficient Enhancement 57,252goldenhancement,408,allHealer
-Advanced Quick Savant Enhancement 57,252goldenhancement,412,allHealer
+Advanced Nimble Enhancement 57,252goldenhancement,412,allHealer
 Advanced Savant Enhancement 57,252goldenhancement,413,allHealer
 Advanced Versatile Barrel 57,252goldbarrel,419,allHealer
 Advanced Versatile Hilt 57,252goldhilt,421,allHealer
@@ -580,7 +580,7 @@ Superior Efficient Enhancement 56,258goldenhancement,431,allDps
 Superior Immunity Enhancement 56,258goldenhancement,432,allTank
 Superior Initiative Enhancement 56,258goldenhancement,433,allDps
 Superior Proficient Enhancement 56,258goldenhancement,434,allDps
-Superior Quick Savant Enhancement 56,258goldenhancement,435,allDps
+Superior Nimble Enhancement 56,258goldenhancement,435,allDps
 Superior Savant Enhancement 56,258goldenhancement,436,allDps
 Superior Steadfast Enhancement 56,258goldenhancement,437,allTank
 Superior Studious Enhancement 56,258goldenhancement,438,allDps
@@ -595,7 +595,7 @@ Superior Adept Enhancement 56,258goldenhancement,426,allHealer
 Superior Barrage Enhancement 56,258goldenhancement,427,allHealer
 Superior Discipline Enhancement 56,258goldenhancement,430,allHealer
 Superior Efficient Enhancement 56,258goldenhancement,431,allHealer
-Superior Quick Savant Enhancement 56,258goldenhancement,435,allHealer
+Superior Nimble Enhancement 56,258goldenhancement,435,allHealer
 Superior Savant Enhancement 56,258goldenhancement,436,allHealer
 Superior Versatile Barrel 56,258goldbarrel,442,allHealer
 Superior Versatile Hilt 56,258goldhilt,444,allHealer
@@ -629,8 +629,8 @@ Superior Efficient Enhancement 80,306goldenhancement,447,allHealer
 Superior Versatile Armoring 80,306goldenhancement,464,allHealer
 Superior Versatile Hilt 80,306goldenhancement,466,allHealer
 Superior Versatile Barrel 80,306goldenhancement,468,allHealer
-Superior Quick Savant Enhancement 80,306goldenhancement,469,allDps
-Superior Quick Savant Enhancement 80,306goldenhancement,469,allHealer
+Superior Nimble Enhancement 80,306goldenhancement,469,allDps
+Superior Nimble Enhancement 80,306goldenhancement,469,allHealer
 Bastion Enhancement 75,270greenenhancement,476,allTank
 Bulwark Enhancement 75,270greenenhancement,477,allTank
 Immunity Enhancement 75,270greenenhancement,478,allTank
