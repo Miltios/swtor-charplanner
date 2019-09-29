@@ -135,9 +135,9 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 236goldenhancement,134,Proficient Enhancement 46,134,enhancement,236,gold,0,enhancement_initiative.png,268
 242goldenhancement,135,Proficient Enhancement 49,135,enhancement,242,gold,0,enhancement_initiative.png,271
 248goldenhancement,136,Proficient Enhancement 52,136,enhancement,248,gold,0,enhancement_initiative.png,274
-236goldenhancement,137,Nimble Enhancement 46,137,enhancement,236,gold,0,enhancement_quicksavant.png,277
-242goldenhancement,138,Nimble Enhancement 49,138,enhancement,242,gold,0,enhancement_quicksavant.png,280
-248goldenhancement,139,Nimble Enhancement 52,139,enhancement,248,gold,0,enhancement_quicksavant.png,283
+236goldenhancement,137,Quick Savant Enhancement 46,137,enhancement,236,gold,0,enhancement_quicksavant.png,277
+242goldenhancement,138,Quick Savant Enhancement 49,138,enhancement,242,gold,0,enhancement_quicksavant.png,280
+248goldenhancement,139,Quick Savant Enhancement 52,139,enhancement,248,gold,0,enhancement_quicksavant.png,283
 236goldenhancement,140,Savant Enhancement 46,140,enhancement,236,gold,0,enhancement_quicksavant.png,286
 242goldenhancement,141,Savant Enhancement 49,141,enhancement,242,gold,0,enhancement_quicksavant.png,289
 248goldenhancement,142,Savant Enhancement 52,142,enhancement,248,gold,0,enhancement_quicksavant.png,292
@@ -189,10 +189,10 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 234purpleenhancement,188,Advanced Proficient Enhancement 48,188,enhancement,234,purple,0,enhancement_initiative.png,610
 240purpleenhancement,189,Advanced Proficient Enhancement 51,189,enhancement,240,purple,0,enhancement_initiative.png,613
 246purpleenhancement,190,Advanced Proficient Enhancement 54,190,enhancement,246,purple,0,enhancement_initiative.png,616
-230purpleenhancement,191,Advanced Nimble Enhancement 46,191,enhancement,230,purple,0,enhancement_quicksavant.png,619
-234purpleenhancement,192,Advanced Nimble Enhancement 48,192,enhancement,234,purple,0,enhancement_quicksavant.png,622
-240purpleenhancement,193,Advanced Nimble Enhancement 51,193,enhancement,240,purple,0,enhancement_quicksavant.png,625
-246purpleenhancement,194,Advanced Nimble Enhancement 54,194,enhancement,246,purple,0,enhancement_quicksavant.png,628
+230purpleenhancement,191,Advanced Quick Savant Enhancement 46,191,enhancement,230,purple,0,enhancement_quicksavant.png,619
+234purpleenhancement,192,Advanced Quick Savant Enhancement 48,192,enhancement,234,purple,0,enhancement_quicksavant.png,622
+240purpleenhancement,193,Advanced Quick Savant Enhancement 51,193,enhancement,240,purple,0,enhancement_quicksavant.png,625
+246purpleenhancement,194,Advanced Quick Savant Enhancement 54,194,enhancement,246,purple,0,enhancement_quicksavant.png,628
 230purpleenhancement,195,Advanced Savant Enhancement 46,195,enhancement,230,purple,0,enhancement_quicksavant.png,631
 234purpleenhancement,196,Advanced Savant Enhancement 48,196,enhancement,234,purple,0,enhancement_quicksavant.png,634
 240purpleenhancement,197,Advanced Savant Enhancement 51,197,enhancement,240,purple,0,enhancement_quicksavant.png,637
@@ -249,10 +249,10 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 234blueenhancement,248,Proficient Enhancement 52,248,enhancement,234,blue,0,enhancement_initiative.png,1065
 240blueenhancement,249,Proficient Enhancement 55,249,enhancement,240,blue,0,enhancement_initiative.png,136
 244blueenhancement,250,Proficient Enhancement 57,250,enhancement,244,blue,0,enhancement_initiative.png,139
-230blueenhancement,251,Nimble Enhancement 50,251,enhancement,230,blue,0,enhancement_quicksavant.png,142
-234blueenhancement,252,Nimble Enhancement 52,252,enhancement,234,blue,0,enhancement_quicksavant.png,1068
-240blueenhancement,253,Nimble Enhancement 55,253,enhancement,240,blue,0,enhancement_quicksavant.png,145
-244blueenhancement,254,Nimble Enhancement 57,254,enhancement,244,blue,0,enhancement_quicksavant.png,148
+230blueenhancement,251,Quick Savant Enhancement 50,251,enhancement,230,blue,0,enhancement_quicksavant.png,142
+234blueenhancement,252,Quick Savant Enhancement 52,252,enhancement,234,blue,0,enhancement_quicksavant.png,1068
+240blueenhancement,253,Quick Savant Enhancement 55,253,enhancement,240,blue,0,enhancement_quicksavant.png,145
+244blueenhancement,254,Quick Savant Enhancement 57,254,enhancement,244,blue,0,enhancement_quicksavant.png,148
 230blueenhancement,255,Savant Enhancement 50,255,enhancement,230,blue,0,enhancement_quicksavant.png,151
 234blueenhancement,256,Savant Enhancement 52,256,enhancement,234,blue,0,enhancement_quicksavant.png,1075
 240blueenhancement,257,Savant Enhancement 55,257,enhancement,240,blue,0,enhancement_quicksavant.png,154
@@ -300,9 +300,9 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 232greenenhancement,299,Proficient Enhancement 56,299,enhancement,232,green,0,enhancement_initiative.png,403
 238greenenhancement,300,Proficient Enhancement 59,300,enhancement,238,green,0,enhancement_initiative.png,406
 244greenenhancement,301,Proficient Enhancement 62,301,enhancement,244,green,0,enhancement_initiative.png,409
-232greenenhancement,302,Nimble Enhancement 56,302,enhancement,232,green,0,enhancement_quicksavant.png,412
-238greenenhancement,303,Nimble Enhancement 59,303,enhancement,238,green,0,enhancement_quicksavant.png,415
-244greenenhancement,304,Nimble Enhancement 62,304,enhancement,244,green,0,enhancement_quicksavant.png,418
+232greenenhancement,302,Quick Savant Enhancement 56,302,enhancement,232,green,0,enhancement_quicksavant.png,412
+238greenenhancement,303,Quick Savant Enhancement 59,303,enhancement,238,green,0,enhancement_quicksavant.png,415
+244greenenhancement,304,Quick Savant Enhancement 62,304,enhancement,244,green,0,enhancement_quicksavant.png,418
 232greenenhancement,305,Savant Enhancement 56,305,enhancement,232,green,0,enhancement_quicksavant.png,421
 238greenenhancement,306,Savant Enhancement 59,306,enhancement,238,green,0,enhancement_quicksavant.png,424
 244greenenhancement,307,Savant Enhancement 62,307,enhancement,244,green,0,enhancement_quicksavant.png,427
@@ -391,7 +391,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 228greenenhancement,390,Immunity Enhancement 54,390,enhancement,228,green,0,enhancement_bastion.png,484
 228greenenhancement,391,Initiative Enhancement 54,391,enhancement,228,green,0,enhancement_initiative.png,487
 228greenenhancement,392,Proficient Enhancement 54,392,enhancement,228,green,0,enhancement_initiative.png,490
-228greenenhancement,393,Nimble Enhancement 54,393,enhancement,228,green,0,enhancement_quicksavant.png,493
+228greenenhancement,393,Quick Savant Enhancement 54,393,enhancement,228,green,0,enhancement_quicksavant.png,493
 228greenenhancement,394,Savant Enhancement 54,394,enhancement,228,green,0,enhancement_quicksavant.png,496
 228greenenhancement,395,Steadfast Enhancement 54,395,enhancement,228,green,0,enhancement_bastion.png,499
 228greenenhancement,396,Studious Enhancement 54,396,enhancement,228,green,0,enhancement_initiative.png,502
@@ -410,7 +410,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 252purpleenhancement,409,Advanced Immunity Enhancement 57,409,enhancement,252,purple,0,enhancement_bastion.png,
 252purpleenhancement,410,Advanced Initiative Enhancement 57,410,enhancement,252,purple,0,enhancement_initiative.png,
 252purpleenhancement,411,Advanced Proficient Enhancement 57,411,enhancement,252,purple,1,enhancement_initiative.png,
-252purpleenhancement,412,Advanced Nimble Enhancement 57,412,enhancement,252,purple,0,enhancement_quicksavant.png,
+252purpleenhancement,412,Advanced Quick Savant Enhancement 57,412,enhancement,252,purple,0,enhancement_quicksavant.png,
 252purpleenhancement,413,Advanced Savant Enhancement 57,413,enhancement,252,purple,1,enhancement_quicksavant.png,
 252purpleenhancement,414,Advanced Steadfast Enhancement 57,414,enhancement,252,purple,1,enhancement_bastion.png,
 252purpleenhancement,415,Advanced Studious Enhancement 57,415,enhancement,252,purple,1,enhancement_initiative.png,
@@ -433,7 +433,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 258goldenhancement,432,Superior Immunity Enhancement 56,432,enhancement,258,gold,0,enhancement_bastion.png,
 258goldenhancement,433,Superior Initiative Enhancement 56,433,enhancement,258,gold,0,enhancement_initiative.png,
 258goldenhancement,434,Superior Proficient Enhancement 56,434,enhancement,258,gold,1,enhancement_initiative.png,
-258goldenhancement,435,Superior Nimble Enhancement 56,435,enhancement,258,gold,0,enhancement_quicksavant.png,
+258goldenhancement,435,Superior Quick Savant Enhancement 56,435,enhancement,258,gold,0,enhancement_quicksavant.png,
 258goldenhancement,436,Superior Savant Enhancement 56,436,enhancement,258,gold,1,enhancement_quicksavant.png,
 258goldenhancement,437,Superior Steadfast Enhancement 56,437,enhancement,258,gold,1,enhancement_bastion.png,
 258goldenhancement,438,Superior Studious Enhancement 56,438,enhancement,258,gold,1,enhancement_initiative.png,
@@ -462,12 +462,12 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 306goldmod,461,Superior Warding Mod 80A,461,mod,306,gold,0,mod_shatek_warding.png,
 306goldmod,462,Superior Warding Mod 80B,462,mod,306,gold,0,mod_shatek_warding.png,
 306goldarmoring,463,Superior Resistive Armoring 80,463,armoring,306,gold,0,armoring_shatek_resistive.png,
-306goldarmoring,464,Superior Versatile Armoring 80,464,armoring,306,gold,0,armoring_versatile_resistive.png,
+306goldarmoring,464,Superior Versatile Armoring 80,464,armoring,306,gold,0,armoring_shatek_versatile.png,
 306goldhilt,465,Superior Resistive Hilt 80,465,hilt,306,gold,0,hilt_shatek_resistive.png,
 306goldhilt,466,Superior Versatile Hilt 80,466,hilt,306,gold,0,hilt_shatek_versatile.png,
 306goldbarrel,467,Superior Resistive Barrel 80,467,barrel,306,gold,0,barrel_shatek_resistive.png,
 306goldbarrel,468,Superior Versatile Barrel 80,468,barrel,306,gold,0,barrel_shatek_versatile.png,
-306goldenhancement,469,Superior Nimble Enhancement 80,469,enhancement,306,gold,0,enhancement_shatek_quicksavant.png,
+306goldenhancement,469,Superior Quick Savant Enhancement 80,469,enhancement,306,gold,0,enhancement_shatek_quicksavant.png,
 270greenenhancement,470,Adept Enhancement 75,470,enhancement,270,green,0,enhancement_shatek_adept.png,
 270greenenhancement,471,Discipline Enhancement 75,471,enhancement,270,green,0,enhancement_shatek_discipline.png,
 270greenenhancement,472,Efficient Enhancement 75,472,enhancement,270,green,0,enhancement_shatek_efficient.png,
@@ -487,7 +487,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 270greenmod,486,Warding Mod 75A,486,mod,270,green,0,mod_shatek_warding.png,
 270greenmod,487,Warding Mod 75B,487,mod,270,green,0,mod_shatek_warding.png,
 270greenarmoring,488,Resistive Armoring 75,488,armoring,270,green,0,armoring_shatek_resistive.png,
-270greenarmoring,489,Versatile Armoring 75,489,armoring,270,green,0,armoring_versatile_resistive.png,
+270greenarmoring,489,Versatile Armoring 75,489,armoring,270,green,0,armoring_shatek_versatile.png,
 270greenhilt,490,Resistive Hilt 75,490,hilt,270,green,0,hilt_shatek_resistive.png,
 270greenhilt,491,Versatile Hilt 75,491,hilt,270,green,0,hilt_shatek_versatile.png,
 270greenbarrel,492,Resistive Barrel 75,492,barrel,270,green,0,barrel_shatek_resistive.png,
@@ -512,7 +512,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 272greenmod,511,Warding Mod 76A,511,mod,272,green,0,mod_shatek_warding.png,
 272greenmod,512,Warding Mod 76B,512,mod,272,green,0,mod_shatek_warding.png,
 272greenarmoring,513,Resistive Armoring 76,513,armoring,272,green,0,armoring_shatek_resistive.png,
-272greenarmoring,514,Versatile Armoring 76,514,armoring,272,green,0,armoring_versatile_resistive.png,
+272greenarmoring,514,Versatile Armoring 76,514,armoring,272,green,0,armoring_shatek_versatile.png,
 272greenhilt,515,Resistive Hilt 76,515,hilt,272,green,0,hilt_shatek_resistive.png,
 272greenhilt,516,Versatile Hilt 76,516,hilt,272,green,0,hilt_shatek_versatile.png,
 272greenbarrel,517,Resistive Barrel 76,517,barrel,272,green,0,barrel_shatek_resistive.png,
@@ -537,7 +537,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 274greenmod,536,Warding Mod 77A,536,mod,274,green,0,mod_shatek_warding.png,
 274greenmod,537,Warding Mod 77B,537,mod,274,green,0,mod_shatek_warding.png,
 274greenarmoring,538,Resistive Armoring 77,538,armoring,274,green,0,armoring_shatek_resistive.png,
-274greenarmoring,539,Versatile Armoring 77,539,armoring,274,green,0,armoring_versatile_resistive.png,
+274greenarmoring,539,Versatile Armoring 77,539,armoring,274,green,0,armoring_shatek_versatile.png,
 274greenhilt,540,Resistive Hilt 77,540,hilt,274,green,0,hilt_shatek_resistive.png,
 274greenhilt,541,Versatile Hilt 77,541,hilt,274,green,0,hilt_shatek_versatile.png,
 274greenbarrel,542,Resistive Barrel 77,542,barrel,274,green,0,barrel_shatek_resistive.png,
@@ -562,7 +562,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 276bluemod,561,Warding Mod 73A,561,mod,276,blue,0,mod_shatek_warding.png,
 276bluemod,562,Warding Mod 73B,562,mod,276,blue,0,mod_shatek_warding.png,
 276bluearmoring,563,Resistive Armoring 73,563,armoring,276,blue,0,armoring_shatek_resistive.png,
-276bluearmoring,564,Versatile Armoring 73,564,armoring,276,blue,0,armoring_versatile_resistive.png,
+276bluearmoring,564,Versatile Armoring 73,564,armoring,276,blue,0,armoring_shatek_versatile.png,
 276bluehilt,565,Resistive Hilt 73,565,hilt,276,blue,0,hilt_shatek_resistive.png,
 276bluehilt,566,Versatile Hilt 73,566,hilt,276,blue,0,hilt_shatek_versatile.png,
 276bluebarrel,567,Resistive Barrel 73,567,barrel,276,blue,0,barrel_shatek_resistive.png,
@@ -587,7 +587,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 278bluemod,586,Warding Mod 74A,586,mod,278,blue,0,mod_shatek_warding.png,
 278bluemod,587,Warding Mod 74B,587,mod,278,blue,0,mod_shatek_warding.png,
 278bluearmoring,588,Resistive Armoring 74,588,armoring,278,blue,0,armoring_shatek_resistive.png,
-278bluearmoring,589,Versatile Armoring 74,589,armoring,278,blue,0,armoring_versatile_resistive.png,
+278bluearmoring,589,Versatile Armoring 74,589,armoring,278,blue,0,armoring_shatek_versatile.png,
 278bluehilt,590,Resistive Hilt 74,590,hilt,278,blue,0,hilt_shatek_resistive.png,
 278bluehilt,591,Versatile Hilt 74,591,hilt,278,blue,0,hilt_shatek_versatile.png,
 278bluebarrel,592,Resistive Barrel 74,592,barrel,278,blue,0,barrel_shatek_resistive.png,
@@ -612,7 +612,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 280bluemod,611,Warding Mod 75A,611,mod,280,blue,0,mod_shatek_warding.png,
 280bluemod,612,Warding Mod 75B,612,mod,280,blue,0,mod_shatek_warding.png,
 280bluearmoring,613,Resistive Armoring 75,613,armoring,280,blue,0,armoring_shatek_resistive.png,
-280bluearmoring,614,Versatile Armoring 75,614,armoring,280,blue,0,armoring_versatile_resistive.png,
+280bluearmoring,614,Versatile Armoring 75,614,armoring,280,blue,0,armoring_shatek_versatile.png,
 280bluehilt,615,Resistive Hilt 75,615,hilt,280,blue,0,hilt_shatek_resistive.png,
 280bluehilt,616,Versatile Hilt 75,616,hilt,280,blue,0,hilt_shatek_versatile.png,
 280bluebarrel,617,Resistive Barrel 75,617,barrel,280,blue,0,barrel_shatek_resistive.png,
@@ -637,7 +637,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 282bluemod,636,Warding Mod 76A,636,mod,282,blue,0,mod_shatek_warding.png,
 282bluemod,637,Warding Mod 76B,637,mod,282,blue,0,mod_shatek_warding.png,
 282bluearmoring,638,Resistive Armoring 76,638,armoring,282,blue,0,armoring_shatek_resistive.png,
-282bluearmoring,639,Versatile Armoring 76,639,armoring,282,blue,0,armoring_versatile_resistive.png,
+282bluearmoring,639,Versatile Armoring 76,639,armoring,282,blue,0,armoring_shatek_versatile.png,
 282bluehilt,640,Resistive Hilt 76,640,hilt,282,blue,0,hilt_shatek_resistive.png,
 282bluehilt,641,Versatile Hilt 76,641,hilt,282,blue,0,hilt_shatek_versatile.png,
 282bluebarrel,642,Resistive Barrel 76,642,barrel,282,blue,0,barrel_shatek_resistive.png,
@@ -662,7 +662,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 284bluemod,661,Warding Mod 77A,661,mod,284,blue,0,mod_shatek_warding.png,
 284bluemod,662,Warding Mod 77B,662,mod,284,blue,0,mod_shatek_warding.png,
 284bluearmoring,663,Resistive Armoring 77,663,armoring,284,blue,0,armoring_shatek_resistive.png,
-284bluearmoring,664,Versatile Armoring 77,664,armoring,284,blue,0,armoring_versatile_resistive.png,
+284bluearmoring,664,Versatile Armoring 77,664,armoring,284,blue,0,armoring_shatek_versatile.png,
 284bluehilt,665,Resistive Hilt 77,665,hilt,284,blue,0,hilt_shatek_resistive.png,
 284bluehilt,666,Versatile Hilt 77,666,hilt,284,blue,0,hilt_shatek_versatile.png,
 284bluebarrel,667,Resistive Barrel 77,667,barrel,284,blue,0,barrel_shatek_resistive.png,
@@ -687,7 +687,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 286purplemod,686,Advanced Warding Mod 74A,686,mod,286,purple,0,mod_shatek_warding.png,
 286purplemod,687,Advanced Warding Mod 74B,687,mod,286,purple,0,mod_shatek_warding.png,
 286purplearmoring,688,Advanced Resistive Armoring 74,688,armoring,286,purple,0,armoring_shatek_resistive.png,
-286purplearmoring,689,Advanced Versatile Armoring 74,689,armoring,286,purple,0,armoring_versatile_resistive.png,
+286purplearmoring,689,Advanced Versatile Armoring 74,689,armoring,286,purple,0,armoring_shatek_versatile.png,
 286purplehilt,690,Advanced Resistive Hilt 74,690,hilt,286,purple,0,hilt_shatek_resistive.png,
 286purplehilt,691,Advanced Versatile Hilt 74,691,hilt,286,purple,0,hilt_shatek_versatile.png,
 286purplebarrel,692,Advanced Resistive Barrel 74,692,barrel,286,purple,0,barrel_shatek_resistive.png,
@@ -712,7 +712,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 288purplemod,711,Advanced Warding Mod 75A,711,mod,288,purple,0,mod_shatek_warding.png,
 288purplemod,712,Advanced Warding Mod 75B,712,mod,288,purple,0,mod_shatek_warding.png,
 288purplearmoring,713,Advanced Resistive Armoring 75,713,armoring,288,purple,0,armoring_shatek_resistive.png,
-288purplearmoring,714,Advanced Versatile Armoring 75,714,armoring,288,purple,0,armoring_versatile_resistive.png,
+288purplearmoring,714,Advanced Versatile Armoring 75,714,armoring,288,purple,0,armoring_shatek_versatile.png,
 288purplehilt,715,Advanced Resistive Hilt 75,715,hilt,288,purple,0,hilt_shatek_resistive.png,
 288purplehilt,716,Advanced Versatile Hilt 75,716,hilt,288,purple,0,hilt_shatek_versatile.png,
 288purplebarrel,717,Advanced Resistive Barrel 75,717,barrel,288,purple,0,barrel_shatek_resistive.png,
@@ -737,7 +737,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 290purplemod,736,Advanced Warding Mod 76A,736,mod,290,purple,0,mod_shatek_warding.png,
 290purplemod,737,Advanced Warding Mod 76B,737,mod,290,purple,0,mod_shatek_warding.png,
 290purplearmoring,738,Advanced Resistive Armoring 76,738,armoring,290,purple,0,armoring_shatek_resistive.png,
-290purplearmoring,739,Advanced Versatile Armoring 76,739,armoring,290,purple,0,armoring_versatile_resistive.png,
+290purplearmoring,739,Advanced Versatile Armoring 76,739,armoring,290,purple,0,armoring_shatek_versatile.png,
 290purplehilt,740,Advanced Resistive Hilt 76,740,hilt,290,purple,0,hilt_shatek_resistive.png,
 290purplehilt,741,Advanced Versatile Hilt 76,741,hilt,290,purple,0,hilt_shatek_versatile.png,
 290purplebarrel,742,Advanced Resistive Barrel 76,742,barrel,290,purple,0,barrel_shatek_resistive.png,
@@ -762,7 +762,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 292purplemod,761,Advanced Warding Mod 77A,761,mod,292,purple,0,mod_shatek_warding.png,
 292purplemod,762,Advanced Warding Mod 77B,762,mod,292,purple,0,mod_shatek_warding.png,
 292purplearmoring,763,Advanced Resistive Armoring 77,763,armoring,292,purple,0,armoring_shatek_resistive.png,
-292purplearmoring,764,Advanced Versatile Armoring 77,764,armoring,292,purple,0,armoring_versatile_resistive.png,
+292purplearmoring,764,Advanced Versatile Armoring 77,764,armoring,292,purple,0,armoring_shatek_versatile.png,
 292purplehilt,765,Advanced Resistive Hilt 77,765,hilt,292,purple,0,hilt_shatek_resistive.png,
 292purplehilt,766,Advanced Versatile Hilt 77,766,hilt,292,purple,0,hilt_shatek_versatile.png,
 292purplebarrel,767,Advanced Resistive Barrel 77,767,barrel,292,purple,0,barrel_shatek_resistive.png,
@@ -787,7 +787,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 294purplemod,786,Advanced Warding Mod 78A,786,mod,294,purple,0,mod_shatek_warding.png,
 294purplemod,787,Advanced Warding Mod 78B,787,mod,294,purple,0,mod_shatek_warding.png,
 294purplearmoring,788,Advanced Resistive Armoring 78,788,armoring,294,purple,0,armoring_shatek_resistive.png,
-294purplearmoring,789,Advanced Versatile Armoring 78,789,armoring,294,purple,0,armoring_versatile_resistive.png,
+294purplearmoring,789,Advanced Versatile Armoring 78,789,armoring,294,purple,0,armoring_shatek_versatile.png,
 294purplehilt,790,Advanced Resistive Hilt 78,790,hilt,294,purple,0,hilt_shatek_resistive.png,
 294purplehilt,791,Advanced Versatile Hilt 78,791,hilt,294,purple,0,hilt_shatek_versatile.png,
 294purplebarrel,792,Advanced Resistive Barrel 78,792,barrel,294,purple,0,barrel_shatek_resistive.png,
@@ -812,7 +812,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 296purplemod,811,Advanced Warding Mod 79A,811,mod,296,purple,0,mod_shatek_warding.png,
 296purplemod,812,Advanced Warding Mod 79B,812,mod,296,purple,0,mod_shatek_warding.png,
 296purplearmoring,813,Advanced Resistive Armoring 79,813,armoring,296,purple,0,armoring_shatek_resistive.png,
-296purplearmoring,814,Advanced Versatile Armoring 79,814,armoring,296,purple,0,armoring_versatile_resistive.png,
+296purplearmoring,814,Advanced Versatile Armoring 79,814,armoring,296,purple,0,armoring_shatek_versatile.png,
 296purplehilt,815,Advanced Resistive Hilt 79,815,hilt,296,purple,0,hilt_shatek_resistive.png,
 296purplehilt,816,Advanced Versatile Hilt 79,816,hilt,296,purple,0,hilt_shatek_versatile.png,
 296purplebarrel,817,Advanced Resistive Barrel 79,817,barrel,296,purple,0,barrel_shatek_resistive.png,
@@ -837,7 +837,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 298purplemod,836,Advanced Warding Mod 80A,836,mod,298,purple,0,mod_shatek_warding.png,
 298purplemod,837,Advanced Warding Mod 80B,837,mod,298,purple,0,mod_shatek_warding.png,
 298purplearmoring,838,Advanced Resistive Armoring 80,838,armoring,298,purple,0,armoring_shatek_resistive.png,
-298purplearmoring,839,Advanced Versatile Armoring 80,839,armoring,298,purple,0,armoring_versatile_resistive.png,
+298purplearmoring,839,Advanced Versatile Armoring 80,839,armoring,298,purple,0,armoring_shatek_versatile.png,
 298purplehilt,840,Advanced Resistive Hilt 80,840,hilt,298,purple,0,hilt_shatek_resistive.png,
 298purplehilt,841,Advanced Versatile Hilt 80,841,hilt,298,purple,0,hilt_shatek_versatile.png,
 298purplebarrel,842,Advanced Resistive Barrel 80,842,barrel,298,purple,0,barrel_shatek_resistive.png,
@@ -862,7 +862,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 300goldmod,861,Superior Warding Mod 77A,861,mod,300,gold,0,mod_shatek_warding.png,
 300goldmod,862,Superior Warding Mod 77B,862,mod,300,gold,0,mod_shatek_warding.png,
 300goldarmoring,863,Superior Resistive Armoring 77,863,armoring,300,gold,0,armoring_shatek_resistive.png,
-300goldarmoring,864,Superior Versatile Armoring 77,864,armoring,300,gold,0,armoring_versatile_resistive.png,
+300goldarmoring,864,Superior Versatile Armoring 77,864,armoring,300,gold,0,armoring_shatek_versatile.png,
 300goldhilt,865,Superior Resistive Hilt 77,865,hilt,300,gold,0,hilt_shatek_resistive.png,
 300goldhilt,866,Superior Versatile Hilt 77,866,hilt,300,gold,0,hilt_shatek_versatile.png,
 300goldbarrel,867,Superior Resistive Barrel 77,867,barrel,300,gold,0,barrel_shatek_resistive.png,
@@ -887,7 +887,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 302goldmod,886,Superior Warding Mod 78A,886,mod,302,gold,0,mod_shatek_warding.png,
 302goldmod,887,Superior Warding Mod 78B,887,mod,302,gold,0,mod_shatek_warding.png,
 302goldarmoring,888,Superior Resistive Armoring 78,888,armoring,302,gold,0,armoring_shatek_resistive.png,
-302goldarmoring,889,Superior Versatile Armoring 78,889,armoring,302,gold,0,armoring_versatile_resistive.png,
+302goldarmoring,889,Superior Versatile Armoring 78,889,armoring,302,gold,0,armoring_shatek_versatile.png,
 302goldhilt,890,Superior Resistive Hilt 78,890,hilt,302,gold,0,hilt_shatek_resistive.png,
 302goldhilt,891,Superior Versatile Hilt 78,891,hilt,302,gold,0,hilt_shatek_versatile.png,
 302goldbarrel,892,Superior Resistive Barrel 78,892,barrel,302,gold,0,barrel_shatek_resistive.png,
@@ -912,7 +912,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 304goldmod,911,Superior Warding Mod 79A,911,mod,304,gold,0,mod_shatek_warding.png,
 304goldmod,912,Superior Warding Mod 79B,912,mod,304,gold,0,mod_shatek_warding.png,
 304goldarmoring,913,Superior Resistive Armoring 79,913,armoring,304,gold,0,armoring_shatek_resistive.png,
-304goldarmoring,914,Superior Versatile Armoring 79,914,armoring,304,gold,0,armoring_versatile_resistive.png,
+304goldarmoring,914,Superior Versatile Armoring 79,914,armoring,304,gold,0,armoring_shatek_versatile.png,
 304goldhilt,915,Superior Resistive Hilt 79,915,hilt,304,gold,0,hilt_shatek_resistive.png,
 304goldhilt,916,Superior Versatile Hilt 79,916,hilt,304,gold,0,hilt_shatek_versatile.png,
 304goldbarrel,917,Superior Resistive Barrel 79,917,barrel,304,gold,0,barrel_shatek_resistive.png,
