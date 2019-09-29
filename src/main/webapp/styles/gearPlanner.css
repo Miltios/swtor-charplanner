@@ -440,23 +440,24 @@ body.faction-mode-pub .faction-imp
 }
 #charStatsWrapper
 {
-    width:100%;
-    max-width:300px;
+    width:300px;
     height:0; /*HACK: this gets us around the table row height structure while still using flexible width*/
+    margin:15px auto;
+}
+#charStatsWrapper .char-stats-frame
+{
     margin:0 auto;
+    display:block;
 }
 #charStatsDiv
 {
     width:100%;
-    /*height:350px;*/
-    margin:15px 0;
+    margin:0 auto;
     box-sizing:border-box;
-    /*padding:5px;*/
     border-radius:5px;
-    border:2px solid #96D6F199;
+    border:2px solid #6AB6D2;
     background-image:linear-gradient(90deg, #0e3744b3, #00050D, #0e3744e6);
     overflow:hidden;
-    border-width:14px 2px 7px; /*TODO: this is a temporary border to give the correct dimensions until we replace it with greebling*/
 }
 #charStatsBody
 {
