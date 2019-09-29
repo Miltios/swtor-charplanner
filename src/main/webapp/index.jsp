@@ -37,17 +37,18 @@
                 </td>
                 <td colspan="2" style="vertical-align:top">
                     <div id="charStatsWrapper">
+                    <img class="char-stats-frame" src="images/frames/frame_rawstats_top.png" />
                         <div id="charStatsDiv">
-                        <table id="factionToggle">
-                            <tr>
-                                <td value="pub" class="faction-select-button faction-select-button-pub" onclick="DomController.userInput(this, 'factionToggle')">
-                                    <img src="images/logo_republic_250.png" />
-                                </td>
-                                <td value="imp" class="faction-select-button faction-select-button-imp faction-select-button-checked" onclick="DomController.userInput(this, 'factionToggle')">
-                                    <img src="images/logo_empire_250.png" />
-                                </td>
-                            </tr>
-                        </table>
+                            <table id="factionToggle">
+                                <tr>
+                                    <td value="pub" class="faction-select-button faction-select-button-pub" onclick="DomController.userInput(this, 'factionToggle')">
+                                        <img src="images/logo_republic_250.png" />
+                                    </td>
+                                    <td value="imp" class="faction-select-button faction-select-button-imp faction-select-button-checked" onclick="DomController.userInput(this, 'factionToggle')">
+                                        <img src="images/logo_empire_250.png" />
+                                    </td>
+                                </tr>
+                            </table>
                             <table id="charStatsBody">
                                 <tr class="char-stat-row">
                                     <td class="char-stat-name">Mastery</td>
@@ -91,6 +92,7 @@
                                 </tr>
                             </table>
                         </div>
+                        <img class="char-stats-frame" src="images/frames/frame_rawstats_bottom.png" />
                     </div>
                 </td>
                 <td>
