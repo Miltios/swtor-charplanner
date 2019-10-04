@@ -14,7 +14,8 @@ let Settings = (function()
         this.cob;
         this.cobSub;
         this.ilsc;
-        this.ilsr;
+        this.ilMin;
+        this.ilMax;
         this.stim = 'none';
         this.maxLevel = 75;
     }
@@ -33,8 +34,8 @@ let Settings = (function()
         this.cobSub = document.getElementsByClassName('companion-buffs-checkbox');
         this.ilsc = document.getElementById('itemListSettingsColor');
         this.ilscSub = this.ilsc.getElementsByClassName('item-color-checkbox');
-        this.ilsr = document.getElementById('itemListSettingsRating');
-        this.ilsrSub = this.ilsr.getElementsByClassName('item-rating-checkbox');
+        this.ilMin = document.getElementById('itemRatingMin');
+        this.ilMax = document.getElementById('itemRatingMax');
 
         this.lastColor = null;
         this.oldLastColor = null;
@@ -158,22 +159,11 @@ let Settings = (function()
     Settings.prototype.getItemRatings = function()
     {
         let ratings = [];
-        for(let i in this.ilsrSub)
+        let min = parseInt(this.ilMin.value);
+        let max = parseInt(this.ilMax.value);
+        for(let i=min; i<= max; i+=2)
         {
-            if(this.ilsrSub.hasOwnProperty(i))
-            {
-                let box = this.ilsrSub[i];
-                //'232-236'
-                if(box.checked)
-                {
-                    let min = parseInt(box.value.split('-')[0]);
-                    let max = parseInt(box.value.split('-')[1]);
-                    for(let j=min; j<=max; j+=2) //+=2 because there are no odd-numbered item ratings that we know of
-                    {
-                        ratings.push(j);
-                    }
-                }
-            }
+            ratings.push(i);
         }
         return ratings;
     };
