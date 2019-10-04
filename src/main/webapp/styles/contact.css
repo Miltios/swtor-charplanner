@@ -1,0 +1,40 @@
+.mail-title
+{
+    font-size:1.4em;
+    padding:5px 0px;
+    text-transform:uppercase;
+    letter-spacing:2.5px;
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.mail-address
+{
+    font-size:1.1em;
+    letter-spacing:2px;
+}
+
+#mail-text
+{
+    width:480px;
+    height:848px;
+    text-align:left;
+    float:right;
+    line-height: 1.5;
+}
+
+#mail-image
+{
+    content:url('../images/about/imageContact.png');
+    width:480px;
+    height:848px;
+    border:2px solid #96D6F1;
+    border-radius:8px;
+}
+
+#content
+{
+    width:1000px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 60px 15px 0px;
+}
