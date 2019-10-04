@@ -592,7 +592,7 @@
                         <option value="246">246</option>
                         <option value="248">248</option>
                         <option value="252">252</option>
-                        <option value="258">258</option>
+                        <option value="258" selected>258</option>
                         <option value="270">270</option>
                         <option value="272">272</option>
                         <option value="274">274</option>
@@ -648,7 +648,7 @@
                         <option value="300">300</option>
                         <option value="302">302</option>
                         <option value="304">304</option>
-                        <option value="306">306</option>
+                        <option value="306" selected>306</option>
                     </select></td>
                 </table>
                 <div class="item-list-settings-block settings-partwidth" style="width:30%;">
