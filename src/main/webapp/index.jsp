@@ -18,9 +18,9 @@
 </head>
 <body id="documentBody" class="faction-mode-imp">
     <div id="siteNavWrapper">
-        <a class="site-nav-item" href="javascript:alert('This page does not exist yet!');">About</a>
-        <a class="site-nav-item" href="javascript:alert('This page does not exist yet!');">FAQ</a>
-        <a class="site-nav-item" href="javascript:alert('This page does not exist yet!');">Contact</a>
+        <a class="site-nav-item" href="about.html">About</a>
+        <a class="site-nav-item" href="faq.html">FAQ</a>
+        <a class="site-nav-item" href="contact.html">Contact</a>
     </div>
     <div id="charBodyDiv">
         <table id="charBodyTable">
