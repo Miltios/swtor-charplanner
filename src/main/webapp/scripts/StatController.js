@@ -206,6 +206,10 @@ let StatController = (function()
         {
             switch(datacrons[i])
             {
+                case 'Meksha':
+                    datacronStats.mastery += 7;
+                    datacronStats.endurance += 2;
+                    break;
                 case 'Ossus':
                     datacronStats.mastery += 6;
                     datacronStats.endurance += 2;
@@ -268,8 +272,8 @@ let StatController = (function()
             }
         }
         let stats = this.addStats(gearStats, this.getGearlessStats());
-        let pri = 240;
-        let sec = 99;
+        let pri = 264;
+        let sec = 109;
         switch(Settings.getStim())
         {
             case 'blue':

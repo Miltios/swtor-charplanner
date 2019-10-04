@@ -432,6 +432,10 @@
                 <label class="label-single-line" for="datacronsCheckbox">All datacrons</label>
                 <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
                     <div class="setting">
+                        <input type="checkbox" checked id="datacronsCheckboxMeksha" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <label class="label-single-line" for="datacronsCheckboxMeksha">Mek-Sha</label>
+                    </div>
+                    <div class="setting">
                         <input type="checkbox" checked id="datacronsCheckboxOssus" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
                         <label class="label-single-line" for="datacronsCheckboxOssus">Ossus</label>
                     </div>
@@ -509,9 +513,9 @@
             </div>
             <div id="stimDiv">
                 <label class="label-single-line">Stim: </label>
-                <img onclick="DomController.userInput(this, 'stimClick', event)" class="button-stim" src="images/items50/stim_blue.png" data-stim-type="blue" />
-                <img onclick="DomController.userInput(this, 'stimClick', event)" class="button-stim" src="images/items50/stim_yellow.png" data-stim-type="yellow" />
-                <img onclick="DomController.userInput(this, 'stimClick', event)" class="button-stim" src="images/items50/stim_red.png" data-stim-type="red" />
+                <img onclick="DomController.userInput(this, 'stimClick', event)" class="button-stim" src="images/items50/6_0_stim_blue.png" data-stim-type="blue" />
+                <img onclick="DomController.userInput(this, 'stimClick', event)" class="button-stim" src="images/items50/6_0_stim_yellow.png" data-stim-type="yellow" />
+                <img onclick="DomController.userInput(this, 'stimClick', event)" class="button-stim" src="images/items50/6_0_stim_red.png" data-stim-type="red" />
             </div>
         </div>
         <div id="itemPicker" style="display:none;">
