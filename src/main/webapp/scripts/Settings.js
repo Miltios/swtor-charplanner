@@ -88,7 +88,7 @@ let Settings = (function()
     };
     Settings.prototype.getDatacrons = function()
     {
-        //rishi, makeb, ossus, fleet, base game
+        //rishi, makeb, ossus, mek-sha, fleet, base game
         let datacrons = [];
         for(let i=0; i<this.dcSub.length; i++)
         {

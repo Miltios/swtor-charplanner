@@ -432,6 +432,10 @@
                 <label class="label-single-line" for="datacronsCheckbox">All datacrons</label>
                 <div class="setting-extra setting-extra-collapsed popup-volatile popup-hidden">
                     <div class="setting">
+                        <input type="checkbox" checked id="datacronsCheckboxMeksha" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
+                        <label class="label-single-line" for="datacronsCheckboxMeksha">Mek-Sha</label>
+                    </div>
+                    <div class="setting">
                         <input type="checkbox" checked id="datacronsCheckboxOssus" class="datacrons-checkbox" onchange="Settings.updateDatacrons(this)">
                         <label class="label-single-line" for="datacronsCheckboxOssus">Ossus</label>
                     </div>

@@ -206,6 +206,10 @@ let StatController = (function()
         {
             switch(datacrons[i])
             {
+                case 'Meksha':
+                    datacronStats.mastery += 7;
+                    datacronStats.endurance += 2;
+                    break;
                 case 'Ossus':
                     datacronStats.mastery += 6;
                     datacronStats.endurance += 2;
