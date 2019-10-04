@@ -575,15 +575,82 @@
                     <div class="item-gold"><input type="checkbox" checked id="gearQualityCheckboxGold" class="item-color-checkbox" value="gold" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxLegendary">Legendary</label></div>
                     <div class="item-orange"><!--<input type="checkbox" id="gearQualityCheckboxOrange" class="item-color-checkbox" value="orange" onclick="DomController.userInput(this, 'updateItemColors')"><label for="gearQualityCheckboxCustom">Custom</label>--></div>
                 </div>
-                <div id="itemListSettingsRating" class="item-list-settings-block settings-partwidth">
+                <table id="itemListSettingsRating" class="item-list-settings-block">
+                <tr>
                     <span class="block-title">Item Rating:</span>
-                    <div><input type="checkbox" checked id="itemRatingCheckboxT1" class="item-rating-checkbox" value="228-230" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT1">Tier 1 (228-230)</label></div>
-                    <div><input type="checkbox" checked id="itemRatingCheckboxT2" class="item-rating-checkbox" value="232-236" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT2">Tier 2 (232-236)</label></div>
-                    <div><input type="checkbox" checked id="itemRatingCheckboxT3" class="item-rating-checkbox" value="238-242" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT3">Tier 3 (238-242)</label></div>
-                    <div><input type="checkbox" checked id="itemRatingCheckboxT4" class="item-rating-checkbox" value="244-248" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT4">Tier 4 (244-248)</label></div>
-                    <div><input type="checkbox" checked id="itemRatingCheckboxT5" class="item-rating-checkbox" value="252-258" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT5">Tier 5 (252-258)</label></div>
-                    <div><input type="checkbox" checked id="itemRatingCheckboxT6" class="item-rating-checkbox" value="270-306" onclick="DomController.userInput(this, 'updateItemRatings')"><label for="itemRatingCheckboxT6">Tier 6 (270-306)</label></div>
-                </div>
+                    <td><label for="itemRatingMin">Min:</label></td>
+                    <td><select id="itemRatingMin" class="item-rating-dropdown" onchange="DomController.userInput(this, 'updateItemRatings')">
+                        <option value="228">228</option>
+                        <option value="230">230</option>
+                        <option value="232">232</option>
+                        <option value="234">234</option>
+                        <option value="236">236</option>
+                        <option value="238">238</option>
+                        <option value="240">240</option>
+                        <option value="242">242</option>
+                        <option value="244">244</option>
+                        <option value="246">246</option>
+                        <option value="248">248</option>
+                        <option value="252">252</option>
+                        <option value="258">258</option>
+                        <option value="270">270</option>
+                        <option value="272">272</option>
+                        <option value="274">274</option>
+                        <option value="276">276</option>
+                        <option value="278">278</option>
+                        <option value="280">280</option>
+                        <option value="282">282</option>
+                        <option value="284">284</option>
+                        <option value="286">286</option>
+                        <option value="288">288</option>
+                        <option value="290">290</option>
+                        <option value="292">292</option>
+                        <option value="294">294</option>
+                        <option value="296">296</option>
+                        <option value="298">298</option>
+                        <option value="300">300</option>
+                        <option value="302">302</option>
+                        <option value="304">304</option>
+                        <option value="306">306</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="itemRatingMax">Max:</label></td>
+                    <td><select id="itemRatingMax" class="item-rating-dropdown" onchange="DomController.userInput(this, 'updateItemRatings')">
+                        <option value="228">228</option>
+                        <option value="230">230</option>
+                        <option value="232">232</option>
+                        <option value="234">234</option>
+                        <option value="236">236</option>
+                        <option value="238">238</option>
+                        <option value="240">240</option>
+                        <option value="242">242</option>
+                        <option value="244">244</option>
+                        <option value="246">246</option>
+                        <option value="248">248</option>
+                        <option value="252">252</option>
+                        <option value="258">258</option>
+                        <option value="270">270</option>
+                        <option value="272">272</option>
+                        <option value="274">274</option>
+                        <option value="276">276</option>
+                        <option value="278">278</option>
+                        <option value="280">280</option>
+                        <option value="282">282</option>
+                        <option value="284">284</option>
+                        <option value="286">286</option>
+                        <option value="288">288</option>
+                        <option value="290">290</option>
+                        <option value="292">292</option>
+                        <option value="294">294</option>
+                        <option value="296">296</option>
+                        <option value="298">298</option>
+                        <option value="300">300</option>
+                        <option value="302">302</option>
+                        <option value="304">304</option>
+                        <option value="306">306</option>
+                    </select></td>
+                </table>
                 <div class="item-list-settings-block settings-partwidth" style="width:30%;">
                     <label class="block-title" for="specFilterDropdown">Show items for:</label>
                     <select name="specFilterDropdown" id="specFilterDropdown" onchange="DomController.userInput(this, 'specFilterChange')">
