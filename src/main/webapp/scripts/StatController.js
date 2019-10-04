@@ -268,8 +268,8 @@ let StatController = (function()
             }
         }
         let stats = this.addStats(gearStats, this.getGearlessStats());
-        let pri = 240;
-        let sec = 99;
+        let pri = 264;
+        let sec = 109;
         switch(Settings.getStim())
         {
             case 'blue':
