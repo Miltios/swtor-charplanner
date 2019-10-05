@@ -5,7 +5,7 @@ let ItemManager = (function()
         //declare vars
         this.items = [];
         this.itemMods = [];
-        this.lastItemId = 0;
+        this.lastItemId = -1;
     }
     ItemManager.prototype.init = function()
     {
@@ -30,7 +30,7 @@ let ItemManager = (function()
             {
                 this.items.push(add[j]);
                 let id = parseInt(add[j].id);
-                if(id > this.lastItemId)
+                if(id < this.lastItemId)
                 {
                     this.lastItemId = id;
                 }
@@ -213,7 +213,7 @@ let ItemManager = (function()
         }
         return null;
     };
-    ItemManager.prototype.addItem = function(data)
+    /*ItemManager.prototype.addItem = function(data)
     {
         //not actually used yet
         let item = new Item(data);
@@ -223,13 +223,13 @@ let ItemManager = (function()
         {
             this.lastItemId = id;
         }
-    };
+    };*/
     ItemManager.prototype.getItemById = function(id)
     {
         //we need strongly typed values here, so we coerce id to string and parse intId from there
         id += '';
         let intId = parseInt(id);
-        if(!id || !intId || intId<0) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
+        if(!id || !intId) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
         {
             return null;
         }
@@ -368,7 +368,8 @@ let ItemManager = (function()
     };
     ItemManager.prototype.getNewId = function()
     {
-        this.lastItemId++;
+        //all generated IDs are negative, to ensure no conflicts with hard-coded IDs from the DB
+        this.lastItemId--;
         return this.lastItemId + ''; //coerce to string
     };
     return new ItemManager();
