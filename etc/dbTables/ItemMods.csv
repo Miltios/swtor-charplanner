@@ -467,7 +467,7 @@ tempKey,ItemId,Name,tempDuplicateId,Slot,Rating,Color,Disabled,Image,tempHasStat
 306goldhilt,466,Superior Versatile Hilt 80,466,hilt,306,gold,0,hilt_shatek_versatile.png,
 306goldbarrel,467,Superior Resistive Barrel 80,467,barrel,306,gold,0,barrel_shatek_resistive.png,
 306goldbarrel,468,Superior Versatile Barrel 80,468,barrel,306,gold,0,barrel_shatek_versatile.png,
-306goldenhancement,469,Superior Quick Savant Enhancement 80,469,enhancement,306,gold,0,enhancement_shatek_quicksavant.png,
+306goldenhancement,469,Superior Nimble Enhancement 80,469,enhancement,306,gold,0,enhancement_shatek_quicksavant.png,
 270greenenhancement,470,Adept Enhancement 75,470,enhancement,270,green,0,enhancement_shatek_adept.png,
 270greenenhancement,471,Discipline Enhancement 75,471,enhancement,270,green,0,enhancement_shatek_discipline.png,
 270greenenhancement,472,Efficient Enhancement 75,472,enhancement,270,green,0,enhancement_shatek_efficient.png,
