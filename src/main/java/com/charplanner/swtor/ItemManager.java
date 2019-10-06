@@ -333,7 +333,7 @@ public class ItemManager
         Connection c = ConnectionManager.getConnection();
         try
         {
-            PreparedStatement statement = c.prepareStatement("SELECT * FROM swtor.SetBonuses"); //TODO:stop hard-coding schemas
+            PreparedStatement statement = c.prepareStatement("SELECT * FROM " + schemaString + "SetBonuses");
             if(statement.execute())
             {
                 ResultSet rs = statement.getResultSet();
