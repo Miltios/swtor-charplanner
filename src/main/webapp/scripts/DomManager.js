@@ -11,6 +11,7 @@ let DomManager = (function()
         this.itemListGold;
         this.itemListEmpty;
         this.augmentPicker;
+        this.modalMask;
     }
     DomManager.prototype.init = function()
     {
@@ -26,6 +27,7 @@ let DomManager = (function()
         this.itemListGold = document.getElementById('itemListGold');
         this.itemListEmpty = document.getElementById('itemListEmpty'); //just a dummy list to take up space in the layout if there aren't enough real lists display
         this.augmentPicker = document.getElementById('augPicker');
+        this.modalMask = document.getElementById('modalMask');
 
         log('DomManager initialized.');
     };
@@ -150,6 +152,14 @@ let DomManager = (function()
                 }
             }
         }
+    };
+    DomManager.prototype.showModalMask = function()
+    {
+        this.modalMask.style.display = '';
+    };
+    DomManager.prototype.hideModalMask = function()
+    {
+        this.modalMask.style.display = 'none';
     };
     return new DomManager();
 })();

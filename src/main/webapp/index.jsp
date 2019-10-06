@@ -525,7 +525,10 @@
                         <td colspan="2"><span class="block-title">Currently Equipped:&nbsp;</span><span id="currentItemName" class="block-title">None</span></td>
                     </tr>
                     <tr>
-                        <td><img id="currentItemImg" class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" /></td>
+                        <td class="edit-on-hover">
+                            <div class="slot-edit-link edit-item" onclick="DomController.userInput(this, 'editItemLink');"></div>
+                            <img id="currentItemImg" class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" />
+                        </td>
                         <td style="width:100%">
                             <div id="currentItemRating"></div>
                             <div id="currentItemStats"></div>
@@ -539,22 +542,26 @@
             <div id="itemModdingArea">
                 <div id="itemModdingSlots">
                     <div id="slotDynamic" class="mod-slot">
-                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                        <a class="mod-slot-link edit-on-hover" onclick="DomController.userInput(this, 'modSlot');">
+                            <div class="slot-edit-link edit-mod" onclick="DomController.userInput(this, 'editModLink');"></div>
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>
                     <div id="slotMod" class="mod-slot">
-                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                        <a class="mod-slot-link edit-on-hover" onclick="DomController.userInput(this, 'modSlot');">
+                            <div class="slot-edit-link edit-mod" onclick="DomController.userInput(this, 'editModLink');"></div>
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>
                     <div id="slotEnhancement" class="mod-slot">
-                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                        <a class="mod-slot-link edit-on-hover" onclick="DomController.userInput(this, 'modSlot');">
+                            <div class="slot-edit-link edit-mod" onclick="DomController.userInput(this, 'editModLink');"></div>
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>
                     <div id="slotCrystal" class="mod-slot">
-                        <a class="mod-slot-link" onclick="DomController.userInput(this, 'modSlot');">
+                        <a class="mod-slot-link edit-on-hover" onclick="DomController.userInput(this, 'modSlot');">
+                            <div class="slot-edit-link edit-mod" onclick="DomController.userInput(this, 'editModLink');"></div>
                             <img class="mod-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
                         </a>
                     </div>
@@ -683,6 +690,14 @@
         <div id="tooltipItemDescription"></div>
         <div id="tooltipStatComparison"></div>
     </div>
+    <div id="customStatsEl" class="modal-popup" style="display:none">
+        <table id="customStatsContent"></table>
+        <div id="customStatsButtons">
+            <button id="customStatsCancelButton" onclick="DomController.userInput(this, 'cancelCustomStats')">Cancel</button>
+            <button id="customStatsSaveButton" onclick="DomController.userInput(this, 'saveCustomStats')">Save</button>
+        </div>
+    </div>
+    <div id="modalMask" style="display:none;"></div>
 </body>
 <script type="text/javascript">
 let debug = true;
@@ -758,6 +773,7 @@ function log(str)
     requireJs("/scripts/StatController.js");
     requireJs("/scripts/StatManager.js");
     requireJs("/scripts/SetManager.js");
+    requireJs("/scripts/CustomStatsController.js");
     requireJs("/scripts/TooltipController.js");
     requireJs("/scripts/AugmentController.js");
     requireJs("/scripts/WarningsController.js");

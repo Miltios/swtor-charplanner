@@ -5,7 +5,8 @@ let ItemManager = (function()
         //declare vars
         this.items = [];
         this.itemMods = [];
-        this.lastItemId = 0;
+        this.lastItemId = -1;
+        this.lastModId = 0;
     }
     ItemManager.prototype.init = function()
     {
@@ -30,7 +31,7 @@ let ItemManager = (function()
             {
                 this.items.push(add[j]);
                 let id = parseInt(add[j].id);
-                if(id > this.lastItemId)
+                if(id < this.lastItemId)
                 {
                     this.lastItemId = id;
                 }
@@ -43,6 +44,11 @@ let ItemManager = (function()
         {
             let mod = new ItemMod(data[i]);
             this.itemMods.push(mod);
+            let id = parseInt(mod.id);
+            if(id > this.lastModId)
+            {
+                this.lastModId = id;
+            }
         }
     };
     ItemManager.prototype.filterListForSlot = function(slotName, list)
@@ -79,10 +85,12 @@ let ItemManager = (function()
                 spec = SpecManager.getSpecMirror(spec);
             }
         }
+        let specClass = 'all' + Utilities.capitalizeFirstLetter(Settings.getClass());
         return items.filter(i => ((i.specs.indexOf(spec) !== -1)
             || (i.specs.indexOf('all') !== -1)
             || (i.specs.indexOf('all') !== -1)
-            || (i.specs.indexOf(specRole) !== -1)));
+            || (i.specs.indexOf(specRole) !== -1)
+            || (i.specs.indexOf(specClass) !== -1)));
     };
     ItemManager.prototype.filterListForClassAndSlot = function(className, slotName, list)
     {
@@ -213,7 +221,7 @@ let ItemManager = (function()
         }
         return null;
     };
-    ItemManager.prototype.addItem = function(data)
+    /*ItemManager.prototype.addItem = function(data)
     {
         //not actually used yet
         let item = new Item(data);
@@ -223,13 +231,13 @@ let ItemManager = (function()
         {
             this.lastItemId = id;
         }
-    };
+    };*/
     ItemManager.prototype.getItemById = function(id)
     {
         //we need strongly typed values here, so we coerce id to string and parse intId from there
         id += '';
         let intId = parseInt(id);
-        if(!id || !intId || intId<0) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
+        if(!id || !intId) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
         {
             return null;
         }
@@ -290,8 +298,31 @@ let ItemManager = (function()
         clone.setId = item.setId;
         clone.isCustom = item.isCustom;
         clone.itemMods = item.itemMods.slice();
+        this.items.push(clone);
         return clone;
-    }
+    };
+    ItemManager.prototype.getModClone = function(mod)
+    {
+        let clone = new ItemMod();
+        clone.id = this.getNewModId();
+        clone.name = mod.name;
+        clone.slot = mod.slot;
+        clone.rating = mod.rating;
+        clone.color = mod.color;
+        clone.specs = mod.specs.slice();
+        clone.stats = {};
+        for(let i in mod.stats)
+        {
+            if(mod.stats.hasOwnProperty(i))
+            {
+                clone.stats[i] = mod.stats[i];
+            }
+        }
+        clone.image = mod.image;
+        clone.isCustom = mod.isCustom;
+        this.itemMods.push(clone);
+        return clone;
+    };
     ItemManager.prototype.getCustomClone = function(item)
     {
         if(item.isCustom)
@@ -299,6 +330,16 @@ let ItemManager = (function()
             return item;
         }
         let clone = this.getClone(item);
+        clone.isCustom = true;
+        return clone;
+    };
+    ItemManager.prototype.getCustomModClone = function(mod)
+    {
+        if(mod.isCustom)
+        {
+            return mod;
+        }
+        let clone = this.getModClone(mod);
         clone.isCustom = true;
         return clone;
     };
@@ -368,8 +409,14 @@ let ItemManager = (function()
     };
     ItemManager.prototype.getNewId = function()
     {
-        this.lastItemId++;
+        //all generated IDs are negative, to ensure no conflicts with hard-coded IDs from the DB
+        this.lastItemId--;
         return this.lastItemId + ''; //coerce to string
+    };
+    ItemManager.prototype.getNewModId = function()
+    {
+        this.lastModId++;
+        return this.lastModId + '';
     };
     return new ItemManager();
 })();

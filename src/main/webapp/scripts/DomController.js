@@ -182,6 +182,26 @@ let DomController = (function()
                 PickerController.populateCurrentItemForSlot(slot);
                 break;
             }
+            case 'cancelCustomStats':
+                CustomStatsController.cancel();
+                break;
+            case 'saveCustomStats':
+                CustomStatsController.save();
+                break;
+            case 'editItemLink':
+            {
+                let slot = SlotManager.getCurrentSlot();
+                let item = slot.getItem();
+                CustomStatsController.show(item);
+                break;
+            }
+            case 'editModLink':
+            {
+                let slot = SlotManager.getModSlotFromLinkEl(el.parentNode);
+                let mod = slot.getItem();
+                CustomStatsController.show(mod);
+                break;
+            }
         }
         StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here
         WarningsController.updateWarnings(); //ditto
