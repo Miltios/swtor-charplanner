@@ -298,7 +298,6 @@ let ItemManager = (function()
         clone.setId = item.setId;
         clone.isCustom = item.isCustom;
         clone.itemMods = item.itemMods.slice();
-        this.items.push(clone);
         return clone;
     };
     ItemManager.prototype.getModClone = function(mod)
