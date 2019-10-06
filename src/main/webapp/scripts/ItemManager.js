@@ -79,10 +79,12 @@ let ItemManager = (function()
                 spec = SpecManager.getSpecMirror(spec);
             }
         }
+        let specClass = 'all' + Utilities.capitalizeFirstLetter(Settings.getClass());
         return items.filter(i => ((i.specs.indexOf(spec) !== -1)
             || (i.specs.indexOf('all') !== -1)
             || (i.specs.indexOf('all') !== -1)
-            || (i.specs.indexOf(specRole) !== -1)));
+            || (i.specs.indexOf(specRole) !== -1)
+            || (i.specs.indexOf(specClass) !== -1)));
     };
     ItemManager.prototype.filterListForClassAndSlot = function(className, slotName, list)
     {
