@@ -101,7 +101,12 @@ Slot.prototype.updateAppearance = function()
     {
         if(item !== null && item.name !== 'empty')
         {
-            this.imgEl.className = 'mod-slot-img slot-' + item.color;
+            let color = item.color;
+            if(item.isCustom)
+            {
+                color = 'orange';
+            }
+            this.imgEl.className = 'mod-slot-img slot-' + color;
             this.imgEl.src = 'images/items50/' + item.image;
         }
         else

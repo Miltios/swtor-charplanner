@@ -6,6 +6,7 @@ let ItemManager = (function()
         this.items = [];
         this.itemMods = [];
         this.lastItemId = -1;
+        this.lastModId = 0;
     }
     ItemManager.prototype.init = function()
     {
@@ -43,6 +44,11 @@ let ItemManager = (function()
         {
             let mod = new ItemMod(data[i]);
             this.itemMods.push(mod);
+            let id = parseInt(mod.id);
+            if(id > this.lastModId)
+            {
+                this.lastModId = id;
+            }
         }
     };
     ItemManager.prototype.filterListForSlot = function(slotName, list)
@@ -292,8 +298,31 @@ let ItemManager = (function()
         clone.setId = item.setId;
         clone.isCustom = item.isCustom;
         clone.itemMods = item.itemMods.slice();
+        this.items.push(clone);
         return clone;
-    }
+    };
+    ItemManager.prototype.getModClone = function(mod)
+    {
+        let clone = new ItemMod();
+        clone.id = this.getNewModId();
+        clone.name = mod.name;
+        clone.slot = mod.slot;
+        clone.rating = mod.rating;
+        clone.color = mod.color;
+        clone.specs = mod.specs.slice();
+        clone.stats = {};
+        for(let i in mod.stats)
+        {
+            if(mod.stats.hasOwnProperty(i))
+            {
+                clone.stats[i] = mod.stats[i];
+            }
+        }
+        clone.image = mod.image;
+        clone.isCustom = mod.isCustom;
+        this.itemMods.push(clone);
+        return clone;
+    };
     ItemManager.prototype.getCustomClone = function(item)
     {
         if(item.isCustom)
@@ -301,6 +330,16 @@ let ItemManager = (function()
             return item;
         }
         let clone = this.getClone(item);
+        clone.isCustom = true;
+        return clone;
+    };
+    ItemManager.prototype.getCustomModClone = function(mod)
+    {
+        if(mod.isCustom)
+        {
+            return mod;
+        }
+        let clone = this.getModClone(mod);
         clone.isCustom = true;
         return clone;
     };
@@ -373,6 +412,11 @@ let ItemManager = (function()
         //all generated IDs are negative, to ensure no conflicts with hard-coded IDs from the DB
         this.lastItemId--;
         return this.lastItemId + ''; //coerce to string
+    };
+    ItemManager.prototype.getNewModId = function()
+    {
+        this.lastModId++;
+        return this.lastModId + '';
     };
     return new ItemManager();
 })();
