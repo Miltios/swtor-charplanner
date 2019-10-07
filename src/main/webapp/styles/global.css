@@ -60,7 +60,7 @@ body
 .footer {
   position: fixed;
   left: 0;
-  bottom: 10;
+  bottom: 10px;
   width: 100%;
   text-align: center;
   letter-spacing:1.25;
