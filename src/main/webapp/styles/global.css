@@ -56,3 +56,14 @@ body
 {
     text-decoration:line-through;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  text-align: center;
+  letter-spacing:1.25;
+  line-height:1.5;
+  font-size:0.9em;
+}
