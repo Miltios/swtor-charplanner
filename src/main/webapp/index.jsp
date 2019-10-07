@@ -360,6 +360,8 @@
                         <option value="230">230</option>
                         <option value="236">236</option>
                         <option value="240">240</option>
+                        <option value="276">276</option>
+                        <option value="286">286</option>
                      </select>
                      <br />
                      <!--<button id="removeAugButton">Remove this augment</button>-->
