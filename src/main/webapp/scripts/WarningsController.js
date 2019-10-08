@@ -129,9 +129,38 @@ let WarningsController = (function()
     };
     WarningsController.prototype.checkDefense = function()
     {
-        //TODO
-        //check defense above 3k
-        //check defense above 2k?
+        let defense = StatManager.getStat('defense');
+        let role = SpecManager.getRoleFromSpec(Settings.getSpec());
+        if(role === 'tank')
+        {
+            if(defense > 3500)
+            {
+                this.warnings.push({
+                    id:'highDefense',
+                    title:'High defense',
+                    severity:'low',
+                    text:'Your defense is above the recommended level for raiding.  Extra defense still helps, but it gives diminishing returns; you may want to spend this on other stats instead.'
+                });
+            }
+            else if(defense < 2100)
+            {
+                this.warnings.push({
+                    id:'lowDefense',
+                    title:'Low defense',
+                    severity:'low',
+                    text:'Your defense is below the recommended level for raiding as a tank.  You may find yourself taking too much damage until you raise it further.'
+                });
+            }
+        }
+        else if(defense > 0)
+        {
+            this.warnings.push({
+                id:'defenseClass',
+                title:'Defense for non-tank',
+                severity:'medium',
+                text:'Your build includes defense, but you are not in a tank spec.'
+            });
+        }
     };
     WarningsController.prototype.checkShieldAbsorb = function()
     {
@@ -175,7 +204,7 @@ let WarningsController = (function()
         }
 
         //check shield/absorb on non-tank spec
-        if((shield > 0 || absorb > 0) && role !== 'tank')
+        if(role !== 'tank' && (StatManager.getStat('shield') > 0 || StatManager.getStat('absorption') > 0))
         {
             this.warnings.push({
                 id:'shieldClass',
