@@ -72,9 +72,30 @@ let WarningsController = (function()
     };
     WarningsController.prototype.checkAlacrity = function()
     {
-        //TODO
-        //check alacrity above tier 3
-        //check alacrity just below tier cutoff
+        //T1: 7.142
+        //T2: 7.143-15.384
+        //T3: 15.385
+        //not done: check alacrity just below tier cutoff?
+        let alacrity = StatManager.getStat('alacrityperc');
+        let role = SpecManager.getRoleFromSpec(Settings.getSpec());
+        if(alacrity > 15.7)
+        {
+            this.warnings.push({
+                id:'highAlacrity',
+                title:'High alacrity',
+                severity:'high',
+                text:'Your alacrity is significantly above tier 3 (15.385%).  This is the fastest possible GCD, so additional alacrity is mostly wasted.'
+            });
+        }
+        if(role === 'tank' && alacrity > 0)
+        {
+            this.warnings.push({
+                id:'tankAlacrity',
+                title:'Alacrity on tank spec',
+                severity:'low',
+                text:'You have selected a tank spec, but your build includes some alacrity.  This is mostly wasted, unless you are deliberately using a skank build.'
+            });
+        }
     };
     WarningsController.prototype.checkAccuracy = function()
     {
