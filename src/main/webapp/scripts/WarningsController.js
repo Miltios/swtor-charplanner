@@ -72,9 +72,30 @@ let WarningsController = (function()
     };
     WarningsController.prototype.checkAlacrity = function()
     {
-        //TODO
-        //check alacrity above tier 3
-        //check alacrity just below tier cutoff
+        //T1: 7.142
+        //T2: 7.143-15.384
+        //T3: 15.385
+        //not done: check alacrity just below tier cutoff?
+        let alacrity = StatManager.getStat('alacrityperc');
+        let role = SpecManager.getRoleFromSpec(Settings.getSpec());
+        if(alacrity > 15.7)
+        {
+            this.warnings.push({
+                id:'highAlacrity',
+                title:'High alacrity',
+                severity:'high',
+                text:'Your alacrity is significantly above tier 3 (15.385%).  This is the fastest possible GCD, so additional alacrity is mostly wasted.'
+            });
+        }
+        if(role === 'tank' && alacrity > 0)
+        {
+            this.warnings.push({
+                id:'tankAlacrity',
+                title:'Alacrity on tank spec',
+                severity:'low',
+                text:'You have selected a tank spec, but your build includes some alacrity.  This is mostly wasted, unless you are deliberately using a skank build.'
+            });
+        }
     };
     WarningsController.prototype.checkAccuracy = function()
     {
@@ -129,9 +150,38 @@ let WarningsController = (function()
     };
     WarningsController.prototype.checkDefense = function()
     {
-        //TODO
-        //check defense above 3k
-        //check defense above 2k?
+        let defense = StatManager.getStat('defense');
+        let role = SpecManager.getRoleFromSpec(Settings.getSpec());
+        if(role === 'tank')
+        {
+            if(defense > 3500)
+            {
+                this.warnings.push({
+                    id:'highDefense',
+                    title:'High defense',
+                    severity:'low',
+                    text:'Your defense is above the recommended level for raiding.  Extra defense still helps, but it gives diminishing returns; you may want to spend this on other stats instead.'
+                });
+            }
+            else if(defense < 2100)
+            {
+                this.warnings.push({
+                    id:'lowDefense',
+                    title:'Low defense',
+                    severity:'low',
+                    text:'Your defense is below the recommended level for raiding as a tank.  You may find yourself taking too much damage until you raise it further.'
+                });
+            }
+        }
+        else if(defense > 0)
+        {
+            this.warnings.push({
+                id:'defenseClass',
+                title:'Defense for non-tank',
+                severity:'medium',
+                text:'Your build includes defense, but you are not in a tank spec.'
+            });
+        }
     };
     WarningsController.prototype.checkShieldAbsorb = function()
     {
@@ -175,7 +225,7 @@ let WarningsController = (function()
         }
 
         //check shield/absorb on non-tank spec
-        if((shield > 0 || absorb > 0) && role !== 'tank')
+        if(role !== 'tank' && (StatManager.getStat('shield') > 0 || StatManager.getStat('absorption') > 0))
         {
             this.warnings.push({
                 id:'shieldClass',
