@@ -57,6 +57,25 @@ let WarningsController = (function()
 
         return el;
     };
+    WarningsController.prototype.addWarning = function(warning)
+    {
+        if(!warning || !warning.id)
+        {
+            console.error('Attempted to add invalid warning!');
+            return;
+        }
+
+        //don't add warning if it's already there
+        for(let i=0; i<this.warnings.length; i++)
+        {
+            if(this.warnings[i].id === warning.id)
+            {
+                return;
+            }
+        }
+
+        this.warnings.push(warning);
+    };
     WarningsController.prototype.updateWarnings = function()
     {
         this.warnings = [];
@@ -67,6 +86,8 @@ let WarningsController = (function()
         this.checkShieldAbsorb();
         this.checkRelics();
         this.checkCrystals();
+        this.checkWeaponTypes();
+        this.checkSetBonus();
 
         this.updateText();
     };
@@ -80,7 +101,7 @@ let WarningsController = (function()
         let role = SpecManager.getRoleFromSpec(Settings.getSpec());
         if(alacrity > 15.7)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'highAlacrity',
                 title:'High alacrity',
                 severity:'high',
@@ -89,7 +110,7 @@ let WarningsController = (function()
         }
         if(role === 'tank' && alacrity > 0)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'tankAlacrity',
                 title:'Alacrity on tank spec',
                 severity:'low',
@@ -105,7 +126,7 @@ let WarningsController = (function()
         {
             if(accuracy > 0)
             {
-                this.warnings.push({
+                this.addWarning({
                     id:'tankAccuracy',
                     title:'Accuracy on tank spec',
                     severity:'high',
@@ -117,7 +138,7 @@ let WarningsController = (function()
         {
             if(accuracy > 0)
             {
-                this.warnings.push({
+                this.addWarning({
                     id:'healAccuracy',
                     title:'Accuracy on healer spec',
                     severity:'medium',
@@ -130,7 +151,7 @@ let WarningsController = (function()
             let calcAccuracy = parseFloat(StatController.calcElAccuracy.innerHTML);
             if(calcAccuracy < 109.99)
             {
-                this.warnings.push({
+                this.addWarning({
                     id:'lowAccuracy',
                     title:'Low accuracy',
                     severity:'medium',
@@ -139,7 +160,7 @@ let WarningsController = (function()
             }
             else if(calcAccuracy >= 111) //slightly more than one augment over the target
             {
-                this.warnings.push({
+                this.addWarning({
                     id:'highAccuracy',
                     title:'High accuracy',
                     severity:'medium',
@@ -156,7 +177,7 @@ let WarningsController = (function()
         {
             if(defense > 3500)
             {
-                this.warnings.push({
+                this.addWarning({
                     id:'highDefense',
                     title:'High defense',
                     severity:'low',
@@ -165,7 +186,7 @@ let WarningsController = (function()
             }
             else if(defense < 2100)
             {
-                this.warnings.push({
+                this.addWarning({
                     id:'lowDefense',
                     title:'Low defense',
                     severity:'low',
@@ -175,7 +196,7 @@ let WarningsController = (function()
         }
         else if(defense > 0)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'defenseClass',
                 title:'Defense for non-tank',
                 severity:'medium',
@@ -192,7 +213,7 @@ let WarningsController = (function()
         //check very large difference between shield/absorb
         if(shield/absorb > 2)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'shieldAbsorbGap',
                 title:'Shield/Absorb imbalance',
                 severity:'medium',
@@ -203,7 +224,7 @@ let WarningsController = (function()
         //check absorb higher than shield
         if(absorb > shield)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'absorbOverShield',
                 title:'Absorb higher than Shield',
                 severity:'low',
@@ -216,7 +237,7 @@ let WarningsController = (function()
         //check shield XOR absorb at zero
         if(!(shield === 0) != !(absorb === 0)) //HACK: logical XOR, because JS doesn't have one
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'shieldAbsorbZero',
                 title:'Shield or Absorb at zero',
                 severity:'high',
@@ -227,7 +248,7 @@ let WarningsController = (function()
         //check shield/absorb on non-tank spec
         if(role !== 'tank' && (StatManager.getStat('shield') > 0 || StatManager.getStat('absorption') > 0))
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'shieldClass',
                 title:'Shield/Absorb for non-tank spec',
                 severity:'medium',
@@ -241,7 +262,7 @@ let WarningsController = (function()
             let offhand = SlotManager.getSlot('offhand').getItem();
             if(offhand !== null && offhand.type !== 'shield')
             {
-                this.warnings.push({
+                this.addWarning({
                     id:'noShield',
                     title:'Shield not equipped',
                     severity:'high',
@@ -278,7 +299,7 @@ let WarningsController = (function()
         {
             if(type1 === type2)
             {
-                this.warnings.push({
+                this.addWarning({
                     id:'duplicateRelic',
                     title:'Duplicate relics',
                     severity:'high',
@@ -290,7 +311,7 @@ let WarningsController = (function()
         //check for crappy relics
         if([type1, type2].indexOf('ephemeral mending') !== -1)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'relicEphemeral',
                 title:'Bad relic: Ephemeral mending',
                 severity:'medium',
@@ -299,7 +320,7 @@ let WarningsController = (function()
         }
         if([type1, type2].indexOf('devastating vengeance') !== -1)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'relicDevastating',
                 title:'Bad relic: Devastating vengeance',
                 severity:'low',
@@ -308,7 +329,7 @@ let WarningsController = (function()
         }
         if([type1, type2].indexOf('fortunate redoubt') !== -1)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'relicRedoubt',
                 title:'Bad relic: Fortunate redoubt',
                 severity:'low',
@@ -317,7 +338,7 @@ let WarningsController = (function()
         }
         if([type1, type2].indexOf('imperiling serenity') !== -1)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'relicImperiling',
                 title:'Bad relic: Imperiling serenity',
                 severity:'low',
@@ -326,7 +347,7 @@ let WarningsController = (function()
         }
         if([type1, type2].indexOf('reactive warding') !== -1)
         {
-            this.warnings.push({
+            this.addWarning({
                 id:'relicReactive',
                 title:'Bad relic: Reactive warding',
                 severity:'medium',
@@ -342,7 +363,7 @@ let WarningsController = (function()
             case 'tank':
                 if(Utilities.arrayMatch([type1, type2], ['ephemeral mending']))
                 {
-                    this.warnings.push({
+                    this.addWarning({
                         id:'relicNonTank',
                         title:'Off-class relic',
                         severity:'medium',
@@ -353,7 +374,7 @@ let WarningsController = (function()
             case 'dps':
                 if(Utilities.arrayMatch([type1, type2], ['ephemeral mending', 'imperiling serenity', 'reactive warding', 'shield amplification', 'fortunate redoubt', 'shrouded crusader']))
                 {
-                    this.warnings.push({
+                    this.addWarning({
                         id:'relicNonDps',
                         title:'Off-class relic',
                         severity:'medium',
@@ -364,7 +385,7 @@ let WarningsController = (function()
             case 'healer':
                 if(Utilities.arrayMatch([type1, type2], ['imperiling serenity', 'reactive warding', 'shield amplification', 'fortunate redoubt', 'shrouded crusader']))
                 {
-                    this.warnings.push({
+                    this.addWarning({
                         id:'relicNonHealer',
                         title:'Off-class relic',
                         severity:'medium',
@@ -400,7 +421,7 @@ let WarningsController = (function()
             }
             if(!hasCrystal)
             {
-                this.warnings.push(crystalWarning);
+                this.addWarning(crystalWarning);
                 hasWarning = true;
             }
         }
@@ -418,7 +439,192 @@ let WarningsController = (function()
             }
             if(!hasCrystal)
             {
-                this.warnings.push(crystalWarning);
+                this.addWarning(crystalWarning);
+            }
+        }
+    };
+    WarningsController.prototype.checkWeaponTypes = function()
+    {
+        let cls = Settings.getClass();
+        let spec = Settings.getSpec();
+        let faction = Settings.getFaction();
+        let mainhand = SlotManager.getSlot('mainhand').getItem();
+        let offhand = SlotManager.getSlot('offhand').getItem();
+
+        let wrongClassWarning = {
+            id:'weaponTypeClass',
+            title:'Invalid weapon type for class',
+            severity:'high',
+            text:'The mainhand or offhand you\'ve selected is not equippable on your current class.  You will not be able to play this build in-game.'
+        };
+        let wrongSpecWarning = {
+            id:'weaponTypeSpec',
+            title:'Wrong weapon type for spec',
+            severity:'medium',
+            text:'The mainhand or offhand you\'ve selected is not recommended for your current spec.  Some features of your class may not work properly.'
+        };
+
+        if(mainhand !== null)
+        {
+            switch(mainhand.type)
+            {
+                case 'cannon':
+                    if(cls !== 'pt' || faction !== 'pub')
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+                case 'pistol':
+                    if(faction === 'imp')
+                    {
+                        if(['merc', 'pt'].indexOf(cls) === -1)
+                        {
+                            this.addWarning(wrongClassWarning);
+                        }
+                    }
+                    else
+                    {
+                        if(cls !== 'sniper')
+                        {
+                            this.addWarning(wrongClassWarning);
+                        }
+                    }
+                    break;
+                case 'rifle':
+                    if((faction === 'imp' && cls !== 'op') || (faction === 'pub' && cls !== 'pt'))
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+                case 'saber':
+                    if(['jugg', 'mara', 'sorc'].indexOf(cls) === -1)
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+                case 'saberstaff':
+                    if(cls !== 'sin')
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+                case 'sniper':
+                    if(cls !== 'sniper' || faction !== 'imp')
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+            }
+        }
+        if(offhand !== null)
+        {
+            switch(offhand.type)
+            {
+                case 'focus':
+                    if(['sin', 'sorc', 'jugg', 'mara'].indexOf(cls) === -1)
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    else if(spec.indexOf('Tank') !== -1)
+                    {
+                        this.addWarning(wrongSpecWarning);
+                    }
+                    break;
+                case 'generator':
+                    if(faction === 'imp')
+                    {
+                        if(cls !== 'pt')
+                        {
+                            this.addWarning(wrongSpecWarning);
+                        }
+                        else if(spec === 'ptTank')
+                        {
+                            this.addWarning(wrongSpecWarning);
+                        }
+                    }
+                    else
+                    {
+                        if(['pt', 'merc'].indexOf(cls) === -1)
+                        {
+                            this.addWarning(wrongClassWarning);
+                        }
+                        else if(spec === 'ptTank')
+                        {
+                            this.addWarning(wrongSpecWarning);
+                        }
+                    }
+                    break;
+                case 'knife':
+                    if(faction !== 'imp' || ['op', 'sniper'].indexOf(cls) === -1)
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+                case 'pistol':
+                    if((faction === 'imp' && ['merc', 'pt'].indexOf(cls) === -1) || (faction === 'pub' && cls !== 'sniper'))
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+                case 'saber':
+                    if(['jugg', 'mara', 'sorc'].indexOf(cls) === -1)
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+                case 'shield':
+                    if(['jugg', 'sin', 'pt'].indexOf(cls) ===-1)
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    else if(spec.indexOf('Tank') === -1)
+                    {
+                        this.addWarning(wrongSpecWarning);
+                    }
+                    break;
+                case 'shotgun':
+                    if(faction !== 'pub' || cls !== 'op')
+                    {
+                        this.addWarning(wrongClassWarning);
+                    }
+                    break;
+            }
+        }
+    };
+    WarningsController.prototype.checkSetBonus = function()
+    {
+        let slots = ['head', 'chest', 'hands', 'waist', 'legs', 'feet', 'wrists'];
+        let spec = Settings.getSpec();
+        let cls = Settings.getClass();
+        let role = SpecManager.getRoleFromSpec(spec);
+        for(let i=0; i<slots.length; i++)
+        {
+            let item = SlotManager.getSlot(slots[i]).getItem();
+            if(item !== null)
+            {
+                //TODO: wrong class
+                if(item.specs.indexOf(spec) === -1)
+                {
+                    let hasMatch = false;
+                    for(let j=0; j<item.specs.length; j++)
+                    {
+                        //handle "allTank", "allDps" etc., as well as just "all"
+                        if(item.specs[j] === 'all' || item.specs[j].toLowerCase() === ('all'+role))
+                        {
+                            hasMatch = true;
+                            break;
+                        }
+                    }
+                    if(!hasMatch)
+                    {
+                        this.addWarning({
+                            id:'setBonusSpec',
+                            title:'Wrong set bonus for spec',
+                            severity:'low',
+                            text:'One of the armor pieces you\'ve equipped may not be appropriate for your current spec.'
+                        });
+                    }
+                }
             }
         }
     };
