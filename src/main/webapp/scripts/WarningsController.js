@@ -65,8 +65,8 @@ let WarningsController = (function()
         this.checkAccuracy();
         this.checkDefense();
         this.checkShieldAbsorb();
-        this.checkAugments();
         this.checkRelics();
+        this.checkCrystals();
 
         this.updateText();
     };
@@ -250,11 +250,6 @@ let WarningsController = (function()
             }
         }
     };
-    WarningsController.prototype.checkAugments = function()
-    {
-        //TODO
-        //check that all aug slots are filled
-    };
     WarningsController.prototype.checkRelics = function()
     {
         let relic1 = SlotManager.getSlot('relic1').getItem();
@@ -377,6 +372,54 @@ let WarningsController = (function()
                     });
                 }
                 break;
+        }
+    };
+    WarningsController.prototype.checkCrystals = function()
+    {
+        let mainhand = SlotManager.getSlot('mainhand').getItem();
+        let offhand = SlotManager.getSlot('offhand').getItem();
+        let crystalWarning = {
+            id:'noCrystal',
+            title:'No color crystal',
+            severity:'high',
+            text:'Your mainhand or offhand is missing a color crystal.  Each crystal gives a free +41 to a relevant stat, and they are considered a basic necessity of gearing--' +
+                'to fix this, select your weapon and click the empty crystal slot.'
+        };
+        let hasWarning = false;
+        if(mainhand !== null)
+        {
+            let mods = mainhand.getItemMods();
+            let hasCrystal = false;
+            for(let i=0; i< mods.length; i++)
+            {
+                if(mods[i].slot === 'crystal')
+                {
+                    hasCrystal = true;
+                    break;
+                }
+            }
+            if(!hasCrystal)
+            {
+                this.warnings.push(crystalWarning);
+                hasWarning = true;
+            }
+        }
+        if(offhand !== null && !hasWarning)
+        {
+            let mods = offhand.getItemMods();
+            let hasCrystal = false;
+            for(let i=0; i< mods.length; i++)
+            {
+                if(mods[i].slot === 'crystal')
+                {
+                    hasCrystal = true;
+                    break;
+                }
+            }
+            if(!hasCrystal)
+            {
+                this.warnings.push(crystalWarning);
+            }
         }
     };
     return new WarningsController();
