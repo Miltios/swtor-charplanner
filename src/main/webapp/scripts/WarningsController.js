@@ -602,20 +602,35 @@ let WarningsController = (function()
             let item = SlotManager.getSlot(slots[i]).getItem();
             if(item !== null)
             {
-                //TODO: wrong class
                 if(item.specs.indexOf(spec) === -1)
                 {
-                    let hasMatch = false;
+                    let hasSpecMatch = false;
+                    let hasClassMatch = false;
                     for(let j=0; j<item.specs.length; j++)
                     {
                         //handle "allTank", "allDps" etc., as well as just "all"
                         if(item.specs[j] === 'all' || item.specs[j].toLowerCase() === ('all'+role))
                         {
-                            hasMatch = true;
+                            hasSpecMatch = true;
+                            hasClassMatch = true; //if the spec fits, the class must fit by definition
                             break;
                         }
+                        if(SpecManager.classMatchesSpec(cls, item.specs[j]))
+                        {
+                            hasClassMatch = true;
+                            //don't stop processing just because we have the right class; spec may still be wrong
+                        }
                     }
-                    if(!hasMatch)
+                    if(!hasClassMatch)
+                    {
+                        this.addWarning({
+                            id:'setBonusClass',
+                            title:'Invalid set bonus for class',
+                            severity:'high',
+                            text:'One of the armor pieces you\'ve selected is not equippable by your current class.'
+                        });
+                    }
+                    else if(!hasSpecMatch) //don't show the spec warning if it's already the wrong class; that's just annoying
                     {
                         this.addWarning({
                             id:'setBonusSpec',
