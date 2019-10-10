@@ -207,6 +207,30 @@ let SpecManager = (function()
         }
         return 'dps';
     };
+    SpecManager.prototype.classMatchesSpec = function(cls, spec)
+    {
+        if(spec==='all' || spec === ('all'+Utilities.capitalizeFirstLetter(cls)))
+        {
+            return true;
+        }
+        if(spec==='allTank' && ['jugg', 'sin', 'pt'].indexOf(cls) !== -1)
+        {
+            return true;
+        }
+        if(spec==='allHealer' && ['merc', 'sorc', 'op'].indexOf(cls) !== -1)
+        {
+            return true;
+        }
+        if(spec==='allDps')
+        {
+            return true; //all classes have a DPS spec
+        }
+        if(spec.indexOf(cls) === 0)
+        {
+            return true;
+        }
+        return false;
+    };
     return new SpecManager();
 })();
 declareReady('SpecManager.js', function(){SpecManager.init()});

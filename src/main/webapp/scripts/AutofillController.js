@@ -32,7 +32,9 @@ let AutofillController = (function()
             {
                 let slot = rsSlots[i];
                 let items = ItemManager.getItemsForSpecAndSlot(spec, slot.getGenericName());
-                let best = items.filter(i=>(i.rating===maxRating))[0];
+                items = items.filter(i=>(i.rating===maxRating));
+                let recommended = items.filter(i=>(i.setId === this.getRecommendedSetBonusForSpec(spec)));
+                let best = recommended.length > 0 ? recommended[0] : items[0];
                 if(overwrite || slot.getItem() === null)
                 {
                     slot.setItem(best);
@@ -42,8 +44,55 @@ let AutofillController = (function()
         catch(e)
         {
             console.error('Unable to populate right side gear!');
-            console.error(e.stack);
         }
+    };
+    AutofillController.prototype.getRecommendedSetBonusForSpec = function(spec)
+    {
+        switch(spec)
+        {
+            case 'sinTank':
+                return 'efficient';
+            case 'sinBurst':
+            case 'sinSust':
+                return 'dknell';
+            case 'sorcHealer':
+                return 'revitalized';
+            case 'sorcBurst':
+            case 'sorcSust':
+                return 'gathering';
+            case 'juggTank':
+                return 'lordop';
+            case 'juggBurst':
+            case 'juggSust':
+                return 'descent';
+            case 'maraSust':
+                return 'culling';
+            case 'maraBurst':
+            case 'maraHybrid':
+                return 'pform';
+            case 'mercHealer':
+                return 'cfire';
+            case 'mercBurst':
+            case 'mercSust':
+                return 'apex';
+            case 'ptTank':
+                return 'rprice';
+            case 'ptBurst':
+            case 'ptSust':
+                return 'meteor';
+            case 'opHealer':
+            case 'opBurst':
+                return 'tactician';
+            case 'opSust':
+                return 'authority';
+            case 'sniperBurst':
+                return 'foothold';
+            case 'sniperSust':
+            case 'sniperHybrid':
+                return 'precise';
+        }
+
+        return 'amplified'; //all-class fallback in case something goes haywire
     };
     return new AutofillController();
 })();
