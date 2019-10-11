@@ -609,7 +609,7 @@ let WarningsController = (function()
                     for(let j=0; j<item.specs.length; j++)
                     {
                         //handle "allTank", "allDps" etc., as well as just "all"
-                        if(item.specs[j] === 'all' || item.specs[j].toLowerCase() === ('all'+role))
+                        if(item.specs[j] === 'all' || item.specs[j].toLowerCase() === ('all'+role) || item.specs[j].toLowerCase() === ('all'+cls))
                         {
                             hasSpecMatch = true;
                             hasClassMatch = true; //if the spec fits, the class must fit by definition
