@@ -653,6 +653,8 @@ body.faction-mode-pub .faction-imp
     /*border-radius:10px;*/
     padding:10px;
     font-size:1.15em;
+    max-height:500px;
+    overflow-y:auto;
 }
 .warnings-item
 {
