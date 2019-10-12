@@ -4672,16 +4672,16 @@ Sha'tek Eliminator's Offhand Blaster,,,,2398,mercSust
 Sha'tek Eliminator's Offhand Blaster,,,,2398,slingerBurst
 Sha'tek Eliminator's Offhand Blaster,,,,2398,slingerSust
 Sha'tek Eliminator's Offhand Blaster,,,,2398,slingerHybrid
-T6 Healer's Saber,,,,2399,sorcHealer
-T6 Healer's Blaster Pistol,,,,2400,mercHealer
-T6 Healer's Blaster Pistol,,,,2400,scoundrelHealer
-T6 Healer's Blaster Rifle,,,,2401,opHealer
-T6 Healer's Assault Cannon,,,,2402,mandoHealer
-T6 Healer's Focus,,,,2403,sorcHealer
-T6 Healer's Generator,,,,2404,mandoHealer
-T6 Healer's Vibroknife,,,,2405,opHealer
-T6 Healer's Shotgun,,,,2406,scoundrelHealer
-T6 Healer's Offhand Blaster,,,,2407,mercHealer
+Sha'tek Force-Master's Lightsaber,,,,2387,sorcHealer
+Sha'tek Eliminator's Blaster Pistol,,,,2389,mercHealer
+Sha'tek Eliminator's Blaster Pistol,,,,2389,scoundrelHealer
+Sha'tek Eliminator's Blaster Rifle,,,,2390,opHealer
+Sha'tek Eliminator's Assault Cannon,,,,2392,mandoHealer
+Sha'tek Force-Master's Focus,,,,2393,sorcHealer
+Sha'tek Eliminator's Generator,,,,2394,mandoHealer
+Sha'tek Field Tech's Vibroknife,,,,2395,opHealer
+Sha'tek Field Tech's Shotgun,,,,2396,scoundrelHealer
+Sha'tek Eliminator's Offhand Blaster,,,,2398,mercHealer
 Sha'tek Adept Device MK-19,,,,2408,allHealer
 Sha'tek Bastion Device MK-19,,,,2410,allTank
 Sha'tek Bulwark Device MK-19,,,,2412,allTank
@@ -5140,156 +5140,157 @@ Taskmaster's Headgear,all,,,2866,allHealer
 The Entertainer's Headgear,all,,,2867,allTank
 The Victor's Headgear,tank,,,2868,allTank
 Trishin's Retort Headgear,tank,,,2869,allTank
-Controller Armguards,all,,,2453,sorcBurst
-Decelerator Armguards,all,,,2454,allSorc
-Dire Retaliation Armguards,all,,,2455,sorcBurst
-Soulbender's Armguards,all,,,2456,allSin
-Game Plan Armguards,all,,,2467,allPt
-Hunter Killer Armguards,all,,,2468,allPt
-Squad Leader's Armguards,all,,,2469,allPt
-Woads Armguards,all,,,2470,allPt
-Probe Tech Armguards,all,,,2480,allSniper
-Quick Thinker Armguards,all,,,2481,allSniper
+Cuffs of the Controller,all,,,2453,sorcBurst
+Decelerator's Cuffs,all,,,2454,allSorc
+Cuffs of Dire Retaliation,all,,,2455,sorcBurst
+Soulbender's Cuffs,all,,,2456,allSin
+Game Plan Vambraces,all,,,2467,allPt
+Hunter Killer's Vambraces,all,,,2468,allPt
+Squad Leader's Vambraces,all,,,2469,allPt
+Woads Instinct Vambraces,all,,,2470,allPt
+Probe Tech Bracers,all,,,2480,allSniper
+Quick Thinker's Bracers,all,,,2481,allSniper
 Amplified Champion's Armguards,all,,,2491,allDps
-Dying Precision Armguards,all,,,2493,allDps
+Armguards of Dying Precision,all,,,2493,allDps
 Rapid Response Armguards,all,,,2497,allDps
 Stimulated Armguards,all,,,2499,allDps
 Taskmaster's Armguards,all,,,2500,allDps
 The Entertainer's Armguards,all,,,2501,allDps
-Controller Belt,all,,,2514,sorcBurst
-Decelerator Belt,all,,,2515,allSorc
-Dire Retaliation Belt,all,,,2516,sorcBurst
+Belt of the Controller,all,,,2514,sorcBurst
+Decelerator's Belt,all,,,2515,allSorc
+Belt of Dire Retaliation,all,,,2516,sorcBurst
 Soulbender's Belt,all,,,2517,allSin
 Game Plan Belt,all,,,2528,allPt
-Hunter Killer Belt,all,,,2529,allPt
+Hunter Killer's Belt,all,,,2529,allPt
 Squad Leader's Belt,all,,,2530,allPt
-Woads Belt,all,,,2531,allPt
+Woads Instinct Belt,all,,,2531,allPt
 Probe Tech Belt,all,,,2541,allSniper
-Quick Thinker Belt,all,,,2542,allSniper
+Quick Thinker's Belt,all,,,2542,allSniper
 Amplified Champion's Belt,all,,,2552,allDps
-Dying Precision Belt,all,,,2554,allDps
+Belt of Dying Precision,all,,,2554,allDps
 Rapid Response Belt,all,,,2558,allDps
 Stimulated Belt,all,,,2560,allDps
 Taskmaster's Belt,all,,,2561,allDps
 The Entertainer's Belt,all,,,2562,allDps
-Controller Boots,all,,,2575,sorcBurst
-Decelerator Boots,all,,,2576,allSorc
-Dire Retaliation Boots,all,,,2577,sorcBurst
+Boots of the Controller,all,,,2575,sorcBurst
+Decelerator's Boots,all,,,2576,allSorc
+Boots of Dire Retaliation,all,,,2577,sorcBurst
 Soulbender's Boots,all,,,2578,allSin
 Game Plan Boots,all,,,2589,allPt
-Hunter Killer Boots,all,,,2590,allPt
+Hunter Killer's Boots,all,,,2590,allPt
 Squad Leader's Boots,all,,,2591,allPt
-Woads Boots,all,,,2592,allPt
+Woads Instinct Boots,all,,,2592,allPt
 Probe Tech Boots,all,,,2602,allSniper
-Quick Thinker Boots,all,,,2603,allSniper
+Quick Thinker's Boots,all,,,2603,allSniper
 Amplified Champion's Boots,all,,,2613,allDps
-Dying Precision Boots,all,,,2615,allDps
+Boots of Dying Precision,all,,,2615,allDps
 Rapid Response Boots,all,,,2619,allDps
 Stimulated Boots,all,,,2621,allDps
 Taskmaster's Boots,all,,,2622,allDps
 The Entertainer's Boots,all,,,2623,allDps
-Controller Chestpiece,all,,,2636,sorcBurst
-Decelerator Chestpiece,all,,,2637,allSorc
-Dire Retaliation Chestpiece,all,,,2638,sorcBurst
-Soulbender's Chestpiece,all,,,2639,allSin
-Game Plan Chestpiece,all,,,2650,allPt
-Hunter Killer Chestpiece,all,,,2651,allPt
-Squad Leader's Chestpiece,all,,,2652,allPt
-Woads Chestpiece,all,,,2653,allPt
-Probe Tech Chestpiece,all,,,2663,allSniper
-Quick Thinker Chestpiece,all,,,2664,allSniper
-Amplified Champion's Chestpiece,all,,,2674,allDps
-Dying Precision Chestpiece,all,,,2676,allDps
-Rapid Response Chestpiece,all,,,2680,allDps
-Stimulated Chestpiece,all,,,2682,allDps
-Taskmaster's Chestpiece,all,,,2683,allDps
-The Entertainer's Chestpiece,all,,,2684,allDps
-Controller Gauntlets,all,,,2697,sorcBurst
-Decelerator Gauntlets,all,,,2698,allSorc
-Dire Retaliation Gauntlets,all,,,2699,sorcBurst
-Soulbender's Gauntlets,all,,,2700,allSin
+Tunic of the Controller,all,,,2636,sorcBurst
+Decelerator's Robe,all,,,2637,allSorc
+Robes of Dire Retaliation,all,,,2638,sorcBurst
+Soulbender's Robe,all,,,2639,allSin
+Game Plan Body Armor,all,,,2650,allPt
+Hunter Killer's Body Armor,all,,,2651,allPt
+Squad Leader's Body Armor,all,,,2652,allPt
+Woads Instinct Body Armor,all,,,2653,allPt
+Probe Tech Jacket,all,,,2663,allSniper
+Quick Thinker's Jacket,all,,,2664,allSniper
+Amplified Champion's Chestguard,all,,,2674,allDps
+Chestguard of Dying Precision,all,,,2676,allDps
+Rapid Response Chestguard,all,,,2680,allDps
+Stimulated Chestguard,all,,,2682,allDps
+Taskmaster's Chestguard,all,,,2683,allDps
+The Entertainer's Chestguard,all,,,2684,allDps
+Gloves of the Controller,all,,,2697,sorcBurst
+Decelerator's Gauntlets,all,,,2698,allSorc
+Gloves of Dire Retaliation,all,,,2699,sorcBurst
+Soulbender's Gloves,all,,,2700,allSin
 Game Plan Gauntlets,all,,,2711,allPt
-Hunter Killer Gauntlets,all,,,2712,allPt
+Hunter Killer's Gauntlets,all,,,2712,allPt
 Squad Leader's Gauntlets,all,,,2713,allPt
-Probe Tech Gauntlets,all,,,2724,allSniper
-Quick Thinker Gauntlets,all,,,2725,allSniper
+Probe Tech Gloves,all,,,2724,allSniper
+Quick Thinker's Gloves,all,,,2725,allSniper
 Amplified Champion's Gauntlets,all,,,2735,allDps
-Dying Precision Gauntlets,all,,,2737,allDps
+Gauntlets of Dying Precision,all,,,2737,allDps
 Rapid Response Gauntlets,all,,,2741,allDps
 Stimulated Gauntlets,all,,,2743,allDps
 Taskmaster's Gauntlets,all,,,2744,allDps
 The Entertainer's Gauntlets,all,,,2745,allDps
-Controller Greaves,all,,,2758,sorcBurst
-Decelerator Greaves,all,,,2759,allSorc
-Dire Retaliation Greaves,all,,,2760,sorcBurst
-Soulbender's Greaves,all,,,2761,allSin
-Game Plan Greaves,all,,,2772,allPt
-Hunter Killer Greaves,all,,,2773,allPt
-Squad Leader's Greaves,all,,,2774,allPt
-Woads Greaves,all,,,2775,allPt
-Probe Tech Greaves,all,,,2785,allSniper
-Quick Thinker Greaves,all,,,2786,allSniper
+Lower Robe of the Controller,all,,,2758,sorcBurst
+Decelerator's Leg Guards,all,,,2759,allSorc
+Lower Robe of Dire Retaliation,all,,,2760,sorcBurst
+Soulbender's Lower Robe,all,,,2761,allSin
+Game Plan Legplates,all,,,2772,allPt
+Hunter Killer's Legplates,all,,,2773,allPt
+Squad Leader's Legplates,all,,,2774,allPt
+Woads Instinct Legplates,all,,,2775,allPt
+Probe Tech Leggings,all,,,2785,allSniper
+Quick Thinker's Leggings,all,,,2786,allSniper
 Amplified Champion's Greaves,all,,,2796,allDps
-Dying Precision Greaves,all,,,2798,allDps
+Greaves of Dying Precision,all,,,2798,allDps
 Rapid Response Greaves,all,,,2802,allDps
 Stimulated Greaves,all,,,2804,allDps
 Taskmaster's Greaves,all,,,2805,allDps
 The Entertainer's Greaves,all,,,2806,allDps
-Controller Headgear,all,,,2819,sorcBurst
-Decelerator Headgear,all,,,2820,allSorc
-Dire Retaliation Headgear,all,,,2821,sorcBurst
+Mask of the Controller,all,,,2819,sorcBurst
+Decelerator's Visage,all,,,2820,allSorc
+Headgear of Dire Retaliation,all,,,2821,sorcBurst
 Soulbender's Headgear,all,,,2822,allSin
-Game Plan Headgear,all,,,2833,allPt
-Hunter Killer Headgear,all,,,2834,allPt
-Squad Leader's Headgear,all,,,2835,allPt
-Woads Headgear,all,,,2836,allPt
+Game Plan Helmet,all,,,2833,allPt
+Hunter Killer's Helmet,all,,,2834,allPt
+Squad Leader's Helmet,all,,,2835,allPt
+Woads Instinct Helmet,all,,,2836,allPt
 Probe Tech Headgear,all,,,2846,allSniper
-Quick Thinker Headgear,all,,,2847,allSniper
+Quick Thinker's Headgear,all,,,2847,allSniper
 Amplified Champion's Headgear,all,,,2857,allDps
-Dying Precision Headgear,all,,,2859,allDps
+Headgear of Dying Precision,all,,,2859,allDps
 Rapid Response Headgear,all,,,2863,allDps
 Stimulated Headgear,all,,,2865,allDps
 Taskmaster's Headgear,all,,,2866,allDps
 The Entertainer's Headgear,all,,,2867,allDps
-Controller Armguards,all,,,2453,sorcSust
-Dire Retaliation Armguards,all,,,2455,sorcSust
+Cuffs of the Controller,all,,,2453,sorcSust
+Cuffs of Dire Retaliation,all,,,2455,sorcSust
 Amplified Champion's Armguards,all,,,2491,allHealer
-Dying Precision Armguards,all,,,2493,allHealer
+Armguards of Dying Precision,all,,,2493,allHealer
 Rapid Response Armguards,all,,,2497,allHealer
 The Entertainer's Armguards,all,,,2501,allHealer
-Controller Belt,all,,,2514,sorcSust
-Dire Retaliation Belt,all,,,2516,sorcSust
+Belt of the Controller,all,,,2514,sorcSust
+Belt of Dire Retaliation,all,,,2516,sorcSust
 Amplified Champion's Belt,all,,,2552,allHealer
-Dying Precision Belt,all,,,2554,allHealer
+Belt of Dying Precision,all,,,2554,allHealer
 Rapid Response Belt,all,,,2558,allHealer
 The Entertainer's Belt,all,,,2562,allHealer
-Controller Boots,all,,,2575,sorcSust
-Dire Retaliation Boots,all,,,2577,sorcSust
+Boots of the Controller,all,,,2575,sorcSust
+Boots of Dire Retaliation,all,,,2577,sorcSust
 Amplified Champion's Boots,all,,,2613,allHealer
-Dying Precision Boots,all,,,2615,allHealer
+Boots of Dying Precision,all,,,2615,allHealer
 Rapid Response Boots,all,,,2619,allHealer
 The Entertainer's Boots,all,,,2623,allHealer
-Controller Chestpiece,all,,,2636,sorcSust
-Amplified Champion's Chestpiece,all,,,2674,allHealer
-Dying Precision Chestpiece,all,,,2676,allHealer
-Rapid Response Chestpiece,all,,,2680,allHealer
-The Entertainer's Chestpiece,all,,,2684,allHealer
-Controller Gauntlets,all,,,2697,sorcSust
-Dire Retaliation Gauntlets,all,,,2699,sorcSust
+Tunic of the Controller,all,,,2636,sorcSust
+Robes of Dire Retaliation,,,,2638,sorcSust
+Amplified Champion's Chestguard,all,,,2674,allHealer
+Chestguard of Dying Precision,all,,,2676,allHealer
+Rapid Response Chestguard,all,,,2680,allHealer
+The Entertainer's Chestguard,all,,,2684,allHealer
+Gloves of the Controller,all,,,2697,sorcSust
+Gloves of Dire Retaliation,all,,,2699,sorcSust
 Amplified Champion's Gauntlets,all,,,2735,allHealer
-Dying Precision Gauntlets,all,,,2737,allHealer
+Gauntlets of Dying Precision,all,,,2737,allHealer
 Rapid Response Gauntlets,all,,,2741,allHealer
 The Entertainer's Gauntlets,all,,,2745,allHealer
-Controller Greaves,all,,,2758,sorcSust
-Dire Retaliation Greaves,all,,,2760,sorcSust
+Lower Robe of the Controller,all,,,2758,sorcSust
+Lower Robe of Dire Retaliation,all,,,2760,sorcSust
 Amplified Champion's Greaves,all,,,2796,allHealer
-Dying Precision Greaves,all,,,2798,allHealer
+Greaves of Dying Precision,all,,,2798,allHealer
 Rapid Response Greaves,all,,,2802,allHealer
 The Entertainer's Greaves,all,,,2806,allHealer
-Controller Headgear,all,,,2819,sorcSust
-Dire Retaliation Headgear,all,,,2821,sorcSust
+Mask of the Controller,all,,,2819,sorcSust
+Headgear of Dire Retaliation,all,,,2821,sorcSust
 Amplified Champion's Headgear,all,,,2857,allHealer
-Dying Precision Headgear,all,,,2859,allHealer
+Headgear of Dying Precision,all,,,2859,allHealer
 Rapid Response Headgear,all,,,2863,allHealer
 The Entertainer's Headgear,all,,,2867,allHealer
 Sha'tek Adept Device MK-1,,,,2888,allHealer
@@ -5853,154 +5854,154 @@ Sha'tek Relic of the Primeval Fatesealer MK-18,,,,3569,allDps
 Descent of the Fearless Armguards,dps,,,2443,juggBurst
 Descent of the Fearless Belt,dps,,,2504,juggBurst
 Descent of the Fearless Boots,dps,,,2565,juggBurst
-Descent of the Fearless Chestpiece,dps,,,2626,juggBurst
+Descent of the Fearless Chestguard,dps,,,2626,juggBurst
 Descent of the Fearless Gauntlets,dps,,,2687,juggBurst
 Descent of the Fearless Greaves,dps,,,2748,juggBurst
 Descent of the Fearless Headgear,dps,,,2809,juggBurst
 Descent of the Fearless Armguards,dps,,,2443,juggSust
 Descent of the Fearless Belt,dps,,,2504,juggSust
 Descent of the Fearless Boots,dps,,,2565,juggSust
-Descent of the Fearless Chestpiece,dps,,,2626,juggSust
+Descent of the Fearless Chestguard,dps,,,2626,juggSust
 Descent of the Fearless Gauntlets,dps,,,2687,juggSust
 Descent of the Fearless Greaves,dps,,,2748,juggSust
 Descent of the Fearless Headgear,dps,,,2809,juggSust
 Force Bound Armguards,dps,,,2444,juggBurst
 Force Bound Belt,dps,,,2505,juggBurst
 Force Bound Boots,dps,,,2566,juggBurst
-Force Bound Chestpiece,dps,,,2627,juggBurst
+Force Bound Chestguard,dps,,,2627,juggBurst
 Force Bound Gauntlets,dps,,,2688,juggBurst
 Force Bound Greaves,dps,,,2749,juggBurst
 Force Bound Headgear,dps,,,2810,juggBurst
 Force Bound Armguards,dps,,,2444,juggSust
 Force Bound Belt,dps,,,2505,juggSust
 Force Bound Boots,dps,,,2566,juggSust
-Force Bound Chestpiece,dps,,,2627,juggSust
+Force Bound Chestguard,dps,,,2627,juggSust
 Force Bound Gauntlets,dps,,,2688,juggSust
 Force Bound Greaves,dps,,,2749,juggSust
 Force Bound Headgear,dps,,,2810,juggSust
 Nimble Master Armguards,dps,,,2445,juggBurst
 Nimble Master Belt,dps,,,2506,juggBurst
 Nimble Master Boots,dps,,,2567,juggBurst
-Nimble Master Chestpiece,dps,,,2628,juggBurst
+Nimble Master Chestguard,dps,,,2628,juggBurst
 Nimble Master Gauntlets,dps,,,2689,juggBurst
 Nimble Master Greaves,dps,,,2750,juggBurst
 Nimble Master Headgear,dps,,,2811,juggBurst
 Nimble Master Armguards,dps,,,2445,juggSust
 Nimble Master Belt,dps,,,2506,juggSust
 Nimble Master Boots,dps,,,2567,juggSust
-Nimble Master Chestpiece,dps,,,2628,juggSust
+Nimble Master Chestguard,dps,,,2628,juggSust
 Nimble Master Gauntlets,dps,,,2689,juggSust
 Nimble Master Greaves,dps,,,2750,juggSust
 Nimble Master Headgear,dps,,,2811,juggSust
 Perfect Form Armguards,dps,,,2446,juggBurst
 Perfect Form Belt,dps,,,2507,juggBurst
 Perfect Form Boots,dps,,,2568,juggBurst
-Perfect Form Chestpiece,dps,,,2629,juggBurst
+Perfect Form Chestguard,dps,,,2629,juggBurst
 Perfect Form Gauntlets,dps,,,2690,juggBurst
 Perfect Form Greaves,dps,,,2751,juggBurst
 Perfect Form Headgear,dps,,,2812,juggBurst
 Perfect Form Armguards,dps,,,2446,juggSust
 Perfect Form Belt,dps,,,2507,juggSust
 Perfect Form Boots,dps,,,2568,juggSust
-Perfect Form Chestpiece,dps,,,2629,juggSust
+Perfect Form Chestguard,dps,,,2629,juggSust
 Perfect Form Gauntlets,dps,,,2690,juggSust
 Perfect Form Greaves,dps,,,2751,juggSust
 Perfect Form Headgear,dps,,,2812,juggSust
-Endless Offensive Armguards,dps,,,2458,sorcSust
+Endless Offensive Cuffs,dps,,,2458,sorcSust
 Endless Offensive Belt,dps,,,2519,sorcSust
 Endless Offensive Boots,dps,,,2580,sorcSust
-Endless Offensive Chestpiece,dps,,,2641,sorcSust
-Endless Offensive Gauntlets,dps,,,2702,sorcSust
-Endless Offensive Greaves,dps,,,2763,sorcSust
+Endless Offensive Robe,dps,,,2641,sorcSust
+Endless Offensive Gloves,dps,,,2702,sorcSust
+Endless Offensive Lower Robe,dps,,,2763,sorcSust
 Endless Offensive Headgear,dps,,,2824,sorcSust
-Gathering Storm Armguards,dps,,,2459,sorcSust
-Gathering Storm Belt,dps,,,2520,sorcSust
-Gathering Storm Boots,dps,,,2581,sorcSust
-Gathering Storm Chestpiece,dps,,,2642,sorcSust
-Gathering Storm Gauntlets,dps,,,2703,sorcSust
-Gathering Storm Greaves,dps,,,2764,sorcSust
-Gathering Storm Headgear,dps,,,2825,sorcSust
-Death Knell Armguards,dps,,,2461,sinSust
+Cuffs of the Gathering Storm,dps,,,2459,sorcSust
+Belt of the Gathering Storm,dps,,,2520,sorcSust
+Boots of the Gathering Storm,dps,,,2581,sorcSust
+Robe of the Gathering Storm,dps,,,2642,sorcSust
+Gloves of the Gathering Storm,dps,,,2703,sorcSust
+Lower Robe of the Gathering Storm,dps,,,2764,sorcSust
+Headgear of the Gathering Storm,dps,,,2825,sorcSust
+Death Knell Cuffs,dps,,,2461,sinSust
 Death Knell Belt,dps,,,2522,sinSust
 Death Knell Boots,dps,,,2583,sinSust
-Death Knell Chestpiece,dps,,,2644,sinSust
-Death Knell Gauntlets,dps,,,2705,sinSust
-Death Knell Greaves,dps,,,2766,sinSust
+Death Knell Robe,dps,,,2644,sinSust
+Death Knell Glove,dps,,,2705,sinSust
+Death Knell Lower Robe,dps,,,2766,sinSust
 Death Knell Headgear,dps,,,2827,sinSust
-Murderous Revelation Armguards,dps,,,2463,sinSust
-Murderous Revelation Belt,dps,,,2524,sinSust
-Murderous Revelation Boots,dps,,,2585,sinSust
-Murderous Revelation Chestpiece,dps,,,2646,sinSust
-Murderous Revelation Gauntlets,dps,,,2707,sinSust
-Murderous Revelation Greaves,dps,,,2768,sinSust
-Murderous Revelation Headgear,dps,,,2829,sinSust
-Saber Master's Armguards,dps,,,2465,sinSust
+Cuffs of Murderous Revelation,dps,,,2463,sinSust
+Belt of Murderous Revelation,dps,,,2524,sinSust
+Boots of Murderous Revelation,dps,,,2585,sinSust
+Robes of Murderous Revelation,dps,,,2646,sinSust
+Gloves of Murderous Revelation,dps,,,2707,sinSust
+Lower Robe of Murderous Revelation,dps,,,2768,sinSust
+Headgear of Murderous Revelation,dps,,,2829,sinSust
+Saber Master's Cuffs,dps,,,2465,sinSust
 Saber Master's Belt,dps,,,2526,sinSust
 Saber Master's Boots,dps,,,2587,sinSust
-Saber Master's Chestpiece,dps,,,2648,sinSust
-Saber Master's Gauntlets,dps,,,2709,sinSust
-Saber Master's Greaves,dps,,,2770,sinSust
+Saber Master's Robes,dps,,,2648,sinSust
+Saber Master's Gloves,dps,,,2709,sinSust
+Saber Master's Lower Robe,dps,,,2770,sinSust
 Saber Master's Headgear,dps,,,2831,sinSust
-Notorious Armguards,dps,,,2473,mercSust
+Notorious Vambraces,dps,,,2473,mercSust
 Notorious Belt,dps,,,2534,mercSust
 Notorious Boots,dps,,,2595,mercSust
-Notorious Chestpiece,dps,,,2656,mercSust
+Notorious Body Armor,dps,,,2656,mercSust
 Notorious Gauntlets,dps,,,2717,mercSust
-Notorious Greaves,dps,,,2778,mercSust
-Notorious Headgear,dps,,,2839,mercSust
-Veteran Ranger's Armguards,dps,,,2478,ptSust
+Notorious Legplates,dps,,,2778,mercSust
+Notorious Helmet,dps,,,2839,mercSust
+Veteran Ranger's Vambraces,dps,,,2478,ptSust
 Veteran Ranger's Belt,dps,,,2539,ptSust
 Veteran Ranger's Boots,dps,,,2600,ptSust
-Veteran Ranger's Chestpiece,dps,,,2661,ptSust
+Veteran Ranger's Body Armor,dps,,,2661,ptSust
 Veteran Ranger's Gauntlets,dps,,,2722,ptSust
-Veteran Ranger's Greaves,dps,,,2783,ptSust
-Veteran Ranger's Headgear,dps,,,2844,ptSust
-The Slow Road Armguards,dps,,,2482,opBurst
+Veteran Ranger's Legplates,dps,,,2783,ptSust
+Veteran Ranger's Helmet,dps,,,2844,ptSust
+The Slow Road Bracers,dps,,,2482,opBurst
 The Slow Road Belt,dps,,,2543,opBurst
 The Slow Road Boots,dps,,,2604,opBurst
-The Slow Road Chestpiece,dps,,,2665,opBurst
-The Slow Road Gauntlets,dps,,,2726,opBurst
-The Slow Road Greaves,dps,,,2787,opBurst
+The Slow Road Jacket,dps,,,2665,opBurst
+The Slow Road Gloves,dps,,,2726,opBurst
+The Slow Road Leggings,dps,,,2787,opBurst
 The Slow Road Headgear,dps,,,2848,opBurst
-The Slow Road Armguards,dps,,,2482,opSust
+The Slow Road Bracers,dps,,,2482,opSust
 The Slow Road Belt,dps,,,2543,opSust
 The Slow Road Boots,dps,,,2604,opSust
-The Slow Road Chestpiece,dps,,,2665,opSust
-The Slow Road Gauntlets,dps,,,2726,opSust
-The Slow Road Greaves,dps,,,2787,opSust
+The Slow Road Jacket,dps,,,2665,opSust
+The Slow Road Gloves,dps,,,2726,opSust
+The Slow Road Leggings,dps,,,2787,opSust
 The Slow Road Headgear,dps,,,2848,opSust
-Authority Armguards,dps,,,2484,opSust
-Authority Belt,dps,,,2545,opSust
-Authority Boots,dps,,,2606,opSust
-Authority Chestpiece,dps,,,2667,opSust
-Authority Gauntlets,dps,,,2728,opSust
-Authority Greaves,dps,,,2789,opSust
-Authority Headgear,dps,,,2850,opSust
+Bracers of Authority,dps,,,2484,opSust
+Belt of Authority,dps,,,2545,opSust
+Boots of Authority,dps,,,2606,opSust
+Jacket of Authority,dps,,,2667,opSust
+Gloves of Authority,dps,,,2728,opSust
+Leggings of Authority,dps,,,2789,opSust
+Headgear of Authority,dps,,,2850,opSust
 Avenger's Armguards,tank,,,2492,allSin
 Avenger's Belt,tank,,,2553,allSin
 Avenger's Boots,tank,,,2614,allSin
-Avenger's Chestpiece,tank,,,2675,allSin
+Avenger's Chestguard,tank,,,2675,allSin
 Avenger's Gauntlets,tank,,,2736,allSin
 Avenger's Greaves,tank,,,2797,allSin
 Avenger's Headgear,tank,,,2858,allSin
 Avenger's Armguards,tank,,,2492,allPt
 Avenger's Belt,tank,,,2553,allPt
 Avenger's Boots,tank,,,2614,allPt
-Avenger's Chestpiece,tank,,,2675,allPt
+Avenger's Chestguard,tank,,,2675,allPt
 Avenger's Gauntlets,tank,,,2736,allPt
 Avenger's Greaves,tank,,,2797,allPt
 Avenger's Headgear,tank,,,2858,allPt
 The Victor's Armguards,tank,,,2502,allDps
 The Victor's Belt,tank,,,2563,allDps
 The Victor's Boots,tank,,,2624,allDps
-The Victor's Chestpiece,tank,,,2685,allDps
+The Victor's Chestguard,tank,,,2685,allDps
 The Victor's Gauntlets,tank,,,2746,allDps
 The Victor's Greaves,tank,,,2807,allDps
 The Victor's Headgear,tank,,,2868,allDps
 The Victor's Armguards,tank,,,2502,allHealer
 The Victor's Belt,tank,,,2563,allHealer
 The Victor's Boots,tank,,,2624,allHealer
-The Victor's Chestpiece,tank,,,2685,allHealer
+The Victor's Chestguard,tank,,,2685,allHealer
 The Victor's Gauntlets,tank,,,2746,allHealer
 The Victor's Greaves,tank,,,2807,allHealer
 The Victor's Headgear,tank,,,2868,allHealer
