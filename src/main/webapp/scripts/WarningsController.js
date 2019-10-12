@@ -469,7 +469,7 @@ let WarningsController = (function()
             switch(mainhand.type)
             {
                 case 'cannon':
-                    if(cls !== 'pt' || faction !== 'pub')
+                    if(cls !== 'merc' || faction !== 'pub')
                     {
                         this.addWarning(wrongClassWarning);
                     }
@@ -484,7 +484,7 @@ let WarningsController = (function()
                     }
                     else
                     {
-                        if(cls !== 'sniper')
+                        if(['sniper', 'op'].indexOf(cls) === -1)
                         {
                             this.addWarning(wrongClassWarning);
                         }

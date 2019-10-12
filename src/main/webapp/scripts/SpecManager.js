@@ -229,7 +229,21 @@ let SpecManager = (function()
         {
             return true;
         }
+        if(this.getMirrorSpec(spec).indexOf(cls) === 0)
+        {
+            return true;
+        }
         return false;
+    };
+    SpecManager.prototype.getMirrorSpec = function(spec)
+    {
+        if(!spec)
+        {
+            return null;
+        }
+        let cls = spec.replace(/(Tank)|(Healer)|(Burst)|(Sust)|(Hybrid)/, '');
+        let mirrorClass = this.classMirrors[cls];
+        return spec.replace(cls, mirrorClass);
     };
     return new SpecManager();
 })();
