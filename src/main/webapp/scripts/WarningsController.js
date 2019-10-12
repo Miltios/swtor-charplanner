@@ -181,7 +181,7 @@ let WarningsController = (function()
                     id:'highDefense',
                     title:'High defense',
                     severity:'low',
-                    text:'Your defense is above the recommended level for raiding.  Extra defense still helps, but it gives diminishing returns; you may want to spend this on other stats instead.'
+                    text:'Your defense is above the recommended level for raiding.  Extra defense still helps, but it gives diminishing returns; you may want to spend this on other stats instead.  Check the <a href="faq.html">FAQ page</a> for more details.'
                 });
             }
             else if(defense < 2100)
