@@ -553,7 +553,12 @@ body.faction-mode-pub .faction-imp
     cursor:pointer;
     box-shadow:0 0 2px;
 }
-#augPicker button:hover
+#augPicker button:disabled
+{
+    cursor:default;
+    color:#96D6F188;
+}
+#augPicker button:hover:not(:disabled)
 {
     border-color:#429FC2;
 }

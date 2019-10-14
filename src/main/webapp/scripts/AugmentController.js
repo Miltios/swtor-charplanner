@@ -7,11 +7,13 @@ let AugmentController = (function()
 
         this.cbt;
         this.cab;
+        this.sab;
     }
     AugmentController.prototype.init = function()
     {
         this.cbt = document.getElementById('charBodyTable');
         this.cab = document.getElementById('copyAugButton');
+        this.sab = document.getElementById('saveAugButton');
     };
     AugmentController.prototype.toggleCopyMode = function()
     {
@@ -20,6 +22,7 @@ let AugmentController = (function()
             this.copyMode = false;
             this.cbt.classList.remove('augment-copy-mode');
             this.cab.innerHTML = 'Clone';
+            this.sab.disabled = false;
             this.augToCopy = null;
             HelpController.display('augPicker');
         }
@@ -28,6 +31,7 @@ let AugmentController = (function()
             this.copyMode = true;
             this.cbt.classList.add('augment-copy-mode');
             this.cab.innerHTML = 'Done';
+            this.sab.disabled = true;
             this.augToCopy = SlotManager.getCurrentSlot().getAugment();
             HelpController.display('augClone');
         }
