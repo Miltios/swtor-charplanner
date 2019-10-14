@@ -685,7 +685,6 @@
         </div>
         <div id="helpDiv">
             <div id="helpDivContent">
-                Welcome to the SWTOR charplanner!  Set your class and other info in the top left menu, and then click a gear slot to get started.
             </div>
         </div>
     </div>

@@ -8,6 +8,7 @@ let HelpController = (function()
     {
         this.content = document.getElementById('helpDivContent');
         this.lastMsgType = 'welcome';
+        this.display('welcome', false);
 
         this.addHoverTip(document.getElementById('calcStatAlacrity'), 'alacTiers');
     };
@@ -18,7 +19,8 @@ let HelpController = (function()
         {
             case 'welcome':
             {
-                msg = 'Welcome to the SWTOR charplanner!  Set your class and other info in the top left menu, and then click a gear slot to get started.';
+                msg = 'Welcome to the SWTOR charplanner!  Set your class and other info in the top left menu, and then click a gear slot to get started.<br/><br/>' +
+                        'By default, the site assumes that you have all datacrons, companions, and class buffs, including the newly-released Onderon and Mek-Sha datacrons.  You can change all of these settings to more closely match your situation.'; //TODO: remove the "newly-released" part a while after 6.0
                 break;
             }
             case 'itemPicker':
@@ -32,7 +34,7 @@ let HelpController = (function()
             case 'itemSelected':
             {
                 msg = 'Now that you\'ve selected an item, your stats have updated automatically.  ' +
-                    'If the item is moddable, you can also click the individual mods to swap them out.<br /><br />' +
+                    'If the item is moddable, you can also click the individual mods to swap them out.  You can also edit stat values for a mod if it doesn\'t quite match what you have in-game.<br /><br />' +
                     'Click the "clear slot" button if you wish to remove this item.';
                 break;
             }
@@ -56,8 +58,7 @@ let HelpController = (function()
             {
                 msg = 'To add an augment to this gear slot, just choose the type and rating, and then click Add.  ' +
                     'Then you can use the Clone button to copy the same augment to as many other slots as you want.<br/><br/>' +
-                    'Unlike in game, augments are not actually tied to gear items, and you can even add augments to empty gear slots.  ' +
-                    'This makes it easier to fine-tune your stats without extra clicking.';
+                    'To make it easier to fine-tune your stats without extra clicking, augments are not actually tied to gear items, and you can even add augments to empty gear slots.';
                 break;
             }
             case 'augClone':
