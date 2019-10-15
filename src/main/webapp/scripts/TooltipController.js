@@ -201,7 +201,15 @@ let TooltipController = (function()
             }
         }
         this.tis.innerHTML = statsHTML;
-        this.tid.innerHTML = item.description?item.description:'';
+        let setId = item.setId;
+        if(setId)
+        {
+            this.tid.innerHTML = SetManager.getDescriptionForSet(setId);
+        }
+        else
+        {
+            this.tid.innerHTML = item.description?item.description:'';
+        }
 
         return true;
     }
