@@ -210,10 +210,7 @@ let PickerController = (function()
         {
             if(slots.hasOwnProperty(i))
             {
-                if(item === null)
-                {
-                    slots[i].setItem(null);
-                }
+                slots[i].setItem(null);
                 slots[i].updateAppearance();
             }
         }
