@@ -55,6 +55,7 @@ let ItemManager = (function()
     {
         let items = list.slice(); //shallow copy
         items = items.filter(i => (i.slot === slotName));
+        this.adjustListForCurrentRole(items);
         return items;
     };
     ItemManager.prototype.filterListForSpecAndSlot = function(spec, slotName, list)
@@ -86,11 +87,13 @@ let ItemManager = (function()
             }
         }
         let specClass = 'all' + Utilities.capitalizeFirstLetter(Settings.getClass());
-        return items.filter(i => ((i.specs.indexOf(spec) !== -1)
+        items = items.filter(i => ((i.specs.indexOf(spec) !== -1)
             || (i.specs.indexOf('all') !== -1)
             || (i.specs.indexOf('all') !== -1)
             || (i.specs.indexOf(specRole) !== -1)
             || (i.specs.indexOf(specClass) !== -1)));
+        this.adjustListForCurrentRole(items);
+        return items;
     };
     ItemManager.prototype.filterListForClassAndSlot = function(className, slotName, list)
     {
@@ -157,8 +160,10 @@ let ItemManager = (function()
                 specs = ['maraSust', 'maraBurst', 'maraHybrid', 'allDps'];
                 break;
         }
-        return items.filter(i => (Utilities.arrayMatch(specs, i.specs)
+        items = items.filter(i => (Utilities.arrayMatch(specs, i.specs)
             || (i.specs.indexOf('all') !== -1)));
+        this.adjustListForCurrentRole(items);
+        return items;
     };
     ItemManager.prototype.getItemsForSlot = function(slotName)
     {
@@ -372,12 +377,13 @@ let ItemManager = (function()
             let clone = this.getClone(item);
             clone.color = ratings[i].color;
             clone.rating = ratings[i].rating;
-            clone.itemMods = this.getEquivalentMods(item, ratings[i].rating);
+            clone.itemMods = this.getEquivalentModsForRating(item, ratings[i].rating);
+            clone.variableMods = true; //indicate that this item should have whatever mods are appropriate to the given role.  Mods will be swapped when filtering item lists.
             clones.push(clone);
         }
         return clones;
     };
-    ItemManager.prototype.getEquivalentMods = function(item, rating)
+    ItemManager.prototype.getEquivalentModsForRating = function(item, rating)
     {
         let newMods = [];
         if(item === null || !Array.isArray(item.itemMods))
@@ -402,6 +408,147 @@ let ItemManager = (function()
                 {
                     console.error('Unable to find equivalent mod for "' + name + '" at item rating ' + rating + '!');
                 }
+            }
+        }
+        return newMods;
+    };
+    ItemManager.prototype.adjustListForCurrentRole = function(list)
+    {
+        let role = SpecManager.getRoleFromSpec(Settings.getSpec());
+        for(let i=0; i<list.length; i++)
+        {
+            if(list[i].variableMods)
+            {
+                list[i].itemMods = this.getEquivalentModsForRole(list[i], role);
+            }
+        }
+    };
+    ItemManager.prototype.getEquivalentModsForRole = function(item, role)
+    {
+        let newMods = [];
+        if(item === null || !Array.isArray(item.itemMods))
+        {
+            console.error('Cannot get equivalent mods for invalid item!');
+            return newMods;
+        }
+        for(let i=0; i<item.itemMods.length; i++)
+        {
+            let mod = this.getItemModById(item.itemMods[i]);
+            let name = mod.name;
+            let rating = mod.rating;
+            if(['armoring','hilt','barrel','dynamic'].indexOf(mod.slot) !== -1)
+            {
+                if(role === 'tank')
+                {
+                    name = name.replace('Versatile', 'Resistive');
+                }
+                else
+                {
+                    name = name.replace('Resistive', 'Versatile');
+                }
+            }
+            else if(mod.slot === 'mod')
+            {
+                if(role === 'tank')
+                {
+                    name = name.replace('Lethal', 'Warding');
+                }
+                else
+                {
+                    name = name.replace('Warding', 'Lethal');
+                }
+            }
+            else if(mod.slot === 'crystal')
+            {
+                //we shouldn't ever be running this on items that have crystals, but if we do, just respect whatever's in there already
+            }
+            else if(mod.slot === 'enhancement')
+            {
+                let alacName = rating >= 268 ? 'Nimble':'Quick Savant';
+                switch(item.slot)
+                {
+                    case 'head':
+                        if(role === 'tank')
+                        {
+                            name = name.replace(alacName, 'Immunity');
+                        }
+                        else
+                        {
+                            name = name.replace('Immunity', alacName);
+                        }
+                        break;
+                    case 'chest':
+                        if(role === 'tank')
+                        {
+                            name = name.replace(/(Quick Savant)|(Nimble)|(Adept)/, 'Immunity');
+                        }
+                        else if(role === 'healer')
+                        {
+                            name = name.replace(/(Immunity)|(Adept)/, alacName);
+                        }
+                        else
+                        {
+                            name = name.replace(/(Quick Savant)|(Nimble)|(Immunity)/, 'Adept');
+                        }
+                        break;
+                    case 'hands':
+                        if(role === 'tank')
+                        {
+                            name = name.replace(/(Initiative)|(Adept)/, 'Sturdiness');
+                        }
+                        else if(role === 'healer')
+                        {
+                            name = name.replace(/(Sturdiness)|(Initiative)/, 'Adept');
+                        }
+                        else
+                        {
+                            name = name.replace(/(Adept)|(Sturdiness)/, 'Initiative');
+                        }
+                        break;
+                    case 'waist':
+                        //no enhancements in belt or wrists
+                        break;
+                    case 'legs':
+                        if(role === 'tank')
+                        {
+                            name = name.replace('Adept', 'Sturdiness');
+                        }
+                        else
+                        {
+                            name = name.replace('Sturdiness', 'Adept');
+                        }
+                        break;
+                    case 'feet':
+                        if(role === 'tank')
+                        {
+                            name = name.replace(/(Initiative)|(Adept)/, 'Sturdiness');
+                        }
+                        else if(role === 'healer')
+                        {
+                            name = name.replace(/(Sturdiness)|(Initiative)/, 'Adept');
+                        }
+                        else
+                        {
+                            name = name.replace(/(Adept)|(Sturdiness)/, 'Initiative');
+                        }
+                        break;
+                    case 'wrists':
+                        //no enhancements in belt or wrists
+                        break;
+                    default:
+                        //do nothing for mainhand/offhand, as these are already designed for a specific role
+                        //left-side slots are unmoddable and will never get here
+                        break;
+                }
+            }
+            try
+            {
+                let newMod = this.itemMods.filter(m => m.name.indexOf(name)!==-1 && m.rating === rating)[0];
+                newMods.push(newMod.id);
+            }
+            catch(e)
+            {
+                console.error('Unable to find equivalent mod for "' + name + '" with role ' + role + '!');
             }
         }
         return newMods;
