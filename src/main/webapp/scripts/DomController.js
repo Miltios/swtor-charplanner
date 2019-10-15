@@ -174,6 +174,7 @@ let DomController = (function()
                 break;
             case 'autofillGear':
                 AutofillController.populateRightSide();
+                HelpController.display('autofill');
                 break;
             case 'deleteItem':
             {

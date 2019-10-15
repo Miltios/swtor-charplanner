@@ -11,6 +11,7 @@ let HelpController = (function()
         this.display('welcome', false);
 
         this.addHoverTip(document.getElementById('calcStatAlacrity'), 'alacTiers');
+        this.addHoverTip(document.getElementById('autofillGearButton'), 'autofill');
     };
     HelpController.prototype.display = function(msgType, isTransient)
     {
@@ -65,6 +66,13 @@ let HelpController = (function()
             {
                 msg = 'You are now in Augment Clone mode.  Click any augment slot to copy the displayed augment there.  ' +
                     'When you\'re finished, just click the Done button (where Clone used to be)';
+                break;
+            }
+            case 'autofill':
+            {
+                msg = 'The autofill button will automatically choose armor and weapons appropriate to your current spec, using the maximum item rating configured in the bottom left.  ' +
+                        'It will not autofill "left-side" gear (relics, implants, and earpiece).<br/><br/>' +
+                        'You can still make changes after autofilling; it\'s just a convenience function to save time in getting started.'
                 break;
             }
         }
