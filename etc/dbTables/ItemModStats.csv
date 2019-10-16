@@ -13,8 +13,8 @@ Versatile Armoring 52,11,armoring,,,mastery,210,234,blue,210
 Versatile Armoring 52,11,armoring,,,endurance,180,234,blue,180
 Versatile Armoring 55,19,armoring,,,mastery,226,240,blue,226
 Versatile Armoring 55,19,armoring,,,endurance,193,240,blue,193
-Versatile Armoring 57,27,armoring,,,mastery,203,246,blue,242
-Versatile Armoring 57,27,armoring,,,endurance,237,246,blue,208
+Versatile Armoring 57,27,armoring,,,mastery,237,246,blue,242
+Versatile Armoring 57,27,armoring,,,endurance,203,246,blue,208
 Resistive Armoring 46,14,armoring,,,endurance,210,236,gold,210
 Resistive Armoring 46,14,armoring,,,mastery,200,236,gold,200
 Resistive Armoring 49,22,armoring,,,endurance,226,242,gold,226
@@ -41,8 +41,8 @@ Versatile Armoring 56,9,armoring,,,mastery,205,232,green,205
 Versatile Armoring 56,9,armoring,,,endurance,175,232,green,175
 Versatile Armoring 59,17,armoring,,,mastery,221,238,green,221
 Versatile Armoring 59,17,armoring,,,endurance,189,238,green,189
-Versatile Armoring 62,25,armoring,,,mastery,244,244,green,244
-Versatile Armoring 62,25,armoring,,,endurance,237,244,green,237
+Versatile Armoring 62,25,armoring,,,mastery,237,244,green,244
+Versatile Armoring 62,25,armoring,,,endurance,203,244,green,237
 Advanced Resistive Armoring 46,6,armoring,,,endurance,191,230,purple,191
 Advanced Resistive Armoring 46,6,armoring,,,mastery,181,230,purple,181
 Advanced Resistive Armoring 48,12,armoring,,,endurance,200,234,purple,200
@@ -140,15 +140,15 @@ Proficient Enhancement 55,249,enhancement,,,power,96,240,blue,96
 Proficient Enhancement 57,250,enhancement,,,endurance,178,246,blue,183
 Proficient Enhancement 57,250,enhancement,,,accuracy,215,246,blue,220
 Proficient Enhancement 57,250,enhancement,,,power,102,246,blue,104
-Nimble Enhancement 50,251,enhancement,,,endurance,113,230,blue,113
-Nimble Enhancement 50,251,enhancement,,,power,126,230,blue,126
-Nimble Enhancement 50,251,enhancement,,,alacrity,181,230,blue,181
-Nimble Enhancement 55,253,enhancement,,,endurance,129,240,blue,129
-Nimble Enhancement 55,253,enhancement,,,power,143,240,blue,143
-Nimble Enhancement 55,253,enhancement,,,alacrity,205,240,blue,205
-Nimble Enhancement 57,254,enhancement,,,endurance,136,246,blue,139
-Nimble Enhancement 57,254,enhancement,,,power,151,246,blue,154
-Nimble Enhancement 57,254,enhancement,,,alacrity,215,246,blue,220
+Quick Savant Enhancement 50,251,enhancement,,,endurance,113,230,blue,113
+Quick Savant Enhancement 50,251,enhancement,,,power,126,230,blue,126
+Quick Savant Enhancement 50,251,enhancement,,,alacrity,181,230,blue,181
+Quick Savant Enhancement 55,253,enhancement,,,endurance,129,240,blue,129
+Quick Savant Enhancement 55,253,enhancement,,,power,143,240,blue,143
+Quick Savant Enhancement 55,253,enhancement,,,alacrity,205,240,blue,205
+Quick Savant Enhancement 57,254,enhancement,,,endurance,136,246,blue,139
+Quick Savant Enhancement 57,254,enhancement,,,power,151,246,blue,154
+Quick Savant Enhancement 57,254,enhancement,,,alacrity,215,246,blue,220
 Savant Enhancement 50,255,enhancement,,,endurance,150,230,blue,150
 Savant Enhancement 50,255,enhancement,,,power,84,230,blue,84
 Savant Enhancement 50,255,enhancement,,,alacrity,181,230,blue,181
@@ -275,15 +275,15 @@ Proficient Enhancement 49,135,enhancement,,,power,102,242,gold,102
 Proficient Enhancement 52,136,enhancement,,,endurance,192,248,gold,192
 Proficient Enhancement 52,136,enhancement,,,accuracy,231,248,gold,231
 Proficient Enhancement 52,136,enhancement,,,power,110,248,gold,110
-Nimble Enhancement 46,137,enhancement,,,endurance,125,236,gold,125
-Nimble Enhancement 46,137,enhancement,,,power,140,236,gold,140
-Nimble Enhancement 46,137,enhancement,,,alacrity,200,236,gold,200
-Nimble Enhancement 49,138,enhancement,,,endurance,136,242,gold,136
-Nimble Enhancement 49,138,enhancement,,,power,151,242,gold,151
-Nimble Enhancement 49,138,enhancement,,,alacrity,215,242,gold,215
-Nimble Enhancement 52,139,enhancement,,,endurance,146,248,gold,146
-Nimble Enhancement 52,139,enhancement,,,power,162,248,gold,162
-Nimble Enhancement 52,139,enhancement,,,alacrity,231,248,gold,231
+Quick Savant Enhancement 46,137,enhancement,,,endurance,125,236,gold,125
+Quick Savant Enhancement 46,137,enhancement,,,power,140,236,gold,140
+Quick Savant Enhancement 46,137,enhancement,,,alacrity,200,236,gold,200
+Quick Savant Enhancement 49,138,enhancement,,,endurance,136,242,gold,136
+Quick Savant Enhancement 49,138,enhancement,,,power,151,242,gold,151
+Quick Savant Enhancement 49,138,enhancement,,,alacrity,215,242,gold,215
+Quick Savant Enhancement 52,139,enhancement,,,endurance,146,248,gold,146
+Quick Savant Enhancement 52,139,enhancement,,,power,162,248,gold,162
+Quick Savant Enhancement 52,139,enhancement,,,alacrity,231,248,gold,231
 Savant Enhancement 46,140,enhancement,,,endurance,165,236,gold,165
 Savant Enhancement 46,140,enhancement,,,power,94,236,gold,94
 Savant Enhancement 46,140,enhancement,,,alacrity,200,236,gold,200
@@ -410,15 +410,15 @@ Proficient Enhancement 59,300,enhancement,,,power,94,238,green,94
 Proficient Enhancement 62,301,enhancement,,,endurance,178,244,green,178
 Proficient Enhancement 62,301,enhancement,,,accuracy,215,244,green,215
 Proficient Enhancement 62,301,enhancement,,,power,102,244,green,102
-Nimble Enhancement 56,302,enhancement,,,endurance,116,232,green,116
-Nimble Enhancement 56,302,enhancement,,,power,129,232,green,129
-Nimble Enhancement 56,302,enhancement,,,alacrity,186,232,green,186
-Nimble Enhancement 59,303,enhancement,,,endurance,125,238,green,125
-Nimble Enhancement 59,303,enhancement,,,power,140,238,green,140
-Nimble Enhancement 59,303,enhancement,,,alacrity,200,238,green,200
-Nimble Enhancement 62,304,enhancement,,,endurance,136,244,green,136
-Nimble Enhancement 62,304,enhancement,,,power,151,244,green,151
-Nimble Enhancement 62,304,enhancement,,,alacrity,215,244,green,215
+Quick Savant Enhancement 56,302,enhancement,,,endurance,116,232,green,116
+Quick Savant Enhancement 56,302,enhancement,,,power,129,232,green,129
+Quick Savant Enhancement 56,302,enhancement,,,alacrity,186,232,green,186
+Quick Savant Enhancement 59,303,enhancement,,,endurance,125,238,green,125
+Quick Savant Enhancement 59,303,enhancement,,,power,140,238,green,140
+Quick Savant Enhancement 59,303,enhancement,,,alacrity,200,238,green,200
+Quick Savant Enhancement 62,304,enhancement,,,endurance,136,244,green,136
+Quick Savant Enhancement 62,304,enhancement,,,power,151,244,green,151
+Quick Savant Enhancement 62,304,enhancement,,,alacrity,215,244,green,215
 Savant Enhancement 56,305,enhancement,,,endurance,153,232,green,153
 Savant Enhancement 56,305,enhancement,,,power,86,232,green,86
 Savant Enhancement 56,305,enhancement,,,alacrity,186,232,green,186
@@ -491,9 +491,9 @@ Initiative Enhancement 54,391,enhancement,,,power,123,228,green,123
 Proficient Enhancement 54,392,enhancement,,,endurance,146,228,green,146
 Proficient Enhancement 54,392,enhancement,,,accuracy,177,228,green,177
 Proficient Enhancement 54,392,enhancement,,,power,82,228,green,82
-Nimble Enhancement 54,393,enhancement,,,endurance,110,228,green,110
-Nimble Enhancement 54,393,enhancement,,,power,123,228,green,123
-Nimble Enhancement 54,393,enhancement,,,alacrity,177,228,green,177
+Quick Savant Enhancement 54,393,enhancement,,,endurance,110,228,green,110
+Quick Savant Enhancement 54,393,enhancement,,,power,123,228,green,123
+Quick Savant Enhancement 54,393,enhancement,,,alacrity,177,228,green,177
 Savant Enhancement 54,394,enhancement,,,endurance,110,228,green,110
 Savant Enhancement 54,394,enhancement,,,power,123,228,green,123
 Savant Enhancement 54,394,enhancement,,,alacrity,177,228,green,177
@@ -617,18 +617,18 @@ Advanced Proficient Enhancement 51,189,enhancement,,,power,96,240,purple,96
 Advanced Proficient Enhancement 54,190,enhancement,,,endurance,183,246,purple,183
 Advanced Proficient Enhancement 54,190,enhancement,,,accuracy,220,246,purple,220
 Advanced Proficient Enhancement 54,190,enhancement,,,power,104,246,purple,104
-Advanced Nimble Enhancement 46,191,enhancement,,,endurance,113,230,purple,113
-Advanced Nimble Enhancement 46,191,enhancement,,,power,126,230,purple,126
-Advanced Nimble Enhancement 46,191,enhancement,,,alacrity,181,230,purple,181
-Advanced Nimble Enhancement 48,192,enhancement,,,endurance,119,234,purple,119
-Advanced Nimble Enhancement 48,192,enhancement,,,power,132,234,purple,132
-Advanced Nimble Enhancement 48,192,enhancement,,,alacrity,190,234,purple,190
-Advanced Nimble Enhancement 51,193,enhancement,,,endurance,129,240,purple,129
-Advanced Nimble Enhancement 51,193,enhancement,,,power,143,240,purple,143
-Advanced Nimble Enhancement 51,193,enhancement,,,alacrity,205,240,purple,205
-Advanced Nimble Enhancement 54,194,enhancement,,,endurance,139,246,purple,139
-Advanced Nimble Enhancement 54,194,enhancement,,,power,154,246,purple,154
-Advanced Nimble Enhancement 54,194,enhancement,,,alacrity,220,246,purple,220
+Advanced Quick Savant Enhancement 46,191,enhancement,,,endurance,113,230,purple,113
+Advanced Quick Savant Enhancement 46,191,enhancement,,,power,126,230,purple,126
+Advanced Quick Savant Enhancement 46,191,enhancement,,,alacrity,181,230,purple,181
+Advanced Quick Savant Enhancement 48,192,enhancement,,,endurance,119,234,purple,119
+Advanced Quick Savant Enhancement 48,192,enhancement,,,power,132,234,purple,132
+Advanced Quick Savant Enhancement 48,192,enhancement,,,alacrity,190,234,purple,190
+Advanced Quick Savant Enhancement 51,193,enhancement,,,endurance,129,240,purple,129
+Advanced Quick Savant Enhancement 51,193,enhancement,,,power,143,240,purple,143
+Advanced Quick Savant Enhancement 51,193,enhancement,,,alacrity,205,240,purple,205
+Advanced Quick Savant Enhancement 54,194,enhancement,,,endurance,139,246,purple,139
+Advanced Quick Savant Enhancement 54,194,enhancement,,,power,154,246,purple,154
+Advanced Quick Savant Enhancement 54,194,enhancement,,,alacrity,220,246,purple,220
 Advanced Savant Enhancement 46,195,enhancement,,,endurance,150,230,purple,150
 Advanced Savant Enhancement 46,195,enhancement,,,power,84,230,purple,84
 Advanced Savant Enhancement 46,195,enhancement,,,alacrity,181,230,purple,181
@@ -1066,9 +1066,9 @@ Initiative Enhancement 52,244,enhancement,,,power,132,234,blue,
 Proficient Enhancement 52,248,enhancement,,,endurance,157,234,blue,
 Proficient Enhancement 52,248,enhancement,,,accuracy,190,234,blue,
 Proficient Enhancement 52,248,enhancement,,,power,89,234,blue,
-Nimble Enhancement 52,252,enhancement,,,endurance,119,234,blue,
-Nimble Enhancement 52,252,enhancement,,,power,132,234,blue,
-Nimble Enhancement 52,252,enhancement,,,alacrity,190,234,blue,
+Quick Savant Enhancement 52,252,enhancement,,,endurance,119,234,blue,
+Quick Savant Enhancement 52,252,enhancement,,,power,132,234,blue,
+Quick Savant Enhancement 52,252,enhancement,,,alacrity,190,234,blue,
 Resistive Barrel 57,337,barrel,,,endurance,226,244,blue,
 Resistive Barrel 57,337,barrel,,,mastery,215,244,blue,
 Resistive Hilt 57,367,hilt,,,endurance,226,244,blue,
@@ -1123,9 +1123,9 @@ Advanced Initiative Enhancement 57,410,enhancement,,,power,166,252,purple,
 Advanced Proficient Enhancement 57,411,enhancement,,,endurance,0,252,purple,
 Advanced Proficient Enhancement 57,411,enhancement,,,accuracy,0,252,purple,
 Advanced Proficient Enhancement 57,411,enhancement,,,power,0,252,purple,
-Advanced Nimble Enhancement 57,412,enhancement,,,endurance,150,252,purple,
-Advanced Nimble Enhancement 57,412,enhancement,,,power,166,252,purple,
-Advanced Nimble Enhancement 57,412,enhancement,,,alacrity,236,252,purple,
+Advanced Quick Savant Enhancement 57,412,enhancement,,,endurance,150,252,purple,
+Advanced Quick Savant Enhancement 57,412,enhancement,,,power,166,252,purple,
+Advanced Quick Savant Enhancement 57,412,enhancement,,,alacrity,236,252,purple,
 Advanced Savant Enhancement 57,413,enhancement,,,endurance,0,252,purple,
 Advanced Savant Enhancement 57,413,enhancement,,,power,0,252,purple,
 Advanced Savant Enhancement 57,413,enhancement,,,alacrity,0,252,purple,
@@ -1186,9 +1186,9 @@ Superior Initiative Enhancement 56,433,enhancement,,,power,179,258,gold,
 Superior Proficient Enhancement 56,434,enhancement,,,endurance,0,258,gold,
 Superior Proficient Enhancement 56,434,enhancement,,,accuracy,0,258,gold,
 Superior Proficient Enhancement 56,434,enhancement,,,power,0,258,gold,
-Superior Nimble Enhancement 56,435,enhancement,,,endurance,162,258,gold,
-Superior Nimble Enhancement 56,435,enhancement,,,power,179,258,gold,
-Superior Nimble Enhancement 56,435,enhancement,,,alacrity,253,258,gold,
+Superior Quick Savant Enhancement 56,435,enhancement,,,endurance,162,258,gold,
+Superior Quick Savant Enhancement 56,435,enhancement,,,power,179,258,gold,
+Superior Quick Savant Enhancement 56,435,enhancement,,,alacrity,253,258,gold,
 Superior Savant Enhancement 56,436,enhancement,,,endurance,0,258,gold,
 Superior Savant Enhancement 56,436,enhancement,,,power,0,258,gold,
 Superior Savant Enhancement 56,436,enhancement,,,alacrity,0,258,gold,
@@ -1284,9 +1284,9 @@ Superior Versatile Barrel 80,468,barrel,,,mastery,471,306,gold,
 Superior Versatile Barrel 80,468,barrel,,,endurance,409,306,gold,
 Superior Versatile Hilt 80,466,hilt,,,mastery,471,306,gold,
 Superior Versatile Hilt 80,466,hilt,,,endurance,409,306,gold,
-Superior Nimble Enhancement 80,469,enhancement,,,endurance,431,306,gold,
-Superior Nimble Enhancement 80,469,enhancement,,,alacrity,409,306,gold,
-Superior Nimble Enhancement 80,469,enhancement,,,power,140,306,gold,
+Superior Quick Savant Enhancement 80,#N/A,enhancement,,,endurance,431,306,gold,
+Superior Quick Savant Enhancement 80,#N/A,enhancement,,,alacrity,409,306,gold,
+Superior Quick Savant Enhancement 80,#N/A,enhancement,,,power,140,306,gold,
 Adept Enhancement 75,470,enhancement,,,endurance,187,270,green,
 Adept Enhancement 75,470,enhancement,,,power,207,270,green,
 Adept Enhancement 75,470,enhancement,,,crit,290,270,green,
