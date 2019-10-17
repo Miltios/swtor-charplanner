@@ -789,6 +789,7 @@ function log(str)
     requireJs("/scripts/HelpController.js");
     requireJs("/scripts/Settings.js");
     requireJs("/scripts/Utilities.js");
+    requireJs("/scripts/Dev.js");
     requireJs("/scripts/AutofillController.js");
     requireJs("/scripts/model/Item.js");
     requireJs("/scripts/model/ItemMod.js");

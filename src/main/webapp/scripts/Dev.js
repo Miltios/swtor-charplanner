@@ -5,76 +5,51 @@ let Dev = (function()
     {
         //declare vars
     }
-    Dev.prototype.populateTankGear = function(rating)
+    Dev.prototype.resetDb = function()
     {
-        let cls = Settings.getClass();
-        if(['jugg', 'sin', 'pt'].indexOf(cls) === -1)
-        {
-            cls = 'jugg';
-        }
-        let tankSpec = cls + 'Tank';
-        if(!rating)
-        {
-            rating = 248;
-        }
-        let slots = SlotManager.getAllCharSlots();
-        let lastSlot;
-        for(let slotName in slots)
-        {
-            if(slots.hasOwnProperty(slotName))
+        let password = prompt('Please enter password');
+        fetch("request/updatedata", {
+            method:'POST',
+            body:password
+        }).then(res => res.json())
+        .then(json => {
+            if(json.success)
             {
-                let slot = slots[slotName];
-                slotName = slot.getGenericName();
-                let items = ItemManager.getItemsForSpecAndSlot(tankSpec, slotName);
-                items = items.filter(i => (i.rating === rating));
-                if(lastSlot === slotName)
+                console.log('Completed successfully.');
+                if(json.message)
                 {
-                    slot.setItem(items[1]); //so we don't get two of the same relic/implant
+                    console.log('\t' + json.message);
                 }
-                else
-                {
-                    slot.setItem(items[0]);
-                }
-                //PickerController.populateCurrentItemForSlot(slot);
-                lastSlot = slotName;
             }
-        }
-        StatController.updateCharStats();
+            else
+            {
+                console.log('Call failed!');
+                console.log('Error: ' + json.error);
+            }
+        });
     };
-    Dev.prototype.populateDpsGear = function(rating)
+    Dev.prototype.resetLimiter = function()
     {
-        let spec = Settings.getSpec();
-        if(spec.indexOf('Healer') !== -1 || spec.indexOf('Tank') !== -1)
-        {
-            spec = Settings.getClass() + 'Burst';
-        }
-        if(!rating)
-        {
-            rating = 248;
-        }
-        let slots = SlotManager.getAllCharSlots();
-        let lastSlot;
-        for(let slotName in slots)
-        {
-            if(slots.hasOwnProperty(slotName))
+        let password = prompt('Please enter password');
+        fetch("request/resetlimiter", {
+            method:'POST',
+            body:password
+        }).then(res => res.json())
+        .then(json => {
+            if(json.success)
             {
-                let slot = slots[slotName];
-                slotName = slot.getGenericName();
-                let items = ItemManager.getItemsForSpecAndSlot(spec, slotName);
-                items = items.filter(i => (i.rating === rating));
-                if(lastSlot === slotName)
+                console.log('Completed successfully.');
+                if(json.message)
                 {
-                    slot.setItem(items[1]); //so we don't get two of the same relic/implant
+                    console.log('\t' + json.message);
                 }
-                else
-                {
-                    slot.setItem(items[0]);
-                }
-                //PickerController.populateCurrentItemForSlot(slot);
-                lastSlot = slotName;
             }
-        }
-        StatController.updateCharStats();
+            else
+            {
+                console.log('Call failed!');
+                console.log('Error: ' + json.error);
+            }
+        });
     };
     return new Dev();
 })();
