@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class StartClass implements ServletContextListener //TODO:what do we actually call this?
 {
-    private static Properties properties; //TODO: is this the appropriate place for this info?
+    static Properties properties; //TODO: is this the appropriate place for this info?
     private ConnectionManager cm;
 
     @Override

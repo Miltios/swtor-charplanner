@@ -785,6 +785,7 @@ function log(str)
     requireJs("/swtor/scripts/HelpController.js");
     requireJs("/swtor/scripts/Settings.js");
     requireJs("/swtor/scripts/Utilities.js");
+    requireJs("/swtor/scripts/Dev.js");
     requireJs("/swtor/scripts/AutofillController.js");
     requireJs("/swtor/scripts/model/Item.js");
     requireJs("/swtor/scripts/model/ItemMod.js");

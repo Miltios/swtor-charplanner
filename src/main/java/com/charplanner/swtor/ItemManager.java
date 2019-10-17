@@ -23,6 +23,10 @@ public class ItemManager
         ratings = new HashMap<>();
         specBuffs = new ArrayList<>();
         setBonuses = new ArrayList<>();
+        updateData();
+    }
+    public static void updateData()
+    {
         updateItems();
         updateItemSpecs();
         updateItemStats();
