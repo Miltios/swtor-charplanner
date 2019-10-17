@@ -64,6 +64,18 @@ public class StartClass implements ServletContextListener //TODO:what do we actu
                 System.out.println("ERROR: Failed to read analyticsId from environment variable!");
                 x.printStackTrace(); //TODO:DEBUG
             }
+            try
+            {
+                properties.setProperty("maxFailures", System.getenv("maxFailures"));
+                properties.setProperty("maxAttempts", System.getenv("maxAttempts"));
+                properties.setProperty("updateCallPw", System.getenv("updateCallPw"));
+                properties.setProperty("resetCallPw", System.getenv("resetCallPw"));
+            }
+            catch(Exception x)
+            {
+                System.out.println("ERROR: Failed to read DB reset config from environment variables!");
+                x.printStackTrace(); //TODO:DEBUG
+            }
         }
     }
 
