@@ -2,6 +2,7 @@ body
 {
     min-width:1750px;
     position:relative;
+    margin:0px;
 }
 body.faction-mode-imp
 {
