@@ -1,3 +1,8 @@
+body
+{
+    min-width:1750px;
+    position:relative;
+}
 body.faction-mode-imp
 {
     background-color:#00050D;
