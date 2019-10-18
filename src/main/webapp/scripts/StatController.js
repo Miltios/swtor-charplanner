@@ -440,6 +440,10 @@ let StatController = (function()
         {
             bonusCrit += 0.01;
         }
+        if(Settings.getClassBuffs().indexOf('Crit') !== -1)
+        {
+            bonusCrit += 0.05;
+        }
         let critChance = 0.05; //base chance for all classes
         critChance += bonusCrit;
         critChance *= 100;
