@@ -148,6 +148,9 @@ body.faction-mode-pub .faction-imp
 .content-middle
 {
     z-index: 1;
+    position:relative;
+    width:700px;
+    margin:0 auto;
 }
 .content-right
 {
@@ -831,55 +834,83 @@ body.faction-mode-pub .faction-imp
 /*Scale fix for small monitors*/
 
 @media screen
+  and (max-device-width: 1200px)  {
+    .content-middle,
+    .content-left,
+    #warningsWrapper,
+    #helpDiv
+    {
+        transform:scale(0.65);
+    }
+    .content-left
+    {
+        transform-origin:top left;
+    }
+    .content-middle
+    {
+        transform-origin:top;
+    }
+    #helpDiv
+    {
+        transform-origin:top right;
+    }
+    #warningsWrapper
+    {
+        transform-origin:bottom right;
+    }
+}
+
+@media screen
+  and (min-device-width: 1201px)
   and (max-device-width: 1600px)  {
-.content-middle,
-.content-left,
-#warningsWrapper,
-#helpDiv
-{
-    transform:scale(0.73);
-}
-.content-left
-{
-    transform-origin:top left;
-}
-.content-middle
-{
-    transform-origin:top;
-}
-#helpDiv
-{
-    transform-origin:top right;
-}
-#warningsWrapper
-{
-    transform-origin:bottom right;
-}
+    .content-middle,
+    .content-left,
+    #warningsWrapper,
+    #helpDiv
+    {
+        transform:scale(0.73);
+    }
+    .content-left
+    {
+        transform-origin:top left;
+    }
+    .content-middle
+    {
+        transform-origin:top;
+    }
+    #helpDiv
+    {
+        transform-origin:top right;
+    }
+    #warningsWrapper
+    {
+        transform-origin:bottom right;
+    }
 }
 @media screen
   and (min-device-width: 1601px)
   and (max-device-width: 1750px)  {
-.content-middle,
-.content-left,
-#warningsWrapper,
-#helpDiv
-{
-    transform:scale(0.85);
-}
-.content-left
-{
-    transform-origin:top left;
-}
-.content-middle
-{
-    transform-origin:top;
-}
-#helpDiv
-{
-    transform-origin:top right;
-}
-#warningsWrapper
-{
-    transform-origin:bottom right;
-}
+    .content-middle,
+    .content-left,
+    #warningsWrapper,
+    #helpDiv
+    {
+        transform:scale(0.85);
+    }
+    .content-left
+    {
+        transform-origin:top left;
+    }
+    .content-middle
+    {
+        transform-origin:top;
+    }
+    #helpDiv
+    {
+        transform-origin:top right;
+    }
+    #warningsWrapper
+    {
+        transform-origin:bottom right;
+    }
 }
