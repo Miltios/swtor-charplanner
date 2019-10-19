@@ -1,6 +1,6 @@
 body
 {
-    min-width:1750px;
+    min-width:1200px;
     position:relative;
     margin:0px;
 }
@@ -822,4 +822,60 @@ body.faction-mode-pub .faction-imp
     visibility:hidden;
     transform:scaleX(0);
     transition:all 0.3s ease-in-out 0s;
+}
+
+/*Scale fix for small monitors*/
+
+@media screen
+  and (max-device-width: 1600px)  {
+.content-middle,
+.content-left,
+#warningsWrapper,
+#helpDiv
+{
+    transform:scale(0.73);
+}
+.content-left
+{
+    transform-origin:top left;
+}
+#content-middle
+{
+    transform-origin:top;
+}
+#helpDiv
+{
+    transform-origin:top right;
+}
+#warningsWrapper
+{
+    transform-origin:bottom right;
+}
+}
+@media screen
+  and (min-device-width: 1601px)
+  and (max-device-width: 1750px)  {
+.content-middle,
+.content-left,
+#warningsWrapper,
+#helpDiv
+{
+    transform:scale(0.85);
+}
+.content-left
+{
+    transform-origin:top left;
+}
+#content-middle
+{
+    transform-origin:top;
+}
+#helpDiv
+{
+    transform-origin:top right;
+}
+#warningsWrapper
+{
+    transform-origin:bottom right;
+}
 }
