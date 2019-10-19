@@ -2,8 +2,8 @@
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="/styles/global.css">
-    <link rel="stylesheet" type="text/css" href="/styles/gearPlanner.css">
+    <link rel="stylesheet" type="text/css" href="/styles/global.css?dc=20191019">
+    <link rel="stylesheet" type="text/css" href="/styles/gearPlanner.css?dc=20191019">
     <link rel="icon" href="/favicon.ico?">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<%=StartClass.getProperty("analyticsId")%>"></script>
