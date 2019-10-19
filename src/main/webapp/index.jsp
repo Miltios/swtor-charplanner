@@ -17,384 +17,386 @@
 
 </head>
 <body id="documentBody" class="faction-mode-imp">
-    <div id="siteNavWrapper">
-        <a class="site-nav-item" href="about.html">About</a>
-        <a class="site-nav-item" href="faq.html">FAQ</a>
-        <a class="site-nav-item" href="contact.html">Contact</a>
-    </div>
-    <div id="charBodyDiv">
-        <table id="charBodyTable">
-            <tr>
-                <td>
-                    <div id="slotEar" class="character-slot">
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_ear.png" />
-                        </a>
-                    </div>
-                </td>
-                <td colspan="2" style="vertical-align:top">
-                    <div id="charStatsWrapper">
-                    <img class="char-stats-frame" src="images/frames/frame_rawstats_top.png" />
-                        <div id="charStatsDiv">
-                            <table id="factionToggle">
-                                <tr>
-                                    <td value="pub" class="faction-select-button faction-select-button-pub" onclick="DomController.userInput(this, 'factionToggle')">
-                                        <img src="images/logo_republic_250.png" />
-                                    </td>
-                                    <td value="imp" class="faction-select-button faction-select-button-imp faction-select-button-checked" onclick="DomController.userInput(this, 'factionToggle')">
-                                        <img src="images/logo_empire_250.png" />
-                                    </td>
-                                </tr>
-                            </table>
-                            <table id="charStatsBody">
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Mastery</td>
-                                    <td class="char-stat-value" id="charStatMastery"></td>
-                                </tr>
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Endurance</td>
-                                    <td class="char-stat-value" id="charStatEndurance"></td>
-                                </tr>
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Power</td>
-                                    <td class="char-stat-value" id="charStatPower"></td>
-                                </tr>
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Critical</td>
-                                    <td class="char-stat-value" id="charStatCrit"></td>
-                                </tr>
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Alacrity</td>
-                                    <td class="char-stat-value" id="charStatAlacrity"></td>
-                                </tr>
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Accuracy</td>
-                                    <td class="char-stat-value" id="charStatAccuracy"></td>
-                                </tr>
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Defense</td>
-                                    <td class="char-stat-value" id="charStatDefense"></td>
-                                </tr>
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Absorb</td>
-                                    <td class="char-stat-value" id="charStatAbsorption"></td>
-                                </tr>
-                                <tr class="char-stat-row">
-                                    <td class="char-stat-name">Shield</td>
-                                    <td class="char-stat-value" id="charStatShield"></td>
-                                </tr>
-                                <tr class="char-stat-row" style="display:none">
-                                    <td class="char-stat-name">Presence</td>
-                                    <td class="char-stat-value" id="charStatPresence"></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <img class="char-stats-frame" src="images/frames/frame_rawstats_bottom.png" />
-                    </div>
-                </td>
-                <td>
-                    <div id="slotHead" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_head.png" />
-                        </a>
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="slotImplant1" class="character-slot">
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_implant.png" />
-                        </a>
-                    </div>
-                </td>
-                <td colspan="2"></td>
-                <td>
-                    <div id="slotChest" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_chest.png" />
-                        </a>
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="slotImplant2" class="character-slot">
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_implant.png" />
-                        </a>
-                    </div>
-                </td>
-                <td colspan="2"></td>
-                <td>
-                    <div id="slotHands" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_hands.png" />
-                        </a>
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="slotWrists" class="character-slot">
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_wrists.png" />
-                        </a>
-                    </div>
-                </td>
-                <td colspan="2"></td>
-                <td>
-                    <div id="slotWaist" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_waist.png" />
-                        </a>
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="slotRelic1" class="character-slot">
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_relic.png" />
-                        </a>
-                    </div>
-                </td>
-                <td colspan="2">
-                    <button id="autofillGearButton" onclick="DomController.userInput(this, 'autofillGear')">Autofill gear for spec</button>
-                </td>
-                <td>
-                    <div id="slotLegs" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_legs.png" />
-                        </a>
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div id="slotRelic2" class="character-slot">
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_relic.png" />
-                        </a>
-                    </div>
-                </td>
-                <td>
-                    <div id="slotMainhand" class="character-slot">
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" />
-                        </a>
-                    </div>
-                </td>
-                <td>
-                    <div id="slotOffhand" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
-                        </a>
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                    </div>
-                </td>
-                <td>
-                    <div id="slotFeet" class="character-slot">
-                        <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
-                            <img class="character-slot-img slot-empty" src="images/items80/empty_feet.png" />
-                        </a>
-                        <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
-                            <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
-                        </a>
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <br/>
-    <div id="calcStatsDiv">
-        <table id="calcStatsTable">
-            <tr>
-                <td id="calcStatsOffense">
-                    <table class="calc-stats-table-inner">
-                        <tr>
-                            <td class="calc-stat-name">Mainhand Damage:</td>
-                            <td class="calc-stat-value" id="calcStatDmgPri"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Offhand Damage:</td>
-                            <td class="calc-stat-value" id="calcStatDmgSec"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Bonus Damage (Melee/Ranged):</td>
-                            <td class="calc-stat-value" id="calcStatDmgBonusMR"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Accuracy:</td>
-                            <td class="calc-stat-value" id="calcStatAccuracy"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Critical Chance:</td>
-                            <td class="calc-stat-value" id="calcStatCritChance"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Critical Multiplier:</td>
-                            <td class="calc-stat-value" id="calcStatCritMult"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Bonus Damage (Force/Tech):</td>
-                            <td class="calc-stat-value" id="calcStatDmgBonusFT"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Bonus Healing:</td>
-                            <td class="calc-stat-value" id="calcStatHealing"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Alacrity:</td>
-                            <td class="calc-stat-value" id="calcStatAlacrity"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">&nbsp;</td>
-                            <td class="calc-stat-value" id="calcStatEmpty">&nbsp;</td>
-                        </tr>
-                    </table>
-                </td>
-                <td id="calcStatsDefense">
-                    <table class="calc-stats-table-inner">
-                        <tr>
-                            <td class="calc-stat-name">Health:</td>
-                            <td class="calc-stat-value" id="calcStatHealth"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Armor Rating:</td>
-                            <td class="calc-stat-value" id="calcStatArmor"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Damage Reduction:</td>
-                            <td class="calc-stat-value" id="calcStatDmgReduction"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Defense Chance:</td>
-                            <td class="calc-stat-value" id="calcStatDefense"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Shield Chance:</td>
-                            <td class="calc-stat-value" id="calcStatShield"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">Shield Absorption:</td>
-                            <td class="calc-stat-value" id="calcStatAbsorb"></td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">&nbsp;</td>
-                            <td class="calc-stat-value">&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">&nbsp;</td>
-                            <td class="calc-stat-value">&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td class="calc-stat-name">&nbsp;</td>
-                            <td class="calc-stat-value">&nbsp;</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </div>
-    <br/>
-    <div id="augPicker" style="display:none">
-        <div id="currentAugArea">
-            <table>
-                <tr id="currentAugSettings">
-                    <td colspan="4">
-                     <label for="inputAugType">Augment type:</label>
-                     <select onchange="DomController.userInput(this, 'augTypeSelect')" id="inputAugType">
-                        <option value="none" selected>None</option>
-                        <option value="absorption">Absorb</option>
-                        <option value="accuracy">Accuracy</option>
-                        <option value="alacrity">Alacrity</option>
-                        <option value="crit">Critical</option>
-                        <option value="defense">Defense</option>
-                        <option value="endurance">Endurance</option>
-                        <option value="mastery">Mastery</option>
-                        <option value="power">Power</option>
-                        <option value="shield">Shield</option>
-                     </select>
-                     <label for="inputAugRating">Augment rating:</label>
-                     <select onchange="DomController.userInput(this, 'augRatingSelect')" id="inputAugRating">
-                        <option value="228">228</option>
-                        <option value="230">230</option>
-                        <option value="236">236</option>
-                        <option value="240">240</option>
-                        <option value="276">276</option>
-                        <option value="286">286</option>
-                     </select>
-                     <br />
-                     <!--<button id="removeAugButton">Remove this augment</button>-->
-                    </td>
-                </tr>
-                <tr id="currentAugDisplay">
+<div class="content-middle">
+        <div id="siteNavWrapper">
+            <a class="site-nav-item" href="about.html">About</a>
+            <a class="site-nav-item" href="faq.html">FAQ</a>
+            <a class="site-nav-item" href="contact.html">Contact</a>
+        </div>
+        <div id="charBodyDiv">
+            <table id="charBodyTable">
+                <tr>
                     <td>
-                        <img id="currentAugImg" class="character-slot-img slot-empty"> <!--TODO:empty img src?-->
+                        <div id="slotEar" class="character-slot">
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_ear.png" />
+                            </a>
+                        </div>
                     </td>
-                    <td id="currentAugName">
-                        None
+                    <td colspan="2" style="vertical-align:top">
+                        <div id="charStatsWrapper">
+                        <img class="char-stats-frame" src="images/frames/frame_rawstats_top.png" />
+                            <div id="charStatsDiv">
+                                <table id="factionToggle">
+                                    <tr>
+                                        <td value="pub" class="faction-select-button faction-select-button-pub" onclick="DomController.userInput(this, 'factionToggle')">
+                                            <img src="images/logo_republic_250.png" />
+                                        </td>
+                                        <td value="imp" class="faction-select-button faction-select-button-imp faction-select-button-checked" onclick="DomController.userInput(this, 'factionToggle')">
+                                            <img src="images/logo_empire_250.png" />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table id="charStatsBody">
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Mastery</td>
+                                        <td class="char-stat-value" id="charStatMastery"></td>
+                                    </tr>
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Endurance</td>
+                                        <td class="char-stat-value" id="charStatEndurance"></td>
+                                    </tr>
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Power</td>
+                                        <td class="char-stat-value" id="charStatPower"></td>
+                                    </tr>
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Critical</td>
+                                        <td class="char-stat-value" id="charStatCrit"></td>
+                                    </tr>
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Alacrity</td>
+                                        <td class="char-stat-value" id="charStatAlacrity"></td>
+                                    </tr>
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Accuracy</td>
+                                        <td class="char-stat-value" id="charStatAccuracy"></td>
+                                    </tr>
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Defense</td>
+                                        <td class="char-stat-value" id="charStatDefense"></td>
+                                    </tr>
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Absorb</td>
+                                        <td class="char-stat-value" id="charStatAbsorption"></td>
+                                    </tr>
+                                    <tr class="char-stat-row">
+                                        <td class="char-stat-name">Shield</td>
+                                        <td class="char-stat-value" id="charStatShield"></td>
+                                    </tr>
+                                    <tr class="char-stat-row" style="display:none">
+                                        <td class="char-stat-name">Presence</td>
+                                        <td class="char-stat-value" id="charStatPresence"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <img class="char-stats-frame" src="images/frames/frame_rawstats_bottom.png" />
+                        </div>
                     </td>
-                    <td id="currentAugStats">
+                    <td>
+                        <div id="slotHead" class="character-slot">
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_head.png" />
+                            </a>
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                        </div>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="3">
-                        <div id="currentAugButtons">
-                            <button id="saveAugButton" onclick="DomController.userInput(this, 'saveAugment')">Add</button>
-                            <button id="copyAugButton" onclick="DomController.userInput(this, 'toggleCopyAugment')">Clone</button>
+                    <td>
+                        <div id="slotImplant1" class="character-slot">
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_implant.png" />
+                            </a>
+                        </div>
+                    </td>
+                    <td colspan="2"></td>
+                    <td>
+                        <div id="slotChest" class="character-slot">
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_chest.png" />
+                            </a>
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
                         </div>
                     </td>
                 </tr>
-                <tr id="currentAugMask" style="display:none">
+                <tr>
                     <td>
-                        <button id="singleAugButton" style="display:none">Edit single augment...</button>
+                        <div id="slotImplant2" class="character-slot">
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_implant.png" />
+                            </a>
+                        </div>
+                    </td>
+                    <td colspan="2"></td>
+                    <td>
+                        <div id="slotHands" class="character-slot">
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_hands.png" />
+                            </a>
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="slotWrists" class="character-slot">
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_wrists.png" />
+                            </a>
+                        </div>
+                    </td>
+                    <td colspan="2"></td>
+                    <td>
+                        <div id="slotWaist" class="character-slot">
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_waist.png" />
+                            </a>
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="slotRelic1" class="character-slot">
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_relic.png" />
+                            </a>
+                        </div>
+                    </td>
+                    <td colspan="2">
+                        <button id="autofillGearButton" onclick="DomController.userInput(this, 'autofillGear')">Autofill gear for spec</button>
+                    </td>
+                    <td>
+                        <div id="slotLegs" class="character-slot">
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_legs.png" />
+                            </a>
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="slotRelic2" class="character-slot">
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_relic.png" />
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="slotMainhand" class="character-slot">
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_mainhand_saber.png" />
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="slotOffhand" class="character-slot">
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_offhand_shield.png" />
+                            </a>
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="slotFeet" class="character-slot">
+                            <a class="character-slot-link" onclick="DomController.userInput(this, 'charSlot');">
+                                <img class="character-slot-img slot-empty" src="images/items80/empty_feet.png" />
+                            </a>
+                            <a class="augment-slot-link" onclick="DomController.userInput(this, 'augSlot');">
+                                <img class="augment-slot-img slot-empty" src="images/items50/empty_augment.png" />
+                            </a>
+                        </div>
                     </td>
                 </tr>
             </table>
         </div>
-        <!--<div id="bulkAugsArea">
-            <button id="bulkAugsButton">Edit bulk augments...</button>
-        </div>-->
+        <br/>
+        <div id="calcStatsDiv">
+            <table id="calcStatsTable">
+                <tr>
+                    <td id="calcStatsOffense">
+                        <table class="calc-stats-table-inner">
+                            <tr>
+                                <td class="calc-stat-name">Mainhand Damage:</td>
+                                <td class="calc-stat-value" id="calcStatDmgPri"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Offhand Damage:</td>
+                                <td class="calc-stat-value" id="calcStatDmgSec"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Bonus Damage (Melee/Ranged):</td>
+                                <td class="calc-stat-value" id="calcStatDmgBonusMR"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Accuracy:</td>
+                                <td class="calc-stat-value" id="calcStatAccuracy"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Critical Chance:</td>
+                                <td class="calc-stat-value" id="calcStatCritChance"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Critical Multiplier:</td>
+                                <td class="calc-stat-value" id="calcStatCritMult"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Bonus Damage (Force/Tech):</td>
+                                <td class="calc-stat-value" id="calcStatDmgBonusFT"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Bonus Healing:</td>
+                                <td class="calc-stat-value" id="calcStatHealing"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Alacrity:</td>
+                                <td class="calc-stat-value" id="calcStatAlacrity"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">&nbsp;</td>
+                                <td class="calc-stat-value" id="calcStatEmpty">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="calcStatsDefense">
+                        <table class="calc-stats-table-inner">
+                            <tr>
+                                <td class="calc-stat-name">Health:</td>
+                                <td class="calc-stat-value" id="calcStatHealth"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Armor Rating:</td>
+                                <td class="calc-stat-value" id="calcStatArmor"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Damage Reduction:</td>
+                                <td class="calc-stat-value" id="calcStatDmgReduction"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Defense Chance:</td>
+                                <td class="calc-stat-value" id="calcStatDefense"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Shield Chance:</td>
+                                <td class="calc-stat-value" id="calcStatShield"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">Shield Absorption:</td>
+                                <td class="calc-stat-value" id="calcStatAbsorb"></td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">&nbsp;</td>
+                                <td class="calc-stat-value">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">&nbsp;</td>
+                                <td class="calc-stat-value">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="calc-stat-name">&nbsp;</td>
+                                <td class="calc-stat-value">&nbsp;</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br/>
+        <div id="augPicker" style="display:none">
+            <div id="currentAugArea">
+                <table>
+                    <tr id="currentAugSettings">
+                        <td colspan="4">
+                         <label for="inputAugType">Augment type:</label>
+                         <select onchange="DomController.userInput(this, 'augTypeSelect')" id="inputAugType">
+                            <option value="none" selected>None</option>
+                            <option value="absorption">Absorb</option>
+                            <option value="accuracy">Accuracy</option>
+                            <option value="alacrity">Alacrity</option>
+                            <option value="crit">Critical</option>
+                            <option value="defense">Defense</option>
+                            <option value="endurance">Endurance</option>
+                            <option value="mastery">Mastery</option>
+                            <option value="power">Power</option>
+                            <option value="shield">Shield</option>
+                         </select>
+                         <label for="inputAugRating">Augment rating:</label>
+                         <select onchange="DomController.userInput(this, 'augRatingSelect')" id="inputAugRating">
+                            <option value="228">228</option>
+                            <option value="230">230</option>
+                            <option value="236">236</option>
+                            <option value="240">240</option>
+                            <option value="276">276</option>
+                            <option value="286">286</option>
+                         </select>
+                         <br />
+                         <!--<button id="removeAugButton">Remove this augment</button>-->
+                        </td>
+                    </tr>
+                    <tr id="currentAugDisplay">
+                        <td>
+                            <img id="currentAugImg" class="character-slot-img slot-empty"> <!--TODO:empty img src?-->
+                        </td>
+                        <td id="currentAugName">
+                            None
+                        </td>
+                        <td id="currentAugStats">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div id="currentAugButtons">
+                                <button id="saveAugButton" onclick="DomController.userInput(this, 'saveAugment')">Add</button>
+                                <button id="copyAugButton" onclick="DomController.userInput(this, 'toggleCopyAugment')">Clone</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr id="currentAugMask" style="display:none">
+                        <td>
+                            <button id="singleAugButton" style="display:none">Edit single augment...</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--<div id="bulkAugsArea">
+                <button id="bulkAugsButton">Edit bulk augments...</button>
+            </div>-->
+        </div>
     </div>
     <div class="content-left">
         <div id="charSettings">
