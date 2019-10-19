@@ -72,7 +72,7 @@ let SpecManager = (function()
             mercBurst: 'Gunnery',
             mercSust: 'Assault Specialist',
             sorcHealer: 'Seer',
-            sorcBurst: 'Telekinesis',
+            sorcBurst: 'Telekinetics',
             sorcSust: 'Balance',
             opHealer: 'Sawbones',
             opBurst: 'Scrapper',
