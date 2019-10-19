@@ -145,6 +145,10 @@ body.faction-mode-pub .faction-imp
     left:0;
     width:504px;
 }
+.content-middle
+{
+    z-index: 1;
+}
 .content-right
 {
     right:0px;
@@ -839,7 +843,7 @@ body.faction-mode-pub .faction-imp
 {
     transform-origin:top left;
 }
-#content-middle
+.content-middle
 {
     transform-origin:top;
 }
@@ -866,7 +870,7 @@ body.faction-mode-pub .faction-imp
 {
     transform-origin:top left;
 }
-#content-middle
+.content-middle
 {
     transform-origin:top;
 }

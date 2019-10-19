@@ -397,6 +397,10 @@
                 <button id="bulkAugsButton">Edit bulk augments...</button>
             </div>-->
         </div>
+        <div class="footer">
+                <p>This is an independently-run fan site.  It is in no way affiliated with or endorsed by Disney, LucasArts, BioWare, or Electronic Arts.<br>
+                    Star Wars and related properties are trademarks and/or copyrights, in the United States and other countries, of Lucasfilm Ltd. and/or its affiliates.</p>
+        </div>
     </div>
     <div class="content-left">
         <div id="charSettings">
@@ -705,10 +709,6 @@
         </div>
     </div>
     <div id="modalMask" style="display:none;"></div>
-    <div class="footer">
-        <p>This is an independently-run fan site.  It is in no way affiliated with or endorsed by Disney, LucasArts, BioWare, or Electronic Arts.<br>
-            Star Wars and related properties are trademarks and/or copyrights, in the United States and other countries, of Lucasfilm Ltd. and/or its affiliates.</p>
-    </div>
 </body>
 <script type="text/javascript">
 let debug = true;
