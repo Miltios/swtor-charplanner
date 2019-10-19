@@ -278,6 +278,8 @@ let StatController = (function()
         let stats = this.addStats(gearStats, this.getGearlessStats());
         let pri = 264;
         let sec = 109;
+        let oldpri = 240;
+        let oldsec = 99;
         switch(Settings.getStim())
         {
             case 'blue':
@@ -296,6 +298,24 @@ let StatController = (function()
                 stats = this.addStats(stats, {
                     'mastery':pri,
                     'power':sec
+                });
+                break;
+            case 'old_blue':
+                stats = this.addStats(stats, {
+                    'endurance':oldpri,
+                    'defense':oldsec
+                });
+                break;
+            case 'old_yellow':
+                stats = this.addStats(stats, {
+                    'accuracy':oldpri,
+                    'crit':oldsec
+                });
+                break;
+            case 'old_red':
+                stats = this.addStats(stats, {
+                    'mastery':oldpri,
+                    'power':oldsec
                 });
                 break;
         }
