@@ -423,6 +423,7 @@ body.faction-mode-pub .faction-imp
     padding:10px;
     font-weight:normal;
     text-align:left;
+    z-index:10;
 }
 #tooltipItemName
 {
