@@ -145,7 +145,7 @@ body
 body
 {
     transform:scale(0.73);
-    transform-origin:top;
+    transform-origin:top left;
 }
 }
 @media screen
@@ -154,6 +154,6 @@ body
 body
 {
     transform:scale(0.85);
-    transform-origin:top;
+    transform-origin:top left;
 }
 }
