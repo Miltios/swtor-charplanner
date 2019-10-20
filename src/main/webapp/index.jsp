@@ -2,8 +2,8 @@
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="/swtor/styles/global.css">
-    <link rel="stylesheet" type="text/css" href="/swtor/styles/gearPlanner.css">
+    <link rel="stylesheet" type="text/css" href="/swtor/styles/global.css?dc=20191019a">
+    <link rel="stylesheet" type="text/css" href="/swtor/styles/gearPlanner.css?dc=20191019a">
     <link rel="icon" href="/swtor/favicon.ico?">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<%=StartClass.getProperty("analyticsId")%>"></script>
@@ -19,6 +19,7 @@
 <body id="documentBody" class="faction-mode-imp">
 <div class="content-middle">
         <div id="siteNavWrapper">
+            <a class="site-nav-item site-nav-item-current" href=".">Home</a>
             <a class="site-nav-item" href="about.html">About</a>
             <a class="site-nav-item" href="faq.html">FAQ</a>
             <a class="site-nav-item" href="contact.html">Contact</a>

@@ -39,7 +39,8 @@ body
 .site-nav-item
 {
     display:inline-block;
-    width:75px;
+    /*width:75px;*/
+    margin:0 10px;
 
     color:#FFC800;
     letter-spacing:1.5px;
@@ -50,4 +51,8 @@ body
 {
     color:#b19c4f;
     transition:0.3s;
+}
+.site-nav-item-current
+{
+    color:#b19c4f;
 }
