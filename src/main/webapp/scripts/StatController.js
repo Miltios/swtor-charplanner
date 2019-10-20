@@ -501,10 +501,10 @@ let StatController = (function()
         //mercifully, none of this is level-dependent (despite what rambol says)
         let dmgMastery = StatManager.getStat('mastery') * 0.2;
         let bonusMastery = StatManager.getMultiplierForStat('mastery');
-        if(Settings.getClassBuffs().indexOf('Mastery') !== -1)
+        /*if(Settings.getClassBuffs().indexOf('Mastery') !== -1)
         {
-            bonusMastery += 0.05;
-        }
+            bonusMastery += 0.05; //already calculated in getMultiplierForStat
+        }*/
         dmgMastery *= bonusMastery;
 
         let dmgPower = StatManager.getStat('power');
