@@ -248,10 +248,9 @@ let StatController = (function()
         //add in the base stats
         stats = this.addStats(stats, this.getBaseStats())
 
-        //apply combined multipliers
-        stats.endurance = stats.endurance * StatManager.getMultiplierForStat('endurance');
-
-        //this mastery value is changed on the character sheet, but NOT used for further calculations
+        //we do not actually APPLY multipliers here because they should not be added before further stat calculations.
+        //However, they do get added to the displayed "raw" stat on the character sheet (which is no longer raw, but BW can do what they want)
+        //stats.endurance = stats.endurance * StatManager.getMultiplierForStat('endurance');
         //stats.mastery = stats.mastery * StatManager.getMultiplierForStat('mastery');
 
         return stats;
@@ -338,6 +337,10 @@ let StatController = (function()
                 if(statName === 'mastery')
                 {
                     statValue *= StatManager.getMultiplierForStat('mastery'); //BW likes to show this buff on the character sheet but NOT use it for further stat calculations
+                }
+                else if(statName === 'endurance')
+                {
+                    statValue *= StatManager.getMultiplierForStat('endurance'); //same deal
                 }
                 el.innerHTML = statValue.toFixed(0);
             }
@@ -591,7 +594,7 @@ let StatController = (function()
         //Health formula for 6.0: (Base Health+[Endurance×14×(1+x)])×(1+y)
         //x is the sum of any multiplicative increases to Endurance (e.g. Hunter's Boon buff or assassin training)
         //y is the sum of any multiplicative increases to Health (e.g. ranged tank companion bonus)
-        //TODO:does this mean that endurance multipliers affect HP twice?
+        //note that we are using the true "raw" value for endurance here, because the one displayed on the character sheet already has buffs applied
 
         let baseHealth;
         let endCoefficient;
