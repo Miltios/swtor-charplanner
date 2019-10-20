@@ -168,10 +168,10 @@ let StatController = (function()
     };
     StatController.prototype.getBaseStats = function()
     {
-        //stats with no stim/buffs/datacrons/etc.  Base stats do not vary by class/spec, and we assume everyone is lvl 70.
+        //stats with no stim/buffs/datacrons/etc.  Base stats do not vary by class/spec, and we assume everyone is lvl 75.
         return {
-            'mastery':850,
-            'endurance':765,
+            'mastery':1000,
+            'endurance':900,
             'power':0,
             'crit':0,
             'alacrity':0,
@@ -187,8 +187,8 @@ let StatController = (function()
         //TODO:get stats for character with no gear but everything else
         //note that augments are NOT considered "gear" for this purpose
         let stats = {
-            'mastery':-17, //TODO:HACK: need this number to get 1050 mastery, but we don't know where it comes from
-            'endurance':14, //TODO:HACK:need this number to get 828 endurance, but we don't know where it comes from
+            'mastery':-17, //TODO:HACK: need this number to get 1200 mastery, but we don't know where it comes from
+            'endurance':14, //TODO:HACK:need this number to get 963 endurance, but we don't know where it comes from
             'presence':100 //freebie from the Human legacy buff.  We just assume everyone has it.
         };
         /*let datacronStats = {
@@ -250,7 +250,9 @@ let StatController = (function()
 
         //apply combined multipliers
         stats.endurance = stats.endurance * StatManager.getMultiplierForStat('endurance');
-        stats.mastery = stats.mastery * StatManager.getMultiplierForStat('mastery'); //TODO:is this factored in here or later?
+
+        //this mastery value is changed on the character sheet, but NOT used for further calculations
+        //stats.mastery = stats.mastery * StatManager.getMultiplierForStat('mastery');
 
         return stats;
     };
@@ -332,7 +334,12 @@ let StatController = (function()
             if(stats.hasOwnProperty(statName))
             {
                 StatManager.setStat(statName, stats[statName]);
-                el.innerHTML = stats[statName];
+                let statValue = stats[statName];
+                if(statName === 'mastery')
+                {
+                    statValue *= StatManager.getMultiplierForStat('mastery'); //BW likes to show this buff on the character sheet but NOT use it for further stat calculations
+                }
+                el.innerHTML = statValue.toFixed(0);
             }
             else
             {
@@ -410,10 +417,10 @@ let StatController = (function()
         //mercifully, none of this is level-dependent (despite what rambol says)
         let dmgMastery = StatManager.getStat('mastery') * 0.2;
         let bonusMastery = StatManager.getMultiplierForStat('mastery');
-        if(Settings.getClassBuffs().indexOf('Mastery') !== -1)
+        /*if(Settings.getClassBuffs().indexOf('Mastery') !== -1)
         {
-            bonusMastery += 0.05;
-        }
+            bonusMastery += 0.05; //already calculated in getMultiplierForStat
+        }*/
         dmgMastery *= bonusMastery;
 
         let dmgPower = StatManager.getStat('power') * 0.23;
