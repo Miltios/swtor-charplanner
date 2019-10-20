@@ -628,11 +628,15 @@ body.faction-mode-pub .faction-imp
     height:30px;
     padding-top:3px;
 }
+.stim-group
+{
+    margin-right:5px;
+}
 .button-stim
 {
     width:25px;
     vertical-align:middle;
-    margin:1px;
+    margin:1px 0;
     border:1px solid grey;
     border-radius:3px;
     cursor:pointer;
@@ -640,7 +644,7 @@ body.faction-mode-pub .faction-imp
 }
 .button-stim-selected
 {
-    margin:0;
+    margin:0 -1px;
     border:2px solid #96D6F1;
     opacity:1;
 }
