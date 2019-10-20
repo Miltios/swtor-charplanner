@@ -60,7 +60,38 @@ let SetManager = (function()
     };
     SetManager.prototype.getStatBonus = function(stat)
     {
-        //TODO
+        let equippedSets = [];
+        for(let i=0; i<this.armorSlots.length; i++)
+        {
+            let item = SlotManager.getSlot(this.armorSlots[i]).getItem();
+            if(item !== null)
+            {
+                let setId = item.setId;
+                if(setId && equippedSets.indexOf(setId) === -1)
+                {
+                    equippedSets.push(setId);
+                }
+            }
+        }
+        let statBonus = 0;
+        for(let i=0; i<equippedSets.length; i++)
+        {
+            let set = this.sets[this.keys.indexOf(equippedSets[i])];
+            let count = this.getEquippedNumberForSet(equippedSets[i]);
+            if(count >= 2 && set.bonus2Stat === stat)
+            {
+                statBonus += set.bonus2Value;
+            }
+            if(count >= 4 && set.bonus4Stat === stat)
+            {
+                statBonus += set.bonus4Value;
+            }
+            if(count >= 6 && set.bonus6Stat === stat)
+            {
+                statBonus += set.bonus6Value;
+            }
+        }
+        return statBonus;
     };
     return new SetManager();
 })();

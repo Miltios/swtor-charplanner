@@ -167,6 +167,7 @@ let StatManager = (function()
         {
             mult += buffs[i].statValue;
         }
+        mult += SetManager.getStatBonus(stat);
         return mult;
     };
     StatManager.prototype.getMultiplierForStat = function(stat)
