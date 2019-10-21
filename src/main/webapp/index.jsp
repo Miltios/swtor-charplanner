@@ -2,9 +2,9 @@
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="/styles/global.css?dc=20191019a">
-    <link rel="stylesheet" type="text/css" href="/styles/gearPlanner.css?dc=20191019a">
-    <link rel="icon" href="/favicon.ico?">
+    <link rel="stylesheet" type="text/css" href="styles/global.css?dc=20191019a">
+    <link rel="stylesheet" type="text/css" href="styles/gearPlanner.css?dc=20191019a">
+    <link rel="icon" href="favicon.ico?">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<%=StartClass.getProperty("analyticsId")%>"></script>
     <script>
@@ -17,7 +17,7 @@
 
 </head>
 <body id="documentBody" class="faction-mode-imp">
-<div class="content-middle">
+    <div class="content-middle">
         <div id="siteNavWrapper">
             <a class="site-nav-item site-nav-item-current" href=".">Home</a>
             <a class="site-nav-item" href="about.html">About</a>
@@ -783,27 +783,27 @@ function log(str)
 }
 </script>
 <script type="text/javascript">
-    requireJs("/scripts/DomController.js");
-    requireJs("/scripts/DomManager.js");
-    requireJs("/scripts/ItemManager.js");
-    requireJs("/scripts/PickerController.js");
-    requireJs("/scripts/SlotManager.js");
-    requireJs("/scripts/SpecManager.js");
-    requireJs("/scripts/StatController.js");
-    requireJs("/scripts/StatManager.js");
-    requireJs("/scripts/SetManager.js");
-    requireJs("/scripts/CustomStatsController.js");
-    requireJs("/scripts/TooltipController.js");
-    requireJs("/scripts/AugmentController.js");
-    requireJs("/scripts/WarningsController.js");
-    requireJs("/scripts/HelpController.js");
-    requireJs("/scripts/Settings.js");
-    requireJs("/scripts/Utilities.js");
-    requireJs("/scripts/Dev.js");
-    requireJs("/scripts/AutofillController.js");
-    requireJs("/scripts/model/Item.js");
-    requireJs("/scripts/model/ItemMod.js");
-    requireJs("/scripts/model/Slot.js");
+    requireJs("scripts/DomController.js");
+    requireJs("scripts/DomManager.js");
+    requireJs("scripts/ItemManager.js");
+    requireJs("scripts/PickerController.js");
+    requireJs("scripts/SlotManager.js");
+    requireJs("scripts/SpecManager.js");
+    requireJs("scripts/StatController.js");
+    requireJs("scripts/StatManager.js");
+    requireJs("scripts/SetManager.js");
+    requireJs("scripts/CustomStatsController.js");
+    requireJs("scripts/TooltipController.js");
+    requireJs("scripts/AugmentController.js");
+    requireJs("scripts/WarningsController.js");
+    requireJs("scripts/HelpController.js");
+    requireJs("scripts/Settings.js");
+    requireJs("scripts/Utilities.js");
+    requireJs("scripts/Dev.js");
+    requireJs("scripts/AutofillController.js");
+    requireJs("scripts/model/Item.js");
+    requireJs("scripts/model/ItemMod.js");
+    requireJs("scripts/model/Slot.js");
 
     //TODO:this may be getting unwieldy.  AJAX?
     let allItemData = <%= ItemManager.getAllAsJson() %>;
