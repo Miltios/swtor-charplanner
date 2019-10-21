@@ -255,6 +255,21 @@ let ItemManager = (function()
         }
         return null;
     };
+    ItemManager.prototype.getItemByName = function(name)
+    {
+        if(!name)
+        {
+            return null;
+        }
+        for(let i=0; i<this.items.length; i++)
+        {
+            if(this.items[i].name === name)
+            {
+                return this.items[i];
+            }
+        }
+        return null;
+    };
     ItemManager.prototype.getItemModById = function(id)
     {
         //we need strongly typed values here, so we coerce id to string and parse intId from there

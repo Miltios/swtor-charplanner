@@ -10,7 +10,7 @@ let TooltipController = (function()
         this.tid;
         this.tsc;
 
-        this.triggerElClasses = ['mod-slot-link', 'character-slot-link', 'augment-slot-link', 'list-item'];
+        this.triggerElClasses = ['mod-slot-link', 'character-slot-link', 'augment-slot-link', 'list-item', 'button-stim'];
 
         //distance between cursor and tooltip
         this.offsetX = 20;
@@ -166,6 +166,30 @@ let TooltipController = (function()
                         this.tsc.style.display = '';
                     }
                 }
+            }
+        }
+        else if(el.classList.contains('button-stim'))
+        {
+            switch(el.getAttribute('data-stim-type'))
+            {
+                case 'blue':
+                    item = ItemManager.getItemByName('Advanced Kyrprax Fortitude Stim MK-2');
+                    break;
+                case 'yellow':
+                    item = ItemManager.getItemByName('Advanced Kyrprax Proficient Stim MK-2');
+                    break;
+                case 'red':
+                    item = ItemManager.getItemByName('Advanced Kyrprax Versatile Stim MK-2');
+                    break;
+                case 'old_blue':
+                    item = ItemManager.getItemByName('Advanced Polybiotic Fortitude Stim MK-2');
+                    break;
+                case 'old_yellow':
+                    item = ItemManager.getItemByName('Advanced Polybiotic Proficient Stim MK-2');
+                    break;
+                case 'old_red':
+                    item = ItemManager.getItemByName('Advanced Polybiotic Versatile Stim MK-2');
+                    break;
             }
         }
         if(item === null || item.name === 'empty')
