@@ -2,9 +2,9 @@
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="/swtor/styles/global.css?dc=20191019a">
-    <link rel="stylesheet" type="text/css" href="/swtor/styles/gearPlanner.css?dc=20191019a">
-    <link rel="icon" href="/swtor/favicon.ico?">
+    <link rel="stylesheet" type="text/css" href="styles/global.css?dc=20191019a">
+    <link rel="stylesheet" type="text/css" href="styles/gearPlanner.css?dc=20191019a">
+    <link rel="icon" href="favicon.ico?">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<%=StartClass.getProperty("analyticsId")%>"></script>
     <script>
@@ -17,7 +17,7 @@
 
 </head>
 <body id="documentBody" class="faction-mode-imp">
-<div class="content-middle">
+    <div class="content-middle">
         <div id="siteNavWrapper">
             <a class="site-nav-item site-nav-item-current" href=".">Home</a>
             <a class="site-nav-item" href="about.html">About</a>
@@ -397,6 +397,10 @@
             <!--<div id="bulkAugsArea">
                 <button id="bulkAugsButton">Edit bulk augments...</button>
             </div>-->
+        </div>
+        <div class="footer">
+                <p>This is an independently-run fan site.  It is in no way affiliated with or endorsed by Disney, LucasArts, BioWare, or Electronic Arts.<br>
+                    Star Wars and related properties are trademarks and/or copyrights, in the United States and other countries, of Lucasfilm Ltd. and/or its affiliates.</p>
         </div>
     </div>
     <div class="content-left">
@@ -779,27 +783,27 @@ function log(str)
 }
 </script>
 <script type="text/javascript">
-    requireJs("/swtor/scripts/DomController.js");
-    requireJs("/swtor/scripts/DomManager.js");
-    requireJs("/swtor/scripts/ItemManager.js");
-    requireJs("/swtor/scripts/PickerController.js");
-    requireJs("/swtor/scripts/SlotManager.js");
-    requireJs("/swtor/scripts/SpecManager.js");
-    requireJs("/swtor/scripts/StatController.js");
-    requireJs("/swtor/scripts/StatManager.js");
-    requireJs("/swtor/scripts/SetManager.js");
-    requireJs("/swtor/scripts/CustomStatsController.js");
-    requireJs("/swtor/scripts/TooltipController.js");
-    requireJs("/swtor/scripts/AugmentController.js");
-    requireJs("/swtor/scripts/WarningsController.js");
-    requireJs("/swtor/scripts/HelpController.js");
-    requireJs("/swtor/scripts/Settings.js");
-    requireJs("/swtor/scripts/Utilities.js");
-    requireJs("/swtor/scripts/Dev.js");
-    requireJs("/swtor/scripts/AutofillController.js");
-    requireJs("/swtor/scripts/model/Item.js");
-    requireJs("/swtor/scripts/model/ItemMod.js");
-    requireJs("/swtor/scripts/model/Slot.js");
+    requireJs("scripts/DomController.js");
+    requireJs("scripts/DomManager.js");
+    requireJs("scripts/ItemManager.js");
+    requireJs("scripts/PickerController.js");
+    requireJs("scripts/SlotManager.js");
+    requireJs("scripts/SpecManager.js");
+    requireJs("scripts/StatController.js");
+    requireJs("scripts/StatManager.js");
+    requireJs("scripts/SetManager.js");
+    requireJs("scripts/CustomStatsController.js");
+    requireJs("scripts/TooltipController.js");
+    requireJs("scripts/AugmentController.js");
+    requireJs("scripts/WarningsController.js");
+    requireJs("scripts/HelpController.js");
+    requireJs("scripts/Settings.js");
+    requireJs("scripts/Utilities.js");
+    requireJs("scripts/Dev.js");
+    requireJs("scripts/AutofillController.js");
+    requireJs("scripts/model/Item.js");
+    requireJs("scripts/model/ItemMod.js");
+    requireJs("scripts/model/Slot.js");
 
     //TODO:this may be getting unwieldy.  AJAX?
     let allItemData = <%= ItemManager.getAllAsJson() %>;

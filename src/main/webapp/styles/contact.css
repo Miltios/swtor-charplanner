@@ -1,0 +1,50 @@
+.mail-title
+{
+    font-size:1.4em;
+    padding:5px 0px;
+    text-transform:uppercase;
+    letter-spacing:2.5px;
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.mail-address
+{
+    font-size:1.1em;
+    letter-spacing:2px;
+}
+
+#mailText
+{
+    text-align:left;
+    line-height: 1.5;
+    float:right;
+    justify-content:center;
+}
+
+#mailImage
+{
+    border:2px solid #96D6F1;
+    border-radius:8px;
+}
+
+#mailText,#mailImage,#mailBody
+{
+    width:480px;
+    height:848px;
+    display:inline-block;
+}
+
+#content
+{
+    width:1000px;
+    display:inline-block;
+    vertical-align: middle;
+    margin: 30px 15px 0px;
+}
+
+#mailBody
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}

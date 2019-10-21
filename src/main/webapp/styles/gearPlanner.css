@@ -1,3 +1,9 @@
+body
+{
+    min-width:1200px;
+    position:relative;
+    margin:0px;
+}
 body.faction-mode-imp
 {
     background-color:#00050D;
@@ -139,6 +145,14 @@ body.faction-mode-pub .faction-imp
     left:0;
     width:504px;
 }
+.content-middle
+{
+    z-index: 1;
+    position:relative;
+    width:700px;
+    margin:0 auto;
+    padding-top:8px;
+}
 .content-right
 {
     right:0px;
@@ -195,7 +209,7 @@ body.faction-mode-pub .faction-imp
 #itemPicker
 {
     margin-top:-30px;
-    padding:58px 30px 60px 0px;
+    padding:58px 30px 75px 0px;
 
     width:100%;
 
@@ -410,6 +424,7 @@ body.faction-mode-pub .faction-imp
     padding:10px;
     font-weight:normal;
     text-align:left;
+    z-index:10;
 }
 #tooltipItemName
 {
@@ -662,6 +677,8 @@ body.faction-mode-pub .faction-imp
     /*border-radius:10px;*/
     padding:10px;
     font-size:1.15em;
+    max-height:500px;
+    overflow-y:auto;
 }
 .warnings-item
 {
@@ -791,4 +808,115 @@ body.faction-mode-pub .faction-imp
 .edit-on-hover:hover .slot-edit-link
 {
     display:block;
+}
+
+.warning-text a
+{
+    color:#fff;
+    position:relative;
+    text-decoration:none;
+}
+
+.warning-text a:hover:before
+{
+    visibility:visible;
+    transform:scaleX(1);
+}
+
+.warning-text a:before
+{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:1px;
+    bottom:0;
+    left:0;
+    background-color:white;
+    visibility:hidden;
+    transform:scaleX(0);
+    transition:all 0.3s ease-in-out 0s;
+}
+
+/*Scale fix for small monitors*/
+
+@media screen
+  and (max-device-width: 1200px)  {
+    .content-middle,
+    .content-left,
+    #warningsWrapper,
+    #helpDiv
+    {
+        transform:scale(0.65);
+    }
+    .content-left
+    {
+        transform-origin:top left;
+    }
+    .content-middle
+    {
+        transform-origin:top;
+    }
+    #helpDiv
+    {
+        transform-origin:top right;
+    }
+    #warningsWrapper
+    {
+        transform-origin:bottom right;
+    }
+}
+
+@media screen
+  and (min-device-width: 1201px)
+  and (max-device-width: 1600px)  {
+    .content-middle,
+    .content-left,
+    #warningsWrapper,
+    #helpDiv
+    {
+        transform:scale(0.73);
+    }
+    .content-left
+    {
+        transform-origin:top left;
+    }
+    .content-middle
+    {
+        transform-origin:top;
+    }
+    #helpDiv
+    {
+        transform-origin:top right;
+    }
+    #warningsWrapper
+    {
+        transform-origin:bottom right;
+    }
+}
+@media screen
+  and (min-device-width: 1601px)
+  and (max-device-width: 1750px)  {
+    .content-middle,
+    .content-left,
+    #warningsWrapper,
+    #helpDiv
+    {
+        transform:scale(0.85);
+    }
+    .content-left
+    {
+        transform-origin:top left;
+    }
+    .content-middle
+    {
+        transform-origin:top;
+    }
+    #helpDiv
+    {
+        transform-origin:top right;
+    }
+    #warningsWrapper
+    {
+        transform-origin:bottom right;
+    }
 }

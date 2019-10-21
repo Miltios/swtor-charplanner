@@ -56,3 +56,17 @@ body
 {
     color:#b19c4f;
 }
+
+.strikethrough
+{
+    text-decoration:line-through;
+}
+
+.footer {
+  margin:70px auto 10px;
+  /*width: 30%;*/
+  text-align: center;
+  letter-spacing:1.25;
+  line-height:1.5;
+  font-size:0.8em;
+}
