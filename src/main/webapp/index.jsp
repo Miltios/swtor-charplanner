@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <title>SWTOR Charplanner</title>
     <link rel="stylesheet" type="text/css" href="styles/global.css?dc=20191019a">
     <link rel="stylesheet" type="text/css" href="styles/gearPlanner.css?dc=20191019a">
     <link rel="icon" href="favicon.ico?">
