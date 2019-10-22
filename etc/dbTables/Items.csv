@@ -2501,7 +2501,7 @@ ItemId,Name,tempIdDuplicate,Slot,Rating,Color,DynamicSlot,Description,Disabled,I
 2500,Taskmaster's Armguards,2500,wrists,306,all,armoring,,0,wrists_stalker.png,armor,taskmaster
 2501,The Entertainer's Armguards,2501,wrists,306,all,armoring,,0,wrists_stalker.png,armor,entertainer
 2502,The Victor's Armguards,2502,wrists,306,all,armoring,,0,wrists_stalker.png,armor,victor
-2503,Trishin's Retort Armguards,2503,wrists,306,all,armoring,,0,wrists_stalker.png,armor,trishin
+2503,Trishin's Retort Armguards,2503,wrists,306,all,armoring,,1,wrists_stalker.png,armor,trishin
 2504,Descent of the Fearless Belt,2504,waist,306,all,armoring,,0,waist_stalker.png,armor,descent
 2505,Force Bound Belt,2505,waist,306,all,armoring,,0,waist_stalker.png,armor,fbound
 2506,Nimble Master Belt,2506,waist,306,all,armoring,,0,waist_stalker.png,armor,nmaster
@@ -2562,7 +2562,7 @@ ItemId,Name,tempIdDuplicate,Slot,Rating,Color,DynamicSlot,Description,Disabled,I
 2561,Taskmaster's Belt,2561,waist,306,all,armoring,,0,waist_stalker.png,armor,taskmaster
 2562,The Entertainer's Belt,2562,waist,306,all,armoring,,0,waist_stalker.png,armor,entertainer
 2563,The Victor's Belt,2563,waist,306,all,armoring,,0,waist_stalker.png,armor,victor
-2564,Trishin's Retort Belt,2564,waist,306,all,armoring,,0,waist_stalker.png,armor,trishin
+2564,Trishin's Retort Belt,2564,waist,306,all,armoring,,1,waist_stalker.png,armor,trishin
 2565,Descent of the Fearless Boots,2565,feet,306,all,armoring,,0,feet_stalker.png,armor,descent
 2566,Force Bound Boots,2566,feet,306,all,armoring,,0,feet_stalker.png,armor,fbound
 2567,Nimble Master Boots,2567,feet,306,all,armoring,,0,feet_stalker.png,armor,nmaster
@@ -2623,7 +2623,7 @@ ItemId,Name,tempIdDuplicate,Slot,Rating,Color,DynamicSlot,Description,Disabled,I
 2622,Taskmaster's Boots,2622,feet,306,all,armoring,,0,feet_stalker.png,armor,taskmaster
 2623,The Entertainer's Boots,2623,feet,306,all,armoring,,0,feet_stalker.png,armor,entertainer
 2624,The Victor's Boots,2624,feet,306,all,armoring,,0,feet_stalker.png,armor,victor
-2625,Trishin's Retort Boots,2625,feet,306,all,armoring,,0,feet_stalker.png,armor,trishin
+2625,Trishin's Retort Boots,2625,feet,306,all,armoring,,1,feet_stalker.png,armor,trishin
 2626,Descent of the Fearless Chestguard,2626,chest,306,all,armoring,,0,chest_stalker.png,armor,descent
 2627,Force Bound Chestguard,2627,chest,306,all,armoring,,0,chest_stalker.png,armor,fbound
 2628,Nimble Master Chestguard,2628,chest,306,all,armoring,,0,chest_stalker.png,armor,nmaster
@@ -2684,7 +2684,7 @@ ItemId,Name,tempIdDuplicate,Slot,Rating,Color,DynamicSlot,Description,Disabled,I
 2683,Taskmaster's Chestguard,2683,chest,306,all,armoring,,0,chest_stalker.png,armor,taskmaster
 2684,The Entertainer's Chestguard,2684,chest,306,all,armoring,,0,chest_stalker.png,armor,entertainer
 2685,The Victor's Chestguard,2685,chest,306,all,armoring,,0,chest_stalker.png,armor,victor
-2686,Trishin's Retort Chestguard,2686,chest,306,all,armoring,,0,chest_stalker.png,armor,trishin
+2686,Trishin's Retort Chestguard,2686,chest,306,all,armoring,,1,chest_stalker.png,armor,trishin
 2687,Descent of the Fearless Gauntlets,2687,hands,306,all,armoring,,0,hands_stalker.png,armor,descent
 2688,Force Bound Gauntlets,2688,hands,306,all,armoring,,0,hands_stalker.png,armor,fbound
 2689,Nimble Master Gauntlets,2689,hands,306,all,armoring,,0,hands_stalker.png,armor,nmaster
@@ -2745,7 +2745,7 @@ ItemId,Name,tempIdDuplicate,Slot,Rating,Color,DynamicSlot,Description,Disabled,I
 2744,Taskmaster's Gauntlets,2744,hands,306,all,armoring,,0,hands_stalker.png,armor,taskmaster
 2745,The Entertainer's Gauntlets,2745,hands,306,all,armoring,,0,hands_stalker.png,armor,entertainer
 2746,The Victor's Gauntlets,2746,hands,306,all,armoring,,0,hands_stalker.png,armor,victor
-2747,Trishin's Retort Gauntlets,2747,hands,306,all,armoring,,0,hands_stalker.png,armor,trishin
+2747,Trishin's Retort Gauntlets,2747,hands,306,all,armoring,,1,hands_stalker.png,armor,trishin
 2748,Descent of the Fearless Greaves,2748,legs,306,all,armoring,,0,legs_stalker.png,armor,descent
 2749,Force Bound Greaves,2749,legs,306,all,armoring,,0,legs_stalker.png,armor,fbound
 2750,Nimble Master Greaves,2750,legs,306,all,armoring,,0,legs_stalker.png,armor,nmaster
@@ -2806,7 +2806,7 @@ ItemId,Name,tempIdDuplicate,Slot,Rating,Color,DynamicSlot,Description,Disabled,I
 2805,Taskmaster's Greaves,2805,legs,306,all,armoring,,0,legs_stalker.png,armor,taskmaster
 2806,The Entertainer's Greaves,2806,legs,306,all,armoring,,0,legs_stalker.png,armor,entertainer
 2807,The Victor's Greaves,2807,legs,306,all,armoring,,0,legs_stalker.png,armor,victor
-2808,Trishin's Retort Greaves,2808,legs,306,all,armoring,,0,legs_stalker.png,armor,trishin
+2808,Trishin's Retort Greaves,2808,legs,306,all,armoring,,1,legs_stalker.png,armor,trishin
 2809,Descent of the Fearless Headgear,2809,head,306,all,armoring,,0,head_stalker.png,armor,descent
 2810,Force Bound Headgear,2810,head,306,all,armoring,,0,head_stalker.png,armor,fbound
 2811,Nimble Master Headgear,2811,head,306,all,armoring,,0,head_stalker.png,armor,nmaster
@@ -2867,7 +2867,7 @@ ItemId,Name,tempIdDuplicate,Slot,Rating,Color,DynamicSlot,Description,Disabled,I
 2866,Taskmaster's Headgear,2866,head,306,all,armoring,,0,head_stalker.png,armor,taskmaster
 2867,The Entertainer's Headgear,2867,head,306,all,armoring,,0,head_stalker.png,armor,entertainer
 2868,The Victor's Headgear,2868,head,306,all,armoring,,0,head_stalker.png,armor,victor
-2869,Trishin's Retort Headgear,2869,head,306,all,armoring,,0,head_stalker.png,armor,trishin
+2869,Trishin's Retort Headgear,2869,head,306,all,armoring,,1,head_stalker.png,armor,trishin
 2870,Sha'tek War Leader's Lightsaber,2870,mainhand,270,green,hilt,,1,saber_warleader.png,saber,
 2871,Sha'tek Survivor's Saberstaff,2871,mainhand,270,green,hilt,,1,saberstaff_stalker.png,saberstaff,
 2872,Sha'tek Supercommando's Blaster Pistol,2872,mainhand,270,green,barrel,,1,pistol_eliminator.png,pistol,
