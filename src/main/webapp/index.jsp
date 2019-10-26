@@ -802,6 +802,7 @@ function log(str)
     requireJs("scripts/Utilities.js");
     requireJs("scripts/Dev.js");
     requireJs("scripts/AutofillController.js");
+    requireJs("scripts/ImportExportController.js");
     requireJs("scripts/model/Item.js");
     requireJs("scripts/model/ItemMod.js");
     requireJs("scripts/model/Slot.js");
