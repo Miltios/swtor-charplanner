@@ -465,8 +465,9 @@ let StatController = (function()
         //formula from mastery stat in 6.0: 20*(1-(1-(.01/.2))^(mastery/(level*8.43)))
         let crit = StatManager.getStat('crit');
         let mastery = StatManager.getStat('mastery');
+        mastery *= StatManager.getMultiplierForStat('mastery');
         let bonusCrit = StatManager.getMultiplierForStat('critChance')-1; //additive
-        if(Settings.getCompanionBuffs().indexOf('MDPS') !== -1)
+        if(Settings.getCompanionBuffs().indexOf('RDPS') !== -1)
         {
             bonusCrit += 0.01;
         }
@@ -489,6 +490,10 @@ let StatController = (function()
         let crit = StatManager.getStat('crit');
         let bonusCrit = StatManager.getMultiplierForStat('critDmg')-1; //additive
         let critDmg = 0.50; //base multiplier for all classes
+        if(Settings.getCompanionBuffs().indexOf('MDPS') !== -1)
+        {
+            bonusCrit += 0.01;
+        }
         critDmg += bonusCrit;
         critDmg *= 100;
         critDmg += 30*(1-(1-(.01/.3))**(crit/(Settings.getMaxLevel() * 1.503)));
