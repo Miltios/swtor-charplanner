@@ -361,8 +361,8 @@
                          <select onchange="DomController.userInput(this, 'augRatingSelect')" id="inputAugRating">
                             <option value="228">228</option>
                             <option value="230">230</option>
-                            <option value="236">236</option>
-                            <option value="240">240</option>
+                            <option value="238">238</option>
+                            <option value="242">242</option>
                             <option value="276">276</option>
                             <option value="286">286</option>
                          </select>
