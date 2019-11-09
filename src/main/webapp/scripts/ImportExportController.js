@@ -80,7 +80,7 @@ let ImportExportController = (function()
                     else
                     {
                         str += '~';
-                        str += this.getItemAsString(item); //TODO:remember to give this a new ID when importing
+                        str += this.getItemAsString(item);
                     }
                 }
                 if(i<this.slots.length-1)
@@ -115,7 +115,7 @@ let ImportExportController = (function()
                     else
                     {
                         str += '~';
-                        str += this.getItemAsString(aug); //TODO:remember to give this a new ID when importing
+                        str += this.getItemAsString(aug);
                     }
                 }
                 if(i<this.slots.length-1)
@@ -145,18 +145,22 @@ let ImportExportController = (function()
 
         return itemStr;
     };
+    ImportExportController.prototype.getItemFromString = function(str)
+    {
+        str = str.replace(/&com;/g, ',');
+        str = str.replace(/&dot;/g, '.');
+        str = str.replace(/&pipe;/g, '|');
+        let item = JSON.parse(str);
+        return ItemManager.addItem(item); //comes back with a new, ItemManager-approved ID
+    };
     ImportExportController.prototype.importFromString = function(str)
     {
-        //TODO
         //return "true" or an error message
         if(!str)
         {
             return 'EMPTY_STRING';
         }
         str = atob(str);
-        str.replace(/&com;/g, ',');
-        str.replace(/&dot;/g, '.');
-        str.replace(/&pipe;/g, '|');
         let codes = str.split('|');
         if(codes.length !== 3)
         {
@@ -173,7 +177,7 @@ let ImportExportController = (function()
         }
         try
         {
-            this.importGearFromString(codes[0]);
+            this.importGearFromString(codes[1]);
         }
         catch(e)
         {
@@ -182,7 +186,7 @@ let ImportExportController = (function()
         }
         try
         {
-            this.importAugmentsFromString(codes[0]);
+            this.importAugmentsFromString(codes[2]);
         }
         catch(e)
         {
@@ -237,11 +241,41 @@ let ImportExportController = (function()
     };
     ImportExportController.prototype.importGearFromString = function(str)
     {
-        //TODO
+        let codes = str.split('.');
+        for(let i=0; i<this.slots.length; i++)
+        {
+            let code = codes[i];
+            let slot = this.slots[i];
+            if(code[0] !== '~')
+            {
+                slot.setItem(ItemManager.getItemById(code));
+            }
+            else
+            {
+                code = code.substr(1);
+                let item = this.getItemFromString(code);
+                slot.setItem(item);
+            }
+        }
     };
     ImportExportController.prototype.importAugmentsFromString = function(str)
     {
-        //TODO
+        let codes = str.split('.');
+        for(let i=0; i<this.slots.length; i++)
+        {
+            let code = codes[i];
+            let slot = this.slots[i];
+            if(code[0] !== '~')
+            {
+                slot.setAugment(ItemManager.getItemById(code));
+            }
+            else
+            {
+                code = code.substr(1);
+                let aug = this.getItemFromString(code);
+                slot.setAugment(aug);
+            }
+        }
     };
     return new ImportExportController();
 })();
