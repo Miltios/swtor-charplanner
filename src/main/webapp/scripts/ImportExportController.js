@@ -29,6 +29,8 @@ let ImportExportController = (function()
 
         this.popup = document.getElementById('importExportEl');
         this.codeEl = document.getElementById('importExportCodeEl');
+
+        this.importFromStorage();
     };
     ImportExportController.prototype.getExportString = function()
     {
@@ -184,6 +186,14 @@ let ImportExportController = (function()
                 break;
         }
     };
+    ImportExportController.prototype.importFromStorage = function()
+    {
+        this.importFromString(Utilities.getStorage('savedData'));
+    };
+    ImportExportController.prototype.exportToStorage = function()
+    {
+        Utilities.setStorage('savedData', this.getExportString());
+    };
     ImportExportController.prototype.importFromString = function(str)
     {
         //return "true" or an error message
@@ -232,7 +242,7 @@ let ImportExportController = (function()
 
         //faction
         let factionEl = document.getElementsByClassName('faction-select-button-' + codes[0])[0];
-        factionEl.click();
+        DomController.toggleFaction(factionEl);
 
         //class
         document.getElementById('classDropdown').value = codes[1];
@@ -263,11 +273,15 @@ let ImportExportController = (function()
         let stim = codes[6];
         if(stim !== 'none')
         {
-            document.querySelector(`[data-stim-type="${stim}"]`).click();
+            Settings.updateStim(document.querySelector(`[data-stim-type="${stim}"]`));
         }
         else
         {
-            document.getElementsByClassName('button-stim-selected')[0].click();
+            let selected = document.getElementsByClassName('button-stim-selected');
+            for(let i=0; i<selected.length; i++)
+            {
+                Settings.updateStim(selected[i]);
+            }
         }
     };
     ImportExportController.prototype.importGearFromString = function(str)
