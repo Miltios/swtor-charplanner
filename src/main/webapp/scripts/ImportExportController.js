@@ -310,6 +310,7 @@ let ImportExportController = (function()
     };
     ImportExportController.prototype.show = function()
     {
+        this.codeEl.value = this.getExportString();
         this.popup.style.display = '';
         DomManager.showModalMask();
     };
