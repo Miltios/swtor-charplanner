@@ -226,17 +226,14 @@ let ItemManager = (function()
         }
         return null;
     };
-    /*ItemManager.prototype.addItem = function(data)
+    ItemManager.prototype.addItem = function(data)
     {
-        //not actually used yet
+        //for calling externally
         let item = new Item(data);
+        item.id = this.getNewId();
         this.items.push(item);
-        let id = parseInt(item.id);
-        if(id > this.lastItemId)
-        {
-            this.lastItemId = id;
-        }
-    };*/
+        return item; //in case the caller needs to use it with its new ID
+    };
     ItemManager.prototype.getItemById = function(id)
     {
         //we need strongly typed values here, so we coerce id to string and parse intId from there
