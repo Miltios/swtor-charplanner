@@ -401,19 +401,8 @@ body.faction-mode-pub .faction-imp
     position:absolute;
     right:19px;
     bottom:13px;
-    /*padding:15px;*/
     width:54px;
     height:54px;
-
-    background-color:#0f2333;
-    color:#96d6f1;
-    border:2px outset #96d6f1;
-    border-radius:4px;
-    cursor:pointer;
-}
-#deleteItemButton:hover
-{
-    border-color:#326b9d;
 }
 #tooltipEl
 {
@@ -722,13 +711,8 @@ body.faction-mode-pub .faction-imp
     font-weight:normal;
     font-size:1.15em;
 }
-#autofillGearButton,
-#importExportButton
+.button-standard
 {
-    display:block;
-    margin:5px auto;
-    position:relative;
-
     background-color:#0f2333;
     color:#96d6f1;
     border:2px outset #96d6f1;
@@ -736,19 +720,24 @@ body.faction-mode-pub .faction-imp
     cursor:pointer;
     padding:3px 9px;
 }
-#autofillGearButton
-{
-    top:20px;
-}
-#autofillGearButton:hover,
-#importExportButton:hover
+.button-standard:hover
 {
     border-color:#326b9d;
 }
-#autofillGearButton:active,
-#importExportButton:active
+.button-standard:active
 {
     border-style:inset;
+}
+#autofillGearButton,
+#importExportButton
+{
+    display:block;
+    margin:5px auto;
+    position:relative;
+}
+#autofillGearButton
+{
+    top:20px;
 }
 #importExportButton
 {
@@ -756,7 +745,7 @@ body.faction-mode-pub .faction-imp
 }
 #customStatsEl
 {
-    background-color:#00050D;
+    background-color:#0f2333;
     border:2px solid #96D6F199;
     border-radius:5px;
     padding:10px;

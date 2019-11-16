@@ -39,7 +39,7 @@
                         </div>
                     </td>
                     <td colspan="2" style="vertical-align:top">
-                        <button id="importExportButton" onclick="DomController.userInput(this, 'importExport')">Import/export...</button>
+                        <button id="importExportButton" class="button-standard" onclick="DomController.userInput(this, 'importExport')">Import/export...</button>
                         <div id="charStatsWrapper">
                         <img class="char-stats-frame" src="images/frames/frame_rawstats_top.png" />
                             <div id="charStatsDiv">
@@ -191,7 +191,7 @@
                         </div>
                     </td>
                     <td colspan="2">
-                        <button id="autofillGearButton" onclick="DomController.userInput(this, 'autofillGear')">Autofill gear for spec</button>
+                        <button id="autofillGearButton" class="button-standard" onclick="DomController.userInput(this, 'autofillGear')">Autofill gear for spec</button>
                     </td>
                     <td>
                         <div id="slotLegs" class="character-slot">
@@ -588,7 +588,7 @@
                         </a>
                     </div>
                 </div>
-                <button id="deleteItemButton" onclick="DomController.userInput(this, 'deleteItem');" style="display:none;">Clear slot</button>
+                <button id="deleteItemButton" class="button-standard" onclick="DomController.userInput(this, 'deleteItem');" style="display:none;">Clear slot</button>
             </div>
             <div id="itemListSettingsTop">
             </div>
@@ -714,8 +714,8 @@
     <div id="customStatsEl" class="modal-popup" style="display:none">
         <table id="customStatsContent"></table>
         <div id="customStatsButtons">
-            <button id="customStatsCancelButton" onclick="DomController.userInput(this, 'cancelCustomStats')">Cancel</button>
-            <button id="customStatsSaveButton" onclick="DomController.userInput(this, 'saveCustomStats')">Save</button>
+            <button id="customStatsCancelButton" class="button-standard" onclick="DomController.userInput(this, 'cancelCustomStats')">Cancel</button>
+            <button id="customStatsSaveButton" class="button-standard" onclick="DomController.userInput(this, 'saveCustomStats')">Save</button>
         </div>
     </div>
     <div id="importExportEl" class="modal-popup" style="display:none">
@@ -724,8 +724,8 @@
         </div>
         <textarea id="importExportCodeEl"></textarea>
         <div id="importExportButtonsArea">
-            <button id="closeImportExportButton" onclick="DomController.userInput(this, 'closeImportExport')">Close</button>
-            <button id="importFromCodeButton" onclick="DomController.userInput(this, 'importFromCode')">Import</button>
+            <button id="closeImportExportButton" class="button-standard" onclick="DomController.userInput(this, 'closeImportExport')">Close</button>
+            <button id="importFromCodeButton" class="button-standard" onclick="DomController.userInput(this, 'importFromCode')">Import</button>
         </div>
     </div>
     <div id="modalMask" style="display:none;"></div>
