@@ -39,6 +39,7 @@
                         </div>
                     </td>
                     <td colspan="2" style="vertical-align:top">
+                        <button id="importExportButton" class="button-standard" onclick="DomController.userInput(this, 'importExport')">Import/Export...</button>
                         <div id="charStatsWrapper">
                         <img class="char-stats-frame" src="images/frames/frame_rawstats_top.png" />
                             <div id="charStatsDiv">
@@ -190,7 +191,7 @@
                         </div>
                     </td>
                     <td colspan="2">
-                        <button id="autofillGearButton" onclick="DomController.userInput(this, 'autofillGear')">Autofill gear for spec</button>
+                        <button id="autofillGearButton" class="button-standard" onclick="DomController.userInput(this, 'autofillGear')">Autofill gear for spec</button>
                     </td>
                     <td>
                         <div id="slotLegs" class="character-slot">
@@ -587,7 +588,7 @@
                         </a>
                     </div>
                 </div>
-                <button id="deleteItemButton" onclick="DomController.userInput(this, 'deleteItem');" style="display:none;">Clear slot</button>
+                <button id="deleteItemButton" class="button-standard" onclick="DomController.userInput(this, 'deleteItem');" style="display:none;">Clear slot</button>
             </div>
             <div id="itemListSettingsTop">
             </div>
@@ -713,8 +714,18 @@
     <div id="customStatsEl" class="modal-popup" style="display:none">
         <table id="customStatsContent"></table>
         <div id="customStatsButtons">
-            <button id="customStatsCancelButton" onclick="DomController.userInput(this, 'cancelCustomStats')">Cancel</button>
-            <button id="customStatsSaveButton" onclick="DomController.userInput(this, 'saveCustomStats')">Save</button>
+            <button id="customStatsCancelButton" class="button-standard" onclick="DomController.userInput(this, 'cancelCustomStats')">Cancel</button>
+            <button id="customStatsSaveButton" class="button-standard" onclick="DomController.userInput(this, 'saveCustomStats')">Save</button>
+        </div>
+    </div>
+    <div id="importExportEl" class="modal-popup" style="display:none">
+        <div id="importExportText">
+            This code represents all of your current gear and settings, including class/spec, stims, items with custom stats, etc.  You can share your setup with anyone else by giving them the code, or load a different setup by pasting a different code in the box and clicking "import".  If you have browser storage enabled, your setup will also be saved automatically so it's there when you come back.
+        </div>
+        <textarea id="importExportCodeEl" onfocus="this.select()"></textarea>
+        <div id="importExportButtonsArea">
+            <button id="closeImportExportButton" class="button-standard" onclick="DomController.userInput(this, 'closeImportExport')">Close</button>
+            <button id="importFromCodeButton" class="button-standard" onclick="DomController.userInput(this, 'importFromCode')">Import</button>
         </div>
     </div>
     <div id="modalMask" style="display:none;"></div>
@@ -802,6 +813,7 @@ function log(str)
     requireJs("scripts/Utilities.js");
     requireJs("scripts/Dev.js");
     requireJs("scripts/AutofillController.js");
+    requireJs("scripts/ImportExportController.js");
     requireJs("scripts/model/Item.js");
     requireJs("scripts/model/ItemMod.js");
     requireJs("scripts/model/Slot.js");

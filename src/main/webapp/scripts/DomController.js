@@ -50,19 +50,7 @@ let DomController = (function()
             }
             case 'factionToggle':
             {
-                Settings.updateFactionButtons(el);
-                let faction = el.getAttribute('value');
-                DomManager.setFaction(faction);
-                Settings.updateFactionSelections();
-                let currSlot = SlotManager.getCurrentSlot();
-
-                //some republic classes have a different offhand from their imperial counterparts.  All other slots are the same.
-                if(currSlot && (currSlot.getName() === 'offhand' || currSlot.getName() === 'mainhand'))
-                {
-                    PickerController.updateLists();
-                    PickerController.populateCurrentItemForSlot(currSlot);
-                }
-                SlotManager.getSlot('offhand').updateAppearance();
+                this.toggleFaction(el);
                 break;
             }
             case 'toggleExpand':
@@ -176,6 +164,15 @@ let DomController = (function()
                 AutofillController.populateRightSide();
                 HelpController.display('autofill');
                 break;
+            case 'importExport':
+                ImportExportController.show();
+                break;
+            case 'closeImportExport':
+                ImportExportController.hide();
+                break;
+            case 'importFromCode':
+                ImportExportController.importFromCode();
+                break;
             case 'deleteItem':
             {
                 let slot = SlotManager.getCurrentSlot();
@@ -206,6 +203,7 @@ let DomController = (function()
         }
         StatController.updateCharStats(); //not actually necessary for ALL userInput functions, but simpler and more reliable to put it here
         WarningsController.updateWarnings(); //ditto
+        ImportExportController.exportToStorage(); //ditto, although this may be too expensive to keep here
     };
     DomController.prototype.initSelections = function()
     {
@@ -276,6 +274,22 @@ let DomController = (function()
         {
             DomManager.getItemList('empty').style.display = '';
         }
+    };
+    DomController.prototype.toggleFaction = function(el)
+    {
+        Settings.updateFactionButtons(el);
+        let faction = el.getAttribute('value');
+        DomManager.setFaction(faction);
+        Settings.updateFactionSelections();
+        let currSlot = SlotManager.getCurrentSlot();
+
+        //some republic classes have a different offhand from their imperial counterparts.  All other slots are the same.
+        if(currSlot && (currSlot.getName() === 'offhand' || currSlot.getName() === 'mainhand'))
+        {
+            PickerController.updateLists();
+            PickerController.populateCurrentItemForSlot(currSlot);
+        }
+        SlotManager.getSlot('offhand').updateAppearance();
     };
 
     return new DomController();

@@ -21,7 +21,7 @@ let HelpController = (function()
             case 'welcome':
             {
                 msg = 'Welcome to the SWTOR charplanner!  Set your class and other info in the top left menu, and then click a gear slot to get started.<br/><br/>' +
-                        'By default, the site assumes that you have all datacrons, companions, and class buffs, including the newly-released Onderon and Mek-Sha datacrons.  You can change all of these settings to more closely match your situation.'; //TODO: remove the "newly-released" part a while after 6.0
+                        'By default, the site assumes that you have all datacrons, companions, and class buffs.  You can change all of these settings to more closely match your situation.';
                 break;
             }
             case 'itemPicker':

@@ -55,7 +55,30 @@ let Utilities = (function()
             return str;
         }
         return str.substring(0,1).toLowerCase() + str.substr(1);
-    }
+    };
+    Utilities.prototype.setStorage = function(name, val)
+    {
+        if(typeof(Storage) !== 'undefined')
+        {
+            localStorage.setItem(name, val);
+        }
+        else
+        {
+            console.error('Local storage is not enabled!');
+        }
+    };
+    Utilities.prototype.getStorage = function(name)
+    {
+        if(typeof(Storage) !== 'undefined')
+        {
+            return localStorage.getItem(name);
+        }
+        else
+        {
+            console.error('Local storage is not enabled!');
+            return '';
+        }
+    };
     return new Utilities();
 })();
 declareReady('Utilities.js', null);
