@@ -39,6 +39,7 @@
                         </div>
                     </td>
                     <td colspan="2" style="vertical-align:top">
+                        <button id="importExportButton" onclick="DomController.userInput(this, 'importExport')">Import/export...</button>
                         <div id="charStatsWrapper">
                         <img class="char-stats-frame" src="images/frames/frame_rawstats_top.png" />
                             <div id="charStatsDiv">
@@ -715,6 +716,16 @@
         <div id="customStatsButtons">
             <button id="customStatsCancelButton" onclick="DomController.userInput(this, 'cancelCustomStats')">Cancel</button>
             <button id="customStatsSaveButton" onclick="DomController.userInput(this, 'saveCustomStats')">Save</button>
+        </div>
+    </div>
+    <div id="importExportEl" class="modal-popup" style="display:none">
+        <div id="importExportText">
+            This code represents all of your current gear and settings, including class/spec, stims, items with custom stats, etc.  You can share your setup with anyone else by giving them the code, or load a different setup by pasting a different code in the box and clicking "import".  If you have cookies enabled, your setup will also be saved automatically so it's there when you come back.
+        </div>
+        <textarea id="importExportCodeEl"></textarea>
+        <div id="importExportButtonsArea">
+            <button id="closeImportExportButton" onclick="DomController.userInput(this, 'closeImportExport')">Close</button>
+            <button id="importFromCodeButton" onclick="DomController.userInput(this, 'importFromCode')">Import</button>
         </div>
     </div>
     <div id="modalMask" style="display:none;"></div>

@@ -68,6 +68,7 @@ body.faction-mode-pub .faction-imp
 #charBodyTable
 {
     width:650px;
+    margin-top:20px;
 }
 #charBodyTable td
 {
@@ -457,7 +458,7 @@ body.faction-mode-pub .faction-imp
 {
     width:300px;
     height:0; /*HACK: this gets us around the table row height structure while still using flexible width*/
-    margin:15px auto;
+    margin:0 auto;
 }
 #charStatsWrapper .char-stats-frame
 {
@@ -721,12 +722,12 @@ body.faction-mode-pub .faction-imp
     font-weight:normal;
     font-size:1.15em;
 }
-#autofillGearButton
+#autofillGearButton,
+#importExportButton
 {
     display:block;
-    margin:0 auto;
+    margin:5px auto;
     position:relative;
-    top:20px;
 
     background-color:#0f2333;
     color:#96d6f1;
@@ -735,13 +736,23 @@ body.faction-mode-pub .faction-imp
     cursor:pointer;
     padding:3px 9px;
 }
-#autofillGearButton:hover
+#autofillGearButton
+{
+    top:20px;
+}
+#autofillGearButton:hover,
+#importExportButton:hover
 {
     border-color:#326b9d;
 }
-#autofillGearButton:active
+#autofillGearButton:active,
+#importExportButton:active
 {
     border-style:inset;
+}
+#importExportButton
+{
+    margin-top:-15px;
 }
 #customStatsEl
 {
@@ -768,6 +779,19 @@ body.faction-mode-pub .faction-imp
 {
     margin-top:10px;
 }
+#importExportEl
+{
+    background-color:#0f2333;
+    border:2px solid #96D6F199;
+    border-radius:5px;
+    padding:10px;
+}
+#importExportCodeEl
+{
+    width:800px;
+    height:100px;
+    margin:10px auto;
+}
 #modalMask
 {
     position:fixed;
@@ -777,7 +801,7 @@ body.faction-mode-pub .faction-imp
     height:100%;
     z-index:1;
     background-color:black;
-    opacity:0.5;
+    opacity:0.7;
 }
 .modal-popup
 {

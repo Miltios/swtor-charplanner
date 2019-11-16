@@ -15,6 +15,8 @@ let ImportExportController = (function()
     {
         this.slots;
         this.slotOrder = ['ear', 'implant1', 'implant2', 'wrists', 'relic1', 'relic2', 'head', 'chest', 'hands', 'waist', 'legs', 'feet', 'mainhand', 'offhand'];
+        this.popup;
+        this.codeEl;
     }
     ImportExportController.prototype.init = function()
     {
@@ -24,6 +26,9 @@ let ImportExportController = (function()
         {
             this.slots.push(unsortedSlots[this.slotOrder[i]]);
         }
+
+        this.popup = document.getElementById('importExportEl');
+        this.codeEl = document.getElementById('importExportCodeEl');
     };
     ImportExportController.prototype.getExportString = function()
     {
@@ -153,6 +158,32 @@ let ImportExportController = (function()
         let item = JSON.parse(str);
         return ItemManager.addItem(item); //comes back with a new, ItemManager-approved ID
     };
+    ImportExportController.prototype.importFromCode = function()
+    {
+        let result = this.importFromString(this.codeEl.value);
+        switch(result)
+        {
+            case true:
+                alert('Imported successfully!');
+                this.hide();
+                break;
+            case 'EMPTY_STRING':
+                alert('Please enter a code in the text box.');
+                break;
+            case 'INVALID_SECTIONS':
+                alert('Invalid code.  Please try again or contact an administrator.');
+                break;
+            case 'INVALID_SETTINGS':
+                alert('Invalid code.  Please try again or contact an administrator.');
+                break;
+            case 'INVALID_GEAR':
+                alert('Your settings have been imported, but there was an error while processing your gear.  Please try again or contact an administrator.');
+                break;
+            case 'INVALID_AUGMENTS':
+                alert('Your settings and gear have been imported, but there was an error while processing your augments.  Please try again or contact an administrator.');
+                break;
+        }
+    };
     ImportExportController.prototype.importFromString = function(str)
     {
         //return "true" or an error message
@@ -276,6 +307,16 @@ let ImportExportController = (function()
                 slot.setAugment(aug);
             }
         }
+    };
+    ImportExportController.prototype.show = function()
+    {
+        this.popup.style.display = '';
+        DomManager.showModalMask();
+    };
+    ImportExportController.prototype.hide = function()
+    {
+        this.popup.style.display = 'none';
+        DomManager.hideModalMask();
     };
     return new ImportExportController();
 })();

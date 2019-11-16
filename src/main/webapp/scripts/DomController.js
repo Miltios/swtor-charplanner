@@ -176,6 +176,15 @@ let DomController = (function()
                 AutofillController.populateRightSide();
                 HelpController.display('autofill');
                 break;
+            case 'importExport':
+                ImportExportController.show();
+                break;
+            case 'closeImportExport':
+                ImportExportController.hide();
+                break;
+            case 'importFromCode':
+                ImportExportController.importFromCode();
+                break;
             case 'deleteItem':
             {
                 let slot = SlotManager.getCurrentSlot();
