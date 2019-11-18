@@ -231,6 +231,9 @@ let ItemManager = (function()
         //for calling externally
         let item = new Item(data);
         item.id = this.getNewId();
+        data.itemMods.map((mod) => {
+            item.addItemModById(mod);
+        })
         this.items.push(item);
         return item; //in case the caller needs to use it with its new ID
     };
