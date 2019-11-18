@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles/global.css?dc=20191019a">
     <link rel="stylesheet" type="text/css" href="styles/gearPlanner.css?dc=20191019a">
     <link rel="icon" href="favicon.ico?">
+    <script language="javascript" src="scripts/lib/lz-string/lz-string.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=<%=StartClass.getProperty("analyticsId")%>"></script>
     <script>
