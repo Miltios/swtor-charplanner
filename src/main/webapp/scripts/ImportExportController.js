@@ -39,7 +39,7 @@ let ImportExportController = (function()
         str += this.getGearString();
         str += '|';
         str += this.getAugmentsString();
-        return btoa(str); //honestly, base64 just looks more professional here; we don't actually need it
+        return LZString.compressToBase64(str); //base64 forces ASCII compression (default is invalid UTF-16, which round-trips fine but can play badly with copy/paste)
     };
     ImportExportController.prototype.getSettingsString = function()
     {
@@ -201,7 +201,7 @@ let ImportExportController = (function()
         {
             return 'EMPTY_STRING';
         }
-        str = atob(str);
+        str = LZString.decompressFromBase64(str);
         let codes = str.split('|');
         if(codes.length !== 3)
         {
