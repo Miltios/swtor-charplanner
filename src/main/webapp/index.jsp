@@ -721,7 +721,10 @@
     </div>
     <div id="importExportEl" class="modal-popup" style="display:none">
         <div id="importExportText">
-            This code represents all of your current gear and settings, including class/spec, stims, items with custom stats, etc.  You can share your setup with anyone else by giving them the code, or load a different setup by pasting a different code in the box and clicking "import".  If you have browser storage enabled, your setup will also be saved automatically so it's there when you come back.
+            This code represents all of your current gear and settings, including class/spec, stims, custom items, etc.  You can share your setup with anyone else by giving them the code, or load a different setup by pasting a different code in the box and clicking "import".
+            <br />
+            <br />
+            If you have browser storage enabled, your setup will also be saved automatically so it's there when you come back.
         </div>
         <textarea id="importExportCodeEl" onfocus="this.select()"></textarea>
         <div id="importExportButtonsArea">

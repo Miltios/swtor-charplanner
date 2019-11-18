@@ -773,7 +773,8 @@ body.faction-mode-pub .faction-imp
     background-color:#0f2333;
     border:2px solid #96D6F199;
     border-radius:5px;
-    padding:10px;
+    padding:10px 15px;
+    max-width:900px;
 }
 #importExportCodeEl
 {
