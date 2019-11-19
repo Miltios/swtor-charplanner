@@ -173,6 +173,12 @@ let DomController = (function()
             case 'importFromCode':
                 ImportExportController.importFromCode();
                 break;
+            case 'clearAll':
+                if(window.confirm('Are you sure you want to remove all equipped gear, augments, and stims?'))
+                {
+                    AutofillController.clearAll();
+                }
+                break;
             case 'deleteItem':
             {
                 let slot = SlotManager.getCurrentSlot();
