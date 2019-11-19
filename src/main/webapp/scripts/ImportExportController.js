@@ -167,6 +167,7 @@ let ImportExportController = (function()
         {
             case true:
                 alert('Imported successfully!');
+                DomController.hideItemPicker();
                 this.hide();
                 break;
             case 'EMPTY_STRING':

@@ -728,15 +728,20 @@ body.faction-mode-pub .faction-imp
 {
     border-style:inset;
 }
-#autofillGearButton,
-#importExportButton
+#charBodyButtonsTop
+{
+    text-align:center;
+    margin-top:-20px;
+}
+#charBodyButtonsTop>.button-standard
+{
+    margin:5px auto;
+}
+#autofillGearButton
 {
     display:block;
     margin:5px auto;
     position:relative;
-}
-#autofillGearButton
-{
     top:20px;
 }
 #importExportButton

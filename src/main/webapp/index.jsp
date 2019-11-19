@@ -39,8 +39,11 @@
                             </a>
                         </div>
                     </td>
-                    <td colspan="2" style="vertical-align:top">
-                        <button id="importExportButton" class="button-standard" onclick="DomController.userInput(this, 'importExport')">Import/Export...</button>
+                    <td colspan="2" style="vertical-align:top;">
+                        <div id="charBodyButtonsTop">
+                            <button id="importExportButton" class="button-standard" onclick="DomController.userInput(this, 'importExport')">Import/Export...</button>
+                            <button id="clearAllButton" class="button-standard" onclick="DomController.userInput(this, 'clearAll')">Clear All</button>
+                        </div>
                         <div id="charStatsWrapper">
                         <img class="char-stats-frame" src="images/frames/frame_rawstats_top.png" />
                             <div id="charStatsDiv">

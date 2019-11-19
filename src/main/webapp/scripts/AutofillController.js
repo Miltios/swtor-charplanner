@@ -94,6 +94,22 @@ let AutofillController = (function()
 
         return 'amplified'; //all-class fallback in case something goes haywire
     };
+    AutofillController.prototype.clearAll = function()
+    {
+        let slots = SlotManager.getAllCharSlots();
+        for(let slotName in slots)
+        {
+            var slot = slots[slotName];
+            slot.setItem(null);
+            slot.setAugment(null);
+        }
+        DomController.hideItemPicker();
+        let stimEls = document.getElementsByClassName('button-stim-selected');
+        for(let i=0; i<stimEls.length; i++)
+        {
+            Settings.updateStim(stimEls[i]);
+        }
+    };
     return new AutofillController();
 })();
 declareReady('AutofillController.js', null);
