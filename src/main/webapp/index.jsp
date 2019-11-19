@@ -4,7 +4,7 @@
 <head>
     <title>SWTOR Charplanner</title>
     <link rel="stylesheet" type="text/css" href="styles/global.css?dc=20191019a">
-    <link rel="stylesheet" type="text/css" href="styles/gearPlanner.css?dc=20191019a">
+    <link rel="stylesheet" type="text/css" href="styles/gearPlanner.css?dc=20191119">
     <link rel="icon" href="favicon.ico?">
     <script language="javascript" src="scripts/lib/lz-string/lz-string.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
