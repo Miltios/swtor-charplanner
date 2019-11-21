@@ -145,6 +145,26 @@ let ImportExportController = (function()
         {
             return '';
         }
+        let hasCustomMods = false;
+        item.itemMods.map((modId) => {
+            if(parseInt(modId) < 0)
+            {
+                hasCustomMods = true;
+            }
+        });
+        if(hasCustomMods)
+        {
+            //can't just track the mods by ID, as they will lose their custom stats, so we spell them out like we did with custom items
+            let clone = Object.assign({}, item); //shallow copy
+            clone.itemMods = [];
+            item.itemMods.map((modId) => {
+                let mod = ItemManager.getItemModById(modId);
+                mod.specs = []; //not needed
+                clone.itemMods.push(mod);
+            });
+            item = clone;
+        }
+
         let itemStr = JSON.stringify(item);
         itemStr = itemStr.replace(/\,/g,'&com;'); //reserved delimiter
         itemStr = itemStr.replace(/\./g,'&dot;'); //reserved delimiter
@@ -158,6 +178,17 @@ let ImportExportController = (function()
         str = str.replace(/&dot;/g, '.');
         str = str.replace(/&pipe;/g, '|');
         let item = JSON.parse(str);
+
+        for(let i=0; i<item.itemMods.length; i++)
+        {
+            //if mods come back as full objects rather than numeric IDs, it means they're custom and have to be re-added to ItemManager
+            let mod = item.itemMods[i];
+            if(typeof mod === 'object')
+            {
+                item.itemMods[i] = ItemManager.addItemMod(mod); //comes back with a new, ItemManager-approved ID
+            }
+        }
+
         return ItemManager.addItem(item); //comes back with a new, ItemManager-approved ID
     };
     ImportExportController.prototype.importFromCode = function()

@@ -42,7 +42,7 @@ function Item(data)
         {
             if(contents.hasOwnProperty(i))
             {
-                this.addItemModById(contents[i]);
+                this.addItemMod(contents[i]);
             }
         }
     }
@@ -94,18 +94,17 @@ Item.prototype.getItemMods = function()
     }
     return mods;
 };
-Item.prototype.addItemModById = function(modId)
-{
-    let mod = ItemManager.getItemModById(modId);
-    if(mod === null)
-    {
-        console.error('Attempted to add nonexistent mod with ID ' + modId + '!');
-        return;
-    }
-    this.addItemMod(mod);
-}
 Item.prototype.addItemMod = function(mod)
 {
+    if(typeof mod === 'number' || typeof mod === 'string')
+    {
+        mod = ItemManager.getItemModById(mod);
+    }
+    if(mod === null)
+    {
+        console.error('Attempted to add nonexistent mod with ID ' + mod + '!');
+        return;
+    }
     let slotName = mod.slot;
     let oldId = this.getModIdInSlot(slotName);
     let newId = mod.id;
@@ -117,7 +116,7 @@ Item.prototype.addItemMod = function(mod)
     {
         this.itemMods.push(newId);
     }
-}
+};
 Item.prototype.getModIdInSlot = function(slotName)
 {
     for(let i=0; i<this.itemMods.length; i++)
