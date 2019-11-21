@@ -6,7 +6,7 @@ let ItemManager = (function()
         this.items = [];
         this.itemMods = [];
         this.lastItemId = -1;
-        this.lastModId = 0;
+        this.lastModId = -1;
     }
     ItemManager.prototype.init = function()
     {
@@ -45,7 +45,7 @@ let ItemManager = (function()
             let mod = new ItemMod(data[i]);
             this.itemMods.push(mod);
             let id = parseInt(mod.id);
-            if(id > this.lastModId)
+            if(id < this.lastModId)
             {
                 this.lastModId = id;
             }
@@ -232,11 +232,19 @@ let ItemManager = (function()
         let item = new Item(data);
         item.id = this.getNewId();
         data.itemMods.map((mod) => {
-            item.addItemModById(mod);
-        })
+            item.addItemMod(mod);
+        });
         this.items.push(item);
         return item; //in case the caller needs to use it with its new ID
     };
+    ItemManager.prototype.addItemMod = function(data)
+    {
+        //for calling externally
+        let mod = new ItemMod(data);
+        mod.id = this.getNewModId();
+        this.itemMods.push(mod);
+        return mod;
+    }
     ItemManager.prototype.getItemById = function(id)
     {
         //we need strongly typed values here, so we coerce id to string and parse intId from there
@@ -275,7 +283,7 @@ let ItemManager = (function()
         //we need strongly typed values here, so we coerce id to string and parse intId from there
         id += '';
         let intId = parseInt(id);
-        if(!id || !intId || intId<0) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
+        if(!id || !intId) //NB: id=0 evaluates as "false" here, but that's ok because our DB IDs start at 1
         {
             return null;
         }
@@ -576,7 +584,7 @@ let ItemManager = (function()
     };
     ItemManager.prototype.getNewModId = function()
     {
-        this.lastModId++;
+        this.lastModId--;
         return this.lastModId + '';
     };
     return new ItemManager();
