@@ -161,7 +161,7 @@ let StatManager = (function()
             console.error('Attempted to get spec buffs with invalid arguments: (' + spec + ', ' + stat + ')!');
             return 1;
         }
-        let buffs = this.specBuffs.filter(b => (b.spec === spec && b.stat === stat));
+        let buffs = this.specBuffs.filter(b => (b.spec === spec && b.stat.toLowerCase() === stat.toLowerCase()));
         let mult = 1;
         for(let i=0; i<buffs.length; i++)
         {
