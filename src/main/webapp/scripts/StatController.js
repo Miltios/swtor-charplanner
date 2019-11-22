@@ -332,15 +332,18 @@ let StatController = (function()
             statName = statName.substring(8);
             if(stats.hasOwnProperty(statName))
             {
-                StatManager.setStat(statName, stats[statName]);
                 let statValue = stats[statName];
-                if(statName === 'mastery')
+                if(['mastery', 'endurance'].indexOf(statName) === -1)
                 {
-                    statValue *= StatManager.getMultiplierForStat('mastery'); //BW likes to show this buff on the character sheet but NOT use it for further stat calculations
+                    statValue *= StatManager.getMultiplierForStat(statName);
                 }
-                else if(statName === 'endurance')
+
+                StatManager.setStat(statName, statValue);
+                //NB: every stat modification after this point is for display only
+
+                if(['mastery', 'endurance'].indexOf(statName) !== -1) //BW likes to show these buffs on the character sheet but NOT use them for further stat calculations
                 {
-                    statValue *= StatManager.getMultiplierForStat('endurance'); //same deal
+                    statValue *= StatManager.getMultiplierForStat(statName);
                 }
                 el.innerHTML = statValue.toFixed(0);
             }
@@ -577,7 +580,7 @@ let StatController = (function()
         //alacrity formula for 5.x: 30*(1-(1-(.01/.3))^(alacrity/level/1.25))
         //alacrity formula for 6.0: 30*(1-(1-(.01/.3))^(alacrity/level/2.015))
         let alacrity = StatManager.getStat('alacrity');
-        let bonusAlac = StatManager.getMultiplierForStat('alacrity')-1; //additive
+        let bonusAlac = StatManager.getMultiplierForStat('alacrityperc')-1; //additive
         let alacPerc = 30*(1-((1-(.01/.3))**((alacrity/Settings.getMaxLevel())/2.015)));
         alacPerc += (100 * bonusAlac);
         let tier = '1';

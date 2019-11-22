@@ -1,5 +1,5 @@
 Spec,Stat,StatValue,Passive,Disabled,tempNote
-mercBurst,alacrity,0.03,TODO,0,TODO: raw alacrity stat or final %?
+mercBurst,alacrityPerc,0.03,TODO,0,"this is applied as a final arithmetic %, not a boost to raw stat"
 sorcHealer,critChance,0.03,TODO,0,critForce
 sorcHealer,dmgReduc,0.03,TODO,0,
 sorcHealer,bonusHeal,0.03,TODO,0,
@@ -10,7 +10,7 @@ mercHealer,critChance,0.03,TODO,0,critTech
 mercHealer,bonusHeal,0.05,TODO,0,
 mercSust,critChance,0.05,TODO,0,critRanged
 opBurst,defChance,0.02,TODO,0,"TODO: def chance against MR, FT, or all?"
-maraBurst,alacrity,0.03,TODO,0,
+maraBurst,alacrityPerc,0.03,TODO,0,"this is applied as a final arithmetic %, not a boost to raw stat"
 maraBurst,dmgOffhand,0.25,TODO,0,
 maraBurst,dmgReduc,0.02,TODO,0,TODO:should this be 3% from shii-cho form?
 maraHybrid,dmgMR,0.05,TODO,0,dmgMelee
