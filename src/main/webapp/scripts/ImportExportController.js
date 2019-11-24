@@ -277,7 +277,7 @@ let ImportExportController = (function()
         DomController.toggleFaction(factionEl);
 
         //class
-        document.getElementById('classDropdown').value = codes[1];
+        Settings.selectClass(codes[1]);
         Settings.updateSpecDropdown();
 
         //spec

@@ -397,6 +397,33 @@ let Settings = (function()
             }
         }
     };
+    Settings.prototype.selectClass = function(value)
+    {
+        if(!value || typeof value !== 'string')
+        {
+            console.error('Invalid class!');
+            return;
+        }
+        this.selectFactionDropdown(this.cd, value);
+    };
+    Settings.prototype.selectFactionDropdown = function(dropdown, value)
+    {
+        let options = dropdown.getElementsByClassName('faction-' + this.getFaction());
+        let match = false;
+        for(let i in options)
+        {
+            if(options.hasOwnProperty(i) && options[i].value === value)
+            {
+                options[i].selected = true;
+                match = true;
+                break;
+            }
+        }
+        if(!match)
+        {
+            console.error('Could not find dropdown option "' + value + '" for faction "' + this.getFaction() + '"!');
+        }
+    };
     Settings.prototype.updateSpecDropdown = function()
     {
         let className = this.getClass();
