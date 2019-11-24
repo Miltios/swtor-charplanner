@@ -406,6 +406,15 @@ let Settings = (function()
         }
         this.selectFactionDropdown(this.cd, value);
     };
+    Settings.prototype.selectSpec = function(value)
+    {
+        if(!value || typeof value !== 'string')
+        {
+            console.error('Invalid spec!');
+            return;
+        }
+        this.selectFactionDropdown(this.sd, value);
+    };
     Settings.prototype.selectFactionDropdown = function(dropdown, value)
     {
         let options = dropdown.getElementsByClassName('faction-' + this.getFaction());

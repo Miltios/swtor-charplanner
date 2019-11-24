@@ -281,7 +281,7 @@ let ImportExportController = (function()
         Settings.updateSpecDropdown();
 
         //spec
-        document.getElementById('specDropdown').value = codes[2];
+        Settings.selectSpec(codes[2]);
 
         //datacrons
         Settings.deselectAll('datacrons');
