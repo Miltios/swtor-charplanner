@@ -533,6 +533,36 @@ let Settings = (function()
     {
         this.maxLevel = level;
     };
+    Settings.prototype.deselectAll = function(section)
+    {
+        //if "section" parameter is blank or absent, just deselect everything
+        if(!section || section === 'datacrons')
+        {
+            this.clearSection(this.dcSub);
+            this.updateDatacrons(null);
+        }
+        if(!section || section === 'classBuffs')
+        {
+            this.clearSection(this.clbSub);
+            this.updateClassBuffs(null);
+        }
+        if(!section || section === 'companionBuffs')
+        {
+            this.clearSection(this.cobSub);
+            this.updateCompanionBuffs(null);
+        }
+    };
+    Settings.prototype.clearSection = function(checkboxes)
+    {
+        //does NOT recalculate anything based on these changes.  If recalc is needed, trigger manually after calling.
+        for(let i in checkboxes)
+        {
+            if(checkboxes.hasOwnProperty(i))
+            {
+                checkboxes[i].checked = false;
+            }
+        }
+    };
     return new Settings();
 })();
 declareReady('Settings.js', function(){Settings.init()});
