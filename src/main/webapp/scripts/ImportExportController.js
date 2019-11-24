@@ -277,25 +277,28 @@ let ImportExportController = (function()
         DomController.toggleFaction(factionEl);
 
         //class
-        document.getElementById('classDropdown').value = codes[1];
+        Settings.selectClass(codes[1]);
         Settings.updateSpecDropdown();
 
         //spec
         document.getElementById('specDropdown').value = codes[2];
 
         //datacrons
+        Settings.deselectAll('datacrons');
         codes[3].split(',').map((datacron) => {
             document.getElementById('datacronsCheckbox' + datacron).checked = true;
         });
         Settings.updateDatacrons(null);
 
         //class buffs
+        Settings.deselectAll('classBuffs');
         codes[4].split(',').map((buff) => {
             document.getElementById('classBuffsCheckbox' + buff).checked = true;
         });
         Settings.updateClassBuffs(null);
 
         //companion buffs
+        Settings.deselectAll('companionBuffs');
         codes[5].split(',').map((buff) => {
             document.getElementById('companionBuffsCheckbox' + buff).checked = true;
         });

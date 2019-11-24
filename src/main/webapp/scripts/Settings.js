@@ -397,6 +397,33 @@ let Settings = (function()
             }
         }
     };
+    Settings.prototype.selectClass = function(value)
+    {
+        if(!value || typeof value !== 'string')
+        {
+            console.error('Invalid class!');
+            return;
+        }
+        this.selectFactionDropdown(this.cd, value);
+    };
+    Settings.prototype.selectFactionDropdown = function(dropdown, value)
+    {
+        let options = dropdown.getElementsByClassName('faction-' + this.getFaction());
+        let match = false;
+        for(let i in options)
+        {
+            if(options.hasOwnProperty(i) && options[i].value === value)
+            {
+                options[i].selected = true;
+                match = true;
+                break;
+            }
+        }
+        if(!match)
+        {
+            console.error('Could not find dropdown option "' + value + '" for faction "' + this.getFaction() + '"!');
+        }
+    };
     Settings.prototype.updateSpecDropdown = function()
     {
         let className = this.getClass();
@@ -505,6 +532,36 @@ let Settings = (function()
     Settings.prototype.setMaxLevel = function(level)
     {
         this.maxLevel = level;
+    };
+    Settings.prototype.deselectAll = function(section)
+    {
+        //if "section" parameter is blank or absent, just deselect everything
+        if(!section || section === 'datacrons')
+        {
+            this.clearSection(this.dcSub);
+            this.updateDatacrons(null);
+        }
+        if(!section || section === 'classBuffs')
+        {
+            this.clearSection(this.clbSub);
+            this.updateClassBuffs(null);
+        }
+        if(!section || section === 'companionBuffs')
+        {
+            this.clearSection(this.cobSub);
+            this.updateCompanionBuffs(null);
+        }
+    };
+    Settings.prototype.clearSection = function(checkboxes)
+    {
+        //does NOT recalculate anything based on these changes.  If recalc is needed, trigger manually after calling.
+        for(let i in checkboxes)
+        {
+            if(checkboxes.hasOwnProperty(i))
+            {
+                checkboxes[i].checked = false;
+            }
+        }
     };
     return new Settings();
 })();
