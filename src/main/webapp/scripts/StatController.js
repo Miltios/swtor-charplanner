@@ -595,7 +595,6 @@ let StatController = (function()
         StatManager.setStat('alacrityperc', alacPerc);
         this.calcElAlacrity.innerHTML = '<span class="alacrity-tier-' + tier + '">' + alacPerc.toFixed(2) + '%'
             + '</span><span class="clickable-help-icon" onclick="HelpController.display(\'alacTiers\')">[?]</span>';
-        //this.calcElAlacrity.className = 'calc-stat-value alacrity-tier-' + tier;
     };
     StatController.prototype.updateCalcHealth = function()
     {
