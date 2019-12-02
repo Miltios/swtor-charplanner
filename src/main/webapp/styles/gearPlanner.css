@@ -25,6 +25,10 @@ body.faction-mode-pub .faction-imp
 {
     z-index:1;
 }
+.footnote
+{
+    font-size:0.9em;
+}
 #factionToggleWrapper
 {
     width:100%;
@@ -539,6 +543,13 @@ body.faction-mode-pub .faction-imp
 .alacrity-tier-3:after
 {
     content:" (tier 3)";
+}
+.clickable-help-icon
+{
+    font-size:0.7em;
+    vertical-align:top;
+    color:#96D6F1;
+    cursor:pointer;
 }
 #augPicker
 {
