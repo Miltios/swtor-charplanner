@@ -4,7 +4,7 @@
 <head>
     <title>SWTOR Charplanner</title>
     <link rel="stylesheet" type="text/css" href="styles/global.css?dc=20191019a">
-    <link rel="stylesheet" type="text/css" href="styles/gearPlanner.css?dc=20191119">
+    <link rel="stylesheet" type="text/css" href="styles/gearPlanner.css?dc=20191202">
     <link rel="icon" href="favicon.ico?">
     <script language="javascript" src="scripts/lib/lz-string/lz-string.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -492,9 +492,9 @@
                         <label class="label-single-line faction-pub" for="classBuffsCheckboxDmg">Force Might (Jedi Knight)</label>
                     </div>
                     <div class="setting">
-                        <input type="checkbox" checked id="classBuffsCheckboxCrit" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
-                        <label class="label-single-line faction-imp" for="classBuffsCheckboxCrit">Coordination (Imperial Agent)</label>
-                        <label class="label-single-line faction-pub" for="classBuffsCheckboxCrit">Lucky Shots (Smuggler)</label>
+                        <input type="checkbox" checked id="classBuffsCheckboxCritChance" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
+                        <label class="label-single-line faction-imp" for="classBuffsCheckboxCritChance">Coordination (Imperial Agent)</label>
+                        <label class="label-single-line faction-pub" for="classBuffsCheckboxCritChance">Lucky Shots (Smuggler)</label>
                     </div>
                     <div class="setting">
                         <input type="checkbox" checked id="classBuffsCheckboxEndurance" class="class-buffs-checkbox" onchange="Settings.updateClassBuffs(this)">
