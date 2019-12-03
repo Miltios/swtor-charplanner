@@ -92,7 +92,7 @@ let HelpController = (function()
             return;
         }
         let me = this;
-        el.addEventListener('mouseenter', function(event)
+        el.addEventListener('mouseover', function(event)
         {
             me.display(msgType, true);
         });
